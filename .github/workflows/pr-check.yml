@@ -1,0 +1,26 @@
+name: Check community submissions
+on:
+  pull_request:
+    paths:
+      - 'data/plugins/**'
+      - 'data/categories.yml'
+      - 'scripts/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/pr-check.yml'
+permissions:
+  contents: read
+jobs:
+  check:
+    if: github.repository == 'SolvingLab/OmniMind-Plugins'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

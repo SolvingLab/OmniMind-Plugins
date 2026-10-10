@@ -1,0 +1,3523 @@
+{
+  "name": "omnimind-ext-community",
+  "description": "OmniMind 公开插件目录：community",
+  "plugins": [
+    {
+      "name": "agentrq",
+      "source": {
+        "source": "github",
+        "repo": "agentrq/agentrq",
+        "path": "plugins/claude/agentrq",
+        "sha": "2337c147195763bd336ac447778d7ee1bfd5b177"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Human-in-the-loop task supervisor for AI agents",
+      "version": "1.0.5",
+      "homepage": "https://github.com/agentrq/agentrq",
+      "author": {
+        "name": "Mustafa Turan",
+        "url": "https://github.com/mustafaturan"
+      },
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/claude/agentrq/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/agentrq.png"
+    },
+    {
+      "name": "agentrq-workspace",
+      "source": {
+        "source": "github",
+        "repo": "agentrq/agentrq",
+        "path": "plugins/claude/agentrq-workspace",
+        "sha": "2337c147195763bd336ac447778d7ee1bfd5b177"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Workspace agent that executes tasks assigned by humans or supervisors, communicates progress via reply, and manages task lifecycle within a specific AgentRQ workspace",
+      "version": "1.0.8",
+      "homepage": "https://github.com/agentrq/agentrq",
+      "author": {
+        "name": "Mustafa Turan",
+        "url": "https://github.com/mustafaturan"
+      },
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/claude/agentrq-workspace/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/agentrq.png"
+    },
+    {
+      "name": "agy",
+      "source": {
+        "source": "github",
+        "repo": "keli-wen/agy-staff",
+        "path": "",
+        "sha": "65a1ab49958e4b52fba004b7350590279b2dee1c"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Delegate work to Google's Antigravity CLI (agy) with fast Gemini access - five personas: staffer (general), researcher, reviewer (code and plans), implementer, ask.",
+      "version": "0.7.4",
+      "homepage": "https://github.com/keli-wen/agy-staff",
+      "author": {
+        "name": "Keli Wen",
+        "url": "https://github.com/keli-wen"
+      },
+      "tags": [
+        "antigravity",
+        "gemini",
+        "delegation",
+        "review",
+        "research"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/keli-wen.png"
+    },
+    {
+      "name": "ai-business-skills",
+      "source": {
+        "source": "github",
+        "repo": "minhnv0807/ai-business-skills",
+        "path": "",
+        "sha": "0360adced422a08f70c3eff8905b81962872105d"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "144 bilingual marketing skills (75 VN + 69 Global) for AI agents — strategy, content, performance, design production, leader ops, personal brand, and an AI Marketing OS. Vietnam 2025-2026 benchmarks plus US/EU/SEA/LATAM.",
+      "version": "3.7.0",
+      "homepage": "https://github.com/minhnv0807/ai-business-skills",
+      "author": {
+        "name": "Over Powers Agency",
+        "url": "https://opa.business"
+      },
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/minhnv0807.png"
+    },
+    {
+      "name": "ai-doc-gen",
+      "source": {
+        "source": "github",
+        "repo": "divar-ir/ai-doc-gen",
+        "path": "",
+        "sha": "bd3aba71a0c57aa43aef4020917989efc4507db3"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Multi-agent codebase analysis and documentation generation: parallel analyzers for structure, dependencies, data flow, request flow, and APIs, plus README and AI-rules (CLAUDE.md, AGENTS.md, Cursor rules) generators.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/divar-ir/ai-doc-gen",
+      "author": {
+        "name": "Divar",
+        "url": "https://github.com/divar-ir"
+      },
+      "tags": [
+        "documentation",
+        "readme",
+        "analysis",
+        "claude-md",
+        "agents-md",
+        "cursor-rules"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/divar-ir.png"
+    },
+    {
+      "name": "attention-span",
+      "source": {
+        "source": "github",
+        "repo": "alexgreensh/attention-span",
+        "path": "",
+        "sha": "2714c965e6be1fa2597510e66651e63bc67cb448"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Output styles that make Claude answer-first, plain, and easy to skim, plus a /tldr transform. Attention-kind, Spartan, and Rundown ship as both output styles and user-invoked skills.",
+      "version": "0.8.0",
+      "homepage": "https://github.com/alexgreensh/attention-span",
+      "author": {
+        "name": "Alex Greenshpun",
+        "url": "https://linkedin.com/in/alexgreensh"
+      },
+      "tags": [
+        "output-style",
+        "adhd",
+        "brevity",
+        "readability",
+        "tldr",
+        "skills"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/alexgreensh.png"
+    },
+    {
+      "name": "autoharness",
+      "source": {
+        "source": "github",
+        "repo": "tigerless-labs/autoharness",
+        "path": "",
+        "sha": "9eec6232587ff2c4deeded00ac467de19532d763"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Per-symbol maintenance optimizer for an agent's skill layer — learns skills from real runs and keeps them by adherence in use, not by an offline eval score.",
+      "version": "0.5.3",
+      "homepage": "https://github.com/tigerless-labs/autoharness",
+      "author": {
+        "name": "Tigerless Labs"
+      },
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/tigerless-labs.png"
+    },
+    {
+      "name": "bitwize-music",
+      "source": {
+        "source": "github",
+        "repo": "bitwize-music-studio/claude-ai-music-skills",
+        "path": "",
+        "sha": "58f32c25b9fb2dfe569478459b0a591e0dff22e8"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "AI music generation workflow for Suno - album concepts, lyrics, prompts, mastering, release",
+      "version": "0.102.0",
+      "homepage": "https://github.com/bitwize-music-studio/claude-ai-music-skills#readme",
+      "author": {
+        "name": "bitwize-music"
+      },
+      "tags": [
+        "music",
+        "suno",
+        "lyrics",
+        "album",
+        "mastering",
+        "ai-music",
+        "claude-code",
+        "music-production",
+        "songwriting",
+        "audio-mastering",
+        "music-generation",
+        "suno-ai",
+        "lyric-writing",
+        "album-release",
+        "music-workflow",
+        "promo-videos",
+        "social-media",
+        "video-generation"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/bitwize-music-studio.png"
+    },
+    {
+      "name": "breakpoints-adapter",
+      "source": {
+        "source": "github",
+        "repo": "a5c-ai/babysitter",
+        "path": "packages/adapters/tasks",
+        "sha": "feb68abe397acc14f32b34984975c48fedba2b33"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Route questions to domain experts instead of asking the current user",
+      "version": "5.0.0",
+      "homepage": "https://github.com/a5c-ai/babysitter",
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "packages/adapters/tasks/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/a5c-ai.png"
+    },
+    {
+      "name": "brooks-lint",
+      "source": {
+        "source": "github",
+        "repo": "hyhmrright/brooks-lint",
+        "path": "",
+        "sha": "b6ef8a19df6e07bba919fbf6aecbec122096d7df"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "AI code reviews grounded in twelve classic engineering books — decay risk diagnostics with book citations, severity labels, and six analysis modes (PR review, architecture audit, tech debt, test quality, health dashboard, full-sweep auto-fix)",
+      "version": "1.7.0",
+      "homepage": "https://github.com/hyhmrright/brooks-lint",
+      "author": {
+        "name": "hyhmrright"
+      },
+      "tags": [
+        "code-quality",
+        "code-review",
+        "brooks-law",
+        "mythical-man-month",
+        "architecture",
+        "tech-debt",
+        "test-quality"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/hyhmrright.png"
+    },
+    {
+      "name": "canvas-apps",
+      "source": {
+        "source": "github",
+        "repo": "microsoft/power-platform-skills",
+        "path": "plugins/canvas-apps",
+        "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Build Power Apps Canvas Apps using the Canvas Authoring MCP server.",
+      "version": "3.1.0",
+      "homepage": "https://github.com/microsoft/power-platform-skills/",
+      "author": {
+        "name": "Microsoft",
+        "url": "https://www.microsoft.com"
+      },
+      "tags": [
+        "canvas-apps",
+        "power-apps",
+        "canvas",
+        "pa-yaml",
+        "msapp"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/canvas-apps/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/microsoft.png"
+    },
+    {
+      "name": "capcut-cli",
+      "source": {
+        "source": "github",
+        "repo": "renezander030/capcut-cli",
+        "path": "",
+        "sha": "648f4698fa213d2577fdb50f5f220e6cf2edfdfa"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Edit CapCut and JianYing (剪映) projects from Claude Code — subtitles and SRT/ASS import, timing, speed, volume, keyframes, masks, filters and effects, templates, lint --fix, render previews, and cutting long-form to shorts.",
+      "version": "0.2.0",
+      "homepage": "https://github.com/renezander030/capcut-cli",
+      "author": {
+        "name": "René Zander",
+        "url": "https://github.com/renezander030"
+      },
+      "tags": [
+        "capcut",
+        "jianying",
+        "video-editing",
+        "subtitles",
+        "srt",
+        "timeline",
+        "templates",
+        "shorts",
+        "automation",
+        "剪映",
+        "agent-skill",
+        "claude-code-plugin"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/renezander030.png"
+    },
+    {
+      "name": "catchup",
+      "source": {
+        "source": "github",
+        "repo": "oliver-kriska/claude-elixir-phoenix",
+        "path": "plugins/catchup",
+        "sha": "9767a82d24ddddad553e85f88efc2869a7fd7d88"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Async-team return-from-absence briefing. /catchup fans out to GitHub, git, Linear, and calendar, then emits one prioritized Context Brief instead of a firehose.",
+      "version": "0.1.0",
+      "displayName": "Catchup",
+      "homepage": "https://github.com/oliver-kriska/claude-elixir-phoenix",
+      "author": {
+        "name": "Oliver Kriska"
+      },
+      "tags": [
+        "productivity",
+        "briefing",
+        "async-team",
+        "github",
+        "linear",
+        "catchup"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/catchup/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/oliver-kriska.png"
+    },
+    {
+      "name": "cc-safety-net",
+      "source": {
+        "source": "github",
+        "repo": "kenryu42/cc-safety-net",
+        "path": "",
+        "sha": "f9f2e5a84ab60e81dc1a4ec12562e23c5f7760e0"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Block destructive commands and secret access",
+      "version": "2.6.7",
+      "displayName": "CC Safety Net",
+      "homepage": "https://github.com/kenryu42/cc-safety-net",
+      "author": {
+        "name": "J Liew"
+      },
+      "tags": [
+        "security",
+        "safety",
+        "guardrails",
+        "destructive-commands",
+        "secret-protection",
+        "git",
+        "rm-rf",
+        "env-files",
+        "ssh-keys",
+        "pretooluse"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/kenryu42.png"
+    },
+    {
+      "name": "chisle",
+      "source": {
+        "source": "github",
+        "repo": "JayPokale/Chisle",
+        "path": "",
+        "sha": "52c954b909706e5d1ae5689530e1c4eb7047b9f5"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Maximum-efficiency dev mode. Zero-fluff prose combined with YAGNI/ladder-first code decisions. One persona: the senior dev who deletes code for fun and bills by the syllable.",
+      "version": "3.7.0",
+      "homepage": "https://github.com/JayPokale/Chisle",
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/JayPokale.png"
+    },
+    {
+      "name": "citadel",
+      "source": {
+        "source": "github",
+        "repo": "SethGammon/Citadel",
+        "path": "",
+        "sha": "2681b899dda13a49547536aaebbb5567ba2a86a7"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Claude Code harness for routing requests, preserving run state, enforcing hooks, and recording evidence",
+      "version": "1.4.3",
+      "homepage": "https://github.com/SethGammon/Citadel",
+      "author": {
+        "name": "SethGammon"
+      },
+      "tags": [
+        "intent-routing",
+        "durable-state",
+        "evidence",
+        "hooks",
+        "skills",
+        "claude-code"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/SethGammon.png"
+    },
+    {
+      "name": "claude-blog",
+      "source": {
+        "source": "github",
+        "repo": "AgriciDaniel/claude-blog",
+        "path": "",
+        "sha": "2500d4c765034864cede2bf215d00ccd4d7d6fb8"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "AI-powered blog skill suite: 32 skill directories (1 orchestrator + 31 sub-skills) and 5 agents for writing, rewriting, auditing, and optimizing content for Google rankings and AI citations (GEO/AEO). Includes the FLOW framework, semantic topic-cluster planning, multilingual publishing, Google API integration, persona writing, fact-checking, cannibalization detection, CMS taxonomy, NotebookLM research, Gemini TTS narration, image generation, and 5-category quality scoring.",
+      "version": "2.2.0",
+      "homepage": "https://github.com/AgriciDaniel/claude-blog",
+      "author": {
+        "name": "AgriciDaniel",
+        "url": "https://github.com/AgriciDaniel"
+      },
+      "tags": [
+        "blog",
+        "seo",
+        "content",
+        "writing",
+        "ai-citations",
+        "geo",
+        "aeo",
+        "eeat",
+        "google-rankings",
+        "content-optimization",
+        "blog-writing",
+        "markdown",
+        "mdx",
+        "wordpress",
+        "google-api",
+        "youtube",
+        "pagespeed",
+        "search-console",
+        "flow-framework",
+        "topic-clusters",
+        "hub-and-spoke",
+        "multilingual",
+        "translation",
+        "localization",
+        "hreflang",
+        "i18n",
+        "discourse-research",
+        "voice-of-customer",
+        "social-listening",
+        "research-quality",
+        "synthesis-contract",
+        "ai-slop-detection",
+        "editorial-heuristics",
+        "cognitive-load",
+        "brand-context"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/AgriciDaniel.png"
+    },
+    {
+      "name": "claude-blog-brain",
+      "source": {
+        "source": "github",
+        "repo": "AgriciDaniel/claude-blog",
+        "path": "brain",
+        "sha": "2500d4c765034864cede2bf215d00ccd4d7d6fb8"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Claude Blog Brain Obsidian brain for blog content creation, optimization, and management dual-optimized for Google rankings (E-E-A-T, the 2026 core updates) and AI citations (GEO/AEO), spanning writing, rewriting and freshness, SERP-informed briefs and outlines, editorial calendars and strategy, semantic topic clusters, schema and internal linking, multilingual publishing, the FLOW framework, factchecking, personas, distribution, and the blog delivery contract, grounded in the claude-blog skill.",
+      "version": "0.2.0",
+      "homepage": "https://github.com/AgriciDaniel/claude-blog-brain",
+      "author": {
+        "name": "Daniel Agrici",
+        "url": "https://github.com/AgriciDaniel"
+      },
+      "tags": [
+        "claude-blog-brain",
+        "obsidian",
+        "brain",
+        "claude-blog"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "brain/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/AgriciDaniel.png"
+    },
+    {
+      "name": "claude-code-zh-cn",
+      "source": {
+        "source": "github",
+        "repo": "taekchef/claude-code-zh-cn",
+        "path": "plugin",
+        "sha": "43d6805d2d0eeaa8dab984401ac24f61b9f1f08c"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "为 Claude Code 提供简体中文界面、本地化提示和安全的渐进式 CLI patch",
+      "version": "2.23.0",
+      "displayName": "Claude Code 中文本地化",
+      "homepage": "https://github.com/taekchef/claude-code-zh-cn",
+      "author": {
+        "name": "taekchef"
+      },
+      "tags": [
+        "localization",
+        "chinese",
+        "claude-code"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugin/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/taekchef.png"
+    },
+    {
+      "name": "claude-council",
+      "source": {
+        "source": "github",
+        "repo": "hex/claude-council",
+        "path": "",
+        "sha": "9edae1826695c8c07a38a9cb9d3f2111415018e6"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Consult multiple AI coding agents (Gemini, OpenAI, Grok, Perplexity, Kimi, any model OpenRouter routes to, plus codex, antigravity, grok, kimi and cursor CLIs when installed, and a local ollama model) to get diverse perspectives on coding problems, with a streaming pane in tmux or inside Claude Code. It can also hand a coding task to a Codex specialist that works on its own git branch and follows skills you pick (experimental).",
+      "version": "2026.10.4",
+      "homepage": "https://github.com/hex/claude-council",
+      "author": {
+        "name": "hex",
+        "url": "https://github.com/hex"
+      },
+      "tags": [
+        "multi-agent",
+        "council",
+        "second-opinion",
+        "code-review",
+        "consensus",
+        "perspectives",
+        "gemini",
+        "openai",
+        "grok",
+        "perplexity",
+        "kimi",
+        "openrouter",
+        "codex",
+        "antigravity",
+        "ollama",
+        "cli",
+        "pane",
+        "tmux",
+        "mod",
+        "specialists"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://raw.githubusercontent.com/hex/claude-council/9edae1826695c8c07a38a9cb9d3f2111415018e6/assets/icon.png"
+    },
+    {
+      "name": "claude-mem",
+      "source": {
+        "source": "github",
+        "repo": "thedotmack/claude-mem",
+        "path": "",
+        "sha": "fa8ab09f06aa05f958c5225cf3756ce52a3ebb96"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Memory compression system for Claude Code - persist context across sessions",
+      "version": "13.35.0",
+      "homepage": "https://github.com/thedotmack/claude-mem#readme",
+      "author": {
+        "name": "Alex Newman"
+      },
+      "tags": [
+        "claude",
+        "claude-code",
+        "claude-agent-sdk",
+        "mcp",
+        "plugin",
+        "memory",
+        "compression",
+        "knowledge-graph",
+        "transcript",
+        "typescript",
+        "nodejs"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/thedotmack.png"
+    },
+    {
+      "name": "claude-mem-cowork",
+      "source": {
+        "source": "github",
+        "repo": "thedotmack/claude-mem",
+        "path": "cowork",
+        "sha": "fa8ab09f06aa05f958c5225cf3756ce52a3ebb96"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Claude-Mem for Cowork: captures tool use via hooks, streams fragments to cmem.ai (Pro runs the observer), and injects observations back into new sessions and spawned agents.",
+      "version": "0.1.3",
+      "homepage": "https://cmem.ai",
+      "author": {
+        "name": "CMEM, Inc."
+      },
+      "tags": [
+        "memory",
+        "claude-mem",
+        "cmem",
+        "observations",
+        "cowork"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "cowork/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/thedotmack.png"
+    },
+    {
+      "name": "claude-obsidian",
+      "source": {
+        "source": "github",
+        "repo": "AgriciDaniel/claude-obsidian",
+        "path": "",
+        "sha": "32ac5a02c4e082e4a5628ca810776375e134708e"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Local-first Agent Skills package and Claude Code plugin for source-cited Obsidian knowledge bases. Provides explicit vault initialization and adoption, recoverable operation transactions, deterministic lint and retrieval, provenance ledgers, offline-first capture foundations, and optional methodology modes. User vaults stay outside the plugin cache; network and destructive actions require explicit consent.",
+      "version": "2.2.0",
+      "homepage": "https://github.com/AgriciDaniel/claude-obsidian",
+      "author": {
+        "name": "AgriciDaniel",
+        "url": "https://github.com/AgriciDaniel"
+      },
+      "tags": [
+        "obsidian",
+        "knowledge-base",
+        "wiki",
+        "memory",
+        "notetaker",
+        "second-brain",
+        "vault",
+        "markdown",
+        "cross-project",
+        "llm-wiki",
+        "karpathy",
+        "pkm",
+        "canvas",
+        "visual"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/AgriciDaniel.png"
+    },
+    {
+      "name": "claude-smart",
+      "source": {
+        "source": "github",
+        "repo": "ReflexioAI/claude-smart",
+        "path": "plugin",
+        "sha": "47b490077d2f55f09b5971eb7c5ff3b9493f00ef"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Self-improving Claude Code, Codex, and OpenCode plugin that turns corrections into Preferences, Project-specific skills, and Shared skills",
+      "version": "0.3.5",
+      "homepage": "https://github.com/ReflexioAI/claude-smart",
+      "author": {
+        "name": "Yi Lu"
+      },
+      "tags": [
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "codex",
+        "codex-plugin",
+        "opencode",
+        "opencode-plugin",
+        "memory",
+        "agent-memory",
+        "plugin",
+        "reflexio",
+        "self-improvement",
+        "self-improving-agents",
+        "skills",
+        "learning"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugin/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/ReflexioAI.png"
+    },
+    {
+      "name": "claude-video-vision",
+      "source": {
+        "source": "github",
+        "repo": "jordanrendric/claude-video-vision",
+        "path": "",
+        "sha": "4a4f99016f249a24018cd19b66531ebbcd58024b"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Give Claude the ability to watch and understand videos — extracts frames and audio for full video perception",
+      "version": "1.4.0",
+      "homepage": "https://github.com/jordanrendric/claude-video-vision",
+      "author": {
+        "name": "Jordan Vasconcelos",
+        "url": "https://github.com/jordanrendric"
+      },
+      "tags": [
+        "video",
+        "vision",
+        "multimodal",
+        "ffmpeg",
+        "whisper",
+        "gemini",
+        "perception"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/jordanrendric.png"
+    },
+    {
+      "name": "code-apps-preview",
+      "source": {
+        "source": "github",
+        "repo": "microsoft/power-platform-skills",
+        "path": "plugins/code-apps",
+        "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Build and deploy Power Apps code apps using React, Vite, and Power Platform connectors.",
+      "version": "1.1.0",
+      "homepage": "https://github.com/microsoft/power-platform-skills/",
+      "author": {
+        "name": "Microsoft",
+        "url": "https://www.microsoft.com"
+      },
+      "tags": [
+        "power-apps",
+        "code-apps",
+        "react",
+        "vite",
+        "dataverse",
+        "connectors",
+        "pac-cli",
+        "power-platform"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/code-apps/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/microsoft.png"
+    },
+    {
+      "name": "code-craftsmanship",
+      "source": {
+        "source": "github",
+        "repo": "wondelai/skills",
+        "path": "plugins/code-craftsmanship",
+        "sha": "c172996495bed0fcd26896a9416b2093fd7073f0"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Code quality and software design skills including Clean Code (Robert C. Martin), Refactoring patterns (Martin Fowler), A Philosophy of Software Design (John Ousterhout), The Pragmatic Programmer (Hunt & Thomas), Domain-Driven Design (Eric Evans), Working Effectively with Legacy Code (Michael Feathers), and Google's Developer Documentation Style Guide (technical-documentation)",
+      "version": "1.8.0",
+      "homepage": "https://github.com/wondelai/skills",
+      "tags": [
+        "clean-code",
+        "refactoring",
+        "code-quality",
+        "software-design",
+        "ddd",
+        "domain-driven-design",
+        "pragmatic",
+        "legacy-code",
+        "characterization-tests",
+        "seams",
+        "code-review",
+        "code-smells",
+        "technical-debt",
+        "over-engineered",
+        "untested-code",
+        "documentation",
+        "technical-writing",
+        "style-guide",
+        "readme",
+        "api-reference",
+        "release-notes"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/code-craftsmanship/.codex-plugin/plugin.json"
+      },
+      "icon": "https://github.com/wondelai.png"
+    },
+    {
+      "name": "codeman",
+      "source": {
+        "source": "github",
+        "repo": "Ark0N/Codeman",
+        "path": "plugins/codeman",
+        "sha": "6234aae919163907f2af07eda647dd594de3342b"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Drive Codeman, the self-hosted session manager for AI coding agents, from inside a Claude Code session: spawn worker sessions, prompt them, wait for them, read their answers, clean up. Acts only inside a Codeman-managed session.",
+      "version": "1.41.0",
+      "homepage": "https://getcodeman.com",
+      "author": {
+        "name": "Ark0N",
+        "url": "https://github.com/Ark0N"
+      },
+      "tags": [
+        "codeman",
+        "orchestration",
+        "multi-agent",
+        "session-manager",
+        "tmux",
+        "claude-code",
+        "codex",
+        "deepseek"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/codeman/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/Ark0N.png"
+    },
+    {
+      "name": "codex-slides",
+      "source": {
+        "source": "github",
+        "repo": "nexu-io/codex-slides",
+        "path": "",
+        "sha": "dbc2a5992e937760e9ce8e587e11729f970881cb"
+      },
+      "category": "办公文档",
+      "strict": true,
+      "description": "Run a guided, Browser-first slide workflow in Codex, with durable projects, reusable project templates, Design Files, brand systems, desktop apps, editing, and export.",
+      "version": "0.1.0+codex.20260713",
+      "displayName": "Codex Slides",
+      "homepage": "https://github.com/nexu-io/codex-slides",
+      "author": {
+        "name": "Codex Slides"
+      },
+      "tags": [
+        "presentations",
+        "slides",
+        "image-generation",
+        "research",
+        "browser",
+        "scenarios",
+        "design-files",
+        "brand-system"
+      ],
+      "examplePrompts": [
+        "Open Codex Slides in the Codex Browser and keep it visible while we create a project step by step.",
+        "Open the Codex Slides home screen, start a project from my request, and let me review the questions, outline, and style before rendering.",
+        "Show me the scenario catalog in the Browser and create the project through the live UI using my source files.",
+        "Open this deck's Design Files or brand design system and update it in the live workspace.",
+        "Edit my latest deck and verify the result in the Browser."
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".codex-plugin/plugin.json"
+      },
+      "icon": "https://raw.githubusercontent.com/nexu-io/codex-slides/dbc2a5992e937760e9ce8e587e11729f970881cb/.codex-plugin/assets/codex-slides-logo.png"
+    },
+    {
+      "name": "comfy",
+      "source": {
+        "source": "github",
+        "repo": "artokun/comfyui-mcp",
+        "path": "plugin",
+        "sha": "6ad6fc0296398c41feff068369a421b94cbb285d"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Claude Code plugin for ComfyUI — generate images, visualize workflows, manage models, and explore custom nodes",
+      "version": "0.1.0",
+      "homepage": "https://github.com/artokun/comfyui-mcp",
+      "author": {
+        "name": "artokun"
+      },
+      "tags": [
+        "comfyui",
+        "stable-diffusion",
+        "image-generation",
+        "mcp"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugin/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/artokun.png"
+    },
+    {
+      "name": "corporate-strategy",
+      "source": {
+        "source": "github",
+        "repo": "cbrock84/headcount",
+        "path": "plugins/corporate-strategy",
+        "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Portfolio strategy, corporate development, strategic alliances, and scenario planning.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/cbrock84/headcount",
+      "author": {
+        "name": "Chris Brock"
+      },
+      "tags": [
+        "strategy",
+        "corp-dev",
+        "m-and-a",
+        "partnerships",
+        "scenario-planning"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/corporate-strategy/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/cbrock84.png"
+    },
+    {
+      "name": "customer-experience",
+      "source": {
+        "source": "github",
+        "repo": "cbrock84/headcount",
+        "path": "plugins/customer-experience",
+        "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Support operations, escalation management, voice of customer, and self-service. Owns what the customer experiences after the sale.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/cbrock84/headcount",
+      "author": {
+        "name": "Chris Brock"
+      },
+      "tags": [
+        "support",
+        "customer-success",
+        "escalation",
+        "voice-of-customer",
+        "service"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/customer-experience/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/cbrock84.png"
+    },
+    {
+      "name": "data-analytics",
+      "source": {
+        "source": "github",
+        "repo": "cbrock84/headcount",
+        "path": "plugins/data-analytics",
+        "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Data governance, warehouse and semantic modeling, business intelligence, and AI/ML governance.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/cbrock84/headcount",
+      "author": {
+        "name": "Chris Brock"
+      },
+      "tags": [
+        "data",
+        "analytics",
+        "governance",
+        "warehouse",
+        "business-intelligence",
+        "ai-governance"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/data-analytics/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/cbrock84.png"
+    },
+    {
+      "name": "demand-generation",
+      "source": {
+        "source": "github",
+        "repo": "cbrock84/headcount",
+        "path": "plugins/demand-generation",
+        "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Organic and paid acquisition, conversion, measurement, experimentation, lifecycle messaging, and distribution.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/cbrock84/headcount",
+      "author": {
+        "name": "Chris Brock"
+      },
+      "tags": [
+        "seo",
+        "paid-ads",
+        "cro",
+        "analytics",
+        "lifecycle",
+        "growth"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/demand-generation/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/cbrock84.png"
+    },
+    {
+      "name": "designlang",
+      "source": {
+        "source": "github",
+        "repo": "Manavarya09/design-extract",
+        "path": "",
+        "sha": "23b6c1b801b1f7ba13da7f6606632f1e3e8387ac"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Extract any website's design language and ship it. Fourteen slash commands — /extract, /site, /grade, /battle, /remix, /pack, /theme-swap, /brand, /pair, /studio, /verify, /fidelity, /gallery, /dna — wrap the designlang CLI to pull DTCG tokens, Tailwind/shadcn/Figma vars, motion + voice, synthesize a whole-site canonical design system with a consistency grade, generate shareable graded report cards, head-to-head battle pages, six-vocabulary remixes, downloadable design-system bundles, OKLCH-correct theme recolouring, full editorial brand-guidelines books, design crossovers between two sites, a live token-editor studio, a rebuild-and-pixel-diff fidelity check, a measured clone-vs-original fidelity score (visual + motion) with a ranked correction plan via /fidelity, a shareable static gallery of scored clones via /gallery, and — via /dna — a measured design space that places any site among real design systems by nearest neighbours, per-axis percentiles, and the features that make it look the way it does.",
+      "version": "13.3.2",
+      "homepage": "https://designlang.app",
+      "author": {
+        "name": "Manavarya Singh",
+        "url": "https://github.com/Manavarya09"
+      },
+      "tags": [
+        "design-system",
+        "design-tokens",
+        "design-language",
+        "dtcg",
+        "tailwind",
+        "shadcn",
+        "figma-variables",
+        "css",
+        "playwright",
+        "extraction",
+        "colors",
+        "typography",
+        "motion",
+        "grade",
+        "battle",
+        "remix",
+        "pack",
+        "site",
+        "studio",
+        "verify",
+        "claude-plugin",
+        "mcp"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/Manavarya09.png"
+    },
+    {
+      "name": "desktop-act",
+      "source": {
+        "source": "github",
+        "repo": "Lifecycle-Innovations-Limited/claude-ops",
+        "path": "desktop-act",
+        "sha": "ee9c784844943600f7997d7556f785d3cda6ae33"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Computer-use primitives + multi-desktop pool + autonomous act() loop. Screenshot, click, type, keypress, scroll, launch_app over platform backends (X11/Xvnc, macOS, Windows). Auth via claude-agent-sdk OAuth — no API key required.",
+      "version": "0.2.0",
+      "homepage": "https://github.com/Lifecycle-Innovations-Limited/desktop-act",
+      "author": {
+        "name": "Lifecycle Innovations Limited",
+        "url": "https://github.com/Lifecycle-Innovations-Limited"
+      },
+      "tags": [
+        "computer-use",
+        "desktop",
+        "automation",
+        "mcp",
+        "fastmcp",
+        "x11",
+        "vnc",
+        "screenshot"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "desktop-act/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/Lifecycle-Innovations-Limited.png"
+    },
+    {
+      "name": "dev-skills",
+      "source": {
+        "source": "github",
+        "repo": "shinpr/claude-code-workflows",
+        "path": "dev-skills",
+        "sha": "a4ecd62b6f8a8e736a9b4b56c5cdd449c92efe95"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Lightweight skills for users with existing workflows - coding best practices, testing principles, and design guidelines without recipe workflows or agents",
+      "version": "0.28.0",
+      "homepage": "https://github.com/shinpr/claude-code-workflows",
+      "author": {
+        "name": "Shinsuke Kagawa",
+        "url": "https://github.com/shinpr"
+      },
+      "tags": [
+        "skills",
+        "best-practices",
+        "coding-standards",
+        "testing",
+        "tdd",
+        "design-docs",
+        "development",
+        "quality"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "dev-skills/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/shinpr.png"
+    },
+    {
+      "name": "dev-workflows",
+      "source": {
+        "source": "github",
+        "repo": "shinpr/claude-code-workflows",
+        "path": "dev-workflows",
+        "sha": "a4ecd62b6f8a8e736a9b4b56c5cdd449c92efe95"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Skills + Subagents for backend development - Use skills for coding guidance, or run recipe workflows for full orchestrated agentic coding with specialized agents",
+      "version": "0.28.0",
+      "homepage": "https://github.com/shinpr/claude-code-workflows",
+      "author": {
+        "name": "Shinsuke Kagawa",
+        "url": "https://github.com/shinpr"
+      },
+      "tags": [
+        "workflows",
+        "best-practices",
+        "sub-agents",
+        "quality",
+        "development",
+        "coding-standards",
+        "testing",
+        "architecture",
+        "backend"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "dev-workflows/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/shinpr.png"
+    },
+    {
+      "name": "dev-workflows-frontend",
+      "source": {
+        "source": "github",
+        "repo": "shinpr/claude-code-workflows",
+        "path": "dev-workflows-frontend",
+        "sha": "a4ecd62b6f8a8e736a9b4b56c5cdd449c92efe95"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Skills + Subagents for React/TypeScript - Use skills for coding guidance, or run recipe workflows for full orchestrated agentic coding with specialized agents",
+      "version": "0.28.0",
+      "homepage": "https://github.com/shinpr/claude-code-workflows",
+      "author": {
+        "name": "Shinsuke Kagawa",
+        "url": "https://github.com/shinpr"
+      },
+      "tags": [
+        "react",
+        "frontend",
+        "workflows",
+        "typescript",
+        "testing",
+        "quality",
+        "sub-agents",
+        "tdd",
+        "react-testing-library",
+        "best-practices"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "dev-workflows-frontend/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/shinpr.png"
+    },
+    {
+      "name": "dev-workflows-fullstack",
+      "source": {
+        "source": "github",
+        "repo": "shinpr/claude-code-workflows",
+        "path": "dev-workflows-fullstack",
+        "sha": "a4ecd62b6f8a8e736a9b4b56c5cdd449c92efe95"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Skills + Subagents for fullstack development (backend + React/TypeScript) - Use skills for coding guidance, or run recipe workflows for full orchestrated agentic coding with specialized agents",
+      "version": "0.28.0",
+      "homepage": "https://github.com/shinpr/claude-code-workflows",
+      "author": {
+        "name": "Shinsuke Kagawa",
+        "url": "https://github.com/shinpr"
+      },
+      "tags": [
+        "fullstack",
+        "full-stack",
+        "workflows",
+        "best-practices",
+        "sub-agents",
+        "quality",
+        "development",
+        "coding-standards",
+        "testing",
+        "react",
+        "typescript",
+        "frontend",
+        "backend"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "dev-workflows-fullstack/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/shinpr.png"
+    },
+    {
+      "name": "digital-marketing-pro",
+      "source": {
+        "source": "github",
+        "repo": "indranilbanerjee/digital-marketing-pro",
+        "path": "",
+        "sha": "9e949f3d15042255dfe3521cb9df78e763f8e01e"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Open-source AI marketing plugin for agencies & in-house teams — 164 skills, 24 agents, 12-Part Strategy Flow, Cowork team-persistent, EU AI Act Article 50 ready. Runs on Claude Code, Codex, Cursor, Copilot CLI, Antigravity, Hermes Agent, OpenClaw, Grok + 35+ more Agent Skills platforms.",
+      "version": "3.35.2",
+      "displayName": "Digital Marketing Pro",
+      "homepage": "https://github.com/indranilbanerjee/digital-marketing-pro",
+      "author": {
+        "name": "Indranil Banerjee",
+        "url": "https://github.com/indranilbanerjee"
+      },
+      "tags": [
+        "digital-marketing",
+        "marketing-strategy",
+        "marketing-automation",
+        "marketing-plugin",
+        "ai-marketing",
+        "engagement-methodology",
+        "12-part-flow",
+        "four-core-documents",
+        "two-views-model",
+        "growth-plan",
+        "yearly-planner",
+        "seo",
+        "aeo",
+        "geo",
+        "ai-mode",
+        "ai-overviews",
+        "generative-engine-optimization",
+        "answer-engine-optimization",
+        "google-ai-mode",
+        "ppc",
+        "google-ads",
+        "meta-ads",
+        "linkedin-ads",
+        "tiktok-ads",
+        "performance-max",
+        "advantage-plus",
+        "email-marketing",
+        "content-marketing",
+        "content-strategy",
+        "competitor-analysis",
+        "audience-intelligence",
+        "brand-voice",
+        "brand-guidelines",
+        "agency-operations",
+        "multi-brand",
+        "compliance",
+        "gdpr",
+        "ccpa",
+        "eu-ai-act",
+        "article-50",
+        "c2pa",
+        "content-provenance",
+        "synthid",
+        "deepfake-disclosure",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-cowork",
+        "claude-skills",
+        "agent-skills",
+        "anthropic-claude",
+        "openai-codex",
+        "google-antigravity",
+        "gemini-extension",
+        "mcp",
+        "model-context-protocol",
+        "gemini",
+        "nano-banana-pro",
+        "veo-3",
+        "gemini-omni",
+        "neelverse"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://raw.githubusercontent.com/indranilbanerjee/digital-marketing-pro/9e949f3d15042255dfe3521cb9df78e763f8e01e/assets/icon.png"
+    },
+    {
+      "name": "ecto",
+      "source": {
+        "source": "github",
+        "repo": "oliver-kriska/claude-elixir-phoenix",
+        "path": "plugins/ecto",
+        "sha": "9767a82d24ddddad553e85f88efc2869a7fd7d88"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Compatibility namespace for the Elixir/Phoenix plugin's /ecto:* commands",
+      "version": "3.1.3",
+      "displayName": "Elixir/Phoenix: Ecto",
+      "homepage": "https://github.com/oliver-kriska/claude-elixir-phoenix",
+      "author": {
+        "name": "Oliver Kriska"
+      },
+      "tags": [
+        "elixir",
+        "phoenix",
+        "ecto"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/ecto/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/oliver-kriska.png"
+    },
+    {
+      "name": "elixir-phoenix",
+      "source": {
+        "source": "github",
+        "repo": "oliver-kriska/claude-elixir-phoenix",
+        "path": "targets/codex",
+        "sha": "9767a82d24ddddad553e85f88efc2869a7fd7d88"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Generated Elixir, Phoenix, LiveView, Ecto, Oban, testing, and security skills for Codex",
+      "version": "3.1.3",
+      "displayName": "Elixir/Phoenix Skills",
+      "homepage": "https://github.com/oliver-kriska/claude-elixir-phoenix",
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "targets/codex/.codex-plugin/plugin.json"
+      },
+      "icon": "https://github.com/oliver-kriska.png"
+    },
+    {
+      "name": "engram",
+      "source": {
+        "source": "github",
+        "repo": "nagisanzenin/engram",
+        "path": "",
+        "sha": "0590eb8f008680acbfb5aaa4dbc73bf63ca643dd"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Evidence-based learning engine: first-principles curricula, generation-first Socratic tutoring, free-recall verification with receipts, FSRS-scheduled memory, and interactive explorable artifacts. Learn anything; keep it.",
+      "version": "1.15.1",
+      "homepage": "https://github.com/nagisanzenin/engram",
+      "author": {
+        "name": "Quan Duong"
+      },
+      "tags": [
+        "learning",
+        "education",
+        "spaced-repetition",
+        "fsrs",
+        "tutor",
+        "memory"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/nagisanzenin.png"
+    },
+    {
+      "name": "executive",
+      "source": {
+        "source": "github",
+        "repo": "cbrock84/headcount",
+        "path": "plugins/executive",
+        "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Direction, capital and attention allocation, cross-functional arbitration, strategy validation, and the method for structuring the organization itself.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/cbrock84/headcount",
+      "author": {
+        "name": "Chris Brock"
+      },
+      "tags": [
+        "strategy",
+        "executive",
+        "decision-making"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/executive/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/cbrock84.png"
+    },
+    {
+      "name": "finance",
+      "source": {
+        "source": "github",
+        "repo": "cbrock84/headcount",
+        "path": "plugins/finance",
+        "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Financial modeling, budgeting and forecasting, unit economics, and financial decision support.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/cbrock84/headcount",
+      "author": {
+        "name": "Chris Brock"
+      },
+      "tags": [
+        "finance",
+        "budgeting",
+        "forecasting",
+        "unit-economics"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/finance/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/cbrock84.png"
+    },
+    {
+      "name": "flow-next",
+      "source": {
+        "source": "github",
+        "repo": "gmickel/flow-next",
+        "path": "plugins/flow-next",
+        "sha": "d5660ce9404d6419e5ee857b1aad7525933a3f6a"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Zero-dependency, spec-driven agentic SDLC: durable specs, context-fit plans, re-anchored workers, adversarial cross-model review, and receipts. Includes 21 subagents, 26 commands, 29 skills.",
+      "version": "8.5.0",
+      "homepage": "https://flow-next.dev",
+      "author": {
+        "name": "Gordon Mickel",
+        "url": "https://mickel.tech"
+      },
+      "tags": [
+        "workflow",
+        "planning",
+        "execution",
+        "automation",
+        "ai"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/flow-next/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/gmickel.png"
+    },
+    {
+      "name": "fluent-korean",
+      "source": {
+        "source": "github",
+        "repo": "snflkd/fluent-korean",
+        "path": "plugins/fluent-korean",
+        "sha": "ce8683f0eba8cddb91de4dcd151425ff73e60498"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Claude Code가 유창하고 자연스러운 한국어로 응답하게 하는 출력 스타일. 코딩 지침을 유지하는 판과 유지하지 않는 판 두 가지를 제공합니다.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/snflkd/fluent-korean",
+      "author": {
+        "name": "snflkd",
+        "url": "https://github.com/snflkd"
+      },
+      "tags": [
+        "korean",
+        "한국어",
+        "output-style",
+        "fluent-korean",
+        "localization"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/fluent-korean/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/snflkd.png"
+    },
+    {
+      "name": "founder",
+      "source": {
+        "source": "github",
+        "repo": "emotixco/claude-skills-founder",
+        "path": "",
+        "sha": "0602cad0520e4d8cb165bb1c779d7010cfbc5b45"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "13 skills for startup founders: idea validation, competitor research, pricing, MVP scope, go-to-market, pitch decks, and fundraising. Outputs are saved to founder/ so each skill builds on the last.",
+      "version": "2.1.4",
+      "homepage": "https://github.com/emotixco/claude-skills-founder",
+      "author": {
+        "name": "Emotix",
+        "url": "https://github.com/emotixco"
+      },
+      "tags": [
+        "startup",
+        "founder",
+        "pitch-deck",
+        "pricing",
+        "go-to-market",
+        "competitor-analysis",
+        "product-management"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/emotixco.png"
+    },
+    {
+      "name": "harness",
+      "source": {
+        "source": "github",
+        "repo": "revfactory/harness",
+        "path": "",
+        "sha": "92d9f1b29e7af81acebf51a9fcd1832e739a1414"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "The team-architecture factory for Claude Code v2 — a meta-skill that turns a domain description into an agent team and the skills they use. Three native execution modes (Workflow orchestration, persistent named-agent collaboration, sub-agent delegation), six team-architecture patterns, and workflow-native quality patterns (adversarial verification, judge panels, loop-until-dry). Claude Code용 팀 아키텍처 팩토리 v2: 도메인 한 문장을 에이전트 팀과 스킬 세트로 변환하는 메타 스킬.",
+      "version": "2.1.0",
+      "homepage": "https://github.com/revfactory/harness",
+      "author": {
+        "name": "robin",
+        "url": "https://github.com/revfactory"
+      },
+      "tags": [
+        "harness",
+        "harness-factory",
+        "team-architecture-factory",
+        "agent-team",
+        "skill-architect",
+        "meta-skill",
+        "orchestration",
+        "workflow",
+        "claude-code",
+        "claude-code-plugin",
+        "agent-scaffolding",
+        "multi-agent",
+        "pipeline",
+        "fan-out-fan-in",
+        "expert-pool",
+        "producer-reviewer",
+        "supervisor",
+        "hierarchical-delegation",
+        "adversarial-verification",
+        "judge-panel"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/revfactory.png"
+    },
+    {
+      "name": "hippo-memory",
+      "source": {
+        "source": "github",
+        "repo": "kitfunso/hippo-memory",
+        "path": "extensions/claude-code-plugin",
+        "sha": "6c8fa71f56ffda2b3c0ed35b001d8a8196fe0c60"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Make your agent's memory work like a brain. Hippo is long-term memory for coding agents.",
+      "version": "0.6.1",
+      "homepage": "https://github.com/kitfunso/hippo-memory",
+      "author": {
+        "name": "Keith So",
+        "url": "https://github.com/kitfunso/hippo-memory"
+      },
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "extensions/claude-code-plugin/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/kitfunso.png"
+    },
+    {
+      "name": "hivemind",
+      "source": {
+        "source": "github",
+        "repo": "activeloopai/hivemind",
+        "path": "",
+        "sha": "e054fb161de7ae1e3466fb93496713f4d3c82da7"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Cloud-backed persistent memory powered by Deeplake — read, write, and share memory across Claude Code sessions and agents",
+      "version": "0.7.160",
+      "homepage": "https://deeplake.ai",
+      "author": {
+        "name": "Activeloop",
+        "url": "https://deeplake.ai"
+      },
+      "tags": [
+        "memory",
+        "deeplake",
+        "persistent-memory",
+        "shared-memory",
+        "agent-memory"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/activeloopai.png"
+    },
+    {
+      "name": "hyperresearch",
+      "source": {
+        "source": "github",
+        "repo": "jordan-gibbs/hyperresearch",
+        "path": "",
+        "sha": "7790041c8705568effea2b018048160c89f848f4"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Deep research skill for Claude Code. Bootstraps the hyperresearch CLI and hands off to its 16-step research pipeline with a persistent, searchable source vault.",
+      "version": "0.12.0",
+      "homepage": "https://github.com/jordan-gibbs/hyperresearch",
+      "author": {
+        "name": "Jordan Gibbs",
+        "url": "https://github.com/jordan-gibbs"
+      },
+      "tags": [
+        "deep-research",
+        "research",
+        "claude-code",
+        "codex",
+        "agent-skills",
+        "skill",
+        "citations",
+        "research-agent",
+        "literature-review"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/jordan-gibbs.png"
+    },
+    {
+      "name": "i-have-adhd",
+      "source": {
+        "source": "github",
+        "repo": "ayghri/i-have-adhd",
+        "path": "",
+        "sha": "723af7d9afaf43eb871dbcce6129e2bf80de90d5"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Shape Claude Code output for an ADHD reader: lead with the next action, number steps, suppress tangents, restate state, make wins visible.",
+      "version": "0.4.1",
+      "homepage": "https://github.com/ayghri/i-have-adhd",
+      "author": {
+        "name": "Ayoub G.",
+        "url": "https://github.com/ayghri"
+      },
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/ayghri.png"
+    },
+    {
+      "name": "internet-court",
+      "source": {
+        "source": "github",
+        "repo": "internet-court/internet-court-skill",
+        "path": "",
+        "sha": "fa89195eeb5c12827e0b11e1c16b4fc8733711d4"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Entry point for Internet Court — the trust layer for agent-to-agent commerce. Use whenever an agent needs to transact with another agent or a paid service, or a user mentions agent payments, paid APIs (HTTP 402/x402), wallet custody or trust concerns, spending mandates, delegated permissions (ERC-7710/7715), escrow, agent identity or reputation (ERC-8004), negotiation between agents (A2A), agent jobs (ERC-8183), machine payments (MPP, AP2), supervision of agent behavior, revocation, verification, or dispute resolution (GenLayer) — even if they never say \"Internet Court\". Routes to the vendored protocol skills and connector skills in this package.",
+      "version": "0.2.0",
+      "homepage": "https://internetcourt.org",
+      "author": {
+        "name": "Internet Court Consortium",
+        "url": "https://internetcourt.org"
+      },
+      "tags": [
+        "agent-payments",
+        "x402",
+        "erc-7710",
+        "erc-8004",
+        "escrow",
+        "genlayer",
+        "dispute-resolution",
+        "a2a",
+        "agentic-commerce"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/internet-court.png"
+    },
+    {
+      "name": "it-operations",
+      "source": {
+        "source": "github",
+        "repo": "cbrock84/headcount",
+        "path": "plugins/it-operations",
+        "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Corporate IT: service desk, systems and network administration, virtualization and cloud, telephony and conferencing, endpoints, assets, identity lifecycle, and backup and recovery.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/cbrock84/headcount",
+      "author": {
+        "name": "Chris Brock"
+      },
+      "tags": [
+        "it-operations",
+        "service-desk",
+        "sysadmin",
+        "network",
+        "endpoint-management",
+        "virtualization",
+        "cloud",
+        "telephony"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/it-operations/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/cbrock84.png"
+    },
+    {
+      "name": "legal-risk",
+      "source": {
+        "source": "github",
+        "repo": "cbrock84/headcount",
+        "path": "plugins/legal-risk",
+        "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Contract review, privacy and data protection, enterprise risk, corporate governance, compliance, and audit readiness. Reviewer-class: its findings are not overrulable by the department under review.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/cbrock84/headcount",
+      "author": {
+        "name": "Chris Brock"
+      },
+      "tags": [
+        "legal",
+        "privacy",
+        "risk",
+        "compliance",
+        "contracts"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/legal-risk/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/cbrock84.png"
+    },
+    {
+      "name": "lv",
+      "source": {
+        "source": "github",
+        "repo": "oliver-kriska/claude-elixir-phoenix",
+        "path": "plugins/lv",
+        "sha": "9767a82d24ddddad553e85f88efc2869a7fd7d88"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Compatibility namespace for the Elixir/Phoenix plugin's /lv:* commands",
+      "version": "3.1.3",
+      "displayName": "Elixir/Phoenix: LiveView",
+      "homepage": "https://github.com/oliver-kriska/claude-elixir-phoenix",
+      "author": {
+        "name": "Oliver Kriska"
+      },
+      "tags": [
+        "elixir",
+        "phoenix",
+        "liveview"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/lv/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/oliver-kriska.png"
+    },
+    {
+      "name": "marketing",
+      "source": {
+        "source": "github",
+        "repo": "cbrock84/headcount",
+        "path": "plugins/marketing",
+        "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Positioning, content strategy and production, social and video, brand voice, copywriting, PR, and partnerships.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/cbrock84/headcount",
+      "author": {
+        "name": "Chris Brock"
+      },
+      "tags": [
+        "marketing",
+        "content",
+        "brand",
+        "social",
+        "communications"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/marketing/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/cbrock84.png"
+    },
+    {
+      "name": "marketing-cro",
+      "source": {
+        "source": "github",
+        "repo": "wondelai/skills",
+        "path": "plugins/marketing-cro",
+        "sha": "c172996495bed0fcd26896a9416b2093fd7073f0"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Marketing and conversion optimization skills including CRO methodology, StoryBrand messaging, Scorecard Marketing lead generation, viral marketing (Contagious), and 1-Page Marketing Plan",
+      "version": "1.8.0",
+      "homepage": "https://github.com/wondelai/skills",
+      "tags": [
+        "marketing",
+        "cro",
+        "conversion",
+        "storybrand",
+        "copywriting",
+        "lead-generation",
+        "virality",
+        "landing-page",
+        "ab-testing",
+        "quiz-funnel",
+        "go-viral",
+        "homepage-copy"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/marketing-cro/.codex-plugin/plugin.json"
+      },
+      "icon": "https://github.com/wondelai.png"
+    },
+    {
+      "name": "marketing-skills",
+      "source": {
+        "source": "github",
+        "repo": "coreyhaines31/marketingskills",
+        "path": "",
+        "sha": "1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Marketing skills for AI agents — conversion optimization, copywriting, SEO, paid ads, ad creative, and growth",
+      "version": "2.11.26",
+      "homepage": "https://github.com/coreyhaines31/marketingskills",
+      "author": {
+        "name": "Corey Haines"
+      },
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/coreyhaines31.png"
+    },
+    {
+      "name": "mcp-apps",
+      "source": {
+        "source": "github",
+        "repo": "microsoft/power-platform-skills",
+        "path": "plugins/mcp-apps",
+        "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Generate JavaScript server runtimes and CDN-free or CDN-enabled MCP App widgets.",
+      "version": "1.2.0",
+      "homepage": "https://github.com/microsoft/power-platform-skills/",
+      "author": {
+        "name": "Microsoft",
+        "url": "https://www.microsoft.com"
+      },
+      "tags": [
+        "mcp-apps",
+        "mcp",
+        "codeful-tool",
+        "dataverse",
+        "javascript",
+        "widget",
+        "ext-apps",
+        "fluent-ui",
+        "html",
+        "tool-visualization"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/mcp-apps/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/microsoft.png"
+    },
+    {
+      "name": "memsearch",
+      "source": {
+        "source": "github",
+        "repo": "zilliztech/memsearch",
+        "path": "plugins/claude-code",
+        "sha": "09e07d86b31ff81938b4f44a57099b6a9fc8723f"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Automatic semantic memory for Claude Code — remembers what you worked on across sessions",
+      "version": "0.4.20",
+      "homepage": "https://github.com/zilliztech/memsearch",
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/claude-code/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/zilliztech.png"
+    },
+    {
+      "name": "metaskills",
+      "source": {
+        "source": "github",
+        "repo": "wondelai/skills",
+        "path": "plugins/metaskills",
+        "sha": "c172996495bed0fcd26896a9416b2093fd7073f0"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Fourteen guided journeys that orchestrate the whole skill library step by step — create, improve, and grow a business, website, or app, plus improve code quality, remove technical debt, design code architecture, optimize a conversion flow, and optimize an existing codebase for speed and structure. Each metaskill invokes the right skills phase by phase, asks the user questions at every decision point, and records results as living documents in the project docs/ folder",
+      "version": "1.8.0",
+      "homepage": "https://github.com/wondelai/skills",
+      "tags": [
+        "metaskills",
+        "guided-journey",
+        "orchestrator",
+        "workflow",
+        "create-business",
+        "create-website",
+        "create-app",
+        "improve-business",
+        "improve-website",
+        "improve-app",
+        "grow-business",
+        "grow-website",
+        "grow-app",
+        "code-quality",
+        "technical-debt",
+        "architecture",
+        "conversion-optimization",
+        "architecture-optimization",
+        "funnel",
+        "performance"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/metaskills/.codex-plugin/plugin.json"
+      },
+      "icon": "https://github.com/wondelai.png"
+    },
+    {
+      "name": "mobile-app",
+      "source": {
+        "source": "github",
+        "repo": "microsoft/power-platform-skills",
+        "path": "plugins/mobile-apps",
+        "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Build and deploy Power Apps code apps for mobile using Expo (React Native), with native device functionality and Power Platform connectors",
+      "version": "0.5.3",
+      "homepage": "https://github.com/microsoft/power-platform-skills/",
+      "author": {
+        "name": "Microsoft",
+        "url": "https://www.microsoft.com"
+      },
+      "tags": [
+        "power-platform",
+        "power-apps",
+        "code-apps",
+        "mobile",
+        "expo",
+        "react-native",
+        "native",
+        "connectors",
+        "microsoft"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/mobile-apps/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/microsoft.png"
+    },
+    {
+      "name": "model-apps",
+      "source": {
+        "source": "github",
+        "repo": "microsoft/power-platform-skills",
+        "path": "plugins/model-apps",
+        "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Build model-driven Power Apps end to end: /app-builder authors whole apps (tables, relationships, forms, views, charts, security roles, app + sitemap) from a natural-language intent, and /genpage builds generative pages with specialist agents for planning, entity creation, and parallel code generation. Requires PAC CLI > 2.10.0 and Azure CLI (`az`). See CHANGELOG.md for v1.x -> v2.x migration.",
+      "version": "2.13.0",
+      "homepage": "https://github.com/microsoft/power-platform-skills/",
+      "author": {
+        "name": "Microsoft",
+        "url": "https://www.microsoft.com"
+      },
+      "tags": [
+        "model-apps",
+        "app-builder",
+        "model-driven",
+        "generative-pages",
+        "genux",
+        "genpage",
+        "react",
+        "fluent-ui",
+        "dataverse",
+        "pac-cli"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/model-apps/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/microsoft.png"
+    },
+    {
+      "name": "modularity",
+      "source": {
+        "source": "github",
+        "repo": "vladikk/modularity",
+        "path": "",
+        "sha": "bcdca9a595764b9aa88d5d8d6020f52e7f5f1f52"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Design and analyze modular software systems using the Balanced Coupling model by Vlad Khononov. Includes a modularity review skill for analyzing existing codebases and a modular design skill for designing new systems from requirements.",
+      "version": "1.5.0",
+      "homepage": "https://github.com/vladikk/modularity",
+      "author": {
+        "name": "Vlad Khononov"
+      },
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/vladikk.png"
+    },
+    {
+      "name": "nateherk-design",
+      "source": {
+        "source": "github",
+        "repo": "nateherkai/scroll-craft",
+        "path": "plugins/nateherk-design",
+        "sha": "75d81f74e83692add18cd7a8a8e078b8a887a579"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Design and build skills from Nate Herk. Ships scroll-craft: premium scroll-driven interactive landing pages, built on a full design floor (typography, spacing, colour, depth, motion, accessibility) rather than on an animation library.",
+      "version": "0.3.1",
+      "homepage": "https://github.com/nateherkai/scroll-craft",
+      "author": {
+        "name": "Nate Herk"
+      },
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/nateherk-design/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/nateherkai.png"
+    },
+    {
+      "name": "notfair",
+      "source": {
+        "source": "github",
+        "repo": "nowork-studio/notfair-plugin",
+        "path": "",
+        "sha": "53e26836afd1cea64201a72c2d54ab111728f2c2"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "The official ads, analytics, SEO, and GEO plugin from NotFair. Operate Google, Meta, X, LinkedIn, Reddit, and TikTok Ads; WordPress and GoHighLevel; analyze Google Search Console and GA4; and run open-source search and content workflows from any compatible agent.",
+      "version": "0.27.16",
+      "displayName": "NotFair",
+      "homepage": "https://notfair.co",
+      "author": {
+        "name": "NotFair",
+        "url": "https://notfair.co"
+      },
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://raw.githubusercontent.com/nowork-studio/notfair-plugin/53e26836afd1cea64201a72c2d54ab111728f2c2/assets/notfair-icon.png"
+    },
+    {
+      "name": "obsidian-second-brain",
+      "source": {
+        "source": "github",
+        "repo": "eugeniughelbur/obsidian-second-brain",
+        "path": "",
+        "sha": "9dc3ca8742068422fa3c3c86f3ac01b0cfe618c2"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Stop re-explaining your notes to Claude. Turns your Obsidian vault into memory Claude can actually search, and keeps it true: new sources rewrite existing pages, contradictions reconcile, and stale facts get flagged. AI note-taking and PKM for Claude Code.",
+      "version": "0.17.0",
+      "homepage": "https://github.com/eugeniughelbur/obsidian-second-brain",
+      "author": {
+        "name": "Eugeniu Ghelbur"
+      },
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/eugeniughelbur.png"
+    },
+    {
+      "name": "octo",
+      "source": {
+        "source": "github",
+        "repo": "nyldn/claude-octopus",
+        "path": "",
+        "sha": "b34780d48d9360d6c349c988e593be440b091c0f"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "v11.13.1 — Safer model configuration, reliable provider history and an MCP dependency security update. Run /octo:setup.",
+      "version": "11.13.1",
+      "homepage": "https://github.com/nyldn/claude-octopus",
+      "author": {
+        "name": "nyldn",
+        "url": "https://github.com/nyldn"
+      },
+      "tags": [
+        "multi-llm",
+        "multi-agent",
+        "orchestration",
+        "claude-code-plugin",
+        "double-diamond",
+        "codex",
+        "antigravity",
+        "agy",
+        "copilot",
+        "orcarouter",
+        "code-review",
+        "automation"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/nyldn.png"
+    },
+    {
+      "name": "open-steps",
+      "source": {
+        "source": "github",
+        "repo": "kharmanskyi/open-steps",
+        "path": "",
+        "sha": "4fa744ba8ea06ccf128a39853824c46ac391dd00"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Plain-language skills for coding agents, for the person running development who does not read code: session reports, decisions, next steps and the whole picture.",
+      "version": "0.4.8",
+      "homepage": "https://opensteps.ai",
+      "author": {
+        "name": "Pavlo Kharmanskyi",
+        "url": "https://github.com/kharmanskyi"
+      },
+      "tags": [
+        "claude-code",
+        "agent-skills",
+        "coding-agents",
+        "session-report",
+        "premortem",
+        "plain-language"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/kharmanskyi.png"
+    },
+    {
+      "name": "operations",
+      "source": {
+        "source": "github",
+        "repo": "cbrock84/headcount",
+        "path": "plugins/operations",
+        "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Program management, process design, vendor and supplier management, and operational delivery.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/cbrock84/headcount",
+      "author": {
+        "name": "Chris Brock"
+      },
+      "tags": [
+        "operations",
+        "process",
+        "program-management",
+        "vendors"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/operations/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/cbrock84.png"
+    },
+    {
+      "name": "ops",
+      "source": {
+        "source": "github",
+        "repo": "Lifecycle-Innovations-Limited/claude-ops",
+        "path": "claude-ops",
+        "sha": "ee9c784844943600f7997d7556f785d3cda6ae33"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Business operations command center for Claude Code — 66 skills, 21 agents, and a smart background daemon that manage communications (WhatsApp/Email/Slack/Telegram), projects, infrastructure (all AWS services), revenue (Stripe + RevenueCat), e-commerce (Shopify), marketing (Klaviyo/Meta/GA4/GSC), monitoring (Datadog/New Relic/OTEL), and voice (Bland AI/ElevenLabs/Whisper). Includes /ops:ops-ar A&R (audio analysis + demo verdict cards), /gtm go-to-market planner, /ops:projects portfolio dashboard, /ops:ops-mac macOS diagnose-and-fix (bundles the macos-toolkit CLI suite — security, launchd, network, disk, system health), YOLO mode for autonomous operation with 4 parallel C-suite agents, /ops:ops-home smart home control via Homey Pro, /ops:ops-unifi UniFi network control (Site Manager + Network + Protect APIs), and /ops:ops-feature-dev overlay for the feature-dev companion plugin.",
+      "version": "3.11.0",
+      "homepage": "https://github.com/Lifecycle-Innovations-Limited/claude-ops",
+      "author": {
+        "name": "Lifecycle Innovations Limited",
+        "url": "https://github.com/Lifecycle-Innovations-Limited"
+      },
+      "tags": [
+        "business",
+        "operations",
+        "communications",
+        "whatsapp",
+        "email",
+        "slack",
+        "telegram",
+        "linear",
+        "sentry",
+        "infrastructure",
+        "revenue",
+        "yolo",
+        "shopify",
+        "ecommerce",
+        "marketing",
+        "klaviyo",
+        "meta-ads",
+        "ga4",
+        "voice",
+        "bland-ai",
+        "elevenlabs",
+        "whisper",
+        "daemon",
+        "orchestration",
+        "memories",
+        "doppler",
+        "mcp",
+        "1password",
+        "stripe",
+        "revenuecat",
+        "mrr",
+        "aws-monitoring",
+        "shipping",
+        "myparcel",
+        "sendcloud",
+        "dhl",
+        "postnl",
+        "dpd",
+        "ups",
+        "fedex",
+        "home-automation",
+        "homey",
+        "smart-home",
+        "iot",
+        "athom"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "claude-ops/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/Lifecycle-Innovations-Limited.png"
+    },
+    {
+      "name": "people",
+      "source": {
+        "source": "github",
+        "repo": "cbrock84/headcount",
+        "path": "plugins/people",
+        "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Org design, hiring and interviewing, compensation and leveling, and workforce planning.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/cbrock84/headcount",
+      "author": {
+        "name": "Chris Brock"
+      },
+      "tags": [
+        "people",
+        "hr",
+        "org-design",
+        "hiring",
+        "compensation"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/people/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/cbrock84.png"
+    },
+    {
+      "name": "phx",
+      "source": {
+        "source": "github",
+        "repo": "oliver-kriska/claude-elixir-phoenix",
+        "path": "plugins/elixir-phoenix",
+        "sha": "9767a82d24ddddad553e85f88efc2869a7fd7d88"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Elixir/Phoenix/LiveView development with specialist agents, Iron Laws, and Tidewave MCP integration",
+      "version": "3.1.3",
+      "displayName": "Elixir/Phoenix",
+      "homepage": "https://github.com/oliver-kriska/claude-elixir-phoenix",
+      "author": {
+        "name": "Oliver Kriska"
+      },
+      "tags": [
+        "elixir",
+        "phoenix",
+        "liveview",
+        "ecto",
+        "oban",
+        "otp"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/elixir-phoenix/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/oliver-kriska.png"
+    },
+    {
+      "name": "pmo",
+      "source": {
+        "source": "github",
+        "repo": "cbrock84/headcount",
+        "path": "plugins/pmo",
+        "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Enterprise program management office: portfolio governance, program and project delivery, dependencies and delivery risk, benefits realization, and adoption.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/cbrock84/headcount",
+      "author": {
+        "name": "Chris Brock"
+      },
+      "tags": [
+        "pmo",
+        "portfolio",
+        "project-management",
+        "program-management",
+        "delivery"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/pmo/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/cbrock84.png"
+    },
+    {
+      "name": "ponytail",
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail",
+        "path": "",
+        "sha": "9b58c1ffb790c075ca32e70a89cf1d80588f4abf"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "优先选择简单方案的编码工作流，提供 Claude Code 与 Codex hooks。",
+      "version": "5.1.0",
+      "homepage": "https://github.com/DietrichGebert/ponytail",
+      "author": {
+        "name": "Dietrich Gebert",
+        "url": "https://github.com/DietrichGebert"
+      },
+      "description_i18n": {
+        "zh-CN": "优先选择简单方案的编码工作流，提供 Claude Code 与 Codex hooks。"
+      },
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json",
+        "submission": "DietrichGebert__ponytail.yml"
+      },
+      "icon": "https://github.com/DietrichGebert.png"
+    },
+    {
+      "name": "power-apps-mobile-extension",
+      "source": {
+        "source": "github",
+        "repo": "microsoft/power-platform-skills",
+        "path": "plugins/power-apps-mobile-extension",
+        "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Build third-party Power Apps Mobile (PAM) controls into a prebuilt .ppmplugin binary (Android DEX + flat iOS .framework + manifest.json) for the wrap runtime. Public tooling only; recommended build entry point /generate-ppmplugin.",
+      "version": "0.1.0",
+      "homepage": "https://github.com/microsoft/power-platform-skills/",
+      "author": {
+        "name": "Microsoft",
+        "url": "https://www.microsoft.com"
+      },
+      "tags": [
+        "power-apps",
+        "power-apps-mobile-extension",
+        "pam",
+        "control",
+        "ppmplugin",
+        "wrap",
+        "pcf",
+        "ios",
+        "android",
+        "microsoft"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/power-apps-mobile-extension/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/microsoft.png"
+    },
+    {
+      "name": "power-automate",
+      "source": {
+        "source": "github",
+        "repo": "microsoft/power-platform-skills",
+        "path": "plugins/power-automate",
+        "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Build, edit, run, and debug Power Automate cloud flows via the FlowAgent MCP server — connection lifecycle, surgical edits, copy across environments, run management, and validated expressions.",
+      "version": "3.2.1",
+      "homepage": "https://github.com/microsoft/power-platform-skills/",
+      "author": {
+        "name": "Microsoft",
+        "url": "https://www.microsoft.com"
+      },
+      "tags": [
+        "power-automate",
+        "cloud-flows",
+        "flows",
+        "mcp",
+        "power-platform",
+        "flowagent"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/power-automate/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/microsoft.png"
+    },
+    {
+      "name": "power-pages",
+      "source": {
+        "source": "github",
+        "repo": "microsoft/power-platform-skills",
+        "path": "plugins/power-pages",
+        "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Create and deploy Power Pages sites using modern development approaches. Supports code sites (SPAs) with React, Angular, Vue, or Astro. Adds multilingual localization and safe runtime LTR/RTL switching for React, Vue, and Angular runtime sites; Astro and Angular static localization are temporarily unavailable. Includes ALM orchestration (plan-alm) with a solution-splitting decision tree, per-solution pipelines, Azure Blob asset advisory, manifest schema v2 for multi-solution deployments, and force-link remediation for cross-host pipeline migrations.",
+      "version": "2.9.0",
+      "homepage": "https://github.com/microsoft/power-platform-skills/",
+      "author": {
+        "name": "Microsoft",
+        "url": "https://www.microsoft.com"
+      },
+      "tags": [
+        "power-pages",
+        "site-builder",
+        "code-sites",
+        "spa",
+        "localization",
+        "i18n",
+        "rtl",
+        "react",
+        "angular",
+        "vue",
+        "astro",
+        "pac-cli",
+        "dataverse",
+        "odata",
+        "web-api",
+        "tables",
+        "schema",
+        "solution",
+        "alm",
+        "plan-alm",
+        "ci-cd",
+        "pipeline",
+        "pipelines-host",
+        "force-link",
+        "diagnostics",
+        "shared-lib",
+        "solution-splitting",
+        "asset-advisory"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/power-pages/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/microsoft.png"
+    },
+    {
+      "name": "process-intelligence",
+      "source": {
+        "source": "github",
+        "repo": "microsoft/power-platform-skills",
+        "path": "plugins/process-intelligence",
+        "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Analyze Power Automate Process Mining processes, bottlenecks, variants, cohorts and object-centric executions through MCP.",
+      "version": "0.7.0",
+      "homepage": "https://github.com/microsoft/power-platform-skills/",
+      "author": {
+        "name": "Microsoft",
+        "url": "https://www.microsoft.com"
+      },
+      "tags": [
+        "process-intelligence",
+        "power-automate",
+        "power-platform",
+        "mcp",
+        "analytics"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/process-intelligence/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/microsoft.png"
+    },
+    {
+      "name": "product",
+      "source": {
+        "source": "github",
+        "repo": "cbrock84/headcount",
+        "path": "plugins/product",
+        "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Product strategy, UX and usability audit, design systems, interface craft, brand expression, and visual direction.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/cbrock84/headcount",
+      "author": {
+        "name": "Chris Brock"
+      },
+      "tags": [
+        "product",
+        "ux",
+        "design",
+        "design-system",
+        "brand"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/product/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/cbrock84.png"
+    },
+    {
+      "name": "product-innovation",
+      "source": {
+        "source": "github",
+        "repo": "wondelai/skills",
+        "path": "plugins/product-innovation",
+        "sha": "c172996495bed0fcd26896a9416b2093fd7073f0"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Product innovation and validation frameworks including Lean Startup methodology, Google Ventures Design Sprint, and Don Norman's design principles",
+      "version": "1.8.0",
+      "homepage": "https://github.com/wondelai/skills",
+      "tags": [
+        "lean-startup",
+        "mvp",
+        "design-sprint",
+        "validation",
+        "innovation",
+        "prototyping",
+        "pivot-or-persevere",
+        "validate-an-idea",
+        "product-discovery",
+        "empowered-teams"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/product-innovation/.codex-plugin/plugin.json"
+      },
+      "icon": "https://github.com/wondelai.png"
+    },
+    {
+      "name": "product-strategy",
+      "source": {
+        "source": "github",
+        "repo": "wondelai/skills",
+        "path": "plugins/product-strategy",
+        "sha": "c172996495bed0fcd26896a9416b2093fd7073f0"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Product strategy and innovation frameworks including Jobs to Be Done (Clayton Christensen) for customer discovery and product design, tactical negotiation skills (Chris Voss), willingness-to-pay pricing (Monetizing Innovation), and startup metrics (Lean Analytics)",
+      "version": "1.8.0",
+      "homepage": "https://github.com/wondelai/skills",
+      "tags": [
+        "product-strategy",
+        "jobs-to-be-done",
+        "negotiation",
+        "customer-discovery",
+        "innovation",
+        "pricing",
+        "willingness-to-pay",
+        "metrics",
+        "analytics",
+        "omtm",
+        "customer-interviews",
+        "salary-negotiation",
+        "what-to-charge",
+        "north-star-metric",
+        "product-market-fit"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/product-strategy/.codex-plugin/plugin.json"
+      },
+      "icon": "https://github.com/wondelai.png"
+    },
+    {
+      "name": "pstack",
+      "source": {
+        "source": "github",
+        "repo": "michael-denyer/pstack-claude",
+        "path": "plugins/pstack",
+        "sha": "24c96b1eed2b07c62d0f88f0764a2954ed1d911a"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "If you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence. Ported from cursor/plugins/pstack to Claude Code. Original pstack by Lauren Tan (poteto).",
+      "version": "0.9.81",
+      "displayName": "pstack (Claude Code port)",
+      "homepage": "https://github.com/michael-denyer/pstack-claude",
+      "author": {
+        "name": "Michael Denyer",
+        "url": "https://github.com/michael-denyer"
+      },
+      "tags": [
+        "pstack",
+        "poteto-mode",
+        "workflow",
+        "principles",
+        "agent-style",
+        "subagents",
+        "unslop",
+        "claude-code",
+        "skills",
+        "tdd",
+        "code-review",
+        "parallel-agents",
+        "codex",
+        "opencode",
+        "gemini-cli",
+        "prime-agent"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/pstack/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/michael-denyer.png"
+    },
+    {
+      "name": "ralph-speckit",
+      "source": {
+        "source": "github",
+        "repo": "tzachbon/smart-ralph",
+        "path": "plugins/ralph-speckit",
+        "sha": "ac7251a0a056b51435192443775f3cbbc4675cba"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Spec-driven development using GitHub spec-kit methodology. Constitution-first approach with specify, plan, tasks, and implement phases.",
+      "version": "0.5.2",
+      "homepage": "https://github.com/tzachbon/smart-ralph",
+      "author": {
+        "name": "tzachbon"
+      },
+      "tags": [
+        "ralph",
+        "speckit",
+        "spec-driven",
+        "constitution",
+        "specify",
+        "plan",
+        "tasks",
+        "implement"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/ralph-speckit/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/tzachbon.png"
+    },
+    {
+      "name": "ralph-specum",
+      "source": {
+        "source": "github",
+        "repo": "tzachbon/smart-ralph",
+        "path": "plugins/ralph-specum-codex",
+        "sha": "ac7251a0a056b51435192443775f3cbbc4675cba"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Spec-driven development for OpenAI Codex. Research, requirements, design, tasks, autonomous implementation, and epic triage for multi-spec feature decomposition.",
+      "version": "4.12.5",
+      "displayName": "Ralph Specum",
+      "homepage": "https://github.com/tzachbon/smart-ralph",
+      "author": {
+        "name": "tzachbon"
+      },
+      "tags": [
+        "ralph",
+        "spec-driven",
+        "research",
+        "requirements",
+        "design",
+        "tasks",
+        "autonomous",
+        "loop",
+        "epic",
+        "triage"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/ralph-specum-codex/.codex-plugin/plugin.json"
+      },
+      "icon": "https://github.com/tzachbon.png"
+    },
+    {
+      "name": "recall",
+      "source": {
+        "source": "github",
+        "repo": "raiyanyahya/recall",
+        "path": "",
+        "sha": "e65cb1e406fea99bee4931e7597715c47b3d2272"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Durable, fully-local project memory for Claude Code. Logs every session to .recall/history.md and condenses it into .recall/context.md with a local Python summarizer (TF-IDF + TextRank) — no API key, no external model, nothing leaves your machine. New sessions resume from the saved context.",
+      "version": "0.4.0",
+      "homepage": "https://github.com/raiyanyahya/recall",
+      "author": {
+        "name": "Raiyan Yahya"
+      },
+      "tags": [
+        "memory",
+        "context",
+        "summarizer",
+        "textrank",
+        "local",
+        "offline"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/raiyanyahya.png"
+    },
+    {
+      "name": "revenue",
+      "source": {
+        "source": "github",
+        "repo": "cbrock84/headcount",
+        "path": "plugins/revenue",
+        "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Outbound, sales enablement, revenue operations, pricing and packaging, activation, retention, and referrals.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/cbrock84/headcount",
+      "author": {
+        "name": "Chris Brock"
+      },
+      "tags": [
+        "sales",
+        "pricing",
+        "revenue",
+        "retention",
+        "revops"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/revenue/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/cbrock84.png"
+    },
+    {
+      "name": "sales-influence",
+      "source": {
+        "source": "github",
+        "repo": "wondelai/skills",
+        "path": "plugins/sales-influence",
+        "sha": "c172996495bed0fcd26896a9416b2093fd7073f0"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Sales, persuasion, and messaging skills including Cialdini's influence psychology, Aaron Ross's outbound sales methodology, Heath Brothers' sticky messaging, and Alex Hormozi's offer creation",
+      "version": "1.8.0",
+      "homepage": "https://github.com/wondelai/skills",
+      "tags": [
+        "sales",
+        "influence",
+        "persuasion",
+        "outbound",
+        "messaging",
+        "offers",
+        "copywriting",
+        "social-proof",
+        "cold-email",
+        "irresistible-offer",
+        "objection-handling",
+        "pricing"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/sales-influence/.codex-plugin/plugin.json"
+      },
+      "icon": "https://github.com/wondelai.png"
+    },
+    {
+      "name": "security",
+      "source": {
+        "source": "github",
+        "repo": "cbrock84/headcount",
+        "path": "plugins/security",
+        "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Threat modeling, security architecture review, incident response, vulnerability management, and access and identity. Reviewer-class: blocking findings are not overrulable by the department under review.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/cbrock84/headcount",
+      "author": {
+        "name": "Chris Brock"
+      },
+      "tags": [
+        "security",
+        "appsec",
+        "threat-modeling",
+        "incident-response",
+        "vulnerability-management",
+        "identity"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/security/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/cbrock84.png"
+    },
+    {
+      "name": "start",
+      "source": {
+        "source": "github",
+        "repo": "rsmdt/the-startup",
+        "path": "plugins/start",
+        "sha": "88d447c7fb846f9d519faf59219cd34cf7577501"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Workflow orchestration commands for agentic software development",
+      "version": "3.8.0",
+      "homepage": "https://github.com/rsmdt/the-startup",
+      "author": {
+        "name": "Rudolf S."
+      },
+      "tags": [
+        "workflow",
+        "commands",
+        "specification",
+        "implementation",
+        "refactoring",
+        "code-review",
+        "documentation",
+        "migration"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/start/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/rsmdt.png"
+    },
+    {
+      "name": "stop-that-shit",
+      "source": {
+        "source": "github",
+        "repo": "lennney/stop-that-shit",
+        "path": "",
+        "sha": "694bbd59e26b522cd63801a01590ccaa77c7fe84"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Keep Claude Code tasks bounded and reduce defensive wording with local-first guardrails and two Skills.",
+      "version": "0.2.4",
+      "displayName": "Stop That Shit（别再造史了）",
+      "homepage": "https://github.com/lennney/stop-that-shit",
+      "author": {
+        "name": "Stop That Shit contributors",
+        "url": "https://github.com/lennney"
+      },
+      "tags": [
+        "claude-code",
+        "codex",
+        "scope-control",
+        "overengineering",
+        "guardrail"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/lennney.png"
+    },
+    {
+      "name": "strategy-growth",
+      "source": {
+        "source": "github",
+        "repo": "wondelai/skills",
+        "path": "plugins/strategy-growth",
+        "sha": "c172996495bed0fcd26896a9416b2093fd7073f0"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Business strategy and growth frameworks including Crossing the Chasm tech adoption, Blue Ocean Strategy value innovation, EOS business operating system, Obviously Awesome positioning, Good Strategy Bad Strategy kernels, and Cold Start Problem network effects",
+      "version": "1.8.0",
+      "homepage": "https://github.com/wondelai/skills",
+      "tags": [
+        "strategy",
+        "growth",
+        "positioning",
+        "blue-ocean",
+        "eos",
+        "go-to-market",
+        "traction",
+        "strategy-kernel",
+        "network-effects",
+        "marketplace",
+        "cold-start",
+        "stop-competing-on-price",
+        "crossing-the-chasm",
+        "category-creation",
+        "annual-planning"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/strategy-growth/.codex-plugin/plugin.json"
+      },
+      "icon": "https://github.com/wondelai.png"
+    },
+    {
+      "name": "systems-architecture",
+      "source": {
+        "source": "github",
+        "repo": "wondelai/skills",
+        "path": "plugins/systems-architecture",
+        "sha": "c172996495bed0fcd26896a9416b2093fd7073f0"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Systems architecture and distributed systems skills including Designing Data-Intensive Applications (Martin Kleppmann), System Design Interview (Alex Xu), Clean Architecture (Robert C. Martin), Release It! (Michael Nygard), High Performance Browser Networking (Ilya Grigorik), and Team Topologies (Skelton & Pais)",
+      "version": "1.8.0",
+      "homepage": "https://github.com/wondelai/skills",
+      "tags": [
+        "system-design",
+        "architecture",
+        "distributed-systems",
+        "scalability",
+        "resilience",
+        "performance",
+        "clean-architecture",
+        "team-topologies",
+        "conways-law",
+        "platform-teams",
+        "org-design",
+        "system-design-interview",
+        "database-choice",
+        "circuit-breaker",
+        "core-web-vitals",
+        "sql-or-nosql"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/systems-architecture/.codex-plugin/plugin.json"
+      },
+      "icon": "https://github.com/wondelai.png"
+    },
+    {
+      "name": "team",
+      "source": {
+        "source": "github",
+        "repo": "rsmdt/the-startup",
+        "path": "plugins/team",
+        "sha": "88d447c7fb846f9d519faf59219cd34cf7577501"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Engineering team consisting of specialized agents for software development",
+      "version": "3.8.0",
+      "homepage": "https://github.com/rsmdt/the-startup",
+      "author": {
+        "name": "Rudolf S."
+      },
+      "tags": [
+        "agents",
+        "specialists"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/team/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/rsmdt.png"
+    },
+    {
+      "name": "team-motivation",
+      "source": {
+        "source": "github",
+        "repo": "wondelai/skills",
+        "path": "plugins/team-motivation",
+        "sha": "c172996495bed0fcd26896a9416b2093fd7073f0"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Team motivation and management skills including Daniel Pink's Autonomy, Mastery, Purpose (AMP) principles and Andy Grove's High Output Management (leverage, one-on-ones, OKRs, task-relevant maturity)",
+      "version": "1.8.0",
+      "homepage": "https://github.com/wondelai/skills",
+      "tags": [
+        "motivation",
+        "autonomy",
+        "mastery",
+        "purpose",
+        "engagement",
+        "team-management",
+        "management",
+        "one-on-ones",
+        "okrs",
+        "leverage",
+        "new-manager",
+        "team-disengaged",
+        "performance-review",
+        "delegation"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/team-motivation/.codex-plugin/plugin.json"
+      },
+      "icon": "https://github.com/wondelai.png"
+    },
+    {
+      "name": "technology",
+      "source": {
+        "source": "github",
+        "repo": "cbrock84/headcount",
+        "path": "plugins/technology",
+        "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Architecture, engineering delivery, development discipline, debugging, review, and AI and automation systems.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/cbrock84/headcount",
+      "author": {
+        "name": "Chris Brock"
+      },
+      "tags": [
+        "engineering",
+        "tdd",
+        "debugging",
+        "code-review",
+        "automation"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/technology/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/cbrock84.png"
+    },
+    {
+      "name": "terminal-browser",
+      "source": {
+        "source": "github",
+        "repo": "zenbu-labs/terminal-browser",
+        "path": "claude-code-plugin",
+        "sha": "2165ae76c9639e3996829ab0e6d54ddbd4f06ad8"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "A browser running directly inside claude code. Preview websites, view HTML documents, and let your agent control the built in browser.",
+      "version": "0.0.2",
+      "homepage": "https://github.com/zenbu-labs/terminal-browser/tree/main/claude-code-plugin",
+      "author": {
+        "name": "zenbu-labs"
+      },
+      "tags": [
+        "browser",
+        "function-hooks"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "claude-code-plugin/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/zenbu-labs.png"
+    },
+    {
+      "name": "the-architect",
+      "source": {
+        "source": "github",
+        "repo": "Hainrixz/the-architect",
+        "path": "",
+        "sha": "774a02278f4fa99cc44d484911007d1ba29318ab"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "EN: Senior software design consultant. Interviews you about what you want to build, designs the complete architecture, and generates a self-contained blueprint another Claude Code instance can build from autonomously — with acceptance criteria and a verify command on every step. Works on new projects and existing codebases. ES: Consultor senior de diseño de software. Te entrevista sobre lo que quieres construir, diseña la arquitectura completa, y genera un blueprint autocontenido desde el cual otra instancia de Claude Code puede construir de forma autónoma.",
+      "version": "2.5.0",
+      "homepage": "https://tododeia.com",
+      "author": {
+        "name": "Enrique Henry",
+        "url": "https://github.com/Hainrixz"
+      },
+      "tags": [
+        "architecture",
+        "blueprint",
+        "planning",
+        "spec",
+        "scaffolding",
+        "design",
+        "meta-agent",
+        "arquitectura",
+        "claude-code",
+        "greenfield",
+        "brownfield",
+        "community"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/Hainrixz.png"
+    },
+    {
+      "name": "to-hook-probe",
+      "source": {
+        "source": "github",
+        "repo": "alexgreensh/token-optimizer",
+        "path": "cowork/to-hook-probe",
+        "sha": "7c05b7088364d081e066e11ffafd9b110184d1d2"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "[BETA] Token Optimizer diagnostic probe: proves which hook events fire in a Claude Cowork session (env dump + marker files + optional phone-home).",
+      "version": "0.1.0",
+      "homepage": "https://github.com/alexgreensh/token-optimizer",
+      "author": {
+        "name": "Alex Greenshpun",
+        "url": "https://linkedin.com/in/alexgreensh"
+      },
+      "tags": [
+        "diagnostic",
+        "hooks",
+        "cowork"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "cowork/to-hook-probe/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/alexgreensh.png"
+    },
+    {
+      "name": "token-optimizer",
+      "source": {
+        "source": "github",
+        "repo": "alexgreensh/token-optimizer",
+        "path": "",
+        "sha": "7c05b7088364d081e066e11ffafd9b110184d1d2"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Audit, fix, and monitor Claude Code context window usage. Find the ghost tokens.",
+      "version": "5.13.36",
+      "homepage": "https://github.com/alexgreensh/token-optimizer",
+      "author": {
+        "name": "Alex Greenshpun",
+        "url": "https://linkedin.com/in/alexgreensh"
+      },
+      "tags": [
+        "token",
+        "optimization",
+        "context",
+        "audit",
+        "cost",
+        "coach"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/alexgreensh.png"
+    },
+    {
+      "name": "token-optimizer-cowork",
+      "source": {
+        "source": "github",
+        "repo": "alexgreensh/token-optimizer",
+        "path": "cowork/token-optimizer",
+        "sha": "7c05b7088364d081e066e11ffafd9b110184d1d2"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Token Optimizer for Claude Cowork: self-contained plugin with full skills and Cowork-native hooks (UserPromptSubmit, PreToolUse, PostToolUse, Stop). Install THIS in Cowork; the standard token-optimizer entry is for desktop Claude Code.",
+      "version": "5.13.36",
+      "homepage": "https://github.com/alexgreensh/token-optimizer",
+      "author": {
+        "name": "Alex Greenshpun",
+        "url": "https://linkedin.com/in/alexgreensh"
+      },
+      "tags": [
+        "token",
+        "optimization",
+        "context",
+        "audit",
+        "cost",
+        "coach"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "cowork/token-optimizer/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/alexgreensh.png"
+    },
+    {
+      "name": "trading-ideas",
+      "source": {
+        "source": "github",
+        "repo": "quant-sentiment-ai/claude-equity-research",
+        "path": "commands/trading-ideas",
+        "sha": "978e035084698ac6f67f9ae758f1d3019929b97d"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Institutional-grade equity research reports via /trading-ideas:research command.",
+      "version": "1.0.1",
+      "homepage": "https://github.com/quant-sentiment-ai/claude-equity-research",
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "commands/trading-ideas/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/quant-sentiment-ai.png"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "source": {
+        "source": "github",
+        "repo": "nyldn/claude-octopus",
+        "path": "vendors/ui-ux-pro-max-skill",
+        "sha": "b34780d48d9360d6c349c988e593be440b091c0f"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "UI/UX design intelligence. Searchable local database with 84 styles, 192 palettes, 74 font pairings, 25 charts, and 22 stacks (React, Next.js, Vue, Nuxt.js, Nuxt UI, Svelte, Astro, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui, Jetpack Compose, Angular, Laravel, JavaFX, WPF, WinUI, Avalonia, Uno Platform, UWP, Three.js). Use when designing, building, or reviewing UI: pages, components, color schemes, typography, layout, accessibility, animation, or data visualization.",
+      "version": "2.13.0",
+      "homepage": "https://github.com/nyldn/claude-octopus",
+      "author": {
+        "name": "nextlevelbuilder"
+      },
+      "tags": [
+        "ui",
+        "ux",
+        "design",
+        "styles",
+        "typography",
+        "color-palette",
+        "accessibility",
+        "charts",
+        "components"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "vendors/ui-ux-pro-max-skill/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/nyldn.png"
+    },
+    {
+      "name": "unbrowse",
+      "source": {
+        "source": "github",
+        "repo": "unbrowse-ai/unbrowse",
+        "path": "plugins/claude-code",
+        "sha": "7b59dfa95bfb3e2ee9230794a00376cfae43be7f"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Websites as APIs for Claude Code: the hosted Unbrowse MCP (discover, run, scrape, cloud browser, saved logins) plus its skill. Replaces WebFetch, WebSearch and browser MCPs with Unbrowse.",
+      "version": "12.2.0",
+      "displayName": "Unbrowse",
+      "homepage": "https://unbrowse.ai",
+      "author": {
+        "name": "Unbrowse",
+        "url": "https://unbrowse.ai"
+      },
+      "tags": [
+        "browser",
+        "web",
+        "scraping",
+        "mcp",
+        "unbrowse"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/claude-code/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/unbrowse-ai.png"
+    },
+    {
+      "name": "ux-design",
+      "source": {
+        "source": "github",
+        "repo": "wondelai/skills",
+        "path": "plugins/ux-design",
+        "sha": "c172996495bed0fcd26896a9416b2093fd7073f0"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "UX and UI design skills including Refactoring UI, iOS HIG design, usability heuristics, habit-forming product design, behavior design for retention, web typography, award-winning top-design, Steve Jobs-style design reviews, and Don Norman's foundational design principles",
+      "version": "1.8.0",
+      "homepage": "https://github.com/wondelai/skills",
+      "tags": [
+        "ux",
+        "ui",
+        "design",
+        "ios",
+        "hig",
+        "typography",
+        "usability",
+        "refactoring-ui",
+        "hooked",
+        "retention",
+        "behavior-design",
+        "tiny-habits",
+        "steve-jobs",
+        "design-review",
+        "simplicity",
+        "make-it-look-better",
+        "ui-polish",
+        "font-pairing",
+        "microinteractions",
+        "usability-audit"
+      ],
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": "plugins/ux-design/.codex-plugin/plugin.json"
+      },
+      "icon": "https://github.com/wondelai.png"
+    },
+    {
+      "name": "video-recap-skills",
+      "source": {
+        "source": "github",
+        "repo": "zenstory-ai/video-recap-skills",
+        "path": "",
+        "sha": "539168622918e058bd250c793b82f043eced31e0"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Independent stages plus a thin orchestrator for Chinese-narration recaps from supported video files: local Python/ffmpeg; remote Xiaomi MiMo ASR, VLM, and default TTS; optional Fish Audio TTS with a separate API key or a self-hosted HTTP TTS endpoint; final playback review required.",
+      "version": "0.6.2",
+      "homepage": "https://github.com/zenstory-ai/video-recap-skills",
+      "author": {
+        "name": "PiteChen"
+      },
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/zenstory-ai.png"
+    }
+  ]
+}

@@ -1,0 +1,2525 @@
+{
+  "name": "omnimind-ext-anthropic",
+  "description": "OmniMind 公开插件目录：anthropic",
+  "plugins": [
+    {
+      "name": "agent-sdk-dev",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/agent-sdk-dev",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Development kit for working with the Claude Agent SDK",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/agent-sdk-dev",
+      "author": {
+        "name": "Anthropic"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/agent-sdk-dev/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "amazon-location-service",
+      "source": {
+        "source": "github",
+        "repo": "awslabs/agent-plugins",
+        "path": "plugins/amazon-location-service",
+        "sha": "097fe8ad56d8a1d5e2c81d7880adf145553cf244"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Guide developers through adding maps, places search, geocoding, routing, and other geospatial features with Amazon Location Service, including authentication setup, SDK integration, and best practices.",
+      "version": "1.1.0",
+      "homepage": "https://github.com/awslabs/agent-plugins",
+      "author": {
+        "name": "Amazon Web Services"
+      },
+      "tags": [
+        "location",
+        "maps",
+        "geocoding",
+        "routing",
+        "places",
+        "geofencing",
+        "tracking",
+        "amazon-location",
+        "maplibre",
+        "address",
+        "coordinates"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/amazon-location-service/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/awslabs.png"
+    },
+    {
+      "name": "asana",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "external_plugins/asana",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "办公文档",
+      "strict": true,
+      "description": "Asana project management integration. Connects Claude Code to Asana's V2 MCP server to create and manage tasks, search projects, update assignments, and track progress. Requires a one-time Asana OAuth app setup — run /asana-setup after installing.",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/asana",
+      "author": {
+        "name": "Asana"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "external_plugins/asana/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "astronomer-data",
+      "source": {
+        "source": "github",
+        "repo": "astronomer/agents",
+        "path": "",
+        "sha": "cbe1141f547bcf0506babb9778a7696bf15eff66"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Data engineering for Apache Airflow and Astronomer. Author DAGs with best practices, debug pipeline failures, trace data lineage, profile tables, migrate Airflow 2 to 3, and manage local and cloud deployments.",
+      "version": "0.1.0",
+      "homepage": "https://github.com/astronomer/agents",
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": ".claude-plugin/plugin.json",
+        "upstreamName": "astronomer-data-agents"
+      },
+      "icon": "https://github.com/astronomer.png"
+    },
+    {
+      "name": "atlassian",
+      "source": {
+        "source": "github",
+        "repo": "atlassian/atlassian-mcp-server",
+        "path": "",
+        "sha": "eb9a5956a7ac6380c731c725a8382da53ad6d980"
+      },
+      "category": "办公文档",
+      "strict": true,
+      "description": "Connect to Atlassian products including Jira and Confluence. Search and create issues, access documentation, manage sprints, and integrate your development workflow with Atlassian's collaboration tools.",
+      "displayName": "Atlassian MCP",
+      "homepage": "https://github.com/atlassian/atlassian-mcp-server",
+      "author": {
+        "name": "Atlassian"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/atlassian.png"
+    },
+    {
+      "name": "atomic-agents",
+      "source": {
+        "source": "github",
+        "repo": "Eigenwise/atomic-agents",
+        "path": "claude-plugin/atomic-agents",
+        "sha": "33d2ec94f42d4a65393a336e35edf21ee5700303"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Comprehensive development workflow for building AI agents with the Atomic Agents framework. Includes specialized agents for schema design, architecture planning, code review, and tool development. Features guided workflows, progressive-disclosure skills, and best practice validation.",
+      "version": "2.2.0",
+      "homepage": "https://github.com/BrainBlend-AI/atomic-agents",
+      "author": {
+        "name": "Kenny Vaneetvelde"
+      },
+      "tags": [
+        "community-managed"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "claude-plugin/atomic-agents/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/Eigenwise.png"
+    },
+    {
+      "name": "aws-agents",
+      "source": {
+        "source": "github",
+        "repo": "aws/agent-toolkit-for-aws",
+        "path": "plugins/aws-agents",
+        "sha": "0d6167ad2e6dfb858098c4162fe74d04c975532f"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Build, deploy, and operate AI agents on AWS. Skills for scaffolding agents with Amazon Bedrock AgentCore, connecting tools, memory, policies, evaluation, debugging, and production hardening.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/aws/agent-toolkit-for-aws",
+      "author": {
+        "name": "Amazon Web Services"
+      },
+      "tags": [
+        "aws",
+        "amazon",
+        "amazon-web-services",
+        "ai",
+        "ai-agents",
+        "agents",
+        "agentcore",
+        "bedrock",
+        "amazon-bedrock",
+        "iam",
+        "deploy",
+        "debug",
+        "memory",
+        "gateway",
+        "policy",
+        "cedar",
+        "evaluation",
+        "evals",
+        "strands",
+        "langgraph",
+        "mcp",
+        "a2a",
+        "multi-agent",
+        "tool-use",
+        "rag",
+        "vpc",
+        "observability",
+        "cloudwatch",
+        "tracing",
+        "x-ray",
+        "production-hardening",
+        "jwt",
+        "sigv4",
+        "oauth",
+        "openapi",
+        "code-interpreter",
+        "browser-tool",
+        "rate-limiting"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/aws-agents/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/aws.png"
+    },
+    {
+      "name": "aws-agents-for-devsecops",
+      "source": {
+        "source": "github",
+        "repo": "aws/agent-toolkit-for-aws",
+        "path": "plugins/aws-agents-for-devsecops",
+        "sha": "7bde20faede49dd5764c02b54f5e306849f7e3ca"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Investigate incidents, review code and execute UAT for release readiness, scan code for vulnerabilities, and run penetration tests with AWS DevOps Agent and AWS Security Agent.",
+      "version": "1.1.0",
+      "homepage": "https://github.com/aws/agent-toolkit-for-aws",
+      "author": {
+        "name": "Amazon Web Services"
+      },
+      "tags": [
+        "Amazon Web Services",
+        "agentspace",
+        "api-testing",
+        "appsec",
+        "architecture-review",
+        "aws",
+        "cloudwatch",
+        "code-review",
+        "cost-optimization",
+        "devops",
+        "devsecops",
+        "incident",
+        "investigation",
+        "is-my-code-secure",
+        "mcp",
+        "observability",
+        "operations",
+        "penetration-test",
+        "pentest",
+        "pre-merge",
+        "qa",
+        "release",
+        "release-analysis",
+        "release-readiness",
+        "release-testing",
+        "reliability",
+        "remediation",
+        "risk-analysis",
+        "security",
+        "security-scan",
+        "security-vulnerabilities",
+        "testing",
+        "threat-model",
+        "topology",
+        "uat",
+        "ui-testing"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/aws-agents-for-devsecops/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/aws.png"
+    },
+    {
+      "name": "aws-amplify",
+      "source": {
+        "source": "github",
+        "repo": "awslabs/agent-plugins",
+        "path": "plugins/aws-amplify",
+        "sha": "097fe8ad56d8a1d5e2c81d7880adf145553cf244"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Build full-stack apps with AWS Amplify Gen 2 using guided workflows for authentication, data models, storage, GraphQL APIs, and Lambda functions.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/awslabs/agent-plugins",
+      "author": {
+        "name": "Amazon Web Services"
+      },
+      "tags": [
+        "aws",
+        "amplify",
+        "fullstack",
+        "authentication",
+        "data",
+        "storage",
+        "graphql",
+        "functions"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/aws-amplify/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/awslabs.png"
+    },
+    {
+      "name": "aws-core",
+      "source": {
+        "source": "github",
+        "repo": "aws/agent-toolkit-for-aws",
+        "path": "plugins/aws-core",
+        "sha": "34b3eccfd8b619ea0cb4ba04a9be9dfefebd94e7"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Build, deploy, and operate applications on AWS. Skills to author infrastructure-as-code, use core services, and complete common tasks.",
+      "version": "1.1.0",
+      "homepage": "https://github.com/aws/agent-toolkit-for-aws",
+      "author": {
+        "name": "Amazon Web Services"
+      },
+      "tags": [
+        "aws",
+        "amazon",
+        "amazon-web-services",
+        "iam",
+        "bedrock",
+        "amazon-bedrock",
+        "aws-blocks",
+        "billing",
+        "cost-explorer",
+        "cost-optimization",
+        "savings-plans",
+        "compute-optimizer",
+        "cdk",
+        "aws-cdk",
+        "cloudformation",
+        "sam",
+        "serverless",
+        "lambda",
+        "api-gateway",
+        "step-functions",
+        "eventbridge",
+        "containers",
+        "ecs",
+        "fargate",
+        "ecr",
+        "messaging",
+        "streaming",
+        "sqs",
+        "sns",
+        "kinesis",
+        "kinesis-firehose",
+        "msk",
+        "kafka",
+        "flink",
+        "amazon-mq",
+        "observability",
+        "cloudwatch",
+        "logs-insights",
+        "x-ray",
+        "cloudtrail",
+        "adot",
+        "opentelemetry",
+        "sdk",
+        "aws-sdk",
+        "boto3",
+        "aws-sdk-js-v3",
+        "aws-sdk-swift",
+        "knowledge-bases",
+        "rag",
+        "guardrails",
+        "opensearch",
+        "opensearch-serverless",
+        "amazon-opensearch-service",
+        "cognito",
+        "appsync",
+        "dynamodb",
+        "database",
+        "databases",
+        "relational-database",
+        "aurora",
+        "aurora-postgresql",
+        "aurora-mysql",
+        "aurora-dsql",
+        "dsql",
+        "postgres",
+        "postgresql",
+        "mysql",
+        "mariadb",
+        "oracle",
+        "sql-server",
+        "sqlserver",
+        "db2",
+        "rds",
+        "rds-postgresql",
+        "rds-mysql",
+        "rds-mariadb",
+        "rds-oracle",
+        "rds-sqlserver",
+        "rds-db2",
+        "odb",
+        "oracle-database-at-aws",
+        "documentdb",
+        "mongodb",
+        "elasticache",
+        "memorydb",
+        "redis",
+        "valkey",
+        "memcached",
+        "keyspaces",
+        "cassandra",
+        "neptune",
+        "graph-database",
+        "timestream",
+        "time-series",
+        "influxdb",
+        "app-runner",
+        "snapstart",
+        "powertools",
+        "durable-functions",
+        "budgets",
+        "reserved-instances",
+        "right-sizing",
+        "well-architected",
+        "well-architected-framework",
+        "wafr",
+        "architecture-review",
+        "workload-assessment"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/aws-core/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/aws.png"
+    },
+    {
+      "name": "aws-data-analytics",
+      "source": {
+        "source": "github",
+        "repo": "aws/agent-toolkit-for-aws",
+        "path": "plugins/aws-data-analytics",
+        "sha": "0d6167ad2e6dfb858098c4162fe74d04c975532f"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Data lake, analytics, and ETL workflows with S3 Tables, AWS Glue, and Athena.",
+      "version": "1.3.0",
+      "homepage": "https://github.com/aws/agent-toolkit-for-aws",
+      "author": {
+        "name": "Amazon Web Services"
+      },
+      "tags": [
+        "aws",
+        "amazon",
+        "amazon-web-services",
+        "iam",
+        "analytics",
+        "data-lake",
+        "lakehouse",
+        "athena",
+        "glue",
+        "aws-glue",
+        "data-catalog",
+        "s3",
+        "s3-tables",
+        "s3-vectors",
+        "iceberg",
+        "apache-iceberg",
+        "etl",
+        "redshift",
+        "redshift-serverless",
+        "data-warehouse",
+        "snowflake",
+        "bigquery",
+        "rds",
+        "dynamodb",
+        "jdbc",
+        "secrets-manager",
+        "vector-search",
+        "semantic-search",
+        "rag",
+        "embeddings",
+        "vector-database",
+        "aurora",
+        "opensearch",
+        "opensearch-serverless",
+        "amazon-opensearch-service",
+        "elasticsearch",
+        "solr",
+        "hybrid-search",
+        "k-nn",
+        "log-analytics",
+        "trace-analytics",
+        "mwaa",
+        "mwaa-serverless",
+        "amazon-mwaa",
+        "airflow",
+        "apache-airflow",
+        "workflow-orchestration"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/aws-data-analytics/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/aws.png"
+    },
+    {
+      "name": "aws-serverless",
+      "source": {
+        "source": "github",
+        "repo": "awslabs/agent-plugins",
+        "path": "plugins/aws-serverless",
+        "sha": "097fe8ad56d8a1d5e2c81d7880adf145553cf244"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Design, build, deploy, test, and debug serverless applications with AWS Serverless services.",
+      "version": "1.3.0",
+      "homepage": "https://github.com/awslabs/agent-plugins",
+      "author": {
+        "name": "Amazon Web Services"
+      },
+      "tags": [
+        "aws",
+        "lambda",
+        "durable functions",
+        "managed-instances",
+        "lmi",
+        "serverless",
+        "development",
+        "sam",
+        "api-gateway",
+        "eventbridge",
+        "step-functions",
+        "microvms",
+        "firecracker"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/aws-serverless/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/awslabs.png"
+    },
+    {
+      "name": "aws-startup-advisor",
+      "source": {
+        "source": "github",
+        "repo": "aws/agent-toolkit-for-aws",
+        "path": "plugins/aws-startup-advisor",
+        "sha": "613dc216a1cf0836b81a28d7f3a81f2b72034394"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Personalized AWS guidance built on patterns from 350,000+ startups. Get architecture, cost, and security recommendations matched to your stage, from day-one account setup to production-ready infrastructure. Migrate to AWS from Azure, GCP, or Heroku with resource discovery, cost estimates, and generated Terraform. Move OpenAI, Azure OpenAI, and Gemini code to Amazon Bedrock, and plan and prototype AI agents on AgentCore and other AWS runtimes. Includes AWS Activate credits eligibility, 60+ exclusive startup offers, and multi-account, multi-region support. Built by AWS Startup Solutions Architects.",
+      "version": "2.0.2",
+      "homepage": "https://github.com/aws/agent-toolkit-for-aws",
+      "author": {
+        "name": "Amazon Web Services"
+      },
+      "tags": [
+        "aws",
+        "startups",
+        "activate",
+        "knowledge-base",
+        "prompt-library",
+        "gcp",
+        "google-cloud",
+        "migration",
+        "cloud-migration",
+        "terraform",
+        "fargate",
+        "rds",
+        "aurora",
+        "eks",
+        "bedrock",
+        "ai-migration",
+        "openai",
+        "openai-to-bedrock",
+        "langchain",
+        "langgraph",
+        "crewai",
+        "autogen",
+        "agentic",
+        "agents",
+        "llm-migration",
+        "cost-estimation",
+        "heroku",
+        "heroku-to-aws",
+        "move-to-aws",
+        "gemini",
+        "agentcore",
+        "agent-runtime",
+        "llm-to-bedrock",
+        "temporal",
+        "durable-execution",
+        "anthropic",
+        "claude",
+        "gcp-to-aws",
+        "cloud-run",
+        "cloud-sql",
+        "gke",
+        "vertex-ai",
+        "ecs",
+        "lambda",
+        "lambda-microvms",
+        "elastic-beanstalk",
+        "postgres",
+        "redis",
+        "kafka",
+        "elasticache",
+        "msk",
+        "switch-to-aws",
+        "cost-comparison",
+        "pricing-comparison",
+        "cost-optimization",
+        "credits",
+        "architecture",
+        "well-architected",
+        "mvp",
+        "rag",
+        "bedrock-migration",
+        "rewrite-sdk-calls",
+        "deploy-ai-agent",
+        "choose-agent-runtime",
+        "azure",
+        "azure-to-aws",
+        "aks",
+        "app-service",
+        "azure-sql",
+        "cosmos-db",
+        "azure-openai",
+        "entra-id",
+        "blob-storage",
+        "bicep",
+        "arm-template"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/aws-startup-advisor/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/aws.png"
+    },
+    {
+      "name": "aws-transform",
+      "source": {
+        "source": "github",
+        "repo": "awslabs/agent-plugins",
+        "path": "plugins/aws-transform",
+        "sha": "097fe8ad56d8a1d5e2c81d7880adf145553cf244"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Migrate, modernize, and upgrade codebases to AWS. Transforms .NET Framework to .NET 8/10, mainframe COBOL to Java, VMware VMs to EC2, SQL Server to Aurora, and upgrades Java/Python/Node.js versions and AWS SDKs. AWS Transform - continuous modernization analyzes codebases for tech debt, security issues, and upgrade opportunities, then remediates them.",
+      "version": "1.9.0",
+      "homepage": "https://github.com/awslabs/agent-plugins",
+      "author": {
+        "name": "Amazon Web Services"
+      },
+      "tags": [
+        "aws",
+        "aws-transform",
+        "migration",
+        "modernization",
+        "dotnet",
+        "mainframe",
+        "cobol",
+        "vmware",
+        "ec2",
+        "sql-server",
+        "aurora",
+        "java",
+        "python",
+        "sdk",
+        "continuous modernization",
+        "AWS Transform - continuous modernization",
+        "tech debt",
+        "security vulnerabilities",
+        "analyze repos",
+        "security analysis",
+        "modernization analysis",
+        "agentic readiness"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/aws-transform/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/awslabs.png"
+    },
+    {
+      "name": "azure",
+      "source": {
+        "source": "github",
+        "repo": "microsoft/azure-skills",
+        "path": "",
+        "sha": "5b4f0c0778079a2f568581107f23349ce9a0a9b2"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Transform Claude into an Azure expert. This plugin integrates the Azure MCP server and specialized Azure skills to move beyond generic advice. It enables Claude to perform real-world tasks: listing resources, validating deployments, diagnosing infrastructure issues, and optimizing costs across 50+ Azure services.",
+      "version": "1.2.50",
+      "homepage": "https://github.com/microsoft/azure-skills",
+      "author": {
+        "name": "Microsoft",
+        "url": "https://www.microsoft.com"
+      },
+      "tags": [
+        "azure",
+        "cloud",
+        "infrastructure",
+        "deployment",
+        "microsoft",
+        "devops",
+        "foundry",
+        "diagnostics"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/microsoft.png"
+    },
+    {
+      "name": "chrome-devtools-mcp",
+      "source": {
+        "source": "github",
+        "repo": "ChromeDevTools/chrome-devtools-mcp",
+        "path": "",
+        "sha": "1cec9cd1a3bbf1895c98fa4b4e0e2da5a36e4075"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Control and inspect a live Chrome browser from your coding agent. Record performance traces, analyze network requests, check console messages with source-mapped stack traces, and automate browser actions with Puppeteer.",
+      "version": "1.9.0",
+      "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/ChromeDevTools.png"
+    },
+    {
+      "name": "claude-code-setup",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/claude-code-setup",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "办公文档",
+      "strict": true,
+      "description": "Analyze codebases and recommend tailored Claude Code automations such as hooks, skills, MCP servers, and subagents.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-code-setup",
+      "author": {
+        "name": "Anthropic"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/claude-code-setup/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "claude-md-management",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/claude-md-management",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "办公文档",
+      "strict": true,
+      "description": "Tools to maintain and improve CLAUDE.md files - audit quality, capture session learnings, and keep project memory current.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-md-management",
+      "author": {
+        "name": "Anthropic"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/claude-md-management/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "claude-security",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/claude-security",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Deep vulnerability scanning of your own code, run entirely inside your Claude Code session at a chosen effort tier, with every finding challenged before it is reported and the verification tally computed in code. Turns surviving findings into targeted patches, each verified by a panel of agents, that you apply when you choose.",
+      "version": "0.12.0",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-security",
+      "author": {
+        "name": "Anthropic"
+      },
+      "tags": [
+        "security",
+        "vulnerability",
+        "scan",
+        "audit",
+        "appsec",
+        "code-review",
+        "remediation",
+        "autofix"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/claude-security/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "clickhouse-best-practices",
+      "source": {
+        "source": "github",
+        "repo": "ClickHouse/agent-skills",
+        "path": "",
+        "sha": "2f6ec4b17a81a435dd116f9ac19d7b45d44dbd61"
+      },
+      "category": "数据分析",
+      "strict": true,
+      "description": "28 best practice rules for ClickHouse schema design, query optimization, and data ingestion — prioritized by impact",
+      "version": "0.3.0",
+      "homepage": "https://clickhouse.com",
+      "author": {
+        "name": "ClickHouse Inc"
+      },
+      "tags": [
+        "clickhouse",
+        "database",
+        "query-optimization",
+        "schema-design",
+        "best-practices",
+        "data-ingestion"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/ClickHouse.png"
+    },
+    {
+      "name": "cloudflare",
+      "source": {
+        "source": "github",
+        "repo": "cloudflare/skills",
+        "path": "",
+        "sha": "b052c32bab7dd493513260228a36c88294f343f1"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Skills for the Cloudflare developer platform: Workers, Durable Objects, Agents SDK, MCP servers, Wrangler CLI, and web performance.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/cloudflare/skills",
+      "author": {
+        "name": "Cloudflare"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/cloudflare.png"
+    },
+    {
+      "name": "code-modernization",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/code-modernization",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Guided modernization for any legacy codebase: start with /modernize, get an assessment, an interactive map, the business rules mined from the code, and a plan you approve, then an upgrade, a rewrite or a rebuild with independent proof that the new code behaves like the old. Includes security hardening, a one-page report, specialist agents, and an optional live progress pane (early access).",
+      "version": "1.0.0",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization",
+      "author": {
+        "name": "Anthropic"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/code-modernization/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "code-review",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/code-review",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "办公文档",
+      "strict": true,
+      "description": "Automated code review for pull requests using multiple specialized agents with confidence-based scoring to filter false positives",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/code-review",
+      "author": {
+        "name": "Anthropic"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/code-review/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "code-simplifier",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/code-simplifier",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "办公文档",
+      "strict": true,
+      "description": "Agent that simplifies and refines code for clarity, consistency, and maintainability while preserving functionality. Focuses on recently modified code.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier",
+      "author": {
+        "name": "Anthropic"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/code-simplifier/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "commit-commands",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/commit-commands",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "办公文档",
+      "strict": true,
+      "description": "Commands for git commit workflows including commit, push, and PR creation",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/commit-commands",
+      "author": {
+        "name": "Anthropic"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/commit-commands/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "context7",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "external_plugins/context7",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Upstash Context7 MCP server for up-to-date documentation lookup. Connects to Context7's hosted remote MCP server (https://mcp.context7.com/mcp) — no local Node.js or npx required — to pull version-specific documentation and code examples directly from source repositories into your LLM context. Works anonymously out of the box; set CONTEXT7_API_KEY for higher rate limits.",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/context7",
+      "author": {
+        "name": "Upstash"
+      },
+      "tags": [
+        "community-managed"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "external_plugins/context7/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "cwc-makers",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/cwc-makers",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "办公文档",
+      "strict": true,
+      "description": "Onboard a Code-with-Claude Makers Cardputer with one /maker-setup command — clones the build-with-claude repo, flashes UIFlow firmware, and installs the Claude Buddy app bundle.",
+      "version": "1.0.0",
+      "homepage": "https://claude.com/cwc-makers",
+      "author": {
+        "name": "Anthropic"
+      },
+      "tags": [
+        "cardputer",
+        "m5stack",
+        "esp32",
+        "hardware",
+        "maker",
+        "onboarding",
+        "cwc"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/cwc-makers/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "databases-on-aws",
+      "source": {
+        "source": "github",
+        "repo": "awslabs/agent-plugins",
+        "path": "plugins/databases-on-aws",
+        "sha": "097fe8ad56d8a1d5e2c81d7880adf145553cf244"
+      },
+      "category": "数据分析",
+      "strict": true,
+      "description": "Expert database guidance for the AWS database portfolio. Design schemas, execute queries, handle migrations, and choose the right database for your workload.",
+      "version": "1.9.0",
+      "homepage": "https://github.com/awslabs/agent-plugins",
+      "author": {
+        "name": "Amazon Web Services"
+      },
+      "tags": [
+        "aws",
+        "aurora",
+        "database",
+        "databases",
+        "distributed-sql",
+        "dsql",
+        "iam-auth",
+        "migration",
+        "postgresql",
+        "postgres",
+        "schema",
+        "serverless",
+        "sql"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/databases-on-aws/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/awslabs.png"
+    },
+    {
+      "name": "deepeval",
+      "source": {
+        "source": "github",
+        "repo": "confident-ai/deepeval",
+        "path": "",
+        "sha": "c144abbce848a6dfbd35bbdaaab49a62bb3fb7b6"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Skills for adding DeepEval evaluations, tracing, datasets, Confident AI reports, and iterative improvement loops to AI applications.",
+      "version": "1.0.0",
+      "displayName": "DeepEval",
+      "homepage": "https://github.com/confident-ai/deepeval",
+      "author": {
+        "name": "Confident AI"
+      },
+      "tags": [
+        "deepeval",
+        "llm",
+        "evaluation",
+        "tracing",
+        "datasets",
+        "confident-ai"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/confident-ai.png"
+    },
+    {
+      "name": "deploy-on-aws",
+      "source": {
+        "source": "github",
+        "repo": "awslabs/agent-plugins",
+        "path": "plugins/deploy-on-aws",
+        "sha": "097fe8ad56d8a1d5e2c81d7880adf145553cf244"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Deploy applications to AWS with architecture recommendations, cost estimates, and IaC deployment.",
+      "version": "1.3.0",
+      "homepage": "https://github.com/awslabs/agent-plugins",
+      "author": {
+        "name": "Amazon Web Services"
+      },
+      "tags": [
+        "aws",
+        "deploy",
+        "infrastructure",
+        "cdk",
+        "cloudformation",
+        "pricing",
+        "diagrams",
+        "draw.io",
+        "architecture"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/deploy-on-aws/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/awslabs.png"
+    },
+    {
+      "name": "desktop-commander",
+      "source": {
+        "source": "github",
+        "repo": "wonderwhy-er/DesktopCommanderMCP",
+        "path": "plugins/claude",
+        "sha": "75048278f4866f0d8bde26f6f9aa3b8d39dca870"
+      },
+      "category": "办公文档",
+      "strict": true,
+      "description": "MCP server for terminal commands, process management, and file operations across text, code, PDF, DOCX, Excel, images, and structured data.",
+      "version": "0.2.0",
+      "displayName": "Desktop Commander",
+      "homepage": "https://desktopcommander.app",
+      "author": {
+        "name": "Desktop Commander"
+      },
+      "tags": [
+        "shell",
+        "terminal",
+        "filesystem",
+        "process",
+        "documents",
+        "pdf",
+        "spreadsheet",
+        "desktop-commander"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/claude/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/wonderwhy-er.png"
+    },
+    {
+      "name": "discord",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "external_plugins/discord",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "办公文档",
+      "strict": true,
+      "description": "Discord messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /discord:access.",
+      "version": "0.0.4",
+      "homepage": "https://github.com/anthropics/claude-plugins-official",
+      "tags": [
+        "discord",
+        "messaging",
+        "channel",
+        "mcp"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "external_plugins/discord/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "duckdb-skills",
+      "source": {
+        "source": "github",
+        "repo": "duckdb/duckdb-skills",
+        "path": "",
+        "sha": "7feda8e01e22bc0886c86123f3884947e36d8c69"
+      },
+      "category": "数据分析",
+      "strict": true,
+      "description": "DuckDB-powered skills for Claude Code: read any data file, attach and query DuckDB databases, search DuckDB/DuckLake docs, search past session logs, and install/update DuckDB extensions.",
+      "version": "0.2.4",
+      "homepage": "https://duckdb.org",
+      "author": {
+        "name": "DuckDB Foundation"
+      },
+      "tags": [
+        "duckdb",
+        "ducklake",
+        "parquet",
+        "csv",
+        "json",
+        "avro",
+        "excel",
+        "iceberg",
+        "delta",
+        "read-file",
+        "read-memories",
+        "duckdb-docs",
+        "data-exploration",
+        "session-logs",
+        "query",
+        "sql",
+        "attach-db"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/duckdb.png"
+    },
+    {
+      "name": "exa",
+      "source": {
+        "source": "github",
+        "repo": "exa-labs/exa-mcp-server",
+        "path": "",
+        "sha": "15ffb50519e719dc791cdc750ce5ed1934c0a1ed"
+      },
+      "category": "办公文档",
+      "strict": true,
+      "description": "Exa AI web search, deep research, and content extraction. Provides MCP tools and research skills for comprehensive web search, people discovery, company research, academic papers, and more.",
+      "version": "3.4.1",
+      "homepage": "https://exa.ai/docs/reference/exa-mcp",
+      "author": {
+        "name": "Exa"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/exa-labs.png"
+    },
+    {
+      "name": "explanatory-output-style",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/explanatory-output-style",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "科学研究",
+      "strict": true,
+      "description": "Adds educational insights about implementation choices and codebase patterns (mimics the deprecated Explanatory output style)",
+      "version": "1.0.0",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/explanatory-output-style",
+      "author": {
+        "name": "Anthropic"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/explanatory-output-style/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "expo",
+      "source": {
+        "source": "github",
+        "repo": "expo/skills",
+        "path": "plugins/expo",
+        "sha": "cd752143d19e5a9aa71b4aaaf1cfc59226c77d6a"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Official Expo skills for building, deploying, upgrading, and debugging React Native apps with Expo. Covers UI development with Expo Router, SwiftUI and Jetpack Compose components, Tailwind CSS setup, API routes, data fetching, CI/CD workflows, App Store and Play Store deployment, SDK upgrades, DOM components, and dev client distribution.",
+      "version": "1.13.6",
+      "homepage": "https://github.com/expo/skills/blob/main/plugins/expo/README.md",
+      "author": {
+        "name": "Expo Team"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/expo/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/expo.png"
+    },
+    {
+      "name": "fakechat",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "external_plugins/fakechat",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Localhost web chat for testing the channel notification flow. No tokens, no access control, no third-party service.",
+      "version": "0.0.1",
+      "homepage": "https://github.com/anthropics/claude-plugins-official",
+      "tags": [
+        "fakechat",
+        "web",
+        "localhost",
+        "testing",
+        "channel",
+        "mcp"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "external_plugins/fakechat/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "feature-dev",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/feature-dev",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Comprehensive feature development workflow with specialized agents for codebase exploration, architecture design, and quality review",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/feature-dev",
+      "author": {
+        "name": "Anthropic"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/feature-dev/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "figma",
+      "source": {
+        "source": "github",
+        "repo": "figma/mcp-server-guide",
+        "path": "",
+        "sha": "f0493295acf5f7cbdebcbcc483c06de814420cb1"
+      },
+      "category": "设计创作",
+      "strict": true,
+      "description": "Figma design platform integration. Access design files, extract component information, read design tokens, and translate designs into code. Bridge the gap between design and development workflows.",
+      "version": "2.2.127",
+      "homepage": "https://github.com/figma/mcp-server-guide",
+      "author": {
+        "name": "Figma"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/figma.png"
+    },
+    {
+      "name": "firebase",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "external_plugins/firebase",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "数据分析",
+      "strict": true,
+      "description": "Google Firebase MCP integration. Manage Firestore databases, authentication, cloud functions, hosting, and storage. Build and manage your Firebase backend directly from your development workflow.",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/firebase",
+      "author": {
+        "name": "Google"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "external_plugins/firebase/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "frontend-design",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/frontend-design",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Generates creative, polished code that avoids generic AI aesthetics.",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/frontend-design",
+      "author": {
+        "name": "Anthropic"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/frontend-design/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "github",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "external_plugins/github",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "办公文档",
+      "strict": true,
+      "description": "Official GitHub MCP server for repository management. Create issues, manage pull requests, review code, search repositories, and interact with GitHub's full API directly from Claude Code.",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/github",
+      "author": {
+        "name": "GitHub"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "external_plugins/github/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "gitlab",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "external_plugins/gitlab",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "办公文档",
+      "strict": true,
+      "description": "GitLab DevOps platform integration. Manage repositories, merge requests, CI/CD pipelines, issues, and wikis. Full access to GitLab's comprehensive DevOps lifecycle tools.",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/gitlab",
+      "author": {
+        "name": "GitLab"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "external_plugins/gitlab/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "hookify",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/hookify",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "办公文档",
+      "strict": true,
+      "description": "Easily create custom hooks to prevent unwanted behaviors by analyzing conversation patterns or from explicit instructions. Define rules via simple markdown files.",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/hookify",
+      "author": {
+        "name": "Anthropic"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/hookify/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "huggingface-skills",
+      "source": {
+        "source": "github",
+        "repo": "huggingface/skills",
+        "path": "",
+        "sha": "abc20ae526d8b4c0e4dff89f904adce28a4a0eb6"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Build, train, evaluate, and use open source AI models, datasets, and spaces.",
+      "version": "1.0.29",
+      "homepage": "https://github.com/huggingface/skills.git",
+      "author": {
+        "name": "Hugging Face"
+      },
+      "tags": [
+        "huggingface",
+        "machine-learning",
+        "hub",
+        "cli",
+        "skills",
+        "jobs",
+        "llm"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/huggingface.png"
+    },
+    {
+      "name": "hyperframes",
+      "source": {
+        "source": "github",
+        "repo": "heygen-com/hyperframes",
+        "path": "",
+        "sha": "8d2b6e7bdc1c2c26d1abf64ef075c00a1bb230a2"
+      },
+      "category": "设计创作",
+      "strict": true,
+      "description": "HyperFrames by HeyGen. Write HTML, render video. Compositions, GSAP and runtime adapter animations, captions, voiceovers, audio-reactive visuals, and website-to-video capture for HyperFrames.",
+      "version": "0.8.61",
+      "homepage": "https://hyperframes.heygen.com",
+      "author": {
+        "name": "HeyGen"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/heygen-com.png"
+    },
+    {
+      "name": "imessage",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "external_plugins/imessage",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "办公文档",
+      "strict": true,
+      "description": "iMessage messaging bridge with built-in access control. Reads chat.db directly, sends via AppleScript. Manage pairing, allowlists, and policy via /imessage:access.",
+      "version": "0.2.0",
+      "homepage": "https://github.com/anthropics/claude-plugins-official",
+      "tags": [
+        "imessage",
+        "messaging",
+        "channel",
+        "mcp"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "external_plugins/imessage/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "laravel-boost",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "external_plugins/laravel-boost",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Laravel development toolkit MCP server. Provides intelligent assistance for Laravel applications including Artisan commands, Eloquent queries, routing, migrations, and framework-specific code generation.",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/laravel-boost",
+      "author": {
+        "name": "Laravel"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "external_plugins/laravel-boost/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "learning-output-style",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/learning-output-style",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "科学研究",
+      "strict": true,
+      "description": "Interactive learning mode that requests meaningful code contributions at decision points (mimics the unshipped Learning output style)",
+      "version": "1.0.0",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/learning-output-style",
+      "author": {
+        "name": "Anthropic"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/learning-output-style/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "linear",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "external_plugins/linear",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "办公文档",
+      "strict": true,
+      "description": "Linear issue tracking integration. Create issues, manage projects, update statuses, search across workspaces, and streamline your software development workflow with Linear's modern issue tracker.",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/linear",
+      "author": {
+        "name": "Linear"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "external_plugins/linear/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "math-olympiad",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/math-olympiad",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "科学研究",
+      "strict": true,
+      "description": "Solve competition math (IMO, Putnam, USAMO) with adversarial verification that catches what self-verification misses. Fresh-context verifiers attack proofs with specific failure patterns. Calibrated abstention over bluffing.",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/math-olympiad",
+      "author": {
+        "name": "Anthropic"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/math-olympiad/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "math-proof",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/math-proof",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "科学研究",
+      "strict": true,
+      "description": "Two skills for hard mathematics problems, each ending in a self-contained proof.md: /math-proof:solo has the session work the problem itself in stages with a notes file; /math-proof:siege works on it for hours in rounds of judge and worker sub-agents and says plainly what is and is not proved.",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/math-proof",
+      "author": {
+        "name": "Anthropic"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/math-proof/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "mattpocock-skills",
+      "source": {
+        "source": "github",
+        "repo": "mattpocock/skills",
+        "path": "",
+        "sha": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Matt Pocock's agent skills for real engineering — grilling, spec/ticket flows, TDD, code review, domain modelling and more. Plug-and-play, not vibe coding.",
+      "version": "1.2.3",
+      "homepage": "https://github.com/mattpocock/skills",
+      "author": {
+        "name": "Matt Pocock"
+      },
+      "tags": [
+        "engineering",
+        "skills",
+        "tdd",
+        "code-review",
+        "grilling",
+        "domain-modeling",
+        "productivity"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/mattpocock.png"
+    },
+    {
+      "name": "mcp-apps",
+      "source": {
+        "source": "github",
+        "repo": "modelcontextprotocol/ext-apps",
+        "path": "plugins/mcp-apps",
+        "sha": "6d9bdc7babf275b759225aa722cbf5510c4c6021"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Skills for creating MCP Apps with the MCP Apps SDK",
+      "version": "0.1.0",
+      "homepage": "https://modelcontextprotocol.io",
+      "author": {
+        "name": "Anthropic / Model Context Protocol"
+      },
+      "tags": [
+        "mcp",
+        "mcp-apps",
+        "model-context-protocol",
+        "ui",
+        "interactive"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/mcp-apps/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/modelcontextprotocol.png"
+    },
+    {
+      "name": "mcp-server-dev",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/mcp-server-dev",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Skills for designing and building MCP servers that work seamlessly with Claude. Guides you through deployment models (remote HTTP, MCPB, local), tool design patterns, auth, and interactive MCP apps.",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/mcp-server-dev",
+      "author": {
+        "name": "Anthropic"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/mcp-server-dev/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "mcp-tunnels",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/mcp-tunnels",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Connect Claude to a private MCP server through an Anthropic MCP tunnel. The /create-docker-mcp-tunnel command drives the Docker Compose quickstart end to end: certificates, proxy config, cloudflared, and a verifiable sample server.",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/mcp-tunnels",
+      "author": {
+        "name": "Anthropic"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/mcp-tunnels/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "microsoft-docs",
+      "source": {
+        "source": "github",
+        "repo": "MicrosoftDocs/mcp",
+        "path": "",
+        "sha": "f8ffde185dfd232dbf5d187c22ce299eadc3d583"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Access official Microsoft documentation, API references, and code samples for Azure, .NET, Windows, and more.",
+      "version": "0.3.1",
+      "homepage": "https://github.com/microsoftdocs/mcp",
+      "author": {
+        "name": "Microsoft"
+      },
+      "tags": [
+        "microsoft",
+        "docs",
+        "azure",
+        ".net",
+        "windows",
+        "api",
+        "documentation",
+        "rag",
+        "dynamics",
+        "powerbi",
+        "office"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/MicrosoftDocs.png"
+    },
+    {
+      "name": "modern-web-guidance",
+      "source": {
+        "source": "github",
+        "repo": "GoogleChrome/modern-web-guidance",
+        "path": "",
+        "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "version": "0.0.190",
+      "homepage": "https://goo.gle/modern-web-guidance",
+      "author": {
+        "name": "Google Chrome"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/GoogleChrome.png"
+    },
+    {
+      "name": "monday-crm",
+      "source": {
+        "source": "github",
+        "repo": "mondaycom/mcp",
+        "path": "plugins/monday-crm",
+        "sha": "8fdc0b4af07a4b7e1059ca3f8320d64968737b8e"
+      },
+      "category": "办公文档",
+      "strict": true,
+      "description": "Run your monday CRM in plain language. Build a pipeline from scratch, start the day with a ranked deal briefing, spin up a forecast dashboard, audit board health, clean up messy data in bulk, and turn meeting notes into deal updates. Every skill writes back into monday as a real update, doc, or dashboard. Built on the official monday MCP connector.",
+      "version": "0.5.0",
+      "displayName": "monday CRM",
+      "homepage": "https://monday.com",
+      "author": {
+        "name": "monday.com"
+      },
+      "tags": [
+        "monday",
+        "monday-crm",
+        "crm",
+        "sales",
+        "pipeline",
+        "forecast",
+        "daily-briefing",
+        "meeting-to-deal",
+        "data-cleanup",
+        "workspace-builder",
+        "sequence",
+        "automation",
+        "activity",
+        "timeline",
+        "activity-insights"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/monday-crm/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/mondaycom.png"
+    },
+    {
+      "name": "nvidia-skills",
+      "source": {
+        "source": "github",
+        "repo": "NVIDIA/skills",
+        "path": "plugins/nvidia-skills",
+        "sha": "8c2a4ca03c385b80f9e6cd624007d56a19d14e81"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Find the right NVIDIA skill for GPU acceleration, CUDA, AI agents, data loading, training, inference, robotics, Physical AI, Omniverse, simulation, and other NVIDIA-powered workflows.",
+      "version": "1.4.0",
+      "displayName": "NVIDIA Skills",
+      "homepage": "https://build.nvidia.com/skills/",
+      "author": {
+        "name": "NVIDIA"
+      },
+      "tags": [
+        "nvidia",
+        "gpu",
+        "cuda",
+        "ai-agents",
+        "data-loading",
+        "training",
+        "inference",
+        "llm-serving",
+        "robotics",
+        "simulation",
+        "omniverse",
+        "openusd",
+        "digital-twin",
+        "physical-ai",
+        "cad"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/nvidia-skills/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/NVIDIA.png"
+    },
+    {
+      "name": "outputai",
+      "source": {
+        "source": "github",
+        "repo": "growthxai/output",
+        "path": "coding_assistants/claude/plugins/outputai",
+        "sha": "a4f6bd40ab0e3a51f524c1dc07524f33fe6999ad"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Output.ai workflow development toolkit for Claude Code. Adds 5 specialist agents (planner, builder, debugger, prompt writer, quality reviewer), 40+ slash-command skills covering scaffolding, debugging, evaluation, and credential management, plus a SessionStart hook that auto-loads Output SDK conventions so Claude understands the framework before the first prompt.",
+      "version": "0.3.0",
+      "homepage": "https://output.ai",
+      "author": {
+        "name": "Output.ai"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "coding_assistants/claude/plugins/outputai/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/growthxai.png"
+    },
+    {
+      "name": "playground",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/playground",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Creates interactive HTML playgrounds — self-contained single-file explorers with visual controls, live preview, and prompt output with copy button. Includes templates for design playgrounds, data explorers, concept maps, and document critique.",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/playground",
+      "author": {
+        "name": "Anthropic"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/playground/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "playwright",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "external_plugins/playwright",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Browser automation and end-to-end testing MCP server by Microsoft. Enables Claude to interact with web pages, take screenshots, fill forms, click elements, and perform automated browser testing workflows.",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/playwright",
+      "author": {
+        "name": "Microsoft"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "external_plugins/playwright/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "plugin-dev",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/plugin-dev",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Comprehensive toolkit for developing Claude Code plugins. Includes 7 expert skills covering hooks, MCP integration, commands, agents, and best practices. AI-assisted plugin creation and validation.",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/plugin-dev",
+      "author": {
+        "name": "Anthropic"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/plugin-dev/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "postiz",
+      "source": {
+        "source": "github",
+        "repo": "gitroomhq/postiz-agent",
+        "path": "",
+        "sha": "8d431747a895da7ed9b38df8b3d4de180dcf682e"
+      },
+      "category": "应用增强",
+      "strict": true,
+      "description": "Social media automation CLI for scheduling posts, managing integrations, uploading media, and tracking analytics across 28+ platforms including X, LinkedIn, Reddit, YouTube, TikTok, Instagram, and more",
+      "version": "2.0.19",
+      "homepage": "https://postiz.com/agent",
+      "author": {
+        "name": "Nevo David",
+        "url": "https://github.com/nevo-david"
+      },
+      "tags": [
+        "postiz",
+        "social-media",
+        "scheduling",
+        "automation",
+        "ai-agent",
+        "twitter",
+        "linkedin",
+        "facebook",
+        "instagram",
+        "tiktok",
+        "youtube",
+        "reddit"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/gitroomhq.png"
+    },
+    {
+      "name": "pr-review-toolkit",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/pr-review-toolkit",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "办公文档",
+      "strict": true,
+      "description": "Comprehensive PR review agents specializing in comments, tests, error handling, type design, code quality, and code simplification",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/pr-review-toolkit",
+      "author": {
+        "name": "Anthropic"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/pr-review-toolkit/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "project-artifact",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/project-artifact",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "办公文档",
+      "strict": true,
+      "description": "Generate and publish a living project status page — overview & success criteria, the workstream sequence, and next steps — as a shareable claude.ai artifact backed by a per-project config, so refreshes re-gather live state, redeploy the same URL, and report only the delta.",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/project-artifact",
+      "author": {
+        "name": "Anthropic"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/project-artifact/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "qt-development-skills",
+      "source": {
+        "source": "github",
+        "repo": "TheQtCompanyRnD/agent-skills",
+        "path": "",
+        "sha": "71d6c10da78b9a764468ae11c86ab3bc4ca4921f"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Agentic engineering skills for Qt software development — Qt C++/QML code review, QML coding, and Qt C++/QML code documentation.",
+      "version": "1.6.1",
+      "homepage": "https://www.qt.io/",
+      "author": {
+        "name": "Qt Group"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/TheQtCompanyRnD.png"
+    },
+    {
+      "name": "ralph-loop",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/ralph-loop",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Interactive self-referential AI loops for iterative development, implementing the Ralph Wiggum technique. Claude works on the same task repeatedly, seeing its previous work, until completion.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/ralph-loop",
+      "author": {
+        "name": "Anthropic"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/ralph-loop/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "sagemaker-ai",
+      "source": {
+        "source": "github",
+        "repo": "awslabs/agent-plugins",
+        "path": "plugins/sagemaker-ai",
+        "sha": "097fe8ad56d8a1d5e2c81d7880adf145553cf244"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Build, train, and deploy AI models with deep AWS AI/ML expertise brought directly into your coding assistants, covering the surface area of Amazon SageMaker AI.",
+      "version": "1.3.0",
+      "homepage": "https://github.com/awslabs/agent-plugins",
+      "author": {
+        "name": "Amazon Web Services"
+      },
+      "tags": [
+        "sagemaker",
+        "machine-learning",
+        "generative-ai",
+        "fine-tuning",
+        "training",
+        "deployment",
+        "inference",
+        "mlops",
+        "aws"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/sagemaker-ai/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/awslabs.png"
+    },
+    {
+      "name": "salesforce-development",
+      "source": {
+        "source": "github",
+        "repo": "forcedotcom/sf-skills",
+        "path": "plugins/builder/salesforce-development",
+        "sha": "3c15867bdb9dacd515960174c661c706d041bb63"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Build Salesforce apps and agents using these core building blocks: metadata, Apex, deploy/retrieve, security, reporting, and generated installed-versus-available capability discovery.",
+      "version": "2.3.0",
+      "displayName": "Salesforce Development",
+      "homepage": "https://github.com/forcedotcom/sf-skills/tree/main/plugins/builder/salesforce-development",
+      "author": {
+        "name": "Salesforce"
+      },
+      "tags": [
+        "salesforce",
+        "apex",
+        "flow",
+        "soql",
+        "metadata",
+        "deploy"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/builder/salesforce-development/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/forcedotcom.png"
+    },
+    {
+      "name": "save-to-spotify",
+      "source": {
+        "source": "github",
+        "repo": "spotify/save-to-spotify",
+        "path": "plugin",
+        "sha": "9d05c8cd8c8559552f84e27fe30f46b7693ce69a"
+      },
+      "category": "办公文档",
+      "strict": true,
+      "description": "Create polished audio episodes with TTS narration, rich timelines, cover images, and save them to Spotify via the save-to-spotify CLI.",
+      "version": "0.2.0",
+      "homepage": "https://github.com/spotify/save-to-spotify",
+      "author": {
+        "name": "Spotify"
+      },
+      "tags": [
+        "spotify",
+        "audio",
+        "podcast",
+        "tts",
+        "timeline",
+        "save-to-spotify"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugin/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/spotify.png"
+    },
+    {
+      "name": "security-guidance",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/security-guidance",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Security review for Claude-generated code. Pattern-based warnings on edits, LLM-powered diff review on Stop, and an agentic commit reviewer that catches injection, XSS, SSRF, hardcoded secrets, and 25+ other vulnerability classes.",
+      "version": "2.0.12",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance",
+      "author": {
+        "name": "Anthropic"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/security-guidance/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "serena",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "external_plugins/serena",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Semantic code analysis MCP server providing intelligent code understanding, refactoring suggestions, and codebase navigation through language server protocol integration.",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/serena",
+      "author": {
+        "name": "Oraios"
+      },
+      "tags": [
+        "community-managed"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "external_plugins/serena/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "shopify-plugin",
+      "source": {
+        "source": "github",
+        "repo": "Shopify/Shopify-AI-Toolkit",
+        "path": "",
+        "sha": "57e293be70c7b754429b392e054105272433729d"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Shopify's AI Toolkit provides 18 development skills for building on the Shopify platform, covering documentation search, API schema access, GraphQL and Liquid code validation, Hydrogen storefronts, Polaris UI extensions, store management via CLI, and onboarding guidance for both developers and merchants.",
+      "version": "1.8.4",
+      "homepage": "https://shopify.dev",
+      "author": {
+        "name": "Shopify"
+      },
+      "tags": [
+        "shopify",
+        "mcp",
+        "graphql",
+        "liquid",
+        "storefront",
+        "admin-api"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": ".claude-plugin/plugin.json",
+        "upstreamName": "shopify-ai-toolkit"
+      },
+      "icon": "https://github.com/Shopify.png"
+    },
+    {
+      "name": "skill-creator",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/skill-creator",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Create new skills, improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, update or optimize an existing skill, run evals to test a skill, or benchmark skill performance with variance analysis.",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/skill-creator",
+      "author": {
+        "name": "Anthropic"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/skill-creator/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "stripe",
+      "source": {
+        "source": "github",
+        "repo": "stripe/ai",
+        "path": "providers/claude/plugin",
+        "sha": "97b2164821c378f246c3903852057b36a8bd0296"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Stripe development plugin for Claude",
+      "version": "0.10.3",
+      "homepage": "https://github.com/stripe/ai/tree/main/providers/claude/plugin",
+      "author": {
+        "name": "Stripe",
+        "url": "https://stripe.com"
+      },
+      "tags": [
+        "stripe",
+        "payments",
+        "webhooks",
+        "api",
+        "security"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "providers/claude/plugin/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/stripe.png"
+    },
+    {
+      "name": "superdesign",
+      "source": {
+        "source": "github",
+        "repo": "superdesigndev/superdesign-skill",
+        "path": "",
+        "sha": "f9f05cd988c247dce6c072eaf9ac6b162f2ffc4b"
+      },
+      "category": "设计创作",
+      "strict": true,
+      "description": "Design or redesign frontend UI and marketing graphics on the Superdesign infinite canvas. Reads your codebase for context, sets up a design system, and generates branchable design drafts you refine.",
+      "version": "0.6.0",
+      "displayName": "Superdesign",
+      "homepage": "https://superdesign.dev",
+      "author": {
+        "name": "Superdesign dev, Inc."
+      },
+      "tags": [
+        "design",
+        "ui-design",
+        "web-design",
+        "landing-pages",
+        "dashboards",
+        "wireframes",
+        "mockups",
+        "prototyping",
+        "design-systems",
+        "branding",
+        "graphics",
+        "posters",
+        "presentations",
+        "slide-decks",
+        "image-generation",
+        "infinite-canvas",
+        "design-drafts"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/superdesigndev.png"
+    },
+    {
+      "name": "superpowers",
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers",
+        "path": "",
+        "sha": "5bf4e78011075bcfc0dc295f0724994cd123ee71"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Superpowers teaches Claude brainstorming, subagent driven development with built in code review, systematic debugging, and red/green TDD. Additionally, it teaches Claude how to author and test new skills.",
+      "version": "6.4.1",
+      "homepage": "https://github.com/obra/superpowers.git",
+      "author": {
+        "name": "Jesse Vincent"
+      },
+      "tags": [
+        "skills",
+        "tdd",
+        "debugging",
+        "collaboration",
+        "best-practices",
+        "workflows"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/obra.png"
+    },
+    {
+      "name": "tavily",
+      "source": {
+        "source": "github",
+        "repo": "tavily-ai/skills",
+        "path": "",
+        "sha": "778122e5f9c680f541eeceda5a5b36405eb7980c"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Build AI applications with real-time web data using Tavily's search, extract, crawl, and research APIs.",
+      "version": "1.0.0",
+      "homepage": "https://www.tavily.com/",
+      "author": {
+        "name": "Tavily Team"
+      },
+      "tags": [
+        "search",
+        "web-search",
+        "rag",
+        "agents",
+        "llm",
+        "research",
+        "crawl",
+        "extract"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/tavily-ai.png"
+    },
+    {
+      "name": "telegram",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "external_plugins/telegram",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "办公文档",
+      "strict": true,
+      "description": "Telegram messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /telegram:access.",
+      "version": "0.0.7",
+      "homepage": "https://github.com/anthropics/claude-plugins-official",
+      "tags": [
+        "telegram",
+        "messaging",
+        "channel",
+        "mcp"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "external_plugins/telegram/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "terraform",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "external_plugins/terraform",
+        "sha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development.",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/terraform",
+      "author": {
+        "name": "HashiCorp"
+      },
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "external_plugins/terraform/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/anthropics.png"
+    },
+    {
+      "name": "unity",
+      "source": {
+        "source": "github",
+        "repo": "Unity-Technologies/unity-agent-plugin",
+        "path": "",
+        "sha": "ba48956ae8bee4ef8a3ef3d75dec03c16aa5cc89"
+      },
+      "category": "编程开发",
+      "strict": true,
+      "description": "Unity's official plugin for Claude Code, with curated skills for game development, monetization, and performance optimization.",
+      "version": "0.1.6-beta",
+      "displayName": "Unity",
+      "homepage": "https://unity.com",
+      "author": {
+        "name": "Unity Technologies"
+      },
+      "tags": [
+        "unity",
+        "gamedev",
+        "game-development",
+        "ui-toolkit",
+        "ugui",
+        "2d",
+        "tilemap",
+        "in-app-purchases",
+        "monetization",
+        "localization",
+        "multiplayer",
+        "shader-graph"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/Unity-Technologies.png"
+    },
+    {
+      "name": "zapier",
+      "source": {
+        "source": "github",
+        "repo": "zapier/zapier-mcp",
+        "path": "plugins/zapier",
+        "sha": "5360f152b96735712e5f925ad728732cb86888df"
+      },
+      "category": "办公文档",
+      "strict": true,
+      "description": "Connect 8,000+ apps to your AI workflow. Discover, enable, and execute Zapier actions directly from your client.",
+      "version": "1.0.0",
+      "homepage": "https://github.com/zapier/zapier-mcp/tree/main/plugins/zapier",
+      "author": {
+        "name": "Zapier"
+      },
+      "tags": [
+        "zapier",
+        "mcp",
+        "model-context-protocol",
+        "automation",
+        "integrations",
+        "workflow",
+        "ai-actions",
+        "api",
+        "no-code",
+        "ai-tools",
+        "productivity"
+      ],
+      "x-omnimind": {
+        "sourceId": "anthropic",
+        "manifestPath": "plugins/zapier/.claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/zapier.png"
+    }
+  ]
+}
