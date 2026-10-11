@@ -1,42 +1,48 @@
 categories:
-  - 办公文档
-  - 编程开发
-  - 设计创作
-  - 数据分析
-  - 科学研究
-  - 协作管理
-  - 应用增强
+  - office
+  - coding
+  - design
+  - data
+  - science
+  - collaboration
+  - enhancement
 mapping:
-  uncategorized: 应用增强
-  security: 编程开发
-  design: 设计创作
-  development: 编程开发
-  productivity: 办公文档
-  database: 数据分析
-  location: 应用增强
-  monitoring: 编程开发
-  migration: 编程开发
-  deployment: 编程开发
-  automation: 应用增强
-  learning: 科学研究
-  testing: 编程开发
-  math: 科学研究
-  Productivity: 办公文档
-  Communication: 协作管理
-  Creativity: 设计创作
-  Finance: 数据分析
-  Developer Tools: 编程开发
-  Education & Research: 科学研究
-  Security: 编程开发
-  Data & Analytics: 数据分析
-  Business & Operations: 协作管理
-  Scientific Research: 科学研究
-  developer-tools: 编程开发
-  finance: 数据分析
-  办公文档: 办公文档
-  编程开发: 编程开发
-  设计创作: 设计创作
-  数据分析: 数据分析
-  科学研究: 科学研究
-  协作管理: 协作管理
-  应用增强: 应用增强
+  uncategorized: enhancement
+  security: coding
+  design: design
+  development: coding
+  productivity: office
+  database: data
+  location: enhancement
+  monitoring: coding
+  migration: coding
+  deployment: coding
+  automation: enhancement
+  learning: science
+  testing: coding
+  math: science
+  Productivity: office
+  Communication: collaboration
+  Creativity: design
+  Finance: data
+  Developer Tools: coding
+  Education & Research: science
+  Security: coding
+  Data & Analytics: data
+  Business & Operations: collaboration
+  Scientific Research: science
+  developer-tools: coding
+  finance: data
+  office: office
+  coding: coding
+  data: data
+  science: science
+  collaboration: collaboration
+  enhancement: enhancement
+  办公文档: office
+  编程开发: coding
+  设计创作: design
+  数据分析: data
+  科学研究: science
+  协作管理: collaboration
+  应用增强: enhancement

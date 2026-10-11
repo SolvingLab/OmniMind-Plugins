@@ -14,15 +14,18 @@ export async function loadDecayState(file = STATE_FILE) {
   return value;
 }
 
-export function decayDecision(meta, current, name, previous, now = new Date()) {
+export function decayDecision(meta, current, name, previous, now = new Date(), sourceId = 'community') {
   let immediate;
   if (meta.notFound) immediate = 'not_found';
   else if (meta.private) immediate = 'private_repository';
   else if (meta.archived) immediate = 'archived';
   else if (!meta.sha || current?.error) immediate = current?.error ?? 'unsupported_manifest';
-  else if (!NAME_PATTERN.test(current?.manifest?.name ?? '')) immediate = 'invalid_manifest_name';
-  else if (current.manifest.name !== name) immediate = 'name_mismatch';
+  else if (typeof current?.manifest?.name !== 'string' || !NAME_PATTERN.test(current.manifest.name)) immediate = 'invalid_manifest_name';
+  else if (sourceId === 'community' && current.manifest.name !== name) immediate = 'name_mismatch';
   if (immediate) return { status: 'removed', reasons: [immediate], removedSince: previous?.removedSince ?? now.toISOString() };
+  // Official catalogs and SolvingLab are curated, not community admissions.
+  // Ignore old star/activity penalties as well as the associated grace period.
+  if (sourceId !== 'community') return { status: 'healthy', reasons: [] };
   const reasons = [];
   if (!Number.isFinite(Date.parse(meta.pushedAt))) throw new Error(`Invalid pushedAt metadata: ${meta.repo}`);
   if ((now.getTime() - Date.parse(meta.pushedAt)) / DAY > 180) reasons.push('pushed_over_180_days');
@@ -56,7 +59,7 @@ export async function evaluateDecay(subjects, client, { state, now = new Date() 
     const source = group[0].entry.source;
     const meta = client.meta.get(source.repo.toLowerCase());
     const current = meta.sha ? manifests.get(sourceKey({ ...source, repo: meta.repo, sha: meta.sha })) : undefined;
-    const results = group.map(subject => ({ subject, ...decayDecision(meta, current, subject.entry.name, state.entries[key], now) }));
+    const results = group.map(subject => ({ subject, ...decayDecision(meta, current, subject.entry.name, state.entries[key], now, subject.id) }));
     // A repository/path can have multiple pinned versions; mismatch affects
     // only that version's entry, rather than hiding a healthy sibling name.
     for (const result of results) decisions.set(`${result.subject.id}:${sourceKey(result.subject.entry.source)}:${result.subject.entry.name}`, result);

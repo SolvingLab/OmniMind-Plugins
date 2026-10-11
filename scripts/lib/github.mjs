@@ -7,7 +7,7 @@ export const ROOT = fileURLToPath(new URL('../../', import.meta.url));
 export const NAME_PATTERN = /^[a-z0-9][a-z0-9._-]{0,127}$/;
 export const SHA_PATTERN = /^[0-9a-f]{40}$/i;
 export const REPO_PATTERN = /^[A-Za-z0-9][A-Za-z0-9-]*\/[A-Za-z0-9_.-]+$/;
-export const MANIFESTS = ['.omnimind-plugin/plugin.json', '.claude-plugin/plugin.json', '.codex-plugin/plugin.json'];
+export const MANIFESTS = ['.omnimind-plugin/plugin.json', '.claude-plugin/plugin.json', '.codex-plugin/plugin.json', '.zcode-plugin/plugin.json'];
 export const TOPICS = ['claude-code-plugin', 'codex-plugin', 'claude-plugin', 'zcode-plugin'];
 export const DAY = 86_400_000;
 
@@ -235,12 +235,13 @@ export class GitHub {
     const out = new Map();
     const todo = [];
     for (const source of unique) {
-      const cached = await this.cache(`manifest:${sourceKey(source)}`);
+      // Do not reuse cached rejections from before .zcode-plugin support.
+      const cached = await this.cache(`manifest-v2:${sourceKey(source)}`);
       if (cached === undefined) todo.push(source); else out.set(sourceKey(source), cached);
     }
     for (let start = 0; start < todo.length; start += 25) {
       const chunk = todo.slice(start, start + 25);
-      const paths = [...MANIFESTS, '.zcode-plugin/plugin.json'];
+      const paths = MANIFESTS;
       const query = `query { ${chunk.map((source, i) => {
         const [owner, name] = source.repo.split('/');
         return `r${i}: repository(owner:${JSON.stringify(owner)},name:${JSON.stringify(name)}) { isPrivate commit: object(expression:${JSON.stringify(source.sha)}) { oid } ${paths.map((p, j) => `m${j}: object(expression:${JSON.stringify(`${source.sha}:${posix.join(source.path, p)}`)}) { ... on Blob { text } }`).join(' ')} }`;
@@ -254,7 +255,7 @@ export class GitHub {
         else if (!node.commit) value = { error: 'invalid_source_pin', detail: 'commit does not exist in public source repository' };
         else {
           const idx = MANIFESTS.findIndex((_, j) => typeof node[`m${j}`]?.text === 'string');
-          if (idx < 0) value = { error: 'unsupported_manifest', detail: node.m3 ? 'only .zcode-plugin/plugin.json' : 'no supported plugin.json' };
+          if (idx < 0) value = { error: 'unsupported_manifest', detail: 'no supported plugin.json' };
           else {
             try {
               const manifest = JSON.parse(node[`m${idx}`].text.replace(/^\uFEFF/, ''));
@@ -264,7 +265,7 @@ export class GitHub {
             } catch { value = { error: 'invalid_manifest', detail: 'plugin.json is not valid JSON' }; }
           }
         }
-        if (!node.isPrivate) await this.save(`manifest:${sourceKey(chunk[i])}`, value);
+        if (!node.isPrivate) await this.save(`manifest-v2:${sourceKey(chunk[i])}`, value);
         out.set(sourceKey(chunk[i]), value);
       }
     }

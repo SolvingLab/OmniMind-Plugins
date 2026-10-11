@@ -8,7 +8,7 @@ import zcode from './readers/zcode.mjs';
 import solvinglab from './readers/solvinglab.mjs';
 import community from './readers/community.mjs';
 import { GitHub, ROOT, NAME_PATTERN, sourceParts, sourceKey, writeJson, mapLimit } from './lib/github.mjs';
-import { CATEGORIES, loadCategories, assertMapped, categoryOf } from './lib/categories.mjs';
+import { CATEGORIES, loadCategories, assertMapped, categoryOf, classifyCategory } from './lib/categories.mjs';
 import { attachLogos } from './lib/logo.mjs';
 import { loadDecayState, evaluateDecay, STATE_FILE } from './scan-decay.mjs';
 import { validateMarketplace } from './validate-v2.mjs';
@@ -28,15 +28,21 @@ export function createListing(record, loaded, mapping) {
   const { manifest, manifestPath } = loaded;
   const ui = manifest.interface ?? {};
   const name = manifest.name;
-  const plugin = { name, source, category: categoryOf(entry.category ?? manifest.category ?? ui.category, mapping), strict: true };
   const strings = {
-    description: entry.description ?? manifest.description ?? ui.longDescription ?? ui.shortDescription,
+    description: [entry.description, manifest.description, ui.longDescription, ui.shortDescription].find(nonEmpty),
     version: manifest.version ?? entry.version,
     displayName: entry.displayName ?? manifest.displayName ?? ui.displayName,
     homepage: entry.homepage ?? manifest.homepage ?? ui.websiteURL ?? `https://github.com/${source.repo}`,
     privacyPolicy: entry.privacyPolicy ?? ui.privacyPolicyURL,
     termsOfService: entry.termsOfService ?? ui.termsOfServiceURL,
   };
+  const categoryInput = [entry.category, manifest.category, ui.category].find(value => value != null &&
+    (typeof value !== 'string' || (value.trim() && value.trim() !== 'uncategorized')));
+  const classification = classifyCategory(categoryInput, mapping, {
+    name: [name, entry.name, strings.displayName].filter(nonEmpty).join(' '),
+    description: nonEmpty(strings.description) ?? '',
+  });
+  const plugin = { name, source, category: classification.category, strict: true };
   for (const [key, value] of Object.entries(strings)) if (nonEmpty(value)) plugin[key] = value;
   const author = entry.author ?? manifest.author ?? ui.developerName;
   if (nonEmpty(author)) plugin.author = author;
@@ -59,7 +65,7 @@ export function createListing(record, loaded, mapping) {
   plugin['x-omnimind'] = { sourceId: id, manifestPath,
     ...(entry.name && entry.name !== name ? { upstreamName: entry.name } : {}),
     ...(record.submission ? { submission: record.submission } : {}) };
-  return { ...record, ...loaded, plugin };
+  return { ...record, ...loaded, plugin, classification };
 }
 
 export function mergeMarkets(markets) {
@@ -83,7 +89,8 @@ export function mergeMarkets(markets) {
   };
 }
 
-export async function buildExternal(file = resolve(ROOT, 'data/external.yml')) {
+export async function buildExternal(file = resolve(ROOT, 'data/external.yml'), mapping) {
+  mapping ??= await loadCategories();
   const data = yaml.load(await readFile(file, 'utf8'));
   if (!data || !Array.isArray(data.items) || !data.provenance) throw new Error('Invalid external.yml');
   const seen = new Set();
@@ -91,7 +98,8 @@ export async function buildExternal(file = resolve(ROOT, 'data/external.yml')) {
     if (!NAME_PATTERN.test(entry.slug ?? '') || seen.has(entry.slug)) throw new Error(`Invalid or duplicate external slug: ${entry.slug}`);
     seen.add(entry.slug);
     for (const key of ['name', 'publisher', 'summary']) if (!nonEmpty(entry[key])) throw new Error(`External ${entry.slug}: missing ${key}`);
-    if (!CATEGORIES.includes(entry.category) || entry.action !== '前往获取') throw new Error(`External ${entry.slug}: invalid category/action`);
+    if (!nonEmpty(entry.category) || entry.category === 'uncategorized' || entry.action !== '前往获取') throw new Error(`External ${entry.slug}: invalid category/action`);
+    entry.category = categoryOf(entry.category, mapping);
     for (const key of ['source', 'homepage', 'registry']) {
       if (key === 'registry' && entry[key] === null) continue;
       let url;
@@ -109,10 +117,14 @@ function countsByReason(items) {
   return Object.fromEntries(Object.entries(counts).sort(([a], [b]) => a.localeCompare(b)));
 }
 
+function categoryCounts(plugins) {
+  return Object.fromEntries(CATEGORIES.map(category => [category, plugins.filter(plugin => plugin.category === category).length]));
+}
+
 export async function build({ client = new GitHub(), now = new Date() } = {}) {
   const mapping = await loadCategories();
   const state = await loadDecayState();
-  const external = await buildExternal();
+  const external = await buildExternal(undefined, mapping);
   const readers = [anthropic, openai, zcode, solvinglab];
   const results = await Promise.all(readers.map(reader => reader(client)));
   results.push(await community(client, { now, state }));
@@ -189,6 +201,9 @@ export async function build({ client = new GitHub(), now = new Date() } = {}) {
   if (external.items.length !== external.provenance.expectedCount) warnings.push(`Referenced website revision contains ${external.items.length} external entries; requested ${external.provenance.expectedCount}. Missing entry requires a source; no placeholder was invented.`);
   const discardedPlugins = rejected.filter(x => x.scope !== 'repository');
   const rejectedRepositories = rejected.filter(x => x.scope === 'repository');
+  const mergedKeys = new Set(merged.market.plugins.map(plugin => `${plugin['x-omnimind'].sourceId}:${sourceKey(plugin.source)}:${plugin.name}`));
+  const assignments = selected.map(record => ({ id: record.id, name: record.plugin.name, source: record.source,
+    merged: mergedKeys.has(`${record.id}:${sourceKey(record.source)}:${record.plugin.name}`), ...record.classification }));
   const report = {
     schemaVersion: 1, generatedAt: now.toISOString(),
     sources: Object.fromEntries(results.map(r => [r.id, { marketplace: marketplaceName(r.id), inspected: r.inspected,
@@ -207,7 +222,16 @@ export async function build({ client = new GitHub(), now = new Date() } = {}) {
     nameCorrections,
     rejected: rejected.sort((a, b) => SOURCE_ORDER.indexOf(a.id) - SOURCE_ORDER.indexOf(b.id) || (a.name ?? a.repo ?? '').localeCompare(b.name ?? b.repo ?? '', 'en')),
     decay: { ...decay.summary, findings: decay.findings.filter(f => f.status !== 'healthy') },
-    categories: [...new Set(selected.map(r => r.plugin.category))].sort(), logos,
+    categories: CATEGORIES,
+    categorization: {
+      policy: { nameWeight: 3, descriptionWeight: 1, tieOrder: CATEGORIES, fallback: 'enhancement' },
+      sourceDistribution: Object.fromEntries(SOURCE_ORDER.map(id => [id, categoryCounts(markets[id].plugins)])),
+      mergedDistribution: categoryCounts(merged.market.plugins),
+      methods: Object.fromEntries(['upstream', 'keywords', 'fallback'].map(method => [method, assignments.filter(a => a.method === method).length])),
+      fallbackCount: assignments.filter(a => a.method === 'fallback').length,
+      mergedFallbackCount: assignments.filter(a => a.merged && a.method === 'fallback').length,
+      assignments,
+    }, logos,
     external: { count: external.items.length, expected: external.provenance.expectedCount, provenance: external.provenance,
       mapping: external.items.map(e => ({ slug: e.slug, category: e.category })) }, warnings, github: client.stats,
   };
@@ -219,7 +243,9 @@ export async function build({ client = new GitHub(), now = new Date() } = {}) {
   await writeJson(STATE_FILE, decay.state);
   console.log(JSON.stringify({ sources: Object.fromEntries(SOURCE_ORDER.map(id => [id, markets[id].plugins.length])), merged: merged.market.plugins.length,
     duplicateNames: merged.duplicates.length, droppedPlugins: discardedPlugins.length, rejectedRepositories: rejectedRepositories.length,
-    decay: decay.summary, external: external.items.length, warnings }, null, 2));
+    decay: decay.summary, categories: report.categorization.mergedDistribution,
+    fallback: { sourceEntries: report.categorization.fallbackCount, mergedEntries: report.categorization.mergedFallbackCount },
+    external: external.items.length, warnings }, null, 2));
   return report;
 }
 

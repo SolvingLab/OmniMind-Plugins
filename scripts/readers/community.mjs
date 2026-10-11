@@ -2,7 +2,7 @@ import { readFile, readdir } from 'node:fs/promises';
 import { basename, resolve } from 'node:path';
 import * as yaml from 'js-yaml';
 import { ROOT, TOPICS, DAY, REPO_PATTERN, SHA_PATTERN, normalizePath, mapLimit, readJson, decayKey } from '../lib/github.mjs';
-import { CATEGORIES } from '../lib/categories.mjs';
+import { CATEGORIES, CATEGORY_LABELS } from '../lib/categories.mjs';
 import { manifestRoots } from './solvinglab.mjs';
 
 const ALLOWED_FIELDS = ['repo', 'path', 'ref', 'sha', 'category', 'summary', 'displayName', 'homepage'];
@@ -15,7 +15,9 @@ export async function readSubmission(file) {
   if (!REPO_PATTERN.test(value.repo ?? '')) throw new Error(`${file}: repo must be owner/repo`);
   const expected = `${value.repo.replace('/', '__')}.yml`;
   if (basename(file).toLowerCase() !== expected.toLowerCase()) throw new Error(`${file}: expected filename ${expected}`);
-  if (!CATEGORIES.includes(value.category)) throw new Error(`${file}: category must be one of the seven categories`);
+  const category = CATEGORIES.includes(value.category) ? value.category : CATEGORIES.find(slug => CATEGORY_LABELS[slug] === value.category);
+  if (!category) throw new Error(`${file}: category must be one of the seven categories`);
+  value.category = category;
   if (typeof value.summary !== 'string' || !value.summary.trim()) throw new Error(`${file}: summary is required`);
   for (const key of ['ref', 'displayName']) if (value[key] !== undefined && (typeof value[key] !== 'string' || !value[key].trim())) throw new Error(`${file}: ${key} must be a non-empty string`);
   if (value.sha !== undefined && !SHA_PATTERN.test(value.sha)) throw new Error(`${file}: sha must be a 40-character commit`);

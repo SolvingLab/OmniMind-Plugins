@@ -8,12 +8,12 @@
         "source": "github",
         "repo": "agentrq/agentrq",
         "path": "plugins/claude/agentrq",
-        "sha": "2337c147195763bd336ac447778d7ee1bfd5b177"
+        "sha": "df87c5478058f7bdff4b1113a21d34d40b2f9fc1"
       },
-      "category": "应用增强",
+      "category": "collaboration",
       "strict": true,
       "description": "Human-in-the-loop task supervisor for AI agents",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "homepage": "https://github.com/agentrq/agentrq",
       "author": {
         "name": "Mustafa Turan",
@@ -31,9 +31,9 @@
         "source": "github",
         "repo": "agentrq/agentrq",
         "path": "plugins/claude/agentrq-workspace",
-        "sha": "2337c147195763bd336ac447778d7ee1bfd5b177"
+        "sha": "df87c5478058f7bdff4b1113a21d34d40b2f9fc1"
       },
-      "category": "应用增强",
+      "category": "collaboration",
       "strict": true,
       "description": "Workspace agent that executes tasks assigned by humans or supervisors, communicates progress via reply, and manages task lifecycle within a specific AgentRQ workspace",
       "version": "1.0.8",
@@ -56,7 +56,7 @@
         "path": "",
         "sha": "65a1ab49958e4b52fba004b7350590279b2dee1c"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Delegate work to Google's Antigravity CLI (agy) with fast Gemini access - five personas: staffer (general), researcher, reviewer (code and plans), implementer, ask.",
       "version": "0.7.4",
@@ -86,7 +86,7 @@
         "path": "",
         "sha": "0360adced422a08f70c3eff8905b81962872105d"
       },
-      "category": "应用增强",
+      "category": "collaboration",
       "strict": true,
       "description": "144 bilingual marketing skills (75 VN + 69 Global) for AI agents — strategy, content, performance, design production, leader ops, personal brand, and an AI Marketing OS. Vietnam 2025-2026 benchmarks plus US/EU/SEA/LATAM.",
       "version": "3.7.0",
@@ -109,7 +109,7 @@
         "path": "",
         "sha": "bd3aba71a0c57aa43aef4020917989efc4507db3"
       },
-      "category": "应用增强",
+      "category": "data",
       "strict": true,
       "description": "Multi-agent codebase analysis and documentation generation: parallel analyzers for structure, dependencies, data flow, request flow, and APIs, plus README and AI-rules (CLAUDE.md, AGENTS.md, Cursor rules) generators.",
       "version": "1.0.0",
@@ -140,7 +140,7 @@
         "path": "",
         "sha": "2714c965e6be1fa2597510e66651e63bc67cb448"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "Output styles that make Claude answer-first, plain, and easy to skim, plus a /tldr transform. Attention-kind, Spartan, and Rundown ship as both output styles and user-invoked skills.",
       "version": "0.8.0",
@@ -171,7 +171,7 @@
         "path": "",
         "sha": "9eec6232587ff2c4deeded00ac467de19532d763"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "Per-symbol maintenance optimizer for an agent's skill layer — learns skills from real runs and keeps them by adherence in use, not by an offline eval score.",
       "version": "0.5.3",
@@ -193,7 +193,7 @@
         "path": "",
         "sha": "58f32c25b9fb2dfe569478459b0a591e0dff22e8"
       },
-      "category": "应用增强",
+      "category": "design",
       "strict": true,
       "description": "AI music generation workflow for Suno - album concepts, lyrics, prompts, mastering, release",
       "version": "0.102.0",
@@ -235,7 +235,7 @@
         "path": "packages/adapters/tasks",
         "sha": "feb68abe397acc14f32b34984975c48fedba2b33"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "Route questions to domain experts instead of asking the current user",
       "version": "5.0.0",
@@ -254,7 +254,7 @@
         "path": "",
         "sha": "b6ef8a19df6e07bba919fbf6aecbec122096d7df"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "AI code reviews grounded in twelve classic engineering books — decay risk diagnostics with book citations, severity labels, and six analysis modes (PR review, architecture audit, tech debt, test quality, health dashboard, full-sweep auto-fix)",
       "version": "1.7.0",
@@ -285,7 +285,7 @@
         "path": "plugins/canvas-apps",
         "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
       },
-      "category": "应用增强",
+      "category": "design",
       "strict": true,
       "description": "Build Power Apps Canvas Apps using the Canvas Authoring MCP server.",
       "version": "3.1.0",
@@ -315,7 +315,7 @@
         "path": "",
         "sha": "648f4698fa213d2577fdb50f5f220e6cf2edfdfa"
       },
-      "category": "应用增强",
+      "category": "design",
       "strict": true,
       "description": "Edit CapCut and JianYing (剪映) projects from Claude Code — subtitles and SRT/ASS import, timing, speed, volume, keyframes, masks, filters and effects, templates, lint --fix, render previews, and cutting long-form to shorts.",
       "version": "0.2.0",
@@ -352,7 +352,7 @@
         "path": "plugins/catchup",
         "sha": "9767a82d24ddddad553e85f88efc2869a7fd7d88"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Async-team return-from-absence briefing. /catchup fans out to GitHub, git, Linear, and calendar, then emits one prioritized Context Brief instead of a firehose.",
       "version": "0.1.0",
@@ -383,7 +383,7 @@
         "path": "",
         "sha": "f9f2e5a84ab60e81dc1a4ec12562e23c5f7760e0"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "Block destructive commands and secret access",
       "version": "2.6.7",
@@ -418,7 +418,7 @@
         "path": "",
         "sha": "52c954b909706e5d1ae5689530e1c4eb7047b9f5"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Maximum-efficiency dev mode. Zero-fluff prose combined with YAGNI/ladder-first code decisions. One persona: the senior dev who deletes code for fun and bills by the syllable.",
       "version": "3.7.0",
@@ -435,9 +435,9 @@
         "source": "github",
         "repo": "SethGammon/Citadel",
         "path": "",
-        "sha": "2681b899dda13a49547536aaebbb5567ba2a86a7"
+        "sha": "6678bbba5b22c65c4e42b31cfe3ab071d2c22e9e"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "Claude Code harness for routing requests, preserving run state, enforcing hooks, and recording evidence",
       "version": "1.4.3",
@@ -467,7 +467,7 @@
         "path": "",
         "sha": "2500d4c765034864cede2bf215d00ccd4d7d6fb8"
       },
-      "category": "应用增强",
+      "category": "science",
       "strict": true,
       "description": "AI-powered blog skill suite: 32 skill directories (1 orchestrator + 31 sub-skills) and 5 agents for writing, rewriting, auditing, and optimizing content for Google rankings and AI citations (GEO/AEO). Includes the FLOW framework, semantic topic-cluster planning, multilingual publishing, Google API integration, persona writing, fact-checking, cannibalization detection, CMS taxonomy, NotebookLM research, Gemini TTS narration, image generation, and 5-category quality scoring.",
       "version": "2.2.0",
@@ -527,7 +527,7 @@
         "path": "brain",
         "sha": "2500d4c765034864cede2bf215d00ccd4d7d6fb8"
       },
-      "category": "应用增强",
+      "category": "office",
       "strict": true,
       "description": "Claude Blog Brain Obsidian brain for blog content creation, optimization, and management dual-optimized for Google rankings (E-E-A-T, the 2026 core updates) and AI citations (GEO/AEO), spanning writing, rewriting and freshness, SERP-informed briefs and outlines, editorial calendars and strategy, semantic topic clusters, schema and internal linking, multilingual publishing, the FLOW framework, factchecking, personas, distribution, and the blog delivery contract, grounded in the claude-blog skill.",
       "version": "0.2.0",
@@ -556,7 +556,7 @@
         "path": "plugin",
         "sha": "43d6805d2d0eeaa8dab984401ac24f61b9f1f08c"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "为 Claude Code 提供简体中文界面、本地化提示和安全的渐进式 CLI patch",
       "version": "2.23.0",
@@ -584,7 +584,7 @@
         "path": "",
         "sha": "9edae1826695c8c07a38a9cb9d3f2111415018e6"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Consult multiple AI coding agents (Gemini, OpenAI, Grok, Perplexity, Kimi, any model OpenRouter routes to, plus codex, antigravity, grok, kimi and cursor CLIs when installed, and a local ollama model) to get diverse perspectives on coding problems, with a streaming pane in tmux or inside Claude Code. It can also hand a coding task to a Codex specialist that works on its own git branch and follows skills you pick (experimental).",
       "version": "2026.10.4",
@@ -629,7 +629,7 @@
         "path": "",
         "sha": "fa8ab09f06aa05f958c5225cf3756ce52a3ebb96"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "Memory compression system for Claude Code - persist context across sessions",
       "version": "13.35.0",
@@ -664,7 +664,7 @@
         "path": "cowork",
         "sha": "fa8ab09f06aa05f958c5225cf3756ce52a3ebb96"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "Claude-Mem for Cowork: captures tool use via hooks, streams fragments to cmem.ai (Pro runs the observer), and injects observations back into new sessions and spawned agents.",
       "version": "0.1.3",
@@ -693,7 +693,7 @@
         "path": "",
         "sha": "32ac5a02c4e082e4a5628ca810776375e134708e"
       },
-      "category": "应用增强",
+      "category": "office",
       "strict": true,
       "description": "Local-first Agent Skills package and Claude Code plugin for source-cited Obsidian knowledge bases. Provides explicit vault initialization and adoption, recoverable operation transactions, deterministic lint and retrieval, provenance ledgers, offline-first capture foundations, and optional methodology modes. User vaults stay outside the plugin cache; network and destructive actions require explicit consent.",
       "version": "2.2.0",
@@ -732,7 +732,7 @@
         "path": "plugin",
         "sha": "47b490077d2f55f09b5971eb7c5ff3b9493f00ef"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Self-improving Claude Code, Codex, and OpenCode plugin that turns corrections into Preferences, Project-specific skills, and Shared skills",
       "version": "0.3.5",
@@ -771,7 +771,7 @@
         "path": "",
         "sha": "4a4f99016f249a24018cd19b66531ebbcd58024b"
       },
-      "category": "应用增强",
+      "category": "design",
       "strict": true,
       "description": "Give Claude the ability to watch and understand videos — extracts frames and audio for full video perception",
       "version": "1.4.0",
@@ -803,7 +803,7 @@
         "path": "plugins/code-apps",
         "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Build and deploy Power Apps code apps using React, Vite, and Power Platform connectors.",
       "version": "1.1.0",
@@ -836,7 +836,7 @@
         "path": "plugins/code-craftsmanship",
         "sha": "c172996495bed0fcd26896a9416b2093fd7073f0"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Code quality and software design skills including Clean Code (Robert C. Martin), Refactoring patterns (Martin Fowler), A Philosophy of Software Design (John Ousterhout), The Pragmatic Programmer (Hunt & Thomas), Domain-Driven Design (Eric Evans), Working Effectively with Legacy Code (Michael Feathers), and Google's Developer Documentation Style Guide (technical-documentation)",
       "version": "1.8.0",
@@ -876,9 +876,9 @@
         "source": "github",
         "repo": "Ark0N/Codeman",
         "path": "plugins/codeman",
-        "sha": "6234aae919163907f2af07eda647dd594de3342b"
+        "sha": "aa3730aacefc7b964cf6d5a30c9707e6aea86698"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Drive Codeman, the self-hosted session manager for AI coding agents, from inside a Claude Code session: spawn worker sessions, prompt them, wait for them, read their answers, clean up. Acts only inside a Codeman-managed session.",
       "version": "1.41.0",
@@ -911,7 +911,7 @@
         "path": "",
         "sha": "dbc2a5992e937760e9ce8e587e11729f970881cb"
       },
-      "category": "办公文档",
+      "category": "office",
       "strict": true,
       "description": "Run a guided, Browser-first slide workflow in Codex, with durable projects, reusable project templates, Design Files, brand systems, desktop apps, editing, and export.",
       "version": "0.1.0+codex.20260713",
@@ -951,7 +951,7 @@
         "path": "plugin",
         "sha": "6ad6fc0296398c41feff068369a421b94cbb285d"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Claude Code plugin for ComfyUI — generate images, visualize workflows, manage models, and explore custom nodes",
       "version": "0.1.0",
@@ -979,7 +979,7 @@
         "path": "plugins/corporate-strategy",
         "sha": "98d1c17d480f606060102a781f9a8601690685f7"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Portfolio strategy, corporate development, strategic alliances, and scenario planning.",
       "version": "1.0.0",
@@ -1008,7 +1008,7 @@
         "path": "plugins/customer-experience",
         "sha": "98d1c17d480f606060102a781f9a8601690685f7"
       },
-      "category": "应用增强",
+      "category": "collaboration",
       "strict": true,
       "description": "Support operations, escalation management, voice of customer, and self-service. Owns what the customer experiences after the sale.",
       "version": "1.0.0",
@@ -1037,7 +1037,7 @@
         "path": "plugins/data-analytics",
         "sha": "98d1c17d480f606060102a781f9a8601690685f7"
       },
-      "category": "应用增强",
+      "category": "data",
       "strict": true,
       "description": "Data governance, warehouse and semantic modeling, business intelligence, and AI/ML governance.",
       "version": "1.0.0",
@@ -1067,7 +1067,7 @@
         "path": "plugins/demand-generation",
         "sha": "98d1c17d480f606060102a781f9a8601690685f7"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "Organic and paid acquisition, conversion, measurement, experimentation, lifecycle messaging, and distribution.",
       "version": "1.0.0",
@@ -1097,7 +1097,7 @@
         "path": "",
         "sha": "23b6c1b801b1f7ba13da7f6606632f1e3e8387ac"
       },
-      "category": "应用增强",
+      "category": "design",
       "strict": true,
       "description": "Extract any website's design language and ship it. Fourteen slash commands — /extract, /site, /grade, /battle, /remix, /pack, /theme-swap, /brand, /pair, /studio, /verify, /fidelity, /gallery, /dna — wrap the designlang CLI to pull DTCG tokens, Tailwind/shadcn/Figma vars, motion + voice, synthesize a whole-site canonical design system with a consistency grade, generate shareable graded report cards, head-to-head battle pages, six-vocabulary remixes, downloadable design-system bundles, OKLCH-correct theme recolouring, full editorial brand-guidelines books, design crossovers between two sites, a live token-editor studio, a rebuild-and-pixel-diff fidelity check, a measured clone-vs-original fidelity score (visual + motion) with a ranked correction plan via /fidelity, a shareable static gallery of scored clones via /gallery, and — via /dna — a measured design space that places any site among real design systems by nearest neighbours, per-axis percentiles, and the features that make it look the way it does.",
       "version": "13.3.2",
@@ -1142,9 +1142,9 @@
         "source": "github",
         "repo": "Lifecycle-Innovations-Limited/claude-ops",
         "path": "desktop-act",
-        "sha": "ee9c784844943600f7997d7556f785d3cda6ae33"
+        "sha": "996d61a7a20af60caeb6a584de59c833ebc6b070"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Computer-use primitives + multi-desktop pool + autonomous act() loop. Screenshot, click, type, keypress, scroll, launch_app over platform backends (X11/Xvnc, macOS, Windows). Auth via claude-agent-sdk OAuth — no API key required.",
       "version": "0.2.0",
@@ -1177,7 +1177,7 @@
         "path": "dev-skills",
         "sha": "a4ecd62b6f8a8e736a9b4b56c5cdd449c92efe95"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Lightweight skills for users with existing workflows - coding best practices, testing principles, and design guidelines without recipe workflows or agents",
       "version": "0.28.0",
@@ -1210,7 +1210,7 @@
         "path": "dev-workflows",
         "sha": "a4ecd62b6f8a8e736a9b4b56c5cdd449c92efe95"
       },
-      "category": "应用增强",
+      "category": "collaboration",
       "strict": true,
       "description": "Skills + Subagents for backend development - Use skills for coding guidance, or run recipe workflows for full orchestrated agentic coding with specialized agents",
       "version": "0.28.0",
@@ -1244,7 +1244,7 @@
         "path": "dev-workflows-frontend",
         "sha": "a4ecd62b6f8a8e736a9b4b56c5cdd449c92efe95"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Skills + Subagents for React/TypeScript - Use skills for coding guidance, or run recipe workflows for full orchestrated agentic coding with specialized agents",
       "version": "0.28.0",
@@ -1279,7 +1279,7 @@
         "path": "dev-workflows-fullstack",
         "sha": "a4ecd62b6f8a8e736a9b4b56c5cdd449c92efe95"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Skills + Subagents for fullstack development (backend + React/TypeScript) - Use skills for coding guidance, or run recipe workflows for full orchestrated agentic coding with specialized agents",
       "version": "0.28.0",
@@ -1317,7 +1317,7 @@
         "path": "",
         "sha": "9e949f3d15042255dfe3521cb9df78e763f8e01e"
       },
-      "category": "应用增强",
+      "category": "collaboration",
       "strict": true,
       "description": "Open-source AI marketing plugin for agencies & in-house teams — 164 skills, 24 agents, 12-Part Strategy Flow, Cowork team-persistent, EU AI Act Article 50 ready. Runs on Claude Code, Codex, Cursor, Copilot CLI, Antigravity, Hermes Agent, OpenClaw, Grok + 35+ more Agent Skills platforms.",
       "version": "3.35.2",
@@ -1403,7 +1403,7 @@
         "path": "plugins/ecto",
         "sha": "9767a82d24ddddad553e85f88efc2869a7fd7d88"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "Compatibility namespace for the Elixir/Phoenix plugin's /ecto:* commands",
       "version": "3.1.3",
@@ -1431,7 +1431,7 @@
         "path": "targets/codex",
         "sha": "9767a82d24ddddad553e85f88efc2869a7fd7d88"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Generated Elixir, Phoenix, LiveView, Ecto, Oban, testing, and security skills for Codex",
       "version": "3.1.3",
@@ -1451,7 +1451,7 @@
         "path": "",
         "sha": "0590eb8f008680acbfb5aaa4dbc73bf63ca643dd"
       },
-      "category": "应用增强",
+      "category": "science",
       "strict": true,
       "description": "Evidence-based learning engine: first-principles curricula, generation-first Socratic tutoring, free-recall verification with receipts, FSRS-scheduled memory, and interactive explorable artifacts. Learn anything; keep it.",
       "version": "1.15.1",
@@ -1481,7 +1481,7 @@
         "path": "plugins/executive",
         "sha": "98d1c17d480f606060102a781f9a8601690685f7"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "Direction, capital and attention allocation, cross-functional arbitration, strategy validation, and the method for structuring the organization itself.",
       "version": "1.0.0",
@@ -1508,7 +1508,7 @@
         "path": "plugins/finance",
         "sha": "98d1c17d480f606060102a781f9a8601690685f7"
       },
-      "category": "应用增强",
+      "category": "data",
       "strict": true,
       "description": "Financial modeling, budgeting and forecasting, unit economics, and financial decision support.",
       "version": "1.0.0",
@@ -1534,12 +1534,12 @@
         "source": "github",
         "repo": "gmickel/flow-next",
         "path": "plugins/flow-next",
-        "sha": "d5660ce9404d6419e5ee857b1aad7525933a3f6a"
+        "sha": "58a5f140a76528061c3ca96d9d51c1a1567d2a08"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "Zero-dependency, spec-driven agentic SDLC: durable specs, context-fit plans, re-anchored workers, adversarial cross-model review, and receipts. Includes 21 subagents, 26 commands, 29 skills.",
-      "version": "8.5.0",
+      "version": "8.5.2",
       "homepage": "https://flow-next.dev",
       "author": {
         "name": "Gordon Mickel",
@@ -1566,7 +1566,7 @@
         "path": "plugins/fluent-korean",
         "sha": "ce8683f0eba8cddb91de4dcd151425ff73e60498"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Claude Code가 유창하고 자연스러운 한국어로 응답하게 하는 출력 스타일. 코딩 지침을 유지하는 판과 유지하지 않는 판 두 가지를 제공합니다.",
       "version": "1.0.0",
@@ -1596,7 +1596,7 @@
         "path": "",
         "sha": "0602cad0520e4d8cb165bb1c779d7010cfbc5b45"
       },
-      "category": "应用增强",
+      "category": "science",
       "strict": true,
       "description": "13 skills for startup founders: idea validation, competitor research, pricing, MVP scope, go-to-market, pitch decks, and fundraising. Outputs are saved to founder/ so each skill builds on the last.",
       "version": "2.1.4",
@@ -1628,7 +1628,7 @@
         "path": "",
         "sha": "92d9f1b29e7af81acebf51a9fcd1832e739a1414"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "The team-architecture factory for Claude Code v2 — a meta-skill that turns a domain description into an agent team and the skills they use. Three native execution modes (Workflow orchestration, persistent named-agent collaboration, sub-agent delegation), six team-architecture patterns, and workflow-native quality patterns (adversarial verification, judge panels, loop-until-dry). Claude Code용 팀 아키텍처 팩토리 v2: 도메인 한 문장을 에이전트 팀과 스킬 세트로 변환하는 메타 스킬.",
       "version": "2.1.0",
@@ -1671,9 +1671,9 @@
         "source": "github",
         "repo": "kitfunso/hippo-memory",
         "path": "extensions/claude-code-plugin",
-        "sha": "6c8fa71f56ffda2b3c0ed35b001d8a8196fe0c60"
+        "sha": "02bdda5964e10611735fb5ca196fcf31c0f35eb1"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "Make your agent's memory work like a brain. Hippo is long-term memory for coding agents.",
       "version": "0.6.1",
@@ -1696,7 +1696,7 @@
         "path": "",
         "sha": "e054fb161de7ae1e3466fb93496713f4d3c82da7"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "Cloud-backed persistent memory powered by Deeplake — read, write, and share memory across Claude Code sessions and agents",
       "version": "0.7.160",
@@ -1724,9 +1724,9 @@
         "source": "github",
         "repo": "jordan-gibbs/hyperresearch",
         "path": "",
-        "sha": "7790041c8705568effea2b018048160c89f848f4"
+        "sha": "9c16854fed2d345a557e8759156a2ca5d02fa4f4"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Deep research skill for Claude Code. Bootstraps the hyperresearch CLI and hands off to its 16-step research pipeline with a persistent, searchable source vault.",
       "version": "0.12.0",
@@ -1760,7 +1760,7 @@
         "path": "",
         "sha": "723af7d9afaf43eb871dbcce6129e2bf80de90d5"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Shape Claude Code output for an ADHD reader: lead with the next action, number steps, suppress tangents, restate state, make wins visible.",
       "version": "0.4.1",
@@ -1783,7 +1783,7 @@
         "path": "",
         "sha": "fa89195eeb5c12827e0b11e1c16b4fc8733711d4"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "Entry point for Internet Court — the trust layer for agent-to-agent commerce. Use whenever an agent needs to transact with another agent or a paid service, or a user mentions agent payments, paid APIs (HTTP 402/x402), wallet custody or trust concerns, spending mandates, delegated permissions (ERC-7710/7715), escrow, agent identity or reputation (ERC-8004), negotiation between agents (A2A), agent jobs (ERC-8183), machine payments (MPP, AP2), supervision of agent behavior, revocation, verification, or dispute resolution (GenLayer) — even if they never say \"Internet Court\". Routes to the vendored protocol skills and connector skills in this package.",
       "version": "0.2.0",
@@ -1817,7 +1817,7 @@
         "path": "plugins/it-operations",
         "sha": "98d1c17d480f606060102a781f9a8601690685f7"
       },
-      "category": "应用增强",
+      "category": "collaboration",
       "strict": true,
       "description": "Corporate IT: service desk, systems and network administration, virtualization and cloud, telephony and conferencing, endpoints, assets, identity lifecycle, and backup and recovery.",
       "version": "1.0.0",
@@ -1849,7 +1849,7 @@
         "path": "plugins/legal-risk",
         "sha": "98d1c17d480f606060102a781f9a8601690685f7"
       },
-      "category": "应用增强",
+      "category": "data",
       "strict": true,
       "description": "Contract review, privacy and data protection, enterprise risk, corporate governance, compliance, and audit readiness. Reviewer-class: its findings are not overrulable by the department under review.",
       "version": "1.0.0",
@@ -1878,7 +1878,7 @@
         "path": "plugins/lv",
         "sha": "9767a82d24ddddad553e85f88efc2869a7fd7d88"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "Compatibility namespace for the Elixir/Phoenix plugin's /lv:* commands",
       "version": "3.1.3",
@@ -1906,7 +1906,7 @@
         "path": "plugins/marketing",
         "sha": "98d1c17d480f606060102a781f9a8601690685f7"
       },
-      "category": "应用增强",
+      "category": "collaboration",
       "strict": true,
       "description": "Positioning, content strategy and production, social and video, brand voice, copywriting, PR, and partnerships.",
       "version": "1.0.0",
@@ -1935,7 +1935,7 @@
         "path": "plugins/marketing-cro",
         "sha": "c172996495bed0fcd26896a9416b2093fd7073f0"
       },
-      "category": "应用增强",
+      "category": "collaboration",
       "strict": true,
       "description": "Marketing and conversion optimization skills including CRO methodology, StoryBrand messaging, Scorecard Marketing lead generation, viral marketing (Contagious), and 1-Page Marketing Plan",
       "version": "1.8.0",
@@ -1968,7 +1968,7 @@
         "path": "",
         "sha": "1efedbc5148b54b2f0f6c6c9fe0be62e151c7fff"
       },
-      "category": "应用增强",
+      "category": "collaboration",
       "strict": true,
       "description": "Marketing skills for AI agents — conversion optimization, copywriting, SEO, paid ads, ad creative, and growth",
       "version": "2.11.26",
@@ -1990,7 +1990,7 @@
         "path": "plugins/mcp-apps",
         "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "Generate JavaScript server runtimes and CDN-free or CDN-enabled MCP App widgets.",
       "version": "1.2.0",
@@ -2025,7 +2025,7 @@
         "path": "plugins/claude-code",
         "sha": "09e07d86b31ff81938b4f44a57099b6a9fc8723f"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Automatic semantic memory for Claude Code — remembers what you worked on across sessions",
       "version": "0.4.20",
@@ -2044,7 +2044,7 @@
         "path": "plugins/metaskills",
         "sha": "c172996495bed0fcd26896a9416b2093fd7073f0"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Fourteen guided journeys that orchestrate the whole skill library step by step — create, improve, and grow a business, website, or app, plus improve code quality, remove technical debt, design code architecture, optimize a conversion flow, and optimize an existing codebase for speed and structure. Each metaskill invokes the right skills phase by phase, asks the user questions at every decision point, and records results as living documents in the project docs/ folder",
       "version": "1.8.0",
@@ -2085,7 +2085,7 @@
         "path": "plugins/mobile-apps",
         "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Build and deploy Power Apps code apps for mobile using Expo (React Native), with native device functionality and Power Platform connectors",
       "version": "0.5.3",
@@ -2119,7 +2119,7 @@
         "path": "plugins/model-apps",
         "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Build model-driven Power Apps end to end: /app-builder authors whole apps (tables, relationships, forms, views, charts, security roles, app + sitemap) from a natural-language intent, and /genpage builds generative pages with specialist agents for planning, entity creation, and parallel code generation. Requires PAC CLI > 2.10.0 and Azure CLI (`az`). See CHANGELOG.md for v1.x -> v2.x migration.",
       "version": "2.13.0",
@@ -2154,7 +2154,7 @@
         "path": "",
         "sha": "bcdca9a595764b9aa88d5d8d6020f52e7f5f1f52"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Design and analyze modular software systems using the Balanced Coupling model by Vlad Khononov. Includes a modularity review skill for analyzing existing codebases and a modular design skill for designing new systems from requirements.",
       "version": "1.5.0",
@@ -2176,7 +2176,7 @@
         "path": "plugins/nateherk-design",
         "sha": "75d81f74e83692add18cd7a8a8e078b8a887a579"
       },
-      "category": "应用增强",
+      "category": "design",
       "strict": true,
       "description": "Design and build skills from Nate Herk. Ships scroll-craft: premium scroll-driven interactive landing pages, built on a full design floor (typography, spacing, colour, depth, motion, accessibility) rather than on an animation library.",
       "version": "0.3.1",
@@ -2198,7 +2198,7 @@
         "path": "",
         "sha": "53e26836afd1cea64201a72c2d54ab111728f2c2"
       },
-      "category": "应用增强",
+      "category": "data",
       "strict": true,
       "description": "The official ads, analytics, SEO, and GEO plugin from NotFair. Operate Google, Meta, X, LinkedIn, Reddit, and TikTok Ads; WordPress and GoHighLevel; analyze Google Search Console and GA4; and run open-source search and content workflows from any compatible agent.",
       "version": "0.27.16",
@@ -2220,9 +2220,9 @@
         "source": "github",
         "repo": "eugeniughelbur/obsidian-second-brain",
         "path": "",
-        "sha": "9dc3ca8742068422fa3c3c86f3ac01b0cfe618c2"
+        "sha": "fe84aa94ea75a46a213d94304fe9f0501c18f109"
       },
-      "category": "应用增强",
+      "category": "office",
       "strict": true,
       "description": "Stop re-explaining your notes to Claude. Turns your Obsidian vault into memory Claude can actually search, and keeps it true: new sources rewrite existing pages, contradictions reconcile, and stale facts get flagged. AI note-taking and PKM for Claude Code.",
       "version": "0.17.0",
@@ -2244,7 +2244,7 @@
         "path": "",
         "sha": "b34780d48d9360d6c349c988e593be440b091c0f"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "v11.13.1 — Safer model configuration, reliable provider history and an MCP dependency security update. Run /octo:setup.",
       "version": "11.13.1",
@@ -2281,7 +2281,7 @@
         "path": "",
         "sha": "4fa744ba8ea06ccf128a39853824c46ac391dd00"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Plain-language skills for coding agents, for the person running development who does not read code: session reports, decisions, next steps and the whole picture.",
       "version": "0.4.8",
@@ -2312,7 +2312,7 @@
         "path": "plugins/operations",
         "sha": "98d1c17d480f606060102a781f9a8601690685f7"
       },
-      "category": "应用增强",
+      "category": "collaboration",
       "strict": true,
       "description": "Program management, process design, vendor and supplier management, and operational delivery.",
       "version": "1.0.0",
@@ -2338,9 +2338,9 @@
         "source": "github",
         "repo": "Lifecycle-Innovations-Limited/claude-ops",
         "path": "claude-ops",
-        "sha": "ee9c784844943600f7997d7556f785d3cda6ae33"
+        "sha": "996d61a7a20af60caeb6a584de59c833ebc6b070"
       },
-      "category": "应用增强",
+      "category": "collaboration",
       "strict": true,
       "description": "Business operations command center for Claude Code — 66 skills, 21 agents, and a smart background daemon that manage communications (WhatsApp/Email/Slack/Telegram), projects, infrastructure (all AWS services), revenue (Stripe + RevenueCat), e-commerce (Shopify), marketing (Klaviyo/Meta/GA4/GSC), monitoring (Datadog/New Relic/OTEL), and voice (Bland AI/ElevenLabs/Whisper). Includes /ops:ops-ar A&R (audio analysis + demo verdict cards), /gtm go-to-market planner, /ops:projects portfolio dashboard, /ops:ops-mac macOS diagnose-and-fix (bundles the macos-toolkit CLI suite — security, launchd, network, disk, system health), YOLO mode for autonomous operation with 4 parallel C-suite agents, /ops:ops-home smart home control via Homey Pro, /ops:ops-unifi UniFi network control (Site Manager + Network + Protect APIs), and /ops:ops-feature-dev overlay for the feature-dev companion plugin.",
       "version": "3.11.0",
@@ -2410,7 +2410,7 @@
         "path": "plugins/people",
         "sha": "98d1c17d480f606060102a781f9a8601690685f7"
       },
-      "category": "应用增强",
+      "category": "collaboration",
       "strict": true,
       "description": "Org design, hiring and interviewing, compensation and leveling, and workforce planning.",
       "version": "1.0.0",
@@ -2439,7 +2439,7 @@
         "path": "plugins/elixir-phoenix",
         "sha": "9767a82d24ddddad553e85f88efc2869a7fd7d88"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "Elixir/Phoenix/LiveView development with specialist agents, Iron Laws, and Tidewave MCP integration",
       "version": "3.1.3",
@@ -2470,7 +2470,7 @@
         "path": "plugins/pmo",
         "sha": "98d1c17d480f606060102a781f9a8601690685f7"
       },
-      "category": "应用增强",
+      "category": "collaboration",
       "strict": true,
       "description": "Enterprise program management office: portfolio governance, program and project delivery, dependencies and delivery risk, benefits realization, and adoption.",
       "version": "1.0.0",
@@ -2499,7 +2499,7 @@
         "path": "",
         "sha": "9b58c1ffb790c075ca32e70a89cf1d80588f4abf"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "优先选择简单方案的编码工作流，提供 Claude Code 与 Codex hooks。",
       "version": "5.1.0",
@@ -2526,7 +2526,7 @@
         "path": "plugins/power-apps-mobile-extension",
         "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "Build third-party Power Apps Mobile (PAM) controls into a prebuilt .ppmplugin binary (Android DEX + flat iOS .framework + manifest.json) for the wrap runtime. Public tooling only; recommended build entry point /generate-ppmplugin.",
       "version": "0.1.0",
@@ -2561,7 +2561,7 @@
         "path": "plugins/power-automate",
         "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "Build, edit, run, and debug Power Automate cloud flows via the FlowAgent MCP server — connection lifecycle, surgical edits, copy across environments, run management, and validated expressions.",
       "version": "3.2.1",
@@ -2592,7 +2592,7 @@
         "path": "plugins/power-pages",
         "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Create and deploy Power Pages sites using modern development approaches. Supports code sites (SPAs) with React, Angular, Vue, or Astro. Adds multilingual localization and safe runtime LTR/RTL switching for React, Vue, and Angular runtime sites; Astro and Angular static localization are temporarily unavailable. Includes ALM orchestration (plan-alm) with a solution-splitting decision tree, per-solution pipelines, Azure Blob asset advisory, manifest schema v2 for multi-solution deployments, and force-link remediation for cross-host pipeline migrations.",
       "version": "2.9.0",
@@ -2645,7 +2645,7 @@
         "path": "plugins/process-intelligence",
         "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "Analyze Power Automate Process Mining processes, bottlenecks, variants, cohorts and object-centric executions through MCP.",
       "version": "0.7.0",
@@ -2675,7 +2675,7 @@
         "path": "plugins/product",
         "sha": "98d1c17d480f606060102a781f9a8601690685f7"
       },
-      "category": "应用增强",
+      "category": "design",
       "strict": true,
       "description": "Product strategy, UX and usability audit, design systems, interface craft, brand expression, and visual direction.",
       "version": "1.0.0",
@@ -2704,7 +2704,7 @@
         "path": "plugins/product-innovation",
         "sha": "c172996495bed0fcd26896a9416b2093fd7073f0"
       },
-      "category": "应用增强",
+      "category": "design",
       "strict": true,
       "description": "Product innovation and validation frameworks including Lean Startup methodology, Google Ventures Design Sprint, and Don Norman's design principles",
       "version": "1.8.0",
@@ -2735,7 +2735,7 @@
         "path": "plugins/product-strategy",
         "sha": "c172996495bed0fcd26896a9416b2093fd7073f0"
       },
-      "category": "应用增强",
+      "category": "design",
       "strict": true,
       "description": "Product strategy and innovation frameworks including Jobs to Be Done (Clayton Christensen) for customer discovery and product design, tactical negotiation skills (Chris Voss), willingness-to-pay pricing (Monetizing Innovation), and startup metrics (Lean Analytics)",
       "version": "1.8.0",
@@ -2769,9 +2769,9 @@
         "source": "github",
         "repo": "michael-denyer/pstack-claude",
         "path": "plugins/pstack",
-        "sha": "24c96b1eed2b07c62d0f88f0764a2954ed1d911a"
+        "sha": "5f07f5e5fe5db545f2a8fb341a9f1c412b09aaa3"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "If you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence. Ported from cursor/plugins/pstack to Claude Code. Original pstack by Lauren Tan (poteto).",
       "version": "0.9.81",
@@ -2813,7 +2813,7 @@
         "path": "plugins/ralph-speckit",
         "sha": "ac7251a0a056b51435192443775f3cbbc4675cba"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Spec-driven development using GitHub spec-kit methodology. Constitution-first approach with specify, plan, tasks, and implement phases.",
       "version": "0.5.2",
@@ -2845,7 +2845,7 @@
         "path": "plugins/ralph-specum-codex",
         "sha": "ac7251a0a056b51435192443775f3cbbc4675cba"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Spec-driven development for OpenAI Codex. Research, requirements, design, tasks, autonomous implementation, and epic triage for multi-spec feature decomposition.",
       "version": "4.12.5",
@@ -2880,7 +2880,7 @@
         "path": "",
         "sha": "e65cb1e406fea99bee4931e7597715c47b3d2272"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Durable, fully-local project memory for Claude Code. Logs every session to .recall/history.md and condenses it into .recall/context.md with a local Python summarizer (TF-IDF + TextRank) — no API key, no external model, nothing leaves your machine. New sessions resume from the saved context.",
       "version": "0.4.0",
@@ -2910,7 +2910,7 @@
         "path": "plugins/revenue",
         "sha": "98d1c17d480f606060102a781f9a8601690685f7"
       },
-      "category": "应用增强",
+      "category": "collaboration",
       "strict": true,
       "description": "Outbound, sales enablement, revenue operations, pricing and packaging, activation, retention, and referrals.",
       "version": "1.0.0",
@@ -2939,7 +2939,7 @@
         "path": "plugins/sales-influence",
         "sha": "c172996495bed0fcd26896a9416b2093fd7073f0"
       },
-      "category": "应用增强",
+      "category": "collaboration",
       "strict": true,
       "description": "Sales, persuasion, and messaging skills including Cialdini's influence psychology, Aaron Ross's outbound sales methodology, Heath Brothers' sticky messaging, and Alex Hormozi's offer creation",
       "version": "1.8.0",
@@ -2972,7 +2972,7 @@
         "path": "plugins/security",
         "sha": "98d1c17d480f606060102a781f9a8601690685f7"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Threat modeling, security architecture review, incident response, vulnerability management, and access and identity. Reviewer-class: blocking findings are not overrulable by the department under review.",
       "version": "1.0.0",
@@ -3002,7 +3002,7 @@
         "path": "plugins/start",
         "sha": "88d447c7fb846f9d519faf59219cd34cf7577501"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Workflow orchestration commands for agentic software development",
       "version": "3.8.0",
@@ -3034,7 +3034,7 @@
         "path": "",
         "sha": "694bbd59e26b522cd63801a01590ccaa77c7fe84"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Keep Claude Code tasks bounded and reduce defensive wording with local-first guardrails and two Skills.",
       "version": "0.2.4",
@@ -3065,7 +3065,7 @@
         "path": "plugins/strategy-growth",
         "sha": "c172996495bed0fcd26896a9416b2093fd7073f0"
       },
-      "category": "应用增强",
+      "category": "collaboration",
       "strict": true,
       "description": "Business strategy and growth frameworks including Crossing the Chasm tech adoption, Blue Ocean Strategy value innovation, EOS business operating system, Obviously Awesome positioning, Good Strategy Bad Strategy kernels, and Cold Start Problem network effects",
       "version": "1.8.0",
@@ -3101,7 +3101,7 @@
         "path": "plugins/systems-architecture",
         "sha": "c172996495bed0fcd26896a9416b2093fd7073f0"
       },
-      "category": "应用增强",
+      "category": "design",
       "strict": true,
       "description": "Systems architecture and distributed systems skills including Designing Data-Intensive Applications (Martin Kleppmann), System Design Interview (Alex Xu), Clean Architecture (Robert C. Martin), Release It! (Michael Nygard), High Performance Browser Networking (Ilya Grigorik), and Team Topologies (Skelton & Pais)",
       "version": "1.8.0",
@@ -3138,7 +3138,7 @@
         "path": "plugins/team",
         "sha": "88d447c7fb846f9d519faf59219cd34cf7577501"
       },
-      "category": "应用增强",
+      "category": "collaboration",
       "strict": true,
       "description": "Engineering team consisting of specialized agents for software development",
       "version": "3.8.0",
@@ -3164,7 +3164,7 @@
         "path": "plugins/team-motivation",
         "sha": "c172996495bed0fcd26896a9416b2093fd7073f0"
       },
-      "category": "应用增强",
+      "category": "collaboration",
       "strict": true,
       "description": "Team motivation and management skills including Daniel Pink's Autonomy, Mastery, Purpose (AMP) principles and Andy Grove's High Output Management (leverage, one-on-ones, OKRs, task-relevant maturity)",
       "version": "1.8.0",
@@ -3199,7 +3199,7 @@
         "path": "plugins/technology",
         "sha": "98d1c17d480f606060102a781f9a8601690685f7"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Architecture, engineering delivery, development discipline, debugging, review, and AI and automation systems.",
       "version": "1.0.0",
@@ -3228,7 +3228,7 @@
         "path": "claude-code-plugin",
         "sha": "2165ae76c9639e3996829ab0e6d54ddbd4f06ad8"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "A browser running directly inside claude code. Preview websites, view HTML documents, and let your agent control the built in browser.",
       "version": "0.0.2",
@@ -3254,7 +3254,7 @@
         "path": "",
         "sha": "774a02278f4fa99cc44d484911007d1ba29318ab"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "EN: Senior software design consultant. Interviews you about what you want to build, designs the complete architecture, and generates a self-contained blueprint another Claude Code instance can build from autonomously — with acceptance criteria and a verify command on every step. Works on new projects and existing codebases. ES: Consultor senior de diseño de software. Te entrevista sobre lo que quieres construir, diseña la arquitectura completa, y genera un blueprint autocontenido desde el cual otra instancia de Claude Code puede construir de forma autónoma.",
       "version": "2.5.0",
@@ -3289,9 +3289,9 @@
         "source": "github",
         "repo": "alexgreensh/token-optimizer",
         "path": "cowork/to-hook-probe",
-        "sha": "7c05b7088364d081e066e11ffafd9b110184d1d2"
+        "sha": "723c19bf84acf9cf73664303a766cc20b16b12c1"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "[BETA] Token Optimizer diagnostic probe: proves which hook events fire in a Claude Cowork session (env dump + marker files + optional phone-home).",
       "version": "0.1.0",
@@ -3317,12 +3317,12 @@
         "source": "github",
         "repo": "alexgreensh/token-optimizer",
         "path": "",
-        "sha": "7c05b7088364d081e066e11ffafd9b110184d1d2"
+        "sha": "723c19bf84acf9cf73664303a766cc20b16b12c1"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Audit, fix, and monitor Claude Code context window usage. Find the ghost tokens.",
-      "version": "5.13.36",
+      "version": "5.13.37",
       "homepage": "https://github.com/alexgreensh/token-optimizer",
       "author": {
         "name": "Alex Greenshpun",
@@ -3348,12 +3348,12 @@
         "source": "github",
         "repo": "alexgreensh/token-optimizer",
         "path": "cowork/token-optimizer",
-        "sha": "7c05b7088364d081e066e11ffafd9b110184d1d2"
+        "sha": "723c19bf84acf9cf73664303a766cc20b16b12c1"
       },
-      "category": "应用增强",
+      "category": "coding",
       "strict": true,
       "description": "Token Optimizer for Claude Cowork: self-contained plugin with full skills and Cowork-native hooks (UserPromptSubmit, PreToolUse, PostToolUse, Stop). Install THIS in Cowork; the standard token-optimizer entry is for desktop Claude Code.",
-      "version": "5.13.36",
+      "version": "5.13.37",
       "homepage": "https://github.com/alexgreensh/token-optimizer",
       "author": {
         "name": "Alex Greenshpun",
@@ -3381,7 +3381,7 @@
         "path": "commands/trading-ideas",
         "sha": "978e035084698ac6f67f9ae758f1d3019929b97d"
       },
-      "category": "应用增强",
+      "category": "science",
       "strict": true,
       "description": "Institutional-grade equity research reports via /trading-ideas:research command.",
       "version": "1.0.1",
@@ -3400,7 +3400,7 @@
         "path": "vendors/ui-ux-pro-max-skill",
         "sha": "b34780d48d9360d6c349c988e593be440b091c0f"
       },
-      "category": "应用增强",
+      "category": "design",
       "strict": true,
       "description": "UI/UX design intelligence. Searchable local database with 84 styles, 192 palettes, 74 font pairings, 25 charts, and 22 stacks (React, Next.js, Vue, Nuxt.js, Nuxt UI, Svelte, Astro, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui, Jetpack Compose, Angular, Laravel, JavaFX, WPF, WinUI, Avalonia, Uno Platform, UWP, Three.js). Use when designing, building, or reviewing UI: pages, components, color schemes, typography, layout, accessibility, animation, or data visualization.",
       "version": "2.13.0",
@@ -3431,12 +3431,12 @@
         "source": "github",
         "repo": "unbrowse-ai/unbrowse",
         "path": "plugins/claude-code",
-        "sha": "7b59dfa95bfb3e2ee9230794a00376cfae43be7f"
+        "sha": "b335b96238ab9256bf5e6be787d90e132d730db8"
       },
-      "category": "应用增强",
+      "category": "enhancement",
       "strict": true,
       "description": "Websites as APIs for Claude Code: the hosted Unbrowse MCP (discover, run, scrape, cloud browser, saved logins) plus its skill. Replaces WebFetch, WebSearch and browser MCPs with Unbrowse.",
-      "version": "12.2.0",
+      "version": "12.2.1",
       "displayName": "Unbrowse",
       "homepage": "https://unbrowse.ai",
       "author": {
@@ -3464,7 +3464,7 @@
         "path": "plugins/ux-design",
         "sha": "c172996495bed0fcd26896a9416b2093fd7073f0"
       },
-      "category": "应用增强",
+      "category": "design",
       "strict": true,
       "description": "UX and UI design skills including Refactoring UI, iOS HIG design, usability heuristics, habit-forming product design, behavior design for retention, web typography, award-winning top-design, Steve Jobs-style design reviews, and Don Norman's foundational design principles",
       "version": "1.8.0",
@@ -3505,7 +3505,7 @@
         "path": "",
         "sha": "539168622918e058bd250c793b82f043eced31e0"
       },
-      "category": "应用增强",
+      "category": "design",
       "strict": true,
       "description": "Independent stages plus a thin orchestrator for Chinese-narration recaps from supported video files: local Python/ffmpeg; remote Xiaomi MiMo ASR, VLM, and default TTS; optional Fish Audio TTS with a separate API key or a self-hosted HTTP TTS endpoint; final playback review required.",
       "version": "0.6.2",

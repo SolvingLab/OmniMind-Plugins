@@ -1,10 +1,9 @@
 import { mapLimit, MANIFESTS } from '../lib/github.mjs';
 
-export function manifestRoots(paths, { includeUnsupported = true } = {}) {
-  const manifests = includeUnsupported ? [...MANIFESTS, '.zcode-plugin/plugin.json'] : MANIFESTS;
+export function manifestRoots(paths) {
   const roots = new Set();
   for (const path of paths) {
-    for (const manifest of manifests) {
+    for (const manifest of MANIFESTS) {
       if (path === manifest) roots.add('');
       else if (path.endsWith(`/${manifest}`)) roots.add(path.slice(0, -manifest.length - 1));
     }

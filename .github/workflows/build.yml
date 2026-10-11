@@ -2,6 +2,15 @@ name: Build plugin catalogs
 on:
   schedule:
     - cron: '17 3 * * *'
+  push:
+    paths:
+      - 'data/plugins/**'
+      - 'data/categories.yml'
+      - 'data/external.yml'
+      - 'scripts/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/build.yml'
   workflow_dispatch:
 permissions:
   contents: write
@@ -10,10 +19,14 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
-    if: github.repository == 'SolvingLab/OmniMind-Plugins'
+    if: >-
+      github.repository == 'SolvingLab/OmniMind-Plugins' &&
+      (github.event_name != 'push' || github.ref_name == github.event.repository.default_branch)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -22,8 +35,9 @@ jobs:
       - run: npm run build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - run: npm run validate
-      - name: Publish generated catalogs
+      - name: Validate V2 catalogs
+        run: node scripts/validate-v2.mjs dist/plugins.json dist/marketplaces/*.json
+      - name: Commit generated catalogs to the public repository
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -32,3 +46,34 @@ jobs:
             git commit -m 'chore: refresh plugin catalogs'
             git push
           fi
+      - name: Publish plugins.json to the configured CDN
+        env:
+          PLUGINS_CDN_UPLOAD_URL: ${{ secrets.PLUGINS_CDN_UPLOAD_URL }}
+          PLUGINS_CDN_UPLOAD_TOKEN: ${{ secrets.PLUGINS_CDN_UPLOAD_TOKEN }}
+        run: |
+          node --input-type=module <<'NODE'
+          import { readFile } from 'node:fs/promises';
+          const endpoint = process.env.PLUGINS_CDN_UPLOAD_URL;
+          if (!endpoint) {
+            console.log('CDN upload skipped: PLUGINS_CDN_UPLOAD_URL is not configured. Public dist/plugins.json remains available in the repository.');
+            process.exit(0);
+          }
+          try {
+            const url = new URL(endpoint);
+            if (url.protocol !== 'https:' || url.username || url.password) throw new Error();
+            const headers = { 'Content-Type': 'application/json' };
+            const token = process.env.PLUGINS_CDN_UPLOAD_TOKEN;
+            if (token) headers.Authorization = `Bearer ${token}`;
+            const response = await fetch(url, {
+              method: 'PUT', headers, body: await readFile('dist/plugins.json'),
+              redirect: 'error', signal: AbortSignal.timeout(60_000),
+            });
+            if (!response.ok) {
+              console.error(`CDN upload failed (HTTP ${response.status}).`);
+              process.exitCode = 1;
+            } else console.log('Published plugins.json to the configured CDN.');
+          } catch {
+            console.error('CDN upload failed; check the upload URL, authentication and connectivity.');
+            process.exitCode = 1;
+          }
+          NODE

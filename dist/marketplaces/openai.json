@@ -10,7 +10,7 @@
         "path": "plugins/adobe",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "设计创作",
+      "category": "design",
       "strict": true,
       "description": "Adobe unlocks more ways to create and get work done from the conversation. Previously available as Photoshop, the Adobe connector now brings creativity and productivity capabilities across Creative Cloud and Acrobat. Describe what you want to make or change, and Adobe can help turn ideas, images, videos, and documents into polished outputs — from editing photos and creating PDFs to designing social assets, resizing videos, searching Creative Cloud assets, and generating data-driven documents.\nKey capabilities:\n\n* Retouch portraits or edit photos in bulk: Drop in photos and describe the look you want — adjust color, lighting, and tone; remove distractions and generate new elements; apply Lightroom presets; remove backgrounds; blur, crop, resize, and expand images.\n* Design from template: Start from an Express template, update text and colors, and then animate for social media or convert to PDF.\n* Refine video for any platform: Upload a horizontal clip and ask to reformat it for YouTube Shorts, Instagram Reels, or any platform. You can also stitch clips into a single sequence.\n* Search and organize creative work: Describe what you're looking for and surface assets from your Creative Cloud library — by subject, style, mood, or content — without browsing folders.\n* Work with PDFs and documents: Create and convert polished PDFs and documents.\n* Create data-driven documents: Describe your output and provide your data — the connector turns raw data or content into formatted, shareable PDFs, including badges, cards, catalogs, and more.\n\nYou can get started as a guest, and sign in with your Adobe account for more capabilities and tools, Creative Cloud storage, and saved work across sessions.",
       "version": "8.0.0",
@@ -40,7 +40,7 @@
         "path": "plugins/airtable",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "办公文档",
+      "category": "office",
       "strict": true,
       "description": "Bring operational data and context into the flow of your ChatGPT conversations. You can ask questions, create and update records, and analyze your data—all through conversation. Use the data in Airtable as input to the work you’re doing in ChatGPT, like building a landing page using content you’ve organized in Airtable. Make quick updates to Airtable without leaving the chat. Airtable for ChatGPT is ideal anytime you need quick access to structured internal data to inform your conversation.\n\nAirtable's App connects ChatGPT directly to your Airtable bases, so you can ask questions, create and update records, and analyze your data—all through conversation",
       "version": "6.0.1",
@@ -69,7 +69,7 @@
         "path": "plugins/atlassian-rovo",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "办公文档",
+      "category": "office",
       "strict": true,
       "description": "Manage Jira and Confluence fast",
       "version": "1.0.6",
@@ -107,7 +107,7 @@
         "path": "plugins/boltz-api-cli",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "科学研究",
+      "category": "science",
       "strict": true,
       "description": "Predict structures, screen molecules and proteins, and design binders.",
       "version": "0.1.1",
@@ -152,7 +152,7 @@
         "path": "plugins/build-ios-apps",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "Build iOS apps with workflows for App Intents, SwiftUI UI work, Simulator mirroring in the Codex in-app browser, performance profiling, leak investigation, and simulator debugging.",
       "version": "0.1.2",
@@ -194,7 +194,7 @@
         "path": "plugins/build-macos-apps",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "Build, run, test, debug, instrument, and implement local macOS apps using Xcode, SwiftUI, AppKit interop, unified logging, and shell-first desktop workflows.",
       "version": "0.1.4",
@@ -236,7 +236,7 @@
         "path": "plugins/build-web-apps",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "Build web apps with frontend asset design, browser testing, UI components, payments, and database guidance.",
       "version": "0.1.2",
@@ -279,7 +279,7 @@
         "path": "plugins/build-web-data-visualization",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "Design, critique, implement, test, and export web data visualizations in Codex, including charts, maps, dashboards, Gantt, UML, scrollytelling, reports, slides, mobile views, shareable state, and advanced WebGL concepts.",
       "version": "0.1.21",
@@ -353,7 +353,7 @@
         "path": "plugins/canva",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "设计创作",
+      "category": "design",
       "strict": true,
       "description": "Bring your Canva design workflow into Codex and create, refine, and review designs through natural conversation.\nAvailable skills:\nResize for social media: Adapt a design for Facebook, Instagram, and LinkedIn in one step.\nBulk create: Generate multiple designs from spreadsheet data using a brand template.\nEdit designs: Update text, media, and formatting, or reposition and resize elements.\nGet design feedback: Receive structured feedback on visual hierarchy, layout, readability, consistency, and accessibility.\nImplement feedback: Review comment threads and apply clear, actionable changes.\nBrand check: Check colors, fonts, logo usage, and copy against your Brand Kit.\nOnce installed, describe what you want in plain language or invoke Canva directly with @Canva.\nTry prompts like:\n- @Canva, resize this design for social media.\n- @Canva, create designs from this spreadsheet using my brand template.\n- @Canva, update the headline in this design.\n- @Canva, review this design’s visual hierarchy and readability.\n- @Canva, implement the feedback in the comment threads.\n- @Canva, check this design against my Brand Kit.\n\nRequirements: Connect your Canva account to use the plugin. Bulk Create requires an eligible Canva Enterprise plan.\n\nWant to take a more hands-on approach? Instantly open your design in Canva’s powerful editor for the final touches.",
       "version": "14.0.0",
@@ -383,7 +383,7 @@
         "path": "plugins/chatcut",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "设计创作",
+      "category": "design",
       "strict": true,
       "description": "Install, open, and connect the signed ChatCut Desktop app from Codex.",
       "version": "1.0.4",
@@ -425,7 +425,7 @@
         "path": "plugins/circleci",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "Build, test, and deploy any application",
       "version": "1.0.4",
@@ -461,7 +461,7 @@
         "path": "plugins/clickup",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "办公文档",
+      "category": "office",
       "strict": true,
       "description": "Turn Codex into your ClickUp command center.",
       "version": "1.0.3",
@@ -488,7 +488,7 @@
         "path": "plugins/cloudflare",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "Cloudflare platform plugin with curated skills for Workers, Wrangler, and Agents SDK plus the official Cloudflare API MCP server.",
       "version": "0.1.2",
@@ -529,7 +529,7 @@
         "path": "plugins/coderabbit",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "AI-powered code review in Codex, powered by CodeRabbit.",
       "version": "1.1.4",
@@ -564,7 +564,7 @@
         "path": "plugins/codex-security",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "Codex Security workflows for security scans, analysis, and investigation.",
       "version": "0.1.32",
@@ -601,7 +601,7 @@
         "path": "plugins/consensus",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "科学研究",
+      "category": "science",
       "strict": true,
       "description": "Consensus is the go-to MCP for academic research. Connect directly to 220M+ peer-reviewed papers to search, synthesize, and build structured research outputs from within your conversation.\n\nRun literature reviews, build boolean search strategies, generate bibliographies, identify research gaps, and draft cited content — grounded in studies from PubMed, Semantic Scholar, and ArXiv. Pre-built workflows handle complex tasks in minutes: systematic reviews, curriculum reading lists, grant research with novelty analysis, and clinical evidence synthesis.\n\nBuilt for researchers, students, faculty, and clinicians across biomedical, social science, STEM, and all academic disciplines.",
       "version": "4.0.0",
@@ -631,7 +631,7 @@
         "path": "plugins/creative-production",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "设计创作",
+      "category": "design",
       "strict": true,
       "description": "Explore campaign ideas, concept images, mood boards, product placements, ad directions, listing images, social posts, and launch assets.",
       "version": "0.1.25",
@@ -672,6 +672,71 @@
       "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/creative-production/assets/logo.png"
     },
     {
+      "name": "crowdstrike-falcon-foundry",
+      "source": {
+        "source": "github",
+        "repo": "CrowdStrike/foundry-skills",
+        "path": "",
+        "sha": "ec792c5f4b70efdf73ceceb4adf1bea485513d36"
+      },
+      "category": "coding",
+      "strict": true,
+      "description": "CrowdStrike Falcon Foundry development skills for building cybersecurity applications on the Falcon platform. Includes UI development, collections, functions, workflows, API integration, security patterns, and debugging workflows. Swagger 2.0 specs are auto-converted to OpenAPI 3.0 via npx swagger2openapi (requires Node.js; network call to npm registry).",
+      "version": "1.6.0",
+      "homepage": "https://github.com/CrowdStrike/foundry-skills",
+      "author": {
+        "name": "CrowdStrike"
+      },
+      "tags": [
+        "foundry",
+        "crowdstrike",
+        "cybersecurity",
+        "falcon",
+        "ui-development",
+        "collections",
+        "functions",
+        "workflows",
+        "api-integration",
+        "security"
+      ],
+      "x-omnimind": {
+        "sourceId": "openai",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/CrowdStrike.png"
+    },
+    {
+      "name": "crowdstrike-falcon-fusion",
+      "source": {
+        "source": "github",
+        "repo": "CrowdStrike/fusion-skills",
+        "path": "",
+        "sha": "35ff4e8252c4a68002640399c346a84e64f1ef5d"
+      },
+      "category": "coding",
+      "strict": true,
+      "description": "CrowdStrike Falcon Fusion skills for authoring, deploying, and executing Fusion workflows. Includes live action discovery, YAML authoring with schema validation, workflow import and release, execution monitoring, and Falcon Next-Gen SIEM lookup files.",
+      "version": "1.3.0",
+      "homepage": "https://github.com/CrowdStrike/fusion-skills",
+      "author": {
+        "name": "CrowdStrike"
+      },
+      "tags": [
+        "crowdstrike",
+        "falcon",
+        "fusion",
+        "soar",
+        "workflow",
+        "automation",
+        "security"
+      ],
+      "x-omnimind": {
+        "sourceId": "openai",
+        "manifestPath": ".claude-plugin/plugin.json"
+      },
+      "icon": "https://github.com/CrowdStrike.png"
+    },
+    {
       "name": "data-analytics",
       "source": {
         "source": "github",
@@ -679,7 +744,7 @@
         "path": "plugins/data-analytics",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "数据分析",
+      "category": "data",
       "strict": true,
       "description": "Answer product and business questions with data",
       "version": "0.2.8",
@@ -739,7 +804,7 @@
         "path": "plugins/datadog",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "Available for US1 customers only. Analyze, investigate, and act on your Datadog telemetry directly from ChatGPT using natural language. Ask questions about your production applications, identify, visualize, and remediate issues in your critical services. Run agentic loops to ensure you continue to maintain good observability and service management posture.",
       "version": "10.0.0",
@@ -769,7 +834,7 @@
         "path": "plugins/dropbox",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "办公文档",
+      "category": "office",
       "strict": true,
       "description": "The Dropbox plugin for ChatGPT connects your Dropbox files directly to ChatGPT. You can access files, save ChatGPT-generated content to Dropbox, and create sharing links without switching tools. Everything respects your existing Dropbox permissions, and ChatGPT only works with files you already have access to.",
       "version": "5.0.1",
@@ -799,7 +864,7 @@
         "path": "plugins/expo",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "Official Expo skills for building, deploying, upgrading, and debugging Expo and React Native apps.",
       "version": "1.0.2",
@@ -838,7 +903,7 @@
         "path": "plugins/figma",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "设计创作",
+      "category": "design",
       "strict": true,
       "description": "Figma workflows for design implementation, Code Connect templates, and design system rule generation.",
       "version": "2.0.20",
@@ -881,7 +946,7 @@
         "path": "plugins/game-studio",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "Design, prototype, and ship browser games with guided 2D and 3D workflows, asset pipelines, and playtesting support.",
       "version": "0.1.2",
@@ -921,7 +986,7 @@
         "path": "plugins/github",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "Inspect repositories, triage pull requests and issues, debug CI, and publish changes through a hybrid GitHub connector and CLI workflow.",
       "version": "0.1.12",
@@ -965,7 +1030,7 @@
         "path": "plugins/gmail",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "协作管理",
+      "category": "collaboration",
       "strict": true,
       "description": "Work with Gmail using the configured Gmail app connector.",
       "version": "0.1.9",
@@ -1004,7 +1069,7 @@
         "path": "plugins/google-calendar",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "办公文档",
+      "category": "office",
       "strict": true,
       "description": "Connect Google Calendar for scheduling, availability, daily briefs, and event management.",
       "version": "1.2.6",
@@ -1046,7 +1111,7 @@
         "path": "plugins/google-drive",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "办公文档",
+      "category": "office",
       "strict": true,
       "description": "Use Google Drive as the single entrypoint for Drive, Docs, Sheets, and Slides work.",
       "version": "0.1.15",
@@ -1089,7 +1154,7 @@
         "path": "plugins/granola",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "办公文档",
+      "category": "office",
       "strict": true,
       "description": "Granola MCP connects your meeting history to ChatGPT so your assistant can pull real context from past conversations while you work.\n\nUse MCP when you're already working on something bigger:\n\n-   Writing PRDs or proposals: Pull customer feedback, stakeholder input, and decisions from relevant meetings directly into your draft\n    \n-   Building presentations or reports: Combine insights from multiple conversations with your other research and data\n    \n-   Coding with context: Give your AI the project background, requirements, and technical decisions discussed in planning meetings\n    \n-   Strategic analysis: Merge meeting insights with documents, data, and other sources for comprehensive analysis\n    \nHow it works:\n\nYour AI assistant can search your Granola meetings by topic, person, company, or timeframe - then cite specific conversations in its responses. No more switching tabs to find \"what the customer said\" or \"when we decided that.\"\n\nThe difference:\n\nInstead of copy-pasting meeting notes into prompts, your AI pulls exactly what it needs from your meeting history automatically. You stay focused on the work, not the research or context.",
       "version": "1.0.0",
@@ -1119,7 +1184,7 @@
         "path": "plugins/higgsfield",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "设计创作",
+      "category": "design",
       "strict": true,
       "description": "Generate images and videos from a text prompt or your own photo. Turn a product shot into a video ad, restyle a photo, animate a still, or build a two-minute narrated explainer. Every major image and video model in one place.",
       "version": "1.2.1",
@@ -1149,7 +1214,7 @@
         "path": "plugins/hyperframes",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "设计创作",
+      "category": "design",
       "strict": true,
       "description": "Write HTML, render video. Compositions, GSAP animations, captions, voiceovers, audio-reactive visuals, and website-to-video capture for HyperFrames.",
       "version": "0.1.2",
@@ -1190,7 +1255,7 @@
         "path": "plugins/life-science-research",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "科学研究",
+      "category": "science",
       "strict": true,
       "description": "General life-sciences research workflows with query routing, evidence synthesis, and optional parallel subagent analysis across genetics, omics, biology, chemistry, structure, clinical evidence, and public dataset discovery.",
       "version": "1.0.3",
@@ -1237,7 +1302,7 @@
         "path": "plugins/linear",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "办公文档",
+      "category": "office",
       "strict": true,
       "description": "Search, create and update Linear issues, projects, and initiatives. Draft PRDs, write updates, analyze customer requests, and keep plans up to date — all from within ChatGPT",
       "version": "5.0.1",
@@ -1267,7 +1332,7 @@
         "path": "plugins/lovable",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "Build apps and websites",
       "version": "2.0.1",
@@ -1297,7 +1362,7 @@
         "path": "plugins/magicpath",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "Use MagicPath to find, inspect, install, create, and edit UI components from Codex.",
       "version": "0.1.2",
@@ -1336,7 +1401,7 @@
         "path": "plugins/mixpanel-headless",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "数据分析",
+      "category": "data",
       "strict": true,
       "description": "Analyze Mixpanel data with the mixpanel_headless Python SDK and Codex skills.",
       "version": "0.1.2",
@@ -1378,7 +1443,7 @@
         "path": "plugins/monday-com",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "办公文档",
+      "category": "office",
       "strict": true,
       "description": "The monday.com AI Connector brings core platform capabilities directly to agents and AI assistants. It supports searching boards, creating and updating items and columns, assigning owners, setting timelines, and posting updates — enabling a wide range of work management and CRM use cases across teams and departments.\n\nTeams of people and agents use monday.com as a task tracker and project tracking hub: planning campaigns and events, tracking milestones, dependencies, and workload, managing approval workflows and request intake, and sharing status updates across projects and portfolios — as well as a CRM for managing leads, contacts, and deals.\n\nBeyond day-to-day work management, the connector lets agents answer questions using monday.com's official knowledge base, plan and build automations and multi-step workflows, run and save reusable code actions, and configure other monday.com agents .",
       "version": "2.0.0",
@@ -1406,7 +1471,7 @@
         "path": "plugins/ngs-analysis",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "科学研究",
+      "category": "science",
       "strict": true,
       "description": "Guided NGS intake, local execution, and public-pipeline routing for BCL, FASTQ, DNA variant, RNA-seq, single-cell, epigenomics, amplicon, and metagenomics analyses, with deeper decision skills for high-risk assay branches.",
       "version": "1.0.3",
@@ -1452,7 +1517,7 @@
         "path": "plugins/notion",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "办公文档",
+      "category": "office",
       "strict": true,
       "description": "Notion workflows for implementation planning, research synthesis, meeting preparation, and knowledge capture.",
       "version": "0.1.7",
@@ -1494,7 +1559,7 @@
         "path": "plugins/nvidia",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "Skills for NVIDIAs ecosystem spans GPU acceleration, CUDA, AI agents, inference, robotics, Physical AI, Omniverse, and simulation. This plugin helps you understand the pieces, choose a path, validate your setup, and build practical NVIDIA-powered workflows.",
       "version": "1.0.4",
@@ -1540,7 +1605,7 @@
         "path": "plugins/openai-ads-conversions",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "Set up OpenAI Ads Measurement Pixel and optional Conversions API instrumentation.",
       "version": "0.1.2",
@@ -1576,7 +1641,7 @@
         "path": "plugins/openai-developers",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "Build with OpenAI APIs, Agents SDK, and ChatGPT Apps, and create and save OpenAI API keys from Codex.",
       "version": "1.2.3",
@@ -1618,7 +1683,7 @@
         "path": "plugins/outlook-calendar",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "办公文档",
+      "category": "office",
       "strict": true,
       "description": "Connect Microsoft Outlook Calendar for scheduling, daily briefs, event prep, and safe meeting changes.",
       "version": "0.1.8",
@@ -1660,7 +1725,7 @@
         "path": "plugins/outlook-email",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "协作管理",
+      "category": "collaboration",
       "strict": true,
       "description": "Work with Outlook Email using the configured Microsoft Outlook app connector.",
       "version": "0.1.7",
@@ -1700,7 +1765,7 @@
         "path": "plugins/plugin-eval",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "Evaluate Codex skills and plugins from chat with a beginner-friendly start command, local-first reports, token budget explanations, and guided benchmarking.",
       "version": "0.1.2",
@@ -1739,7 +1804,7 @@
         "path": "plugins/posthog",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "数据分析",
+      "category": "data",
       "strict": true,
       "description": "PostHog gives your AI agent direct access to your product analytics, feature flags, experiments, error tracking, surveys, logs, and LLM analytics. Ask questions about your data, create insights, toggle feature flags, analyze errors, search docs, and more — all from chat.",
       "version": "1.0.0",
@@ -1783,7 +1848,7 @@
         "path": "plugins/product-design",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "设计创作",
+      "category": "design",
       "strict": true,
       "description": "The Product Design plugin is built for turning early ideas into prototypes teams can review. It starts design and build work by confirming the brief, then helps teams explore product directions, audit user flows, prototype from a live URL, and make static screenshots interactive.",
       "version": "0.1.52",
@@ -1831,7 +1896,7 @@
         "path": "plugins/public-equity-investing",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "数据分析",
+      "category": "data",
       "strict": true,
       "description": "Public equity investing workflows for listed-company research, earnings analysis, valuation, model updates, long/short pitches, catalysts, thesis tracking, ETF/index and constituent diligence, sell-side research notes, risk sizing, hedging, dashboards, and investment memos.",
       "version": "0.1.31",
@@ -1880,6 +1945,44 @@
       "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/public-equity-investing/assets/logo.png"
     },
     {
+      "name": "qodo",
+      "source": {
+        "source": "github",
+        "repo": "qodo-ai/qodo-skills",
+        "path": "codex-packages/qodo",
+        "sha": "866d301dfbec39d5bb18bde72ac0dc770cc759a1"
+      },
+      "category": "coding",
+      "strict": true,
+      "description": "Qodo setup, code intelligence, and review workflows.",
+      "version": "2.0.13",
+      "displayName": "Qodo",
+      "homepage": "https://www.qodo.ai",
+      "privacyPolicy": "https://www.qodo.ai/privacy-policy/",
+      "termsOfService": "https://www.qodo.ai/terms/",
+      "author": {
+        "name": "Qodo",
+        "url": "https://www.qodo.ai"
+      },
+      "tags": [
+        "qodo",
+        "code-review",
+        "code-intelligence",
+        "standards",
+        "coding-agents"
+      ],
+      "examplePrompts": [
+        "Use $qodo-codebase-wisdom to explain how this code works and cite the evidence.",
+        "Use $qodo-review to review my local changes before I push them.",
+        "Use $qodo-review-resolver to show me the current Qodo review findings."
+      ],
+      "x-omnimind": {
+        "sourceId": "openai",
+        "manifestPath": "codex-packages/qodo/.codex-plugin/plugin.json"
+      },
+      "icon": "https://raw.githubusercontent.com/qodo-ai/qodo-skills/866d301dfbec39d5bb18bde72ac0dc770cc759a1/codex-packages/qodo/assets/qodo.png"
+    },
+    {
       "name": "remotion",
       "source": {
         "source": "github",
@@ -1887,7 +1990,7 @@
         "path": "plugins/remotion",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "设计创作",
+      "category": "design",
       "strict": true,
       "description": "Remotion video creation skills — best practices, animations, audio, captions, 3D, and more for building programmatic videos with React.",
       "version": "1.0.7",
@@ -1929,7 +2032,7 @@
         "path": "plugins/sentry",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "Inspect recent issues and events in Sentry from Codex.",
       "version": "0.1.2",
@@ -1963,7 +2066,7 @@
         "path": "plugins/sharepoint",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "办公文档",
+      "category": "office",
       "strict": true,
       "description": "Work with SharePoint using the configured Microsoft SharePoint app connector.",
       "version": "0.1.7",
@@ -2003,7 +2106,7 @@
         "path": "plugins/shopify",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "协作管理",
+      "category": "collaboration",
       "strict": true,
       "description": "Shopify for ChatGPT makes store building and management as easy as having a conversation. Effortlessly connect your existing store or create a new online store by describing your business. Simply chat to add products, adjust inventory across locations, create discount codes, browse recent orders, view customer details, or pull analytics on your store’s performance.",
       "version": "3.0.0",
@@ -2033,7 +2136,7 @@
         "path": "plugins/slack",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "协作管理",
+      "category": "collaboration",
       "strict": true,
       "description": "Work with Slack using the configured Slack integration.",
       "version": "0.1.7",
@@ -2072,7 +2175,7 @@
         "path": "plugins/stripe",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "数据分析",
+      "category": "data",
       "strict": true,
       "description": "Develop your payments integration faster with the ability to create products, prices, and payment links directly in ChatGPT. Run your business from ChatGPT with the ability to retrieve and manage payments, subscriptions, invoices, refunds, disputes, and customers. Build and debug your payment integration quicker than ever by searching the Stripe documentation and getting integration recommendations without needing to leave ChatGPT.",
       "version": "7.0.0",
@@ -2102,7 +2205,7 @@
         "path": "plugins/supabase",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "Manage Supabase projects directly through ChatGPT. Execute SQL queries on PostgreSQL databases, design and modify table schemas, deploy serverless edge functions, and configure user authentication. Access real-time logs for debugging, create and apply database migrations, and manage development branches through natural language.",
       "version": "1.0.0",
@@ -2140,7 +2243,7 @@
         "path": "plugins/superpowers",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "An agentic skills framework & software development methodology that works: planning, TDD, debugging, and collaboration workflows.",
       "version": "6.3.0",
@@ -2180,7 +2283,7 @@
         "path": "plugins/teams",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "协作管理",
+      "category": "collaboration",
       "strict": true,
       "description": "Work with Teams using the configured Microsoft Teams app connector.",
       "version": "0.1.8",
@@ -2221,7 +2324,7 @@
         "path": "plugins/temporal",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "Comprehensive skill for the entire Temporal lifecycle — developing applications, using the Temporal CLI, running and managing Temporal Server, and working with Temporal Cloud.",
       "version": "0.4.0",
@@ -2262,7 +2365,7 @@
         "path": "plugins/test-android-apps",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "Test Android apps with emulator workflows for reproduction, screenshots, UI inspection, log capture, and performance profiling.",
       "version": "0.1.2",
@@ -2305,7 +2408,7 @@
         "path": "plugins/twilio-developer-kit",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "Twilio Skills provide procedural knowledge for AI coding agents — which APIs to use, in what order, and what to avoid. Covers Messaging, Voice, Verify, SendGrid, and 30+ products.",
       "version": "0.2.2",
@@ -2354,7 +2457,7 @@
         "path": "plugins/vercel",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "编程开发",
+      "category": "coding",
       "strict": true,
       "description": "Build and deploy web apps and agents",
       "version": "0.21.4",
@@ -2401,7 +2504,7 @@
         "path": "plugins/zoom",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "协作管理",
+      "category": "collaboration",
       "strict": true,
       "description": "Smart meeting insights from Zoom",
       "version": "1.0.0",
@@ -2446,7 +2549,7 @@
         "path": "plugins/zotero",
         "sha": "0722921d5542fc593105c27bd52630babd8b8c2a"
       },
-      "category": "科学研究",
+      "category": "science",
       "strict": true,
       "description": "Work with Zotero from Codex: search your library, export BibTeX, insert citations, and import references through the Zotero desktop app.",
       "version": "0.1.2",
