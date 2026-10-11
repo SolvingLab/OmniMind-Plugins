@@ -46,6 +46,8 @@ npm run validate
 
 ## 后续维护
 
+精选由维护者在 `data/featured.yml` 中按 `marketplace` + `name` 决定，社区收录不会自动成为精选。
+
 仓库 archived、404、转私有或 manifest 消失时立即退出目录。push 超过 180 天或 stars < 400 时隐藏，保留 7 天的起始时间后标记移除；恢复达标会清除记录。修改分类映射必须覆盖全部真实上游值，不能把未知分类静默归入兜底类。
 
 目录聚合通过不代表插件已完成 OmniMind 安装或运行验收；安装验证在 V2 切片执行。不要在本仓库提交 token、插件源码副本、`node_modules/` 或 `.cache/`。

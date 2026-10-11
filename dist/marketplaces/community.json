@@ -183,7 +183,8 @@
         "sourceId": "community",
         "manifestPath": ".claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/tigerless-labs.png"
+      "icon": "https://github.com/tigerless-labs.png",
+      "featured": true
     },
     {
       "name": "bitwize-music",
@@ -313,7 +314,7 @@
         "source": "github",
         "repo": "renezander030/capcut-cli",
         "path": "",
-        "sha": "648f4698fa213d2577fdb50f5f220e6cf2edfdfa"
+        "sha": "bc7d4c3c366966d1af6d49c8cd19644d1f9d8110"
       },
       "category": "design",
       "strict": true,
@@ -381,12 +382,12 @@
         "source": "github",
         "repo": "kenryu42/cc-safety-net",
         "path": "",
-        "sha": "f9f2e5a84ab60e81dc1a4ec12562e23c5f7760e0"
+        "sha": "eb97ff926e51aceee1b812413b3127290a5df93b"
       },
       "category": "enhancement",
       "strict": true,
       "description": "Block destructive commands and secret access",
-      "version": "2.6.7",
+      "version": "2.6.8",
       "displayName": "CC Safety Net",
       "homepage": "https://github.com/kenryu42/cc-safety-net",
       "author": {
@@ -654,7 +655,7 @@
         "sourceId": "community",
         "manifestPath": ".claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/thedotmack.png"
+      "featured": true
     },
     {
       "name": "claude-mem-cowork",
@@ -683,7 +684,7 @@
         "sourceId": "community",
         "manifestPath": "cowork/.claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/thedotmack.png"
+      "featured": true
     },
     {
       "name": "claude-obsidian",
@@ -1671,7 +1672,7 @@
         "source": "github",
         "repo": "kitfunso/hippo-memory",
         "path": "extensions/claude-code-plugin",
-        "sha": "02bdda5964e10611735fb5ca196fcf31c0f35eb1"
+        "sha": "9cbc76204524583e263b4f80ec755dcd2c63cd0a"
       },
       "category": "enhancement",
       "strict": true,
@@ -1980,7 +1981,8 @@
         "sourceId": "community",
         "manifestPath": ".claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/coreyhaines31.png"
+      "icon": "https://github.com/coreyhaines31.png",
+      "featured": true
     },
     {
       "name": "mcp-apps",
@@ -2516,7 +2518,8 @@
         "manifestPath": ".claude-plugin/plugin.json",
         "submission": "DietrichGebert__ponytail.yml"
       },
-      "icon": "https://github.com/DietrichGebert.png"
+      "icon": "https://github.com/DietrichGebert.png",
+      "featured": true
     },
     {
       "name": "power-apps-mobile-extension",

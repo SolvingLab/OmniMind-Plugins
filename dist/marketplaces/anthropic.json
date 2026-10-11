@@ -680,7 +680,8 @@
         "sourceId": "anthropic",
         "manifestPath": "external_plugins/asana/.claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/anthropics.png"
+      "icon": "https://github.com/anthropics.png",
+      "featured": true
     },
     {
       "name": "astronomer-data",
@@ -2240,7 +2241,8 @@
         "sourceId": "anthropic",
         "manifestPath": "plugins/claude-code-setup/.claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/anthropics.png"
+      "icon": "https://github.com/anthropics.png",
+      "featured": true
     },
     {
       "name": "claude-md-management",
@@ -2262,7 +2264,8 @@
         "sourceId": "anthropic",
         "manifestPath": "plugins/claude-md-management/.claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/anthropics.png"
+      "icon": "https://github.com/anthropics.png",
+      "featured": true
     },
     {
       "name": "claude-security",
@@ -3506,7 +3509,8 @@
         "sourceId": "anthropic",
         "manifestPath": "plugins/explanatory-output-style/.claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/anthropics.png"
+      "icon": "https://github.com/anthropics.png",
+      "featured": true
     },
     {
       "name": "expo",
@@ -3670,7 +3674,8 @@
         "sourceId": "anthropic",
         "manifestPath": "external_plugins/firebase/.claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/anthropics.png"
+      "icon": "https://github.com/anthropics.png",
+      "featured": true
     },
     {
       "name": "firecrawl",
@@ -4351,7 +4356,8 @@
         "sourceId": "anthropic",
         "manifestPath": ".claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/heygen-com.png"
+      "icon": "https://github.com/heygen-com.png",
+      "featured": true
     },
     {
       "name": "idmp-plugin",
@@ -4722,7 +4728,8 @@
         "sourceId": "anthropic",
         "manifestPath": "plugins/learning-output-style/.claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/anthropics.png"
+      "icon": "https://github.com/anthropics.png",
+      "featured": true
     },
     {
       "name": "legalzoom",
@@ -5065,7 +5072,8 @@
         "sourceId": "anthropic",
         "manifestPath": "plugins/math-olympiad/.claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/anthropics.png"
+      "icon": "https://github.com/anthropics.png",
+      "featured": true
     },
     {
       "name": "math-proof",
@@ -5117,7 +5125,8 @@
         "sourceId": "anthropic",
         "manifestPath": ".claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/mattpocock.png"
+      "icon": "https://github.com/mattpocock.png",
+      "featured": true
     },
     {
       "name": "mcp-apps",
@@ -7822,7 +7831,8 @@
         "sourceId": "anthropic",
         "manifestPath": ".claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/obra.png"
+      "icon": "https://github.com/obra.png",
+      "featured": true
     },
     {
       "name": "synthflow",

@@ -794,7 +794,8 @@
         "sourceId": "openai",
         "manifestPath": "plugins/data-analytics/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/data-analytics/assets/datascience.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/data-analytics/assets/datascience.png",
+      "featured": true
     },
     {
       "name": "datadog",
@@ -1059,7 +1060,8 @@
         "sourceId": "openai",
         "manifestPath": "plugins/gmail/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/gmail/assets/gmail.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/gmail/assets/gmail.png",
+      "featured": true
     },
     {
       "name": "google-calendar",
@@ -1433,7 +1435,8 @@
         "sourceId": "openai",
         "manifestPath": "plugins/mixpanel-headless/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/mixpanel-headless/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/mixpanel-headless/assets/logo.png",
+      "featured": true
     },
     {
       "name": "monday-com",
@@ -1886,7 +1889,8 @@
         "sourceId": "openai",
         "manifestPath": "plugins/product-design/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/product-design/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/product-design/assets/logo.png",
+      "featured": true
     },
     {
       "name": "public-equity-investing",
@@ -2022,7 +2026,8 @@
         "sourceId": "openai",
         "manifestPath": "plugins/remotion/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/remotion/.codex-plugin/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/remotion/.codex-plugin/assets/logo.png",
+      "featured": true
     },
     {
       "name": "sentry",
@@ -2314,7 +2319,8 @@
         "sourceId": "openai",
         "manifestPath": "plugins/teams/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/teams/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/teams/assets/logo.png",
+      "featured": true
     },
     {
       "name": "temporal",

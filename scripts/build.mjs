@@ -16,6 +16,42 @@ import { validateMarketplace } from './validate-v2.mjs';
 export const SOURCE_ORDER = ['anthropic', 'openai', 'zcode', 'solvinglab', 'community'];
 export const marketplaceName = id => `omnimind-ext-${id}`;
 
+export async function loadFeatured(file = resolve(ROOT, 'data/featured.yml')) {
+  const entries = yaml.load(await readFile(file, 'utf8'));
+  if (!Array.isArray(entries)) throw new Error('featured.yml must contain a list of marketplace/name pairs');
+  const seen = new Set();
+  for (const [index, entry] of entries.entries()) {
+    if (!entry || typeof entry !== 'object' || Array.isArray(entry) ||
+      Object.keys(entry).some(key => !['marketplace', 'name'].includes(key)) ||
+      typeof entry.marketplace !== 'string' || !NAME_PATTERN.test(entry.marketplace) ||
+      typeof entry.name !== 'string' || !NAME_PATTERN.test(entry.name)) {
+      throw new Error(`featured.yml[${index}]: expected valid marketplace and name`);
+    }
+    const key = `${entry.name}@${entry.marketplace}`;
+    if (seen.has(key)) throw new Error(`featured.yml: duplicate entry ${key}`);
+    seen.add(key);
+  }
+  return entries;
+}
+
+export function applyFeatured(markets, entries) {
+  const plugins = new Map();
+  for (const market of Object.values(markets)) {
+    for (const plugin of market.plugins) {
+      delete plugin.featured;
+      plugins.set(`${plugin.name}@${market.name}`, plugin);
+    }
+  }
+  const warnings = [];
+  for (const entry of entries) {
+    const key = `${entry.name}@${entry.marketplace}`;
+    const plugin = plugins.get(key);
+    if (plugin) plugin.featured = true;
+    else warnings.push(`Featured plugin not found in built catalogs: ${key}`);
+  }
+  return warnings;
+}
+
 function nonEmpty(value) { return typeof value === 'string' && value.trim() ? value : undefined; }
 function stringMap(value) {
   if (!value || typeof value !== 'object' || Array.isArray(value)) return undefined;
@@ -123,6 +159,7 @@ function categoryCounts(plugins) {
 
 export async function build({ client = new GitHub(), now = new Date() } = {}) {
   const mapping = await loadCategories();
+  const featured = await loadFeatured();
   const state = await loadDecayState();
   const external = await buildExternal(undefined, mapping);
   const readers = [anthropic, openai, zcode, solvinglab];
@@ -189,6 +226,7 @@ export async function build({ client = new GitHub(), now = new Date() } = {}) {
   console.log(`Checking logos for ${selected.length} entries`);
   const logos = await attachLogos(selected, client);
   const markets = Object.fromEntries(SOURCE_ORDER.map(id => [id, { name: marketplaceName(id), description: `OmniMind 公开插件目录：${id}`, plugins: selected.filter(r => r.id === id).map(r => r.plugin) }]));
+  const warnings = applyFeatured(markets, featured);
   const merged = mergeMarkets(markets);
   for (const market of [...Object.values(markets), merged.market]) validateMarketplace(market);
   const declaredByName = new Map();
@@ -197,7 +235,6 @@ export async function build({ client = new GitHub(), now = new Date() } = {}) {
     declaredByName.get(r.entry.name).add(r.id);
   }
   const declaredDuplicates = [...declaredByName.entries()].filter(([, ids]) => ids.size > 1).map(([name]) => name).sort();
-  const warnings = [];
   if (external.items.length !== external.provenance.expectedCount) warnings.push(`Referenced website revision contains ${external.items.length} external entries; requested ${external.provenance.expectedCount}. Missing entry requires a source; no placeholder was invented.`);
   const discardedPlugins = rejected.filter(x => x.scope !== 'repository');
   const rejectedRepositories = rejected.filter(x => x.scope === 'repository');

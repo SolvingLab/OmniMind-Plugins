@@ -932,7 +932,8 @@
         "sourceId": "anthropic",
         "manifestPath": "external_plugins/asana/.claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/anthropics.png"
+      "icon": "https://github.com/anthropics.png",
+      "featured": true
     },
     {
       "name": "assess-credit",
@@ -1229,7 +1230,8 @@
         "sourceId": "community",
         "manifestPath": ".claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/tigerless-labs.png"
+      "icon": "https://github.com/tigerless-labs.png",
+      "featured": true
     },
     {
       "name": "aws-agents",
@@ -2622,7 +2624,7 @@
         "source": "github",
         "repo": "renezander030/capcut-cli",
         "path": "",
-        "sha": "648f4698fa213d2577fdb50f5f220e6cf2edfdfa"
+        "sha": "bc7d4c3c366966d1af6d49c8cd19644d1f9d8110"
       },
       "category": "design",
       "strict": true,
@@ -2850,12 +2852,12 @@
         "source": "github",
         "repo": "kenryu42/cc-safety-net",
         "path": "",
-        "sha": "f9f2e5a84ab60e81dc1a4ec12562e23c5f7760e0"
+        "sha": "eb97ff926e51aceee1b812413b3127290a5df93b"
       },
       "category": "enhancement",
       "strict": true,
       "description": "Block destructive commands and secret access",
-      "version": "2.6.7",
+      "version": "2.6.8",
       "displayName": "CC Safety Net",
       "homepage": "https://github.com/kenryu42/cc-safety-net",
       "author": {
@@ -3321,7 +3323,8 @@
         "sourceId": "anthropic",
         "manifestPath": "plugins/claude-code-setup/.claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/anthropics.png"
+      "icon": "https://github.com/anthropics.png",
+      "featured": true
     },
     {
       "name": "claude-code-zh-cn",
@@ -3416,7 +3419,8 @@
         "sourceId": "anthropic",
         "manifestPath": "plugins/claude-md-management/.claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/anthropics.png"
+      "icon": "https://github.com/anthropics.png",
+      "featured": true
     },
     {
       "name": "claude-mem",
@@ -3451,7 +3455,7 @@
         "sourceId": "community",
         "manifestPath": ".claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/thedotmack.png"
+      "featured": true
     },
     {
       "name": "claude-mem-cowork",
@@ -3480,7 +3484,7 @@
         "sourceId": "community",
         "manifestPath": "cowork/.claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/thedotmack.png"
+      "featured": true
     },
     {
       "name": "claude-obsidian",
@@ -4811,7 +4815,8 @@
           }
         ]
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/data-analytics/assets/datascience.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/data-analytics/assets/datascience.png",
+      "featured": true
     },
     {
       "name": "databases-on-aws",
@@ -5869,7 +5874,8 @@
         "sourceId": "anthropic",
         "manifestPath": "plugins/explanatory-output-style/.claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/anthropics.png"
+      "icon": "https://github.com/anthropics.png",
+      "featured": true
     },
     {
       "name": "expo",
@@ -6161,7 +6167,8 @@
         "sourceId": "anthropic",
         "manifestPath": "external_plugins/firebase/.claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/anthropics.png"
+      "icon": "https://github.com/anthropics.png",
+      "featured": true
     },
     {
       "name": "firecrawl",
@@ -6576,7 +6583,8 @@
         "sourceId": "openai",
         "manifestPath": "plugins/gmail/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/gmail/assets/gmail.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/gmail/assets/gmail.png",
+      "featured": true
     },
     {
       "name": "google-calendar",
@@ -7084,7 +7092,7 @@
         "source": "github",
         "repo": "kitfunso/hippo-memory",
         "path": "extensions/claude-code-plugin",
-        "sha": "02bdda5964e10611735fb5ca196fcf31c0f35eb1"
+        "sha": "9cbc76204524583e263b4f80ec755dcd2c63cd0a"
       },
       "category": "enhancement",
       "strict": true,
@@ -7380,7 +7388,8 @@
           }
         ]
       },
-      "icon": "https://github.com/heygen-com.png"
+      "icon": "https://github.com/heygen-com.png",
+      "featured": true
     },
     {
       "name": "hyperresearch",
@@ -7916,7 +7925,8 @@
         "sourceId": "anthropic",
         "manifestPath": "plugins/learning-output-style/.claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/anthropics.png"
+      "icon": "https://github.com/anthropics.png",
+      "featured": true
     },
     {
       "name": "legal-risk",
@@ -8489,7 +8499,8 @@
         "sourceId": "community",
         "manifestPath": ".claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/coreyhaines31.png"
+      "icon": "https://github.com/coreyhaines31.png",
+      "featured": true
     },
     {
       "name": "math-olympiad",
@@ -8510,7 +8521,8 @@
         "sourceId": "anthropic",
         "manifestPath": "plugins/math-olympiad/.claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/anthropics.png"
+      "icon": "https://github.com/anthropics.png",
+      "featured": true
     },
     {
       "name": "math-proof",
@@ -8562,7 +8574,8 @@
         "sourceId": "anthropic",
         "manifestPath": ".claude-plugin/plugin.json"
       },
-      "icon": "https://github.com/mattpocock.png"
+      "icon": "https://github.com/mattpocock.png",
+      "featured": true
     },
     {
       "name": "mcp-apps",
@@ -9062,7 +9075,8 @@
         "sourceId": "openai",
         "manifestPath": "plugins/mixpanel-headless/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/mixpanel-headless/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/mixpanel-headless/assets/logo.png",
+      "featured": true
     },
     {
       "name": "mlflow",
@@ -10867,7 +10881,8 @@
         "manifestPath": ".claude-plugin/plugin.json",
         "submission": "DietrichGebert__ponytail.yml"
       },
-      "icon": "https://github.com/DietrichGebert.png"
+      "icon": "https://github.com/DietrichGebert.png",
+      "featured": true
     },
     {
       "name": "posthog",
@@ -11284,7 +11299,8 @@
         "sourceId": "openai",
         "manifestPath": "plugins/product-design/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/product-design/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/product-design/assets/logo.png",
+      "featured": true
     },
     {
       "name": "product-innovation",
@@ -11896,7 +11912,8 @@
         "sourceId": "openai",
         "manifestPath": "plugins/remotion/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/remotion/.codex-plugin/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/remotion/.codex-plugin/assets/logo.png",
+      "featured": true
     },
     {
       "name": "render",
@@ -13296,7 +13313,8 @@
           }
         ]
       },
-      "icon": "https://github.com/obra.png"
+      "icon": "https://github.com/obra.png",
+      "featured": true
     },
     {
       "name": "synthflow",
@@ -13498,7 +13516,8 @@
         "sourceId": "openai",
         "manifestPath": "plugins/teams/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/teams/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/0722921d5542fc593105c27bd52630babd8b8c2a/plugins/teams/assets/logo.png",
+      "featured": true
     },
     {
       "name": "technology",

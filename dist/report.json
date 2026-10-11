@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T01:06:11.538Z",
+  "generatedAt": "2026-10-11T01:56:18.093Z",
   "sources": {
     "anthropic": {
       "marketplace": "omnimind-ext-anthropic",
@@ -1746,7 +1746,7 @@
     "healthy": 492,
     "hidden": 0,
     "removed": 5,
-    "recovered": 222,
+    "recovered": 0,
     "findings": [
       {
         "id": "anthropic",
@@ -8541,7 +8541,7 @@
           "source": "github",
           "repo": "renezander030/capcut-cli",
           "path": "",
-          "sha": "648f4698fa213d2577fdb50f5f220e6cf2edfdfa"
+          "sha": "bc7d4c3c366966d1af6d49c8cd19644d1f9d8110"
         },
         "merged": true,
         "category": "design",
@@ -8681,7 +8681,7 @@
           "source": "github",
           "repo": "kenryu42/cc-safety-net",
           "path": "",
-          "sha": "f9f2e5a84ab60e81dc1a4ec12562e23c5f7760e0"
+          "sha": "eb97ff926e51aceee1b812413b3127290a5df93b"
         },
         "merged": true,
         "category": "enhancement",
@@ -10504,7 +10504,7 @@
           "source": "github",
           "repo": "kitfunso/hippo-memory",
           "path": "extensions/claude-code-plugin",
-          "sha": "02bdda5964e10611735fb5ca196fcf31c0f35eb1"
+          "sha": "9cbc76204524583e263b4f80ec755dcd2c63cd0a"
         },
         "merged": true,
         "category": "enhancement",
@@ -13638,7 +13638,7 @@
   },
   "logos": {
     "checked": 337,
-    "withIcon": 484
+    "withIcon": 482
   },
   "external": {
     "count": 9,
@@ -13693,8 +13693,8 @@
     "Referenced website revision contains 9 external entries; requested 10. Missing entry requires a source; no placeholder was invented."
   ],
   "github": {
-    "requests": 58,
-    "cacheHits": 461,
-    "graphqlBatches": 39
+    "requests": 21,
+    "cacheHits": 1157,
+    "graphqlBatches": 13
   }
 }

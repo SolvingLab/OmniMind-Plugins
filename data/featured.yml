@@ -1,0 +1,83 @@
+# 维护者人工增删；marketplace 使用 dist/marketplaces/*.json 中的完整市场 name。
+# name 必须是插件 manifest 的真实 name；为官网选择合并目录的胜出来源。
+# 初版（2026-10-11）：七类各 3 个，按 source.repo 的 GitHub stars 降序。
+# 官方同仓库条目没有独立 stars 时，按上游 featured、原始目录顺序打破并列。
+# stars 仅为首版选择依据，build 不会自动更新或重排这份名单。
+
+# office = 办公文档
+# anthropics/claude-plugins-official: 37637 stars; upstream order 20
+- marketplace: omnimind-ext-anthropic
+  name: asana
+# anthropics/claude-plugins-official: 37637 stars; upstream order 61
+- marketplace: omnimind-ext-anthropic
+  name: claude-code-setup
+# anthropics/claude-plugins-official: 37637 stars; upstream order 62
+- marketplace: omnimind-ext-anthropic
+  name: claude-md-management
+
+# coding = 编程开发
+# obra/superpowers: 297249 stars; upstream order 275
+- marketplace: omnimind-ext-anthropic
+  name: superpowers
+# mattpocock/skills: 284535 stars; upstream order 168
+- marketplace: omnimind-ext-anthropic
+  name: mattpocock-skills
+# DietrichGebert/ponytail: 160478 stars
+- marketplace: omnimind-ext-community
+  name: ponytail
+
+# design = 设计创作
+# heygen-com/hyperframes: 60376 stars; upstream order 137
+- marketplace: omnimind-ext-anthropic
+  name: hyperframes
+# openai/plugins: 7377 stars; upstream order 31
+- marketplace: omnimind-ext-openai
+  name: remotion
+# openai/plugins: 7377 stars; upstream order 53
+- marketplace: omnimind-ext-openai
+  name: product-design
+
+# data = 数据分析
+# anthropics/claude-plugins-official: 37637 stars; upstream order 114
+- marketplace: omnimind-ext-anthropic
+  name: firebase
+# openai/plugins: 7377 stars; upstream order 43
+- marketplace: omnimind-ext-openai
+  name: mixpanel-headless
+# openai/plugins: 7377 stars; upstream order 54
+- marketplace: omnimind-ext-openai
+  name: data-analytics
+
+# science = 科学研究
+# anthropics/claude-plugins-official: 37637 stars; upstream order 107
+- marketplace: omnimind-ext-anthropic
+  name: explanatory-output-style
+# anthropics/claude-plugins-official: 37637 stars; upstream order 152
+- marketplace: omnimind-ext-anthropic
+  name: learning-output-style
+# anthropics/claude-plugins-official: 37637 stars; upstream order 166
+- marketplace: omnimind-ext-anthropic
+  name: math-olympiad
+
+# collaboration = 协作管理
+# coreyhaines31/marketingskills: 54071 stars
+- marketplace: omnimind-ext-community
+  name: marketing-skills
+# openai/plugins: 7377 stars; upstream order 4
+- marketplace: omnimind-ext-openai
+  name: gmail
+# openai/plugins: 7377 stars; upstream order 6
+- marketplace: omnimind-ext-openai
+  name: teams
+
+# enhancement = 应用增强
+# thedotmack/claude-mem: 99269 stars
+- marketplace: omnimind-ext-community
+  name: claude-mem
+# thedotmack/claude-mem: 99269 stars
+- marketplace: omnimind-ext-community
+  name: claude-mem-cowork
+# tigerless-labs/autoharness: 10957 stars
+- marketplace: omnimind-ext-community
+  name: autoharness
+

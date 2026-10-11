@@ -24,7 +24,13 @@ npm.cmd run validate
 
 ## 订阅方式
 
-在 V2 Dev 的“添加插件市场”中填写本地 JSON 文件路径。V2 的实际安装兼容性验证属于切片 0b / 2。
+桌面端与官网直接读取本仓库的合并目录：
+
+`https://raw.githubusercontent.com/SolvingLab/OmniMind-Plugins/main/dist/plugins.json`
+
+桌面端显示全部条目；官网生态优先展示 `featured: true` 的精选插件，用户可再自行搜索其他插件。精选名单由维护者在 `data/featured.yml` 中按 `marketplace` + manifest `name` 人工增删，初版按七类各取 3 个；优先参考 GitHub stars，官方条目没有独立 stars 时参考上游 featured 与原始排序。build 在对应来源目录标记精选，合并目录继承胜出来源的标记；未找到的名单项写入 `dist/report.json` 的 `warnings`，不阻断构建。
+
+在 V2 Dev 的“添加插件市场”中也可填写本地 JSON 文件路径。V2 的实际安装兼容性验证属于切片 0b / 2。
 
 | 文件 | 市场 name | 行为 |
 | --- | --- | --- |
@@ -35,7 +41,7 @@ npm.cmd run validate
 | `dist/marketplaces/solvinglab.json` | `omnimind-ext-solvinglab` | SolvingLab 公开仓库及子目录中发现的插件 |
 | `dist/marketplaces/community.json` | `omnimind-ext-community` | topic 发现及 YAML 收录的社区插件 |
 
-单一目录适合快速浏览，只能安装每个名字的优先来源。落选来源保存在条目的 `x-omnimind.alternates`，V2 在 `raw` 中保留它，不会自动把它变成独立可安装条目。按来源订阅适合需要选择来源的用户，例如 `github@omnimind-ext-anthropic` 与 `github@omnimind-ext-openai` 可以并存。切片 1 由 Main 选择默认订阅方式；建议默认提供合并目录，并给出来源目录入口。
+单一目录适合快速浏览，只能安装每个名字的优先来源。落选来源保存在条目的 `x-omnimind.alternates`，V2 在 `raw` 中保留它，不会自动把它变成独立可安装条目。按来源订阅适合需要选择来源的用户，例如 `github@omnimind-ext-anthropic` 与 `github@omnimind-ext-openai` 可以并存。
 
 `dist/external.json` 是独立的外部获取链接数据，包含 `slug/name/publisher/summary/category/source/registry/homepage/action`，`registry` 在 GitHub 集合条目中为 `null`。它不是 marketplace，不能作为插件市场订阅。官网 `5798a8e34526dabc63005f83ea9e1f63ac9506ce` 的 `lib/ecosystem.ts` 实际有 **9** 条，与任务给定的 10 条不一致；本仓库保留真实的 9 条，并在报告中标记差异，待 Main 提供第 10 条的真实来源。
 
@@ -68,7 +74,7 @@ node scripts/validate-v2.mjs dist/plugins.json dist/marketplaces/*.json
 
 ## Actions 与提交边界
 
-`build.yml` 每日 `17 3 * * *`，`decay-scan.yml` 每周一 `41 4 * * 1`，cron 使用 UTC。两个任务构建和验证后提交生成的目录与衰减状态。PR 任务只运行收录校验。每个 job 都限制 `github.repository == 'SolvingLab/OmniMind-Plugins'`。
+`build.yml` 每日 `17 3 * * *`，`decay-scan.yml` 每周一 `41 4 * * 1`，cron 使用 UTC。两个任务构建和验证后把生成的 `dist/` 与衰减状态提交回默认分支，桌面端与官网读取上述 raw.githubusercontent.com 地址，不使用 CDN。精选名单的变更也触发默认分支构建。PR 任务只运行收录校验。每个 job 都限制 `github.repository == 'SolvingLab/OmniMind-Plugins'`。
 
 本切片只准备本地文件，没有创建 GitHub 仓库、push、开 PR 或激活 Actions。Main 决定是否发布并激活定时任务；本地提交由 Main 在宿主完成。
 
