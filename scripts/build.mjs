@@ -7,10 +7,10 @@ import openai from './readers/openai.mjs';
 import zcode from './readers/zcode.mjs';
 import solvinglab from './readers/solvinglab.mjs';
 import community from './readers/community.mjs';
-import { GitHub, ROOT, NAME_PATTERN, sourceParts, sourceKey, writeJson, readJson, mapLimit, applyGithubDetails, httpsUrl } from './lib/github.mjs';
+import { GitHub, ROOT, NAME_PATTERN, sourceParts, sourceKey, decayKey, writeJson, readJson, mapLimit, applyGithubDetails, httpsUrl } from './lib/github.mjs';
 import { CATEGORIES, loadCategories, assertMapped, categoryOf, classifyCategory } from './lib/categories.mjs';
 import { attachLogos } from './lib/logo.mjs';
-import { loadDecayState, evaluateDecay, STATE_FILE } from './scan-decay.mjs';
+import { loadDecayState, evaluateDecay, decayDecision, STATE_FILE } from './scan-decay.mjs';
 import { validateMarketplace } from './validate-v2.mjs';
 
 export const SOURCE_ORDER = ['anthropic', 'openai', 'zcode', 'solvinglab', 'community'];
@@ -140,35 +140,135 @@ function unavailableRepos(client) {
   return repos;
 }
 
-async function retainPreviousEntries(markets, client, catalogReuse) {
-  const unavailable = unavailableRepos(client);
-  const reused = new Set();
+function catalogFallbackDecision(plugin, metaByRepo, decayEntries, sourceId, now) {
+  const repo = plugin?.source?.repo;
+  if (typeof repo !== 'string' || !repo) return { keep: false, reason: 'invalid_source' };
+  const meta = metaByRepo?.get(repo.toLowerCase());
+  const previous = decayEntries?.[decayKey(plugin.source)];
+  if (previous?.status === 'removed') {
+    return { keep: false, reason: previous.reasons?.[0] ?? 'removed', status: 'removed', details: previous.reasons };
+  }
+  const unavailable = !meta || meta.metadataUnavailable;
+  if (!unavailable) {
+    const reason = meta.notFound ? 'not_found' : meta.private ? 'private_repository' : meta.archived ? 'archived' : !meta.sha ? 'empty_repository' : null;
+    if (reason) return { keep: false, reason };
+  }
+  // Catalog admission failure does not re-read plugin.json. A published name is not a fresh
+  // manifest miss; star/activity decay still uses the repository metadata we could fetch.
+  const current = unavailable || typeof plugin.name !== 'string' ? undefined : { manifest: { name: plugin.name } };
+  const decision = decayDecision(unavailable ? { repo, metadataUnavailable: true } : meta, current, plugin.name, previous, now, sourceId);
+  if (decision.status !== 'healthy') {
+    const reason = decision.reasons.some(r => ['stars_below_400', 'pushed_over_180_days'].includes(r)) ? 'decay' : decision.reasons[0];
+    return { keep: false, reason, status: decision.status, details: decision.reasons, ...(decision.hiddenSince ? { hiddenSince: decision.hiddenSince } : {}) };
+  }
+  return { keep: true, reason: unavailable ? 'metadata_unavailable' : undefined };
+}
+
+export function selectCatalogFallbackPlugins(previousPlugins, { metaByRepo = new Map(), decayEntries = {}, sourceId = 'community', now = new Date() } = {}) {
+  const kept = [];
+  const dropped = [];
+  for (const plugin of previousPlugins ?? []) {
+    const decision = catalogFallbackDecision(plugin, metaByRepo, decayEntries, sourceId, now);
+    if (decision.keep) kept.push(plugin);
+    else dropped.push({ plugin, reason: decision.reason, status: decision.status, details: decision.details, ...(decision.hiddenSince ? { hiddenSince: decision.hiddenSince } : {}) });
+  }
+  return { kept, dropped };
+}
+
+export function recordAcceptedEntry(selected, seen, record) {
+  if (!seen.has(record.id)) seen.set(record.id, new Set());
+  if (seen.get(record.id).has(record.plugin.name)) return false;
+  seen.get(record.id).add(record.plugin.name);
+  selected.push(record);
+  return true;
+}
+
+export function mergeReportWarnings(warnings, client) {
+  const merged = [...warnings];
+  for (const warning of client?.detailWarnings ?? []) {
+    if (typeof warning !== 'string' || merged.includes(warning)) continue;
+    if (/https?:\/\//i.test(warning) || /[?&]/.test(warning)) continue;
+    merged.push(warning);
+  }
+  return merged;
+}
+
+function previousEntryRecord(id, plugin, mapping) {
+  const clone = structuredClone(plugin);
+  return { id, plugin: clone, source: clone.source, classification: classifyCategory(clone.category, mapping) };
+}
+
+function rejectionFromDropped(id, item) {
+  const plugin = item.plugin ?? {};
+  const rejection = {
+    id,
+    name: plugin.name,
+    ...(plugin.source ? { source: plugin.source } : {}),
+    ...(plugin.source?.repo ? { repo: plugin.source.repo } : {}),
+    reason: item.reason ?? 'removed',
+  };
+  if (item.status) rejection.status = item.status;
+  if (item.details) rejection.details = item.details;
+  if (item.hiddenSince) rejection.hiddenSince = item.hiddenSince;
+  return rejection;
+}
+
+export async function retainPreviousEntries(client, catalogReuse, { state, now = new Date(), mapping, readPrevious } = {}) {
+  const read = readPrevious ?? (id => readJson(resolve(ROOT, `dist/marketplaces/${id}.json`), { plugins: [] }));
+  const previousById = new Map();
+  for (const id of SOURCE_ORDER) previousById.set(id, await read(id));
+  const catalogRepos = [];
   for (const id of SOURCE_ORDER) {
-    const previous = await readJson(resolve(ROOT, `dist/marketplaces/${id}.json`), { plugins: [] });
+    if (!catalogReuse.has(id)) continue;
+    for (const plugin of previousById.get(id)?.plugins ?? []) if (plugin?.source?.repo) catalogRepos.push(plugin.source.repo);
+  }
+  if (catalogRepos.length) await client.metadataBatch([...new Set(catalogRepos)]);
+  const metaByRepo = client?.meta ?? new Map();
+  const decayEntries = state?.entries ?? {};
+  const records = [];
+  const dropped = [];
+  const reused = new Set();
+  const accounted = new Set();
+  const unavailable = unavailableRepos(client);
+  const account = repo => { if (repo) accounted.add(String(repo).toLowerCase()); };
+  for (const id of SOURCE_ORDER) {
+    const previous = previousById.get(id) ?? { plugins: [] };
     if (catalogReuse.has(id)) {
-      markets[id].plugins = previous.plugins.map(plugin => structuredClone(plugin));
-      const repo = String(catalogReuse.get(id)).toLowerCase();
-      if (markets[id].plugins.length) {
-        reused.add(repo);
-        for (const plugin of markets[id].plugins) if (plugin.source?.repo) reused.add(plugin.source.repo.toLowerCase());
-        console.warn(`metadata_unavailable: ${catalogReuse.get(id)} (reused ${markets[id].plugins.length} previous dist entries)`);
-      } else console.warn(`metadata_unavailable: ${catalogReuse.get(id)} (skipped; not in previous dist)`);
+      const { kept, dropped: removed } = selectCatalogFallbackPlugins(previous.plugins, { metaByRepo, decayEntries, sourceId: id, now });
+      account(catalogReuse.get(id));
+      for (const plugin of kept) {
+        account(plugin.source?.repo);
+        if (plugin.source?.repo) reused.add(plugin.source.repo.toLowerCase());
+        records.push(previousEntryRecord(id, plugin, mapping));
+      }
+      for (const item of removed) {
+        account(item.plugin?.source?.repo);
+        dropped.push(rejectionFromDropped(id, item));
+        console.warn(`metadata_unavailable: ${item.plugin?.source?.repo ?? catalogReuse.get(id)} (removed previous dist entry ${item.plugin?.name ?? '?'}; ${item.reason})`);
+      }
+      if (kept.length) console.warn(`metadata_unavailable: ${catalogReuse.get(id)} (reused ${kept.length} previous dist entries; removed ${removed.length} confirmed archived/not_found/removed)`);
+      else if (removed.length) console.warn(`metadata_unavailable: ${catalogReuse.get(id)} (removed ${removed.length} previous dist entries; none reused)`);
+      else console.warn(`metadata_unavailable: ${catalogReuse.get(id)} (skipped; not in previous dist)`);
       continue;
     }
-    const names = new Set(markets[id].plugins.map(plugin => plugin.name));
     const { kept } = entriesRetainedAfterMetadataFailure(previous.plugins, unavailable);
-    for (const plugin of kept) {
-      if (names.has(plugin.name)) continue;
-      markets[id].plugins.push(structuredClone(plugin));
-      names.add(plugin.name);
+    const filtered = selectCatalogFallbackPlugins(kept, { metaByRepo, decayEntries, sourceId: id, now });
+    for (const plugin of filtered.kept) {
+      account(plugin.source?.repo);
+      records.push(previousEntryRecord(id, plugin, mapping));
       reused.add(plugin.source.repo.toLowerCase());
       console.warn(`metadata_unavailable: ${plugin.source.repo} (reused previous dist entry ${plugin.name})`);
     }
+    for (const item of filtered.dropped) {
+      account(item.plugin?.source?.repo);
+      dropped.push(rejectionFromDropped(id, item));
+      console.warn(`metadata_unavailable: ${item.plugin?.source?.repo ?? 'unknown'} (removed previous dist entry ${item.plugin?.name ?? '?'}; ${item.reason})`);
+    }
   }
   for (const repo of unavailable) {
-    if (!reused.has(repo)) console.warn(`metadata_unavailable: ${repo} (skipped; not in previous dist)`);
+    if (!accounted.has(repo)) console.warn(`metadata_unavailable: ${repo} (skipped; not in previous dist)`);
   }
-  return reused;
+  return { reused, records, dropped };
 }
 
 export function mergeMarkets(markets) {
@@ -296,15 +396,16 @@ export async function build({ client = new GitHub(), now = new Date() } = {}) {
   const selected = [];
   const seen = new Map(SOURCE_ORDER.map(id => [id, new Set()]));
   for (const record of surviving) {
-    if (seen.get(record.id).has(record.plugin.name)) rejected.push({ id: record.id, name: record.plugin.name, source: record.source, reason: 'duplicate_name_within_source' });
-    else { seen.get(record.id).add(record.plugin.name); selected.push(record); }
+    if (!recordAcceptedEntry(selected, seen, record)) rejected.push({ id: record.id, name: record.plugin.name, source: record.source, reason: 'duplicate_name_within_source' });
   }
   console.log(`Checking logos for ${selected.length} entries`);
   const logos = await attachLogos(selected, client);
+  const fallback = await retainPreviousEntries(client, catalogReuse, { state, now, mapping });
+  for (const record of fallback.records) recordAcceptedEntry(selected, seen, record);
+  rejected.push(...fallback.dropped);
   const markets = Object.fromEntries(SOURCE_ORDER.map(id => [id, { name: marketplaceName(id), description: `OmniMind 公开插件目录：${id}`, plugins: selected.filter(r => r.id === id).map(r => r.plugin) }]));
-  const reused = await retainPreviousEntries(markets, client, catalogReuse);
-  rejected = rejected.filter(item => !(item.reason === 'metadata_unavailable' && item.repo && reused.has(item.repo.toLowerCase())));
-  const warnings = applyFeatured(markets, featured);
+  rejected = rejected.filter(item => !(item.reason === 'metadata_unavailable' && item.repo && fallback.reused.has(item.repo.toLowerCase())));
+  const warnings = mergeReportWarnings(applyFeatured(markets, featured), client);
   const merged = mergeMarkets(markets);
   for (const market of [...Object.values(markets), merged.market]) validateMarketplace(market);
   const declaredByName = new Map();

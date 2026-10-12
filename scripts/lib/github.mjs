@@ -222,6 +222,20 @@ function erroredFieldNames(errors, index) {
   return new Set(aliasErrors(errors, index).map(error => error.path[1]).filter(Boolean));
 }
 
+function detailAliasIndex(path) {
+  if (!Array.isArray(path) || path.length === 0) return null;
+  const match = /^r(\d+)$/.exec(String(path[0]));
+  return match ? Number(match[1]) : null;
+}
+
+function detailFieldLabel(error) {
+  const type = typeof error?.type === 'string' && !/[?&=]/.test(error.type) && !/https?:\/\//i.test(error.type) ? error.type : 'partial';
+  if (!Array.isArray(error?.path)) return type;
+  const field = error.path.slice(1).filter(part => typeof part === 'string' || typeof part === 'number').join('.');
+  if (!field || /https?:\/\//i.test(field) || /[?&=]/.test(field)) return type;
+  return field;
+}
+
 function readmePathFrom(node) {
   return README_PROBES.find(([alias]) => node[alias]?.oid)?.[1];
 }
@@ -268,6 +282,32 @@ export class GitHub {
     if (this.detailOmissionWarned) return;
     this.detailOmissionWarned = true;
     console.warn(`optional GitHub detail metadata omitted (${reason}): forks, discussions, contributing, fetchedAt`);
+  }
+
+  warnDetailPartial(errors, pending) {
+    const groups = new Map();
+    for (const error of errors ?? []) {
+      if (!error || error.type === 'NOT_FOUND') continue;
+      const index = detailAliasIndex(error.path);
+      const named = index != null && REPO_PATTERN.test(pending[index] ?? '') ? pending[index] : '';
+      if (!groups.has(named)) groups.set(named, new Set());
+      groups.get(named).add(detailFieldLabel(error));
+    }
+    if (groups.size === 1 && groups.has('') && pending.length === 1 && REPO_PATTERN.test(pending[0])) {
+      this.emitDetailPartialWarning(pending[0], groups.get(''));
+      return;
+    }
+    for (const [repo, fields] of groups) this.emitDetailPartialWarning(repo || 'unscoped', fields);
+  }
+
+  emitDetailPartialWarning(repo, fields) {
+    const label = REPO_PATTERN.test(repo) ? repo : 'unscoped';
+    const listed = [...fields].filter(field => typeof field === 'string' && field && !/https?:\/\//i.test(field) && !/[?&]/.test(field));
+    const warning = `optional GitHub detail metadata partial: ${label}${listed.length ? ` (${listed.join(', ')})` : ''}`;
+    this.detailWarnings ??= [];
+    if (this.detailWarnings.includes(warning)) return;
+    this.detailWarnings.push(warning);
+    console.warn(warning);
   }
 
   markUnavailable(repo, reason) {
@@ -411,7 +451,10 @@ export class GitHub {
         this.warnDetailOmitted('detail query failed');
         continue;
       }
-      if (detail.errors?.some(error => error.type !== 'NOT_FOUND')) this.stats.detailPartial++;
+      if (detail.errors?.some(error => error.type !== 'NOT_FOUND')) {
+        this.stats.detailPartial++;
+        this.warnDetailPartial(detail.errors, pending);
+      }
       this.detailFetchedAt ??= new Date().toISOString();
       for (let i = 0; i < pending.length; i++) {
         const node = detail.data?.[`r${i}`];

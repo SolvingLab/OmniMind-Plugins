@@ -1,7 +1,8 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import { attachCatalogGithub, entriesRetainedAfterMetadataFailure } from './build.mjs';
-import { GitHub, applyGithubDetails, detailMetadataQuery, githubDetailFields, metadataFields, metadataQuery } from './lib/github.mjs';
+import { GitHub, applyGithubDetails, decayKey, detailMetadataQuery, githubDetailFields, metadataFields, metadataQuery } from './lib/github.mjs';
+import { loadCategories } from './lib/categories.mjs';
 import { admissionProblems } from './readers/community.mjs';
 import { validateMarketplace } from './validate-v2.mjs';
 
@@ -383,4 +384,153 @@ test('admission licenseInfo field error is metadata_unavailable and keeps a prev
   const fields = githubDetailFields(source(), meta, { fetchedAt: FETCHED_AT });
   assert.equal(fields.github, undefined);
   assert.equal(JSON.stringify(fields).includes(':0'), false);
+});
+
+function catalogPlugin(name, repo) {
+  return {
+    name,
+    category: 'coding',
+    strict: true,
+    source: { source: 'github', repo, path: '', sha: SHA },
+    'x-omnimind': { sourceId: 'anthropic', manifestPath: '.claude-plugin/plugin.json' },
+  };
+}
+
+test('catalog fallback rechecks repository status and decay before reusing previous entries', async () => {
+  const { retainPreviousEntries, selectCatalogFallbackPlugins } = await import('./build.mjs');
+  assert.equal(typeof selectCatalogFallbackPlugins, 'function');
+  assert.equal(typeof retainPreviousEntries, 'function');
+  const archived = catalogPlugin('archived-plugin', 'acme/archived');
+  const missing = catalogPlugin('missing-plugin', 'acme/missing');
+  const removed = catalogPlugin('removed-plugin', 'acme/removed');
+  const removedUnqueryable = catalogPlugin('removed-unqueryable', 'acme/removed-unqueryable');
+  const unqueryable = catalogPlugin('unqueryable-plugin', 'acme/unqueryable');
+  const healthy = catalogPlugin('healthy-plugin', 'acme/healthy');
+  const now = new Date('2026-10-12T00:00:00Z');
+  const decayEntries = {
+    [decayKey(removed.source)]: { status: 'removed', reasons: ['unsupported_manifest'], subjects: [] },
+    [decayKey(removedUnqueryable.source)]: { status: 'removed', reasons: ['not_found'], subjects: [] },
+  };
+  const metaByRepo = new Map([
+    ['acme/archived', { repo: 'acme/archived', private: false, archived: true, sha: SHA }],
+    ['acme/missing', { repo: 'acme/missing', notFound: true }],
+    ['acme/removed', { repo: 'acme/removed', private: false, archived: false, sha: SHA, stars: 20, pushedAt: '2026-10-01T00:00:00Z' }],
+    ['acme/removed-unqueryable', { repo: 'acme/removed-unqueryable', metadataUnavailable: true }],
+    ['acme/unqueryable', { repo: 'acme/unqueryable', metadataUnavailable: true }],
+    ['acme/healthy', { repo: 'acme/healthy', private: false, archived: false, sha: SHA, stars: 20, pushedAt: '2026-10-01T00:00:00Z' }],
+  ]);
+  const selected = selectCatalogFallbackPlugins([archived, missing, removed, removedUnqueryable, unqueryable, healthy], {
+    metaByRepo, decayEntries, sourceId: 'anthropic', now,
+  });
+  assert.deepEqual(selected.kept.map(plugin => plugin.name), ['unqueryable-plugin', 'healthy-plugin']);
+  assert.deepEqual(selected.dropped.map(item => item.plugin.name), ['archived-plugin', 'missing-plugin', 'removed-plugin', 'removed-unqueryable']);
+  assert.equal(selected.dropped.find(item => item.plugin.name === 'archived-plugin').reason, 'archived');
+  assert.equal(selected.dropped.find(item => item.plugin.name === 'missing-plugin').reason, 'not_found');
+  assert.equal(selected.dropped.find(item => item.plugin.name === 'removed-plugin').status, 'removed');
+
+  const queried = [];
+  const client = {
+    meta: metaByRepo,
+    metadataBatch: async repos => { queried.push(...repos); },
+  };
+  const fallback = await retainPreviousEntries(client, new Map([['anthropic', 'anthropics/claude-plugins-official']]), {
+    state: { entries: decayEntries },
+    now,
+    mapping: await loadCategories(),
+    readPrevious: async id => id === 'anthropic'
+      ? { plugins: [archived, missing, removed, unqueryable, healthy] }
+      : { plugins: [] },
+  });
+  assert.deepEqual(queried.sort(), ['acme/archived', 'acme/healthy', 'acme/missing', 'acme/removed', 'acme/unqueryable']);
+  assert.deepEqual(fallback.records.map(record => record.plugin.name), ['unqueryable-plugin', 'healthy-plugin']);
+  assert.equal(fallback.dropped.length, 3);
+  assert.equal(fallback.reused.has('acme/archived'), false);
+  assert.equal(fallback.reused.has('acme/unqueryable'), true);
+});
+
+test('fallback entries use the same selected recording path as fresh entries', async () => {
+  const { recordAcceptedEntry, SOURCE_ORDER } = await import('./build.mjs');
+  assert.equal(typeof recordAcceptedEntry, 'function');
+  const selected = [];
+  const seen = new Map(SOURCE_ORDER.map(id => [id, new Set()]));
+  const freshSource = source();
+  const fresh = {
+    id: 'anthropic',
+    plugin: { ...plugin(), name: 'fresh-plugin', source: freshSource },
+    source: freshSource,
+    classification: { category: 'coding', method: 'upstream', inputCategory: 'development', matches: [] },
+  };
+  assert.equal(recordAcceptedEntry(selected, seen, fresh), true);
+  const fallbackPlugin = catalogPlugin('reused-plugin', 'acme/reused');
+  fallbackPlugin.category = 'office';
+  const mapping = await loadCategories();
+  const { classifyCategory } = await import('./lib/categories.mjs');
+  const fallback = {
+    id: 'anthropic',
+    plugin: fallbackPlugin,
+    source: fallbackPlugin.source,
+    classification: classifyCategory(fallbackPlugin.category, mapping),
+  };
+  assert.equal(recordAcceptedEntry(selected, seen, fallback), true);
+  assert.equal(recordAcceptedEntry(selected, seen, fallback), false);
+  const assignments = selected.map(record => ({
+    id: record.id,
+    name: record.plugin.name,
+    source: record.source,
+    ...record.classification,
+  }));
+  assert.equal(selected.length, 2);
+  assert.equal(assignments.length, selected.length);
+  assert.equal(assignments.find(item => item.name === 'reused-plugin').category, 'office');
+  assert.equal(assignments.find(item => item.name === 'reused-plugin').method, 'upstream');
+});
+
+test('partial detail errors warn once per repository without tokens or query URLs', async () => {
+  const original = globalThis.fetch;
+  const originalWarn = console.warn;
+  const warnings = [];
+  console.warn = (...args) => warnings.push(args.join(' '));
+  const admission = repo => ({
+    nameWithOwner: repo, isPrivate: false, isArchived: false, isFork: false,
+    stargazerCount: 8, createdAt: '2020-01-01T00:00:00Z', pushedAt: '2026-02-03T04:05:06Z',
+    description: null, licenseInfo: { spdxId: 'MIT' }, repositoryTopics: { nodes: [] },
+    defaultBranchRef: { name: 'main', target: { oid: SHA } },
+  });
+  globalThis.fetch = async (_url, init) => {
+    const query = JSON.parse(init.body).query;
+    if (!query.includes('forkCount')) {
+      return new Response(JSON.stringify({ data: { r0: admission('acme/plugin'), r1: admission('other/repo') } }), { status: 200 });
+    }
+    return new Response(JSON.stringify({
+      errors: [
+        { type: 'FIELD_ERROR', path: ['r0', 'forkCount'], message: 'https://api.github.com/graphql?access_token=ghp_supersecret' },
+        { type: 'FIELD_ERROR', path: ['r1', 'hasDiscussionsEnabled'], message: 'Bearer ghp_supersecret' },
+      ],
+      data: {
+        r0: { forkCount: null, hasDiscussionsEnabled: true, homepageUrl: null, contributingGuidelines: null },
+        r1: { forkCount: 2, hasDiscussionsEnabled: null, homepageUrl: null, contributingGuidelines: null },
+      },
+    }), { status: 200 });
+  };
+  try {
+    const client = new GitHub({ token: 'ghp_supersecret' });
+    await client.metadataBatch(['acme/plugin', 'other/repo']);
+    assert.equal(client.stats.detailPartial, 1);
+    const partial = (client.detailWarnings ?? warnings).filter(warning => warning.includes('optional GitHub detail metadata partial'));
+    assert.equal(partial.length, 2);
+    assert.equal(partial.some(warning => warning.includes('acme/plugin') && warning.includes('forkCount')), true);
+    assert.equal(partial.some(warning => warning.includes('other/repo') && warning.includes('hasDiscussionsEnabled')), true);
+    for (const warning of [...partial, ...warnings]) {
+      assert.equal(warning.includes('ghp_supersecret'), false);
+      assert.equal(warning.includes('access_token'), false);
+      assert.equal(warning.includes('?'), false);
+      assert.equal(/https?:\/\//i.test(warning), false);
+    }
+    const { mergeReportWarnings } = await import('./build.mjs');
+    const merged = mergeReportWarnings(['Featured plugin not found in built catalogs: demo@omnimind-ext-anthropic'], client);
+    assert.equal(merged.filter(warning => warning.includes('optional GitHub detail metadata partial')).length, 2);
+  } finally {
+    console.warn = originalWarn;
+    globalThis.fetch = original;
+  }
 });
