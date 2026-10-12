@@ -1,0 +1,292 @@
+import assert from 'node:assert/strict';
+import { test } from 'node:test';
+import { attachCatalogGithub } from './build.mjs';
+import { GitHub, applyGithubDetails, githubDetailFields, metadataFields, metadataQuery } from './lib/github.mjs';
+import { validateMarketplace } from './validate-v2.mjs';
+
+const SHA = 'a'.repeat(40);
+const FETCHED_AT = '2026-10-12T00:00:00.000Z';
+
+function source(path = 'plugins/demo') {
+  return { source: 'github', repo: 'acme/plugin', path, sha: SHA };
+}
+
+function plugin(path = 'plugins/demo') {
+  return {
+    name: 'demo',
+    source: source(path),
+    category: 'coding',
+    strict: true,
+    'x-omnimind': { sourceId: 'community', manifestPath: 'plugins/demo/.claude-plugin/plugin.json' },
+  };
+}
+
+function market(plugins) {
+  return { name: 'omnimind-ext', plugins };
+}
+
+const metaFixture = {
+  repo: 'acme/plugin',
+  private: false,
+  notFound: false,
+  stars: 12,
+  forks: 3,
+  pushedAt: '2026-10-11T07:47:50Z',
+  license: 'Apache-2.0',
+  hasDiscussionsEnabled: true,
+  homepageUrl: 'https://repo.example/docs',
+  contributingUrl: 'https://github.com/acme/plugin/blob/main/CONTRIBUTING.md',
+  branch: 'main',
+  readmePath: 'README.md',
+};
+
+test('detail fields use the repository root and omit anything not fetched', () => {
+  const fields = githubDetailFields(source('plugins/demo'), metaFixture, {
+    fetchedAt: FETCHED_AT,
+    homepage: 'https://plugin.example/docs',
+  });
+  assert.equal(fields.repository, 'https://github.com/acme/plugin');
+  assert.equal(fields.repository.includes('plugins/demo'), false);
+  assert.equal(fields.license, 'Apache-2.0');
+  assert.equal(fields.updatedAt, '2026-10-11T07:47:50.000Z');
+  assert.deepEqual(fields.github, { stars: 12, forks: 3, fetchedAt: FETCHED_AT });
+  assert.equal(fields.links.docs, 'https://plugin.example/docs');
+  assert.equal(fields.links.releases, 'https://github.com/acme/plugin/releases');
+  assert.equal(fields.links.issues, 'https://github.com/acme/plugin/issues');
+  assert.equal(fields.links.discussions, 'https://github.com/acme/plugin/discussions');
+  assert.equal(fields.links.contributing, 'https://github.com/acme/plugin/blob/main/CONTRIBUTING.md');
+  validateMarketplace(market([applyGithubDetails(plugin(), source(), metaFixture, {
+    fetchedAt: FETCHED_AT,
+    homepage: 'https://plugin.example/docs',
+  })]));
+});
+
+test('failed or missing metadata does not invent zero stats', () => {
+  for (const meta of [undefined, null, { detailUnavailable: true, stars: 0, forks: 0, license: 'MIT', pushedAt: '2026-01-01T00:00:00Z' }]) {
+    const fields = githubDetailFields(source(), meta, { fetchedAt: FETCHED_AT, homepage: 'http://insecure.example' });
+    assert.equal(fields.repository, 'https://github.com/acme/plugin');
+    assert.equal(fields.github, undefined);
+    assert.equal(fields.license, undefined);
+    assert.equal(fields.updatedAt, undefined);
+    assert.equal(fields.links.discussions, undefined);
+    assert.equal(fields.links.contributing, undefined);
+    assert.equal(fields.links.docs, undefined);
+    assert.equal(JSON.stringify(fields).includes('"stars":0'), false);
+    assert.equal(JSON.stringify(fields).includes('"forks":0'), false);
+  }
+});
+
+test('docs falls back from https homepage to README and skips disabled extras', () => {
+  const fields = githubDetailFields(source(), {
+    ...metaFixture,
+    hasDiscussionsEnabled: false,
+    homepageUrl: 'http://repo.example',
+    contributingUrl: 'http://github.com/acme/plugin/blob/main/CONTRIBUTING.md',
+    license: 'NOASSERTION',
+    forks: undefined,
+    stars: 0,
+  }, { fetchedAt: FETCHED_AT });
+  assert.equal(fields.license, undefined);
+  assert.equal(fields.links.docs, 'https://github.com/acme/plugin/blob/main/README.md');
+  assert.equal(fields.links.discussions, undefined);
+  assert.equal(fields.links.contributing, undefined);
+  assert.deepEqual(fields.github, { stars: 0, fetchedAt: FETCHED_AT });
+  assert.equal(Object.hasOwn(fields.github, 'forks'), false);
+});
+
+test('catalog attachment prefers an explicit https homepage and keeps extension metadata', () => {
+  const record = {
+    source: source(),
+    entry: { homepage: 'https://docs.example/guide' },
+    manifest: { homepage: 'https://manifest.example', interface: { websiteURL: 'https://ui.example' } },
+    plugin: plugin(),
+  };
+  attachCatalogGithub([record], {
+    detailFetchedAt: FETCHED_AT,
+    meta: new Map([['acme/plugin', metaFixture]]),
+  });
+  assert.equal(record.plugin.links.docs, 'https://docs.example/guide');
+  assert.equal(record.plugin['x-omnimind'].sourceId, 'community');
+  assert.equal(Object.keys(record.plugin).at(-1), 'x-omnimind');
+});
+
+test('no client still emits repository links and does not throw or write zero', () => {
+  const record = { source: source(), entry: {}, manifest: {}, plugin: plugin() };
+  assert.doesNotThrow(() => attachCatalogGithub([record], undefined));
+  assert.equal(record.plugin.repository, 'https://github.com/acme/plugin');
+  assert.equal(record.plugin.github, undefined);
+  assert.equal(record.plugin.links.issues, 'https://github.com/acme/plugin/issues');
+  assert.equal(record.plugin.links.releases, 'https://github.com/acme/plugin/releases');
+});
+
+test('validator accepts absent details and real zero, rejects bad numbers and links', () => {
+  validateMarketplace(market([plugin()]));
+  validateMarketplace(market([applyGithubDetails(plugin(), source(), { ...metaFixture, stars: 0, forks: 0 }, { fetchedAt: FETCHED_AT })]));
+  const bad = [
+    { ...plugin(), repository: 'https://github.com/acme/plugin/plugins/demo' },
+    { ...plugin(), license: 'NOASSERTION' },
+    { ...plugin(), updatedAt: 'yesterday' },
+    { ...plugin(), github: { stars: -1 } },
+    { ...plugin(), github: { stars: 1.5 } },
+    { ...plugin(), github: { forks: '0' } },
+    { ...plugin(), github: {} },
+    { ...plugin(), github: { stars: 1, watchers: 2 } },
+    { ...plugin(), links: { docs: 'http://example.com' } },
+    { ...plugin(), links: { docs: 'https://user:pass@example.com/docs' } },
+    { ...plugin(), repository: 'https://github.com/acme/plugin', links: { issues: 'https://github.com/acme/plugin/issues/' } },
+  ];
+  for (const entry of bad) assert.throws(() => validateMarketplace(market([entry])), /repository|license|updatedAt|github|links/);
+});
+
+test('metadata query is batched once per repository and can drop detail fields', () => {
+  assert.match(metadataFields(true), /forkCount/);
+  assert.match(metadataFields(true), /hasDiscussionsEnabled/);
+  assert.equal(metadataFields(false).includes('forkCount'), false);
+  const query = metadataQuery(['acme/plugin', 'other/repo'], true);
+  assert.equal(query.includes('forkCount'), true);
+  assert.equal([...query.matchAll(/repository\(owner:/g)].length, 2);
+  assert.throws(() => metadataQuery(['not a repo']), /Invalid GitHub repository/);
+});
+
+test('detail query failure falls back without writing zero forks', async () => {
+  const calls = [];
+  const original = globalThis.fetch;
+  globalThis.fetch = async (_url, init) => {
+    const query = JSON.parse(init.body).query;
+    calls.push(query);
+    if (query.includes('forkCount')) {
+      return new Response(JSON.stringify({ errors: [{ type: 'COMPLEXITY', message: 'max' }], data: null }), { status: 200 });
+    }
+    return new Response(JSON.stringify({ data: { r0: {
+      nameWithOwner: 'acme/plugin', isPrivate: false, isArchived: false, isFork: false,
+      stargazerCount: 0, createdAt: '2020-01-01T00:00:00Z', pushedAt: '2026-01-02T03:04:05Z',
+      description: null, licenseInfo: { spdxId: 'MIT' }, repositoryTopics: { nodes: [] },
+      defaultBranchRef: { name: 'main', target: { oid: SHA } },
+    } } }), { status: 200 });
+  };
+  try {
+    const client = new GitHub({ token: 'test-token' });
+    client.detailRetryMs = 0;
+    await client.metadataBatch(['acme/plugin', 'Acme/Plugin']);
+    assert.equal(calls.length, 4);
+    assert.equal(client.stats.detailFallbacks, 1);
+    const meta = client.meta.get('acme/plugin');
+    assert.equal(meta.stars, 0);
+    assert.equal(Object.hasOwn(meta, 'forks'), false);
+    const fields = githubDetailFields(source(), meta, { fetchedAt: client.detailFetchedAt });
+    assert.equal(fields.github.stars, 0);
+    assert.equal(Object.hasOwn(fields.github, 'forks'), false);
+    assert.equal(fields.license, 'MIT');
+  } finally {
+    globalThis.fetch = original;
+  }
+});
+
+test('total metadata failure throws and does not publish a zero placeholder', async () => {
+  const original = globalThis.fetch;
+  globalThis.fetch = async () => new Response('no', { status: 400 });
+  try {
+    const client = new GitHub({ token: 'test-token' });
+    client.detailRetryMs = 0;
+    await assert.rejects(client.metadataBatch(['acme/plugin']), /GitHub HTTP 400/);
+    assert.equal(client.meta.size, 0);
+    const fields = githubDetailFields(source(), client.meta.get('acme/plugin'), { fetchedAt: FETCHED_AT });
+    assert.equal(fields.github, undefined);
+    assert.equal(JSON.stringify(fields).includes(':0'), false);
+  } finally {
+    globalThis.fetch = original;
+  }
+});
+
+test('a transient detail failure is retried before fields are omitted', async () => {
+  const original = globalThis.fetch;
+  let detailed = 0;
+  globalThis.fetch = async (_url, init) => {
+    const query = JSON.parse(init.body).query;
+    if (!query.includes('forkCount')) throw new Error('base query should not run');
+    detailed++;
+    if (detailed === 1) return new Response(JSON.stringify({ errors: [{ type: 'RATE_LIMITED', message: 'slow down' }] }), { status: 200 });
+    return new Response(JSON.stringify({ data: { r0: {
+      nameWithOwner: 'acme/plugin', isPrivate: false, isArchived: false, isFork: false,
+      stargazerCount: 2, forkCount: 5, hasDiscussionsEnabled: true,
+      createdAt: '2020-01-01T00:00:00Z', pushedAt: '2026-02-03T04:05:06Z',
+      description: null, licenseInfo: { spdxId: 'MIT' }, repositoryTopics: { nodes: [] },
+      contributingGuidelines: null, homepageUrl: null,
+      defaultBranchRef: { name: 'main', target: { oid: SHA } },
+    } } }), { status: 200 });
+  };
+  try {
+    const client = new GitHub({ token: 'test-token' });
+    client.detailRetryMs = 0;
+    await client.metadataBatch(['acme/plugin']);
+    assert.equal(detailed, 2);
+    assert.equal(client.stats.detailFallbacks, 0);
+    const fields = githubDetailFields(source(), client.meta.get('acme/plugin'), { fetchedAt: client.detailFetchedAt });
+    assert.equal(fields.github.forks, 5);
+    assert.equal(fields.links.discussions, 'https://github.com/acme/plugin/discussions');
+  } finally {
+    globalThis.fetch = original;
+  }
+});
+
+test('partial detail errors keep returned counts and omit missing forks', async () => {
+  const original = globalThis.fetch;
+  globalThis.fetch = async () => new Response(JSON.stringify({
+    errors: [{ type: 'FIELD_ERROR', message: 'forkCount unavailable' }],
+    data: { r0: {
+      nameWithOwner: 'acme/plugin', isPrivate: false, isArchived: false, isFork: false,
+      stargazerCount: 8, forkCount: null, hasDiscussionsEnabled: null,
+      createdAt: '2020-01-01T00:00:00Z', pushedAt: '2026-02-03T04:05:06Z',
+      description: null, licenseInfo: { spdxId: 'MIT' }, repositoryTopics: { nodes: [] },
+      contributingGuidelines: null, homepageUrl: null,
+      defaultBranchRef: { name: 'main', target: { oid: SHA } },
+    } },
+  }), { status: 200 });
+  try {
+    const client = new GitHub({ token: 'test-token' });
+    await client.metadataBatch(['acme/plugin']);
+    assert.equal(client.stats.detailFallbacks, 0);
+    assert.equal(client.stats.detailPartial, 1);
+    const fields = githubDetailFields(source(), client.meta.get('acme/plugin'), { fetchedAt: client.detailFetchedAt });
+    assert.equal(fields.github.stars, 8);
+    assert.equal(Object.hasOwn(fields.github, 'forks'), false);
+    assert.equal(fields.links.discussions, undefined);
+  } finally {
+    globalThis.fetch = original;
+  }
+});
+
+test('successful detail batch maps forks, discussions, and contributing without a second repo query', async () => {
+  const original = globalThis.fetch;
+  let calls = 0;
+  globalThis.fetch = async () => {
+    calls++;
+    return new Response(JSON.stringify({ data: { r0: {
+      nameWithOwner: 'acme/plugin', isPrivate: false, isArchived: false, isFork: false,
+      stargazerCount: 4, forkCount: 0, hasDiscussionsEnabled: false, homepageUrl: null,
+      createdAt: '2020-01-01T00:00:00Z', pushedAt: '2026-02-03T04:05:06Z',
+      description: null, licenseInfo: null, repositoryTopics: { nodes: [] },
+      contributingGuidelines: { url: 'https://github.com/acme/plugin/blob/main/.github/CONTRIBUTING.md' },
+      defaultBranchRef: { name: 'main', target: { oid: SHA } },
+      readmeMd: { oid: 'bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb' },
+    } } }), { status: 200 });
+  };
+  try {
+    const client = new GitHub({ token: 'test-token' });
+    await client.metadataBatch(['acme/plugin', 'acme/plugin']);
+    assert.equal(calls, 1);
+    const meta = client.meta.get('acme/plugin');
+    assert.equal(meta.forks, 0);
+    assert.equal(meta.hasDiscussionsEnabled, false);
+    assert.equal(meta.readmePath, 'README.md');
+    const fields = githubDetailFields(source('plugins/nested'), meta, { fetchedAt: client.detailFetchedAt });
+    assert.equal(fields.repository, 'https://github.com/acme/plugin');
+    assert.equal(fields.github.forks, 0);
+    assert.equal(fields.links.docs, 'https://github.com/acme/plugin/blob/main/README.md');
+    assert.equal(fields.links.contributing, 'https://github.com/acme/plugin/blob/main/.github/CONTRIBUTING.md');
+    assert.equal(fields.links.discussions, undefined);
+    validateMarketplace(market([applyGithubDetails(plugin('plugins/nested'), source('plugins/nested'), meta, { fetchedAt: client.detailFetchedAt })]));
+  } finally {
+    globalThis.fetch = original;
+  }
+});

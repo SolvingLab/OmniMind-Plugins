@@ -26,6 +26,18 @@
         "resize these photos for my social media platforms",
         "find a template for a promotional flyer"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://www.adobe.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/adobe/.codex-plugin/plugin.json"
@@ -55,6 +67,18 @@
         "show me a kanban of the product roadmap. What’s at risk? What’s up next?",
         "which roadmap initiatives should I discuss with the enterprise sales team today?"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://airtable.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/airtable/.codex-plugin/plugin.json"
@@ -93,6 +117,18 @@
       "examplePrompts": [
         "Create Jira tasks in project Vita MVP"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://www.atlassian.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/atlassian-rovo/.codex-plugin/plugin.json"
@@ -138,6 +174,18 @@
         "Design nanobodies for a SARS-CoV-2 RBD epitope",
         "Design selective JAK2 binders from Enamine REAL"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://boltz.bio/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/boltz-api-cli/.codex-plugin/plugin.json"
@@ -180,6 +228,18 @@
       "examplePrompts": [
         "Build or debug an iOS app with SwiftUI, App Intents, and Simulator."
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://openai.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/build-ios-apps/.codex-plugin/plugin.json"
@@ -222,6 +282,18 @@
       "examplePrompts": [
         "Build/refactor native macOS UI, inspect AppKit interop, add telemetry, or debug a macOS app"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://openai.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/build-macos-apps/.codex-plugin/plugin.json"
@@ -265,6 +337,18 @@
       "examplePrompts": [
         "Design a new landing page for my new SaaS product."
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://openai.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/build-web-apps/.codex-plugin/plugin.json"
@@ -339,6 +423,18 @@
         "Choose the best chart, layout, shareable state, grammar, and stack for this dataset",
         "Design QA for this chart, dashboard, map, or WebGL visualization"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://openai.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/build-web-data-visualization/.codex-plugin/plugin.json"
@@ -369,6 +465,18 @@
         "Use these latest investor meeting notes to make a Q1 2026 pitch deck",
         "Can you resize this poster as an Instagram post for my online store?"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://www.canva.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/canva/.codex-plugin/plugin.json"
@@ -411,6 +519,18 @@
         "Edit this talking-head video for a tighter story with captions, B-roll, music, and motion graphics.",
         "Create an AI video-editing explainer with motion graphics and an English voiceover."
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://chatcut.io/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/chatcut/.codex-plugin/plugin.json"
@@ -447,6 +567,18 @@
         "Diagnose and fix build failures for the current branch",
         "Setup the Chunk cli for this project"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://circleci.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/circleci/.codex-plugin/plugin.json"
@@ -474,6 +606,18 @@
       "examplePrompts": [
         "Flag whether Sprint 14: Simplifying UI is at risk"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://clickup.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/clickup/.codex-plugin/plugin.json"
@@ -515,6 +659,18 @@
       "examplePrompts": [
         "Help me choose the right Cloudflare product, configure Wrangler, and use Cloudflare MCP to inspect or deploy this project"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://workers.cloudflare.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/cloudflare/.codex-plugin/plugin.json"
@@ -550,6 +706,18 @@
       "examplePrompts": [
         "Review my current changes and provide feedback"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://docs.coderabbit.ai/cli/overview",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/coderabbit/.codex-plugin/plugin.json"
@@ -587,6 +755,18 @@
         "Run a Codex Security diff scan on this PR, commit, branch diff, or working-tree patch.",
         "Triage existing security findings against this repository."
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://developers.openai.com/codex/security",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/codex-security/.codex-plugin/plugin.json"
@@ -617,6 +797,18 @@
         "Are there interactions between atorvastatin and grapefruit juice?",
         "Create a table comparing the environmental benefits, challenges, and costs"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://consensus.app/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/consensus/.codex-plugin/plugin.json"
@@ -665,6 +857,18 @@
         "Generate concept images for this visual brief",
         "Create product placements from this image"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://github.com/openai/oai-maintained-plugins/tree/main/plugins/creative-production",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/creative-production/.codex-plugin/plugin.json"
@@ -699,6 +903,20 @@
         "api-integration",
         "security"
       ],
+      "repository": "https://github.com/CrowdStrike/foundry-skills",
+      "links": {
+        "docs": "https://www.crowdstrike.com/tech-hub/ng-siem/build-falcon-foundry-apps-with-claude-code/",
+        "releases": "https://github.com/CrowdStrike/foundry-skills/releases",
+        "issues": "https://github.com/CrowdStrike/foundry-skills/issues",
+        "contributing": "https://github.com/CrowdStrike/foundry-skills/blob/main/CONTRIBUTING.md"
+      },
+      "license": "MIT",
+      "updatedAt": "2026-10-06T23:21:26.000Z",
+      "github": {
+        "stars": 34,
+        "forks": 4,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": ".claude-plugin/plugin.json"
@@ -730,6 +948,20 @@
         "automation",
         "security"
       ],
+      "repository": "https://github.com/CrowdStrike/fusion-skills",
+      "links": {
+        "docs": "https://www.crowdstrike.com/tech-hub/ng-siem/build-falcon-fusion-workflows-with-claude-code/",
+        "releases": "https://github.com/CrowdStrike/fusion-skills/releases",
+        "issues": "https://github.com/CrowdStrike/fusion-skills/issues",
+        "contributing": "https://github.com/CrowdStrike/fusion-skills/blob/main/CONTRIBUTING.md"
+      },
+      "license": "MIT",
+      "updatedAt": "2026-10-10T17:56:57.000Z",
+      "github": {
+        "stars": 26,
+        "forks": 2,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": ".claude-plugin/plugin.json"
@@ -790,6 +1022,18 @@
         "Analyze product or business data and recommend where to focus next",
         "Diagnose why a key metric changed and identify the biggest drivers"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://openai.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/data-analytics/.codex-plugin/plugin.json"
@@ -821,6 +1065,18 @@
         "Show me average CPU usage for my top 10 services for the past 6 hours.",
         "Where are my users coming from? Show me a chart by country."
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://www.datadoghq.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/datadog/.codex-plugin/plugin.json"
@@ -851,6 +1107,18 @@
         "can you show me my vacation photo?",
         "can you generate a Dropbox shareable link for this PDF?"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://www.dropbox.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/dropbox/.codex-plugin/plugin.json"
@@ -890,6 +1158,18 @@
         "upgrades",
         "native-modules"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://docs.expo.dev/skills/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/expo/.codex-plugin/plugin.json"
@@ -933,6 +1213,18 @@
         "Create Code Connect templates for my components",
         "Build or update a screen in Figma"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://www.figma.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/figma/.codex-plugin/plugin.json"
@@ -973,6 +1265,18 @@
       "examplePrompts": [
         "Design a browser game and plan the core loop"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://openai.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/game-studio/.codex-plugin/plugin.json"
@@ -1017,6 +1321,18 @@
       "examplePrompts": [
         "Inspect PRs, triage issues, debug failing checks, and prepare code changes for review"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://github.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/github/.codex-plugin/plugin.json"
@@ -1056,6 +1372,18 @@
       "examplePrompts": [
         "Summarize inbox, draft replies, or process email threads"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://workspace.google.com/products/gmail/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/gmail/.codex-plugin/plugin.json"
@@ -1099,6 +1427,18 @@
       "examplePrompts": [
         "Summarize my calendar, compare availability, prep meetings, or draft event details"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://workspace.google.com/products/calendar/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/google-calendar/.codex-plugin/plugin.json"
@@ -1142,6 +1482,18 @@
       "examplePrompts": [
         "Find the right Drive file, then summarize a Doc, update a Sheet, or edit a Slides deck"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://workspace.google.com/products/drive/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/google-drive/.codex-plugin/plugin.json"
@@ -1172,6 +1524,18 @@
       "examplePrompts": [
         "Summarize what happened in the Hearthbase deal so far"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://www.granola.ai/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/granola/.codex-plugin/plugin.json"
@@ -1202,6 +1566,18 @@
         "Make a cinematic video ad for this chocolate snack bar",
         "Make a 9:16 ad for my sneaker brand"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://higgsfield.ai/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/higgsfield/.codex-plugin/plugin.json"
@@ -1243,6 +1619,18 @@
         "Create an animated title card with kinetic type",
         "Add synced captions to this voiceover"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://hyperframes.heygen.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/hyperframes/.codex-plugin/plugin.json"
@@ -1290,6 +1678,18 @@
       "examplePrompts": [
         "Use relevant skills and databases to support life-science research tasks."
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://github.com/openai/openai/tree/master/plugins/life-science-research",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/life-science-research/.codex-plugin/plugin.json"
@@ -1320,6 +1720,18 @@
       "examplePrompts": [
         "Triage or update relevant issues for this task with clear next actions"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://linear.app/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/linear/.codex-plugin/plugin.json"
@@ -1350,6 +1762,18 @@
         "build me an AI-powered coaching app",
         "build me a marketing campaign planner"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://lovable.dev/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/lovable/.codex-plugin/plugin.json"
@@ -1389,6 +1813,18 @@
         "Create a new MagicPath canvas component from this repository UI.",
         "Use my MagicPath theme to adapt this component."
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://github.com/MagicPathAI/agent-skills",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/magicpath/.codex-plugin/plugin.json"
@@ -1431,6 +1867,18 @@
         "Find product analytics insights in Mixpanel",
         "Build a Mixpanel dashboard from key events"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://mixpanel.github.io/mixpanel-headless/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/mixpanel-headless/.codex-plugin/plugin.json"
@@ -1460,6 +1908,18 @@
       "examplePrompts": [
         "what can this connector do?"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://monday.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/monday-com/.codex-plugin/plugin.json"
@@ -1506,6 +1966,18 @@
       "examplePrompts": [
         "Guide me through the minimum required NGS analysis questions, inspect available BCL/FASTQ files or count matrices, choose the right public pipeline or deeper assay-specific skill, check whether required tools already exist, and execute supported local workflows with pre-execution validation and artifact capture."
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://openai.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/ngs-analysis/.codex-plugin/plugin.json"
@@ -1548,6 +2020,18 @@
       "examplePrompts": [
         "Search Notion workspace content, update pages, or turn specs, notes, and meeting context into structured outputs"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://www.notion.so/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/notion/.codex-plugin/plugin.json"
@@ -1594,6 +2078,18 @@
         "How I could turn real-world driving footage into a 3D neural scene for simulation",
         "Help me deploy a secure OpenClaw agent"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://build.nvidia.com/skills/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/nvidia/.codex-plugin/plugin.json"
@@ -1630,6 +2126,18 @@
       "examplePrompts": [
         "Set up OpenAI Ads conversions tracking in this repository."
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://developers.openai.com/ads/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/openai-ads-conversions/.codex-plugin/plugin.json"
@@ -1672,6 +2180,18 @@
         "Build an agent with the Agents SDK",
         "Build a ChatGPT app from my local MCP server and widget idea."
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://platform.openai.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/openai-developers/.codex-plugin/plugin.json"
@@ -1714,6 +2234,18 @@
         "daily-brief",
         "meeting-prep"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://www.microsoft.com/en-us/microsoft-365/outlook/calendar-app",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/outlook-calendar/.codex-plugin/plugin.json"
@@ -1754,6 +2286,18 @@
       "examplePrompts": [
         "Triage inbox, summarize thread, or draft reply or forward"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/outlook-email/.codex-plugin/plugin.json"
@@ -1793,6 +2337,18 @@
         "Evaluate this plugin.",
         "Why did this score that way?"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://openai.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/plugin-eval/.codex-plugin/plugin.json"
@@ -1837,6 +2393,18 @@
         "Create a feature flag for the new checkout",
         "Why are users dropping off in onboarding?"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://posthog.com/docs",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/posthog/.codex-plugin/plugin.json"
@@ -1885,6 +2453,18 @@
         "Turn this product idea into three visual directions",
         "Design a landing page for my business"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://openai.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/product-design/.codex-plugin/plugin.json"
@@ -1942,6 +2522,18 @@
         "Create a Disney long/short pitch: streaming, parks, ESPN, capital allocation, valuation, catalysts, and downside risks.",
         "Build a Tesla catalyst and valuation brief: recent news, expectations, key debates, scenarios, risks, and an investment view."
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://github.com/openai/oai-maintained-plugins/tree/main/plugins/public-equity-investing",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/public-equity-investing/.codex-plugin/plugin.json"
@@ -1954,7 +2546,7 @@
         "source": "github",
         "repo": "qodo-ai/qodo-skills",
         "path": "codex-packages/qodo",
-        "sha": "866d301dfbec39d5bb18bde72ac0dc770cc759a1"
+        "sha": "9f7b4ae5ec7e7a564170f1fcf9ef39cf075f6620"
       },
       "category": "coding",
       "strict": true,
@@ -1980,11 +2572,25 @@
         "Use $qodo-review to review my local changes before I push them.",
         "Use $qodo-review-resolver to show me the current Qodo review findings."
       ],
+      "repository": "https://github.com/qodo-ai/qodo-skills",
+      "links": {
+        "docs": "https://www.qodo.ai/",
+        "releases": "https://github.com/qodo-ai/qodo-skills/releases",
+        "issues": "https://github.com/qodo-ai/qodo-skills/issues",
+        "contributing": "https://github.com/qodo-ai/qodo-skills/blob/main/CONTRIBUTING.md"
+      },
+      "license": "MIT",
+      "updatedAt": "2026-10-11T15:22:06.000Z",
+      "github": {
+        "stars": 56,
+        "forks": 8,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "codex-packages/qodo/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/qodo-ai/qodo-skills/866d301dfbec39d5bb18bde72ac0dc770cc759a1/codex-packages/qodo/assets/qodo.png"
+      "icon": "https://raw.githubusercontent.com/qodo-ai/qodo-skills/9f7b4ae5ec7e7a564170f1fcf9ef39cf075f6620/codex-packages/qodo/assets/qodo.png"
     },
     {
       "name": "remotion",
@@ -2022,6 +2628,18 @@
         "Make an animated call-to-action subscribe button for our YouTube channel",
         "Use Remotion to add captions and audio to a video composition."
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://remotion.dev/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/remotion/.codex-plugin/plugin.json"
@@ -2057,6 +2675,18 @@
       "examplePrompts": [
         "Inspect recent Sentry issues and summarize the top production errors"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://sentry.io/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/sentry/.codex-plugin/plugin.json"
@@ -2097,6 +2727,18 @@
       "examplePrompts": [
         "Summarize a SharePoint site or file, identify owners and status, or plan a safe update across documents, spreadsheets, or decks"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/sharepoint/.codex-plugin/plugin.json"
@@ -2127,6 +2769,18 @@
         "Show me the products I have in my store.",
         "Show me my store's sales for the past three weeks."
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://shopify.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/shopify/.codex-plugin/plugin.json"
@@ -2166,6 +2820,18 @@
       "examplePrompts": [
         "Summarize unread activity, draft replies, or prepare updates"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://slack.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/slack/.codex-plugin/plugin.json"
@@ -2196,6 +2862,18 @@
         "Show me what products I have",
         "Tell me the prices I have created"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://stripe.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/stripe/.codex-plugin/plugin.json"
@@ -2234,6 +2912,18 @@
         "Review my Supabase schema and RLS policies for security issues.",
         "Optimize my Postgres queries and indexes using Supabase best practices."
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://supabase.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/supabase/.codex-plugin/plugin.json"
@@ -2274,6 +2964,18 @@
         "I've got an idea for something I'd like to build.",
         "Let's add a feature to this project."
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://github.com/obra/superpowers",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/superpowers/.codex-plugin/plugin.json"
@@ -2315,6 +3017,18 @@
       "examplePrompts": [
         "Summarize chat, pull out action items, or draft follow-up"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/teams/.codex-plugin/plugin.json"
@@ -2357,6 +3071,18 @@
         "Create a workflow using Temporal.",
         "Develop an Agent on Temporal"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://temporal.io/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/temporal/.codex-plugin/plugin.json"
@@ -2400,6 +3126,18 @@
       "examplePrompts": [
         "Use Test Android Apps to reproduce an emulator issue, then capture screenshots, logs, UI state, and performance evidence."
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://openai.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/test-android-apps/.codex-plugin/plugin.json"
@@ -2449,6 +3187,18 @@
         "What Twilio API should I use to build a user verification flow?",
         "How do I register for A2P 10DLC before sending US SMS?"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://www.twilio.com/docs",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/twilio-developer-kit/.codex-plugin/plugin.json"
@@ -2496,6 +3246,18 @@
         "Which Vercel tools fit this app best",
         "Help wire the Vercel app into this workflow"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://vercel.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/vercel/.codex-plugin/plugin.json"
@@ -2541,6 +3303,18 @@
         "Search my recent Zoom meetings for the discussion about pricing.",
         "Run /plan-zoom-product for a Zoom integration idea."
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://developers.zoom.us/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/zoom/.codex-plugin/plugin.json"
@@ -2582,6 +3356,18 @@
         "@Zotero export my Zotero library to references.bib",
         "@Zotero search my Zotero library and show the BibTeX keys"
       ],
+      "repository": "https://github.com/openai/plugins",
+      "links": {
+        "docs": "https://openai.com/",
+        "releases": "https://github.com/openai/plugins/releases",
+        "issues": "https://github.com/openai/plugins/issues"
+      },
+      "updatedAt": "2026-10-08T05:21:35.000Z",
+      "github": {
+        "stars": 7399,
+        "forks": 961,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/zotero/.codex-plugin/plugin.json"

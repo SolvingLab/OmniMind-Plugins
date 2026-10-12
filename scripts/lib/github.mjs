@@ -71,6 +71,102 @@ export function sourceParts(value, upstream) {
 export function sourceKey(source) { return `${source.repo.toLowerCase()}#${source.path ?? ''}@${source.sha}`; }
 export function decayKey(source) { return `${source.repo.toLowerCase()}#${source.path ?? ''}`; }
 
+const SPDX_SENTINELS = new Set(['NOASSERTION', 'NONE', 'UNLICENSED']);
+const SPDX_PATTERN = /^[A-Za-z0-9][A-Za-z0-9.+-]*$/;
+const ISO_PATTERN = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?Z$/;
+export const README_PROBES = [
+  ['readmeMd', 'README.md'],
+  ['readmeRst', 'README.rst'],
+  ['readmeTxt', 'README.txt'],
+  ['readmePlain', 'README'],
+  ['readmeLower', 'readme.md'],
+];
+
+export function nonNegativeInteger(value) {
+  return Number.isInteger(value) && value >= 0 ? value : undefined;
+}
+
+export function isIsoTimestamp(value) {
+  return typeof value === 'string' && ISO_PATTERN.test(value) && Number.isFinite(Date.parse(value));
+}
+
+export function toIsoTimestamp(value) {
+  if (typeof value !== 'string' || !value.includes('T') || !Number.isFinite(Date.parse(value))) return undefined;
+  const iso = new Date(value).toISOString();
+  return isIsoTimestamp(iso) ? iso : undefined;
+}
+
+export function httpsUrl(value) {
+  if (typeof value !== 'string' || !value.trim()) return undefined;
+  let url;
+  try { url = new URL(value.trim()); } catch { return undefined; }
+  if (url.protocol !== 'https:' || url.username || url.password) return undefined;
+  return url.href;
+}
+
+export function spdxLicense(value) {
+  if (typeof value !== 'string') return undefined;
+  const id = value.trim();
+  if (!SPDX_PATTERN.test(id) || SPDX_SENTINELS.has(id.toUpperCase())) return undefined;
+  return id;
+}
+
+export function repositoryUrl(repo) {
+  return typeof repo === 'string' && REPO_PATTERN.test(repo) ? `https://github.com/${repo}` : undefined;
+}
+
+function blobUrl(repo, branch, path) {
+  const root = repositoryUrl(repo);
+  if (!root || typeof path !== 'string' || !path || path.split('/').some(part => !part || part === '.' || part === '..')) return undefined;
+  const ref = typeof branch === 'string' && /^[A-Za-z0-9._-]+$/.test(branch) ? branch : 'HEAD';
+  return `${root}/blob/${encodeURIComponent(ref)}/${path.split('/').map(encodeURIComponent).join('/')}`;
+}
+
+// Optional detail-page fields. Missing metadata omits keys; it never invents 0.
+export function githubDetailFields(source, meta, { fetchedAt, homepage } = {}) {
+  if (!source || typeof source.repo !== 'string') return {};
+  const repo = meta && typeof meta.repo === 'string' && REPO_PATTERN.test(meta.repo) ? meta.repo : source.repo;
+  const root = repositoryUrl(repo);
+  if (!root) return {};
+  const unavailable = !meta || meta.notFound || meta.private || meta.detailUnavailable === true;
+  const out = { repository: root };
+  const links = {};
+  const docs = httpsUrl(homepage)
+    || (!unavailable ? httpsUrl(meta.homepageUrl) : undefined)
+    || (!unavailable ? blobUrl(repo, meta.branch, meta.readmePath) : undefined);
+  if (docs) links.docs = docs;
+  links.releases = `${root}/releases`;
+  links.issues = `${root}/issues`;
+  if (!unavailable && meta.hasDiscussionsEnabled === true) links.discussions = `${root}/discussions`;
+  const contributing = !unavailable ? httpsUrl(meta.contributingUrl) : undefined;
+  if (contributing) links.contributing = contributing;
+  out.links = links;
+  if (unavailable) return out;
+  const license = spdxLicense(meta.license);
+  if (license) out.license = license;
+  const updatedAt = toIsoTimestamp(meta.pushedAt);
+  if (updatedAt) out.updatedAt = updatedAt;
+  const github = {};
+  const stars = nonNegativeInteger(meta.stars);
+  const forks = nonNegativeInteger(meta.forks);
+  if (stars !== undefined) github.stars = stars;
+  if (forks !== undefined) github.forks = forks;
+  const fetched = toIsoTimestamp(fetchedAt);
+  if (fetched && (github.stars !== undefined || github.forks !== undefined)) github.fetchedAt = fetched;
+  if (Object.keys(github).length) out.github = github;
+  return out;
+}
+
+export function applyGithubDetails(plugin, source, meta, options) {
+  const fields = githubDetailFields(source, meta, options);
+  if (!Object.keys(fields).length) return plugin;
+  const ext = plugin['x-omnimind'];
+  if (ext) delete plugin['x-omnimind'];
+  Object.assign(plugin, fields);
+  if (ext) plugin['x-omnimind'] = ext;
+  return plugin;
+}
+
 export async function readJson(file, fallback) {
   try { return JSON.parse((await readFile(file, 'utf8')).replace(/^\uFEFF/, '')); }
   catch (error) { if (error.code === 'ENOENT' && fallback !== undefined) return fallback; throw error; }
@@ -81,14 +177,43 @@ export async function writeJson(file, value) {
   await writeFile(file, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
 }
 
-function metadata(node) {
-  return {
+export function metadataFields(detailed = true) {
+  const base = 'nameWithOwner isPrivate isArchived isFork stargazerCount createdAt pushedAt description licenseInfo { spdxId } repositoryTopics(first:100) { nodes { topic { name } } } defaultBranchRef { name target { oid } }';
+  if (!detailed) return base;
+  const readme = README_PROBES.map(([alias, path]) => `${alias}: object(expression:${JSON.stringify(`HEAD:${path}`)}) { ... on Blob { oid } }`).join(' ');
+  return `${base} forkCount hasDiscussionsEnabled homepageUrl contributingGuidelines { url } ${readme}`;
+}
+
+export function metadataQuery(repos, detailed = true) {
+  const fields = metadataFields(detailed);
+  return `query { ${repos.map((repo, i) => {
+    if (!REPO_PATTERN.test(repo)) throw new Error(`Invalid GitHub repository: ${repo}`);
+    const [owner, name] = repo.split('/');
+    return `r${i}: repository(owner:${JSON.stringify(owner)},name:${JSON.stringify(name)}) { ${fields} }`;
+  }).join('\n')} }`;
+}
+
+function readmePathFrom(node) {
+  return README_PROBES.find(([alias]) => node[alias]?.oid)?.[1];
+}
+
+function metadata(node, { detailed = true } = {}) {
+  const value = {
     repo: node.nameWithOwner, private: node.isPrivate, archived: node.isArchived, fork: node.isFork,
     stars: node.stargazerCount, createdAt: node.createdAt, pushedAt: node.pushedAt,
     license: node.licenseInfo?.spdxId ?? null, description: node.description,
     topics: node.repositoryTopics?.nodes.map(t => t.topic.name) ?? [],
     branch: node.defaultBranchRef?.name, sha: node.defaultBranchRef?.target?.oid,
   };
+  if (!detailed) return value;
+  const forks = nonNegativeInteger(node.forkCount);
+  if (forks !== undefined) value.forks = forks;
+  if (typeof node.hasDiscussionsEnabled === 'boolean') value.hasDiscussionsEnabled = node.hasDiscussionsEnabled;
+  if (typeof node.homepageUrl === 'string') value.homepageUrl = node.homepageUrl;
+  if (typeof node.contributingGuidelines?.url === 'string') value.contributingUrl = node.contributingGuidelines.url;
+  const readmePath = readmePathFrom(node);
+  if (readmePath) value.readmePath = readmePath;
+  return value;
 }
 
 export class GitHub {
@@ -98,7 +223,7 @@ export class GitHub {
     this.cacheDir = cacheDir;
     this.meta = new Map();
     this.pending = new Map();
-    this.stats = { requests: 0, cacheHits: 0, graphqlBatches: 0 };
+    this.stats = { requests: 0, cacheHits: 0, graphqlBatches: 0, detailFallbacks: 0 };
   }
 
   async cache(key) {
@@ -135,11 +260,20 @@ export class GitHub {
   }
 
   async graphql(query) {
+    const result = await this.graphqlPartial(query);
+    const unexpected = result.errors?.filter(e => e.type !== 'NOT_FOUND');
+    if (unexpected?.length) throw new Error(`GitHub GraphQL query failed (${unexpected.map(e => e.type ?? 'unknown').join(', ')})`);
+    return result;
+  }
+
+  async graphqlPartial(query) {
     this.stats.graphqlBatches++;
     const result = await this.request('graphql', { method: 'POST', body: { query } });
     const unexpected = result.errors?.filter(e => e.type !== 'NOT_FOUND');
-    if (unexpected?.length) throw new Error(`GitHub GraphQL query failed (${unexpected.map(e => e.type ?? 'unknown').join(', ')})`);
-    if (!result.data) throw new Error('GitHub GraphQL returned no data');
+    if (!result.data) {
+      const reason = unexpected?.length ? unexpected.map(e => e.type ?? 'unknown').join(', ') : 'no data';
+      throw new Error(`GitHub GraphQL query failed (${reason})`);
+    }
     return result;
   }
 
@@ -148,26 +282,53 @@ export class GitHub {
     if (!m) return { repo, notFound: true };
     if (m.private) return { repo: m.full_name, private: true };
     const c = m.default_branch ? await this.request(`repos/${m.full_name}/commits/${encodeURIComponent(m.default_branch)}`) : null;
-    return { repo: m.full_name, private: false, archived: m.archived, fork: m.fork,
+    const value = { repo: m.full_name, private: false, archived: m.archived, fork: m.fork,
       stars: m.stargazers_count, createdAt: m.created_at, pushedAt: m.pushed_at, license: m.license?.spdx_id ?? null,
       description: m.description, topics: m.topics ?? [], branch: m.default_branch, sha: c?.sha };
+    const forks = nonNegativeInteger(m.forks_count);
+    if (forks !== undefined) value.forks = forks;
+    if (typeof m.has_discussions === 'boolean') value.hasDiscussionsEnabled = m.has_discussions;
+    if (typeof m.homepage === 'string') value.homepageUrl = m.homepage;
+    return value;
   }
 
   async metadataBatch(repos) {
-    const todo = [...new Set(repos)].filter(repo => !this.meta.has(repo.toLowerCase()));
+    const todo = [];
+    const seen = new Set();
+    for (const repo of repos) {
+      const key = String(repo).toLowerCase();
+      if (seen.has(key) || this.meta.has(key)) continue;
+      seen.add(key);
+      todo.push(repo);
+    }
     for (let start = 0; start < todo.length; start += 50) {
       const chunk = todo.slice(start, start + 50);
-      const fields = 'nameWithOwner isPrivate isArchived isFork stargazerCount createdAt pushedAt description licenseInfo { spdxId } repositoryTopics(first:100) { nodes { topic { name } } } defaultBranchRef { name target { oid } }';
-      const query = `query { ${chunk.map((repo, i) => {
-        if (!REPO_PATTERN.test(repo)) throw new Error(`Invalid GitHub repository: ${repo}`);
-        const [owner, name] = repo.split('/');
-        return `r${i}: repository(owner:${JSON.stringify(owner)},name:${JSON.stringify(name)}) { ${fields} }`;
-      }).join('\n')} }`;
-      const result = await this.graphql(query);
+      // Validate before either request so a bad name does not look like a detail-field failure.
+      const detailedQuery = metadataQuery(chunk, true);
+      let result;
+      let detailed = true;
+      for (let attempt = 0; attempt < 3 && !result; attempt++) {
+        try {
+          // Partial field errors keep the nodes that arrived. Missing forks/discussions
+          // stay absent; they are not retried into a zero.
+          result = await this.graphqlPartial(detailedQuery);
+          if (result.errors?.some(error => error.type !== 'NOT_FOUND')) this.stats.detailPartial = (this.stats.detailPartial ?? 0) + 1;
+        } catch {
+          if (attempt < 2) await new Promise(resolve => setTimeout(resolve, (this.detailRetryMs ?? 2_000) * 2 ** attempt));
+        }
+      }
+      if (!result) {
+        // Detail fields are optional. A failed extended query must not fail the catalog
+        // build or be recorded as zero stars/forks; retry the fields decay already requires.
+        result = await this.graphql(metadataQuery(chunk, false));
+        detailed = false;
+        this.stats.detailFallbacks++;
+      }
+      this.detailFetchedAt ??= new Date().toISOString();
       for (let i = 0; i < chunk.length; i++) {
         const node = result.data[`r${i}`];
         // Confirm NOT_FOUND through REST, which follows renamed repositories.
-        const value = node ? metadata(node) : await this.restMetadata(chunk[i]);
+        const value = node ? metadata(node, { detailed }) : await this.restMetadata(chunk[i]);
         this.meta.set(chunk[i].toLowerCase(), value);
         if (value.repo) this.meta.set(value.repo.toLowerCase(), value);
       }

@@ -1,7 +1,7 @@
 import { readFile, readdir } from 'node:fs/promises';
 import { basename, dirname, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { NAME_PATTERN, REPO_PATTERN, SHA_PATTERN, normalizePath } from './lib/github.mjs';
+import { NAME_PATTERN, REPO_PATTERN, SHA_PATTERN, normalizePath, repositoryUrl, spdxLicense, isIsoTimestamp, nonNegativeInteger, httpsUrl } from './lib/github.mjs';
 import { CATEGORIES } from './lib/categories.mjs';
 
 export function validateMarketplace(value, label = 'marketplace') {
@@ -37,6 +37,7 @@ export function validateMarketplace(value, label = 'marketplace') {
       } catch { errors.push(`${tag}: icon must be an https URL`); }
     }
     if (!CATEGORIES.includes(entry.category)) errors.push(`${tag}: category must be one of the seven categories`);
+    validateGithubDetails(entry, tag, errors);
     for (const alternate of entry['x-omnimind']?.alternates ?? []) {
       if (alternate.name !== entry.name || !NAME_PATTERN.test(alternate.marketplace)) errors.push(`${tag}: invalid alternate identity`);
       if (alternate.source?.source !== 'github' || !SHA_PATTERN.test(alternate.source?.sha ?? '')) errors.push(`${tag}: invalid alternate pin`);
@@ -44,6 +45,48 @@ export function validateMarketplace(value, label = 'marketplace') {
   }
   if (errors.length) throw new Error(`${label}:\n${errors.join('\n')}`);
   return { name: value.name, plugins: value.plugins.length };
+}
+
+const GITHUB_KEYS = ['stars', 'forks', 'fetchedAt'];
+const LINK_KEYS = ['docs', 'releases', 'issues', 'discussions', 'contributing'];
+const LINK_SUFFIX = { issues: '/issues', releases: '/releases', discussions: '/discussions' };
+
+function canonicalRepository(value) {
+  if (typeof value !== 'string' || !value.startsWith('https://github.com/')) return undefined;
+  const repo = value.slice('https://github.com/'.length);
+  return repositoryUrl(repo) === value ? value : undefined;
+}
+
+function validateGithubDetails(entry, tag, errors) {
+  const repository = entry.repository === undefined ? undefined : canonicalRepository(entry.repository);
+  if (entry.repository !== undefined && !repository) errors.push(`${tag}: repository must be https://github.com/<owner>/<repo>`);
+  if (entry.license !== undefined && spdxLicense(entry.license) !== entry.license) errors.push(`${tag}: license must be an SPDX id`);
+  if (entry.updatedAt !== undefined && !isIsoTimestamp(entry.updatedAt)) errors.push(`${tag}: updatedAt must be an ISO-8601 timestamp`);
+  if (entry.github !== undefined) {
+    if (!entry.github || typeof entry.github !== 'object' || Array.isArray(entry.github)) errors.push(`${tag}: github must be an object`);
+    else {
+      const extra = Object.keys(entry.github).filter(key => !GITHUB_KEYS.includes(key));
+      if (extra.length) errors.push(`${tag}: unexpected github fields ${extra.join(', ')}`);
+      if (!Object.keys(entry.github).length) errors.push(`${tag}: github must not be empty`);
+      for (const key of ['stars', 'forks']) {
+        if (entry.github[key] !== undefined && nonNegativeInteger(entry.github[key]) === undefined) errors.push(`${tag}: github.${key} must be a non-negative integer`);
+      }
+      if (entry.github.fetchedAt !== undefined && !isIsoTimestamp(entry.github.fetchedAt)) errors.push(`${tag}: github.fetchedAt must be an ISO-8601 timestamp`);
+    }
+  }
+  if (entry.links !== undefined) {
+    if (!entry.links || typeof entry.links !== 'object' || Array.isArray(entry.links)) errors.push(`${tag}: links must be an object`);
+    else {
+      const extra = Object.keys(entry.links).filter(key => !LINK_KEYS.includes(key));
+      if (extra.length) errors.push(`${tag}: unexpected link fields ${extra.join(', ')}`);
+      if (!Object.keys(entry.links).length) errors.push(`${tag}: links must not be empty`);
+      for (const [key, value] of Object.entries(entry.links)) {
+        if (!LINK_KEYS.includes(key)) continue;
+        if (httpsUrl(value) === undefined) errors.push(`${tag}: links.${key} must be an https URL`);
+        else if (repository && LINK_SUFFIX[key] && value !== `${repository}${LINK_SUFFIX[key]}`) errors.push(`${tag}: links.${key} must be <repository>${LINK_SUFFIX[key]}`);
+      }
+    }
+  }
 }
 
 async function expandFiles(args) {

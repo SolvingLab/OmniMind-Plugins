@@ -7,7 +7,7 @@ import openai from './readers/openai.mjs';
 import zcode from './readers/zcode.mjs';
 import solvinglab from './readers/solvinglab.mjs';
 import community from './readers/community.mjs';
-import { GitHub, ROOT, NAME_PATTERN, sourceParts, sourceKey, writeJson, mapLimit } from './lib/github.mjs';
+import { GitHub, ROOT, NAME_PATTERN, sourceParts, sourceKey, writeJson, mapLimit, applyGithubDetails, httpsUrl } from './lib/github.mjs';
 import { CATEGORIES, loadCategories, assertMapped, categoryOf, classifyCategory } from './lib/categories.mjs';
 import { attachLogos } from './lib/logo.mjs';
 import { loadDecayState, evaluateDecay, STATE_FILE } from './scan-decay.mjs';
@@ -102,6 +102,20 @@ export function createListing(record, loaded, mapping) {
     ...(entry.name && entry.name !== name ? { upstreamName: entry.name } : {}),
     ...(record.submission ? { submission: record.submission } : {}) };
   return { ...record, ...loaded, plugin, classification };
+}
+
+function explicitHomepage(record) {
+  const ui = record.manifest?.interface ?? {};
+  return [record.entry?.homepage, record.manifest?.homepage, ui.websiteURL].map(httpsUrl).find(Boolean);
+}
+
+export function attachCatalogGithub(records, client) {
+  for (const record of records) {
+    applyGithubDetails(record.plugin, record.source, client?.meta?.get(record.source.repo.toLowerCase()), {
+      fetchedAt: client?.detailFetchedAt,
+      homepage: explicitHomepage(record),
+    });
+  }
 }
 
 export function mergeMarkets(markets) {
@@ -205,7 +219,11 @@ export async function build({ client = new GitHub(), now = new Date() } = {}) {
   }
   // A concurrent pin completion must not decide same-source duplicate winners.
   records.sort((a, b) => SOURCE_ORDER.indexOf(a.id) - SOURCE_ORDER.indexOf(b.id) || a.plugin.name.localeCompare(b.plugin.name, 'en') || sourceKey(a.source).localeCompare(sourceKey(b.source), 'en'));
-  const subjects = records.map(r => ({ id: r.id, entry: r.plugin }));
+  // Snapshot before detail fields: fetchedAt must not rewrite decay subjects every build.
+  const subjects = records.map(r => ({ id: r.id, entry: structuredClone(r.plugin) }));
+  // Derived URLs do not need a token. Stats are copied from the deduped batch;
+  // a missing or failed detail fetch leaves those keys absent instead of writing 0.
+  attachCatalogGithub(records, client);
   subjects.push(...Object.values(state.entries).flatMap(e => e.subjects));
   const decay = await evaluateDecay(subjects, client, { state, now });
   console.log(`Decay checked: ${decay.summary.healthy} healthy, ${decay.summary.hidden} hidden, ${decay.summary.removed} removed`);

@@ -51,7 +51,25 @@ npm.cmd run validate
 
 每个条目在钉死的 sha 下读取 plugin.json，按 V2 顺序识别 `.omnimind-plugin`、`.claude-plugin`、`.codex-plugin`。仅有 `.zcode-plugin` 的条目被排除。条目 name 使用 manifest 的真实 name，目录原名称不同则记录在 `nameCorrections` 与 `x-omnimind.upstreamName`，不会擅自给插件改名。同一来源内重名按 repo/path/sha 的稳定顺序保留第一条并记录拒绝原因；跨来源重名按照上述来源优先级合并。
 
-GitHub repository 元数据使用每批 50 个仓库的 GraphQL 查询；manifest 每批 25 条查询。固定 sha 的公开文件与 tree 缓存在 `.cache/github/`；仓库状态和 HEAD 每次运行重新查询。明确的 404 会先通过 REST 确认以兼容仓库更名；403、429、网络失败与截断的 tree 会报错，不会伪装成仓库消失。
+GitHub repository 元数据使用每批 50 个仓库的 GraphQL 查询，全部来源先按仓库去重，每个仓库只查一次。同一查询附带 `forkCount`、`hasDiscussionsEnabled`、`homepageUrl`、`contributingGuidelines` 和 README 是否存在。manifest 每批 25 条查询。固定 sha 的公开文件与 tree 缓存在 `.cache/github/`；仓库状态和 HEAD 每次运行重新查询。明确的 404 会先通过 REST 确认以兼容仓库更名；403、429、网络失败与截断的 tree 会报错，不会伪装成仓库消失。详情字段查询失败时回退到不含这些附加字段的查询：目录照常生成，对应字段缺省，不写 `0`。
+
+### 详情页可选字段
+
+`dist/plugins.json` 与各来源目录的每条插件按需带上下列字段，供桌面详情页「开发者与来源」使用。取不到就省略。`node scripts/validate-v2.mjs` 在字段出现时检查：`github.stars` / `github.forks` 为非负整数，链接为不含账号口令的 https URL。
+
+| 字段 | 规则 |
+| --- | --- |
+| `repository` | `https://github.com/<owner>/<repo>`。有 `source.path` 时仍是仓库根 |
+| `license` | 仓库 SPDX id。`NOASSERTION` 等非许可证值省略 |
+| `updatedAt` | 仓库 `pushedAt`，ISO-8601 |
+| `github` | `{ stars?, forks?, fetchedAt? }`。请求失败或没有 token 时不输出统计，也不把缺失写成 `0` |
+| `links.docs` | 插件或仓库 homepage（仅 https）；否则仓库 README 链接 |
+| `links.releases` | `<repository>/releases` |
+| `links.issues` | `<repository>/issues` |
+| `links.discussions` | 仅当仓库开启 Discussions |
+| `links.contributing` | 仅当存在 CONTRIBUTING，使用 GitHub 返回的 https URL |
+
+目录钉扎仍需要进程环境中的 `GITHUB_TOKEN`。没有 token 时无法刷新上游 pin；已有 source 能推导的 `repository` / `issues` / `releases` 仍可输出，统计、许可证、讨论和贡献链接缺省。离线检查：`node --test scripts/github-metadata.test.mjs`。
 
 分类由 `data/categories.yml` 显式映射到办公文档、编程开发、设计创作、数据分析、科学研究、协作管理、应用增强。所有出现的上游分类都检查，未映射值导致 build 失败并列出，缺分类使用 `uncategorized -> 应用增强`。
 

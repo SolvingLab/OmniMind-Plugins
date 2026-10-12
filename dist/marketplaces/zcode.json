@@ -35,6 +35,20 @@
         "statutory-reporting",
         "consolidation"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/accounting-and-reporting/.claude-plugin/plugin.json"
@@ -76,6 +90,20 @@
         "oss",
         "ram"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://www.alibabacloud.com/help/en/cli/",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/alibaba-cloud-cli/.claude-plugin/plugin.json"
@@ -115,6 +143,20 @@
         "yield-curve",
         "credit-spread"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/assess-credit/.claude-plugin/plugin.json"
@@ -148,6 +190,20 @@
         "serverless",
         "mcp"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/cloudbase-skills/.claude-plugin/plugin.json"
@@ -189,6 +245,20 @@
         "calendar",
         "tasks"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/dingtalk-cli/.claude-plugin/plugin.json"
@@ -226,6 +296,20 @@
         "finance",
         "mcp"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/finance-search/.zcode-plugin/plugin.json"
@@ -265,6 +349,20 @@
         "industry-chain",
         "kyc"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/find-clients/.claude-plugin/plugin.json"
@@ -302,6 +400,20 @@
         "actions",
         "codespaces"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/github/.claude-plugin/plugin.json"
@@ -337,6 +449,20 @@
         "ci-cd",
         "gitlab-api"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://docs.gitlab.com/cli/",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/gitlab/.claude-plugin/plugin.json"
@@ -374,6 +500,20 @@
         "finance",
         "mcp"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/hexin/.zcode-plugin/plugin.json"
@@ -415,6 +555,20 @@
         "bang",
         "mcp"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://hyper3d.ai/",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/hyper3d-rodin/.zcode-plugin/plugin.json"
@@ -457,6 +611,20 @@
         "calendar",
         "messaging"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/larksuite/cli",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/lark-cli/.claude-plugin/plugin.json"
@@ -495,6 +663,20 @@
         "mcp",
         "sdlc"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/mimosa/.claude-plugin/plugin.json"
@@ -534,6 +716,20 @@
         "ipo",
         "capital-structure"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/model-deals/.claude-plugin/plugin.json"
@@ -578,6 +774,20 @@
         "excalidraw",
         "visualization"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/obsidian/.claude-plugin/plugin.json"
@@ -617,6 +827,20 @@
         "manager-research",
         "holdings-analysis"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/pick-funds/.claude-plugin/plugin.json"
@@ -656,6 +880,20 @@
         "index-valuation",
         "policy-tracking"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/read-macro/.claude-plugin/plugin.json"
@@ -695,6 +933,20 @@
         "cash-forecast",
         "management-reporting"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/run-fpa/.claude-plugin/plugin.json"
@@ -734,6 +986,20 @@
         "cli",
         "oauth2"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/TencentCloud/tencentmeeting-cli",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/tencent-meeting-cli/.claude-plugin/plugin.json"
@@ -771,6 +1037,20 @@
         "finance",
         "mcp"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/tianyancha/.zcode-plugin/plugin.json"
@@ -810,6 +1090,20 @@
         "related-parties",
         "counterparty"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/vet-companies/.claude-plugin/plugin.json"
@@ -844,6 +1138,20 @@
         "timeline",
         "ffmpeg"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/video-agent-kit/.claude-plugin/plugin.json"
@@ -877,6 +1185,20 @@
         "webapp",
         "motion"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/video2code/.claude-plugin/plugin.json"
@@ -916,6 +1238,20 @@
         "event-alerts",
         "attribution"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/watch-positions/.claude-plugin/plugin.json"
@@ -958,6 +1294,20 @@
         "calendar",
         "todo"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/WecomTeam/wecom-cli",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/wecom-cli/.claude-plugin/plugin.json"
@@ -995,6 +1345,20 @@
         "finance",
         "mcp"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/wind/.zcode-plugin/plugin.json"
@@ -1034,6 +1398,20 @@
         "lbo",
         "earnings"
       ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-08T15:21:27.000Z",
+      "github": {
+        "stars": 97,
+        "forks": 59,
+        "fetchedAt": "2026-10-12T02:53:07.141Z"
+      },
       "x-omnimind": {
         "sourceId": "zcode",
         "manifestPath": "plugins/write-research/.claude-plugin/plugin.json"
