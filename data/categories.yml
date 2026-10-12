@@ -1,0 +1,49 @@
+categories:
+  - office
+  - coding
+  - design
+  - data
+  - science
+  - collaboration
+  - enhancement
+mapping:
+  uncategorized: enhancement
+  security: coding
+  design: design
+  development: coding
+  productivity: office
+  database: data
+  location: enhancement
+  monitoring: coding
+  migration: coding
+  deployment: coding
+  automation: enhancement
+  utilities: enhancement
+  learning: science
+  testing: coding
+  math: science
+  Productivity: office
+  Communication: collaboration
+  Creativity: design
+  Finance: data
+  Developer Tools: coding
+  Education & Research: science
+  Security: coding
+  Data & Analytics: data
+  Business & Operations: collaboration
+  Scientific Research: science
+  developer-tools: coding
+  finance: data
+  office: office
+  coding: coding
+  data: data
+  science: science
+  collaboration: collaboration
+  enhancement: enhancement
+  办公文档: office
+  编程开发: coding
+  设计创作: design
+  数据分析: data
+  科学研究: science
+  协作管理: collaboration
+  应用增强: enhancement

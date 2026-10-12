@@ -1,0 +1,199 @@
+{
+  "version": 1,
+  "entries": {
+    "jetbrains/teamcity-cli#": {
+      "status": "removed",
+      "reasons": [
+        "unsupported_manifest"
+      ],
+      "removedSince": "2026-10-10T09:22:42.049Z",
+      "subjects": [
+        {
+          "id": "anthropic",
+          "entry": {
+            "name": "teamcity-cli",
+            "source": {
+              "source": "github",
+              "repo": "JetBrains/teamcity-cli",
+              "path": "",
+              "sha": "ac6c1fd83300b2e42df48fcfff365ba03f73bb92"
+            },
+            "category": "编程开发",
+            "strict": true,
+            "description": "Agent skill for interacting with TeamCity CI/CD using the teamcity CLI. Enables Claude to explore builds, view logs, start jobs, manage queues, agents, and more.",
+            "version": "1.3.0",
+            "homepage": "https://www.jetbrains.com/teamcity/",
+            "author": {
+              "name": "JetBrains"
+            },
+            "x-omnimind": {
+              "sourceId": "anthropic",
+              "manifestPath": ".claude-plugin/plugin.json"
+            }
+          }
+        }
+      ]
+    },
+    "oracle/netsuite-suitecloud-sdk#anthropic/netsuite-ai-companion": {
+      "status": "removed",
+      "reasons": [
+        "unsupported_manifest"
+      ],
+      "removedSince": "2026-10-10T09:22:42.049Z",
+      "subjects": [
+        {
+          "id": "anthropic",
+          "entry": {
+            "name": "netsuite-ai-companion",
+            "source": {
+              "source": "github",
+              "repo": "oracle/netsuite-suitecloud-sdk",
+              "path": "anthropic/netsuite-ai-companion",
+              "sha": "23793a10a9bb557c684c5cb8a97f926eb3463f12"
+            },
+            "category": "办公文档",
+            "strict": true,
+            "description": "Guides AI assistants that use the NetSuite AI Connector: tool-selection order, output formatting, NetSuite domain knowledge, multi-subsidiary and currency handling, and SuiteQL safety guardrails. Requires the NetSuite AI Connector Service.",
+            "version": "1.0.0",
+            "displayName": "NetSuite AI Companion",
+            "homepage": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-ai-companion",
+            "author": {
+              "name": "Oracle NetSuite"
+            },
+            "tags": [
+              "netsuite",
+              "aiconnector",
+              "mcp"
+            ],
+            "x-omnimind": {
+              "sourceId": "anthropic",
+              "manifestPath": "anthropic/netsuite-ai-companion/.claude-plugin/plugin.json"
+            }
+          }
+        }
+      ]
+    },
+    "oracle/netsuite-suitecloud-sdk#anthropic/netsuite-finance-analyst": {
+      "status": "removed",
+      "reasons": [
+        "unsupported_manifest"
+      ],
+      "removedSince": "2026-10-10T09:22:42.049Z",
+      "subjects": [
+        {
+          "id": "anthropic",
+          "entry": {
+            "name": "netsuite-finance-analyst",
+            "source": {
+              "source": "github",
+              "repo": "oracle/netsuite-suitecloud-sdk",
+              "path": "anthropic/netsuite-finance-analyst",
+              "sha": "23793a10a9bb557c684c5cb8a97f926eb3463f12"
+            },
+            "category": "办公文档",
+            "strict": true,
+            "description": "Director-level finance analysis on live NetSuite data: financial reporting, period close, variance, aging and reconciliation reviews, cash reporting, and board-ready narratives with next actions. Requires the NetSuite AI Connector Service.",
+            "version": "1.0.0",
+            "displayName": "NetSuite Finance Analyst",
+            "homepage": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-finance-analyst",
+            "author": {
+              "name": "Oracle NetSuite"
+            },
+            "tags": [
+              "netsuite",
+              "finance",
+              "mcp"
+            ],
+            "x-omnimind": {
+              "sourceId": "anthropic",
+              "manifestPath": "anthropic/netsuite-finance-analyst/.claude-plugin/plugin.json"
+            }
+          }
+        }
+      ]
+    },
+    "oracle/netsuite-suitecloud-sdk#anthropic/netsuite-suitecloud": {
+      "status": "removed",
+      "reasons": [
+        "unsupported_manifest"
+      ],
+      "removedSince": "2026-10-10T09:22:42.049Z",
+      "subjects": [
+        {
+          "id": "anthropic",
+          "entry": {
+            "name": "netsuite-suitecloud",
+            "source": {
+              "source": "github",
+              "repo": "oracle/netsuite-suitecloud-sdk",
+              "path": "anthropic/netsuite-suitecloud",
+              "sha": "23793a10a9bb557c684c5cb8a97f926eb3463f12"
+            },
+            "category": "编程开发",
+            "strict": true,
+            "description": "Develop NetSuite SuiteCloud solutions with SuiteScript, SDF, and best practices: SuiteScript records and upgrades, SDF objects, roles and permissions, UIF single-page apps, OWASP secure coding, project documentation, and the SAFE Guide.",
+            "version": "1.0.0",
+            "displayName": "NetSuite SuiteCloud",
+            "homepage": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-suitecloud",
+            "author": {
+              "name": "Oracle NetSuite"
+            },
+            "tags": [
+              "netsuite",
+              "suitecloud",
+              "suitescript",
+              "sdf",
+              "uif"
+            ],
+            "x-omnimind": {
+              "sourceId": "anthropic",
+              "manifestPath": "anthropic/netsuite-suitecloud/.claude-plugin/plugin.json"
+            }
+          }
+        }
+      ]
+    },
+    "sap/open-ux-tools#packages/fiori-mcp-server": {
+      "status": "removed",
+      "reasons": [
+        "unsupported_manifest"
+      ],
+      "removedSince": "2026-10-10T09:22:42.049Z",
+      "subjects": [
+        {
+          "id": "anthropic",
+          "entry": {
+            "name": "sap-fiori-mcp-server",
+            "source": {
+              "source": "github",
+              "repo": "SAP/open-ux-tools",
+              "path": "packages/fiori-mcp-server",
+              "sha": "69e2c50833f10e6892d7c8f42b98b13133d8fdc3"
+            },
+            "category": "编程开发",
+            "strict": true,
+            "description": "MCP server for SAP Fiori development tools for Claude Code. Build and modify SAP Fiori applications with AI assistance.",
+            "version": "1.13.0",
+            "homepage": "https://github.com/SAP/open-ux-tools/tree/main/packages/fiori-mcp-server",
+            "author": {
+              "name": "SAP SE",
+              "url": "https://www.sap.com"
+            },
+            "tags": [
+              "sap",
+              "fiori",
+              "ui5",
+              "cap",
+              "mcp",
+              "fiori-elements"
+            ],
+            "x-omnimind": {
+              "sourceId": "anthropic",
+              "manifestPath": "packages/fiori-mcp-server/.claude-plugin/plugin.json"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

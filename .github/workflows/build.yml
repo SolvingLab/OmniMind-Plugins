@@ -1,0 +1,49 @@
+name: Build plugin catalogs
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  push:
+    paths:
+      - 'data/plugins/**'
+      - 'data/categories.yml'
+      - 'data/external.yml'
+      - 'data/featured.yml'
+      - 'scripts/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/build.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: catalog-publish
+  cancel-in-progress: false
+jobs:
+  build:
+    if: >-
+      github.repository == 'SolvingLab/OmniMind-Plugins' &&
+      (github.event_name != 'push' || github.ref_name == github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Validate V2 catalogs
+        run: node scripts/validate-v2.mjs dist/plugins.json dist/marketplaces/*.json
+      - name: Commit generated catalogs to the public repository
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add dist/ data/decay-state.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: refresh plugin catalogs'
+            git push
+          fi

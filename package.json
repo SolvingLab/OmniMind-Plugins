@@ -1,0 +1,16 @@
+{
+  "name": "omnimind-plugins",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "为 OmniMind V2 聚合公开上游插件目录",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "scan-decay": "node scripts/scan-decay.mjs",
+    "check": "node scripts/check-submission.mjs",
+    "validate": "node scripts/validate-v2.mjs dist/plugins.json dist/marketplaces/*.json"
+  },
+  "dependencies": { "js-yaml": "5.4.3" }
+}
