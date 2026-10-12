@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T04:52:34.533Z",
+  "generatedAt": "2026-10-12T09:32:14.708Z",
   "sources": {
     "anthropic": {
       "marketplace": "omnimind-ext-anthropic",
@@ -56,15 +56,15 @@
     },
     "solvinglab": {
       "marketplace": "omnimind-ext-solvinglab",
-      "inspected": 11,
+      "inspected": 12,
       "inspectedUnit": "repositories",
       "candidates": 0,
       "accepted": 0,
       "dropped": 0,
-      "rejectedRepositories": 11,
+      "rejectedRepositories": 12,
       "reasons": {},
       "repositoryReasons": {
-        "unsupported_manifest": 11
+        "unsupported_manifest": 12
       },
       "inventory": [
         {
@@ -94,6 +94,12 @@
         {
           "repo": "SolvingLab/OmixBench",
           "sha": "af7e5db42025ab6ef4fcba134afd700b2cd63ca2",
+          "roots": [],
+          "reason": "unsupported_manifest"
+        },
+        {
+          "repo": "SolvingLab/OmniMind-Plugins",
+          "sha": "56471cdbe2335025a4d1cecad70a38a3beb49334",
           "roots": [],
           "reason": "unsupported_manifest"
         },
@@ -178,7 +184,7 @@
   "totalSourceEntries": 490,
   "mergedEntries": 463,
   "droppedPlugins": 40,
-  "rejectedRepositories": 29,
+  "rejectedRepositories": 30,
   "duplicates": {
     "upstreamDeclaredNameCount": 25,
     "upstreamDeclaredNames": [
@@ -590,7 +596,7 @@
               "source": "github",
               "repo": "microsoft/power-platform-skills",
               "path": "plugins/mcp-apps",
-              "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
+              "sha": "3dd0cfba2193cbe99c30743d58a35d458df5affc"
             }
           }
         ]
@@ -634,7 +640,7 @@
               "source": "github",
               "repo": "qodo-ai/qodo-skills",
               "path": "codex-packages/qodo",
-              "sha": "9f7b4ae5ec7e7a564170f1fcf9ef39cf075f6620"
+              "sha": "556017b37537a08de6f3e6b6f1c637fa7439eb76"
             }
           }
         ]
@@ -949,17 +955,6 @@
       },
       "listedName": "sap-mdk-server",
       "manifestName": "mdk-mcp"
-    },
-    {
-      "id": "anthropic",
-      "source": {
-        "source": "github",
-        "repo": "Shopify/Shopify-AI-Toolkit",
-        "path": "",
-        "sha": "57e293be70c7b754429b392e054105272433729d"
-      },
-      "listedName": "shopify-ai-toolkit",
-      "manifestName": "shopify-plugin"
     },
     {
       "id": "anthropic",
@@ -1463,6 +1458,13 @@
     {
       "id": "solvinglab",
       "scope": "repository",
+      "repo": "SolvingLab/OmniMind-Plugins",
+      "reason": "unsupported_manifest",
+      "detail": "recursive public repository inventory; no supported plugin root"
+    },
+    {
+      "id": "solvinglab",
+      "scope": "repository",
       "repo": "SolvingLab/OmniMind-Releases",
       "reason": "unsupported_manifest",
       "detail": "recursive public repository inventory; no supported plugin root"
@@ -1533,7 +1535,7 @@
         "source": "github",
         "repo": "thedotmack/claude-mem",
         "path": "plugin",
-        "sha": "b72206c98fe4ce72d8b695c4caaf43dc75a80172"
+        "sha": "356b7c08f64c29f931171e264e848772a039da62"
       },
       "reason": "duplicate_name_within_source"
     },
@@ -1742,8 +1744,8 @@
     }
   ],
   "decay": {
-    "checked": 503,
-    "healthy": 498,
+    "checked": 493,
+    "healthy": 488,
     "hidden": 0,
     "removed": 5,
     "recovered": 0,
@@ -1906,8 +1908,8 @@
       "enhancement": 37
     },
     "methods": {
-      "upstream": 370,
-      "keywords": 110,
+      "upstream": 371,
+      "keywords": 109,
       "fallback": 10
     },
     "fallbackCount": 10,
@@ -2029,65 +2031,6 @@
               },
               {
                 "keyword": "security",
-                "field": "description"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "anthropic",
-        "name": "aikido",
-        "source": {
-          "source": "github",
-          "repo": "AikidoSec/aikido-claude-plugin",
-          "path": "",
-          "sha": "02f018ad4da175a2a5ad6ca9451c3d309d105fab"
-        },
-        "merged": true,
-        "category": "coding",
-        "score": 3,
-        "matches": [
-          {
-            "keyword": "code",
-            "field": "description"
-          },
-          {
-            "keyword": "security",
-            "field": "description"
-          },
-          {
-            "keyword": "vulnerability",
-            "field": "description"
-          }
-        ],
-        "method": "keywords",
-        "inputCategory": null,
-        "candidates": [
-          {
-            "category": "coding",
-            "score": 3,
-            "matches": [
-              {
-                "keyword": "code",
-                "field": "description"
-              },
-              {
-                "keyword": "security",
-                "field": "description"
-              },
-              {
-                "keyword": "vulnerability",
-                "field": "description"
-              }
-            ]
-          },
-          {
-            "category": "enhancement",
-            "score": 1,
-            "matches": [
-              {
-                "keyword": "mcp",
                 "field": "description"
               }
             ]
@@ -3476,21 +3419,6 @@
       },
       {
         "id": "anthropic",
-        "name": "databricks",
-        "source": {
-          "source": "github",
-          "repo": "databricks/databricks-agent-skills",
-          "path": "plugins/databricks/claude",
-          "sha": "e77e37e8a4dabbe2662b680c180bb72a05eca48d"
-        },
-        "merged": true,
-        "category": "data",
-        "method": "upstream",
-        "inputCategory": "database",
-        "matches": []
-      },
-      {
-        "id": "anthropic",
         "name": "datadog",
         "source": {
           "source": "github",
@@ -4452,21 +4380,6 @@
       },
       {
         "id": "anthropic",
-        "name": "legalzoom",
-        "source": {
-          "source": "github",
-          "repo": "legalzoom/claude-plugins",
-          "path": "plugins/legalzoom",
-          "sha": "f9fd8a0ca6e1421bc1aacb113a109663a7a6f6d8"
-        },
-        "merged": true,
-        "category": "office",
-        "method": "upstream",
-        "inputCategory": "productivity",
-        "matches": []
-      },
-      {
-        "id": "anthropic",
         "name": "linear",
         "source": {
           "source": "github",
@@ -4493,36 +4406,6 @@
         "category": "office",
         "method": "upstream",
         "inputCategory": "productivity",
-        "matches": []
-      },
-      {
-        "id": "anthropic",
-        "name": "liquid-lsp",
-        "source": {
-          "source": "github",
-          "repo": "Shopify/liquid-skills",
-          "path": "plugins/liquid-lsp",
-          "sha": "ae3e4cc3f454923e388bbd841fd931f0c7bf5be4"
-        },
-        "merged": true,
-        "category": "coding",
-        "method": "upstream",
-        "inputCategory": "development",
-        "matches": []
-      },
-      {
-        "id": "anthropic",
-        "name": "liquid-skills",
-        "source": {
-          "source": "github",
-          "repo": "Shopify/liquid-skills",
-          "path": "plugins/liquid-skills",
-          "sha": "ae3e4cc3f454923e388bbd841fd931f0c7bf5be4"
-        },
-        "merged": true,
-        "category": "coding",
-        "method": "upstream",
-        "inputCategory": "development",
         "matches": []
       },
       {
@@ -4737,21 +4620,6 @@
       },
       {
         "id": "anthropic",
-        "name": "mercadopago",
-        "source": {
-          "source": "github",
-          "repo": "mercadopago/mercadopago-claude-marketplace",
-          "path": "plugins/mercadopago",
-          "sha": "755d33740af23351b4ca7043c51077ce67ebf4d1"
-        },
-        "merged": true,
-        "category": "coding",
-        "method": "upstream",
-        "inputCategory": "development",
-        "matches": []
-      },
-      {
-        "id": "anthropic",
         "name": "mergify",
         "source": {
           "source": "github",
@@ -4878,21 +4746,6 @@
           "repo": "mongodb/agent-skills",
           "path": "plugins/mongodb-atlas",
           "sha": "1e72df255e54e81eff078054c2cfb2b5d8c13503"
-        },
-        "merged": true,
-        "category": "data",
-        "method": "upstream",
-        "inputCategory": "database",
-        "matches": []
-      },
-      {
-        "id": "anthropic",
-        "name": "neon",
-        "source": {
-          "source": "github",
-          "repo": "neondatabase/agent-skills",
-          "path": "plugins/neon-postgres",
-          "sha": "827249744ed96416d799b68fb6bf033f4068b18a"
         },
         "merged": true,
         "category": "data",
@@ -5977,21 +5830,6 @@
       },
       {
         "id": "anthropic",
-        "name": "shopify-plugin",
-        "source": {
-          "source": "github",
-          "repo": "Shopify/Shopify-AI-Toolkit",
-          "path": "",
-          "sha": "57e293be70c7b754429b392e054105272433729d"
-        },
-        "merged": true,
-        "category": "coding",
-        "method": "upstream",
-        "inputCategory": "development",
-        "matches": []
-      },
-      {
-        "id": "anthropic",
         "name": "skill-creator",
         "source": {
           "source": "github",
@@ -6123,21 +5961,6 @@
         "category": "coding",
         "method": "upstream",
         "inputCategory": "security",
-        "matches": []
-      },
-      {
-        "id": "anthropic",
-        "name": "streaming-skills-plugin",
-        "source": {
-          "source": "github",
-          "repo": "confluentinc/agent-skills",
-          "path": "",
-          "sha": "914d95eff7ff50513b34bfb9ac97eda7c7fce899"
-        },
-        "merged": true,
-        "category": "coding",
-        "method": "upstream",
-        "inputCategory": "development",
         "matches": []
       },
       {
@@ -6348,21 +6171,6 @@
         "category": "coding",
         "method": "upstream",
         "inputCategory": "deployment",
-        "matches": []
-      },
-      {
-        "id": "anthropic",
-        "name": "vanguard-advisor-tools",
-        "source": {
-          "source": "github",
-          "repo": "Vanguard-oss/vanguard-advisor-tools",
-          "path": "",
-          "sha": "328fe9f61fe7a375b87a6492e265b4a5a955b0ce"
-        },
-        "merged": true,
-        "category": "office",
-        "method": "upstream",
-        "inputCategory": "productivity",
         "matches": []
       },
       {
@@ -7347,7 +7155,7 @@
           "source": "github",
           "repo": "qodo-ai/qodo-skills",
           "path": "codex-packages/qodo",
-          "sha": "9f7b4ae5ec7e7a564170f1fcf9ef39cf075f6620"
+          "sha": "556017b37537a08de6f3e6b6f1c637fa7439eb76"
         },
         "merged": false,
         "category": "coding",
@@ -8082,7 +7890,7 @@
           "source": "github",
           "repo": "agentrq/agentrq",
           "path": "plugins/claude/agentrq",
-          "sha": "ac982dba91aa6fa45e4406afe0e79c768b5dc149"
+          "sha": "6545f583be2b856c2ae39b0d2bc92376725e541a"
         },
         "merged": true,
         "category": "collaboration",
@@ -8133,7 +7941,7 @@
           "source": "github",
           "repo": "agentrq/agentrq",
           "path": "plugins/claude/agentrq-workspace",
-          "sha": "ac982dba91aa6fa45e4406afe0e79c768b5dc149"
+          "sha": "6545f583be2b856c2ae39b0d2bc92376725e541a"
         },
         "merged": true,
         "category": "collaboration",
@@ -8580,7 +8388,7 @@
           "source": "github",
           "repo": "microsoft/power-platform-skills",
           "path": "plugins/canvas-apps",
-          "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
+          "sha": "3dd0cfba2193cbe99c30743d58a35d458df5affc"
         },
         "merged": true,
         "category": "design",
@@ -8771,7 +8579,7 @@
           "source": "github",
           "repo": "kenryu42/cc-safety-net",
           "path": "",
-          "sha": "5726e7ad9615116fc5d8b0b3fbcb39e4de3034d2"
+          "sha": "724aeb2253d95485f2396f2b2de0ce2ccdf384ef"
         },
         "merged": true,
         "category": "enhancement",
@@ -9127,7 +8935,7 @@
           "source": "github",
           "repo": "thedotmack/claude-mem",
           "path": "",
-          "sha": "b72206c98fe4ce72d8b695c4caaf43dc75a80172"
+          "sha": "356b7c08f64c29f931171e264e848772a039da62"
         },
         "merged": true,
         "category": "enhancement",
@@ -9178,7 +8986,7 @@
           "source": "github",
           "repo": "thedotmack/claude-mem",
           "path": "cowork",
-          "sha": "b72206c98fe4ce72d8b695c4caaf43dc75a80172"
+          "sha": "356b7c08f64c29f931171e264e848772a039da62"
         },
         "merged": true,
         "category": "enhancement",
@@ -9374,7 +9182,7 @@
           "source": "github",
           "repo": "microsoft/power-platform-skills",
           "path": "plugins/code-apps",
-          "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
+          "sha": "3dd0cfba2193cbe99c30743d58a35d458df5affc"
         },
         "merged": true,
         "category": "coding",
@@ -9831,7 +9639,7 @@
           "source": "github",
           "repo": "Lifecycle-Innovations-Limited/claude-ops",
           "path": "desktop-act",
-          "sha": "b62e9384d69abf2ac1f7ceaa322bdca0c8073504"
+          "sha": "49ea40e02cbb00c1a61f4dff4de0e0cc4375f51b"
         },
         "merged": true,
         "category": "coding",
@@ -9882,7 +9690,7 @@
           "source": "github",
           "repo": "shinpr/claude-code-workflows",
           "path": "dev-skills",
-          "sha": "a4ecd62b6f8a8e736a9b4b56c5cdd449c92efe95"
+          "sha": "a125d0795a9aa1067048b6bc77f16b1edf12bdbb"
         },
         "merged": true,
         "category": "coding",
@@ -9953,7 +9761,7 @@
           "source": "github",
           "repo": "shinpr/claude-code-workflows",
           "path": "dev-workflows",
-          "sha": "a4ecd62b6f8a8e736a9b4b56c5cdd449c92efe95"
+          "sha": "a125d0795a9aa1067048b6bc77f16b1edf12bdbb"
         },
         "merged": true,
         "category": "collaboration",
@@ -10022,7 +9830,7 @@
           "source": "github",
           "repo": "shinpr/claude-code-workflows",
           "path": "dev-workflows-frontend",
-          "sha": "a4ecd62b6f8a8e736a9b4b56c5cdd449c92efe95"
+          "sha": "a125d0795a9aa1067048b6bc77f16b1edf12bdbb"
         },
         "merged": true,
         "category": "coding",
@@ -10095,7 +9903,7 @@
           "source": "github",
           "repo": "shinpr/claude-code-workflows",
           "path": "dev-workflows-fullstack",
-          "sha": "a4ecd62b6f8a8e736a9b4b56c5cdd449c92efe95"
+          "sha": "a125d0795a9aa1067048b6bc77f16b1edf12bdbb"
         },
         "merged": true,
         "category": "coding",
@@ -10418,7 +10226,7 @@
           "source": "github",
           "repo": "gmickel/flow-next",
           "path": "plugins/flow-next",
-          "sha": "57734ecf221a94439c8385f76643c20ea660b4e3"
+          "sha": "8e3d7b80d07eabf7eff30ef8b50746c634fd26fe"
         },
         "merged": true,
         "category": "enhancement",
@@ -11076,7 +10884,7 @@
           "source": "github",
           "repo": "microsoft/power-platform-skills",
           "path": "plugins/mcp-apps",
-          "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
+          "sha": "3dd0cfba2193cbe99c30743d58a35d458df5affc"
         },
         "merged": false,
         "category": "enhancement",
@@ -11241,7 +11049,7 @@
           "source": "github",
           "repo": "microsoft/power-platform-skills",
           "path": "plugins/mobile-apps",
-          "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
+          "sha": "3dd0cfba2193cbe99c30743d58a35d458df5affc"
         },
         "merged": true,
         "category": "coding",
@@ -11282,7 +11090,7 @@
           "source": "github",
           "repo": "microsoft/power-platform-skills",
           "path": "plugins/model-apps",
-          "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
+          "sha": "3dd0cfba2193cbe99c30743d58a35d458df5affc"
         },
         "merged": true,
         "category": "coding",
@@ -11731,7 +11539,7 @@
           "source": "github",
           "repo": "Lifecycle-Innovations-Limited/claude-ops",
           "path": "claude-ops",
-          "sha": "b62e9384d69abf2ac1f7ceaa322bdca0c8073504"
+          "sha": "49ea40e02cbb00c1a61f4dff4de0e0cc4375f51b"
         },
         "merged": true,
         "category": "collaboration",
@@ -12034,7 +11842,7 @@
           "source": "github",
           "repo": "microsoft/power-platform-skills",
           "path": "plugins/power-apps-mobile-extension",
-          "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
+          "sha": "3dd0cfba2193cbe99c30743d58a35d458df5affc"
         },
         "merged": true,
         "category": "enhancement",
@@ -12050,7 +11858,7 @@
           "source": "github",
           "repo": "microsoft/power-platform-skills",
           "path": "plugins/power-automate",
-          "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
+          "sha": "3dd0cfba2193cbe99c30743d58a35d458df5affc"
         },
         "merged": true,
         "category": "enhancement",
@@ -12109,7 +11917,7 @@
           "source": "github",
           "repo": "microsoft/power-platform-skills",
           "path": "plugins/power-pages",
-          "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
+          "sha": "3dd0cfba2193cbe99c30743d58a35d458df5affc"
         },
         "merged": true,
         "category": "coding",
@@ -12172,7 +11980,7 @@
           "source": "github",
           "repo": "microsoft/power-platform-skills",
           "path": "plugins/process-intelligence",
-          "sha": "7d6b84563f34db77661624a51fd1e2206da810c1"
+          "sha": "3dd0cfba2193cbe99c30743d58a35d458df5affc"
         },
         "merged": true,
         "category": "enhancement",
@@ -13696,12 +13504,162 @@
             ]
           }
         ]
+      },
+      {
+        "id": "anthropic",
+        "name": "aikido",
+        "source": {
+          "source": "github",
+          "repo": "AikidoSec/aikido-claude-plugin",
+          "path": "",
+          "sha": "02f018ad4da175a2a5ad6ca9451c3d309d105fab"
+        },
+        "merged": true,
+        "category": "coding",
+        "method": "upstream",
+        "inputCategory": "coding",
+        "matches": []
+      },
+      {
+        "id": "anthropic",
+        "name": "databricks",
+        "source": {
+          "source": "github",
+          "repo": "databricks/databricks-agent-skills",
+          "path": "plugins/databricks/claude",
+          "sha": "e77e37e8a4dabbe2662b680c180bb72a05eca48d"
+        },
+        "merged": true,
+        "category": "data",
+        "method": "upstream",
+        "inputCategory": "data",
+        "matches": []
+      },
+      {
+        "id": "anthropic",
+        "name": "legalzoom",
+        "source": {
+          "source": "github",
+          "repo": "legalzoom/claude-plugins",
+          "path": "plugins/legalzoom",
+          "sha": "f9fd8a0ca6e1421bc1aacb113a109663a7a6f6d8"
+        },
+        "merged": true,
+        "category": "office",
+        "method": "upstream",
+        "inputCategory": "office",
+        "matches": []
+      },
+      {
+        "id": "anthropic",
+        "name": "liquid-lsp",
+        "source": {
+          "source": "github",
+          "repo": "Shopify/liquid-skills",
+          "path": "plugins/liquid-lsp",
+          "sha": "ae3e4cc3f454923e388bbd841fd931f0c7bf5be4"
+        },
+        "merged": true,
+        "category": "coding",
+        "method": "upstream",
+        "inputCategory": "coding",
+        "matches": []
+      },
+      {
+        "id": "anthropic",
+        "name": "liquid-skills",
+        "source": {
+          "source": "github",
+          "repo": "Shopify/liquid-skills",
+          "path": "plugins/liquid-skills",
+          "sha": "ae3e4cc3f454923e388bbd841fd931f0c7bf5be4"
+        },
+        "merged": true,
+        "category": "coding",
+        "method": "upstream",
+        "inputCategory": "coding",
+        "matches": []
+      },
+      {
+        "id": "anthropic",
+        "name": "mercadopago",
+        "source": {
+          "source": "github",
+          "repo": "mercadopago/mercadopago-claude-marketplace",
+          "path": "plugins/mercadopago",
+          "sha": "755d33740af23351b4ca7043c51077ce67ebf4d1"
+        },
+        "merged": true,
+        "category": "coding",
+        "method": "upstream",
+        "inputCategory": "coding",
+        "matches": []
+      },
+      {
+        "id": "anthropic",
+        "name": "neon",
+        "source": {
+          "source": "github",
+          "repo": "neondatabase/agent-skills",
+          "path": "plugins/neon-postgres",
+          "sha": "827249744ed96416d799b68fb6bf033f4068b18a"
+        },
+        "merged": true,
+        "category": "data",
+        "method": "upstream",
+        "inputCategory": "data",
+        "matches": []
+      },
+      {
+        "id": "anthropic",
+        "name": "shopify-plugin",
+        "source": {
+          "source": "github",
+          "repo": "Shopify/Shopify-AI-Toolkit",
+          "path": "",
+          "sha": "57e293be70c7b754429b392e054105272433729d"
+        },
+        "merged": true,
+        "category": "coding",
+        "method": "upstream",
+        "inputCategory": "coding",
+        "matches": []
+      },
+      {
+        "id": "anthropic",
+        "name": "streaming-skills-plugin",
+        "source": {
+          "source": "github",
+          "repo": "confluentinc/agent-skills",
+          "path": "",
+          "sha": "914d95eff7ff50513b34bfb9ac97eda7c7fce899"
+        },
+        "merged": true,
+        "category": "coding",
+        "method": "upstream",
+        "inputCategory": "coding",
+        "matches": []
+      },
+      {
+        "id": "anthropic",
+        "name": "vanguard-advisor-tools",
+        "source": {
+          "source": "github",
+          "repo": "Vanguard-oss/vanguard-advisor-tools",
+          "path": "",
+          "sha": "328fe9f61fe7a375b87a6492e265b4a5a955b0ce"
+        },
+        "merged": true,
+        "category": "office",
+        "method": "upstream",
+        "inputCategory": "office",
+        "matches": []
       }
     ]
   },
   "logos": {
-    "checked": 338,
-    "withIcon": 490
+    "checked": 330,
+    "withIcon": 480
   },
   "external": {
     "count": 9,
@@ -13756,11 +13714,11 @@
     "Referenced website revision contains 9 external entries; requested 10. Missing entry requires a source; no placeholder was invented."
   ],
   "github": {
-    "requests": 34,
-    "cacheHits": 1129,
-    "graphqlBatches": 25,
+    "requests": 156,
+    "cacheHits": 379,
+    "graphqlBatches": 50,
     "detailFallbacks": 0,
     "detailPartial": 0,
-    "admissionUnavailable": 0
+    "admissionUnavailable": 9
   }
 }
