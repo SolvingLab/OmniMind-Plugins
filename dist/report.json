@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T02:53:05.402Z",
+  "generatedAt": "2026-10-12T04:52:34.533Z",
   "sources": {
     "anthropic": {
       "marketplace": "omnimind-ext-anthropic",
@@ -40,17 +40,17 @@
     },
     "zcode": {
       "marketplace": "omnimind-ext-zcode",
-      "inspected": 27,
+      "inspected": 33,
       "inspectedUnit": "marketplace_entries",
-      "candidates": 27,
-      "accepted": 27,
+      "candidates": 33,
+      "accepted": 33,
       "dropped": 0,
       "rejectedRepositories": 0,
       "reasons": {},
       "repositoryReasons": {},
       "upstream": {
         "repo": "zai-org/zcode-plugins",
-        "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7",
+        "sha": "d1639cff514dcba29cfbfbc634d4609492640660",
         "path": "marketplace.json"
       }
     },
@@ -175,8 +175,8 @@
       ]
     }
   },
-  "totalSourceEntries": 484,
-  "mergedEntries": 457,
+  "totalSourceEntries": 490,
+  "mergedEntries": 463,
   "droppedPlugins": 40,
   "rejectedRepositories": 29,
   "duplicates": {
@@ -480,7 +480,7 @@
               "source": "github",
               "repo": "zai-org/zcode-plugins",
               "path": "plugins/github",
-              "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+              "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
             }
           }
         ]
@@ -502,7 +502,7 @@
               "source": "github",
               "repo": "zai-org/zcode-plugins",
               "path": "plugins/gitlab",
-              "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+              "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
             }
           }
         ]
@@ -1533,7 +1533,7 @@
         "source": "github",
         "repo": "thedotmack/claude-mem",
         "path": "plugin",
-        "sha": "93ca2a866bad1533618a8e92454ec89c0108c17b"
+        "sha": "b72206c98fe4ce72d8b695c4caaf43dc75a80172"
       },
       "reason": "duplicate_name_within_source"
     },
@@ -1727,7 +1727,7 @@
         "source": "github",
         "repo": "unbrowse-ai/unbrowse",
         "path": "plugins/codex",
-        "sha": "216535124f7e047fb0f84e2cdf8aabf2119d3067"
+        "sha": "7d1ab4f34679a3b7462f4a7bb9dbc491d0884bd8"
       },
       "reason": "duplicate_name_within_source"
     },
@@ -1742,8 +1742,8 @@
     }
   ],
   "decay": {
-    "checked": 497,
-    "healthy": 492,
+    "checked": 503,
+    "healthy": 498,
     "hidden": 0,
     "removed": 5,
     "recovered": 0,
@@ -1869,13 +1869,13 @@
         "enhancement": 0
       },
       "zcode": {
-        "office": 7,
-        "coding": 6,
+        "office": 10,
+        "coding": 8,
         "design": 0,
         "data": 14,
         "science": 0,
         "collaboration": 0,
-        "enhancement": 0
+        "enhancement": 1
       },
       "solvinglab": {
         "office": 0,
@@ -1897,16 +1897,16 @@
       }
     },
     "mergedDistribution": {
-      "office": 84,
-      "coding": 212,
+      "office": 87,
+      "coding": 214,
       "design": 26,
       "data": 62,
       "science": 13,
       "collaboration": 24,
-      "enhancement": 36
+      "enhancement": 37
     },
     "methods": {
-      "upstream": 364,
+      "upstream": 370,
       "keywords": 110,
       "fallback": 10
     },
@@ -7587,7 +7587,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/accounting-and-reporting",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "data",
@@ -7602,7 +7602,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/alibaba-cloud-cli",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "coding",
@@ -7617,7 +7617,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/assess-credit",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "data",
@@ -7627,12 +7627,27 @@
       },
       {
         "id": "zcode",
+        "name": "blender",
+        "source": {
+          "source": "github",
+          "repo": "zai-org/zcode-plugins",
+          "path": "plugins/blender",
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        },
+        "merged": true,
+        "category": "office",
+        "method": "upstream",
+        "inputCategory": "productivity",
+        "matches": []
+      },
+      {
+        "id": "zcode",
         "name": "cloudbase-skills",
         "source": {
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/cloudbase-skills",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "coding",
@@ -7647,7 +7662,37 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/dingtalk-cli",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        },
+        "merged": true,
+        "category": "office",
+        "method": "upstream",
+        "inputCategory": "productivity",
+        "matches": []
+      },
+      {
+        "id": "zcode",
+        "name": "disk-cleaner",
+        "source": {
+          "source": "github",
+          "repo": "zai-org/zcode-plugins",
+          "path": "plugins/disk-cleaner",
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        },
+        "merged": true,
+        "category": "enhancement",
+        "method": "upstream",
+        "inputCategory": "utilities",
+        "matches": []
+      },
+      {
+        "id": "zcode",
+        "name": "excalidraw",
+        "source": {
+          "source": "github",
+          "repo": "zai-org/zcode-plugins",
+          "path": "plugins/excalidraw",
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "office",
@@ -7662,7 +7707,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/finance-search",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "data",
@@ -7677,7 +7722,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/find-clients",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "data",
@@ -7692,7 +7737,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/github",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": false,
         "category": "coding",
@@ -7707,7 +7752,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/gitlab",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": false,
         "category": "coding",
@@ -7722,7 +7767,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/hexin",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "data",
@@ -7737,7 +7782,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/hyper3d-rodin",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "coding",
@@ -7752,7 +7797,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/lark-cli",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "office",
@@ -7767,7 +7812,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/mimosa",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "coding",
@@ -7782,7 +7827,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/model-deals",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "data",
@@ -7797,7 +7842,22 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/obsidian",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        },
+        "merged": true,
+        "category": "office",
+        "method": "upstream",
+        "inputCategory": "productivity",
+        "matches": []
+      },
+      {
+        "id": "zcode",
+        "name": "openpencil",
+        "source": {
+          "source": "github",
+          "repo": "zai-org/zcode-plugins",
+          "path": "plugins/openpencil",
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "office",
@@ -7812,7 +7872,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/pick-funds",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "data",
@@ -7827,7 +7887,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/read-macro",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "data",
@@ -7842,7 +7902,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/run-fpa",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "data",
@@ -7852,12 +7912,27 @@
       },
       {
         "id": "zcode",
+        "name": "showcase",
+        "source": {
+          "source": "github",
+          "repo": "zai-org/zcode-plugins",
+          "path": "plugins/showcase",
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        },
+        "merged": true,
+        "category": "coding",
+        "method": "upstream",
+        "inputCategory": "developer-tools",
+        "matches": []
+      },
+      {
+        "id": "zcode",
         "name": "tencent-meeting-cli",
         "source": {
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/tencent-meeting-cli",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "office",
@@ -7872,7 +7947,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/tianyancha",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "data",
@@ -7887,7 +7962,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/vet-companies",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "data",
@@ -7902,7 +7977,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/video-agent-kit",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "office",
@@ -7917,7 +7992,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/video2code",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "office",
@@ -7932,7 +8007,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/watch-positions",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "data",
@@ -7947,7 +8022,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/wecom-cli",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "office",
@@ -7962,7 +8037,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/wind",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "data",
@@ -7977,12 +8052,27 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/write-research",
-          "sha": "8b8c69c1b73be497d0e4865e6b74b5c05898d5d7"
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
         },
         "merged": true,
         "category": "data",
         "method": "upstream",
         "inputCategory": "finance",
+        "matches": []
+      },
+      {
+        "id": "zcode",
+        "name": "zcode-mcp-app-dev",
+        "source": {
+          "source": "github",
+          "repo": "zai-org/zcode-plugins",
+          "path": "plugins/zcode-mcp-app-dev",
+          "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        },
+        "merged": true,
+        "category": "coding",
+        "method": "upstream",
+        "inputCategory": "developer-tools",
         "matches": []
       },
       {
@@ -8681,7 +8771,7 @@
           "source": "github",
           "repo": "kenryu42/cc-safety-net",
           "path": "",
-          "sha": "eb97ff926e51aceee1b812413b3127290a5df93b"
+          "sha": "5726e7ad9615116fc5d8b0b3fbcb39e4de3034d2"
         },
         "merged": true,
         "category": "enhancement",
@@ -9037,7 +9127,7 @@
           "source": "github",
           "repo": "thedotmack/claude-mem",
           "path": "",
-          "sha": "93ca2a866bad1533618a8e92454ec89c0108c17b"
+          "sha": "b72206c98fe4ce72d8b695c4caaf43dc75a80172"
         },
         "merged": true,
         "category": "enhancement",
@@ -9088,7 +9178,7 @@
           "source": "github",
           "repo": "thedotmack/claude-mem",
           "path": "cowork",
-          "sha": "93ca2a866bad1533618a8e92454ec89c0108c17b"
+          "sha": "b72206c98fe4ce72d8b695c4caaf43dc75a80172"
         },
         "merged": true,
         "category": "enhancement",
@@ -13417,7 +13507,7 @@
           "source": "github",
           "repo": "unbrowse-ai/unbrowse",
           "path": "plugins/claude-code",
-          "sha": "216535124f7e047fb0f84e2cdf8aabf2119d3067"
+          "sha": "7d1ab4f34679a3b7462f4a7bb9dbc491d0884bd8"
         },
         "merged": true,
         "category": "enhancement",
@@ -13610,8 +13700,8 @@
     ]
   },
   "logos": {
-    "checked": 337,
-    "withIcon": 484
+    "checked": 338,
+    "withIcon": 490
   },
   "external": {
     "count": 9,
@@ -13666,9 +13756,11 @@
     "Referenced website revision contains 9 external entries; requested 10. Missing entry requires a source; no placeholder was invented."
   ],
   "github": {
-    "requests": 22,
-    "cacheHits": 1164,
-    "graphqlBatches": 12,
-    "detailFallbacks": 0
+    "requests": 34,
+    "cacheHits": 1129,
+    "graphqlBatches": 25,
+    "detailFallbacks": 0,
+    "detailPartial": 0,
+    "admissionUnavailable": 0
   }
 }

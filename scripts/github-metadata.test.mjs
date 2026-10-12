@@ -1,7 +1,8 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { attachCatalogGithub } from './build.mjs';
-import { GitHub, applyGithubDetails, githubDetailFields, metadataFields, metadataQuery } from './lib/github.mjs';
+import { attachCatalogGithub, entriesRetainedAfterMetadataFailure } from './build.mjs';
+import { GitHub, applyGithubDetails, detailMetadataQuery, githubDetailFields, metadataFields, metadataQuery } from './lib/github.mjs';
+import { admissionProblems } from './readers/community.mjs';
 import { validateMarketplace } from './validate-v2.mjs';
 
 const SHA = 'a'.repeat(40);
@@ -142,9 +143,17 @@ test('metadata query is batched once per repository and can drop detail fields',
   assert.match(metadataFields(true), /forkCount/);
   assert.match(metadataFields(true), /hasDiscussionsEnabled/);
   assert.equal(metadataFields(false).includes('forkCount'), false);
+  assert.equal(metadataFields(false).includes('licenseInfo'), true);
   const query = metadataQuery(['acme/plugin', 'other/repo'], true);
   assert.equal(query.includes('forkCount'), true);
   assert.equal([...query.matchAll(/repository\(owner:/g)].length, 2);
+  const admission = metadataQuery(['acme/plugin'], false);
+  const detail = detailMetadataQuery(['acme/plugin']);
+  assert.equal(admission.includes('licenseInfo'), true);
+  assert.equal(admission.includes('forkCount'), false);
+  assert.equal(detail.includes('forkCount'), true);
+  assert.equal(detail.includes('licenseInfo'), false);
+  assert.equal(detail.includes('stargazerCount'), false);
   assert.throws(() => metadataQuery(['not a repo']), /Invalid GitHub repository/);
 });
 
@@ -182,18 +191,35 @@ test('detail query failure falls back without writing zero forks', async () => {
   }
 });
 
-test('total metadata failure throws and does not publish a zero placeholder', async () => {
+test('metadata failure omits detail fields and does not fail the build', async () => {
   const original = globalThis.fetch;
+  const originalWarn = console.warn;
+  const warnings = [];
+  console.warn = (...args) => warnings.push(args.join(' '));
   globalThis.fetch = async () => new Response('no', { status: 400 });
   try {
     const client = new GitHub({ token: 'test-token' });
     client.detailRetryMs = 0;
-    await assert.rejects(client.metadataBatch(['acme/plugin']), /GitHub HTTP 400/);
-    assert.equal(client.meta.size, 0);
+    await client.metadataBatch(['acme/plugin']);
+    assert.equal(client.meta.get('acme/plugin').metadataUnavailable, true);
     const fields = githubDetailFields(source(), client.meta.get('acme/plugin'), { fetchedAt: FETCHED_AT });
     assert.equal(fields.github, undefined);
+    assert.equal(fields.license, undefined);
     assert.equal(JSON.stringify(fields).includes(':0'), false);
+    const record = { source: source(), entry: {}, manifest: {}, plugin: plugin() };
+    assert.doesNotThrow(() => attachCatalogGithub([record], client));
+    assert.equal(record.plugin.github, undefined);
+    assert.equal(record.plugin.license, undefined);
+
+    const bare = new GitHub({ token: '' });
+    assert.equal(bare.token, undefined);
+    const noToken = { source: source(), entry: {}, manifest: {}, plugin: plugin() };
+    assert.doesNotThrow(() => attachCatalogGithub([noToken], bare));
+    assert.equal(noToken.plugin.github, undefined);
+    assert.equal(warnings.some(warning => /optional GitHub detail metadata omitted \(no token\)/.test(warning)), true);
+    assert.equal(warnings.some(warning => /metadata_unavailable: acme\/plugin/.test(warning)), true);
   } finally {
+    console.warn = originalWarn;
     globalThis.fetch = original;
   }
 });
@@ -203,7 +229,14 @@ test('a transient detail failure is retried before fields are omitted', async ()
   let detailed = 0;
   globalThis.fetch = async (_url, init) => {
     const query = JSON.parse(init.body).query;
-    if (!query.includes('forkCount')) throw new Error('base query should not run');
+    if (!query.includes('forkCount')) {
+      return new Response(JSON.stringify({ data: { r0: {
+        nameWithOwner: 'acme/plugin', isPrivate: false, isArchived: false, isFork: false,
+        stargazerCount: 2, createdAt: '2020-01-01T00:00:00Z', pushedAt: '2026-02-03T04:05:06Z',
+        description: null, licenseInfo: { spdxId: 'MIT' }, repositoryTopics: { nodes: [] },
+        defaultBranchRef: { name: 'main', target: { oid: SHA } },
+      } } }), { status: 200 });
+    }
     detailed++;
     if (detailed === 1) return new Response(JSON.stringify({ errors: [{ type: 'RATE_LIMITED', message: 'slow down' }] }), { status: 200 });
     return new Response(JSON.stringify({ data: { r0: {
@@ -274,7 +307,7 @@ test('successful detail batch maps forks, discussions, and contributing without 
   try {
     const client = new GitHub({ token: 'test-token' });
     await client.metadataBatch(['acme/plugin', 'acme/plugin']);
-    assert.equal(calls, 1);
+    assert.equal(calls, 2);
     const meta = client.meta.get('acme/plugin');
     assert.equal(meta.forks, 0);
     assert.equal(meta.hasDiscussionsEnabled, false);
@@ -289,4 +322,65 @@ test('successful detail batch maps forks, discussions, and contributing without 
   } finally {
     globalThis.fetch = original;
   }
+});
+
+test('licenseInfo detail error does not exclude or become missing_license', async () => {
+  const original = globalThis.fetch;
+  const now = new Date('2026-10-12T00:00:00Z');
+  globalThis.fetch = async (_url, init) => {
+    const query = JSON.parse(init.body).query;
+    if (query.includes('forkCount')) {
+      return new Response(JSON.stringify({
+        errors: [{ type: 'INTERNAL', path: ['r0', 'licenseInfo'], message: 'temporary field error' }],
+        data: { r0: { forkCount: 15, licenseInfo: null, hasDiscussionsEnabled: true } },
+      }), { status: 200 });
+    }
+    return new Response(JSON.stringify({ data: { r0: {
+      nameWithOwner: 'acme/plugin', isPrivate: false, isArchived: false, isFork: false,
+      stargazerCount: 800, createdAt: '2020-01-01T00:00:00Z', pushedAt: '2026-10-11T00:00:00Z',
+      description: null, licenseInfo: { spdxId: 'MIT' },
+      repositoryTopics: { nodes: [{ topic: { name: 'claude-code-plugin' } }] },
+      defaultBranchRef: { name: 'main', target: { oid: SHA } },
+    } } }), { status: 200 });
+  };
+  try {
+    const client = new GitHub({ token: 'test-token' });
+    await client.metadataBatch(['acme/plugin']);
+    const meta = client.meta.get('acme/plugin');
+    assert.equal(meta.metadataUnavailable, undefined);
+    assert.equal(meta.license, 'MIT');
+    assert.equal(meta.forks, 15);
+    assert.deepEqual(admissionProblems(meta, { now, existing: true }), []);
+  } finally {
+    globalThis.fetch = original;
+  }
+});
+
+test('admission licenseInfo field error is metadata_unavailable and keeps a previous entry', async () => {
+  const client = new GitHub({ token: 'test-token' });
+  client.detailRetryMs = 0;
+  client.graphqlPartial = async () => ({
+    errors: [{ type: 'INTERNAL', path: ['r0', 'licenseInfo'], message: 'temporary field error' }],
+    data: { r0: {
+      nameWithOwner: 'acme/plugin', isPrivate: false, isArchived: false, isFork: false,
+      stargazerCount: 800, forkCount: 15, createdAt: '2020-01-01T00:00:00Z',
+      pushedAt: '2026-10-11T00:00:00Z', licenseInfo: null,
+      repositoryTopics: { nodes: [{ topic: { name: 'claude-code-plugin' } }] },
+      defaultBranchRef: { name: 'main', target: { oid: SHA } },
+    } },
+  });
+  await client.metadataBatch(['acme/plugin']);
+  const meta = client.meta.get('acme/plugin');
+  const problems = admissionProblems(meta, { now: new Date('2026-10-12T00:00:00Z'), existing: true });
+  assert.equal(problems.includes('missing_license'), false);
+  assert.deepEqual(problems, ['metadata_unavailable']);
+  const previous = [applyGithubDetails(plugin(), source(), metaFixture, { fetchedAt: FETCHED_AT })];
+  const { kept, skipped } = entriesRetainedAfterMetadataFailure(previous, [meta.repo]);
+  assert.equal(kept.length, 1);
+  assert.equal(kept[0].name, 'demo');
+  assert.equal(kept[0].source.repo, 'acme/plugin');
+  assert.deepEqual(skipped, []);
+  const fields = githubDetailFields(source(), meta, { fetchedAt: FETCHED_AT });
+  assert.equal(fields.github, undefined);
+  assert.equal(JSON.stringify(fields).includes(':0'), false);
 });

@@ -177,20 +177,49 @@ export async function writeJson(file, value) {
   await writeFile(file, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
 }
 
+const ADMISSION_GRAPHQL_FIELDS = new Set(['nameWithOwner', 'isPrivate', 'isArchived', 'isFork', 'stargazerCount', 'createdAt', 'pushedAt', 'licenseInfo', 'repositoryTopics', 'defaultBranchRef']);
+
 export function metadataFields(detailed = true) {
   const base = 'nameWithOwner isPrivate isArchived isFork stargazerCount createdAt pushedAt description licenseInfo { spdxId } repositoryTopics(first:100) { nodes { topic { name } } } defaultBranchRef { name target { oid } }';
   if (!detailed) return base;
-  const readme = README_PROBES.map(([alias, path]) => `${alias}: object(expression:${JSON.stringify(`HEAD:${path}`)}) { ... on Blob { oid } }`).join(' ');
-  return `${base} forkCount hasDiscussionsEnabled homepageUrl contributingGuidelines { url } ${readme}`;
+  return `${base} ${detailMetadataFields()}`;
 }
 
-export function metadataQuery(repos, detailed = true) {
-  const fields = metadataFields(detailed);
+export function detailMetadataFields() {
+  const readme = README_PROBES.map(([alias, path]) => `${alias}: object(expression:${JSON.stringify(`HEAD:${path}`)}) { ... on Blob { oid } }`).join(' ');
+  return `forkCount hasDiscussionsEnabled homepageUrl contributingGuidelines { url } ${readme}`;
+}
+
+function repositorySelection(repos, fields) {
   return `query { ${repos.map((repo, i) => {
     if (!REPO_PATTERN.test(repo)) throw new Error(`Invalid GitHub repository: ${repo}`);
     const [owner, name] = repo.split('/');
     return `r${i}: repository(owner:${JSON.stringify(owner)},name:${JSON.stringify(name)}) { ${fields} }`;
   }).join('\n')} }`;
+}
+
+export function metadataQuery(repos, detailed = true) {
+  return repositorySelection(repos, metadataFields(detailed));
+}
+
+export function detailMetadataQuery(repos) {
+  return repositorySelection(repos, detailMetadataFields());
+}
+
+function aliasErrors(errors, index) {
+  const prefix = `r${index}`;
+  return (errors ?? []).filter(error => error?.type !== 'NOT_FOUND' && Array.isArray(error.path) && String(error.path[0]) === prefix);
+}
+
+function admissionFieldFailed(errors, index) {
+  return aliasErrors(errors, index).some(error => {
+    const field = error.path[1];
+    return field === undefined || ADMISSION_GRAPHQL_FIELDS.has(field);
+  });
+}
+
+function erroredFieldNames(errors, index) {
+  return new Set(aliasErrors(errors, index).map(error => error.path[1]).filter(Boolean));
 }
 
 function readmePathFrom(node) {
@@ -206,24 +235,66 @@ function metadata(node, { detailed = true } = {}) {
     branch: node.defaultBranchRef?.name, sha: node.defaultBranchRef?.target?.oid,
   };
   if (!detailed) return value;
-  const forks = nonNegativeInteger(node.forkCount);
-  if (forks !== undefined) value.forks = forks;
-  if (typeof node.hasDiscussionsEnabled === 'boolean') value.hasDiscussionsEnabled = node.hasDiscussionsEnabled;
-  if (typeof node.homepageUrl === 'string') value.homepageUrl = node.homepageUrl;
-  if (typeof node.contributingGuidelines?.url === 'string') value.contributingUrl = node.contributingGuidelines.url;
-  const readmePath = readmePathFrom(node);
-  if (readmePath) value.readmePath = readmePath;
+  applyOptionalDetails(value, node, new Set());
   return value;
+}
+
+function applyOptionalDetails(value, node, errored) {
+  if (!errored.has('forkCount')) {
+    const forks = nonNegativeInteger(node.forkCount);
+    if (forks !== undefined) value.forks = forks;
+  }
+  if (!errored.has('hasDiscussionsEnabled') && typeof node.hasDiscussionsEnabled === 'boolean') value.hasDiscussionsEnabled = node.hasDiscussionsEnabled;
+  if (!errored.has('homepageUrl') && typeof node.homepageUrl === 'string') value.homepageUrl = node.homepageUrl;
+  if (!errored.has('contributingGuidelines') && typeof node.contributingGuidelines?.url === 'string') value.contributingUrl = node.contributingGuidelines.url;
+  if (!README_PROBES.some(([alias]) => errored.has(alias))) {
+    const readmePath = readmePathFrom(node);
+    if (readmePath) value.readmePath = readmePath;
+  }
 }
 
 export class GitHub {
   constructor({ token = process.env.GITHUB_TOKEN, cacheDir = resolve(ROOT, '.cache/github') } = {}) {
-    if (!token) throw new Error('GITHUB_TOKEN is required (process environment only)');
-    this.headers = { Accept: 'application/vnd.github+json', Authorization: `Bearer ${token}`, 'X-GitHub-Api-Version': '2022-11-28', 'User-Agent': 'OmniMind-Plugins' };
+    this.token = typeof token === 'string' && token.trim() ? token : undefined;
+    this.headers = { Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28', 'User-Agent': 'OmniMind-Plugins', ...(this.token ? { Authorization: `Bearer ${this.token}` } : {}) };
     this.cacheDir = cacheDir;
     this.meta = new Map();
     this.pending = new Map();
-    this.stats = { requests: 0, cacheHits: 0, graphqlBatches: 0, detailFallbacks: 0 };
+    this.stats = { requests: 0, cacheHits: 0, graphqlBatches: 0, detailFallbacks: 0, detailPartial: 0, admissionUnavailable: 0 };
+    if (!this.token) this.warnDetailOmitted('no token');
+  }
+
+  warnDetailOmitted(reason) {
+    if (this.detailOmissionWarned) return;
+    this.detailOmissionWarned = true;
+    console.warn(`optional GitHub detail metadata omitted (${reason}): forks, discussions, contributing, fetchedAt`);
+  }
+
+  markUnavailable(repo, reason) {
+    const key = String(repo).toLowerCase();
+    if (this.meta.get(key)?.metadataUnavailable) return;
+    const value = { repo: String(repo), metadataUnavailable: true, detailUnavailable: true, admissionError: reason };
+    this.meta.set(key, value);
+    this.stats.admissionUnavailable++;
+    console.warn(`metadata_unavailable: ${repo} (${reason})`);
+  }
+
+  storeMeta(requested, value) {
+    this.meta.set(String(requested).toLowerCase(), value);
+    if (value.repo) this.meta.set(value.repo.toLowerCase(), value);
+  }
+
+  async queryWithRetry(query, { optional = false } = {}) {
+    let lastError;
+    for (let attempt = 0; attempt < 3; attempt++) {
+      try { return await this.graphqlPartial(query); }
+      catch (error) {
+        lastError = error;
+        if (attempt < 2) await new Promise(resolve => setTimeout(resolve, (this.detailRetryMs ?? 2_000) * 2 ** attempt));
+      }
+    }
+    if (!optional) console.warn(`GitHub admission metadata unavailable: ${lastError?.message ?? 'query failed'}`);
+    return null;
   }
 
   async cache(key) {
@@ -304,32 +375,50 @@ export class GitHub {
     for (let start = 0; start < todo.length; start += 50) {
       const chunk = todo.slice(start, start + 50);
       // Validate before either request so a bad name does not look like a detail-field failure.
-      const detailedQuery = metadataQuery(chunk, true);
-      let result;
-      let detailed = true;
-      for (let attempt = 0; attempt < 3 && !result; attempt++) {
-        try {
-          // Partial field errors keep the nodes that arrived. Missing forks/discussions
-          // stay absent; they are not retried into a zero.
-          result = await this.graphqlPartial(detailedQuery);
-          if (result.errors?.some(error => error.type !== 'NOT_FOUND')) this.stats.detailPartial = (this.stats.detailPartial ?? 0) + 1;
-        } catch {
-          if (attempt < 2) await new Promise(resolve => setTimeout(resolve, (this.detailRetryMs ?? 2_000) * 2 ** attempt));
-        }
+      const admission = await this.queryWithRetry(metadataQuery(chunk, false));
+      if (!admission) {
+        for (const repo of chunk) this.markUnavailable(repo, 'admission query failed');
+        continue;
       }
-      if (!result) {
-        // Detail fields are optional. A failed extended query must not fail the catalog
-        // build or be recorded as zero stars/forks; retry the fields decay already requires.
-        result = await this.graphql(metadataQuery(chunk, false));
-        detailed = false;
-        this.stats.detailFallbacks++;
-      }
-      this.detailFetchedAt ??= new Date().toISOString();
+      const pending = [];
       for (let i = 0; i < chunk.length; i++) {
-        const node = result.data[`r${i}`];
-        // Confirm NOT_FOUND through REST, which follows renamed repositories.
-        const value = node ? metadata(node, { detailed }) : await this.restMetadata(chunk[i]);
-        this.meta.set(chunk[i].toLowerCase(), value);
+        if (admissionFieldFailed(admission.errors, i)) {
+          this.markUnavailable(chunk[i], 'admission field error');
+          continue;
+        }
+        const node = admission.data?.[`r${i}`];
+        let value;
+        if (node) value = metadata(node, { detailed: false });
+        else {
+          // Confirm NOT_FOUND through REST, which follows renamed repositories.
+          try { value = await this.restMetadata(chunk[i]); }
+          catch (error) {
+            this.markUnavailable(chunk[i], error.message);
+            continue;
+          }
+        }
+        this.storeMeta(chunk[i], value);
+        if (!value.notFound && !value.private && !value.metadataUnavailable) pending.push(chunk[i]);
+      }
+      if (!this.token) {
+        this.warnDetailOmitted('no token');
+        continue;
+      }
+      if (!pending.length) continue;
+      const detail = await this.queryWithRetry(detailMetadataQuery(pending), { optional: true });
+      if (!detail) {
+        this.stats.detailFallbacks++;
+        this.warnDetailOmitted('detail query failed');
+        continue;
+      }
+      if (detail.errors?.some(error => error.type !== 'NOT_FOUND')) this.stats.detailPartial++;
+      this.detailFetchedAt ??= new Date().toISOString();
+      for (let i = 0; i < pending.length; i++) {
+        const node = detail.data?.[`r${i}`];
+        const value = this.meta.get(pending[i].toLowerCase());
+        if (!node || !value || value.metadataUnavailable) continue;
+        applyOptionalDetails(value, node, erroredFieldNames(detail.errors, i));
+        value.detailFetched = true;
         if (value.repo) this.meta.set(value.repo.toLowerCase(), value);
       }
     }
@@ -460,6 +549,7 @@ export class GitHub {
 
 export async function readMarketplace(client, { id, repo, path }) {
   const meta = await client.repository(repo);
+  if (meta.metadataUnavailable) return { id, metadataUnavailable: true, unavailableRepo: repo, candidates: [], inspected: 0, rejections: [] };
   if (meta.notFound || meta.private || !meta.sha) throw new Error(`Public upstream unavailable: ${repo}`);
   const raw = await client.file(repo, meta.sha, path);
   if (raw === null) throw new Error(`Upstream marketplace missing: ${repo}/${path}`);

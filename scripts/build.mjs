@@ -7,7 +7,7 @@ import openai from './readers/openai.mjs';
 import zcode from './readers/zcode.mjs';
 import solvinglab from './readers/solvinglab.mjs';
 import community from './readers/community.mjs';
-import { GitHub, ROOT, NAME_PATTERN, sourceParts, sourceKey, writeJson, mapLimit, applyGithubDetails, httpsUrl } from './lib/github.mjs';
+import { GitHub, ROOT, NAME_PATTERN, sourceParts, sourceKey, writeJson, readJson, mapLimit, applyGithubDetails, httpsUrl } from './lib/github.mjs';
 import { CATEGORIES, loadCategories, assertMapped, categoryOf, classifyCategory } from './lib/categories.mjs';
 import { attachLogos } from './lib/logo.mjs';
 import { loadDecayState, evaluateDecay, STATE_FILE } from './scan-decay.mjs';
@@ -111,11 +111,64 @@ function explicitHomepage(record) {
 
 export function attachCatalogGithub(records, client) {
   for (const record of records) {
-    applyGithubDetails(record.plugin, record.source, client?.meta?.get(record.source.repo.toLowerCase()), {
-      fetchedAt: client?.detailFetchedAt,
+    const meta = client?.meta?.get(record.source.repo.toLowerCase());
+    applyGithubDetails(record.plugin, record.source, meta, {
+      fetchedAt: meta?.detailFetched ? client?.detailFetchedAt : undefined,
       homepage: explicitHomepage(record),
     });
   }
+}
+
+export function entriesRetainedAfterMetadataFailure(previousPlugins, unavailableRepos) {
+  const unavailable = new Set([...unavailableRepos].map(repo => String(repo).toLowerCase()));
+  const kept = [];
+  const keptRepos = new Set();
+  for (const plugin of previousPlugins ?? []) {
+    const repo = plugin?.source?.repo?.toLowerCase();
+    if (!repo || !unavailable.has(repo)) continue;
+    kept.push(plugin);
+    keptRepos.add(repo);
+  }
+  return { kept, skipped: [...unavailable].filter(repo => !keptRepos.has(repo)) };
+}
+
+function unavailableRepos(client) {
+  const repos = new Set();
+  for (const meta of client?.meta?.values() ?? []) {
+    if (meta?.metadataUnavailable && meta.repo) repos.add(meta.repo.toLowerCase());
+  }
+  return repos;
+}
+
+async function retainPreviousEntries(markets, client, catalogReuse) {
+  const unavailable = unavailableRepos(client);
+  const reused = new Set();
+  for (const id of SOURCE_ORDER) {
+    const previous = await readJson(resolve(ROOT, `dist/marketplaces/${id}.json`), { plugins: [] });
+    if (catalogReuse.has(id)) {
+      markets[id].plugins = previous.plugins.map(plugin => structuredClone(plugin));
+      const repo = String(catalogReuse.get(id)).toLowerCase();
+      if (markets[id].plugins.length) {
+        reused.add(repo);
+        for (const plugin of markets[id].plugins) if (plugin.source?.repo) reused.add(plugin.source.repo.toLowerCase());
+        console.warn(`metadata_unavailable: ${catalogReuse.get(id)} (reused ${markets[id].plugins.length} previous dist entries)`);
+      } else console.warn(`metadata_unavailable: ${catalogReuse.get(id)} (skipped; not in previous dist)`);
+      continue;
+    }
+    const names = new Set(markets[id].plugins.map(plugin => plugin.name));
+    const { kept } = entriesRetainedAfterMetadataFailure(previous.plugins, unavailable);
+    for (const plugin of kept) {
+      if (names.has(plugin.name)) continue;
+      markets[id].plugins.push(structuredClone(plugin));
+      names.add(plugin.name);
+      reused.add(plugin.source.repo.toLowerCase());
+      console.warn(`metadata_unavailable: ${plugin.source.repo} (reused previous dist entry ${plugin.name})`);
+    }
+  }
+  for (const repo of unavailable) {
+    if (!reused.has(repo)) console.warn(`metadata_unavailable: ${repo} (skipped; not in previous dist)`);
+  }
+  return reused;
 }
 
 export function mergeMarkets(markets) {
@@ -183,7 +236,8 @@ export async function build({ client = new GitHub(), now = new Date() } = {}) {
   const rawCandidates = results.flatMap(r => r.candidates);
   // Check every upstream category, including entries later excluded for a manifest.
   assertMapped(rawCandidates.map(r => r.entry.category), mapping);
-  const rejected = results.flatMap(r => r.rejections ?? []);
+  const catalogReuse = new Map(results.filter(r => r.metadataUnavailable).map(r => [r.id, r.unavailableRepo]));
+  let rejected = results.flatMap(r => r.rejections ?? []);
   const parsed = [];
   for (const candidate of rawCandidates) {
     try {
@@ -196,6 +250,10 @@ export async function build({ client = new GitHub(), now = new Date() } = {}) {
   const pinned = [];
   await mapLimit(parsed, 4, async record => {
     const meta = await client.repository(record.parts.repo);
+    if (meta.metadataUnavailable) {
+      rejected.push({ id: record.id, name: record.entry.name, repo: record.parts.repo, reason: 'metadata_unavailable' });
+      return;
+    }
     const reason = meta.notFound ? 'not_found' : meta.private ? 'private_repository' : meta.archived ? 'archived' : !meta.sha ? 'empty_repository' : null;
     if (reason) { rejected.push({ id: record.id, name: record.entry.name, repo: record.parts.repo, reason }); return; }
     // Authentication/network failures abort rather than being counted as delistings.
@@ -244,6 +302,8 @@ export async function build({ client = new GitHub(), now = new Date() } = {}) {
   console.log(`Checking logos for ${selected.length} entries`);
   const logos = await attachLogos(selected, client);
   const markets = Object.fromEntries(SOURCE_ORDER.map(id => [id, { name: marketplaceName(id), description: `OmniMind 公开插件目录：${id}`, plugins: selected.filter(r => r.id === id).map(r => r.plugin) }]));
+  const reused = await retainPreviousEntries(markets, client, catalogReuse);
+  rejected = rejected.filter(item => !(item.reason === 'metadata_unavailable' && item.repo && reused.has(item.repo.toLowerCase())));
   const warnings = applyFeatured(markets, featured);
   const merged = mergeMarkets(markets);
   for (const market of [...Object.values(markets), merged.market]) validateMarketplace(market);

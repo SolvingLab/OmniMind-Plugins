@@ -51,7 +51,7 @@ npm.cmd run validate
 
 每个条目在钉死的 sha 下读取 plugin.json，按 V2 顺序识别 `.omnimind-plugin`、`.claude-plugin`、`.codex-plugin`。仅有 `.zcode-plugin` 的条目被排除。条目 name 使用 manifest 的真实 name，目录原名称不同则记录在 `nameCorrections` 与 `x-omnimind.upstreamName`，不会擅自给插件改名。同一来源内重名按 repo/path/sha 的稳定顺序保留第一条并记录拒绝原因；跨来源重名按照上述来源优先级合并。
 
-GitHub repository 元数据使用每批 50 个仓库的 GraphQL 查询，全部来源先按仓库去重，每个仓库只查一次。同一查询附带 `forkCount`、`hasDiscussionsEnabled`、`homepageUrl`、`contributingGuidelines` 和 README 是否存在。manifest 每批 25 条查询。固定 sha 的公开文件与 tree 缓存在 `.cache/github/`；仓库状态和 HEAD 每次运行重新查询。明确的 404 会先通过 REST 确认以兼容仓库更名；403、429、网络失败与截断的 tree 会报错，不会伪装成仓库消失。详情字段查询失败时回退到不含这些附加字段的查询：目录照常生成，对应字段缺省，不写 `0`。
+GitHub repository 元数据使用每批 50 个仓库的 GraphQL 查询，全部来源先按仓库去重，每个仓库的准入字段只查一次。准入查询只含 stars、pushedAt、createdAt、license、archived、fork 以及钉扎所需的身份字段。可选详情（`forkCount`、`hasDiscussionsEnabled`、`homepageUrl`、`contributingGuidelines`、README）是另一次查询。manifest 每批 25 条查询。固定 sha 的公开文件与 tree 缓存在 `.cache/github/`；仓库状态和 HEAD 每次运行重新查询。明确的 404 会先通过 REST 确认以兼容仓库更名；403、429、网络失败与截断的 tree 会报错，不会伪装成仓库消失。详情查询失败或没有 token 时只省略 forks、discussions、contributing、`github.fetchedAt` 并警告，构建继续，不写 `0`。准入查询出错不会被当成 `missing_license` 静默排除：该仓库标记为 `metadata_unavailable`，上一版 dist 已有条目则沿用，否则本次跳过并在构建日志列出。
 
 ### 详情页可选字段
 

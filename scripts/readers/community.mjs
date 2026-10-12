@@ -36,6 +36,7 @@ export async function submissionFiles() {
 }
 
 export function admissionProblems(meta, { now = new Date(), existing = false } = {}) {
+  if (!meta || meta.metadataUnavailable) return ['metadata_unavailable'];
   if (meta.notFound) return ['not_found'];
   if (meta.private) return ['private_repository'];
   const problems = [];

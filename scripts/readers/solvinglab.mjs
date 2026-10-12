@@ -16,6 +16,7 @@ export default async function solvinglab(client) {
   await client.metadataBatch(repos);
   const inventory = await mapLimit(repos, 4, async repo => {
     const meta = await client.repository(repo);
+    if (meta.metadataUnavailable) return { repo, roots: [], reason: 'metadata_unavailable' };
     if (meta.private || meta.notFound || !meta.sha) return { repo, roots: [], reason: 'unavailable_repository' };
     const roots = manifestRoots(await client.tree(repo, meta.sha));
     return { repo: meta.repo, sha: meta.sha, roots, ...(roots.length ? {} : { reason: 'unsupported_manifest' }) };

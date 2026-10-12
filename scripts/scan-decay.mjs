@@ -15,6 +15,12 @@ export async function loadDecayState(file = STATE_FILE) {
 }
 
 export function decayDecision(meta, current, name, previous, now = new Date(), sourceId = 'community') {
+  if (!meta || meta.metadataUnavailable) {
+    if (previous?.status) return { status: previous.status, reasons: previous.reasons ?? ['metadata_unavailable'],
+      ...(previous.hiddenSince ? { hiddenSince: previous.hiddenSince } : {}),
+      ...(previous.removedSince ? { removedSince: previous.removedSince } : {}) };
+    return { status: 'healthy', reasons: [] };
+  }
   let immediate;
   if (meta.notFound) immediate = 'not_found';
   else if (meta.private) immediate = 'private_repository';
@@ -43,6 +49,7 @@ export async function evaluateDecay(subjects, client, { state, now = new Date() 
   await client.metadataBatch(unique.map(s => s.entry.source.repo));
   const heads = unique.flatMap(s => {
     const meta = client.meta.get(s.entry.source.repo.toLowerCase());
+    if (!meta || meta.metadataUnavailable) return [];
     return !meta.notFound && !meta.private && !meta.archived && meta.sha ? [{ ...s.entry.source, repo: meta.repo, sha: meta.sha }] : [];
   });
   const manifests = await client.manifests(heads);
@@ -57,7 +64,7 @@ export async function evaluateDecay(subjects, client, { state, now = new Date() 
   const decisions = new Map();
   for (const [key, group] of byKey) {
     const source = group[0].entry.source;
-    const meta = client.meta.get(source.repo.toLowerCase());
+    const meta = client.meta.get(source.repo.toLowerCase()) ?? { repo: source.repo, metadataUnavailable: true };
     const current = meta.sha ? manifests.get(sourceKey({ ...source, repo: meta.repo, sha: meta.sha })) : undefined;
     const results = group.map(subject => ({ subject, ...decayDecision(meta, current, subject.entry.name, state.entries[key], now, subject.id) }));
     // A repository/path can have multiple pinned versions; mismatch affects

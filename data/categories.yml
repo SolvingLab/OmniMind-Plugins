@@ -18,6 +18,7 @@ mapping:
   migration: coding
   deployment: coding
   automation: enhancement
+  utilities: enhancement
   learning: science
   testing: coding
   math: science

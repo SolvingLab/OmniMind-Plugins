@@ -29,9 +29,9 @@
       "license": "AGPL-3.0",
       "updatedAt": "2026-10-12T00:25:07.000Z",
       "github": {
-        "stars": 1142,
+        "stars": 1143,
         "forks": 85,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -66,9 +66,9 @@
       "license": "AGPL-3.0",
       "updatedAt": "2026-10-12T00:25:07.000Z",
       "github": {
-        "stars": 1142,
+        "stars": 1143,
         "forks": 85,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -111,7 +111,7 @@
       "github": {
         "stars": 738,
         "forks": 54,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -148,7 +148,7 @@
       "github": {
         "stars": 612,
         "forks": 228,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -192,7 +192,7 @@
       "github": {
         "stars": 767,
         "forks": 81,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -234,9 +234,9 @@
       "license": "AGPL-3.0",
       "updatedAt": "2026-09-06T19:55:50.000Z",
       "github": {
-        "stars": 1418,
+        "stars": 1419,
         "forks": 50,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -270,9 +270,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-09T09:19:20.000Z",
       "github": {
-        "stars": 10999,
+        "stars": 11001,
         "forks": 611,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -329,8 +329,8 @@
       "updatedAt": "2026-10-07T21:44:49.000Z",
       "github": {
         "stars": 546,
-        "forks": 130,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "forks": 131,
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -364,7 +364,7 @@
       "github": {
         "stars": 1841,
         "forks": 112,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -410,7 +410,7 @@
       "github": {
         "stars": 1514,
         "forks": 69,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -450,11 +450,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-12T01:40:54.000Z",
+      "updatedAt": "2026-10-12T04:49:09.000Z",
       "github": {
         "stars": 993,
         "forks": 204,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -504,9 +504,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-11T01:56:32.000Z",
       "github": {
-        "stars": 871,
+        "stars": 872,
         "forks": 90,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -551,7 +551,7 @@
       "github": {
         "stars": 565,
         "forks": 45,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -565,7 +565,7 @@
         "source": "github",
         "repo": "kenryu42/cc-safety-net",
         "path": "",
-        "sha": "eb97ff926e51aceee1b812413b3127290a5df93b"
+        "sha": "5726e7ad9615116fc5d8b0b3fbcb39e4de3034d2"
       },
       "category": "enhancement",
       "strict": true,
@@ -596,11 +596,11 @@
         "contributing": "https://github.com/kenryu42/cc-safety-net/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-12T02:37:14.000Z",
+      "updatedAt": "2026-10-12T03:55:26.000Z",
       "github": {
-        "stars": 1592,
+        "stars": 1594,
         "forks": 84,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -632,9 +632,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-06T20:28:27.000Z",
       "github": {
-        "stars": 648,
-        "forks": 46,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "stars": 649,
+        "forks": 47,
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -679,7 +679,7 @@
       "github": {
         "stars": 924,
         "forks": 82,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -754,7 +754,7 @@
       "github": {
         "stars": 2361,
         "forks": 402,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -798,7 +798,7 @@
       "github": {
         "stars": 2361,
         "forks": 402,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -841,7 +841,7 @@
       "github": {
         "stars": 792,
         "forks": 39,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -899,7 +899,7 @@
       "github": {
         "stars": 866,
         "forks": 106,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -913,7 +913,7 @@
         "source": "github",
         "repo": "thedotmack/claude-mem",
         "path": "",
-        "sha": "93ca2a866bad1533618a8e92454ec89c0108c17b"
+        "sha": "b72206c98fe4ce72d8b695c4caaf43dc75a80172"
       },
       "category": "enhancement",
       "strict": true,
@@ -944,11 +944,11 @@
         "discussions": "https://github.com/thedotmack/claude-mem/discussions"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T01:34:57.000Z",
+      "updatedAt": "2026-10-12T04:52:58.000Z",
       "github": {
-        "stars": 99773,
-        "forks": 8749,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "stars": 99799,
+        "forks": 8748,
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -963,7 +963,7 @@
         "source": "github",
         "repo": "thedotmack/claude-mem",
         "path": "cowork",
-        "sha": "93ca2a866bad1533618a8e92454ec89c0108c17b"
+        "sha": "b72206c98fe4ce72d8b695c4caaf43dc75a80172"
       },
       "category": "enhancement",
       "strict": true,
@@ -988,11 +988,11 @@
         "discussions": "https://github.com/thedotmack/claude-mem/discussions"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T01:34:57.000Z",
+      "updatedAt": "2026-10-12T04:52:58.000Z",
       "github": {
-        "stars": 99773,
-        "forks": 8749,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "stars": 99799,
+        "forks": 8748,
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1046,7 +1046,7 @@
       "github": {
         "stars": 15468,
         "forks": 1538,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1098,7 +1098,7 @@
       "github": {
         "stars": 782,
         "forks": 88,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1145,7 +1145,7 @@
       "github": {
         "stars": 1357,
         "forks": 159,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1188,11 +1188,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-12T01:40:54.000Z",
+      "updatedAt": "2026-10-12T04:49:09.000Z",
       "github": {
         "stars": 993,
         "forks": 204,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1247,7 +1247,7 @@
       "github": {
         "stars": 2387,
         "forks": 241,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1295,7 +1295,7 @@
       "github": {
         "stars": 788,
         "forks": 119,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1349,7 +1349,7 @@
       "github": {
         "stars": 932,
         "forks": 80,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1392,7 +1392,7 @@
       "github": {
         "stars": 811,
         "forks": 137,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1434,9 +1434,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2032,
+        "stars": 2033,
         "forks": 316,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1478,9 +1478,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2032,
+        "stars": 2033,
         "forks": 316,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1523,9 +1523,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2032,
+        "stars": 2033,
         "forks": 316,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1568,9 +1568,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2032,
+        "stars": 2033,
         "forks": 316,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1630,9 +1630,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-08T17:11:10.000Z",
       "github": {
-        "stars": 4218,
-        "forks": 354,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "stars": 4219,
+        "forks": 355,
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1680,7 +1680,7 @@
       "github": {
         "stars": 543,
         "forks": 64,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1726,7 +1726,7 @@
       "github": {
         "stars": 694,
         "forks": 105,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1773,7 +1773,7 @@
       "github": {
         "stars": 694,
         "forks": 105,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1821,7 +1821,7 @@
       "github": {
         "stars": 694,
         "forks": 105,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1872,7 +1872,7 @@
       "github": {
         "stars": 694,
         "forks": 105,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1973,7 +1973,7 @@
       "github": {
         "stars": 866,
         "forks": 138,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2015,7 +2015,7 @@
       "github": {
         "stars": 565,
         "forks": 45,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2049,7 +2049,7 @@
       "github": {
         "stars": 565,
         "forks": 45,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2092,7 +2092,7 @@
       "github": {
         "stars": 1446,
         "forks": 105,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2132,9 +2132,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2032,
+        "stars": 2033,
         "forks": 316,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2175,9 +2175,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2032,
+        "stars": 2033,
         "forks": 316,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2222,7 +2222,7 @@
       "github": {
         "stars": 709,
         "forks": 59,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2265,7 +2265,7 @@
       "github": {
         "stars": 1392,
         "forks": 94,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2310,7 +2310,7 @@
       "github": {
         "stars": 566,
         "forks": 44,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2369,7 +2369,7 @@
       "github": {
         "stars": 9159,
         "forks": 1309,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2406,7 +2406,7 @@
       "github": {
         "stars": 776,
         "forks": 45,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2449,7 +2449,7 @@
       "github": {
         "stars": 1621,
         "forks": 113,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2495,9 +2495,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-10T22:36:54.000Z",
       "github": {
-        "stars": 3831,
+        "stars": 3832,
         "forks": 377,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2532,9 +2532,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-11T16:03:54.000Z",
       "github": {
-        "stars": 56504,
-        "forks": 3237,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "stars": 56520,
+        "forks": 3238,
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2578,9 +2578,9 @@
       },
       "updatedAt": "2026-08-19T15:00:54.000Z",
       "github": {
-        "stars": 6720,
+        "stars": 6723,
         "forks": 114,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2625,9 +2625,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2032,
+        "stars": 2033,
         "forks": 316,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2669,9 +2669,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2032,
+        "stars": 2033,
         "forks": 316,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2713,7 +2713,7 @@
       "github": {
         "stars": 565,
         "forks": 45,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2755,9 +2755,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2032,
+        "stars": 2033,
         "forks": 316,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2803,7 +2803,7 @@
       "github": {
         "stars": 2387,
         "forks": 241,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2838,9 +2838,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-08T21:51:51.000Z",
       "github": {
-        "stars": 54227,
-        "forks": 8054,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "stars": 54253,
+        "forks": 8058,
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2886,11 +2886,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-12T01:40:54.000Z",
+      "updatedAt": "2026-10-12T04:49:09.000Z",
       "github": {
         "stars": 993,
         "forks": 204,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2921,9 +2921,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-09T11:51:36.000Z",
       "github": {
-        "stars": 2736,
+        "stars": 2737,
         "forks": 266,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2977,7 +2977,7 @@
       "github": {
         "stars": 2387,
         "forks": 241,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3021,11 +3021,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-12T01:40:54.000Z",
+      "updatedAt": "2026-10-12T04:49:09.000Z",
       "github": {
         "stars": 993,
         "forks": 204,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3070,11 +3070,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-12T01:40:54.000Z",
+      "updatedAt": "2026-10-12T04:49:09.000Z",
       "github": {
         "stars": 993,
         "forks": 204,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3108,7 +3108,7 @@
       "github": {
         "stars": 556,
         "forks": 36,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3141,9 +3141,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-30T13:31:42.000Z",
       "github": {
-        "stars": 3171,
-        "forks": 468,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "stars": 3182,
+        "forks": 470,
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3181,7 +3181,7 @@
       "github": {
         "stars": 3923,
         "forks": 495,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3218,7 +3218,7 @@
       "github": {
         "stars": 4733,
         "forks": 583,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3270,7 +3270,7 @@
       "github": {
         "stars": 4209,
         "forks": 396,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3315,7 +3315,7 @@
       "github": {
         "stars": 1282,
         "forks": 114,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3356,9 +3356,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2032,
+        "stars": 2033,
         "forks": 316,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3443,7 +3443,7 @@
       "github": {
         "stars": 543,
         "forks": 64,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3485,9 +3485,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2032,
+        "stars": 2033,
         "forks": 316,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3532,7 +3532,7 @@
       "github": {
         "stars": 565,
         "forks": 45,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3574,9 +3574,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2032,
+        "stars": 2033,
         "forks": 316,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3614,9 +3614,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-10T04:19:53.000Z",
       "github": {
-        "stars": 161181,
+        "stars": 161238,
         "forks": 8697,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3663,11 +3663,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-12T01:40:54.000Z",
+      "updatedAt": "2026-10-12T04:49:09.000Z",
       "github": {
         "stars": 993,
         "forks": 204,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3708,11 +3708,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-12T01:40:54.000Z",
+      "updatedAt": "2026-10-12T04:49:09.000Z",
       "github": {
         "stars": 993,
         "forks": 204,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3775,11 +3775,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-12T01:40:54.000Z",
+      "updatedAt": "2026-10-12T04:49:09.000Z",
       "github": {
         "stars": 993,
         "forks": 204,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3819,11 +3819,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-12T01:40:54.000Z",
+      "updatedAt": "2026-10-12T04:49:09.000Z",
       "github": {
         "stars": 993,
         "forks": 204,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3865,9 +3865,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2032,
+        "stars": 2033,
         "forks": 316,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3911,7 +3911,7 @@
       "github": {
         "stars": 2387,
         "forks": 241,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3960,7 +3960,7 @@
       "github": {
         "stars": 2387,
         "forks": 241,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4014,9 +4014,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-11T20:18:31.000Z",
       "github": {
-        "stars": 1825,
-        "forks": 197,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "stars": 1829,
+        "forks": 196,
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4062,7 +4062,7 @@
       "github": {
         "stars": 559,
         "forks": 50,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4111,7 +4111,7 @@
       "github": {
         "stars": 559,
         "forks": 50,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4155,7 +4155,7 @@
       "github": {
         "stars": 756,
         "forks": 44,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4197,9 +4197,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2032,
+        "stars": 2033,
         "forks": 316,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4245,7 +4245,7 @@
       "github": {
         "stars": 2387,
         "forks": 241,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4288,9 +4288,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2032,
+        "stars": 2033,
         "forks": 316,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4335,7 +4335,7 @@
       "github": {
         "stars": 564,
         "forks": 71,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4378,9 +4378,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-07T14:23:20.000Z",
       "github": {
-        "stars": 2549,
+        "stars": 2554,
         "forks": 55,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4429,7 +4429,7 @@
       "github": {
         "stars": 2387,
         "forks": 241,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4479,7 +4479,7 @@
       "github": {
         "stars": 2387,
         "forks": 241,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4518,7 +4518,7 @@
       "github": {
         "stars": 564,
         "forks": 71,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4566,7 +4566,7 @@
       "github": {
         "stars": 2387,
         "forks": 241,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4608,9 +4608,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2032,
+        "stars": 2033,
         "forks": 316,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4648,8 +4648,8 @@
       "updatedAt": "2026-10-07T07:57:10.000Z",
       "github": {
         "stars": 3811,
-        "forks": 181,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "forks": 182,
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4700,7 +4700,7 @@
       "github": {
         "stars": 538,
         "forks": 101,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4738,9 +4738,9 @@
       },
       "updatedAt": "2026-10-11T21:03:48.000Z",
       "github": {
-        "stars": 2538,
+        "stars": 2539,
         "forks": 197,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4781,9 +4781,9 @@
       },
       "updatedAt": "2026-10-11T21:03:48.000Z",
       "github": {
-        "stars": 2538,
+        "stars": 2539,
         "forks": 197,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4824,9 +4824,9 @@
       },
       "updatedAt": "2026-10-11T21:03:48.000Z",
       "github": {
-        "stars": 2538,
+        "stars": 2539,
         "forks": 197,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4858,7 +4858,7 @@
       "github": {
         "stars": 729,
         "forks": 89,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4906,7 +4906,7 @@
       "github": {
         "stars": 4209,
         "forks": 396,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4920,7 +4920,7 @@
         "source": "github",
         "repo": "unbrowse-ai/unbrowse",
         "path": "plugins/claude-code",
-        "sha": "216535124f7e047fb0f84e2cdf8aabf2119d3067"
+        "sha": "7d1ab4f34679a3b7462f4a7bb9dbc491d0884bd8"
       },
       "category": "enhancement",
       "strict": true,
@@ -4948,11 +4948,11 @@
         "contributing": "https://github.com/unbrowse-ai/unbrowse/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-12T02:39:59.000Z",
+      "updatedAt": "2026-10-12T04:35:54.000Z",
       "github": {
         "stars": 784,
         "forks": 69,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5006,7 +5006,7 @@
       "github": {
         "stars": 2387,
         "forks": 241,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5042,7 +5042,7 @@
       "github": {
         "stars": 564,
         "forks": 105,
-        "fetchedAt": "2026-10-12T02:53:07.141Z"
+        "fetchedAt": "2026-10-12T04:52:37.140Z"
       },
       "x-omnimind": {
         "sourceId": "community",
