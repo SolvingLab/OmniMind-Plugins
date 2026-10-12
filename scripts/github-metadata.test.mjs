@@ -534,3 +534,36 @@ test('partial detail errors warn once per repository without tokens or query URL
     globalThis.fetch = original;
   }
 });
+
+test('catalog fallback uses this build decay state, so a path removed this round is not republished', async () => {
+  const { retainPreviousEntries } = await import('./build.mjs');
+  const { evaluateDecay } = await import('./scan-decay.mjs');
+  const now = new Date('2026-10-12T00:00:00Z');
+  const demo = catalogPlugin('demo', 'acme/shared');
+  const meta = new Map([['acme/shared', { repo: 'acme/shared', private: false, archived: false, sha: SHA, stars: 900, pushedAt: '2026-10-01T00:00:00Z' }]]);
+  const client = {
+    meta,
+    metadataBatch: async () => {},
+    // 本轮重新读取 manifest 失败：同一仓库路径判为 removed。
+    manifests: async () => ({ get: () => ({ error: 'unsupported_manifest' }) }),
+  };
+  const previousState = { version: 1, entries: {} };
+  const decay = await evaluateDecay([{ id: 'community', entry: structuredClone(demo) }], client, { state: previousState, now });
+  assert.equal(decay.state.entries[decayKey(demo.source)]?.status, 'removed');
+  const options = state => ({
+    state, now, mapping: undefined,
+    readPrevious: async id => (id === 'anthropic' ? { plugins: [demo] } : { plugins: [] }),
+  });
+  const reuse = new Map([['anthropic', 'anthropics/claude-plugins-official']]);
+  const stale = await retainPreviousEntries(client, reuse, { ...options(previousState), mapping: await loadCategories() });
+  assert.deepEqual(stale.records.map(r => r.plugin.name), ['demo'], '旧 state 看不到本轮 removed，这正是原缺陷');
+  const fresh = await retainPreviousEntries(client, reuse, { ...options(decay.state), mapping: await loadCategories() });
+  assert.deepEqual(fresh.records.map(r => r.plugin.name), []);
+  assert.equal(fresh.dropped.length, 1);
+});
+
+test('build passes this round decay state into catalog fallback', async () => {
+  const { readFile } = await import('node:fs/promises');
+  const text = await readFile(new URL('./build.mjs', import.meta.url), 'utf8');
+  assert.match(text, /retainPreviousEntries\(client, catalogReuse, \{ state: decay\.state,/);
+});

@@ -400,7 +400,7 @@ export async function build({ client = new GitHub(), now = new Date() } = {}) {
   }
   console.log(`Checking logos for ${selected.length} entries`);
   const logos = await attachLogos(selected, client);
-  const fallback = await retainPreviousEntries(client, catalogReuse, { state, now, mapping });
+  const fallback = await retainPreviousEntries(client, catalogReuse, { state: decay.state, now, mapping });
   for (const record of fallback.records) recordAcceptedEntry(selected, seen, record);
   rejected.push(...fallback.dropped);
   const markets = Object.fromEntries(SOURCE_ORDER.map(id => [id, { name: marketplaceName(id), description: `OmniMind 公开插件目录：${id}`, plugins: selected.filter(r => r.id === id).map(r => r.plugin) }]));
