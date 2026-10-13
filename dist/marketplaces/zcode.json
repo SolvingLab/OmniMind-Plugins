@@ -8,7 +8,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/accounting-and-reporting",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "data",
       "strict": true,
@@ -43,11 +43,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -61,7 +61,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/alibaba-cloud-cli",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "coding",
       "strict": true,
@@ -98,11 +98,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -116,7 +116,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/assess-credit",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "data",
       "strict": true,
@@ -151,11 +151,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -169,7 +169,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/blender",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "office",
       "strict": true,
@@ -196,11 +196,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -214,7 +214,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/cloudbase-skills",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "coding",
       "strict": true,
@@ -243,11 +243,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -261,7 +261,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/dingtalk-cli",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "office",
       "strict": true,
@@ -298,11 +298,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -316,7 +316,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/disk-cleaner",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "enhancement",
       "strict": true,
@@ -343,11 +343,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -361,7 +361,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/excalidraw",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "office",
       "strict": true,
@@ -388,11 +388,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -406,7 +406,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/finance-search",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "data",
       "strict": true,
@@ -439,11 +439,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -457,7 +457,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/find-clients",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "data",
       "strict": true,
@@ -492,11 +492,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -510,7 +510,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/github",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "coding",
       "strict": true,
@@ -543,11 +543,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -561,7 +561,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/gitlab",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "coding",
       "strict": true,
@@ -592,11 +592,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -610,7 +610,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/hexin",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "data",
       "strict": true,
@@ -643,11 +643,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -661,7 +661,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/hyper3d-rodin",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "coding",
       "strict": true,
@@ -698,11 +698,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -716,7 +716,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/lark-cli",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "office",
       "strict": true,
@@ -754,11 +754,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -772,7 +772,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/mimosa",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "coding",
       "strict": true,
@@ -806,11 +806,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -824,7 +824,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/model-deals",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "data",
       "strict": true,
@@ -859,11 +859,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -877,7 +877,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/obsidian",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "office",
       "strict": true,
@@ -917,11 +917,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -935,12 +935,12 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/openpencil",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "office",
       "strict": true,
       "description": "在对话侧栏用 OpenPencil 编辑工作区里的 Figma .fig 设计稿，Agent 通过设计工具协同修改、引用选区并生成代码。",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "displayName": "OpenPencil",
       "homepage": "https://github.com/zai-org/zcode-plugins",
       "author": {
@@ -962,11 +962,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -980,7 +980,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/pick-funds",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "data",
       "strict": true,
@@ -1015,11 +1015,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1033,7 +1033,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/read-macro",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "data",
       "strict": true,
@@ -1068,11 +1068,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1086,7 +1086,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/run-fpa",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "data",
       "strict": true,
@@ -1121,11 +1121,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1139,7 +1139,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/showcase",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "coding",
       "strict": true,
@@ -1166,11 +1166,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1184,7 +1184,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/tencent-meeting-cli",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "office",
       "strict": true,
@@ -1219,11 +1219,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1237,7 +1237,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/tianyancha",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "data",
       "strict": true,
@@ -1270,11 +1270,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1283,12 +1283,75 @@
       "icon": "https://cdn-zcode.z.ai/zcode/official-plugin/assets/tianyancha/icon.png"
     },
     {
+      "name": "tripo-3d",
+      "source": {
+        "source": "github",
+        "repo": "zai-org/zcode-plugins",
+        "path": "plugins/tripo-3d",
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
+      },
+      "category": "office",
+      "strict": true,
+      "description": "Generate textured, rig-ready 3D models from a text prompt or a reference image with Tripo, and export GLB/FBX/OBJ/STL/USDZ/3MF straight into your project. Connect your China-mainland Tripo account once in the browser (OAuth), no API key pasting.",
+      "version": "0.1.3",
+      "displayName": "Tripo 3D",
+      "homepage": "https://www.tripo3d.ai",
+      "author": {
+        "name": "VAST",
+        "url": "https://www.tripo3d.ai"
+      },
+      "displayName_i18n": {
+        "en": "Tripo 3D",
+        "zh-CN": "Tripo 3D"
+      },
+      "description_i18n": {
+        "en": "Generate textured, rig-ready 3D models from a text prompt or a reference image with Tripo, and export GLB/FBX/OBJ/STL/USDZ/3MF straight into your project. Connect your China-mainland Tripo account once in the browser (OAuth), no API key pasting.",
+        "zh-CN": "用 Tripo 从一句话或一张图生成带贴图、可绑骨的 3D 模型，支持动画、减面与 GLB/FBX/OBJ/STL/USDZ/3MF 导出，文件直接落到项目里。浏览器里授权一次国内站 Tripo 账号即可使用，无需粘贴 API Key。"
+      },
+      "tags": [
+        "3d",
+        "asset-generation",
+        "game-development",
+        "glb",
+        "fbx",
+        "text-to-3d",
+        "image-to-3d",
+        "3d-printing",
+        "rigging",
+        "mcp"
+      ],
+      "examplePrompts": [
+        "Generate a low-poly treasure chest and export it as FBX for Unity",
+        "Turn this concept image into a textured 3D model and export it as GLB",
+        "Make a 3D-printable knight figurine and export STL"
+      ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://www.tripo3d.ai/",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
+      "github": {
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
+      },
+      "x-omnimind": {
+        "sourceId": "zcode",
+        "manifestPath": "plugins/tripo-3d/.claude-plugin/plugin.json"
+      },
+      "icon": "https://cdn-zcode.z.ai/zcode/official-plugin/assets/tripo-3d/icon.png"
+    },
+    {
       "name": "vet-companies",
       "source": {
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/vet-companies",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "data",
       "strict": true,
@@ -1323,11 +1386,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1341,7 +1404,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/video-agent-kit",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "office",
       "strict": true,
@@ -1371,11 +1434,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1389,7 +1452,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/video2code",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "office",
       "strict": true,
@@ -1418,11 +1481,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1436,7 +1499,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/watch-positions",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "data",
       "strict": true,
@@ -1471,11 +1534,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1489,7 +1552,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/wecom-cli",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "office",
       "strict": true,
@@ -1527,11 +1590,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1545,7 +1608,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/wind",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "data",
       "strict": true,
@@ -1578,11 +1641,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1596,7 +1659,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/write-research",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "data",
       "strict": true,
@@ -1631,11 +1694,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1649,7 +1712,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/zcode-mcp-app-dev",
-        "sha": "d1639cff514dcba29cfbfbc634d4609492640660"
+        "sha": "f09f7d181bbd42b3ea6181248f4cb5cdaee0e007"
       },
       "category": "coding",
       "strict": true,
@@ -1671,11 +1734,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T03:55:35.000Z",
+      "updatedAt": "2026-10-13T09:31:44.000Z",
       "github": {
-        "stars": 98,
-        "forks": 63,
-        "fetchedAt": "2026-10-12T09:32:15.512Z"
+        "stars": 102,
+        "forks": 65,
+        "fetchedAt": "2026-10-13T10:40:49.957Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
