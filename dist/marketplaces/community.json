@@ -8,7 +8,7 @@
         "source": "github",
         "repo": "agentrq/agentrq",
         "path": "plugins/claude/agentrq",
-        "sha": "3d9a5fd8396000d8acab0f35a2562e79b8cb0256"
+        "sha": "03a04eb1bc6c9473cde94ed42fef705d4d982011"
       },
       "category": "collaboration",
       "strict": true,
@@ -27,11 +27,11 @@
         "contributing": "https://github.com/agentrq/agentrq/blob/main/CONTRIBUTING.md"
       },
       "license": "AGPL-3.0",
-      "updatedAt": "2026-10-14T08:14:53.000Z",
+      "updatedAt": "2026-10-15T06:30:25.000Z",
       "github": {
-        "stars": 1152,
+        "stars": 1155,
         "forks": 85,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -45,7 +45,7 @@
         "source": "github",
         "repo": "agentrq/agentrq",
         "path": "plugins/claude/agentrq-workspace",
-        "sha": "3d9a5fd8396000d8acab0f35a2562e79b8cb0256"
+        "sha": "03a04eb1bc6c9473cde94ed42fef705d4d982011"
       },
       "category": "collaboration",
       "strict": true,
@@ -64,11 +64,11 @@
         "contributing": "https://github.com/agentrq/agentrq/blob/main/CONTRIBUTING.md"
       },
       "license": "AGPL-3.0",
-      "updatedAt": "2026-10-14T08:14:53.000Z",
+      "updatedAt": "2026-10-15T06:30:25.000Z",
       "github": {
-        "stars": 1152,
+        "stars": 1155,
         "forks": 85,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -109,9 +109,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-07T12:24:37.000Z",
       "github": {
-        "stars": 740,
+        "stars": 742,
         "forks": 53,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -146,9 +146,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-12T10:27:19.000Z",
       "github": {
-        "stars": 613,
-        "forks": 229,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 614,
+        "forks": 231,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -191,8 +191,8 @@
       "updatedAt": "2026-07-21T13:38:14.000Z",
       "github": {
         "stars": 767,
-        "forks": 81,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "forks": 80,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -234,9 +234,9 @@
       "license": "AGPL-3.0",
       "updatedAt": "2026-10-12T23:49:08.000Z",
       "github": {
-        "stars": 1441,
-        "forks": 50,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 1451,
+        "forks": 51,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -250,7 +250,7 @@
         "source": "github",
         "repo": "tigerless-labs/autoharness",
         "path": "",
-        "sha": "abf3656acbae17be0a6bedc7f08219ec9e9f777f"
+        "sha": "6bb7ea55aa6522c118ad4b7f317fce521399750f"
       },
       "category": "enhancement",
       "strict": true,
@@ -268,11 +268,11 @@
         "discussions": "https://github.com/tigerless-labs/autoharness/discussions"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:33:47.000Z",
+      "updatedAt": "2026-10-14T18:30:17.000Z",
       "github": {
-        "stars": 11105,
-        "forks": 622,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 11122,
+        "forks": 625,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -326,11 +326,11 @@
         "contributing": "https://github.com/bitwize-music-studio/claude-ai-music-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "CC0-1.0",
-      "updatedAt": "2026-10-14T00:29:02.000Z",
+      "updatedAt": "2026-10-15T01:25:55.000Z",
       "github": {
-        "stars": 553,
-        "forks": 132,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 558,
+        "forks": 133,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -344,7 +344,7 @@
         "source": "github",
         "repo": "AgriciDaniel/claude-blog",
         "path": "plugins/blog-studio",
-        "sha": "c7708db2a71539d9ba41fc89fa7efe2805d2ec6f"
+        "sha": "354442348815a7f0327077ad89af2c43cf4b4ab4"
       },
       "category": "enhancement",
       "strict": true,
@@ -364,11 +364,11 @@
         "contributing": "https://github.com/AgriciDaniel/claude-blog/blob/main/.github/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:12:36.000Z",
+      "updatedAt": "2026-10-14T08:51:33.000Z",
       "github": {
-        "stars": 2383,
-        "forks": 405,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2393,
+        "forks": 409,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -400,9 +400,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-16T19:59:50.000Z",
       "github": {
-        "stars": 1845,
-        "forks": 112,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 1846,
+        "forks": 113,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -446,9 +446,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-12T10:52:38.000Z",
       "github": {
-        "stars": 1524,
+        "stars": 1527,
         "forks": 70,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -462,7 +462,7 @@
         "source": "github",
         "repo": "microsoft/power-platform-skills",
         "path": "plugins/canvas-apps",
-        "sha": "a3b930af50121478ec23acc12493e9ffe7004853"
+        "sha": "1a967074a96eac92ad8cd6fc3e2fb4c6ece824a3"
       },
       "category": "design",
       "strict": true,
@@ -488,11 +488,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:13:02.000Z",
+      "updatedAt": "2026-10-15T07:52:50.000Z",
       "github": {
-        "stars": 1001,
-        "forks": 206,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 1007,
+        "forks": 207,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -542,9 +542,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-14T06:24:22.000Z",
       "github": {
-        "stars": 887,
-        "forks": 91,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 894,
+        "forks": 92,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -558,7 +558,7 @@
         "source": "github",
         "repo": "oliver-kriska/claude-elixir-phoenix",
         "path": "plugins/catchup",
-        "sha": "0de688397af474b905b0ebedb809bba1a6bc13ff"
+        "sha": "80926d74c8bacc33ffcb54c9c1fbbdeb9fee81f5"
       },
       "category": "coding",
       "strict": true,
@@ -585,11 +585,11 @@
         "discussions": "https://github.com/oliver-kriska/claude-elixir-phoenix/discussions"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:21:01.000Z",
+      "updatedAt": "2026-10-15T01:48:51.000Z",
       "github": {
-        "stars": 565,
+        "stars": 566,
         "forks": 45,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -603,12 +603,12 @@
         "source": "github",
         "repo": "kenryu42/cc-safety-net",
         "path": "",
-        "sha": "c90dec93d49276e39e94de9c4113952d780346f9"
+        "sha": "8f62e92154f66854ad359aa963efaf6a8f9816cb"
       },
       "category": "enhancement",
       "strict": true,
       "description": "Block destructive commands and secret access",
-      "version": "2.6.11",
+      "version": "2.6.12",
       "displayName": "CC Safety Net",
       "homepage": "https://github.com/kenryu42/cc-safety-net",
       "author": {
@@ -634,11 +634,11 @@
         "contributing": "https://github.com/kenryu42/cc-safety-net/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:17:00.000Z",
+      "updatedAt": "2026-10-15T05:01:39.000Z",
       "github": {
-        "stars": 1622,
+        "stars": 1633,
         "forks": 84,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -669,9 +669,9 @@
       },
       "updatedAt": "2026-10-12T10:45:03.000Z",
       "github": {
-        "stars": 660,
+        "stars": 666,
         "forks": 49,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -714,9 +714,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-14T00:48:45.000Z",
       "github": {
-        "stars": 924,
+        "stars": 923,
         "forks": 82,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -730,7 +730,7 @@
         "source": "github",
         "repo": "AgriciDaniel/claude-blog",
         "path": "",
-        "sha": "c7708db2a71539d9ba41fc89fa7efe2805d2ec6f"
+        "sha": "354442348815a7f0327077ad89af2c43cf4b4ab4"
       },
       "category": "science",
       "strict": true,
@@ -788,11 +788,11 @@
         "contributing": "https://github.com/AgriciDaniel/claude-blog/blob/main/.github/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:12:36.000Z",
+      "updatedAt": "2026-10-14T08:51:33.000Z",
       "github": {
-        "stars": 2383,
-        "forks": 405,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2393,
+        "forks": 409,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -806,7 +806,7 @@
         "source": "github",
         "repo": "AgriciDaniel/claude-blog",
         "path": "brain",
-        "sha": "c7708db2a71539d9ba41fc89fa7efe2805d2ec6f"
+        "sha": "354442348815a7f0327077ad89af2c43cf4b4ab4"
       },
       "category": "office",
       "strict": true,
@@ -832,11 +832,11 @@
         "contributing": "https://github.com/AgriciDaniel/claude-blog/blob/main/.github/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:12:36.000Z",
+      "updatedAt": "2026-10-14T08:51:33.000Z",
       "github": {
-        "stars": 2383,
-        "forks": 405,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2393,
+        "forks": 409,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -850,7 +850,7 @@
         "source": "github",
         "repo": "taekchef/claude-code-zh-cn",
         "path": "plugin",
-        "sha": "a7f6b77bcad7e4f63a43290009a334f74d78e1e3"
+        "sha": "54551cd2423fb83488e29866064574805ac55d7c"
       },
       "category": "coding",
       "strict": true,
@@ -875,11 +875,11 @@
         "contributing": "https://github.com/taekchef/claude-code-zh-cn/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:47:37.000Z",
+      "updatedAt": "2026-10-14T09:24:03.000Z",
       "github": {
-        "stars": 801,
-        "forks": 41,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 804,
+        "forks": 42,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -893,7 +893,7 @@
         "source": "github",
         "repo": "hex/claude-council",
         "path": "",
-        "sha": "97d1e885c226b661ee463ff64b3a5f7a3967be66"
+        "sha": "e6d3536fc2df5d61aa257d4b860b6132c5712165"
       },
       "category": "coding",
       "strict": true,
@@ -933,17 +933,17 @@
         "issues": "https://github.com/hex/claude-council/issues"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:01:34.000Z",
+      "updatedAt": "2026-10-14T09:24:01.000Z",
       "github": {
-        "stars": 872,
+        "stars": 878,
         "forks": 106,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
         "manifestPath": ".claude-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/hex/claude-council/97d1e885c226b661ee463ff64b3a5f7a3967be66/assets/icon.png"
+      "icon": "https://raw.githubusercontent.com/hex/claude-council/e6d3536fc2df5d61aa257d4b860b6132c5712165/assets/icon.png"
     },
     {
       "name": "claude-mem",
@@ -984,9 +984,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-13T21:35:02.000Z",
       "github": {
-        "stars": 100560,
-        "forks": 8811,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 100861,
+        "forks": 8834,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1028,9 +1028,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-13T21:35:02.000Z",
       "github": {
-        "stars": 100560,
-        "forks": 8811,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 100861,
+        "forks": 8834,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1082,9 +1082,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-10T17:44:23.000Z",
       "github": {
-        "stars": 15521,
-        "forks": 1541,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 15544,
+        "forks": 1543,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1098,12 +1098,12 @@
         "source": "github",
         "repo": "ReflexioAI/claude-smart",
         "path": "plugin",
-        "sha": "9a87aaae047e356e3800b130707953f202280ac1"
+        "sha": "6ff57ffd504b1517914ce9f51d3869bb17180236"
       },
       "category": "coding",
       "strict": true,
       "description": "Self-improving Claude Code, Codex, and OpenCode plugin that turns corrections into Preferences, Project-specific skills, and Shared skills",
-      "version": "0.3.9",
+      "version": "0.3.11",
       "homepage": "https://github.com/ReflexioAI/claude-smart",
       "author": {
         "name": "Yi Lu"
@@ -1132,11 +1132,11 @@
         "issues": "https://github.com/ReflexioAI/claude-smart/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:19:00.000Z",
+      "updatedAt": "2026-10-14T23:25:40.000Z",
       "github": {
         "stars": 783,
         "forks": 88,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1179,11 +1179,11 @@
         "contributing": "https://github.com/jordanrendric/claude-video-vision/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-07T14:34:13.000Z",
+      "updatedAt": "2026-10-14T21:23:24.000Z",
       "github": {
-        "stars": 1362,
+        "stars": 1369,
         "forks": 159,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1197,7 +1197,7 @@
         "source": "github",
         "repo": "microsoft/power-platform-skills",
         "path": "plugins/code-apps",
-        "sha": "a3b930af50121478ec23acc12493e9ffe7004853"
+        "sha": "1a967074a96eac92ad8cd6fc3e2fb4c6ece824a3"
       },
       "category": "coding",
       "strict": true,
@@ -1226,11 +1226,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:13:02.000Z",
+      "updatedAt": "2026-10-15T07:52:50.000Z",
       "github": {
-        "stars": 1001,
-        "forks": 206,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 1007,
+        "forks": 207,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1283,9 +1283,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-10T21:48:01.000Z",
       "github": {
-        "stars": 2415,
+        "stars": 2427,
         "forks": 245,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1331,9 +1331,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-14T03:57:49.000Z",
       "github": {
-        "stars": 794,
-        "forks": 121,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 796,
+        "forks": 123,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1385,9 +1385,9 @@
       "license": "MIT",
       "updatedAt": "2026-07-21T08:59:12.000Z",
       "github": {
-        "stars": 936,
+        "stars": 938,
         "forks": 80,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1401,7 +1401,7 @@
         "source": "github",
         "repo": "artokun/comfyui-mcp",
         "path": "plugin",
-        "sha": "6ad6fc0296398c41feff068369a421b94cbb285d"
+        "sha": "6996d06ff511dd7b3b05adf89716e7667df2c1b9"
       },
       "category": "coding",
       "strict": true,
@@ -1426,11 +1426,11 @@
         "contributing": "https://github.com/artokun/comfyui-mcp/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T05:49:45.000Z",
+      "updatedAt": "2026-10-14T15:35:51.000Z",
       "github": {
-        "stars": 820,
+        "stars": 825,
         "forks": 137,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1472,9 +1472,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2051,
-        "forks": 318,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2057,
+        "forks": 317,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1516,9 +1516,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2051,
-        "forks": 318,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2057,
+        "forks": 317,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1561,9 +1561,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2051,
-        "forks": 318,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2057,
+        "forks": 317,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1606,9 +1606,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2051,
-        "forks": 318,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2057,
+        "forks": 317,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1668,9 +1668,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-08T17:11:10.000Z",
       "github": {
-        "stars": 4233,
-        "forks": 358,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 4239,
+        "forks": 360,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1684,7 +1684,7 @@
         "source": "github",
         "repo": "Lifecycle-Innovations-Limited/claude-ops",
         "path": "desktop-act",
-        "sha": "49ea40e02cbb00c1a61f4dff4de0e0cc4375f51b"
+        "sha": "f3ecb09ccc4c2515b25daa3cbf464ec40deb7b87"
       },
       "category": "coding",
       "strict": true,
@@ -1714,11 +1714,11 @@
         "contributing": "https://github.com/Lifecycle-Innovations-Limited/claude-ops/blob/main/.github/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T03:31:02.000Z",
+      "updatedAt": "2026-10-14T19:21:50.000Z",
       "github": {
-        "stars": 544,
+        "stars": 545,
         "forks": 64,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1761,9 +1761,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-13T11:49:23.000Z",
       "github": {
-        "stars": 695,
-        "forks": 105,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 696,
+        "forks": 106,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1808,9 +1808,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-13T11:49:23.000Z",
       "github": {
-        "stars": 695,
-        "forks": 105,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 696,
+        "forks": 106,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1855,9 +1855,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-13T11:49:23.000Z",
       "github": {
-        "stars": 695,
-        "forks": 105,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 696,
+        "forks": 106,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1906,9 +1906,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-13T11:49:23.000Z",
       "github": {
-        "stars": 695,
-        "forks": 105,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 696,
+        "forks": 106,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2007,9 +2007,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-11T21:46:32.000Z",
       "github": {
-        "stars": 884,
-        "forks": 141,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 889,
+        "forks": 142,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2023,7 +2023,7 @@
         "source": "github",
         "repo": "oliver-kriska/claude-elixir-phoenix",
         "path": "plugins/ecto",
-        "sha": "0de688397af474b905b0ebedb809bba1a6bc13ff"
+        "sha": "80926d74c8bacc33ffcb54c9c1fbbdeb9fee81f5"
       },
       "category": "enhancement",
       "strict": true,
@@ -2047,11 +2047,11 @@
         "discussions": "https://github.com/oliver-kriska/claude-elixir-phoenix/discussions"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:21:01.000Z",
+      "updatedAt": "2026-10-15T01:48:51.000Z",
       "github": {
-        "stars": 565,
+        "stars": 566,
         "forks": 45,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2065,7 +2065,7 @@
         "source": "github",
         "repo": "oliver-kriska/claude-elixir-phoenix",
         "path": "targets/codex",
-        "sha": "0de688397af474b905b0ebedb809bba1a6bc13ff"
+        "sha": "80926d74c8bacc33ffcb54c9c1fbbdeb9fee81f5"
       },
       "category": "coding",
       "strict": true,
@@ -2081,11 +2081,11 @@
         "discussions": "https://github.com/oliver-kriska/claude-elixir-phoenix/discussions"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:21:01.000Z",
+      "updatedAt": "2026-10-15T01:48:51.000Z",
       "github": {
-        "stars": 565,
+        "stars": 566,
         "forks": 45,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2128,7 +2128,7 @@
       "github": {
         "stars": 1452,
         "forks": 107,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2168,9 +2168,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2051,
-        "forks": 318,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2057,
+        "forks": 317,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2211,9 +2211,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2051,
-        "forks": 318,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2057,
+        "forks": 317,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2256,9 +2256,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-14T07:29:18.000Z",
       "github": {
-        "stars": 708,
+        "stars": 709,
         "forks": 58,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2299,9 +2299,9 @@
       "license": "MIT",
       "updatedAt": "2026-08-23T01:09:21.000Z",
       "github": {
-        "stars": 1402,
-        "forks": 94,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 1408,
+        "forks": 93,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2344,9 +2344,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-07T16:03:22.000Z",
       "github": {
-        "stars": 617,
-        "forks": 48,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 632,
+        "forks": 49,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2403,9 +2403,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-09-28T05:19:20.000Z",
       "github": {
-        "stars": 9174,
-        "forks": 1313,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 9179,
+        "forks": 1315,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2438,11 +2438,11 @@
         "contributing": "https://github.com/kitfunso/hippo-memory/blob/master/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-11T23:22:22.000Z",
+      "updatedAt": "2026-10-15T08:17:29.000Z",
       "github": {
-        "stars": 776,
+        "stars": 779,
         "forks": 45,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2456,12 +2456,12 @@
         "source": "github",
         "repo": "activeloopai/hivemind",
         "path": "",
-        "sha": "e054fb161de7ae1e3466fb93496713f4d3c82da7"
+        "sha": "97f20e34889328cd3091ff5283c2f0a69aaebe7d"
       },
       "category": "enhancement",
       "strict": true,
       "description": "Cloud-backed persistent memory powered by Deeplake — read, write, and share memory across Claude Code sessions and agents",
-      "version": "0.7.160",
+      "version": "0.7.161",
       "homepage": "https://deeplake.ai",
       "author": {
         "name": "Activeloop",
@@ -2481,11 +2481,11 @@
         "issues": "https://github.com/activeloopai/hivemind/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-28T05:46:25.000Z",
+      "updatedAt": "2026-10-14T19:52:43.000Z",
       "github": {
-        "stars": 1624,
+        "stars": 1626,
         "forks": 114,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2531,9 +2531,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-10T22:36:54.000Z",
       "github": {
-        "stars": 3853,
-        "forks": 380,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 3858,
+        "forks": 382,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2568,9 +2568,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-11T16:03:54.000Z",
       "github": {
-        "stars": 57004,
-        "forks": 3275,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 57189,
+        "forks": 3285,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2614,9 +2614,9 @@
       },
       "updatedAt": "2026-08-19T15:00:54.000Z",
       "github": {
-        "stars": 6735,
-        "forks": 114,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 6743,
+        "forks": 115,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2661,9 +2661,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2051,
-        "forks": 318,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2057,
+        "forks": 317,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2705,9 +2705,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2051,
-        "forks": 318,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2057,
+        "forks": 317,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2721,7 +2721,7 @@
         "source": "github",
         "repo": "oliver-kriska/claude-elixir-phoenix",
         "path": "plugins/lv",
-        "sha": "0de688397af474b905b0ebedb809bba1a6bc13ff"
+        "sha": "80926d74c8bacc33ffcb54c9c1fbbdeb9fee81f5"
       },
       "category": "enhancement",
       "strict": true,
@@ -2745,11 +2745,11 @@
         "discussions": "https://github.com/oliver-kriska/claude-elixir-phoenix/discussions"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:21:01.000Z",
+      "updatedAt": "2026-10-15T01:48:51.000Z",
       "github": {
-        "stars": 565,
+        "stars": 566,
         "forks": 45,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2791,9 +2791,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2051,
-        "forks": 318,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2057,
+        "forks": 317,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2837,9 +2837,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-10T21:48:01.000Z",
       "github": {
-        "stars": 2415,
+        "stars": 2427,
         "forks": 245,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2853,12 +2853,12 @@
         "source": "github",
         "repo": "coreyhaines31/marketingskills",
         "path": "",
-        "sha": "c7d7dfb6b460fc376b4b2204b78a9c9fd5ca6467"
+        "sha": "55ff469422c3592dac45bcad08dfb40221981c02"
       },
       "category": "collaboration",
       "strict": true,
       "description": "Marketing skills for AI agents — conversion optimization, copywriting, SEO, paid ads, ad creative, and growth",
-      "version": "2.11.29",
+      "version": "2.11.30",
       "homepage": "https://github.com/coreyhaines31/marketingskills",
       "author": {
         "name": "Corey Haines"
@@ -2872,11 +2872,11 @@
         "contributing": "https://github.com/coreyhaines31/marketingskills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T02:51:40.000Z",
+      "updatedAt": "2026-10-14T21:21:00.000Z",
       "github": {
-        "stars": 54625,
-        "forks": 8102,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 54805,
+        "forks": 8121,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2891,7 +2891,7 @@
         "source": "github",
         "repo": "microsoft/power-platform-skills",
         "path": "plugins/mcp-apps",
-        "sha": "a3b930af50121478ec23acc12493e9ffe7004853"
+        "sha": "1a967074a96eac92ad8cd6fc3e2fb4c6ece824a3"
       },
       "category": "enhancement",
       "strict": true,
@@ -2922,11 +2922,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:13:02.000Z",
+      "updatedAt": "2026-10-15T07:52:50.000Z",
       "github": {
-        "stars": 1001,
-        "forks": 206,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 1007,
+        "forks": 207,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2957,9 +2957,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-09T11:51:36.000Z",
       "github": {
-        "stars": 2743,
+        "stars": 2747,
         "forks": 267,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3011,9 +3011,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-10T21:48:01.000Z",
       "github": {
-        "stars": 2415,
+        "stars": 2427,
         "forks": 245,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3027,12 +3027,12 @@
         "source": "github",
         "repo": "microsoft/power-platform-skills",
         "path": "plugins/mobile-apps",
-        "sha": "a3b930af50121478ec23acc12493e9ffe7004853"
+        "sha": "1a967074a96eac92ad8cd6fc3e2fb4c6ece824a3"
       },
       "category": "coding",
       "strict": true,
       "description": "Build and deploy Power Apps code apps for mobile using Expo (React Native), with native device functionality and Power Platform connectors",
-      "version": "0.5.3",
+      "version": "0.5.4",
       "homepage": "https://github.com/microsoft/power-platform-skills/",
       "author": {
         "name": "Microsoft",
@@ -3057,11 +3057,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:13:02.000Z",
+      "updatedAt": "2026-10-15T07:52:50.000Z",
       "github": {
-        "stars": 1001,
-        "forks": 206,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 1007,
+        "forks": 207,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3075,7 +3075,7 @@
         "source": "github",
         "repo": "microsoft/power-platform-skills",
         "path": "plugins/model-apps",
-        "sha": "a3b930af50121478ec23acc12493e9ffe7004853"
+        "sha": "1a967074a96eac92ad8cd6fc3e2fb4c6ece824a3"
       },
       "category": "coding",
       "strict": true,
@@ -3106,11 +3106,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:13:02.000Z",
+      "updatedAt": "2026-10-15T07:52:50.000Z",
       "github": {
-        "stars": 1001,
-        "forks": 206,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 1007,
+        "forks": 207,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3142,9 +3142,9 @@
       },
       "updatedAt": "2026-08-31T14:44:51.000Z",
       "github": {
-        "stars": 559,
+        "stars": 561,
         "forks": 37,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3177,9 +3177,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-30T13:31:42.000Z",
       "github": {
-        "stars": 3384,
-        "forks": 502,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 3453,
+        "forks": 517,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3193,7 +3193,7 @@
         "source": "github",
         "repo": "nowork-studio/notfair-plugin",
         "path": "",
-        "sha": "a78646d5d72de9147722c5ec8dc6028aa136f3cd"
+        "sha": "9afd332f421d58498ddac4fc3b41bbcd66ebe513"
       },
       "category": "data",
       "strict": true,
@@ -3213,17 +3213,17 @@
         "contributing": "https://github.com/nowork-studio/notfair-plugin/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-13T18:09:59.000Z",
+      "updatedAt": "2026-10-14T16:37:03.000Z",
       "github": {
-        "stars": 3935,
+        "stars": 3938,
         "forks": 496,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
         "manifestPath": ".claude-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/nowork-studio/notfair-plugin/a78646d5d72de9147722c5ec8dc6028aa136f3cd/assets/notfair-icon.png"
+      "icon": "https://raw.githubusercontent.com/nowork-studio/notfair-plugin/9afd332f421d58498ddac4fc3b41bbcd66ebe513/assets/notfair-icon.png"
     },
     {
       "name": "obsidian-second-brain",
@@ -3252,9 +3252,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-10T21:14:30.000Z",
       "github": {
-        "stars": 4756,
-        "forks": 586,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 4768,
+        "forks": 588,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3268,12 +3268,12 @@
         "source": "github",
         "repo": "nyldn/claude-octopus",
         "path": "",
-        "sha": "691c132e2f2aea40b4b01f86e34f5063f54dc70c"
+        "sha": "215883532d88b51d82dd5c0b3f76fdcb0e52e803"
       },
-      "category": "enhancement",
+      "category": "coding",
       "strict": true,
-      "description": "v11.13.2 — Reliable provider fallback routing and active host detection. Run /octo:setup.",
-      "version": "11.13.2",
+      "description": "v11.14.0 - LiteLLM gateways, fewer Tangle review retries, and Command Code runs that stop when canceled. Run /octo:setup.",
+      "version": "11.14.0",
       "homepage": "https://github.com/nyldn/claude-octopus",
       "author": {
         "name": "nyldn",
@@ -3302,11 +3302,11 @@
         "contributing": "https://github.com/nyldn/claude-octopus/blob/main/docs/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T04:38:05.000Z",
+      "updatedAt": "2026-10-15T06:41:07.000Z",
       "github": {
-        "stars": 4225,
-        "forks": 398,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 4237,
+        "forks": 399,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3349,9 +3349,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-05T17:59:52.000Z",
       "github": {
-        "stars": 1285,
-        "forks": 114,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 1329,
+        "forks": 117,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3392,9 +3392,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2051,
-        "forks": 318,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2057,
+        "forks": 317,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3408,12 +3408,12 @@
         "source": "github",
         "repo": "Lifecycle-Innovations-Limited/claude-ops",
         "path": "claude-ops",
-        "sha": "49ea40e02cbb00c1a61f4dff4de0e0cc4375f51b"
+        "sha": "f3ecb09ccc4c2515b25daa3cbf464ec40deb7b87"
       },
       "category": "collaboration",
       "strict": true,
       "description": "Business operations command center for Claude Code — 66 skills, 21 agents, and a smart background daemon that manage communications (WhatsApp/Email/Slack/Telegram), projects, infrastructure (all AWS services), revenue (Stripe + RevenueCat), e-commerce (Shopify), marketing (Klaviyo/Meta/GA4/GSC), monitoring (Datadog/New Relic/OTEL), and voice (Bland AI/ElevenLabs/Whisper). Includes /ops:ops-ar A&R (audio analysis + demo verdict cards), /gtm go-to-market planner, /ops:projects portfolio dashboard, /ops:ops-mac macOS diagnose-and-fix (bundles the macos-toolkit CLI suite — security, launchd, network, disk, system health), YOLO mode for autonomous operation with 4 parallel C-suite agents, /ops:ops-home smart home control via Homey Pro, /ops:ops-unifi UniFi network control (Site Manager + Network + Protect APIs), and /ops:ops-feature-dev overlay for the feature-dev companion plugin.",
-      "version": "3.11.0",
+      "version": "3.11.1",
       "homepage": "https://github.com/Lifecycle-Innovations-Limited/claude-ops",
       "author": {
         "name": "Lifecycle Innovations Limited",
@@ -3475,11 +3475,11 @@
         "contributing": "https://github.com/Lifecycle-Innovations-Limited/claude-ops/blob/main/.github/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T03:31:02.000Z",
+      "updatedAt": "2026-10-14T19:21:50.000Z",
       "github": {
-        "stars": 544,
+        "stars": 545,
         "forks": 64,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3493,7 +3493,7 @@
         "source": "github",
         "repo": "microsoft/power-platform-skills",
         "path": "plugins/pcf",
-        "sha": "a3b930af50121478ec23acc12493e9ffe7004853"
+        "sha": "1a967074a96eac92ad8cd6fc3e2fb4c6ece824a3"
       },
       "category": "coding",
       "strict": true,
@@ -3524,11 +3524,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:13:02.000Z",
+      "updatedAt": "2026-10-15T07:52:50.000Z",
       "github": {
-        "stars": 1001,
-        "forks": 206,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 1007,
+        "forks": 207,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3570,9 +3570,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2051,
-        "forks": 318,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2057,
+        "forks": 317,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3586,7 +3586,7 @@
         "source": "github",
         "repo": "oliver-kriska/claude-elixir-phoenix",
         "path": "plugins/elixir-phoenix",
-        "sha": "0de688397af474b905b0ebedb809bba1a6bc13ff"
+        "sha": "80926d74c8bacc33ffcb54c9c1fbbdeb9fee81f5"
       },
       "category": "enhancement",
       "strict": true,
@@ -3613,11 +3613,11 @@
         "discussions": "https://github.com/oliver-kriska/claude-elixir-phoenix/discussions"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:21:01.000Z",
+      "updatedAt": "2026-10-15T01:48:51.000Z",
       "github": {
-        "stars": 565,
+        "stars": 566,
         "forks": 45,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3659,9 +3659,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2051,
-        "forks": 318,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2057,
+        "forks": 317,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3675,7 +3675,7 @@
         "source": "github",
         "repo": "DietrichGebert/ponytail",
         "path": "",
-        "sha": "2961b52fc1fe6a5a87c7a959a79512e5c2f3ffe5"
+        "sha": "84740e3d344b69b4a133201fa519eb37a62a2b2a"
       },
       "category": "coding",
       "strict": true,
@@ -3697,11 +3697,11 @@
         "contributing": "https://github.com/DietrichGebert/ponytail/blob/main/.github/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-13T01:46:28.000Z",
+      "updatedAt": "2026-10-15T01:02:15.000Z",
       "github": {
-        "stars": 163050,
-        "forks": 8815,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 163873,
+        "forks": 8829,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3717,7 +3717,7 @@
         "source": "github",
         "repo": "microsoft/power-platform-skills",
         "path": "plugins/power-apps-mobile-extension",
-        "sha": "a3b930af50121478ec23acc12493e9ffe7004853"
+        "sha": "1a967074a96eac92ad8cd6fc3e2fb4c6ece824a3"
       },
       "category": "enhancement",
       "strict": true,
@@ -3748,11 +3748,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:13:02.000Z",
+      "updatedAt": "2026-10-15T07:52:50.000Z",
       "github": {
-        "stars": 1001,
-        "forks": 206,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 1007,
+        "forks": 207,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3766,7 +3766,7 @@
         "source": "github",
         "repo": "microsoft/power-platform-skills",
         "path": "plugins/power-automate",
-        "sha": "a3b930af50121478ec23acc12493e9ffe7004853"
+        "sha": "1a967074a96eac92ad8cd6fc3e2fb4c6ece824a3"
       },
       "category": "enhancement",
       "strict": true,
@@ -3793,11 +3793,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:13:02.000Z",
+      "updatedAt": "2026-10-15T07:52:50.000Z",
       "github": {
-        "stars": 1001,
-        "forks": 206,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 1007,
+        "forks": 207,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3811,7 +3811,7 @@
         "source": "github",
         "repo": "microsoft/power-platform-skills",
         "path": "plugins/power-pages",
-        "sha": "a3b930af50121478ec23acc12493e9ffe7004853"
+        "sha": "1a967074a96eac92ad8cd6fc3e2fb4c6ece824a3"
       },
       "category": "coding",
       "strict": true,
@@ -3860,11 +3860,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:13:02.000Z",
+      "updatedAt": "2026-10-15T07:52:50.000Z",
       "github": {
-        "stars": 1001,
-        "forks": 206,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 1007,
+        "forks": 207,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3878,7 +3878,7 @@
         "source": "github",
         "repo": "microsoft/power-platform-skills",
         "path": "plugins/process-intelligence",
-        "sha": "a3b930af50121478ec23acc12493e9ffe7004853"
+        "sha": "1a967074a96eac92ad8cd6fc3e2fb4c6ece824a3"
       },
       "category": "enhancement",
       "strict": true,
@@ -3904,11 +3904,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:13:02.000Z",
+      "updatedAt": "2026-10-15T07:52:50.000Z",
       "github": {
-        "stars": 1001,
-        "forks": 206,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 1007,
+        "forks": 207,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3950,9 +3950,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2051,
-        "forks": 318,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2057,
+        "forks": 317,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3994,9 +3994,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-10T21:48:01.000Z",
       "github": {
-        "stars": 2415,
+        "stars": 2427,
         "forks": 245,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4043,9 +4043,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-10T21:48:01.000Z",
       "github": {
-        "stars": 2415,
+        "stars": 2427,
         "forks": 245,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4099,9 +4099,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-14T00:13:15.000Z",
       "github": {
-        "stars": 1964,
-        "forks": 210,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2028,
+        "forks": 214,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4147,7 +4147,7 @@
       "github": {
         "stars": 559,
         "forks": 50,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4196,7 +4196,7 @@
       "github": {
         "stars": 559,
         "forks": 50,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4240,7 +4240,7 @@
       "github": {
         "stars": 757,
         "forks": 44,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4282,9 +4282,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2051,
-        "forks": 318,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2057,
+        "forks": 317,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4328,9 +4328,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-10T21:48:01.000Z",
       "github": {
-        "stars": 2415,
+        "stars": 2427,
         "forks": 245,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4373,9 +4373,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2051,
-        "forks": 318,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2057,
+        "forks": 317,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4418,9 +4418,9 @@
       "license": "MIT",
       "updatedAt": "2026-08-03T13:21:33.000Z",
       "github": {
-        "stars": 567,
+        "stars": 568,
         "forks": 70,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4434,12 +4434,12 @@
         "source": "github",
         "repo": "lennney/stop-that-shit",
         "path": "",
-        "sha": "694bbd59e26b522cd63801a01590ccaa77c7fe84"
+        "sha": "aaf6725dd3e0b41ad949bf2eab62775e0424c3f0"
       },
       "category": "coding",
       "strict": true,
       "description": "Keep Claude Code tasks bounded and reduce defensive wording with local-first guardrails and two Skills.",
-      "version": "0.2.4",
+      "version": "0.2.5",
       "displayName": "Stop That Shit（别再造史了）",
       "homepage": "https://github.com/lennney/stop-that-shit",
       "author": {
@@ -4461,11 +4461,11 @@
         "contributing": "https://github.com/lennney/stop-that-shit/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-12T20:16:43.000Z",
+      "updatedAt": "2026-10-14T15:36:45.000Z",
       "github": {
-        "stars": 2639,
+        "stars": 2660,
         "forks": 55,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4512,9 +4512,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-10T21:48:01.000Z",
       "github": {
-        "stars": 2415,
+        "stars": 2427,
         "forks": 245,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4562,9 +4562,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-10T21:48:01.000Z",
       "github": {
-        "stars": 2415,
+        "stars": 2427,
         "forks": 245,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4601,9 +4601,9 @@
       "license": "MIT",
       "updatedAt": "2026-08-03T13:21:33.000Z",
       "github": {
-        "stars": 567,
+        "stars": 568,
         "forks": 70,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4649,9 +4649,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-10T21:48:01.000Z",
       "github": {
-        "stars": 2415,
+        "stars": 2427,
         "forks": 245,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4693,9 +4693,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T19:13:19.000Z",
       "github": {
-        "stars": 2051,
-        "forks": 318,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2057,
+        "forks": 317,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4732,9 +4732,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-07T07:57:10.000Z",
       "github": {
-        "stars": 3862,
-        "forks": 186,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 3880,
+        "forks": 191,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4783,9 +4783,9 @@
       "license": "MIT",
       "updatedAt": "2026-07-28T17:18:09.000Z",
       "github": {
-        "stars": 543,
+        "stars": 544,
         "forks": 101,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4799,7 +4799,7 @@
         "source": "github",
         "repo": "alexgreensh/token-optimizer",
         "path": "cowork/to-hook-probe",
-        "sha": "569465e1c233786efb447ae3960aacf574095ee0"
+        "sha": "9b12915453c4fc7307b03b9406c2ebcfb747ffd7"
       },
       "category": "enhancement",
       "strict": true,
@@ -4821,11 +4821,11 @@
         "releases": "https://github.com/alexgreensh/token-optimizer/releases",
         "issues": "https://github.com/alexgreensh/token-optimizer/issues"
       },
-      "updatedAt": "2026-10-13T23:00:01.000Z",
+      "updatedAt": "2026-10-14T20:58:41.000Z",
       "github": {
-        "stars": 2557,
-        "forks": 199,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2565,
+        "forks": 201,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4839,12 +4839,12 @@
         "source": "github",
         "repo": "alexgreensh/token-optimizer",
         "path": "",
-        "sha": "569465e1c233786efb447ae3960aacf574095ee0"
+        "sha": "9b12915453c4fc7307b03b9406c2ebcfb747ffd7"
       },
       "category": "coding",
       "strict": true,
       "description": "Audit, fix, and monitor Claude Code context window usage. Find the ghost tokens.",
-      "version": "5.13.43",
+      "version": "5.13.44",
       "homepage": "https://github.com/alexgreensh/token-optimizer",
       "author": {
         "name": "Alex Greenshpun",
@@ -4864,11 +4864,11 @@
         "releases": "https://github.com/alexgreensh/token-optimizer/releases",
         "issues": "https://github.com/alexgreensh/token-optimizer/issues"
       },
-      "updatedAt": "2026-10-13T23:00:01.000Z",
+      "updatedAt": "2026-10-14T20:58:41.000Z",
       "github": {
-        "stars": 2557,
-        "forks": 199,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2565,
+        "forks": 201,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4882,12 +4882,12 @@
         "source": "github",
         "repo": "alexgreensh/token-optimizer",
         "path": "cowork/token-optimizer",
-        "sha": "569465e1c233786efb447ae3960aacf574095ee0"
+        "sha": "9b12915453c4fc7307b03b9406c2ebcfb747ffd7"
       },
       "category": "coding",
       "strict": true,
       "description": "Token Optimizer for Claude Cowork: self-contained plugin with full skills and Cowork-native hooks (UserPromptSubmit, PreToolUse, PostToolUse, Stop). Install THIS in Cowork; the standard token-optimizer entry is for desktop Claude Code.",
-      "version": "5.13.43",
+      "version": "5.13.44",
       "homepage": "https://github.com/alexgreensh/token-optimizer",
       "author": {
         "name": "Alex Greenshpun",
@@ -4907,11 +4907,11 @@
         "releases": "https://github.com/alexgreensh/token-optimizer/releases",
         "issues": "https://github.com/alexgreensh/token-optimizer/issues"
       },
-      "updatedAt": "2026-10-13T23:00:01.000Z",
+      "updatedAt": "2026-10-14T20:58:41.000Z",
       "github": {
-        "stars": 2557,
-        "forks": 199,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2565,
+        "forks": 201,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4925,7 +4925,7 @@
         "source": "github",
         "repo": "quant-sentiment-ai/claude-equity-research",
         "path": "commands/trading-ideas",
-        "sha": "ecc5f62bb6ece22244c7459ae2a371371284cb2e"
+        "sha": "98813f7e247e5c48337720088d3c6bb6b5f65f11"
       },
       "category": "science",
       "strict": true,
@@ -4939,11 +4939,11 @@
         "issues": "https://github.com/quant-sentiment-ai/claude-equity-research/issues"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-13T11:52:36.000Z",
+      "updatedAt": "2026-10-14T09:34:07.000Z",
       "github": {
         "stars": 731,
         "forks": 88,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4957,7 +4957,7 @@
         "source": "github",
         "repo": "nyldn/claude-octopus",
         "path": "vendors/ui-ux-pro-max-skill",
-        "sha": "691c132e2f2aea40b4b01f86e34f5063f54dc70c"
+        "sha": "215883532d88b51d82dd5c0b3f76fdcb0e52e803"
       },
       "category": "design",
       "strict": true,
@@ -4987,11 +4987,11 @@
         "contributing": "https://github.com/nyldn/claude-octopus/blob/main/docs/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T04:38:05.000Z",
+      "updatedAt": "2026-10-15T06:41:07.000Z",
       "github": {
-        "stars": 4225,
-        "forks": 398,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 4237,
+        "forks": 399,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5035,9 +5035,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-12T04:35:54.000Z",
       "github": {
-        "stars": 787,
-        "forks": 70,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 791,
+        "forks": 71,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5089,9 +5089,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-10T21:48:01.000Z",
       "github": {
-        "stars": 2415,
+        "stars": 2427,
         "forks": 245,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5105,7 +5105,7 @@
         "source": "github",
         "repo": "zenstory-ai/video-recap-skills",
         "path": "",
-        "sha": "539168622918e058bd250c793b82f043eced31e0"
+        "sha": "14640fdc979343528058e1c781e73b4581fb4668"
       },
       "category": "design",
       "strict": true,
@@ -5123,11 +5123,11 @@
         "contributing": "https://github.com/zenstory-ai/.github/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-04T06:42:40.000Z",
+      "updatedAt": "2026-10-14T14:09:03.000Z",
       "github": {
-        "stars": 571,
+        "stars": 575,
         "forks": 105,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "community",

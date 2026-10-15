@@ -39,7 +39,7 @@
       "github": {
         "stars": 3,
         "forks": 2,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -77,11 +77,11 @@
         "contributing": "https://github.com/adobe/skills/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T03:36:57.000Z",
+      "updatedAt": "2026-10-15T07:22:03.000Z",
       "github": {
-        "stars": 198,
+        "stars": 199,
         "forks": 83,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -95,7 +95,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/agent-sdk-dev",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "coding",
       "strict": true,
@@ -111,11 +111,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -156,7 +156,7 @@
       "github": {
         "stars": 114,
         "forks": 43,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -188,11 +188,11 @@
         "contributing": "https://github.com/pydantic/skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-11T20:48:54.000Z",
+      "updatedAt": "2026-10-15T07:19:44.000Z",
       "github": {
         "stars": 142,
         "forks": 5,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -241,7 +241,7 @@
       "github": {
         "stars": 10,
         "forks": 2,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -306,8 +306,8 @@
       "updatedAt": "2026-07-21T18:20:59.000Z",
       "github": {
         "stars": 51,
-        "forks": 6,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "forks": 7,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -350,11 +350,11 @@
         "issues": "https://github.com/airwallex/airwallex-marketplace/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-30T06:57:41.000Z",
+      "updatedAt": "2026-10-14T10:02:56.000Z",
       "github": {
         "stars": 8,
         "forks": 2,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -394,11 +394,11 @@
         "issues": "https://github.com/airwallex/airwallex-marketplace/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-09-30T06:57:41.000Z",
+      "updatedAt": "2026-10-14T10:02:56.000Z",
       "github": {
         "stars": 8,
         "forks": 2,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -447,7 +447,7 @@
       "github": {
         "stars": 1,
         "forks": 3,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -483,7 +483,7 @@
       "github": {
         "stars": 24,
         "forks": 6,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -519,7 +519,7 @@
       "github": {
         "stars": 4,
         "forks": 4,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -566,7 +566,7 @@
       "github": {
         "stars": 4,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -614,9 +614,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-09T21:35:01.000Z",
       "github": {
-        "stars": 918,
-        "forks": 162,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 920,
+        "forks": 163,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -661,9 +661,9 @@
       },
       "updatedAt": "2026-10-13T22:43:51.000Z",
       "github": {
-        "stars": 24,
+        "stars": 25,
         "forks": 2,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -694,11 +694,11 @@
         "issues": "https://github.com/amplitude/mcp-marketplace/issues"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-09T18:40:12.000Z",
+      "updatedAt": "2026-10-15T07:03:38.000Z",
       "github": {
         "stars": 43,
         "forks": 10,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -747,7 +747,7 @@
       "github": {
         "stars": 1,
         "forks": 1,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -793,7 +793,7 @@
       "github": {
         "stars": 28,
         "forks": 10,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -845,7 +845,7 @@
       "github": {
         "stars": 117,
         "forks": 13,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -887,7 +887,7 @@
       "github": {
         "stars": 10,
         "forks": 1,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -901,7 +901,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "external_plugins/asana",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "office",
       "strict": true,
@@ -917,11 +917,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -951,11 +951,11 @@
         "contributing": "https://github.com/astronomer/agents/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-13T23:29:50.000Z",
+      "updatedAt": "2026-10-14T19:13:08.000Z",
       "github": {
         "stars": 452,
         "forks": 69,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1003,9 +1003,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-28T17:50:23.000Z",
       "github": {
-        "stars": 40,
+        "stars": 41,
         "forks": 31,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1039,9 +1039,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-10T20:27:29.000Z",
       "github": {
-        "stars": 1093,
-        "forks": 140,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 1098,
+        "forks": 141,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1098,7 +1098,7 @@
       "github": {
         "stars": 1,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1134,11 +1134,11 @@
         "contributing": "https://github.com/Eigenwise/atomic-agents/blob/main/docs/contributing.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-11T17:13:57.000Z",
+      "updatedAt": "2026-10-14T08:55:05.000Z",
       "github": {
         "stars": 6283,
         "forks": 555,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1171,11 +1171,11 @@
         "contributing": "https://github.com/auth0/agent-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:49:55.000Z",
+      "updatedAt": "2026-10-15T07:15:17.000Z",
       "github": {
         "stars": 53,
         "forks": 29,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1247,11 +1247,11 @@
         "contributing": "https://github.com/aws/agent-toolkit-for-aws/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T08:08:53.000Z",
+      "updatedAt": "2026-10-15T08:14:21.000Z",
       "github": {
-        "stars": 2870,
-        "forks": 368,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2881,
+        "forks": 372,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1321,11 +1321,11 @@
         "contributing": "https://github.com/aws/agent-toolkit-for-aws/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T08:08:53.000Z",
+      "updatedAt": "2026-10-15T08:14:21.000Z",
       "github": {
-        "stars": 2870,
-        "forks": 368,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2881,
+        "forks": 372,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1370,9 +1370,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-09T21:35:01.000Z",
       "github": {
-        "stars": 918,
-        "forks": 162,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 920,
+        "forks": 163,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1513,11 +1513,11 @@
         "contributing": "https://github.com/aws/agent-toolkit-for-aws/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T08:08:53.000Z",
+      "updatedAt": "2026-10-15T08:14:21.000Z",
       "github": {
-        "stars": 2870,
-        "forks": 368,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2881,
+        "forks": 372,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1598,11 +1598,11 @@
         "contributing": "https://github.com/aws/agent-toolkit-for-aws/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T08:08:53.000Z",
+      "updatedAt": "2026-10-15T08:14:21.000Z",
       "github": {
-        "stars": 2870,
-        "forks": 368,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2881,
+        "forks": 372,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1652,9 +1652,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-09T21:35:01.000Z",
       "github": {
-        "stars": 918,
-        "forks": 162,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 920,
+        "forks": 163,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1763,11 +1763,11 @@
         "contributing": "https://github.com/aws/agent-toolkit-for-aws/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T08:08:53.000Z",
+      "updatedAt": "2026-10-15T08:14:21.000Z",
       "github": {
-        "stars": 2870,
-        "forks": 368,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2881,
+        "forks": 372,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1826,9 +1826,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-09T21:35:01.000Z",
       "github": {
-        "stars": 918,
-        "forks": 162,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 920,
+        "forks": 163,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1870,11 +1870,11 @@
         "issues": "https://github.com/microsoft/azure-skills/issues"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-13T16:51:36.000Z",
+      "updatedAt": "2026-10-15T00:08:08.000Z",
       "github": {
-        "stars": 1566,
-        "forks": 257,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 1571,
+        "forks": 258,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1919,8 +1919,8 @@
       "updatedAt": "2026-07-07T13:36:40.000Z",
       "github": {
         "stars": 2,
-        "forks": 1,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "forks": 2,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1963,11 +1963,11 @@
         "contributing": "https://github.com/microsoft/azure-sql-database-container/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-13T15:47:49.000Z",
+      "updatedAt": "2026-10-14T20:37:48.000Z",
       "github": {
-        "stars": 19,
-        "forks": 6,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 18,
+        "forks": 7,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2012,11 +2012,11 @@
         "contributing": "https://github.com/base44/skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:41:56.000Z",
+      "updatedAt": "2026-10-14T11:10:26.000Z",
       "github": {
         "stars": 90,
         "forks": 18,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2072,11 +2072,11 @@
         "releases": "https://github.com/Bigdata-com/bigdata-plugins-marketplace/releases",
         "issues": "https://github.com/Bigdata-com/bigdata-plugins-marketplace/issues"
       },
-      "updatedAt": "2026-10-09T10:19:11.000Z",
+      "updatedAt": "2026-10-15T07:41:52.000Z",
       "github": {
         "stars": 2,
         "forks": 2,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2112,7 +2112,7 @@
       "github": {
         "stars": 50,
         "forks": 4,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2154,7 +2154,7 @@
       "github": {
         "stars": 2,
         "forks": 1,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2202,7 +2202,7 @@
       "github": {
         "stars": 5,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2244,7 +2244,7 @@
       "github": {
         "stars": 7,
         "forks": 7,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2331,7 +2331,7 @@
       "github": {
         "stars": 265,
         "forks": 36,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2362,9 +2362,9 @@
       },
       "updatedAt": "2026-08-28T03:23:49.000Z",
       "github": {
-        "stars": 24,
+        "stars": 25,
         "forks": 9,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2399,7 +2399,7 @@
       "github": {
         "stars": 51,
         "forks": 10,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2434,7 +2434,7 @@
       "github": {
         "stars": 18,
         "forks": 4,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2480,8 +2480,8 @@
       "updatedAt": "2026-06-30T23:20:03.000Z",
       "github": {
         "stars": 125,
-        "forks": 26,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "forks": 27,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2517,7 +2517,7 @@
       "github": {
         "stars": 6,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2531,12 +2531,12 @@
         "source": "github",
         "repo": "carta/plugins",
         "path": "plugins/carta-cap-table",
-        "sha": "43e49ed3c0cae18cbda4cdad94756ac85d50190b"
+        "sha": "ea7fe1d4db0f0f273799ec4b40070c3c6b00fdcc"
       },
       "category": "office",
       "strict": true,
       "description": "Carta Cap Table plugin — skills and hooks for querying cap tables, grants, SAFEs, 409A valuations, waterfall scenarios, and more",
-      "version": "6.93.3",
+      "version": "6.96.0",
       "homepage": "https://carta.com",
       "author": {
         "name": "Carta Engineering"
@@ -2555,11 +2555,11 @@
         "issues": "https://github.com/carta/plugins/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T00:11:51.000Z",
+      "updatedAt": "2026-10-15T03:11:51.000Z",
       "github": {
         "stars": 14,
         "forks": 18,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2573,12 +2573,12 @@
         "source": "github",
         "repo": "carta/plugins",
         "path": "plugins/carta-crm",
-        "sha": "43e49ed3c0cae18cbda4cdad94756ac85d50190b"
+        "sha": "ea7fe1d4db0f0f273799ec4b40070c3c6b00fdcc"
       },
       "category": "office",
       "strict": true,
       "description": "Manage the Carta CRM conversationally — search, add, update, and enrich investors, companies, contacts, deals, notes, and fundraisings via the Carta CRM MCP Server.",
-      "version": "1.14.5",
+      "version": "1.15.0",
       "homepage": "https://carta.com",
       "author": {
         "name": "Carta Engineering"
@@ -2606,11 +2606,11 @@
         "issues": "https://github.com/carta/plugins/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T00:11:51.000Z",
+      "updatedAt": "2026-10-15T03:11:51.000Z",
       "github": {
         "stars": 14,
         "forks": 18,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2624,12 +2624,12 @@
         "source": "github",
         "repo": "carta/plugins",
         "path": "plugins/carta-investors",
-        "sha": "6ab81016389cac69e03ed79114d75f31bc8e7bfd"
+        "sha": "ea7fe1d4db0f0f273799ec4b40070c3c6b00fdcc"
       },
       "category": "office",
       "strict": true,
       "description": "Carta Investors plugin — skills for querying investor data, performance benchmarks, regulatory reporting, AGM deck generation, brand extraction, and more via the Carta MCP Server.",
-      "version": "6.38.0",
+      "version": "6.71.0",
       "homepage": "https://carta.com",
       "author": {
         "name": "Carta Engineering"
@@ -2656,11 +2656,11 @@
         "issues": "https://github.com/carta/plugins/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T00:11:51.000Z",
+      "updatedAt": "2026-10-15T03:11:51.000Z",
       "github": {
         "stars": 14,
         "forks": 18,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2707,7 +2707,7 @@
       "github": {
         "stars": 2,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2746,11 +2746,11 @@
         "contributing": "https://github.com/cap-js/mcp-server/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-13T14:34:27.000Z",
+      "updatedAt": "2026-10-15T07:39:49.000Z",
       "github": {
         "stars": 114,
         "forks": 19,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2780,11 +2780,11 @@
         "contributing": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T08:47:32.000Z",
+      "updatedAt": "2026-10-15T08:09:41.000Z",
       "github": {
-        "stars": 53502,
-        "forks": 6550,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 53570,
+        "forks": 6627,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2827,7 +2827,7 @@
       "github": {
         "stars": 0,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2870,7 +2870,7 @@
       "github": {
         "stars": 1,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2915,7 +2915,7 @@
       "github": {
         "stars": 156,
         "forks": 62,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2950,7 +2950,7 @@
       "github": {
         "stars": 3,
         "forks": 5,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3007,7 +3007,7 @@
       "github": {
         "stars": 4,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3021,7 +3021,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/claude-code-setup",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "office",
       "strict": true,
@@ -3038,11 +3038,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3057,7 +3057,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/claude-md-management",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "office",
       "strict": true,
@@ -3074,11 +3074,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3093,7 +3093,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/claude-security",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "coding",
       "strict": true,
@@ -3120,11 +3120,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3157,9 +3157,9 @@
       },
       "updatedAt": "2026-10-07T17:53:25.000Z",
       "github": {
-        "stars": 137,
+        "stars": 138,
         "forks": 22,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3201,7 +3201,7 @@
       "github": {
         "stars": 7,
         "forks": 2,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3242,9 +3242,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-09-29T00:09:24.000Z",
       "github": {
-        "stars": 547,
+        "stars": 548,
         "forks": 38,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3280,7 +3280,7 @@
       "github": {
         "stars": 12,
         "forks": 2,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3316,7 +3316,7 @@
       "github": {
         "stars": 42,
         "forks": 7,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3352,7 +3352,7 @@
       "github": {
         "stars": 10,
         "forks": 5,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3384,11 +3384,11 @@
         "contributing": "https://github.com/cloudflare/skills/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T22:34:03.000Z",
+      "updatedAt": "2026-10-14T22:26:20.000Z",
       "github": {
-        "stars": 3056,
-        "forks": 308,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 3065,
+        "forks": 313,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3432,7 +3432,7 @@
       "github": {
         "stars": 0,
         "forks": 3,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3480,7 +3480,7 @@
       "github": {
         "stars": 4,
         "forks": 3,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3494,7 +3494,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/code-modernization",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "coding",
       "strict": true,
@@ -3511,11 +3511,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3529,7 +3529,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/code-review",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "office",
       "strict": true,
@@ -3545,11 +3545,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3563,7 +3563,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/code-simplifier",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "office",
       "strict": true,
@@ -3580,11 +3580,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3623,11 +3623,11 @@
         "contributing": "https://github.com/coderabbitai/skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:33:02.000Z",
+      "updatedAt": "2026-10-14T15:10:31.000Z",
       "github": {
-        "stars": 190,
+        "stars": 191,
         "forks": 15,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3666,11 +3666,11 @@
         "contributing": "https://github.com/CodSpeedHQ/codspeed/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T08:34:07.000Z",
+      "updatedAt": "2026-10-14T13:43:18.000Z",
       "github": {
         "stars": 373,
         "forks": 33,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3684,7 +3684,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/commit-commands",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "office",
       "strict": true,
@@ -3700,11 +3700,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3746,7 +3746,7 @@
       "github": {
         "stars": 9,
         "forks": 9,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3760,7 +3760,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "external_plugins/context7",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "coding",
       "strict": true,
@@ -3779,11 +3779,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3836,7 +3836,7 @@
       "github": {
         "stars": 6,
         "forks": 8,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3889,7 +3889,7 @@
       "github": {
         "stars": 25,
         "forks": 2,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3933,11 +3933,11 @@
         "contributing": "https://github.com/CrowdStrike/foundry-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T04:46:25.000Z",
+      "updatedAt": "2026-10-14T16:05:10.000Z",
       "github": {
         "stars": 35,
         "forks": 5,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3978,11 +3978,11 @@
         "contributing": "https://github.com/CrowdStrike/fusion-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T04:46:28.000Z",
+      "updatedAt": "2026-10-14T22:46:25.000Z",
       "github": {
         "stars": 26,
         "forks": 2,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3996,7 +3996,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/cwc-makers",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "office",
       "strict": true,
@@ -4022,11 +4022,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4058,11 +4058,11 @@
         "contributing": "https://github.com/GoogleCloudPlatform/data-agent-kit-plugin/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T04:41:40.000Z",
+      "updatedAt": "2026-10-15T00:42:56.000Z",
       "github": {
-        "stars": 220,
+        "stars": 221,
         "forks": 69,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4105,7 +4105,7 @@
       "github": {
         "stars": 5,
         "forks": 2,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4156,9 +4156,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-09T21:35:01.000Z",
       "github": {
-        "stars": 918,
-        "forks": 162,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 920,
+        "forks": 163,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4201,7 +4201,7 @@
       "github": {
         "stars": 17,
         "forks": 7,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4236,8 +4236,8 @@
       "updatedAt": "2026-09-29T23:12:39.000Z",
       "github": {
         "stars": 43,
-        "forks": 100,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "forks": 101,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4273,7 +4273,7 @@
       "github": {
         "stars": 1,
         "forks": 2,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4306,11 +4306,11 @@
         "contributing": "https://github.com/datarobot-oss/datarobot-agent-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-13T20:07:08.000Z",
+      "updatedAt": "2026-10-15T08:09:56.000Z",
       "github": {
         "stars": 29,
         "forks": 26,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4349,11 +4349,11 @@
         "contributing": "https://github.com/microsoft/Dataverse-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T07:33:19.000Z",
+      "updatedAt": "2026-10-15T07:26:21.000Z",
       "github": {
-        "stars": 244,
-        "forks": 62,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 245,
+        "forks": 64,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4395,11 +4395,11 @@
         "contributing": "https://github.com/confident-ai/deepeval/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T19:31:54.000Z",
+      "updatedAt": "2026-10-15T03:22:22.000Z",
       "github": {
-        "stars": 18846,
-        "forks": 2067,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 18881,
+        "forks": 2072,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4445,9 +4445,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-09T21:35:01.000Z",
       "github": {
-        "stars": 918,
-        "forks": 162,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 920,
+        "forks": 163,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4490,11 +4490,11 @@
         "discussions": "https://github.com/wonderwhy-er/DesktopCommanderMCP/discussions"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:07:17.000Z",
+      "updatedAt": "2026-10-15T08:23:09.000Z",
       "github": {
-        "stars": 10047,
-        "forks": 1272,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 10060,
+        "forks": 1275,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4508,7 +4508,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "external_plugins/discord",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "office",
       "strict": true,
@@ -4528,11 +4528,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4580,7 +4580,7 @@
       "github": {
         "stars": 7,
         "forks": 3,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4637,11 +4637,11 @@
         "issues": "https://github.com/dropbox/dropbox-ai-plugins/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-09T14:40:38.000Z",
+      "updatedAt": "2026-10-14T19:13:54.000Z",
       "github": {
         "stars": 7,
-        "forks": 4,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "forks": 5,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4693,9 +4693,9 @@
       "license": "MIT",
       "updatedAt": "2026-04-23T13:56:22.000Z",
       "github": {
-        "stars": 607,
+        "stars": 609,
         "forks": 36,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4729,7 +4729,7 @@
       "github": {
         "stars": 9,
         "forks": 3,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4766,7 +4766,7 @@
       "github": {
         "stars": 163,
         "forks": 35,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4799,9 +4799,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-07T22:45:09.000Z",
       "github": {
-        "stars": 5126,
+        "stars": 5130,
         "forks": 403,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4815,7 +4815,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/explanatory-output-style",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "science",
       "strict": true,
@@ -4832,11 +4832,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4869,11 +4869,11 @@
         "contributing": "https://github.com/expo/skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T04:39:40.000Z",
+      "updatedAt": "2026-10-14T12:43:23.000Z",
       "github": {
-        "stars": 2837,
-        "forks": 178,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2858,
+        "forks": 181,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4887,7 +4887,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "external_plugins/fakechat",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "coding",
       "strict": true,
@@ -4909,11 +4909,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4956,7 +4956,7 @@
       "github": {
         "stars": 34,
         "forks": 7,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4970,7 +4970,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/feature-dev",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "coding",
       "strict": true,
@@ -4986,11 +4986,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5024,9 +5024,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-09T21:59:26.000Z",
       "github": {
-        "stars": 44,
+        "stars": 46,
         "forks": 11,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5040,12 +5040,12 @@
         "source": "github",
         "repo": "figma/mcp-server-guide",
         "path": "",
-        "sha": "f0493295acf5f7cbdebcbcc483c06de814420cb1"
+        "sha": "f2789420e7e8b4e2465dfeb1e12e1fc6a31397e5"
       },
       "category": "design",
       "strict": true,
       "description": "Figma design platform integration. Access design files, extract component information, read design tokens, and translate designs into code. Bridge the gap between design and development workflows.",
-      "version": "2.2.127",
+      "version": "2.2.157",
       "homepage": "https://github.com/figma/mcp-server-guide",
       "author": {
         "name": "Figma"
@@ -5056,11 +5056,11 @@
         "releases": "https://github.com/figma/mcp-server-guide/releases",
         "issues": "https://github.com/figma/mcp-server-guide/issues"
       },
-      "updatedAt": "2026-10-14T08:45:59.000Z",
+      "updatedAt": "2026-10-15T07:08:06.000Z",
       "github": {
-        "stars": 2071,
-        "forks": 203,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2074,
+        "forks": 204,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5074,7 +5074,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "external_plugins/firebase",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "data",
       "strict": true,
@@ -5090,11 +5090,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5128,9 +5128,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-14T07:51:31.000Z",
       "github": {
-        "stars": 239,
+        "stars": 241,
         "forks": 34,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5166,7 +5166,7 @@
       "github": {
         "stars": 30,
         "forks": 6,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5201,8 +5201,8 @@
       "updatedAt": "2026-10-14T02:28:09.000Z",
       "github": {
         "stars": 25,
-        "forks": 12,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "forks": 13,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5216,7 +5216,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/frontend-design",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "coding",
       "strict": true,
@@ -5232,11 +5232,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5277,7 +5277,7 @@
       "github": {
         "stars": 11,
         "forks": 3,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5320,7 +5320,7 @@
       "github": {
         "stars": 0,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5334,7 +5334,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "external_plugins/github",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "office",
       "strict": true,
@@ -5350,11 +5350,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5389,7 +5389,7 @@
       "github": {
         "stars": 0,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5403,7 +5403,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "external_plugins/gitlab",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "office",
       "strict": true,
@@ -5419,11 +5419,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5457,9 +5457,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-09T20:32:34.000Z",
       "github": {
-        "stars": 31,
+        "stars": 32,
         "forks": 3,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5505,7 +5505,7 @@
       "github": {
         "stars": 0,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5546,7 +5546,7 @@
       "github": {
         "stars": 18,
         "forks": 4,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5591,7 +5591,7 @@
       "github": {
         "stars": 18,
         "forks": 4,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5634,7 +5634,7 @@
       "github": {
         "stars": 18,
         "forks": 4,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5678,7 +5678,7 @@
       "github": {
         "stars": 0,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5715,11 +5715,11 @@
         "issues": "https://github.com/growthbook/skills/issues"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-07T21:59:26.000Z",
+      "updatedAt": "2026-10-14T16:27:15.000Z",
       "github": {
         "stars": 23,
         "forks": 4,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5768,7 +5768,7 @@
       "github": {
         "stars": 4,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5813,7 +5813,7 @@
       "github": {
         "stars": 16,
         "forks": 3,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5860,7 +5860,7 @@
       "github": {
         "stars": 28,
         "forks": 7,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5874,7 +5874,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/hookify",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "office",
       "strict": true,
@@ -5890,11 +5890,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5927,9 +5927,9 @@
       },
       "updatedAt": "2026-10-05T07:49:55.000Z",
       "github": {
-        "stars": 4,
+        "stars": 5,
         "forks": 1,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5976,7 +5976,7 @@
       "github": {
         "stars": 4,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6018,9 +6018,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-08T15:30:08.000Z",
       "github": {
-        "stars": 11166,
-        "forks": 766,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 11170,
+        "forks": 768,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6064,11 +6064,11 @@
         "issues": "https://github.com/hunter-io/claude-plugin/issues"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-13T13:58:24.000Z",
+      "updatedAt": "2026-10-14T19:56:58.000Z",
       "github": {
         "stars": 8,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6101,11 +6101,11 @@
         "contributing": "https://github.com/heygen-com/hyperframes/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T08:42:00.000Z",
+      "updatedAt": "2026-10-15T08:21:50.000Z",
       "github": {
-        "stars": 63130,
-        "forks": 5662,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 63980,
+        "forks": 5743,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6157,7 +6157,7 @@
       "github": {
         "stars": 2,
         "forks": 4,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6171,7 +6171,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "external_plugins/imessage",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "office",
       "strict": true,
@@ -6191,11 +6191,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6209,12 +6209,12 @@
         "source": "github",
         "repo": "incident-io/skills",
         "path": "plugins/incident-io",
-        "sha": "c8e50a4a7a06a5c9abb20ec08ddfc85bad6d61b8"
+        "sha": "6af50e2e23e9c782b95a456aab5a053550fba3c9"
       },
       "category": "coding",
       "strict": true,
       "description": "Work with incident.io from Claude: respond to and investigate incidents, check on-call schedules and escalations, and author the runbooks, skills and architecture docs that incident.io investigations draw on. Bundles the official incident.io MCP server (OAuth on first use).",
-      "version": "1.20261007.771",
+      "version": "1.20261014.705",
       "displayName": "incident.io",
       "homepage": "https://incident.io",
       "author": {
@@ -6235,11 +6235,11 @@
         "issues": "https://github.com/incident-io/skills/issues"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-13T16:26:15.000Z",
+      "updatedAt": "2026-10-14T11:45:27.000Z",
       "github": {
         "stars": 2,
         "forks": 1,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6275,7 +6275,7 @@
       "github": {
         "stars": 1,
         "forks": 1,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6320,7 +6320,7 @@
       "github": {
         "stars": 2,
         "forks": 2,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6369,7 +6369,7 @@
       "github": {
         "stars": 0,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6416,11 +6416,11 @@
         "contributing": "https://github.com/jfrog/claude-plugin/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T06:47:52.000Z",
+      "updatedAt": "2026-10-14T11:09:18.000Z",
       "github": {
         "stars": 6,
         "forks": 7,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6456,7 +6456,7 @@
       "github": {
         "stars": 34,
         "forks": 6,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6499,9 +6499,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-01T11:12:09.000Z",
       "github": {
-        "stars": 303,
+        "stars": 304,
         "forks": 39,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6537,7 +6537,7 @@
       "github": {
         "stars": 26,
         "forks": 45,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6551,7 +6551,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "external_plugins/laravel-boost",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "coding",
       "strict": true,
@@ -6567,11 +6567,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6618,7 +6618,7 @@
       "github": {
         "stars": 0,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6632,7 +6632,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/learning-output-style",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "science",
       "strict": true,
@@ -6649,11 +6649,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6668,7 +6668,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "external_plugins/linear",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "office",
       "strict": true,
@@ -6684,11 +6684,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6724,7 +6724,7 @@
       "github": {
         "stars": 0,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6756,11 +6756,11 @@
         "contributing": "https://github.com/pydantic/skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-11T20:48:54.000Z",
+      "updatedAt": "2026-10-15T07:19:44.000Z",
       "github": {
         "stars": 142,
         "forks": 5,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6800,7 +6800,7 @@
       "github": {
         "stars": 2,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6836,7 +6836,7 @@
       "github": {
         "stars": 57,
         "forks": 5,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6878,7 +6878,7 @@
       "github": {
         "stars": 6,
         "forks": 6,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6920,7 +6920,7 @@
       "github": {
         "stars": 308,
         "forks": 37,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6970,7 +6970,7 @@
       "github": {
         "stars": 4,
         "forks": 1,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7014,7 +7014,7 @@
       "github": {
         "stars": 80,
         "forks": 18,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7028,7 +7028,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/math-olympiad",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "science",
       "strict": true,
@@ -7044,11 +7044,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7063,7 +7063,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/math-proof",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "science",
       "strict": true,
@@ -7079,11 +7079,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7126,9 +7126,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-13T08:46:40.000Z",
       "github": {
-        "stars": 290275,
-        "forks": 24362,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 291824,
+        "forks": 24465,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7170,9 +7170,9 @@
       },
       "updatedAt": "2026-09-25T15:59:03.000Z",
       "github": {
-        "stars": 2953,
-        "forks": 402,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2958,
+        "forks": 404,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7186,7 +7186,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/mcp-server-dev",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "coding",
       "strict": true,
@@ -7202,11 +7202,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7220,7 +7220,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/mcp-tunnels",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "coding",
       "strict": true,
@@ -7236,11 +7236,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7278,11 +7278,11 @@
         "contributing": "https://github.com/SAP/mdk-mcp-server/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T08:00:23.000Z",
+      "updatedAt": "2026-10-15T05:48:41.000Z",
       "github": {
         "stars": 37,
         "forks": 10,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7334,7 +7334,7 @@
       "github": {
         "stars": 32,
         "forks": 11,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7382,8 +7382,8 @@
       "updatedAt": "2026-10-14T01:15:17.000Z",
       "github": {
         "stars": 1948,
-        "forks": 263,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "forks": 265,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7471,8 +7471,8 @@
       "updatedAt": "2026-10-06T20:01:10.000Z",
       "github": {
         "stars": 24,
-        "forks": 40,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "forks": 41,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7546,7 +7546,7 @@
       "github": {
         "stars": 161,
         "forks": 21,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7578,11 +7578,11 @@
         "issues": "https://github.com/mlflow/skills/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-09T16:37:12.000Z",
+      "updatedAt": "2026-10-14T20:19:55.000Z",
       "github": {
         "stars": 81,
         "forks": 25,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7616,9 +7616,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-12T20:16:24.000Z",
       "github": {
-        "stars": 2470,
-        "forks": 92,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 2477,
+        "forks": 93,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7667,11 +7667,11 @@
         "issues": "https://github.com/mondaycom/mcp/issues"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-13T15:41:17.000Z",
+      "updatedAt": "2026-10-15T07:52:50.000Z",
       "github": {
         "stars": 429,
         "forks": 103,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7713,9 +7713,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-13T23:27:27.000Z",
       "github": {
-        "stars": 190,
+        "stars": 189,
         "forks": 41,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7757,9 +7757,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-13T23:27:27.000Z",
       "github": {
-        "stars": 190,
+        "stars": 189,
         "forks": 41,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7791,11 +7791,11 @@
         "contributing": "https://github.com/netlify/context-and-tools/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-12T03:05:22.000Z",
+      "updatedAt": "2026-10-14T18:49:48.000Z",
       "github": {
-        "stars": 40,
+        "stars": 41,
         "forks": 12,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7830,7 +7830,7 @@
       "github": {
         "stars": 2,
         "forks": 1,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7874,7 +7874,7 @@
       "github": {
         "stars": 3,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7927,7 +7927,7 @@
       "github": {
         "stars": 59,
         "forks": 19,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7957,11 +7957,11 @@
         "issues": "https://github.com/Noibu/ai-plugin/issues"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-08T13:41:15.000Z",
+      "updatedAt": "2026-10-14T18:24:16.000Z",
       "github": {
         "stars": 5,
         "forks": 11,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8012,11 +8012,11 @@
         "contributing": "https://github.com/NVIDIA/skills/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T01:22:12.000Z",
+      "updatedAt": "2026-10-15T03:14:40.000Z",
       "github": {
-        "stars": 3591,
-        "forks": 440,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 3604,
+        "forks": 444,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8081,11 +8081,11 @@
         "contributing": "https://github.com/oracle-samples/oracle-aidp-samples/blob/main/CONTRIBUTING.md"
       },
       "license": "UPL-1.0",
-      "updatedAt": "2026-10-14T00:20:20.000Z",
+      "updatedAt": "2026-10-14T20:34:53.000Z",
       "github": {
-        "stars": 53,
+        "stars": 54,
         "forks": 40,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8156,11 +8156,11 @@
         "contributing": "https://github.com/oracle-samples/oracle-aidp-samples/blob/main/CONTRIBUTING.md"
       },
       "license": "UPL-1.0",
-      "updatedAt": "2026-10-14T00:20:20.000Z",
+      "updatedAt": "2026-10-14T20:34:53.000Z",
       "github": {
-        "stars": 53,
+        "stars": 54,
         "forks": 40,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8227,11 +8227,11 @@
         "contributing": "https://github.com/oracle-samples/oracle-aidp-samples/blob/main/CONTRIBUTING.md"
       },
       "license": "UPL-1.0",
-      "updatedAt": "2026-10-14T00:20:20.000Z",
+      "updatedAt": "2026-10-14T20:34:53.000Z",
       "github": {
-        "stars": 53,
+        "stars": 54,
         "forks": 40,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8267,7 +8267,7 @@
       "github": {
         "stars": 12,
         "forks": 4,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8300,11 +8300,11 @@
         "contributing": "https://github.com/growthxai/output/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-13T22:08:55.000Z",
+      "updatedAt": "2026-10-14T20:42:37.000Z",
       "github": {
         "stars": 443,
         "forks": 14,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8340,7 +8340,7 @@
       "github": {
         "stars": 7,
         "forks": 1,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8386,7 +8386,7 @@
       "github": {
         "stars": 29,
         "forks": 9,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8428,7 +8428,7 @@
       "github": {
         "stars": 1,
         "forks": 4,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8471,7 +8471,7 @@
       "github": {
         "stars": 1,
         "forks": 4,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8515,7 +8515,7 @@
       "github": {
         "stars": 1,
         "forks": 4,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8549,7 +8549,7 @@
       "github": {
         "stars": 22,
         "forks": 11,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8601,7 +8601,7 @@
       "github": {
         "stars": 69,
         "forks": 12,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8633,11 +8633,11 @@
         "contributing": "https://github.com/pixeltable/pixeltable-skill/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-11T00:06:56.000Z",
+      "updatedAt": "2026-10-14T19:01:32.000Z",
       "github": {
         "stars": 6,
         "forks": 2,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8673,7 +8673,7 @@
       "github": {
         "stars": 5,
         "forks": 1,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8687,7 +8687,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/playground",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "coding",
       "strict": true,
@@ -8703,11 +8703,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8721,7 +8721,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "external_plugins/playwright",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "coding",
       "strict": true,
@@ -8737,11 +8737,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8755,7 +8755,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/plugin-dev",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "coding",
       "strict": true,
@@ -8771,11 +8771,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8816,11 +8816,11 @@
         "releases": "https://github.com/PostHog/ai-plugin/releases",
         "issues": "https://github.com/PostHog/ai-plugin/issues"
       },
-      "updatedAt": "2026-10-13T12:08:59.000Z",
+      "updatedAt": "2026-10-14T12:07:40.000Z",
       "github": {
-        "stars": 89,
-        "forks": 18,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 91,
+        "forks": 20,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8865,11 +8865,11 @@
         "releases": "https://github.com/gitroomhq/postiz-agent/releases",
         "issues": "https://github.com/gitroomhq/postiz-agent/issues"
       },
-      "updatedAt": "2026-10-13T12:27:05.000Z",
+      "updatedAt": "2026-10-15T08:22:55.000Z",
       "github": {
-        "stars": 515,
-        "forks": 107,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 517,
+        "forks": 108,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8883,7 +8883,7 @@
         "source": "github",
         "repo": "postmanlabs/postman-plugin",
         "path": "",
-        "sha": "0128d24704cfa71170d9df3b9fdc81959238be12"
+        "sha": "c6352ef5605cd46d3f817e15c601eeb9a56c08f7"
       },
       "category": "coding",
       "strict": true,
@@ -8913,11 +8913,11 @@
         "contributing": "https://github.com/postmanlabs/postman-plugin/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-13T14:16:56.000Z",
+      "updatedAt": "2026-10-14T14:07:32.000Z",
       "github": {
         "stars": 16,
         "forks": 7,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8931,7 +8931,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/pr-review-toolkit",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "office",
       "strict": true,
@@ -8947,11 +8947,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8997,7 +8997,7 @@
       "github": {
         "stars": 13,
         "forks": 1,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9030,7 +9030,7 @@
       "github": {
         "stars": 0,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9044,7 +9044,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/project-artifact",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "office",
       "strict": true,
@@ -9060,11 +9060,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9096,11 +9096,11 @@
         "contributing": "https://github.com/qdrant/skills/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T08:31:51.000Z",
+      "updatedAt": "2026-10-14T14:26:33.000Z",
       "github": {
         "stars": 257,
         "forks": 30,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9141,11 +9141,11 @@
         "contributing": "https://github.com/qodo-ai/qodo-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T07:21:53.000Z",
+      "updatedAt": "2026-10-14T19:31:14.000Z",
       "github": {
-        "stars": 56,
+        "stars": 57,
         "forks": 8,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9185,11 +9185,11 @@
         "contributing": "https://github.com/qodo-ai/qodo-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T07:21:53.000Z",
+      "updatedAt": "2026-10-14T19:31:14.000Z",
       "github": {
-        "stars": 56,
+        "stars": 57,
         "forks": 8,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9222,9 +9222,9 @@
       },
       "updatedAt": "2026-10-08T11:26:03.000Z",
       "github": {
-        "stars": 477,
+        "stars": 481,
         "forks": 48,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9266,7 +9266,7 @@
       "github": {
         "stars": 53,
         "forks": 18,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9301,7 +9301,7 @@
       "github": {
         "stars": 326,
         "forks": 44,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9315,7 +9315,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/ralph-loop",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "coding",
       "strict": true,
@@ -9332,11 +9332,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9380,7 +9380,7 @@
       "github": {
         "stars": 167,
         "forks": 31,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9418,11 +9418,11 @@
         "discussions": "https://github.com/Digital-Process-Tools/claude-remember/discussions",
         "contributing": "https://github.com/Digital-Process-Tools/claude-remember/blob/main/CONTRIBUTING.md"
       },
-      "updatedAt": "2026-10-14T08:46:58.000Z",
+      "updatedAt": "2026-10-15T08:21:41.000Z",
       "github": {
         "stars": 199,
         "forks": 58,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9465,7 +9465,7 @@
       "github": {
         "stars": 1,
         "forks": 2,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9503,11 +9503,11 @@
         "issues": "https://github.com/resend/resend-skills/issues"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-13T18:00:39.000Z",
+      "updatedAt": "2026-10-14T23:58:02.000Z",
       "github": {
-        "stars": 200,
+        "stars": 201,
         "forks": 30,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9549,11 +9549,11 @@
         "contributing": "https://github.com/RevenueCat/ai-toolkit/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-01T08:04:56.000Z",
+      "updatedAt": "2026-10-14T13:19:05.000Z",
       "github": {
         "stars": 73,
         "forks": 9,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9589,7 +9589,7 @@
       "github": {
         "stars": 0,
         "forks": 1,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9633,7 +9633,7 @@
       "github": {
         "stars": 1,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9678,11 +9678,11 @@
         "issues": "https://github.com/runwayml/skills/issues"
       },
       "license": "MIT",
-      "updatedAt": "2026-08-28T20:50:21.000Z",
+      "updatedAt": "2026-10-14T15:36:39.000Z",
       "github": {
-        "stars": 73,
-        "forks": 17,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 74,
+        "forks": 18,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9728,9 +9728,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-09T21:35:01.000Z",
       "github": {
-        "stars": 918,
-        "forks": 162,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 920,
+        "forks": 163,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9771,11 +9771,11 @@
         "contributing": "https://github.com/forcedotcom/sf-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-09T23:30:08.000Z",
+      "updatedAt": "2026-10-15T07:58:00.000Z",
       "github": {
-        "stars": 1084,
-        "forks": 368,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 1091,
+        "forks": 371,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9816,11 +9816,11 @@
         "contributing": "https://github.com/sanity-io/agent-toolkit/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-12T14:15:35.000Z",
+      "updatedAt": "2026-10-14T23:47:45.000Z",
       "github": {
-        "stars": 188,
+        "stars": 190,
         "forks": 30,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9862,8 +9862,8 @@
       "updatedAt": "2026-10-13T14:33:03.000Z",
       "github": {
         "stars": 403,
-        "forks": 26,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "forks": 27,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9923,11 +9923,11 @@
         "issues": "https://github.com/Scandit/skills/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:58.000Z",
+      "updatedAt": "2026-10-14T14:34:41.000Z",
       "github": {
         "stars": 19,
         "forks": 1,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9941,7 +9941,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/security-guidance",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "coding",
       "strict": true,
@@ -9958,11 +9958,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9998,7 +9998,7 @@
       "github": {
         "stars": 17,
         "forks": 7,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10035,11 +10035,11 @@
         "issues": "https://github.com/getsentry/plugin-claude/issues"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-09T18:03:56.000Z",
+      "updatedAt": "2026-10-14T21:19:38.000Z",
       "github": {
         "stars": 4,
         "forks": 1,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10073,7 +10073,7 @@
       "github": {
         "stars": 124,
         "forks": 14,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10087,7 +10087,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "external_plugins/serena",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "coding",
       "strict": true,
@@ -10106,11 +10106,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10149,9 +10149,9 @@
       },
       "updatedAt": "2026-10-13T19:01:05.000Z",
       "github": {
-        "stars": 132,
-        "forks": 34,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 133,
+        "forks": 33,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10193,7 +10193,7 @@
       "github": {
         "stars": 1,
         "forks": 4,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10235,7 +10235,7 @@
       "github": {
         "stars": 1,
         "forks": 4,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10282,7 +10282,7 @@
       "github": {
         "stars": 3,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10296,7 +10296,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/skill-creator",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "coding",
       "strict": true,
@@ -10312,11 +10312,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10349,11 +10349,11 @@
         "contributing": "https://github.com/slackapi/slack-skills-plugin/blob/main/.github/contributing.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-13T23:38:40.000Z",
+      "updatedAt": "2026-10-15T00:01:28.000Z",
       "github": {
         "stars": 147,
         "forks": 38,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10393,9 +10393,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-08T19:14:03.000Z",
       "github": {
-        "stars": 40,
-        "forks": 15,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 41,
+        "forks": 16,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10432,11 +10432,11 @@
         "releases": "https://github.com/SonarSource/sonarqube-agent-plugins/releases",
         "issues": "https://github.com/SonarSource/sonarqube-agent-plugins/issues"
       },
-      "updatedAt": "2026-10-14T08:37:35.000Z",
+      "updatedAt": "2026-10-14T15:03:27.000Z",
       "github": {
         "stars": 112,
         "forks": 6,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10470,7 +10470,7 @@
       "github": {
         "stars": 4,
         "forks": 2,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10504,7 +10504,7 @@
       "github": {
         "stars": 4,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10540,7 +10540,7 @@
       "github": {
         "stars": 19,
         "forks": 3,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10580,11 +10580,11 @@
         "issues": "https://github.com/spotify/ads-agentic-tools/issues",
         "contributing": "https://github.com/spotify/ads-agentic-tools/blob/main/CONTRIBUTING.md"
       },
-      "updatedAt": "2026-10-13T16:45:25.000Z",
+      "updatedAt": "2026-10-14T23:11:47.000Z",
       "github": {
         "stars": 19,
         "forks": 19,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10629,7 +10629,7 @@
       "github": {
         "stars": 16,
         "forks": 3,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10670,11 +10670,11 @@
         "contributing": "https://github.com/stripe/ai/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T00:44:49.000Z",
+      "updatedAt": "2026-10-15T00:44:30.000Z",
       "github": {
-        "stars": 1936,
-        "forks": 360,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 1945,
+        "forks": 364,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10710,7 +10710,7 @@
       "github": {
         "stars": 5,
         "forks": 1,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10757,9 +10757,9 @@
       },
       "updatedAt": "2026-10-14T04:19:53.000Z",
       "github": {
-        "stars": 35,
-        "forks": 13,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 36,
+        "forks": 14,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10812,9 +10812,9 @@
       "license": "MIT",
       "updatedAt": "2026-08-21T05:23:23.000Z",
       "github": {
-        "stars": 681,
-        "forks": 51,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 722,
+        "forks": 54,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10855,9 +10855,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-10T03:03:30.000Z",
       "github": {
-        "stars": 298838,
-        "forks": 26720,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 299328,
+        "forks": 26741,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10902,7 +10902,7 @@
       "github": {
         "stars": 0,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10947,7 +10947,7 @@
       "github": {
         "stars": 488,
         "forks": 42,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10961,7 +10961,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "external_plugins/telegram",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "office",
       "strict": true,
@@ -10981,11 +10981,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10999,7 +10999,7 @@
         "source": "github",
         "repo": "anthropics/claude-plugins-official",
         "path": "external_plugins/terraform",
-        "sha": "8bd00f08f0b04705e610cf132fbe2cf5ec44cfe3"
+        "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d"
       },
       "category": "coding",
       "strict": true,
@@ -11015,11 +11015,11 @@
         "issues": "https://github.com/anthropics/claude-plugins-official/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-14T07:40:19.000Z",
+      "updatedAt": "2026-10-15T07:40:14.000Z",
       "github": {
-        "stars": 37914,
-        "forks": 4262,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 38172,
+        "forks": 4283,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11063,9 +11063,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-13T17:33:52.000Z",
       "github": {
-        "stars": 36,
+        "stars": 37,
         "forks": 9,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11100,8 +11100,8 @@
       "updatedAt": "2026-08-14T18:37:22.000Z",
       "github": {
         "stars": 37,
-        "forks": 13,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "forks": 14,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11148,9 +11148,9 @@
       },
       "updatedAt": "2026-10-09T17:58:14.000Z",
       "github": {
-        "stars": 413,
-        "forks": 43,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 418,
+        "forks": 44,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11183,9 +11183,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T02:27:43.000Z",
       "github": {
-        "stars": 539,
-        "forks": 66,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 543,
+        "forks": 67,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11227,7 +11227,7 @@
       "github": {
         "stars": 10,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11270,7 +11270,7 @@
       "github": {
         "stars": 4,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11311,11 +11311,11 @@
         "releases": "https://github.com/vercel/vercel-plugin/releases",
         "issues": "https://github.com/vercel/vercel-plugin/issues"
       },
-      "updatedAt": "2026-10-13T17:41:41.000Z",
+      "updatedAt": "2026-10-14T22:05:50.000Z",
       "github": {
-        "stars": 305,
-        "forks": 65,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "stars": 306,
+        "forks": 66,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11349,7 +11349,7 @@
       "github": {
         "stars": 5,
         "forks": 2,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11400,9 +11400,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-11T07:33:12.000Z",
       "github": {
-        "stars": 167,
+        "stars": 181,
         "forks": 3,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11454,7 +11454,7 @@
       "github": {
         "stars": 1,
         "forks": 1,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11499,7 +11499,7 @@
       "github": {
         "stars": 0,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11540,11 +11540,11 @@
         "contributing": "https://github.com/wix/skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T08:37:57.000Z",
+      "updatedAt": "2026-10-15T08:21:40.000Z",
       "github": {
         "stars": 34,
-        "forks": 33,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "forks": 34,
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11579,7 +11579,7 @@
       "github": {
         "stars": 45,
         "forks": 6,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11629,7 +11629,7 @@
       "github": {
         "stars": 90,
         "forks": 16,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11678,9 +11678,9 @@
       "license": "MIT",
       "updatedAt": "2026-07-29T21:42:17.000Z",
       "github": {
-        "stars": 435,
+        "stars": 436,
         "forks": 70,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11722,7 +11722,7 @@
       "github": {
         "stars": 3,
         "forks": 3,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11767,7 +11767,7 @@
       "github": {
         "stars": 0,
         "forks": 0,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11820,7 +11820,7 @@
       "github": {
         "stars": 7,
         "forks": 2,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11922,7 +11922,7 @@
       "github": {
         "stars": 8,
         "forks": 6,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11958,7 +11958,7 @@
       "github": {
         "stars": 49,
         "forks": 33,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11992,7 +11992,7 @@
       "github": {
         "stars": 33,
         "forks": 5,
-        "fetchedAt": "2026-10-14T08:47:07.160Z"
+        "fetchedAt": "2026-10-15T08:21:55.409Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
