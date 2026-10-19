@@ -47,7 +47,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -92,7 +92,7 @@
       "github": {
         "stars": 4,
         "forks": 2,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -132,9 +132,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -172,11 +172,11 @@
         "contributing": "https://github.com/adobe/skills/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-19T02:47:17.000Z",
+      "updatedAt": "2026-10-19T10:02:01.000Z",
       "github": {
-        "stars": 214,
+        "stars": 215,
         "forks": 85,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -208,9 +208,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -251,7 +251,7 @@
       "github": {
         "stars": 116,
         "forks": 43,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -288,7 +288,7 @@
       "github": {
         "stars": 1162,
         "forks": 85,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -325,7 +325,7 @@
       "github": {
         "stars": 1162,
         "forks": 85,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -362,7 +362,7 @@
       "github": {
         "stars": 1162,
         "forks": 85,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -405,7 +405,7 @@
       "github": {
         "stars": 752,
         "forks": 56,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -441,7 +441,7 @@
       "github": {
         "stars": 143,
         "forks": 6,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -479,7 +479,7 @@
       "github": {
         "stars": 619,
         "forks": 233,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -523,7 +523,7 @@
       "github": {
         "stars": 768,
         "forks": 80,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -571,7 +571,7 @@
       "github": {
         "stars": 10,
         "forks": 2,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -682,7 +682,7 @@
       "github": {
         "stars": 52,
         "forks": 7,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -741,7 +741,7 @@
       "github": {
         "stars": 8,
         "forks": 2,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -785,7 +785,7 @@
       "github": {
         "stars": 8,
         "forks": 2,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -834,7 +834,7 @@
       "github": {
         "stars": 1,
         "forks": 3,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -889,7 +889,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -925,7 +925,7 @@
       "github": {
         "stars": 24,
         "forks": 6,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -961,7 +961,7 @@
       "github": {
         "stars": 4,
         "forks": 4,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1008,7 +1008,7 @@
       "github": {
         "stars": 4,
         "forks": 1,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1058,7 +1058,7 @@
       "github": {
         "stars": 924,
         "forks": 165,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1105,7 +1105,7 @@
       "github": {
         "stars": 30,
         "forks": 2,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1140,7 +1140,7 @@
       "github": {
         "stars": 45,
         "forks": 10,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1189,7 +1189,7 @@
       "github": {
         "stars": 1,
         "forks": 1,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1235,7 +1235,7 @@
       "github": {
         "stars": 29,
         "forks": 12,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1287,7 +1287,7 @@
       "github": {
         "stars": 117,
         "forks": 13,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1329,7 +1329,7 @@
       "github": {
         "stars": 10,
         "forks": 1,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1361,9 +1361,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1417,7 +1417,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1450,7 +1450,7 @@
       "github": {
         "stars": 454,
         "forks": 74,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1500,7 +1500,7 @@
       "github": {
         "stars": 41,
         "forks": 30,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1536,7 +1536,7 @@
       "github": {
         "stars": 1106,
         "forks": 157,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1584,9 +1584,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -1643,7 +1643,7 @@
       "github": {
         "stars": 2,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1683,7 +1683,7 @@
       "github": {
         "stars": 6287,
         "forks": 560,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1727,7 +1727,7 @@
       "github": {
         "stars": 1472,
         "forks": 52,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1764,7 +1764,7 @@
       "github": {
         "stars": 53,
         "forks": 29,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1798,9 +1798,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-15T16:22:50.000Z",
       "github": {
-        "stars": 11141,
+        "stars": 11144,
         "forks": 629,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1873,11 +1873,11 @@
         "contributing": "https://github.com/aws/agent-toolkit-for-aws/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-19T08:39:14.000Z",
+      "updatedAt": "2026-10-19T09:27:11.000Z",
       "github": {
         "stars": 2910,
         "forks": 380,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1947,11 +1947,11 @@
         "contributing": "https://github.com/aws/agent-toolkit-for-aws/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-19T08:39:14.000Z",
+      "updatedAt": "2026-10-19T09:27:11.000Z",
       "github": {
         "stars": 2910,
         "forks": 380,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -1998,7 +1998,7 @@
       "github": {
         "stars": 924,
         "forks": 165,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2139,11 +2139,11 @@
         "contributing": "https://github.com/aws/agent-toolkit-for-aws/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-19T08:39:14.000Z",
+      "updatedAt": "2026-10-19T09:27:11.000Z",
       "github": {
         "stars": 2910,
         "forks": 380,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2224,11 +2224,11 @@
         "contributing": "https://github.com/aws/agent-toolkit-for-aws/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-19T08:39:14.000Z",
+      "updatedAt": "2026-10-19T09:27:11.000Z",
       "github": {
         "stars": 2910,
         "forks": 380,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2280,7 +2280,7 @@
       "github": {
         "stars": 924,
         "forks": 165,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2389,11 +2389,11 @@
         "contributing": "https://github.com/aws/agent-toolkit-for-aws/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-19T08:39:14.000Z",
+      "updatedAt": "2026-10-19T09:27:11.000Z",
       "github": {
         "stars": 2910,
         "forks": 380,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2454,7 +2454,7 @@
       "github": {
         "stars": 924,
         "forks": 165,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2500,7 +2500,7 @@
       "github": {
         "stars": 1578,
         "forks": 259,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2546,7 +2546,7 @@
       "github": {
         "stars": 2,
         "forks": 2,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2593,7 +2593,7 @@
       "github": {
         "stars": 18,
         "forks": 7,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2642,7 +2642,7 @@
       "github": {
         "stars": 90,
         "forks": 19,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2703,7 +2703,7 @@
       "github": {
         "stars": 2,
         "forks": 2,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2739,7 +2739,7 @@
       "github": {
         "stars": 50,
         "forks": 4,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2796,7 +2796,7 @@
       "github": {
         "stars": 571,
         "forks": 135,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2838,7 +2838,7 @@
       "github": {
         "stars": 2,
         "forks": 1,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -2883,7 +2883,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -2921,7 +2921,7 @@
       "github": {
         "stars": 2424,
         "forks": 412,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2969,7 +2969,7 @@
       "github": {
         "stars": 5,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3024,9 +3024,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -3068,7 +3068,7 @@
       "github": {
         "stars": 7,
         "forks": 8,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3102,7 +3102,7 @@
       "github": {
         "stars": 1856,
         "forks": 115,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3189,7 +3189,7 @@
       "github": {
         "stars": 266,
         "forks": 36,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3235,7 +3235,7 @@
       "github": {
         "stars": 1534,
         "forks": 79,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3268,7 +3268,7 @@
       "github": {
         "stars": 25,
         "forks": 8,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3320,9 +3320,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -3374,9 +3374,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -3429,9 +3429,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -3515,9 +3515,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -3552,7 +3552,7 @@
       "github": {
         "stars": 51,
         "forks": 10,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3587,7 +3587,7 @@
       "github": {
         "stars": 18,
         "forks": 4,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3638,7 +3638,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -3685,7 +3685,7 @@
       "github": {
         "stars": 128,
         "forks": 29,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3737,11 +3737,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-19T08:05:12.000Z",
+      "updatedAt": "2026-10-19T10:04:17.000Z",
       "github": {
         "stars": 1024,
         "forks": 208,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3755,7 +3755,7 @@
         "source": "github",
         "repo": "renezander030/capcut-cli",
         "path": "",
-        "sha": "35bb010ffc5d4ab7c65c17be76928850d23a1d01"
+        "sha": "a9cd348229f799e278f22cf1375dbcda874b5bb0"
       },
       "category": "design",
       "strict": true,
@@ -3789,11 +3789,11 @@
         "contributing": "https://github.com/renezander030/capcut-cli/blob/master/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-18T01:55:40.000Z",
+      "updatedAt": "2026-10-19T09:06:32.000Z",
       "github": {
         "stars": 923,
         "forks": 96,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3829,7 +3829,7 @@
       "github": {
         "stars": 6,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3871,7 +3871,7 @@
       "github": {
         "stars": 15,
         "forks": 18,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3922,7 +3922,7 @@
       "github": {
         "stars": 15,
         "forks": 18,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -3972,7 +3972,7 @@
       "github": {
         "stars": 15,
         "forks": 18,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4019,7 +4019,7 @@
       "github": {
         "stars": 3,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4064,7 +4064,7 @@
       "github": {
         "stars": 567,
         "forks": 46,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4111,9 +4111,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-19T08:41:29.000Z",
       "github": {
-        "stars": 1674,
+        "stars": 1676,
         "forks": 88,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4156,7 +4156,7 @@
       "github": {
         "stars": 116,
         "forks": 19,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4208,9 +4208,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -4248,7 +4248,7 @@
       "github": {
         "stars": 685,
         "forks": 55,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4278,11 +4278,11 @@
         "contributing": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-19T08:57:19.000Z",
+      "updatedAt": "2026-10-19T10:00:21.000Z",
       "github": {
-        "stars": 53820,
-        "forks": 6987,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 53823,
+        "forks": 6999,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4325,7 +4325,7 @@
       "github": {
         "stars": 0,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4368,7 +4368,7 @@
       "github": {
         "stars": 1,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4411,9 +4411,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-16T20:04:44.000Z",
       "github": {
-        "stars": 155,
+        "stars": 156,
         "forks": 62,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4448,7 +4448,7 @@
       "github": {
         "stars": 3,
         "forks": 5,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4494,9 +4494,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -4541,7 +4541,7 @@
       "github": {
         "stars": 924,
         "forks": 82,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4598,7 +4598,7 @@
       "github": {
         "stars": 4,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4674,7 +4674,7 @@
       "github": {
         "stars": 2424,
         "forks": 412,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4718,7 +4718,7 @@
       "github": {
         "stars": 2424,
         "forks": 412,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4751,9 +4751,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4797,7 +4797,7 @@
       "github": {
         "stars": 815,
         "forks": 46,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4855,7 +4855,7 @@
       "github": {
         "stars": 890,
         "forks": 112,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4888,9 +4888,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -4936,11 +4936,11 @@
         "discussions": "https://github.com/thedotmack/claude-mem/discussions"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-19T08:10:06.000Z",
+      "updatedAt": "2026-10-19T10:08:29.000Z",
       "github": {
-        "stars": 101688,
-        "forks": 8936,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 101699,
+        "forks": 8938,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4980,11 +4980,11 @@
         "discussions": "https://github.com/thedotmack/claude-mem/discussions"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-19T08:10:06.000Z",
+      "updatedAt": "2026-10-19T10:08:29.000Z",
       "github": {
-        "stars": 101688,
-        "forks": 8936,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 101699,
+        "forks": 8938,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5036,9 +5036,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-18T17:55:37.000Z",
       "github": {
-        "stars": 15637,
-        "forks": 1558,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 15640,
+        "forks": 1559,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5081,9 +5081,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5135,7 +5135,7 @@
       "github": {
         "stars": 787,
         "forks": 90,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5182,7 +5182,7 @@
       "github": {
         "stars": 1385,
         "forks": 175,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5217,7 +5217,7 @@
       "github": {
         "stars": 140,
         "forks": 22,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5259,7 +5259,7 @@
       "github": {
         "stars": 7,
         "forks": 2,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5302,7 +5302,7 @@
       "github": {
         "stars": 550,
         "forks": 38,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5339,9 +5339,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -5377,7 +5377,7 @@
       "github": {
         "stars": 12,
         "forks": 2,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5413,7 +5413,7 @@
       "github": {
         "stars": 42,
         "forks": 7,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5449,7 +5449,7 @@
       "github": {
         "stars": 10,
         "forks": 5,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5496,7 +5496,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -5532,7 +5532,7 @@
       "github": {
         "stars": 3101,
         "forks": 317,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5588,7 +5588,7 @@
       "github": {
         "stars": 0,
         "forks": 3,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5636,7 +5636,7 @@
       "github": {
         "stars": 4,
         "forks": 3,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5679,11 +5679,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-19T08:05:12.000Z",
+      "updatedAt": "2026-10-19T10:04:17.000Z",
       "github": {
         "stars": 1024,
         "forks": 208,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5736,9 +5736,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-10T21:48:01.000Z",
       "github": {
-        "stars": 2455,
+        "stars": 2456,
         "forks": 246,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5771,9 +5771,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5805,9 +5805,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5840,9 +5840,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5890,7 +5890,7 @@
       "github": {
         "stars": 800,
         "forks": 126,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5933,7 +5933,7 @@
       "github": {
         "stars": 193,
         "forks": 16,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -5992,9 +5992,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -6046,9 +6046,9 @@
       "license": "MIT",
       "updatedAt": "2026-07-21T08:59:12.000Z",
       "github": {
-        "stars": 944,
+        "stars": 946,
         "forks": 80,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -6091,7 +6091,7 @@
       "github": {
         "stars": 376,
         "forks": 34,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6130,11 +6130,11 @@
         "contributing": "https://github.com/artokun/comfyui-mcp/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T15:35:51.000Z",
+      "updatedAt": "2026-10-19T09:31:42.000Z",
       "github": {
         "stars": 840,
         "forks": 136,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -6166,9 +6166,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6210,7 +6210,7 @@
       "github": {
         "stars": 9,
         "forks": 9,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6250,9 +6250,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -6287,9 +6287,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6342,7 +6342,7 @@
       "github": {
         "stars": 6,
         "forks": 8,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6386,7 +6386,7 @@
       "github": {
         "stars": 2072,
         "forks": 321,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -6444,9 +6444,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -6499,7 +6499,7 @@
       "github": {
         "stars": 26,
         "forks": 2,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6547,7 +6547,7 @@
       "github": {
         "stars": 35,
         "forks": 6,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6604,7 +6604,7 @@
       "github": {
         "stars": 26,
         "forks": 3,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6660,7 +6660,7 @@
       "github": {
         "stars": 2072,
         "forks": 321,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -6702,9 +6702,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6740,7 +6740,7 @@
       "github": {
         "stars": 223,
         "forks": 68,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6783,7 +6783,7 @@
       "github": {
         "stars": 5,
         "forks": 2,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -6854,9 +6854,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -6921,7 +6921,7 @@
       "github": {
         "stars": 924,
         "forks": 165,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7034,7 +7034,7 @@
       "github": {
         "stars": 17,
         "forks": 6,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7082,7 +7082,7 @@
       "github": {
         "stars": 44,
         "forks": 101,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7118,7 +7118,7 @@
       "github": {
         "stars": 1,
         "forks": 2,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7155,7 +7155,7 @@
       "github": {
         "stars": 31,
         "forks": 26,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7198,7 +7198,7 @@
       "github": {
         "stars": 246,
         "forks": 67,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7249,7 +7249,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -7293,9 +7293,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T06:25:04.000Z",
       "github": {
-        "stars": 18948,
+        "stars": 18953,
         "forks": 2093,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7340,7 +7340,7 @@
       "github": {
         "stars": 2072,
         "forks": 321,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -7388,7 +7388,7 @@
       "github": {
         "stars": 924,
         "forks": 165,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7439,7 +7439,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -7501,7 +7501,7 @@
       "github": {
         "stars": 4260,
         "forks": 371,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -7549,7 +7549,7 @@
       "github": {
         "stars": 548,
         "forks": 64,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -7596,7 +7596,7 @@
       "github": {
         "stars": 10098,
         "forks": 1289,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -7641,7 +7641,7 @@
       "github": {
         "stars": 702,
         "forks": 108,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -7688,7 +7688,7 @@
       "github": {
         "stars": 702,
         "forks": 108,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -7735,7 +7735,7 @@
       "github": {
         "stars": 702,
         "forks": 108,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -7786,7 +7786,7 @@
       "github": {
         "stars": 702,
         "forks": 108,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -7887,7 +7887,7 @@
       "github": {
         "stars": 895,
         "forks": 143,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -7942,7 +7942,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -7978,9 +7978,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8028,7 +8028,7 @@
       "github": {
         "stars": 7,
         "forks": 3,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8089,7 +8089,7 @@
       "github": {
         "stars": 8,
         "forks": 5,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8155,7 +8155,7 @@
       "github": {
         "stars": 609,
         "forks": 37,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8189,7 +8189,7 @@
       "github": {
         "stars": 9,
         "forks": 3,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8226,7 +8226,7 @@
       "github": {
         "stars": 165,
         "forks": 36,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8268,7 +8268,7 @@
       "github": {
         "stars": 567,
         "forks": 46,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -8302,7 +8302,7 @@
       "github": {
         "stars": 567,
         "forks": 46,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -8345,7 +8345,7 @@
       "github": {
         "stars": 1453,
         "forks": 116,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -8380,7 +8380,7 @@
       "github": {
         "stars": 5138,
         "forks": 415,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8425,7 +8425,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -8467,7 +8467,7 @@
       "github": {
         "stars": 2072,
         "forks": 321,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -8500,9 +8500,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8537,9 +8537,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-18T06:28:56.000Z",
       "github": {
-        "stars": 2927,
+        "stars": 2929,
         "forks": 191,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8589,9 +8589,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8634,7 +8634,7 @@
       "github": {
         "stars": 36,
         "forks": 7,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8666,9 +8666,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8704,7 +8704,7 @@
       "github": {
         "stars": 47,
         "forks": 11,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8734,11 +8734,11 @@
         "releases": "https://github.com/figma/mcp-server-guide/releases",
         "issues": "https://github.com/figma/mcp-server-guide/issues"
       },
-      "updatedAt": "2026-10-15T07:08:06.000Z",
+      "updatedAt": "2026-10-19T09:45:58.000Z",
       "github": {
         "stars": 2089,
         "forks": 206,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8793,7 +8793,7 @@
       "github": {
         "stars": 2072,
         "forks": 321,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -8844,7 +8844,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -8897,7 +8897,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -8929,9 +8929,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -8967,7 +8967,7 @@
       "github": {
         "stars": 244,
         "forks": 35,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9003,7 +9003,7 @@
       "github": {
         "stars": 30,
         "forks": 6,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9048,7 +9048,7 @@
       "github": {
         "stars": 711,
         "forks": 60,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -9091,7 +9091,7 @@
       "github": {
         "stars": 1432,
         "forks": 93,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -9127,7 +9127,7 @@
       "github": {
         "stars": 25,
         "forks": 13,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9172,7 +9172,7 @@
       "github": {
         "stars": 670,
         "forks": 55,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -9204,9 +9204,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9247,7 +9247,7 @@
       "github": {
         "stars": 11,
         "forks": 4,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9297,9 +9297,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -9342,7 +9342,7 @@
       "github": {
         "stars": 0,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9392,9 +9392,9 @@
       },
       "updatedAt": "2026-10-05T23:55:59.000Z",
       "github": {
-        "stars": 575,
+        "stars": 576,
         "forks": 41,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -9426,9 +9426,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9485,7 +9485,7 @@
       "github": {
         "stars": 0,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9517,9 +9517,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9580,9 +9580,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -9635,9 +9635,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -9673,7 +9673,7 @@
       "github": {
         "stars": 32,
         "forks": 3,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9726,9 +9726,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -9765,7 +9765,7 @@
       "github": {
         "stars": 0,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9806,7 +9806,7 @@
       "github": {
         "stars": 19,
         "forks": 4,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9851,7 +9851,7 @@
       "github": {
         "stars": 19,
         "forks": 4,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9894,7 +9894,7 @@
       "github": {
         "stars": 19,
         "forks": 4,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -9934,9 +9934,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -9980,7 +9980,7 @@
       "github": {
         "stars": 0,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10031,7 +10031,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -10072,7 +10072,7 @@
       "github": {
         "stars": 24,
         "forks": 4,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10121,7 +10121,7 @@
       "github": {
         "stars": 4,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10181,7 +10181,7 @@
       "github": {
         "stars": 9205,
         "forks": 1320,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -10225,7 +10225,7 @@
       "github": {
         "stars": 16,
         "forks": 3,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10277,7 +10277,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -10317,9 +10317,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -10356,7 +10356,7 @@
       "github": {
         "stars": 782,
         "forks": 45,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -10399,7 +10399,7 @@
       "github": {
         "stars": 1628,
         "forks": 122,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -10445,7 +10445,7 @@
       "github": {
         "stars": 27,
         "forks": 7,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10477,9 +10477,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10514,7 +10514,7 @@
       "github": {
         "stars": 5,
         "forks": 1,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10561,7 +10561,7 @@
       "github": {
         "stars": 4,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10605,7 +10605,7 @@
       "github": {
         "stars": 11181,
         "forks": 773,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10653,7 +10653,7 @@
       "github": {
         "stars": 8,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10708,7 +10708,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -10743,9 +10743,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:10:22.000Z",
       "github": {
-        "stars": 67089,
-        "forks": 6076,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 67157,
+        "forks": 6079,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10806,7 +10806,7 @@
       "github": {
         "stars": 3883,
         "forks": 408,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -10841,9 +10841,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-11T16:03:54.000Z",
       "github": {
-        "stars": 57760,
+        "stars": 57768,
         "forks": 3338,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -10894,7 +10894,7 @@
       "github": {
         "stars": 2,
         "forks": 4,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10930,9 +10930,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -10976,7 +10976,7 @@
       "github": {
         "stars": 2,
         "forks": 1,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11012,7 +11012,7 @@
       "github": {
         "stars": 1,
         "forks": 1,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11057,7 +11057,7 @@
       "github": {
         "stars": 2,
         "forks": 2,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11101,9 +11101,9 @@
       },
       "updatedAt": "2026-08-19T15:00:54.000Z",
       "github": {
-        "stars": 6771,
+        "stars": 6773,
         "forks": 128,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -11152,7 +11152,7 @@
       "github": {
         "stars": 0,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11199,7 +11199,7 @@
       "github": {
         "stars": 2072,
         "forks": 321,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -11246,11 +11246,11 @@
         "contributing": "https://github.com/jfrog/claude-plugin/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:27:21.000Z",
+      "updatedAt": "2026-10-19T09:31:12.000Z",
       "github": {
         "stars": 6,
         "forks": 7,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11295,7 +11295,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -11331,7 +11331,7 @@
       "github": {
         "stars": 34,
         "forks": 7,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11376,7 +11376,7 @@
       "github": {
         "stars": 309,
         "forks": 40,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11412,7 +11412,7 @@
       "github": {
         "stars": 29,
         "forks": 47,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11444,9 +11444,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11502,7 +11502,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -11549,7 +11549,7 @@
       "github": {
         "stars": 0,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11582,9 +11582,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11629,7 +11629,7 @@
       "github": {
         "stars": 2072,
         "forks": 321,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -11721,9 +11721,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -11755,9 +11755,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11805,7 +11805,7 @@
       "github": {
         "stars": 0,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11923,7 +11923,7 @@
       "github": {
         "stars": 143,
         "forks": 6,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11963,7 +11963,7 @@
       "github": {
         "stars": 2,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -11999,7 +11999,7 @@
       "github": {
         "stars": 57,
         "forks": 5,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -12041,7 +12041,7 @@
       "github": {
         "stars": 7,
         "forks": 6,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -12095,7 +12095,7 @@
       "github": {
         "stars": 310,
         "forks": 37,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -12145,7 +12145,7 @@
       "github": {
         "stars": 4,
         "forks": 1,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -12187,7 +12187,7 @@
       "github": {
         "stars": 567,
         "forks": 46,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -12236,9 +12236,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -12282,7 +12282,7 @@
       "github": {
         "stars": 82,
         "forks": 19,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -12326,7 +12326,7 @@
       "github": {
         "stars": 2072,
         "forks": 321,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -12370,9 +12370,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-10T21:48:01.000Z",
       "github": {
-        "stars": 2455,
+        "stars": 2456,
         "forks": 246,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -12407,9 +12407,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-15T21:33:21.000Z",
       "github": {
-        "stars": 55438,
-        "forks": 8207,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 55447,
+        "forks": 8209,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -12442,9 +12442,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -12477,9 +12477,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -12522,9 +12522,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-13T08:46:40.000Z",
       "github": {
-        "stars": 296702,
-        "forks": 24914,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 296788,
+        "forks": 24917,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -12568,7 +12568,7 @@
       "github": {
         "stars": 2976,
         "forks": 405,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -12612,9 +12612,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -12646,9 +12646,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -12690,7 +12690,7 @@
       "github": {
         "stars": 37,
         "forks": 11,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -12722,9 +12722,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-19T08:16:01.000Z",
       "github": {
-        "stars": 2759,
+        "stars": 2760,
         "forks": 268,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -12830,7 +12830,7 @@
       "github": {
         "stars": 32,
         "forks": 11,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -12882,9 +12882,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-10T21:48:01.000Z",
       "github": {
-        "stars": 2455,
+        "stars": 2456,
         "forks": 246,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -12933,7 +12933,7 @@
       "github": {
         "stars": 1951,
         "forks": 282,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -13022,7 +13022,7 @@
       "github": {
         "stars": 24,
         "forks": 41,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -13074,7 +13074,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -13148,7 +13148,7 @@
       "github": {
         "stars": 163,
         "forks": 21,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -13192,11 +13192,11 @@
         "contributing": "https://github.com/Ikalus1988/MisakaNet/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-19T05:06:24.000Z",
+      "updatedAt": "2026-10-19T09:07:57.000Z",
       "github": {
         "stars": 539,
-        "forks": 219,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "forks": 218,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -13248,9 +13248,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -13287,7 +13287,7 @@
       "github": {
         "stars": 81,
         "forks": 25,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -13331,11 +13331,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-19T08:05:12.000Z",
+      "updatedAt": "2026-10-19T10:04:17.000Z",
       "github": {
         "stars": 1024,
         "forks": 208,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -13380,11 +13380,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-19T08:05:12.000Z",
+      "updatedAt": "2026-10-19T10:04:17.000Z",
       "github": {
         "stars": 1024,
         "forks": 208,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -13437,7 +13437,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -13473,7 +13473,7 @@
       "github": {
         "stars": 2501,
         "forks": 95,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -13507,7 +13507,7 @@
       "github": {
         "stars": 565,
         "forks": 38,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -13545,9 +13545,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -13596,11 +13596,11 @@
         "issues": "https://github.com/mondaycom/mcp/issues"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-18T13:10:40.000Z",
+      "updatedAt": "2026-10-19T10:14:57.000Z",
       "github": {
         "stars": 433,
         "forks": 104,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -13644,7 +13644,7 @@
       "github": {
         "stars": 190,
         "forks": 42,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -13688,7 +13688,7 @@
       "github": {
         "stars": 190,
         "forks": 42,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -13721,9 +13721,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-30T13:31:42.000Z",
       "github": {
-        "stars": 3655,
-        "forks": 544,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 3658,
+        "forks": 545,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -13804,7 +13804,7 @@
       "github": {
         "stars": 41,
         "forks": 12,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -13839,7 +13839,7 @@
       "github": {
         "stars": 2,
         "forks": 1,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -13895,9 +13895,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -13941,7 +13941,7 @@
       "github": {
         "stars": 3,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -13994,7 +13994,7 @@
       "github": {
         "stars": 60,
         "forks": 19,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -14028,7 +14028,7 @@
       "github": {
         "stars": 5,
         "forks": 11,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -14066,7 +14066,7 @@
       "github": {
         "stars": 3959,
         "forks": 495,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -14118,9 +14118,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -14176,9 +14176,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -14233,7 +14233,7 @@
       "github": {
         "stars": 3643,
         "forks": 465,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -14291,7 +14291,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -14326,9 +14326,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-17T10:35:47.000Z",
       "github": {
-        "stars": 4811,
+        "stars": 4812,
         "forks": 607,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -14378,9 +14378,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-19T07:56:38.000Z",
       "github": {
-        "stars": 4260,
+        "stars": 4262,
         "forks": 408,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -14425,7 +14425,7 @@
       "github": {
         "stars": 1366,
         "forks": 119,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -14471,9 +14471,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -14525,9 +14525,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -14572,7 +14572,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -14615,7 +14615,7 @@
       "github": {
         "stars": 2072,
         "forks": 321,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -14700,7 +14700,7 @@
       "github": {
         "stars": 548,
         "forks": 64,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -14769,7 +14769,7 @@
       "github": {
         "stars": 56,
         "forks": 40,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -14844,7 +14844,7 @@
       "github": {
         "stars": 56,
         "forks": 40,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -14915,7 +14915,7 @@
       "github": {
         "stars": 56,
         "forks": 40,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -14951,7 +14951,7 @@
       "github": {
         "stars": 12,
         "forks": 4,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -15003,9 +15003,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -15055,9 +15055,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -15094,7 +15094,7 @@
       "github": {
         "stars": 443,
         "forks": 19,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -15130,7 +15130,7 @@
       "github": {
         "stars": 7,
         "forks": 1,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -15176,7 +15176,7 @@
       "github": {
         "stars": 31,
         "forks": 10,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -15221,11 +15221,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-19T08:05:12.000Z",
+      "updatedAt": "2026-10-19T10:04:17.000Z",
       "github": {
         "stars": 1024,
         "forks": 208,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -15276,7 +15276,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -15318,7 +15318,7 @@
       "github": {
         "stars": 1,
         "forks": 4,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -15361,7 +15361,7 @@
       "github": {
         "stars": 1,
         "forks": 4,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -15405,7 +15405,7 @@
       "github": {
         "stars": 1,
         "forks": 4,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -15449,7 +15449,7 @@
       "github": {
         "stars": 2072,
         "forks": 321,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -15500,7 +15500,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -15545,7 +15545,7 @@
       "github": {
         "stars": 567,
         "forks": 46,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -15598,7 +15598,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -15632,7 +15632,7 @@
       "github": {
         "stars": 22,
         "forks": 11,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -15684,7 +15684,7 @@
       "github": {
         "stars": 69,
         "forks": 12,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -15736,7 +15736,7 @@
       "github": {
         "stars": 6,
         "forks": 2,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -15772,7 +15772,7 @@
       "github": {
         "stars": 5,
         "forks": 1,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -15804,9 +15804,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -15838,9 +15838,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -15872,9 +15872,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -15923,9 +15923,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -15969,7 +15969,7 @@
       "github": {
         "stars": 2072,
         "forks": 321,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -16007,9 +16007,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-18T01:55:14.000Z",
       "github": {
-        "stars": 167383,
-        "forks": 9085,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 167459,
+        "forks": 9091,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -16056,7 +16056,7 @@
       "github": {
         "stars": 92,
         "forks": 20,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -16118,7 +16118,7 @@
       "github": {
         "stars": 523,
         "forks": 110,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -16166,7 +16166,7 @@
       "github": {
         "stars": 22,
         "forks": 9,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -16211,11 +16211,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-19T08:05:12.000Z",
+      "updatedAt": "2026-10-19T10:04:17.000Z",
       "github": {
         "stars": 1024,
         "forks": 208,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -16256,11 +16256,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-19T08:05:12.000Z",
+      "updatedAt": "2026-10-19T10:04:17.000Z",
       "github": {
         "stars": 1024,
         "forks": 208,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -16323,11 +16323,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-19T08:05:12.000Z",
+      "updatedAt": "2026-10-19T10:04:17.000Z",
       "github": {
         "stars": 1024,
         "forks": 208,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -16359,9 +16359,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -16407,7 +16407,7 @@
       "github": {
         "stars": 13,
         "forks": 1,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -16440,7 +16440,7 @@
       "github": {
         "stars": 0,
         "forks": 1,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -16480,11 +16480,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-19T08:05:12.000Z",
+      "updatedAt": "2026-10-19T10:04:17.000Z",
       "github": {
         "stars": 1024,
         "forks": 208,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -16528,7 +16528,7 @@
       "github": {
         "stars": 2072,
         "forks": 321,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -16586,9 +16586,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -16631,9 +16631,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-10T21:48:01.000Z",
       "github": {
-        "stars": 2455,
+        "stars": 2456,
         "forks": 246,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -16680,9 +16680,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-10T21:48:01.000Z",
       "github": {
-        "stars": 2455,
+        "stars": 2456,
         "forks": 246,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -16714,9 +16714,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -16770,9 +16770,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-18T19:58:22.000Z",
       "github": {
-        "stars": 3015,
-        "forks": 287,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 3020,
+        "forks": 286,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -16838,9 +16838,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -16876,7 +16876,7 @@
       "github": {
         "stars": 260,
         "forks": 30,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -16917,11 +16917,11 @@
         "contributing": "https://github.com/qodo-ai/qodo-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T19:31:14.000Z",
+      "updatedAt": "2026-10-19T09:23:23.000Z",
       "github": {
         "stars": 57,
         "forks": 8,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -16973,11 +16973,11 @@
         "contributing": "https://github.com/qodo-ai/qodo-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-14T19:31:14.000Z",
+      "updatedAt": "2026-10-19T09:23:23.000Z",
       "github": {
         "stars": 57,
         "forks": 8,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -17012,7 +17012,7 @@
       "github": {
         "stars": 488,
         "forks": 48,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -17050,11 +17050,11 @@
         "issues": "https://github.com/quarkusio/quarkus-agent-mcp/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-12T07:31:07.000Z",
+      "updatedAt": "2026-10-19T10:04:31.000Z",
       "github": {
         "stars": 53,
         "forks": 18,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -17089,7 +17089,7 @@
       "github": {
         "stars": 326,
         "forks": 44,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -17122,9 +17122,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -17170,7 +17170,7 @@
       "github": {
         "stars": 559,
         "forks": 51,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -17219,7 +17219,7 @@
       "github": {
         "stars": 559,
         "forks": 51,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -17272,7 +17272,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -17316,7 +17316,7 @@
       "github": {
         "stars": 761,
         "forks": 47,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -17360,7 +17360,7 @@
       "github": {
         "stars": 167,
         "forks": 31,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -17402,7 +17402,7 @@
       "github": {
         "stars": 201,
         "forks": 60,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -17454,9 +17454,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -17500,7 +17500,7 @@
       "github": {
         "stars": 1,
         "forks": 2,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -17542,7 +17542,7 @@
       "github": {
         "stars": 202,
         "forks": 31,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -17586,7 +17586,7 @@
       "github": {
         "stars": 2072,
         "forks": 321,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -17628,11 +17628,11 @@
         "contributing": "https://github.com/RevenueCat/ai-toolkit/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-16T15:42:14.000Z",
+      "updatedAt": "2026-10-19T09:20:05.000Z",
       "github": {
         "stars": 74,
         "forks": 10,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -17686,7 +17686,7 @@
       "github": {
         "stars": 567,
         "forks": 46,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -17721,7 +17721,7 @@
       "github": {
         "stars": 0,
         "forks": 1,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -17765,7 +17765,7 @@
       "github": {
         "stars": 1,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -17818,7 +17818,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -17867,7 +17867,7 @@
       "github": {
         "stars": 74,
         "forks": 18,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -17915,7 +17915,7 @@
       "github": {
         "stars": 924,
         "forks": 165,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -17959,9 +17959,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-10T21:48:01.000Z",
       "github": {
-        "stars": 2455,
+        "stars": 2456,
         "forks": 246,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -18006,7 +18006,7 @@
       "github": {
         "stars": 1103,
         "forks": 372,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -18051,7 +18051,7 @@
       "github": {
         "stars": 191,
         "forks": 30,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -18094,7 +18094,7 @@
       "github": {
         "stars": 404,
         "forks": 27,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -18158,7 +18158,7 @@
       "github": {
         "stars": 20,
         "forks": 2,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -18203,7 +18203,7 @@
       "github": {
         "stars": 2072,
         "forks": 321,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -18236,9 +18236,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -18274,7 +18274,7 @@
       "github": {
         "stars": 17,
         "forks": 7,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -18315,7 +18315,7 @@
       "github": {
         "stars": 4,
         "forks": 1,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -18361,7 +18361,7 @@
       "github": {
         "stars": 124,
         "forks": 14,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -18396,9 +18396,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -18439,7 +18439,7 @@
       "github": {
         "stars": 134,
         "forks": 33,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -18481,7 +18481,7 @@
       "github": {
         "stars": 1,
         "forks": 4,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -18523,7 +18523,7 @@
       "github": {
         "stars": 1,
         "forks": 4,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -18573,9 +18573,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -18622,7 +18622,7 @@
       "github": {
         "stars": 3,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -18662,9 +18662,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -18741,9 +18741,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -18780,7 +18780,7 @@
       "github": {
         "stars": 150,
         "forks": 39,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -18834,7 +18834,7 @@
       "github": {
         "stars": 41,
         "forks": 16,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -18871,11 +18871,11 @@
         "releases": "https://github.com/SonarSource/sonarqube-agent-plugins/releases",
         "issues": "https://github.com/SonarSource/sonarqube-agent-plugins/issues"
       },
-      "updatedAt": "2026-10-19T08:55:06.000Z",
+      "updatedAt": "2026-10-19T09:13:20.000Z",
       "github": {
         "stars": 112,
         "forks": 6,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -18909,7 +18909,7 @@
       "github": {
         "stars": 4,
         "forks": 2,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -18960,7 +18960,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -18994,7 +18994,7 @@
       "github": {
         "stars": 4,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -19030,7 +19030,7 @@
       "github": {
         "stars": 19,
         "forks": 3,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -19074,7 +19074,7 @@
       "github": {
         "stars": 20,
         "forks": 19,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -19119,7 +19119,7 @@
       "github": {
         "stars": 16,
         "forks": 3,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -19164,7 +19164,7 @@
       "github": {
         "stars": 568,
         "forks": 70,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -19207,9 +19207,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-19T06:40:17.000Z",
       "github": {
-        "stars": 2749,
+        "stars": 2752,
         "forks": 71,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -19256,9 +19256,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-10T21:48:01.000Z",
       "github": {
-        "stars": 2455,
+        "stars": 2456,
         "forks": 246,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -19337,9 +19337,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-19T00:49:48.000Z",
       "github": {
-        "stars": 1962,
-        "forks": 389,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 1963,
+        "forks": 390,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -19387,7 +19387,7 @@
       "github": {
         "stars": 5,
         "forks": 1,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -19436,7 +19436,7 @@
       "github": {
         "stars": 36,
         "forks": 16,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -19503,7 +19503,7 @@
       "github": {
         "stars": 841,
         "forks": 67,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -19544,9 +19544,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-10T03:03:30.000Z",
       "github": {
-        "stars": 301812,
-        "forks": 26951,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 301842,
+        "forks": 26953,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -19603,7 +19603,7 @@
       "github": {
         "stars": 0,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -19651,9 +19651,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-10T21:48:01.000Z",
       "github": {
-        "stars": 2455,
+        "stars": 2456,
         "forks": 246,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -19698,7 +19698,7 @@
       "github": {
         "stars": 488,
         "forks": 42,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -19737,7 +19737,7 @@
       "github": {
         "stars": 568,
         "forks": 70,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -19783,9 +19783,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-10T21:48:01.000Z",
       "github": {
-        "stars": 2455,
+        "stars": 2456,
         "forks": 246,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -19836,9 +19836,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -19883,7 +19883,7 @@
       "github": {
         "stars": 2072,
         "forks": 321,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -19919,9 +19919,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -19972,9 +19972,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -20027,7 +20027,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -20041,7 +20041,7 @@
         "source": "github",
         "repo": "zenbu-labs/terminal-browser",
         "path": "claude-code-plugin",
-        "sha": "a0db9b58e1ba3bf022400006358e2c1477146631"
+        "sha": "62033f65673764a65496154994ce29e5b1a03236"
       },
       "category": "enhancement",
       "strict": true,
@@ -20062,11 +20062,11 @@
         "issues": "https://github.com/zenbu-labs/terminal-browser/issues"
       },
       "license": "MIT",
-      "updatedAt": "2026-10-19T08:51:40.000Z",
+      "updatedAt": "2026-10-19T10:16:29.000Z",
       "github": {
-        "stars": 3934,
+        "stars": 3935,
         "forks": 204,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -20098,9 +20098,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-10-19T07:52:14.000Z",
       "github": {
-        "stars": 42972,
-        "forks": 4549,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 43016,
+        "forks": 4552,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -20153,9 +20153,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -20206,7 +20206,7 @@
       "github": {
         "stars": 554,
         "forks": 101,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -20257,7 +20257,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -20295,9 +20295,9 @@
       },
       "updatedAt": "2026-10-16T22:55:56.000Z",
       "github": {
-        "stars": 2598,
+        "stars": 2599,
         "forks": 205,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -20343,7 +20343,7 @@
       "github": {
         "stars": 37,
         "forks": 9,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -20384,9 +20384,9 @@
       },
       "updatedAt": "2026-10-16T22:55:56.000Z",
       "github": {
-        "stars": 2598,
+        "stars": 2599,
         "forks": 205,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -20427,9 +20427,9 @@
       },
       "updatedAt": "2026-10-16T22:55:56.000Z",
       "github": {
-        "stars": 2598,
+        "stars": 2599,
         "forks": 205,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -20461,7 +20461,7 @@
       "github": {
         "stars": 738,
         "forks": 89,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -20524,7 +20524,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -20560,7 +20560,7 @@
       "github": {
         "stars": 37,
         "forks": 14,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -20617,7 +20617,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -20663,9 +20663,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-19T07:56:38.000Z",
       "github": {
-        "stars": 4260,
+        "stars": 4262,
         "forks": 408,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -20711,7 +20711,7 @@
       "github": {
         "stars": 801,
         "forks": 72,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -20758,9 +20758,9 @@
       },
       "updatedAt": "2026-10-16T20:28:22.000Z",
       "github": {
-        "stars": 446,
+        "stars": 459,
         "forks": 47,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -20807,7 +20807,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -20840,9 +20840,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-17T02:27:43.000Z",
       "github": {
-        "stars": 1159,
-        "forks": 115,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "stars": 1182,
+        "forks": 117,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -20894,9 +20894,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-10T21:48:01.000Z",
       "github": {
-        "stars": 2455,
+        "stars": 2456,
         "forks": 246,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -20938,7 +20938,7 @@
       "github": {
         "stars": 10,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -21023,7 +21023,7 @@
       "github": {
         "stars": 5,
         "forks": 1,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -21074,7 +21074,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -21115,11 +21115,11 @@
         "releases": "https://github.com/vercel/vercel-plugin/releases",
         "issues": "https://github.com/vercel/vercel-plugin/issues"
       },
-      "updatedAt": "2026-10-19T08:36:02.000Z",
+      "updatedAt": "2026-10-19T10:05:55.000Z",
       "github": {
         "stars": 310,
         "forks": 69,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -21184,7 +21184,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -21232,7 +21232,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -21268,7 +21268,7 @@
       "github": {
         "stars": 581,
         "forks": 108,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -21315,7 +21315,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -21349,7 +21349,7 @@
       "github": {
         "stars": 5,
         "forks": 2,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -21400,9 +21400,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-11T07:33:12.000Z",
       "github": {
-        "stars": 206,
+        "stars": 207,
         "forks": 3,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -21456,7 +21456,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -21512,7 +21512,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -21563,7 +21563,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -21614,7 +21614,7 @@
       "github": {
         "stars": 1,
         "forks": 1,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -21659,7 +21659,7 @@
       "github": {
         "stars": 0,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -21703,8 +21703,8 @@
       "updatedAt": "2026-10-19T07:05:35.000Z",
       "github": {
         "stars": 34,
-        "forks": 35,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "forks": 36,
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -21755,7 +21755,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -21790,7 +21790,7 @@
       "github": {
         "stars": 45,
         "forks": 6,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -21843,7 +21843,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -21893,7 +21893,7 @@
       "github": {
         "stars": 94,
         "forks": 16,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -21944,7 +21944,7 @@
       "github": {
         "stars": 443,
         "forks": 75,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -21992,7 +21992,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -22032,7 +22032,7 @@
       "github": {
         "stars": 104,
         "forks": 78,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -22074,7 +22074,7 @@
       "github": {
         "stars": 3,
         "forks": 3,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -22119,7 +22119,7 @@
       "github": {
         "stars": 0,
         "forks": 0,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -22174,9 +22174,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -22229,7 +22229,7 @@
       "github": {
         "stars": 7,
         "forks": 2,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -22331,7 +22331,7 @@
       "github": {
         "stars": 8,
         "forks": 6,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -22382,9 +22382,9 @@
       },
       "updatedAt": "2026-10-08T05:21:35.000Z",
       "github": {
-        "stars": 7497,
+        "stars": 7500,
         "forks": 978,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -22430,9 +22430,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-12T06:21:42.000Z",
       "github": {
-        "stars": 49,
+        "stars": 50,
         "forks": 33,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",
@@ -22466,7 +22466,7 @@
       "github": {
         "stars": 33,
         "forks": 5,
-        "fetchedAt": "2026-10-19T08:57:59.446Z"
+        "fetchedAt": "2026-10-19T10:15:02.474Z"
       },
       "x-omnimind": {
         "sourceId": "anthropic",

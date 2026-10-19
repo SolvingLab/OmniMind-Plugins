@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T08:57:58.547Z",
+  "generatedAt": "2026-10-19T10:14:38.250Z",
   "sources": {
     "anthropic": {
       "marketplace": "omnimind-ext-anthropic",
@@ -99,7 +99,7 @@
         },
         {
           "repo": "SolvingLab/OmniMind-Plugins",
-          "sha": "adda4ddc9d51d88e614a08bcb7a45f3aac416b07",
+          "sha": "bd9abe51af9f6646c911644df76241a038e12537",
           "roots": [],
           "reason": "unsupported_manifest"
         },
@@ -8750,7 +8750,7 @@
           "source": "github",
           "repo": "renezander030/capcut-cli",
           "path": "",
-          "sha": "35bb010ffc5d4ab7c65c17be76928850d23a1d01"
+          "sha": "a9cd348229f799e278f22cf1375dbcda874b5bb0"
         },
         "merged": true,
         "category": "design",
@@ -13482,7 +13482,7 @@
           "source": "github",
           "repo": "zenbu-labs/terminal-browser",
           "path": "claude-code-plugin",
-          "sha": "a0db9b58e1ba3bf022400006358e2c1477146631"
+          "sha": "62033f65673764a65496154994ce29e5b1a03236"
         },
         "merged": true,
         "category": "enhancement",
@@ -14278,9 +14278,9 @@
     "Referenced website revision contains 9 external entries; requested 10. Missing entry requires a source; no placeholder was invented."
   ],
   "github": {
-    "requests": 161,
-    "cacheHits": 460,
-    "graphqlBatches": 49,
+    "requests": 158,
+    "cacheHits": 961,
+    "graphqlBatches": 45,
     "detailFallbacks": 0,
     "detailPartial": 0,
     "admissionUnavailable": 9
