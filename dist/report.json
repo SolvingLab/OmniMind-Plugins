@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T08:05:33.764Z",
+  "generatedAt": "2026-10-19T08:57:58.547Z",
   "sources": {
     "anthropic": {
       "marketplace": "omnimind-ext-anthropic",
@@ -50,7 +50,7 @@
       "repositoryReasons": {},
       "upstream": {
         "repo": "zai-org/zcode-plugins",
-        "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9",
+        "sha": "660ca283f6ecd19181182f3b1d566a843f245947",
         "path": "marketplace.json"
       }
     },
@@ -99,7 +99,7 @@
         },
         {
           "repo": "SolvingLab/OmniMind-Plugins",
-          "sha": "b72b91022644f4be5010f42e1caa5520b74a70fd",
+          "sha": "adda4ddc9d51d88e614a08bcb7a45f3aac416b07",
           "roots": [],
           "reason": "unsupported_manifest"
         },
@@ -156,8 +156,7 @@
         "aggregator_over_20": 3,
         "awesome_list": 3,
         "missing_license": 4,
-        "too_young": 1,
-        "unsupported_manifest": 9
+        "unsupported_manifest": 10
       },
       "searches": [
         {
@@ -368,7 +367,7 @@
               "source": "github",
               "repo": "cbrock84/headcount",
               "path": "plugins/data-analytics",
-              "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+              "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
             }
           }
         ]
@@ -488,7 +487,7 @@
               "source": "github",
               "repo": "zai-org/zcode-plugins",
               "path": "plugins/github",
-              "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+              "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
             }
           }
         ]
@@ -510,7 +509,7 @@
               "source": "github",
               "repo": "zai-org/zcode-plugins",
               "path": "plugins/gitlab",
-              "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+              "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
             }
           }
         ]
@@ -818,7 +817,7 @@
               "source": "github",
               "repo": "zai-org/zcode-plugins",
               "path": "plugins/zotero",
-              "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+              "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
             }
           }
         ]
@@ -1559,7 +1558,7 @@
         "source": "github",
         "repo": "thedotmack/claude-mem",
         "path": "plugin",
-        "sha": "b85cd123daf8e5bd59edb2d1c7b98e0bba28b3a0"
+        "sha": "3fae1eb45ba1a7fbd4818527f48b439991a273da"
       },
       "reason": "duplicate_name_within_source"
     },
@@ -1567,9 +1566,9 @@
       "id": "community",
       "scope": "repository",
       "repo": "coldteadotai/abide",
-      "reason": "too_young",
+      "reason": "unsupported_manifest",
       "details": [
-        "too_young"
+        "unsupported_manifest"
       ]
     },
     {
@@ -7437,7 +7436,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/accounting-and-reporting",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "data",
@@ -7452,7 +7451,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/alibaba-cloud-cli",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "coding",
@@ -7467,7 +7466,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/assess-credit",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "data",
@@ -7482,7 +7481,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/blender",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "office",
@@ -7497,7 +7496,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/cadcraft",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "office",
@@ -7512,7 +7511,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/cloudbase-skills",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "coding",
@@ -7527,7 +7526,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/deckcraft",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "office",
@@ -7542,7 +7541,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/designcraft",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "office",
@@ -7557,7 +7556,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/dingtalk-cli",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "office",
@@ -7572,7 +7571,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/excalidraw",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "office",
@@ -7587,7 +7586,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/finance-search",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "data",
@@ -7602,7 +7601,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/find-clients",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "data",
@@ -7617,7 +7616,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/github",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": false,
         "category": "coding",
@@ -7632,7 +7631,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/gitlab",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": false,
         "category": "coding",
@@ -7647,7 +7646,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/gridcraft",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "office",
@@ -7662,7 +7661,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/hexin",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "data",
@@ -7677,7 +7676,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/hyper3d-rodin",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "coding",
@@ -7692,7 +7691,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/jupyter-notebook",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "coding",
@@ -7707,7 +7706,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/lark-cli",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "office",
@@ -7722,7 +7721,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/mimosa",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "coding",
@@ -7737,7 +7736,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/model-deals",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "data",
@@ -7752,7 +7751,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/obsidian",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "office",
@@ -7767,7 +7766,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/openpencil",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "office",
@@ -7782,7 +7781,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/pdfcraft",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "office",
@@ -7797,7 +7796,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/photocraft",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "office",
@@ -7812,7 +7811,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/pick-funds",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "data",
@@ -7827,7 +7826,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/read-macro",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "data",
@@ -7842,7 +7841,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/run-fpa",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "data",
@@ -7857,7 +7856,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/soundcraft",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "office",
@@ -7872,7 +7871,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/tencent-meeting-cli",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "office",
@@ -7887,7 +7886,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/tianyancha",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "data",
@@ -7902,7 +7901,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/tripo-3d",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "office",
@@ -7917,7 +7916,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/typst-workbench",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "office",
@@ -7932,7 +7931,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/unreal-engine",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "coding",
@@ -7947,7 +7946,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/vectorcraft",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "office",
@@ -7962,7 +7961,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/vet-companies",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "data",
@@ -7977,7 +7976,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/video-agent-kit",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "office",
@@ -7992,7 +7991,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/video2code",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "office",
@@ -8007,7 +8006,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/watch-positions",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "data",
@@ -8022,7 +8021,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/wecom-cli",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "office",
@@ -8037,7 +8036,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/wind",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "data",
@@ -8052,7 +8051,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/wordcraft",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "office",
@@ -8067,7 +8066,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/write-research",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "data",
@@ -8082,7 +8081,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/zcode-context",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "coding",
@@ -8097,7 +8096,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/zcode-mcp-app-dev",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": true,
         "category": "coding",
@@ -8112,7 +8111,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/zotero",
-          "sha": "7dae04642665f1849ed8a84ebf89c49e4c428ef9"
+          "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
         },
         "merged": false,
         "category": "office",
@@ -8127,7 +8126,7 @@
           "source": "github",
           "repo": "agentrq/agentrq",
           "path": "plugins/claude/agentrq",
-          "sha": "6aa30f93d72a3f940ebbe5f18186f1c117d9f35a"
+          "sha": "2ec3cce155b95dc92bd57b577d84f3fb79a3e064"
         },
         "merged": true,
         "category": "collaboration",
@@ -8178,7 +8177,7 @@
           "source": "github",
           "repo": "agentrq/agentrq",
           "path": "plugins/claude/agentrq-custom-supervisor",
-          "sha": "6aa30f93d72a3f940ebbe5f18186f1c117d9f35a"
+          "sha": "2ec3cce155b95dc92bd57b577d84f3fb79a3e064"
         },
         "merged": true,
         "category": "collaboration",
@@ -8237,7 +8236,7 @@
           "source": "github",
           "repo": "agentrq/agentrq",
           "path": "plugins/claude/agentrq-workspace",
-          "sha": "6aa30f93d72a3f940ebbe5f18186f1c117d9f35a"
+          "sha": "2ec3cce155b95dc92bd57b577d84f3fb79a3e064"
         },
         "merged": true,
         "category": "collaboration",
@@ -8619,7 +8618,7 @@
           "source": "github",
           "repo": "hyhmrright/brooks-lint",
           "path": "",
-          "sha": "c85f65eada5c56721275ef89e2dd41ac453dcba2"
+          "sha": "917ea82286e74569817875e6a9da8bdf95030c3f"
         },
         "merged": true,
         "category": "coding",
@@ -8891,7 +8890,7 @@
           "source": "github",
           "repo": "kenryu42/cc-safety-net",
           "path": "",
-          "sha": "9ef6d15eeb32ee9aec43d667631a6e9a0aad7da2"
+          "sha": "5e51bf3af8ec4b2c20db37fcb6f6ef4b3071f21d"
         },
         "merged": true,
         "category": "enhancement",
@@ -8940,7 +8939,7 @@
           "source": "github",
           "repo": "SethGammon/Citadel",
           "path": "",
-          "sha": "8f94f0d3d1ad797d795702abcbee04eb9460b705"
+          "sha": "1dc5e9627d7078d584e9c11fa2722042e4917ef3"
         },
         "merged": true,
         "category": "enhancement",
@@ -9237,7 +9236,7 @@
           "source": "github",
           "repo": "thedotmack/claude-mem",
           "path": "",
-          "sha": "b85cd123daf8e5bd59edb2d1c7b98e0bba28b3a0"
+          "sha": "3fae1eb45ba1a7fbd4818527f48b439991a273da"
         },
         "merged": true,
         "category": "enhancement",
@@ -9288,7 +9287,7 @@
           "source": "github",
           "repo": "thedotmack/claude-mem",
           "path": "cowork",
-          "sha": "b85cd123daf8e5bd59edb2d1c7b98e0bba28b3a0"
+          "sha": "3fae1eb45ba1a7fbd4818527f48b439991a273da"
         },
         "merged": true,
         "category": "enhancement",
@@ -9618,7 +9617,7 @@
           "source": "github",
           "repo": "Ark0N/Codeman",
           "path": "plugins/codeman",
-          "sha": "0ab71d61d1bfa58cac0af482d240de876dba945a"
+          "sha": "e63bb65b364fe52b6ab857158b93b363530ad771"
         },
         "merged": true,
         "category": "coding",
@@ -9741,7 +9740,7 @@
           "source": "github",
           "repo": "cbrock84/headcount",
           "path": "plugins/corporate-strategy",
-          "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
         },
         "merged": true,
         "category": "coding",
@@ -9774,7 +9773,7 @@
           "source": "github",
           "repo": "cbrock84/headcount",
           "path": "plugins/customer-experience",
-          "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
         },
         "merged": true,
         "category": "collaboration",
@@ -9807,7 +9806,7 @@
           "source": "github",
           "repo": "cbrock84/headcount",
           "path": "plugins/data-analytics",
-          "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
         },
         "merged": false,
         "category": "data",
@@ -9866,7 +9865,7 @@
           "source": "github",
           "repo": "cbrock84/headcount",
           "path": "plugins/demand-generation",
-          "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
         },
         "merged": true,
         "category": "enhancement",
@@ -10471,7 +10470,7 @@
           "source": "github",
           "repo": "cbrock84/headcount",
           "path": "plugins/executive",
-          "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
         },
         "merged": true,
         "category": "enhancement",
@@ -10487,7 +10486,7 @@
           "source": "github",
           "repo": "cbrock84/headcount",
           "path": "plugins/finance",
-          "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
         },
         "merged": true,
         "category": "data",
@@ -10528,7 +10527,7 @@
           "source": "github",
           "repo": "gmickel/flow-next",
           "path": "plugins/flow-next",
-          "sha": "271f7e36d9ebf4241edb021d5c283864eb1c35d6"
+          "sha": "4eba935c28901485a44ad62ffaf3fc956acfa51c"
         },
         "merged": true,
         "category": "enhancement",
@@ -11014,7 +11013,7 @@
           "source": "github",
           "repo": "cbrock84/headcount",
           "path": "plugins/it-operations",
-          "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
         },
         "merged": true,
         "category": "collaboration",
@@ -11047,7 +11046,7 @@
           "source": "github",
           "repo": "cbrock84/headcount",
           "path": "plugins/legal-risk",
-          "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
         },
         "merged": true,
         "category": "data",
@@ -11096,7 +11095,7 @@
           "source": "github",
           "repo": "cbrock84/headcount",
           "path": "plugins/marketing",
-          "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
         },
         "merged": true,
         "category": "collaboration",
@@ -11292,7 +11291,7 @@
           "source": "github",
           "repo": "zilliztech/memsearch",
           "path": "plugins/claude-code",
-          "sha": "09e07d86b31ff81938b4f44a57099b6a9fc8723f"
+          "sha": "2e64124920130ebf1fea30d05f405a9131f8db83"
         },
         "merged": true,
         "category": "coding",
@@ -11406,7 +11405,7 @@
           "source": "github",
           "repo": "Ikalus1988/MisakaNet",
           "path": "",
-          "sha": "f4ce491a5f53574a73765acd9d775e53faedb308"
+          "sha": "4b4b21da6d9ed97b02f9908f160cc8948c7d4429"
         },
         "merged": true,
         "category": "enhancement",
@@ -11933,7 +11932,7 @@
           "source": "github",
           "repo": "cbrock84/headcount",
           "path": "plugins/operations",
-          "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
         },
         "merged": true,
         "category": "collaboration",
@@ -12188,7 +12187,7 @@
           "source": "github",
           "repo": "cbrock84/headcount",
           "path": "plugins/people",
-          "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
         },
         "merged": true,
         "category": "collaboration",
@@ -12298,7 +12297,7 @@
           "source": "github",
           "repo": "cbrock84/headcount",
           "path": "plugins/pmo",
-          "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
         },
         "merged": true,
         "category": "collaboration",
@@ -12553,7 +12552,7 @@
           "source": "github",
           "repo": "cbrock84/headcount",
           "path": "plugins/product",
-          "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
         },
         "merged": true,
         "category": "design",
@@ -12678,7 +12677,7 @@
           "source": "github",
           "repo": "michael-denyer/pstack-claude",
           "path": "plugins/pstack",
-          "sha": "046341e3aaf2405083973a37f860d0d2ea98e18a"
+          "sha": "3cff27a2dda8ab0390e3db55f4190539c5b86759"
         },
         "merged": true,
         "category": "coding",
@@ -12916,7 +12915,7 @@
           "source": "github",
           "repo": "cbrock84/headcount",
           "path": "plugins/revenue",
-          "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
         },
         "merged": true,
         "category": "collaboration",
@@ -13057,7 +13056,7 @@
           "source": "github",
           "repo": "cbrock84/headcount",
           "path": "plugins/security",
-          "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
         },
         "merged": true,
         "category": "coding",
@@ -13424,7 +13423,7 @@
           "source": "github",
           "repo": "cbrock84/headcount",
           "path": "plugins/technology",
-          "sha": "98d1c17d480f606060102a781f9a8601690685f7"
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
         },
         "merged": true,
         "category": "coding",
@@ -13483,7 +13482,7 @@
           "source": "github",
           "repo": "zenbu-labs/terminal-browser",
           "path": "claude-code-plugin",
-          "sha": "4fb68a1cc0e0f5898c4d08712a4ce9f4bfc81d94"
+          "sha": "a0db9b58e1ba3bf022400006358e2c1477146631"
         },
         "merged": true,
         "category": "enhancement",
@@ -14279,8 +14278,8 @@
     "Referenced website revision contains 9 external entries; requested 10. Missing entry requires a source; no placeholder was invented."
   ],
   "github": {
-    "requests": 156,
-    "cacheHits": 461,
+    "requests": 161,
+    "cacheHits": 460,
     "graphqlBatches": 49,
     "detailFallbacks": 0,
     "detailPartial": 0,
