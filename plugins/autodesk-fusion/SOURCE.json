@@ -1,0 +1,58 @@
+{
+  "mapping": "functional_mapping",
+  "kimiOrigin": false,
+  "officialAutodeskPlugin": false,
+  "not": [
+    "Autodesk-published MCP",
+    "CrowdStrike Falcon Fusion",
+    "Oracle Fusion ERP"
+  ],
+  "prototypeName": "Autodesk Fusion",
+  "stableId": "proto:market:Autodesk Fusion",
+  "catalogDescription": "社区 MCP 操作本机 Fusion",
+  "repo": "frankhommers/autodesk-fusion-mcp",
+  "url": "https://github.com/frankhommers/autodesk-fusion-mcp",
+  "tag": "v1.6.0",
+  "commit": "cbd01e540af425a81913d4e6c0d49e09e723aeb6",
+  "entrypoint": "AutodeskFusionMCP.py inside Fusion; HTTP POST /mcp",
+  "clientEntrypoint": "scripts/launch.py",
+  "bind": "127.0.0.1",
+  "documentedUrl": "http://127.0.0.1:8765/mcp",
+  "urlHasNoDefault": true,
+  "protocol": "2026-07-28",
+  "legacyProtocolsRetainedByServer": ["2025-11-25", "2025-06-18", "2025-03-26"],
+  "serverInfo": {
+    "name": "autodesk-fusion-mcp",
+    "version": "1.6.0"
+  },
+  "license": {
+    "spdx": "MIT",
+    "copyright": "Copyright (c) 2026 Frank Hommers / Initialize",
+    "file": "LICENSE",
+    "sha256": "f1d5c76263b88b75f46b3c7de40a10e7ad2708abe714f368720aa5a4a7ba111d",
+    "bytes": 1104,
+    "url": "https://raw.githubusercontent.com/frankhommers/autodesk-fusion-mcp/cbd01e540af425a81913d4e6c0d49e09e723aeb6/LICENSE",
+    "byteCopyOfPinnedLicense": true
+  },
+  "icon": {
+    "file": "assets/icon.png",
+    "sourcePath": "commands/mcpAbout/resources/64x64.png",
+    "url": "https://raw.githubusercontent.com/frankhommers/autodesk-fusion-mcp/cbd01e540af425a81913d4e6c0d49e09e723aeb6/commands/mcpAbout/resources/64x64.png",
+    "sha256": "b79e24452eedfee89e7b1f431a5c404584a7f9a2a97c50c6e441672e0d8802b5",
+    "bytes": 2306,
+    "width": 64,
+    "height": 64,
+    "unchangedCopy": true,
+    "separateIconLicense": false,
+    "assetLicense": "MIT",
+    "notAutodeskBrandPortal": true,
+    "notTrademarkLicense": true
+  },
+  "addinInstalledByThisPackage": false,
+  "fusionInstalledByThisPackage": false,
+  "mcp": {
+    "type": "http",
+    "url": "${user_config.fusion_mcp_url}",
+    "executedAgainstLiveFusion": false
+  }
+}

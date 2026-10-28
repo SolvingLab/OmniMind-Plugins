@@ -1,0 +1,43 @@
+{
+  "name": "docker",
+  "version": "0.3.0",
+  "description": "查看和管理本机已经配置好的 Docker 容器与镜像。",
+  "license": "GPL-3.0",
+  "author": {
+    "name": "Christian Kreiling"
+  },
+  "homepage": "https://github.com/ckreiling/mcp-server-docker/tree/57a7df208fdc2362505835f670e53c66f3717c48",
+  "repository": "https://github.com/ckreiling/mcp-server-docker",
+  "keywords": [
+    "docker",
+    "functional-mapping",
+    "not-kimi",
+    "not-docker-inc"
+  ],
+  "skills": "skills",
+  "userConfig": {
+    "docker_host": {
+      "type": "string",
+      "title": "DOCKER_HOST",
+      "description": "Required Docker engine URL passed only as DOCKER_HOST. No default. Unset disables this MCP server. Do not preset docker.sock, a named pipe, a drive root, or a profile path.",
+      "required": true,
+      "sensitive": true
+    }
+  },
+  "mcpServers": {
+    "mcp-server-docker": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "--python",
+        "3.12",
+        "--from",
+        "git+https://github.com/ckreiling/mcp-server-docker.git@57a7df208fdc2362505835f670e53c66f3717c48",
+        "mcp-server-docker"
+      ],
+      "env": {
+        "DOCKER_HOST": "${user_config.docker_host}"
+      }
+    }
+  }
+}

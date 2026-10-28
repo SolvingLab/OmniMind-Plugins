@@ -1,0 +1,18 @@
+{
+  "inkscape": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": [
+      "--python",
+      "3.12",
+      "--from",
+      "git+https://github.com/jjjsood/inkscape-mcp-server.git@15fb592dd392f3b8bf1f99389113cf94704e13e4",
+      "inkscape-mcp"
+    ],
+    "env": {
+      "INKSCAPE_MCP_WORKSPACE_ROOTS": "${user_config.workspace_roots}",
+      "INKSCAPE_MCP_LIVE_ENABLED": "${user_config.live_enabled}",
+      "INKSCAPE_MCP_RAW_ACTION_ENABLED": "${user_config.raw_action_enabled}"
+    }
+  }
+}

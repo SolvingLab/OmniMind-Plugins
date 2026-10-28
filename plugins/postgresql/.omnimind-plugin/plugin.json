@@ -1,0 +1,44 @@
+{
+  "name": "postgresql",
+  "version": "0.3.0",
+  "description": "查询已经配置好的 PostgreSQL 数据库。未填写连接时保持待配置。",
+  "license": "MIT",
+  "author": {
+    "name": "Johann Schleier-Smith"
+  },
+  "homepage": "https://github.com/crystaldba/postgres-mcp/tree/15c8e33353546148acc2d8bd784551cf3905d1e2",
+  "repository": "https://github.com/crystaldba/postgres-mcp",
+  "keywords": [
+    "postgresql",
+    "functional-mapping",
+    "not-kimi",
+    "not-neon"
+  ],
+  "skills": "skills",
+  "userConfig": {
+    "database_uri": {
+      "type": "string",
+      "title": "DATABASE_URI",
+      "description": "Required PostgreSQL connection URI passed only as DATABASE_URI. No default. Unset disables this MCP server. Do not preset localhost, a shared database, or a credential.",
+      "required": true,
+      "sensitive": true
+    }
+  },
+  "mcpServers": {
+    "postgres-mcp": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "--python",
+        "3.12",
+        "--from",
+        "git+https://github.com/crystaldba/postgres-mcp.git@15c8e33353546148acc2d8bd784551cf3905d1e2",
+        "postgres-mcp",
+        "--access-mode=restricted"
+      ],
+      "env": {
+        "DATABASE_URI": "${user_config.database_uri}"
+      }
+    }
+  }
+}

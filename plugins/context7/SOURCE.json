@@ -1,0 +1,49 @@
+{
+  "stableId": "proto:market:Context7",
+  "pluginId": "context7@omnimind-ext",
+  "adapterVersion": "0.1.0",
+  "previousInstallVersion": "0.0.0",
+  "functionalDelta": "Remove ?client=claude-code-plugin from the hosted MCP URL. That query returns 401 Authentication required. https://mcp.context7.com/mcp answered resolve-library-id and query-docs anonymously.",
+  "upstream": {
+    "repo": "anthropics/claude-plugins-official",
+    "path": "external_plugins/context7",
+    "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d",
+    "manifestHasNoVersion": true,
+    "serverReportedVersion": "4.4.2",
+    "serverName": "Context7"
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/8f814f49002ff824e8a9ba43cf96112dc7f5948d/LICENSE",
+    "note": "LICENSE is copied verbatim from that pinned upstream commit; this adapter adds no new license terms."
+  },
+  "originalFiles": {
+    ".claude-plugin/plugin.json": {
+      "sha256": "de3ffdd2d0aad507dc5337a87d24ad95b8e96b30dcf7eb116c7097b41f70b1d1",
+      "bytes": 434,
+      "keptByteIdentical": true
+    },
+    ".mcp.json": {
+      "sha256": "08db35592f9d340b2ff0a74df14be66851d4ff625f8ef3e2cc9b83bef8021325",
+      "bytes": 150,
+      "copy": "provenance/original/.mcp.json"
+    },
+    "README.md": {
+      "sha256": "339bef44b80645a89e5da81e6a46a34a997fe1214a8ac1f9535a11f3ea2c9e96",
+      "bytes": 1900,
+      "keptByteIdentical": true
+    }
+  },
+  "evidenceNotRerun": [
+    "evidence/context7-query-summary.json",
+    "evidence/context7/resolve-library-id.txt",
+    "evidence/context7/tools-list.txt"
+  ],
+  "kimiPackage": "ABSENT",
+  "install": [
+    "Copy this directory to plugin-sources/omnimind-ext/context7 in the candidate. Do not write the live cache and do not touch the integrator Context7 update fixture.",
+    "Install or update only context7@omnimind-ext from that directory at version 0.1.0.",
+    "Minimal mapping for this plugin only: name context7, version 0.1.0, source directory plugin-sources/omnimind-ext/context7. Do not refactor the marketplace."
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "tiktok-for-business",
+  "version": "0.1.0",
+  "description": "创建、管理与分析 TikTok 广告。未配置 Access-Token 时保持待配置，不创建账户，也不把未调用的接口记为成功。",
+  "license": "MIT",
+  "author": {
+    "name": "Adapter for TikTok Marketing API; contract from TikTok Pte. Ltd. SDK"
+  },
+  "homepage": "https://business-api.tiktok.com/portal/docs",
+  "repository": "https://github.com/tiktok/tiktok-business-api-sdk",
+  "keywords": [
+    "tiktok-for-business",
+    "marketing-api",
+    "functional-mapping",
+    "not-kimi"
+  ],
+  "skills": "skills",
+  "userConfig": {
+    "access_token": {
+      "type": "string",
+      "title": "TIKTOK_BUSINESS_ACCESS_TOKEN",
+      "description": "Required Marketing API Access-Token. No default. Unset keeps create, manage, and report calls unavailable. Do not put the token in chat or logs.",
+      "required": true,
+      "sensitive": true
+    },
+    "app_id": {
+      "type": "string",
+      "title": "TIKTOK_BUSINESS_APP_ID",
+      "description": "Developer app id from TikTok Marketing API My Apps. Blank means unset. Used only for oauth2/access_token and oauth2/advertiser/get.",
+      "required": false,
+      "default": ""
+    },
+    "app_secret": {
+      "type": "string",
+      "title": "TIKTOK_BUSINESS_APP_SECRET",
+      "description": "Developer app secret. Blank means unset. Sensitive. Used only for oauth2/access_token and oauth2/advertiser/get. Do not print it.",
+      "required": false,
+      "sensitive": true,
+      "default": ""
+    },
+    "advertiser_id": {
+      "type": "string",
+      "title": "TIKTOK_BUSINESS_ADVERTISER_ID",
+      "description": "Optional advertiser id filled into operations that require advertiser_id when the call omits it. Blank means unset. This is not an access token.",
+      "required": false,
+      "default": ""
+    }
+  },
+  "mcpServers": {
+    "tiktok-business": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "${OMNIMIND_PLUGIN_ROOT}/scripts/tiktok_business.py",
+        "mcp"
+      ],
+      "env": {
+        "TIKTOK_BUSINESS_ACCESS_TOKEN": "${user_config.access_token}",
+        "TIKTOK_BUSINESS_APP_ID": "${user_config.app_id}",
+        "TIKTOK_BUSINESS_APP_SECRET": "${user_config.app_secret}",
+        "TIKTOK_BUSINESS_ADVERTISER_ID": "${user_config.advertiser_id}"
+      }
+    }
+  }
+}

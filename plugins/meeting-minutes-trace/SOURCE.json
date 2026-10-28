@@ -1,0 +1,87 @@
+{
+  "prototypeName": "会议纪要转写",
+  "stableId": "proto:market:会议纪要转写",
+  "alias": "meeting-minutes-trace@k-private",
+  "requiredFunction": "转写会议纪要，一键溯源",
+  "kind": "callable-official-api-adapter",
+  "not": [
+    "openai/whisper",
+    "腾讯会议",
+    "飞书",
+    "lark-cli",
+    "通义听悟 result schema"
+  ],
+  "rejectedPriorCandidate": {
+    "name": "openai/whisper",
+    "tag": "v20250625",
+    "commit": "31243bad24cc746f07d4c8bfdd2d974872cb1803",
+    "whyNotRepeated": "The bounded source row already closed Whisper as speech recognition only. This package does not call it."
+  },
+  "host": {
+    "name": "AssemblyAI Speech Understanding",
+    "openapiVersion": "1.3.4",
+    "observedOn": "2026-10-15",
+    "termsOfService": "https://www.assemblyai.com/legal/terms-of-service",
+    "termsCopied": false,
+    "servers": [
+      "https://api.assemblyai.com",
+      "https://api.eu.assemblyai.com"
+    ],
+    "auth": "Authorization header is the API key. Required on every request.",
+    "endpoints": [
+      "POST /v2/upload",
+      "POST /v2/transcript",
+      "GET /v2/transcript/{transcript_id}"
+    ]
+  },
+  "docs": [
+    {
+      "function": "chapter summaries with timestamps",
+      "url": "https://www.assemblyai.com/docs/speech-understanding/summarization",
+      "statement": "Generate summaries of your audio transcripts split into chapters with timestamps.",
+      "resultPath": "speech_understanding.response.summarization.summary",
+      "itemFields": ["start", "end", "text", "headline"]
+    },
+    {
+      "function": "action items with timestamp and quote",
+      "url": "https://www.assemblyai.com/docs/speech-understanding/action-items",
+      "statement": "Generate action items of your audio transcripts w/ timestamps and a quote of where the action item is from.",
+      "resultPath": "speech_understanding.response.action_items.items",
+      "itemFields": ["action_item", "quote", "timestamp"],
+      "includeDecisions": "https://www.assemblyai.com/docs/speech-understanding/action-items documents include_decisions true"
+    },
+    {
+      "function": "submit and upload",
+      "submit": "https://www.assemblyai.com/docs/pre-recorded-audio/api-reference/transcripts/submit",
+      "upload": "https://www.assemblyai.com/docs/pre-recorded-audio/api-reference/files/upload",
+      "oneOf": "speech_understanding.request is oneOf a single task. This adapter submits summarization and action items as two jobs."
+    }
+  ],
+  "entrypoint": "scripts/minutes.py",
+  "commands": {
+    "write": "Submits the documented transcript jobs and writes minutes.json from the official JSON only.",
+    "resume": "Polls transcript ids already saved. Does not submit a new job.",
+    "trace": "Local lookup of mN start/end or aN timestamp and quote. No network."
+  },
+  "unavailable": "Missing ASSEMBLYAI_API_KEY exits 2 with network not_sent. No minutes are invented.",
+  "license": {
+    "adapter": "Apache-2.0",
+    "file": "LICENSE.md",
+    "rootLicense": "LICENSE holds the same Apache-2.0 text as LICENSE.md because the catalog requires plugins/<name>/LICENSE.",
+    "service": "AssemblyAI terms are not relicensed and were not copied."
+  },
+  "icon": {
+    "status": "NOT_SUBSTITUTED",
+    "file": "assets/icon-NOTICE.md",
+    "assemblyAiMarkDownloaded": false,
+    "trademarkApprovalAssumed": false,
+    "marketIcon": "Keep the prototype BlocksIcon. Do not add a plugin-brands file for this alias."
+  },
+  "runtime": {
+    "credentialsRead": false,
+    "liveTranscription": false,
+    "nativePass": false,
+    "dependenciesInstalled": false,
+    "stdlibOnly": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "mapping": "functional_mapping",
+  "kimiOrigin": false,
+  "officialKiCad": false,
+  "prototypeName": "KiCad",
+  "repo": "ProductOfAmerica/mcp-server-kicad",
+  "commit": "511a50d6bf6f1a0df1b2c965443efa674d2fe618",
+  "tag": "v0.20.1",
+  "license": "MIT",
+  "registry": "io.github.ProductOfAmerica/mcp-server-kicad",
+  "mcp": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": ["--from", "mcp-server-kicad==0.20.1", "mcp-server-kicad"]
+  },
+  "pypi": {
+    "version": "0.20.1",
+    "requiresPython": ">=3.10",
+    "wheelSha256": "c226461e2b23d8567af4109e41acb60ed879d6a288102177e7e81804ea6af012",
+    "sdistSha256": "490f70415eeaa4587dca9a437d643f0cc2cd74130b17ae34a247277b36dc0efb",
+    "wheelBytesHashedLocally": false
+  },
+  "windowsDeps": ["uvx", "Python>=3.10", "KiCad 9 or 10 app for kicad-cli"],
+  "appNotBundled": true,
+  "toolList": "references/tools.md"
+}

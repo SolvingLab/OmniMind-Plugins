@@ -1,0 +1,7 @@
+{
+  "kicad": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": ["--from", "mcp-server-kicad==0.20.1", "mcp-server-kicad"]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "meeting-minutes-trace",
+  "version": "0.1.0",
+  "description": "转写会议纪要，并按纪要条目回溯到 AssemblyAI 返回的音频时间。未配置 ASSEMBLYAI_API_KEY 时不请求、不编造纪要。不是 Whisper，不是腾讯会议，不是飞书。",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "OmniMind"
+  },
+  "homepage": "https://www.assemblyai.com/docs/speech-understanding/summarization",
+  "keywords": [
+    "meeting-minutes",
+    "source-trace",
+    "assemblyai",
+    "not-whisper",
+    "not-tencent-meeting",
+    "not-lark"
+  ],
+  "skills": "skills",
+  "functionCoverage": [
+    "会议纪要转写"
+  ],
+  "userConfig": {
+    "assemblyai_api_key": {
+      "type": "string",
+      "title": "ASSEMBLYAI_API_KEY",
+      "description": "AssemblyAI API key. The host must place this value in ASSEMBLYAI_API_KEY before launching scripts/minutes.py. No default. This package does not read config files, does not ask for the key in chat, and does not invent a key.",
+      "required": true,
+      "sensitive": true
+    }
+  }
+}

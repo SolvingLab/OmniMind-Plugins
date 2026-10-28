@@ -1,0 +1,40 @@
+{
+  "name": "onshape",
+  "version": "0.2.0",
+  "description": "Onshape 云端 CAD。用用户自己的 API key 创建文档、零件工作室和装配，提交特征编辑，导入文件并导出。删除只登记显式对象，不发送删除。未配置时不启动，不创建密钥。",
+  "license": "MIT",
+  "author": {
+    "name": "OmniMind catalog adapter"
+  },
+  "homepage": "https://github.com/onshape-public/apikey/tree/52b6af963bc9a5c75859c93ff414914d4664941d",
+  "repository": "https://github.com/onshape-public/apikey",
+  "keywords": [
+    "onshape",
+    "cad",
+    "not-ptc-published",
+    "not-lab-hardware-cad"
+  ],
+  "skills": "skills",
+  "userConfig": {
+    "onshape_access_key": {
+      "type": "string",
+      "title": "ONSHAPE_ACCESS_KEY",
+      "description": "Required Onshape API access key from the user's own Developer Portal key pair. No default. This package does not create a key. Unset disables the adapter.",
+      "required": true,
+      "sensitive": true
+    },
+    "onshape_secret_key": {
+      "type": "string",
+      "title": "ONSHAPE_SECRET_KEY",
+      "description": "Required Onshape API secret key. No default. Not logged. This package does not create a key. Unset disables the adapter.",
+      "required": true,
+      "sensitive": true
+    },
+    "onshape_base_url": {
+      "type": "string",
+      "title": "ONSHAPE_BASE_URL",
+      "description": "Required Onshape stack origin, for example https://cad.onshape.com. No default. Origin only: no user, path, or query. Unset disables the adapter.",
+      "required": true
+    }
+  }
+}

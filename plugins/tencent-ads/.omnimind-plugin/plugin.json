@@ -1,0 +1,57 @@
+{
+  "name": "tencent-ads",
+  "version": "1.7.87",
+  "description": "腾讯广告智能投放。调用 Marketing API v3.0 的营销单元接口和已钉选的智投字段；未配置 access_token 或 account_id 时不请求账户，也不创建广告。本包不是 Go SDK 二进制。",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "TencentAd",
+    "url": "https://github.com/TencentAd/marketing-api-go-sdk"
+  },
+  "homepage": "https://github.com/TencentAd/marketing-api-go-sdk/tree/81d6cc04b58d7d5a5ec9ad0137e43b3b6c52fde9",
+  "repository": "https://github.com/TencentAd/marketing-api-go-sdk",
+  "keywords": [
+    "tencent-ads",
+    "marketing-api",
+    "smart-delivery",
+    "not-tiktok"
+  ],
+  "skills": "skills",
+  "icon": "assets/icon.png",
+  "functionCoverage": [
+    "腾讯广告智能投放"
+  ],
+  "userConfig": {
+    "access_token": {
+      "type": "string",
+      "title": "TENCENT_ADS_ACCESS_TOKEN",
+      "description": "Marketing API access_token from https://api.e.qq.com/oauth/token. No default. Unset leaves 腾讯广告智能投放 unavailable. This package does not create a developer app or advertiser account.",
+      "required": true,
+      "sensitive": true
+    },
+    "account_id": {
+      "type": "string",
+      "title": "TENCENT_ADS_ACCOUNT_ID",
+      "description": "Advertiser account_id used by v3 adgroups. Integer string. No default.",
+      "required": true
+    },
+    "api_base": {
+      "type": "string",
+      "title": "TENCENT_ADS_API_BASE",
+      "description": "Optional. Only https://api.e.qq.com/v3.0 (v3 SDK production default) or https://sandbox-api.e.qq.com/v3.0 (v3 docs sandbox base). Other hosts are rejected.",
+      "required": false
+    },
+    "client_id": {
+      "type": "string",
+      "title": "TENCENT_ADS_CLIENT_ID",
+      "description": "Optional. Developer app id, used only by oauth-token. Not required when access_token is already set.",
+      "required": false
+    },
+    "client_secret": {
+      "type": "string",
+      "title": "TENCENT_ADS_CLIENT_SECRET",
+      "description": "Optional. Developer app secret, used only by oauth-token. Never invented by this package.",
+      "required": false,
+      "sensitive": true
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "mapping": "functional_mapping",
+  "kimiOrigin": false,
+  "prototypeName": "钉钉",
+  "mcp": null,
+  "noMcpSubcommand": true,
+  "wrapper": {
+    "repo": "zai-org/zcode-plugins",
+    "sha": "ff03508da1649d5258fc34b45eef9d07e4ff6e1b",
+    "path": "plugins/dingtalk-cli",
+    "wrapperVersion": "0.1.1",
+    "license": "Apache-2.0"
+  },
+  "runtime": {
+    "repo": "DingTalk-Real-AI/dingtalk-workspace-cli",
+    "tag": "v1.0.64",
+    "commit": "e2c0cdf97e016ee76687d9c26986c23a26a84738",
+    "command": "dws",
+    "rejected": ["install.sh from main", "npm install -g dingtalk-workspace-cli@latest"],
+    "windowsAmd64Sha256": "c037bd1a66d50d8427b446ae479e60b8548600f0b5296c0d90d97c8ab898bdd6",
+    "windowsArm64Sha256": "031ff7199d001271de8d1863d092a125bf1bbb020d0f878a56e3f812f93c80c1",
+    "zipBytesHashedLocally": false,
+    "cliLicenseNotFetched": true
+  },
+  "provenance": [
+    "provenance/skills/cli/SKILL.md",
+    "provenance/skills/setup/SKILL.md",
+    "provenance/README_CN.md",
+    "provenance/plugin.json",
+    "LICENSE"
+  ],
+  "loadedSkills": ["skills/cli/SKILL.md", "skills/setup/SKILL.md"],
+  "setupSeparateFromInstall": ["user extracts pinned zip", "dws auth login", "do not read tokens"]
+}

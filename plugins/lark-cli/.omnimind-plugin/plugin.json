@@ -1,0 +1,12 @@
+{
+  "name": "lark-cli",
+  "version": "1.0.98",
+  "description": "Functional mapping of prototype 飞书 to official Lark CLI 1.0.98. Not a Kimi package. Skill instructions only; lark-cli has no MCP subcommand in this package.",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Skill text from zai-org/zcode-plugins; CLI from larksuite/cli"
+  },
+  "homepage": "https://github.com/larksuite/cli/releases/tag/v1.0.98",
+  "repository": "https://github.com/larksuite/cli",
+  "keywords": ["feishu", "lark", "functional-mapping", "not-kimi"]
+}

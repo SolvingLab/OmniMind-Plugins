@@ -1,0 +1,45 @@
+{
+  "name": "rscript",
+  "version": "0.3.0",
+  "description": "在本机持续的 R 会话里运行代码并查看结果。",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Posit"
+  },
+  "homepage": "https://github.com/posit-dev/mcp-repl/tree/0c4fd352aff1f61273d048aa90d877897ce73315",
+  "repository": "https://github.com/posit-dev/mcp-repl",
+  "keywords": [
+    "rscript",
+    "r",
+    "functional-mapping",
+    "not-kimi",
+    "not-official-r"
+  ],
+  "skills": "skills",
+  "userConfig": {
+    "r_home": {
+      "type": "string",
+      "title": "R_HOME",
+      "description": "Required absolute path of the operator R installation. No default. Unset disables this MCP server. Do not use a drive root.",
+      "required": true
+    }
+  },
+  "mcpServers": {
+    "rscript": {
+      "type": "stdio",
+      "command": "mcp-repl",
+      "args": [
+        "--interpreter",
+        "r",
+        "--sandbox",
+        "workspace-write",
+        "--oversized-output",
+        "files"
+      ],
+      "env": {
+        "R_HOME": "${user_config.r_home}",
+        "MCP_REPL_INTERPRETER": "r"
+      }
+    }
+  }
+}

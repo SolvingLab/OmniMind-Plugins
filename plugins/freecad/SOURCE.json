@@ -1,0 +1,48 @@
+{
+  "mapping": "functional_mapping",
+  "kimiOrigin": false,
+  "officialFreeCADPlugin": false,
+  "prototypeName": "FreeCAD",
+  "stableId": "proto:market:FreeCAD",
+  "repo": "neka-nat/freecad-mcp",
+  "tag": "v0.1.27",
+  "commit": "78bf0230a03324b56c9a0b7f55150fb5be2a0d42",
+  "components": ["addon/FreeCADMCP", "src/freecad_mcp/server.py"],
+  "entrypoint": "freecad-mcp = freecad_mcp.server:main",
+  "requiresPython": ">=3.12",
+  "license": {
+    "spdx": "MIT",
+    "copyright": "Copyright (c) 2025 Shirokuma (k tanaka)",
+    "url": "https://raw.githubusercontent.com/neka-nat/freecad-mcp/78bf0230a03324b56c9a0b7f55150fb5be2a0d42/LICENSE"
+  },
+  "mcp": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": ["--python", "3.12", "--from", "git+https://github.com/neka-nat/freecad-mcp.git@78bf0230a03324b56c9a0b7f55150fb5be2a0d42", "freecad-mcp", "--host", "${user_config.rpc_host}"],
+    "executed": false
+  },
+  "rpcPortHardcoded": 9875,
+  "rpcHostUnset": "setup_required",
+  "readmeInstallExecuted": false,
+  "windows": "docs/installation.md documents Windows addon directories and a client-specific uv_spawn note. Not executed.",
+  "icon": {
+    "file": "assets/icon.svg",
+    "repo": "FreeCAD/FreeCAD",
+    "path": "src/Gui/Icons/freecad.svg",
+    "tag": "weekly-2026.10.14",
+    "commit": "50daee777321b5085accd1f57b57f1a7c1781cae",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/50daee777321b5085accd1f57b57f1a7c1781cae/src/Gui/Icons/freecad.svg",
+    "sha256": "10a70c5cec0f5456c995f269fc2b73978f9b4b7eb193c5fab765ea97254682ba",
+    "bytes": 2552,
+    "width": 48,
+    "height": 48,
+    "viewBox": "0 0 48 48",
+    "titleInFile": "FreeCAD",
+    "copyrightInFile": "absent",
+    "assetLicense": "unknown",
+    "serverLicense": "MIT",
+    "svgIsNotMit": true,
+    "derived": false,
+    "use": "private DEV identity display"
+  }
+}

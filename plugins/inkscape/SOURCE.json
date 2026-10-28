@@ -1,0 +1,49 @@
+{
+  "mapping": "functional_mapping",
+  "kimiOrigin": false,
+  "officialInkscapePlugin": false,
+  "prototypeName": "Inkscape",
+  "stableId": "proto:market:Inkscape",
+  "repo": "jjjsood/inkscape-mcp-server",
+  "url": "https://github.com/jjjsood/inkscape-mcp-server",
+  "commit": "15fb592dd392f3b8bf1f99389113cf94704e13e4",
+  "tag": null,
+  "releases": "none",
+  "pyproject": {
+    "name": "inkscape-mcp",
+    "version": "0.1.0",
+    "requiresPython": ">=3.12",
+    "consoleScript": "inkscape-mcp = inkscape_mcp.server:main",
+    "dependencies": ["fastmcp>=3.0,<4.0", "lxml>=5.0", "pillow>=10.0"]
+  },
+  "license": {
+    "spdx": "MIT",
+    "copyright": "Copyright (c) 2026 Johannes Sood",
+    "url": "https://raw.githubusercontent.com/jjjsood/inkscape-mcp-server/15fb592dd392f3b8bf1f99389113cf94704e13e4/LICENSE",
+    "sha256": "896ee75dc66d94e0a60e0f15670574c5d5b6f3907def01e4a539635053e68ef9",
+    "bytes": 1070
+  },
+  "urlCorrection": {
+    "writtenInReadmeAndPyproject": "https://github.com/jjjsood/inkscape-mcp",
+    "actual": "https://github.com/jjjsood/inkscape-mcp-server"
+  },
+  "pypiReleaseOfThisCommit": false,
+  "bareUvxNameRejected": "uvx inkscape-mcp",
+  "mcp": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": ["--python", "3.12", "--from", "git+https://github.com/jjjsood/inkscape-mcp-server.git@15fb592dd392f3b8bf1f99389113cf94704e13e4", "inkscape-mcp"],
+    "executed": false
+  },
+  "requiredEnv": "INKSCAPE_MCP_WORKSPACE_ROOTS",
+  "workspaceUnset": "setup_required",
+  "rejected": ["${WORKSPACE_ROOT}", "drive root", "hardcoded user path", "bare uvx inkscape-mcp"],
+  "toolReference": "references/tools.md",
+  "toolBulletCount": 122,
+  "icon": {
+    "kind": "semantic",
+    "recipe": "vector/pencil",
+    "boundBy": "I",
+    "bitmapInPackage": false
+  }
+}

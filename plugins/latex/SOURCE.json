@@ -1,0 +1,60 @@
+{
+  "mapping": "functional_mapping",
+  "prototypeName": "LaTeX",
+  "stableId": "proto:market:LaTeX",
+  "repo": "elias-ramzi/WebLatexMCP",
+  "commit": "2997a607bbc8d45ad0b75393eea857e52f84db99",
+  "npm": {
+    "name": "web-latex-mcp",
+    "version": "0.9.0",
+    "integrity": "sha512-FlBOY1s9mzQAiYLJzAWQnM0XplvPETQcJZgYLLVu3F61RxPUZlp5dKi95iXc95mxRVflmJEXc6roa4jM2bFnXg==",
+    "shasum": "5c5af70a815d4138b6d0565203d2068cb56fd77f",
+    "gitHead": "2997a607bbc8d45ad0b75393eea857e52f84db99",
+    "bin": {
+      "web-latex-mcp": "dist/index.js"
+    },
+    "engines": {
+      "node": ">=20"
+    },
+    "tarballNotDownloaded": true
+  },
+  "rejected": [
+    "npx web-latex-mcp@latest",
+    "${HOME}/latex-workspace"
+  ],
+  "compilersNamedByUpstream": [
+    "latexmk",
+    "tectonic"
+  ],
+  "texExecuted": false,
+  "tokensNotConfigured": [
+    "OVERLEAF_GIT_TOKEN",
+    "GITHUB_TOKEN"
+  ],
+  "icon": {
+    "file": "assets/icon.svg",
+    "copiedUnchangedFrom": "omnimind/packages/desktop/src/renderer/public/material-icons/tex.svg",
+    "semantic": "TeX wordmark glyph used as the LaTeX typesetting identity. Not a letter placeholder.",
+    "sha256": "2b1a7f485a99ed77e156dc0fcc7f350603d64563032b5d686756a8cc25bb7c60",
+    "bytes": 862,
+    "license": "MIT",
+    "licenseCopyright": "Copyright (c) 2025 Material Extensions",
+    "licenseFile": "assets/icon-LICENSE",
+    "licenseReference": "https://github.com/material-extensions/vscode-material-icon-theme/blob/cb1dfb6d9cb73b15681a93939983d75dbba7bf5b/LICENSE",
+    "licensePin": "cb1dfb6d9cb73b15681a93939983d75dbba7bf5b",
+    "localNotice": "omnimind/liscence/THIRD-PARTY-NOTICES.md Material Icon Theme (MIT); original import revision not recorded",
+    "notRelicensedByPackageLicense": true,
+    "selfDrawn": false,
+    "letterPlaceholder": false,
+    "avatar": false
+  },
+  "revision": "revision-icons-2",
+  "frozenPackageUntouched": "plugin-source-staging/k7/packages/latex",
+  "setup": "setup_required",
+  "kimiOrigin": false,
+  "details": {
+    "capabilityDescription": "在用户指定的工作区里读取、修改并编译 LaTeX。工作区目录必填，没有默认路径，未填写时保持 setup_required。安装不等于已经编译。本包不是 Kimi 原包。",
+    "iconSeparatedFromPackageLicense": true,
+    "directoryType": "retained; host contract includes directory"
+  }
+}

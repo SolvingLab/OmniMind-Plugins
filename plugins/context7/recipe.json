@@ -1,0 +1,36 @@
+{
+  "pluginId": "context7@omnimind-ext",
+  "stableIdentity": "context7",
+  "officialUpstream": {
+    "repo": "anthropics/claude-plugins-official",
+    "path": "external_plugins/context7",
+    "sha": "8f814f49002ff824e8a9ba43cf96112dc7f5948d",
+    "officialVersion": null,
+    "installedVersionBefore": "0.0.0"
+  },
+  "adaptation": {
+    "owner": "coding",
+    "adapterVersion": "0.1.0",
+    "notOfficialRelease": true,
+    "onlyDelta": "Drop ?client=claude-code-plugin. Load https://mcp.context7.com/mcp with no auth headers."
+  },
+  "doNot": [
+    "hand-edit the live plugin cache",
+    "write the active profile",
+    "pretend a missing token means connected",
+    "treat 0.1.0 as an Upstash or Anthropic release"
+  ],
+  "integratorApply": {
+    "copyFrom": "plugin-parity/wave-01/coding/overlay/plugin-sources/omnimind-ext/context7",
+    "copyTo": "plugin-sources/omnimind-ext/context7",
+    "candidate": "f796a82a",
+    "mapping": {
+      "name": "context7",
+      "version": "0.1.0",
+      "source": {
+        "source": "directory",
+        "path": "plugin-sources/omnimind-ext/context7"
+      }
+    }
+  }
+}

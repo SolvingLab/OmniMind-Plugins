@@ -1,0 +1,16 @@
+{
+  "excalidraw": {
+    "type": "stdio",
+    "command": "node",
+    "args": [
+      "${OMNIMIND_PLUGIN_ROOT}/dist/server.mjs"
+    ],
+    "cwd": "${OMNIMIND_PROJECT_DIR}",
+    "env": {
+      "ZCODE_PLUGIN_ROOT": "${OMNIMIND_PLUGIN_ROOT}",
+      "ZCODE_PROJECT_DIR": "${OMNIMIND_PROJECT_DIR}",
+      "ZCODE_WORKSPACE_ROOT": "${OMNIMIND_PROJECT_DIR}",
+      "ZCODE_PLUGIN_DATA": "${OMNIMIND_PLUGIN_DATA}"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "mapping": "official_api_adapter",
+  "prototypeName": "TikTok for Business",
+  "prototypeDescription": "创建、管理与分析 TikTok 广告",
+  "stableId": "proto:market:TikTok for Business",
+  "kimiOrigin": false,
+  "notSubstitute": "Not another ads platform, not TikTok Content Posting API, and not a renamed unrelated plugin.",
+  "packageName": "tiktok-for-business",
+  "packageVersion": "0.1.0",
+  "alias": {
+    "id": "tiktok-for-business@k-private",
+    "name": "tiktok-for-business",
+    "marketplace": "k-private"
+  },
+  "contract": {
+    "repo": "tiktok/tiktok-business-api-sdk",
+    "commit": "f809c396520df2d7b201a9ccc5378d822b728ed3",
+    "commitDate": "2026-02-27T22:32:37Z",
+    "license": "MIT",
+    "copyright": "Copyright 2023 TikTok Pte. Ltd.",
+    "licenseUrl": "https://github.com/tiktok/tiktok-business-api-sdk/blob/f809c396520df2d7b201a9ccc5378d822b728ed3/LICENSE.md",
+    "origin": "https://business-api.tiktok.com",
+    "pinnedDocs": [
+      "python_sdk/docs/CampaignCreationApi.md",
+      "python_sdk/docs/AdgroupApi.md",
+      "python_sdk/docs/AdApi.md",
+      "python_sdk/docs/ReportingApi.md",
+      "python_sdk/docs/AuthenticationApi.md",
+      "python_sdk/docs/CampaignCreateBody.md",
+      "python_sdk/docs/Oauth2AccessTokenBody.md",
+      "python_sdk/business_api_client/api/campaign_creation_api.py",
+      "python_sdk/business_api_client/api/authentication_api.py",
+      "yml_files/report_integrated_get.yml"
+    ],
+    "header": "Access-Token",
+    "responseEnvelope": ["code", "message", "data", "request_id"],
+    "vendoredSdk": false
+  },
+  "license": {
+    "adapter": "MIT",
+    "file": "LICENSE.md",
+    "rootLicense": "LICENSE holds the same MIT text as LICENSE.md because the catalog requires plugins/<name>/LICENSE.",
+    "icon": "CC0-1.0",
+    "iconFile": "assets/icon-LICENSE.md",
+    "licenseSplit": "Adapter MIT does not relicense the icon. Icon CC0 does not waive TikTok trademark and does not license the adapter."
+  },
+  "icon": {
+    "kind": "brand",
+    "file": "assets/icon.svg",
+    "catalogFile": "packages/ui/src/assets/plugin-brands/tiktok-for-business.svg",
+    "title": "TikTok",
+    "brandAsset": true,
+    "selfDrawn": false,
+    "repo": "simple-icons/simple-icons",
+    "tag": "16.35.0",
+    "commit": "ed9a5192b24ad2f169bf1009931da0df27d5a49a",
+    "upstreamPath": "icons/tiktok.svg",
+    "bytes": 707,
+    "sha256": "6f54ac8d325faacea8935bdc44cbed60206a6b408641799e5fea1cba7c1a0af7",
+    "license": "CC0-1.0",
+    "note": "Unmodified TikTok mark. Not a separate TikTok for Business wordmark and not a TikTok-issued brand kit file."
+  },
+  "entrypoint": "scripts/tiktok_business.py",
+  "mcp": {
+    "command": "python",
+    "args": ["${OMNIMIND_PLUGIN_ROOT}/scripts/tiktok_business.py", "mcp"],
+    "framing": "newline-delimited JSON-RPC, matching apps/omnimind-cli/packages/adapters/src/mcp/fixtures/lifecycle-server.mjs"
+  },
+  "credentials": {
+    "accessTokenEnv": "TIKTOK_BUSINESS_ACCESS_TOKEN",
+    "appIdEnv": "TIKTOK_BUSINESS_APP_ID",
+    "appSecretEnv": "TIKTOK_BUSINESS_APP_SECRET",
+    "advertiserIdEnv": "TIKTOK_BUSINESS_ADVERTISER_ID",
+    "createsAccount": false,
+    "inventsSecrets": false
+  },
+  "executedLiveAds": false
+}

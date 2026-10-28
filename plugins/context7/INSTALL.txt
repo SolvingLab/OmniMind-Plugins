@@ -1,0 +1,9 @@
+Copy this directory to candidate plugin-sources/omnimind-ext/context7.
+Do not edit the live plugin cache. Do not touch the integrator Context7 old-to-new fixture or its runtime.
+Install only context7@omnimind-ext from that directory.
+Old install: version 0.0.0, github anthropics/claude-plugins-official external_plugins/context7 sha 8f814f49002ff824e8a9ba43cf96112dc7f5948d.
+New install: version 0.1.0. semver.coerce makes 0.1.0 newer than 0.0.0.
+Functional increment: MCP URL is https://mcp.context7.com/mcp. The copied original URL with ?client=claude-code-plugin stays in provenance/original/.mcp.json and is not the loaded URL.
+Minimal mapping suggestion, this plugin only:
+{"name":"context7","version":"0.1.0","source":{"source":"directory","path":"plugin-sources/omnimind-ext/context7"}}
+Do not refactor marketplace sources.

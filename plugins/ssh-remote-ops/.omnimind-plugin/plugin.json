@@ -1,0 +1,85 @@
+{
+  "name": "ssh-remote-ops",
+  "version": "1.10.0",
+  "description": "按用户显式提供的主机、端口、用户名、私钥路径、独立配置文件、命令白名单和远端路径允许列表做远程操作。这些项都必填且无默认值，未填写时保持 setup_required。不读取本机 SSH 配置或凭据，不默认连接。本包不是 Kimi 原包。",
+  "license": "ISC",
+  "author": {
+    "name": "Junki"
+  },
+  "homepage": "https://github.com/classfang/ssh-mcp-server",
+  "repository": "https://github.com/classfang/ssh-mcp-server",
+  "keywords": [
+    "ssh",
+    "functional-mapping",
+    "not-kimi"
+  ],
+  "skills": "skills",
+  "userConfig": {
+    "host": {
+      "type": "string",
+      "title": "SSH host",
+      "description": "Required host or address. No default. Do not use an alias that depends on the machine SSH config.",
+      "required": true
+    },
+    "port": {
+      "type": "string",
+      "title": "SSH port",
+      "description": "Required port. No default. This package does not preset 22.",
+      "required": true
+    },
+    "username": {
+      "type": "string",
+      "title": "SSH username",
+      "description": "Required username. No default.",
+      "required": true
+    },
+    "private_key_path": {
+      "type": "string",
+      "title": "Private key path",
+      "description": "Required explicit key file path. Do not use ~/.ssh/id_rsa or a profile key. This package does not read the file. Do not put key material in this value.",
+      "required": true
+    },
+    "ssh_config_file": {
+      "type": "string",
+      "title": "Explicit SSH config file",
+      "description": "Required because upstream --ssh-config-file defaults to ~/.ssh/config. Point at a file created for this plugin. Do not point at the machine SSH config.",
+      "required": true
+    },
+    "whitelist": {
+      "type": "string",
+      "title": "Command whitelist",
+      "description": "Required. Upstream says any command is allowed when no whitelist is set. No default pattern.",
+      "required": true
+    },
+    "allowed_remote_paths": {
+      "type": "string",
+      "title": "Remote path allowlist",
+      "description": "Required. Upstream allows any remote path when this is unset. No default.",
+      "required": true
+    }
+  },
+  "mcpServers": {
+    "ssh-mcp-server": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "--yes",
+        "@fangjunjie/ssh-mcp-server@1.10.0",
+        "--host",
+        "${user_config.host}",
+        "--port",
+        "${user_config.port}",
+        "--username",
+        "${user_config.username}",
+        "--privateKey",
+        "${user_config.private_key_path}",
+        "--ssh-config-file",
+        "${user_config.ssh_config_file}",
+        "--whitelist",
+        "${user_config.whitelist}",
+        "--allowed-remote-paths",
+        "${user_config.allowed_remote_paths}"
+      ]
+    }
+  }
+}

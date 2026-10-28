@@ -1,0 +1,22 @@
+{
+  "prototypeName": "邮件",
+  "stableId": "proto:market:邮件",
+  "alias": "himalaya@k-private",
+  "upstream": "https://github.com/pimalaya/himalaya",
+  "tag": "v2.2.1",
+  "commit": "5b12b2a8c2c253b98f15c46610ad74cba2a182bc",
+  "identity": "CLI to manage emails",
+  "not": ["Gmail", "Kimi original", "chat suite", "calendar suite"],
+  "license": "MIT OR Apache-2.0",
+  "rootLicense": "LICENSE is a verbatim copy of LICENSE-APACHE (same sha256) because the catalog requires plugins/<name>/LICENSE; the MIT option remains in LICENSE-MIT.",
+  "licenseFiles": ["LICENSE-MIT", "LICENSE-APACHE"],
+  "licenseSha256": {
+    "LICENSE-MIT": "94bc721fc860b328c7e46cd6fbd8abe272de507af391c40ce51e68ddb0fd098e",
+    "LICENSE-APACHE": "9998ecba2c76365fb29ae8ff233b16927b1fb88fad7d1f1a8e7d0e93ae791769"
+  },
+  "entry": "himalaya",
+  "entryEvidence": "README Usage at the same commit",
+  "icon": null,
+  "iconNote": "Prototype row keeps BlocksIcon. Himalaya logo is not substituted.",
+  "binaryBundled": false
+}
