@@ -1,0 +1,65 @@
+{
+  "mapping": "functional_mapping",
+  "prototypeName": "PostgreSQL",
+  "prototypeDescription": "PostgreSQL 数据库助手",
+  "stableId": "proto:market:PostgreSQL",
+  "kimiOrigin": false,
+  "repo": "crystaldba/postgres-mcp",
+  "commit": "15c8e33353546148acc2d8bd784551cf3905d1e2",
+  "version": "0.3.0",
+  "requiresPython": ">=3.12",
+  "consoleScript": "postgres-mcp = postgres_mcp:main",
+  "pin": "git+https://github.com/crystaldba/postgres-mcp.git@15c8e33353546148acc2d8bd784551cf3905d1e2",
+  "rejectedPin": "uvx postgres-mcp",
+  "args": [
+    "--access-mode=restricted"
+  ],
+  "accessClaim": "README Restricted Mode limits operations to read-only transactions and presently limits execution time. Documented examples use unrestricted, so this package always passes --access-mode=restricted.",
+  "restrictedWindow": "\"DATABASE_URI\", \"crystaldba/postgres-mcp\", \"--access-mode=unrestricted\" ], \"env\": { \"DATABASE_URI\": \"postgresql://username:password@localhost:5432/dbname\" } } } } ``` The Postgres MCP Pro Docker image will automatically remap the hostname `localhost` to work from inside of the container. - MacOS/Windows: Uses `host.docker.internal` automatically - Linux: Uses `<docker-default-gateway>` or the appr",
+  "license": {
+    "spdx": "MIT",
+    "copyright": "Copyright (c) 2025, Crystal Corp."
+  },
+  "verifiedFiles": [
+    "README.md",
+    "LICENSE",
+    "pyproject.toml"
+  ],
+  "executed": false,
+  "databaseConnected": false,
+  "icon": {
+    "kind": "brand",
+    "file": "assets/icon.svg",
+    "title": "PostgreSQL",
+    "brandAsset": true,
+    "selfDrawn": false,
+    "repo": "simple-icons/simple-icons",
+    "tag": "16.35.0",
+    "commit": "ed9a5192b24ad2f169bf1009931da0df27d5a49a",
+    "upstreamPath": "icons/postgresql.svg",
+    "license": "CC0-1.0",
+    "licenseFile": "assets/icon-LICENSE.md",
+    "licenseSplit": "CC0-1.0 from simple-icons at this commit waives Simple Icons copyright only. It does not waive Docker or PostgreSQL trademark rights and does not relicense the SVG under GPL-3.0 or MIT.",
+    "acceptance": "OPEN"
+  },
+  "restrictedSentences": [
+    "Restricted Mode: Limits operations to read-only transactions and imposes constraints on resource utilization (presently only execution time).",
+    "To use restricted mode, replace `--access-mode=unrestricted` with `--access-mode=restricted` in the configuration examples above.",
+    "execute_sql: Executes SQL statements on the database, with read-only limitations when connected in restricted mode.",
+    "Restricted mode is limited to read-only operations, and we limit query execution time to prevent long-running queries from impacting system performance."
+  ],
+  "falseWindowCorrected": "An earlier extractor matched the substring restricted inside unrestricted. That window is not evidence.",
+  "toolNames": [
+    "list_schemas",
+    "list_objects",
+    "get_object_details",
+    "execute_sql",
+    "explain_query",
+    "get_top_queries",
+    "analyze_workload_indexes",
+    "analyze_query_indexes",
+    "analyze_db_health"
+  ],
+  "toolNamesSource": "README.md MCP Server API table at this commit",
+  "licenseSplit": "Package server license stays in LICENSE. Icon license is separate CC0-1.0 and is not applied to the server source."
+}

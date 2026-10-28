@@ -1,0 +1,26 @@
+{
+  "name": "roblox-studio",
+  "version": "docs-031b2f91",
+  "description": "读取已打开的 Roblox Studio 场景和脚本，修改脚本、插入资源，并控制试玩。",
+  "license": "CC-BY-4.0",
+  "author": { "name": "Roblox" },
+  "homepage": "https://github.com/Roblox/creator-docs/blob/031b2f91d3d47274c255f3ed5691c29f792c181d/content/en-us/studio/mcp.md",
+  "repository": "https://github.com/Roblox/creator-docs",
+  "keywords": ["roblox-studio", "official-builtin", "not-kimi"],
+  "skills": "skills",
+  "userConfig": {
+    "studio_mcp_launcher": {
+      "type": "string",
+      "title": "Studio MCP launcher",
+      "description": "Required absolute path of the Studio MCP launcher you choose. No default. Unset disables this server. This package does not read your Roblox install.",
+      "required": true
+    }
+  },
+  "mcpServers": {
+    "roblox-studio": {
+      "type": "stdio",
+      "command": "cmd.exe",
+      "args": ["/c", "${user_config.studio_mcp_launcher}"]
+    }
+  }
+}

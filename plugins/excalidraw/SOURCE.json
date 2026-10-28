@@ -1,0 +1,24 @@
+{
+  "prototypeName": "可交互架构图",
+  "stableId": "proto:market:可交互架构图",
+  "repo": "https://github.com/zai-org/zcode-plugins",
+  "commit": "ff03508da1649d5258fc34b45eef9d07e4ff6e1b",
+  "path": "plugins/excalidraw",
+  "sourceDir": "ui-plugins/excalidraw",
+  "version": "0.2.2",
+  "license": "MIT",
+  "buildScript": "ui-plugins/excalidraw/scripts/build.mjs",
+  "buildExit": 0,
+  "buildStdout": "Excalidraw offline UI: 24.83 MiB in 7 resources; CSS 252 KiB",
+  "node": "node 24.14.0",
+  "packageManager": "pnpm@10.33.2",
+  "lockfile": "pnpm-lock.yaml at ff03508",
+  "installedThisCard": false,
+  "notCopiedFromIncompleteWrapper": true,
+  "icon": {
+    "packagePath": "assets/icon.png",
+    "sourcePath": "assets/excalidraw/icon.png",
+    "note": "Official plugin logo blob from the pinned commit. Not an account avatar. plugins/excalidraw has no logo file."
+  },
+  "thinEntry": "Host args use existing OMNIMIND_PLUGIN_ROOT. Env maps existing host vars onto ZCODE_* names the server already reads. Original .zcode-plugin/plugin.json bytes are unchanged. No new server."
+}

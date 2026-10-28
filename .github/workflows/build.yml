@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - 'data/plugins/**'
+      - 'data/self-hosted.json'
       - 'data/categories.yml'
       - 'data/external.yml'
       - 'data/featured.yml'

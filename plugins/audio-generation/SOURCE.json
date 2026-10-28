@@ -1,0 +1,51 @@
+{
+  "prototypeName": "音频生成",
+  "stableId": "proto:market:音频生成",
+  "alias": "audio-generation@k-private",
+  "function": "根据文字描述生成音频",
+  "mapping": "official-api-adapter",
+  "notTheseProducts": [
+    "ElevenLabs product rename",
+    "Runway",
+    "Suno",
+    "Soundcraft",
+    "Bitwize",
+    "xAI text-to-speech"
+  ],
+  "endpoint": {
+    "method": "POST",
+    "url": "https://api.elevenlabs.io/v1/sound-generation",
+    "docs": "https://elevenlabs.io/docs/api-reference/text-to-sound-effects/convert",
+    "docsFetchedOn": "2026-10-15",
+    "docsSha256": "123200f39a0ddeae0543db50931fddecac84c080e56f9bd4fec8508ca3dc891a",
+    "authHeader": "xi-api-key",
+    "authDocs": "https://elevenlabs.io/docs/api-reference/authentication",
+    "env": "ELEVENLABS_API_KEY",
+    "modelId": "eleven_text_to_sound_v2",
+    "requestBody": {
+      "text": "required string; description of the sound, not a script to read aloud",
+      "duration_seconds": "optional number, official bounds 0.5 to 30",
+      "prompt_influence": "optional number, official bounds 0 to 1, server default 0.3",
+      "loop": "optional boolean, official default false",
+      "model_id": "eleven_text_to_sound_v2"
+    },
+    "success": "HTTP 200 audio payload, documented as an MP3 file"
+  },
+  "license": {
+    "adapter": "Apache-2.0",
+    "upstreamApi": "https://elevenlabs.io/terms-of-use",
+    "upstreamNote": "Calling the endpoint requires the user's own ElevenLabs account and is governed by ElevenLabs terms. This package does not redistribute their SDK, weights, or audio."
+  },
+  "icon": {
+    "file": "assets/icon.svg",
+    "brandFileForIntegrator": "packages/ui/src/assets/plugin-brands/audio-generation.svg",
+    "provenance": "Original waveform mark drawn for proto:market:音频生成. Not an ElevenLabs, Runway, Suno, or xAI logo.",
+    "license": "CC0-1.0",
+    "licenseNote": "assets/icon-LICENSE.md"
+  },
+  "entrypoint": {
+    "script": "scripts/generate_audio.py",
+    "mcp": "scripts/mcp_server.py",
+    "tool": "generate_audio"
+  }
+}

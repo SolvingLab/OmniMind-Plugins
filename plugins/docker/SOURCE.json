@@ -1,0 +1,48 @@
+{
+  "mapping": "functional_mapping",
+  "prototypeName": "Docker",
+  "prototypeDescription": "Docker 容器管理助手",
+  "stableId": "proto:market:Docker",
+  "kimiOrigin": false,
+  "officialDockerIncPlugin": false,
+  "repo": "ckreiling/mcp-server-docker",
+  "url": "https://github.com/ckreiling/mcp-server-docker",
+  "commit": "57a7df208fdc2362505835f670e53c66f3717c48",
+  "version": "0.3.0",
+  "requiresPython": ">=3.12",
+  "consoleScript": "mcp-server-docker = mcp_server_docker:main",
+  "pin": "git+https://github.com/ckreiling/mcp-server-docker.git@57a7df208fdc2362505835f670e53c66f3717c48",
+  "rejectedPin": "uvx mcp-server-docker",
+  "pypiReleaseOfThisCommit": "not verified; do not use the bare PyPI name",
+  "license": {
+    "spdx": "GPL-3.0",
+    "file": "LICENSE",
+    "copiedFrom": "plugin-source-staging/k7/_fetch/docker-LICENSE"
+  },
+  "verifiedFiles": [
+    "README.md",
+    "LICENSE",
+    "pyproject.toml"
+  ],
+  "serverPyNotRead": true,
+  "toolNamesSource": "README.md Tools section at this commit",
+  "configSource": "README.md Configuration section: Docker SDK from_env and DOCKER_HOST",
+  "executed": false,
+  "dockerExecuted": false,
+  "icon": {
+    "kind": "brand",
+    "file": "assets/icon.svg",
+    "title": "Docker",
+    "brandAsset": true,
+    "selfDrawn": false,
+    "repo": "simple-icons/simple-icons",
+    "tag": "16.35.0",
+    "commit": "ed9a5192b24ad2f169bf1009931da0df27d5a49a",
+    "upstreamPath": "icons/docker.svg",
+    "license": "CC0-1.0",
+    "licenseFile": "assets/icon-LICENSE.md",
+    "licenseSplit": "CC0-1.0 from simple-icons at this commit waives Simple Icons copyright only. It does not waive Docker or PostgreSQL trademark rights and does not relicense the SVG under GPL-3.0 or MIT.",
+    "acceptance": "OPEN"
+  },
+  "licenseSplit": "Package server license stays in LICENSE. Icon license is separate CC0-1.0 and is not applied to the server source."
+}

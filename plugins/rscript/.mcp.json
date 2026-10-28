@@ -1,0 +1,18 @@
+{
+  "rscript": {
+    "type": "stdio",
+    "command": "mcp-repl",
+    "args": [
+      "--interpreter",
+      "r",
+      "--sandbox",
+      "workspace-write",
+      "--oversized-output",
+      "files"
+    ],
+    "env": {
+      "R_HOME": "${user_config.r_home}",
+      "MCP_REPL_INTERPRETER": "r"
+    }
+  }
+}

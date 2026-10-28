@@ -1,0 +1,28 @@
+{
+  "name": "autodesk-fusion",
+  "version": "1.6.0",
+  "description": "社区 MCP 操作本机 Fusion。连接用户已在本机 Autodesk Fusion 里启动的 AutodeskFusionMCP v1.6.0。未配置时不连接，不安装 Fusion，不写设计。",
+  "author": {
+    "name": "Frank Hommers / Initialize",
+    "url": "https://github.com/frankhommers/autodesk-fusion-mcp"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/frankhommers/autodesk-fusion-mcp",
+  "repository": "https://github.com/frankhommers/autodesk-fusion-mcp",
+  "skills": "skills",
+  "mcpServers": {
+    "autodesk-fusion": {
+      "type": "http",
+      "url": "${user_config.fusion_mcp_url}",
+      "timeoutMs": 130000
+    }
+  },
+  "userConfig": {
+    "fusion_mcp_url": {
+      "type": "string",
+      "title": "本机 Fusion MCP URL",
+      "description": "已在本机 Autodesk Fusion 里启动的 AutodeskFusionMCP 地址。v1.6.0 文档写的是 http://127.0.0.1:8765/mcp。没有默认值。不要填云端、账号或非本机地址。",
+      "required": true
+    }
+  }
+}

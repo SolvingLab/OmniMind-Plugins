@@ -1,0 +1,140 @@
+{
+  "mapping": "official-interface-adapter",
+  "prototypeName": "NetSuite",
+  "prototypeDescription": "连接 NetSuite ERP",
+  "stableId": "proto:market:NetSuite",
+  "packageAlias": "netsuite@k-private",
+  "kimiOrigin": false,
+  "oraclePublishedPlugin": false,
+  "notOtherErp": true,
+  "adapterAuthor": "OmniMind catalog adapter",
+  "wrapperVersion": "0.1.0",
+  "entrypoint": "node scripts/launch.mjs connect",
+  "implemented": ["connect"],
+  "notImplemented": [
+    "tba",
+    "oauth2-authorization-code",
+    "suiteql",
+    "record-create",
+    "record-update",
+    "record-delete",
+    "suitecloud-cli"
+  ],
+  "license": {
+    "spdx": "Apache-2.0",
+    "file": "LICENSE",
+    "sha256": "fa36dc312bc4946b1c22dba3c726ad8d3052b353f81424e7b997dbb3d9b40a49",
+    "bytes": 11546,
+    "note": "Adapter source only. Does not relicense Oracle documentation or trademarks."
+  },
+  "officialInterface": {
+    "product": "SuiteTalk REST Web Services",
+    "auth": "OAuth 2.0 client credentials",
+    "fetchedOn": "2026-10-15",
+    "pages": [
+      {
+        "role": "overview",
+        "url": "https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/chapter_1540391670.html",
+        "sha256": "e92f385d9ce36667573db88dd4646f536c513df0f5b0b9d15b5ee16a25cf981e",
+        "bytes": 12691
+      },
+      {
+        "role": "url-schema",
+        "url": "https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_1546938065.html",
+        "sha256": "75e0f75fd7c060e7d7f81dbbb5546942d3560ab83180d1e8d7bb1a08f1470a88",
+        "bytes": 11337
+      },
+      {
+        "role": "account-specific-domains",
+        "url": "https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_1498251763.html",
+        "sha256": "b85294c7696410cc4f1fa44c62b79131f14c403373e0e5d06fa65b71217b16d6",
+        "bytes": 12870
+      },
+      {
+        "role": "authentication-preference",
+        "url": "https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/article_0627022005.html",
+        "sha256": "ab89dd1d6a97783ca5273bcbc2e0c359e69be27e6953d1f71cf74f2fe4253eb0",
+        "bytes": 11088
+      },
+      {
+        "role": "tba-end-of-support",
+        "url": "https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_0525020842.html",
+        "sha256": "96694494a891c2747471d03b082c619b9891b69803d7080dfe1900d45c9bb8d6",
+        "bytes": 9584
+      },
+      {
+        "role": "client-credentials-flow",
+        "url": "https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_162730264820.html",
+        "sha256": "68ab679e5f0ed5a00a8ecbac4ed6efc4eedd24ff1fd21152b24fa8f7bba376ed",
+        "bytes": 7295
+      },
+      {
+        "role": "token-endpoint",
+        "url": "https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_162755359851.html",
+        "sha256": "c584d0ffe575e0372c84dd901c18eb8b2802227967c6ccd92928c64db179b5a9",
+        "bytes": 15618
+      },
+      {
+        "role": "jwt-structure",
+        "url": "https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_162790605110.html",
+        "sha256": "a011acdb054bc04ab1520ef63e86f86f132bce6187473370312962a088d81c9c",
+        "bytes": 13378
+      },
+      {
+        "role": "m2m-setup",
+        "url": "https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_162686838198.html",
+        "sha256": "6802921be81ab198e742e177a4401c52ae45d1d5f039ac2645b8641fce6fa7ca",
+        "bytes": 10460
+      },
+      {
+        "role": "bearer-header",
+        "url": "https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_157780312610.html",
+        "sha256": "ffd4a1e199faa2fc52cadc480509d72fc4138dd1993769722a2adc8f355ac1e2",
+        "bytes": 9344
+      },
+      {
+        "role": "metadata-catalog",
+        "url": "https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_1540810174.html",
+        "sha256": "187dc0eb78b794c6a2bca6bd5280d7314e878f76567272c52c4fb1312ecc5c9e",
+        "bytes": 9487
+      }
+    ]
+  },
+  "credentials": {
+    "userConfig": [
+      "netsuite_account_id",
+      "netsuite_suitetalk_url",
+      "netsuite_client_id",
+      "netsuite_certificate_id",
+      "netsuite_jwt_alg",
+      "netsuite_private_key_pem"
+    ],
+    "env": [
+      "NETSUITE_ACCOUNT_ID",
+      "NETSUITE_SUITETALK_URL",
+      "NETSUITE_CLIENT_ID",
+      "NETSUITE_CERTIFICATE_ID",
+      "NETSUITE_JWT_ALG",
+      "NETSUITE_PRIVATE_KEY_PEM"
+    ],
+    "noDefault": true,
+    "packageCreatesKeys": false,
+    "readsConnectionConfig": false,
+    "unavailableState": "Missing, mismatched, or unusable config exits 2 with setup_required and sends no request."
+  },
+  "runtime": {
+    "credentialsRead": false,
+    "liveNetSuiteCalled": false,
+    "erpWriteSent": false,
+    "nativePass": false,
+    "nodeUsedForProtocolCheck": "v24.18.0"
+  },
+  "icon": {
+    "status": "UNVERIFIED_NO_LICENSED_MARK",
+    "file": null,
+    "notice": "assets/icon-NOTICE.md",
+    "selfDrawn": false,
+    "trademarkApprovalAssumed": false
+  },
+  "mainReviewRequiredBeforeInstall": true
+}

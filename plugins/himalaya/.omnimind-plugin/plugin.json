@@ -1,0 +1,26 @@
+{
+  "name": "himalaya",
+  "version": "2.2.1",
+  "description": "管理邮件。scripts/launch.py 把参数原样传给用户已安装的 Himalaya；未配置时不启动。本包不含程序，不创建账户，也不代发邮件。",
+  "license": "MIT OR Apache-2.0",
+  "author": {
+    "name": "soywod"
+  },
+  "homepage": "https://github.com/pimalaya/himalaya/tree/5b12b2a8c2c253b98f15c46610ad74cba2a182bc",
+  "repository": "https://github.com/pimalaya/himalaya",
+  "keywords": [
+    "himalaya",
+    "email",
+    "not-kimi",
+    "not-gmail"
+  ],
+  "skills": "skills",
+  "userConfig": {
+    "himalaya_bin": {
+      "type": "file",
+      "title": "HIMALAYA_BIN",
+      "description": "Required path to the user-installed himalaya native executable. On Windows this must be a .exe, not a .bat or .cmd. No default. Unset disables this entry. This package does not download Himalaya, create an account, or send mail.",
+      "required": true
+    }
+  }
+}

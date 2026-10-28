@@ -1,0 +1,13 @@
+{
+  "web-latex-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "--yes",
+      "web-latex-mcp@0.9.0"
+    ],
+    "env": {
+      "WEB_LATEX_MCP_WORKSPACE": "${user_config.workspace}"
+    }
+  }
+}

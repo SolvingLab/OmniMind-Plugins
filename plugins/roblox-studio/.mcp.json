@@ -1,0 +1,7 @@
+{
+  "roblox-studio": {
+    "type": "stdio",
+    "command": "cmd.exe",
+    "args": ["/c", "${user_config.studio_mcp_launcher}"]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "mapping": "official_builtin",
+  "kimiOrigin": false,
+  "communityImpersonation": false,
+  "fallbackRustRepoUsed": false,
+  "fallbackNotUsedReason": "Official creator-docs page documents a builtin stdio server. studio-rust-mcp-server was not mixed in.",
+  "prototypeName": "Roblox Studio",
+  "stableId": "proto:market:Roblox Studio",
+  "docsRepo": "Roblox/creator-docs",
+  "docsCommit": "031b2f91d3d47274c255f3ed5691c29f792c181d",
+  "docsPath": "content/en-us/studio/mcp.md",
+  "licenseSplit": "Docs text stays CC-BY-4.0 in LICENSE. Icon is separate CC0-1.0 and is not applied to the docs.",
+  "docsLicense": {
+    "spdx": "CC-BY-4.0",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/Roblox/creator-docs/031b2f91d3d47274c255f3ed5691c29f792c181d/LICENSE"
+  },
+  "studioBinaryLicense": "UNKNOWN. Not the CC-BY-4.0 docs license. Local Studio was not inspected.",
+  "studioVersion": "UNKNOWN. The page says latest and gives no version number.",
+  "mcp": {
+    "type": "stdio",
+    "command": "cmd.exe",
+    "args": ["/c", "${user_config.studio_mcp_launcher}"],
+    "executed": false
+  },
+  "launcherUnset": "setup_required",
+  "officialWindowsFormNotExpanded": "cmd.exe /c %LOCALAPPDATA%\\Roblox\\mcp.bat",
+  "windows": "Documented in the pinned mcp.md. macOS form is /Applications/RobloxStudio.app/Contents/MacOS/StudioMCP and is not configured here.",
+  "icon": {
+    "file": "assets/icon.svg",
+    "title": "Roblox Studio",
+    "repo": "simple-icons/simple-icons",
+    "commit": "ed9a5192b24ad2f169bf1009931da0df27d5a49a",
+    "upstreamPath": "icons/robloxstudio.svg",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/ed9a5192b24ad2f169bf1009931da0df27d5a49a/icons/robloxstudio.svg",
+    "sha256": "860ab0e50fe4dac0e9fe8be35b80313c393ed6b63121ff4e78ccc4eba6ff8c86",
+    "bytes": 307,
+    "license": "CC0-1.0",
+    "licenseFile": "assets/icon-LICENSE.md",
+    "licenseBodyReusedFrom": "plugin-source-staging/k7/packages/docker/assets/icon-LICENSE.md",
+    "docsLicenseRemains": "CC-BY-4.0",
+    "licensesMerged": false
+  }
+}

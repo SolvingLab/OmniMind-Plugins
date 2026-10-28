@@ -1,0 +1,38 @@
+{
+  "name": "latex",
+  "version": "0.9.0",
+  "description": "在用户指定的工作区里读取、修改并编译 LaTeX。工作区目录必填，没有默认路径，未填写时保持 setup_required。安装不等于已经编译。本包不是 Kimi 原包。",
+  "license": "MIT",
+  "author": {
+    "name": "Elias Ramzi"
+  },
+  "homepage": "https://github.com/elias-ramzi/WebLatexMCP",
+  "repository": "https://github.com/elias-ramzi/WebLatexMCP",
+  "keywords": [
+    "latex",
+    "functional-mapping",
+    "not-kimi"
+  ],
+  "skills": "skills",
+  "userConfig": {
+    "workspace": {
+      "type": "directory",
+      "title": "WEB_LATEX_MCP_WORKSPACE",
+      "description": "Required project workspace directory. No default. Do not use a home directory, drive root, or the upstream ${HOME}/latex-workspace default. Unset disables this MCP server.",
+      "required": true
+    }
+  },
+  "mcpServers": {
+    "web-latex-mcp": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "--yes",
+        "web-latex-mcp@0.9.0"
+      ],
+      "env": {
+        "WEB_LATEX_MCP_WORKSPACE": "${user_config.workspace}"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "freecad": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": [
+      "--python",
+      "3.12",
+      "--from",
+      "git+https://github.com/neka-nat/freecad-mcp.git@78bf0230a03324b56c9a0b7f55150fb5be2a0d42",
+      "freecad-mcp",
+      "--host",
+      "${user_config.rpc_host}"
+    ]
+  }
+}

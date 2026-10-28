@@ -1,0 +1,84 @@
+{
+  "prototypeName": "Onshape",
+  "stableId": "proto:market:Onshape",
+  "descriptionKept": "Onshape 云端 CAD",
+  "alias": "onshape@k-private",
+  "adapterAuthor": "OmniMind catalog adapter",
+  "adapterNote": "Local adapter in this directory. Not published by Onshape or PTC. Not lab-hardware-cad.",
+  "upstream": "https://github.com/onshape-public/apikey",
+  "commit": "52b6af963bc9a5c75859c93ff414914d4664941d",
+  "upstreamAuthor": "PTC Inc.",
+  "license": "MIT",
+  "licenseFile": "LICENSE",
+  "licenseSha256": "5f327fc258431e6282f8ea1c6dc0843d9c577017ffd1d2595cee435c0d69de51",
+  "licenseGitBlob": "17acafb5e16c961398313da406d43aebed2faed1",
+  "entry": "scripts/launch.py",
+  "commands": [
+    "documents",
+    "mass-by-material",
+    "export-stl",
+    "create-document",
+    "create-part-studio",
+    "create-assembly",
+    "get-features",
+    "add-feature",
+    "update-feature",
+    "import-file",
+    "upload-blob",
+    "export-translation",
+    "specify-delete"
+  ],
+  "entryEvidence": [
+    "Node/getDocuments.js and Node/lib/app.js getDocuments GET /api/documents",
+    "Node/massByMaterial.js and Node/lib/app.js getParts plus getMassProperties",
+    "Node/exportStl.js and Node/lib/app.js partStudioStl GET /api/partstudios/.../stl",
+    "python/apikey/client.py new_document, create_assembly, upload_blob",
+    "https://cad.onshape.com/api/openapi version 1.222.90730-c8d74e607a47 server https://cad.onshape.com/api/v17"
+  ],
+  "openapi": {
+    "url": "https://cad.onshape.com/api/openapi",
+    "title": "Onshape REST API",
+    "version": "1.222.90730-c8d74e607a47",
+    "server": "https://cad.onshape.com/api/v17",
+    "fetched": "2026-10-15"
+  },
+  "upstreamBlobs": {
+    "LICENSE": "17acafb5e16c961398313da406d43aebed2faed1",
+    "README.md": "7d9336cdc63916ed11cebfbbb3a50552a1d9f3cb",
+    "Node/README.md": "6c60191178ba714232de6769b39102648719a878",
+    "Node/getDocuments.js": "6aab68986e19e6961e70a5bd10091989207b1c8a",
+    "Node/massByMaterial.js": "26b27b1ceecad5bfc25e742836579ffe53c74d95",
+    "Node/exportStl.js": "486ecf482209e7acdc399fdb872b47a0ba7a0c89",
+    "Node/lib/app.js": "dc72fc998a380d7de7d7cd69f1b2b9ec39b47727",
+    "Node/lib/onshape.js": "f4d59cd570e41761e86749c1c995ec408664ce15"
+  },
+  "deletePolicy": "specify-delete prints the official DELETE path for an explicit document or element and does not send it. No user resource is deleted.",
+  "notSent": [
+    "DELETE /api/v17/documents/{documentId}",
+    "DELETE /api/v17/elements/d/{documentId}/w/{workspaceId}/e/{elementId}",
+    "expensiveDoNothing"
+  ],
+  "icon": {
+    "status": "UNVERIFIED_NO_LICENSED_MARK",
+    "file": null,
+    "notice": "assets/icon-NOTICE.md",
+    "sourceUrl": null,
+    "note": "Pinned apikey repository has no icon. No licensed Onshape or PTC logo was copied. Keep the prototype blocks icon."
+  },
+  "binaryBundled": false,
+  "credentials": {
+    "userConfig": [
+      "onshape_access_key",
+      "onshape_secret_key",
+      "onshape_base_url"
+    ],
+    "env": [
+      "ONSHAPE_ACCESS_KEY",
+      "ONSHAPE_SECRET_KEY",
+      "ONSHAPE_BASE_URL"
+    ],
+    "createdByPackage": false,
+    "logged": false
+  },
+  "liveOnshapeCalled": false
+}

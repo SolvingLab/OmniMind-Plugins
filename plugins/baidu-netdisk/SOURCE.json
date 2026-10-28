@@ -1,0 +1,61 @@
+{
+  "prototypeName": "百度网盘",
+  "stableId": "proto:market:百度网盘",
+  "alias": "baidu-netdisk@k-private",
+  "function": "云端文件与资料管理",
+  "not": ["Google Drive", "WPS云文档", "bypy", "百度智能云", "Kimi original"],
+  "entry": "scripts/netdisk.py",
+  "officialDocsFetched": "2026-10-15",
+  "officialDocsClient": "python urllib with default TLS verification",
+  "officialPlatform": "https://pan.baidu.com/union/doc/",
+  "officialMcp": {
+    "url": "https://mcp-pan.baidu.com/sse",
+    "transport": "sse",
+    "auth": "Authorization: Bearer user access token",
+    "doc": "https://pan.baidu.com/union/doc/mcp-server/操作指南/在-agent-中自定义使用/",
+    "docUpdated": "2026-07-28",
+    "httpStatus": 200,
+    "connectedThisRun": false
+  },
+  "officialPersonalAuthorizeDoc": "https://pan.baidu.com/union/doc/mcp-server/操作指南/在-agent-中自定义使用/",
+  "pythonSdk": {
+    "doc": "https://pan.baidu.com/union/doc/sdk/python/python-sdk使用入门/",
+    "docUpdated": "2022-06-16",
+    "bundled": false,
+    "reason": "The official page offers an unversioned console download and says requirements.txt may be incomplete. This package calls the documented HTTP API with the Python standard library instead."
+  },
+  "license": {
+    "adapter": "MIT",
+    "file": "LICENSE.md",
+    "rootLicense": "LICENSE holds the same MIT text as LICENSE.md because the catalog requires plugins/<name>/LICENSE.",
+    "sha256": "6d7e204389b104de7ebdb55659af3920d124072502e3310d15b26cd60e74eb41",
+    "covers": "adapter, skill, and tests written in this package",
+    "baiduPlatform": "https://pan.baidu.com/union/doc/规范标准/服务协议/知识产权声明/",
+    "baiduPlatformNote": "Fetched 2026-10-15. Platform content and Baidu software remain Baidu's. This MIT text does not relicense them."
+  },
+  "icon": {
+    "file": null,
+    "status": "NOT_SHIPPED",
+    "doc": "https://pan.baidu.com/union/doc/规范标准/品牌规范/使用/",
+    "httpStatus": 200,
+    "fetched": "2026-10-15",
+    "reason": "Official brand-use page says mark files are issued on request and must not be used in a product interface without authorization. No logo was copied or redrawn.",
+    "fallback": "prototype BlocksIcon",
+    "fallbackIsBrandAcceptance": false
+  },
+  "uploadSlice": {
+    "doc": "https://pan.baidu.com/union/doc/基础网盘服务/上传/分片上传/",
+    "docUpdated": "2026-09-09",
+    "fetched": "2026-10-15",
+    "ordinaryUserFixed": "4 MB",
+    "bytes": 4194304,
+    "byteNote": "The official page states a fixed 4 MB ordinary-user slice and does not print a decimal count. 4 * 1024 * 1024 is the binary 4 MB used so a non-final slice reaches that size.",
+    "create": "once after pending slices succeed; slice failure or resume does not call create twice"
+  },
+  "credentials": {
+    "created": false,
+    "invented": false,
+    "connectionConfigRead": false
+  },
+  "nativePass": false
+}

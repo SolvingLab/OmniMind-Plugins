@@ -1,0 +1,19 @@
+{
+  "name": "kicad",
+  "version": "0.20.1",
+  "description": "Functional mapping of prototype KiCad to community MCP server mcp-server-kicad 0.20.1. Not official KiCad, not a Kimi package.",
+  "license": "MIT",
+  "author": {
+    "name": "ProductOfAmerica"
+  },
+  "homepage": "https://github.com/ProductOfAmerica/mcp-server-kicad/tree/511a50d6bf6f1a0df1b2c965443efa674d2fe618",
+  "repository": "https://github.com/ProductOfAmerica/mcp-server-kicad",
+  "keywords": ["kicad", "functional-mapping", "not-kimi"],
+  "mcpServers": {
+    "kicad": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["--from", "mcp-server-kicad==0.20.1", "mcp-server-kicad"]
+    }
+  }
+}

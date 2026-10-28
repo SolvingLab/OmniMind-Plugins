@@ -1,0 +1,17 @@
+{
+  "rhino": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": [
+      "--python",
+      "3.11",
+      "--from",
+      "git+https://github.com/EaseHee/rhino-mcp.git@3e10efb9963be36ee1209f8f9ebd2cc6efcfcc46",
+      "rhino3dm-mcp"
+    ],
+    "env": {
+      "RHINO_MCP_TRANSPORT": "stdio",
+      "RHINO_MCP_FORCE_MODE": "${user_config.force_mode}"
+    }
+  }
+}

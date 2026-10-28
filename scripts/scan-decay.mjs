@@ -50,7 +50,7 @@ export async function evaluateDecay(subjects, client, { state, now = new Date() 
   const heads = unique.flatMap(s => {
     const meta = client.meta.get(s.entry.source.repo.toLowerCase());
     if (!meta || meta.metadataUnavailable) return [];
-    return !meta.notFound && !meta.private && !meta.archived && meta.sha ? [{ ...s.entry.source, repo: meta.repo, sha: meta.sha }] : [];
+    return !meta.notFound && !meta.private && !meta.archived && meta.sha ? [{ ...s.entry.source, repo: meta.repo, sha: s.id === 'self-hosted' ? s.entry.source.sha : meta.sha }] : [];
   });
   const manifests = await client.manifests(heads);
   const entries = structuredClone(state.entries);
@@ -65,8 +65,10 @@ export async function evaluateDecay(subjects, client, { state, now = new Date() 
   for (const [key, group] of byKey) {
     const source = group[0].entry.source;
     const meta = client.meta.get(source.repo.toLowerCase()) ?? { repo: source.repo, metadataUnavailable: true };
-    const current = meta.sha ? manifests.get(sourceKey({ ...source, repo: meta.repo, sha: meta.sha })) : undefined;
-    const results = group.map(subject => ({ subject, ...decayDecision(meta, current, subject.entry.name, state.entries[key], now, subject.id) }));
+    const results = group.map(subject => {
+      const current = meta.sha ? manifests.get(sourceKey({ ...subject.entry.source, repo: meta.repo, sha: subject.id === 'self-hosted' ? subject.entry.source.sha : meta.sha })) : undefined;
+      return { subject, ...decayDecision(meta, current, subject.entry.name, state.entries[key], now, subject.id) };
+    });
     // A repository/path can have multiple pinned versions; mismatch affects
     // only that version's entry, rather than hiding a healthy sibling name.
     for (const result of results) decisions.set(`${result.subject.id}:${sourceKey(result.subject.entry.source)}:${result.subject.entry.name}`, result);

@@ -1,0 +1,12 @@
+{
+  "name": "dingtalk-cli",
+  "version": "1.0.64",
+  "description": "Functional mapping of prototype 钉钉 to DingTalk Workspace CLI dws 1.0.64. Not a Kimi package. Skill instructions only; dws has no MCP subcommand in this package.",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Skill text from zai-org/zcode-plugins; CLI from DingTalk-Real-AI/dingtalk-workspace-cli"
+  },
+  "homepage": "https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli/releases/tag/v1.0.64",
+  "repository": "https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli",
+  "keywords": ["dingtalk", "functional-mapping", "not-kimi"]
+}

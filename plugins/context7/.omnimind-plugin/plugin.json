@@ -1,0 +1,15 @@
+{
+  "name": "context7",
+  "version": "0.1.0",
+  "description": "Upstash Context7 MCP server for up-to-date documentation lookup. Connects anonymously to https://mcp.context7.com/mcp. The Claude Code client query is omitted because that URL returns authentication required.",
+  "author": {
+    "name": "Upstash"
+  },
+  "license": "Apache-2.0",
+  "mcpServers": {
+    "context7": {
+      "type": "http",
+      "url": "https://mcp.context7.com/mcp"
+    }
+  }
+}

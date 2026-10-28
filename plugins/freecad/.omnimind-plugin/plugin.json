@@ -1,0 +1,34 @@
+{
+  "name": "freecad",
+  "version": "0.1.27",
+  "description": "在 FreeCAD 里新建和查看 CAD 文档、创建和修改零件与模型，并在已启动的插件上运行建模脚本。",
+  "license": "MIT",
+  "author": { "name": "neka-nat" },
+  "homepage": "https://github.com/neka-nat/freecad-mcp/tree/78bf0230a03324b56c9a0b7f55150fb5be2a0d42",
+  "repository": "https://github.com/neka-nat/freecad-mcp",
+  "keywords": ["freecad", "functional-mapping", "not-kimi"],
+  "skills": "skills",
+  "userConfig": {
+    "rpc_host": {
+      "type": "string",
+      "title": "FreeCAD RPC host",
+      "description": "Required hostname or IP of the FreeCAD addon RPC server. No default. Unset disables this MCP server. Do not use a drive root.",
+      "required": true
+    }
+  },
+  "mcpServers": {
+    "freecad": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "--python",
+        "3.12",
+        "--from",
+        "git+https://github.com/neka-nat/freecad-mcp.git@78bf0230a03324b56c9a0b7f55150fb5be2a0d42",
+        "freecad-mcp",
+        "--host",
+        "${user_config.rpc_host}"
+      ]
+    }
+  }
+}

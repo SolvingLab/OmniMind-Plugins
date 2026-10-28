@@ -1,0 +1,24 @@
+{
+  "ssh-mcp-server": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "--yes",
+      "@fangjunjie/ssh-mcp-server@1.10.0",
+      "--host",
+      "${user_config.host}",
+      "--port",
+      "${user_config.port}",
+      "--username",
+      "${user_config.username}",
+      "--privateKey",
+      "${user_config.private_key_path}",
+      "--ssh-config-file",
+      "${user_config.ssh_config_file}",
+      "--whitelist",
+      "${user_config.whitelist}",
+      "--allowed-remote-paths",
+      "${user_config.allowed_remote_paths}"
+    ]
+  }
+}

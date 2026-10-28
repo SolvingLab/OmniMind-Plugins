@@ -1,0 +1,41 @@
+{
+  "name": "audio-generation",
+  "version": "0.1.0",
+  "description": "根据文字描述生成音频。调用已固定的 ElevenLabs sound-generation 接口；未配置 ELEVENLABS_API_KEY 时保持待配置。不朗读文字，也不改用其它产品。",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "OmniMind"
+  },
+  "homepage": "https://elevenlabs.io/docs/api-reference/text-to-sound-effects/convert",
+  "keywords": [
+    "audio-generation",
+    "text-to-audio",
+    "proto-market",
+    "not-elevenlabs-product",
+    "not-runway",
+    "not-suno",
+    "not-tts"
+  ],
+  "skills": "skills",
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "ELEVENLABS_API_KEY",
+      "description": "User's own ElevenLabs API key, passed only as ELEVENLABS_API_KEY. No default. Unset disables this MCP server and the script returns setup_required. Do not preset a key.",
+      "required": true,
+      "sensitive": true
+    }
+  },
+  "mcpServers": {
+    "audio-generation": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "${OMNIMIND_PLUGIN_ROOT}/scripts/mcp_server.py"
+      ],
+      "env": {
+        "ELEVENLABS_API_KEY": "${user_config.api_key}"
+      }
+    }
+  }
+}

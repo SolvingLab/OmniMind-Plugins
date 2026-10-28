@@ -1,0 +1,69 @@
+{
+  "name": "baidu-netdisk",
+  "version": "0.1.2",
+  "description": "管理百度网盘中的云端文件与资料。未配置用户自己的 Access Token 时不连接账户，也不列出文件。",
+  "license": "MIT",
+  "author": {
+    "name": "OmniMind"
+  },
+  "homepage": "https://pan.baidu.com/union/doc/",
+  "keywords": [
+    "百度网盘",
+    "baidu-netdisk",
+    "xpan",
+    "not-google-drive",
+    "not-wps"
+  ],
+  "skills": "skills",
+  "mcpServers": {
+    "baidu-netdisk": {
+      "type": "sse",
+      "url": "https://mcp-pan.baidu.com/sse"
+    }
+  },
+  "userConfig": {
+    "access_token": {
+      "type": "string",
+      "title": "百度网盘 Access Token",
+      "description": "User-supplied OAuth access token for 百度网盘. No default. Required before the official MCP server or cloud file calls can run. This package does not create a Baidu account and does not invent a token.",
+      "required": false,
+      "sensitive": true
+    },
+    "app_key": {
+      "type": "string",
+      "title": "百度网盘 AppKey",
+      "description": "Optional AppKey from the user's own open-platform application. Used only for authorization-code, refresh, and device-code exchange. Not required for the official personal MCP token flow.",
+      "required": false,
+      "sensitive": true
+    },
+    "secret_key": {
+      "type": "string",
+      "title": "百度网盘 SecretKey",
+      "description": "Optional SecretKey for the user's own application. Used only when exchanging or refreshing a token. Never printed by status.",
+      "required": false,
+      "sensitive": true
+    },
+    "redirect_uri": {
+      "type": "string",
+      "title": "授权回调地址",
+      "description": "Redirect URI registered on the user's own Baidu Netdisk application. Required only for the authorization-code exchange.",
+      "required": false
+    },
+    "refresh_token": {
+      "type": "string",
+      "title": "百度网盘 Refresh Token",
+      "description": "Optional refresh token from a previous official token response. Single-use per Baidu's authorization-code document. Not printed by status.",
+      "required": false,
+      "sensitive": true
+    },
+    "app_dir": {
+      "type": "string",
+      "title": "应用目录",
+      "description": "Absolute /apps/{appname} directory for this application. Official file manager, upload, and download docs limit third-party access to that directory. When set, mutating calls must stay under it.",
+      "required": false
+    }
+  },
+  "functionCoverage": [
+    "云端文件与资料管理"
+  ]
+}

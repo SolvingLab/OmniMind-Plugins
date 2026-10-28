@@ -1,0 +1,43 @@
+{
+  "name": "rhino",
+  "version": "0.6.0",
+  "description": "查看和修改本机 Rhino 模型。",
+  "license": "MIT",
+  "author": {
+    "name": "EaseHee"
+  },
+  "homepage": "https://github.com/EaseHee/rhino-mcp/tree/3e10efb9963be36ee1209f8f9ebd2cc6efcfcc46",
+  "repository": "https://github.com/EaseHee/rhino-mcp",
+  "keywords": [
+    "rhino",
+    "functional-mapping",
+    "not-kimi",
+    "not-official-mcneel"
+  ],
+  "skills": "skills",
+  "userConfig": {
+    "force_mode": {
+      "type": "string",
+      "title": "RHINO_MCP_FORCE_MODE",
+      "description": "Required. standalone or bridge. No default. Unset disables this MCP server. bridge does not mean a local Rhino 8 app is connected.",
+      "required": true
+    }
+  },
+  "mcpServers": {
+    "rhino": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "--python",
+        "3.11",
+        "--from",
+        "git+https://github.com/EaseHee/rhino-mcp.git@3e10efb9963be36ee1209f8f9ebd2cc6efcfcc46",
+        "rhino3dm-mcp"
+      ],
+      "env": {
+        "RHINO_MCP_TRANSPORT": "stdio",
+        "RHINO_MCP_FORCE_MODE": "${user_config.force_mode}"
+      }
+    }
+  }
+}

@@ -34,7 +34,8 @@ npm.cmd run validate
 
 | 文件 | 市场 name | 行为 |
 | --- | --- | --- |
-| `dist/plugins.json` | `omnimind-ext` | 单一合并目录；同名按 anthropic > openai > zcode > solvinglab > community 保留 |
+| `dist/plugins.json` | `omnimind-ext` | 单一合并目录；同名按 self-hosted > anthropic > openai > zcode > solvinglab > community 保留 |
+| `dist/marketplaces/self-hosted.json` | `omnimind-ext-self-hosted` | 按固定内容提交登记的自托管插件 |
 | `dist/marketplaces/anthropic.json` | `omnimind-ext-anthropic` | Anthropic 来源全部通过检查的条目 |
 | `dist/marketplaces/openai.json` | `omnimind-ext-openai` | OpenAI 来源全部通过检查的条目 |
 | `dist/marketplaces/zcode.json` | `omnimind-ext-zcode` | ZCode 来源中具有 V2 支持 manifest 的条目 |
@@ -46,6 +47,8 @@ npm.cmd run validate
 `dist/external.json` 是独立的外部获取链接数据，包含 `slug/name/publisher/summary/category/source/registry/homepage/action`，`registry` 在 GitHub 集合条目中为 `null`。它不是 marketplace，不能作为插件市场订阅。官网 `5798a8e34526dabc63005f83ea9e1f63ac9506ce` 的 `lib/ecosystem.ts` 实际有 **9** 条，与任务给定的 10 条不一致；本仓库保留真实的 9 条，并在报告中标记差异，待 Main 提供第 10 条的真实来源。
 
 ## 聚合规则
+
+自托管清单 `data/self-hosted.json` 中每项包含插件名、内容提交 SHA 和展示元数据；构建时从该 SHA 的 `plugins/<name>/LICENSE` 和 plugin.json 校验，清单名必须与 manifest 名一致。先提交内容再登记 SHA，避免自引用循环；自仓库不参与 SolvingLab 自动发现。指定的 12 类科研插件从所有安装目录中过滤。
 
 三个上游目录分别读取 `anthropics/claude-plugins-official/.claude-plugin/marketplace.json`、`openai/plugins/.agents/plugins/marketplace.json`、`zai-org/zcode-plugins/marketplace.json` 的当前 HEAD。相对路径与 `local` 源转换为上游仓库的 HEAD sha；GitHub `url/git-subdir` 源保留完整 sha，未提供 sha 时解析 ref 或默认分支 HEAD。所有输出 source 严格为 `{source: "github", repo, path, sha}`。
 

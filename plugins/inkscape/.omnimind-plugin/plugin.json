@@ -1,0 +1,56 @@
+{
+  "name": "inkscape",
+  "version": "0.1.0",
+  "description": "用本机 Inkscape 工具编辑 SVG 图形。",
+  "license": "MIT",
+  "author": {
+    "name": "Johannes Sood"
+  },
+  "homepage": "https://github.com/jjjsood/inkscape-mcp-server/tree/15fb592dd392f3b8bf1f99389113cf94704e13e4",
+  "repository": "https://github.com/jjjsood/inkscape-mcp-server",
+  "keywords": [
+    "inkscape",
+    "functional-mapping",
+    "not-kimi",
+    "not-official-inkscape"
+  ],
+  "skills": "skills",
+  "userConfig": {
+    "workspace_roots": {
+      "type": "string",
+      "title": "INKSCAPE_MCP_WORKSPACE_ROOTS",
+      "description": "Required absolute directories, ';' separated on Windows. No default. Unset disables this MCP server. Do not use a drive root or a user profile path.",
+      "required": true
+    },
+    "live_enabled": {
+      "type": "string",
+      "title": "INKSCAPE_MCP_LIVE_ENABLED",
+      "description": "Upstream default is true. This package defaults to false so install does not attach a GUI Inkscape.",
+      "default": "false"
+    },
+    "raw_action_enabled": {
+      "type": "string",
+      "title": "INKSCAPE_MCP_RAW_ACTION_ENABLED",
+      "description": "Upstream default is false. Leave false unless the operator opts into run_raw_action.",
+      "default": "false"
+    }
+  },
+  "mcpServers": {
+    "inkscape": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "--python",
+        "3.12",
+        "--from",
+        "git+https://github.com/jjjsood/inkscape-mcp-server.git@15fb592dd392f3b8bf1f99389113cf94704e13e4",
+        "inkscape-mcp"
+      ],
+      "env": {
+        "INKSCAPE_MCP_WORKSPACE_ROOTS": "${user_config.workspace_roots}",
+        "INKSCAPE_MCP_LIVE_ENABLED": "${user_config.live_enabled}",
+        "INKSCAPE_MCP_RAW_ACTION_ENABLED": "${user_config.raw_action_enabled}"
+      }
+    }
+  }
+}

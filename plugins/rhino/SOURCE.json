@@ -1,0 +1,43 @@
+{
+  "mapping": "functional_mapping",
+  "kimiOrigin": false,
+  "officialMcNeelPlugin": false,
+  "prototypeName": "Rhino",
+  "stableId": "proto:market:Rhino",
+  "repo": "EaseHee/rhino-mcp",
+  "url": "https://github.com/EaseHee/rhino-mcp",
+  "tag": "v0.6.0",
+  "commit": "3e10efb9963be36ee1209f8f9ebd2cc6efcfcc46",
+  "pyproject": {
+    "name": "rhino3dm-mcp",
+    "version": "0.6.0",
+    "requiresPython": ">=3.11",
+    "consoleScripts": [
+      "rhino-mcp = rhino_mcp.server:main",
+      "rhino3dm-mcp = rhino_mcp.server:main"
+    ],
+    "dependencies": ["mcp[cli]>=1.2,<2", "pydantic>=2.6,<3", "rhino3dm>=8.9,<9"],
+    "windowsExtra": "pywin32>=306; sys_platform == win32"
+  },
+  "license": {
+    "spdx": "MIT",
+    "copyright": "Copyright (c) 2026 rhino-mcp contributors",
+    "url": "https://raw.githubusercontent.com/EaseHee/rhino-mcp/3e10efb9963be36ee1209f8f9ebd2cc6efcfcc46/LICENSE"
+  },
+  "pypiEqualsThisCommit": "UNKNOWN",
+  "bareUvxRejected": "uvx rhino3dm-mcp",
+  "mcp": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": ["--python", "3.11", "--from", "git+https://github.com/EaseHee/rhino-mcp.git@3e10efb9963be36ee1209f8f9ebd2cc6efcfcc46", "rhino3dm-mcp"],
+    "executed": false
+  },
+  "bridge": "unconfigured. force_mode has no default. Setting bridge does not start Rhino 8 or install rhino-mcp.rhp.",
+  "icon": {
+    "kind": "upstream_repo_asset",
+    "file": "assets/icon.png",
+    "source": "https://raw.githubusercontent.com/EaseHee/rhino-mcp/3e10efb9963be36ee1209f8f9ebd2cc6efcfcc46/assets/rhino-mcp.png",
+    "notAuthorAvatar": true,
+    "notOfficialMcNeelPlugin": true
+  }
+}

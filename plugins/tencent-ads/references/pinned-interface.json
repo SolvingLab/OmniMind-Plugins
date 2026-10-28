@@ -1,0 +1,72 @@
+{
+  "sdk": {
+    "name": "腾讯广告API Go SDK",
+    "repo": "https://github.com/TencentAd/marketing-api-go-sdk",
+    "tag": "v1.7.87",
+    "commit": "81d6cc04b58d7d5a5ec9ad0137e43b3b6c52fde9",
+    "commitDate": "2026-08-21T03:28:16Z",
+    "license": "Apache-2.0",
+    "licenseFileSha256": "8b36af1f8c4f150bf0cbfc84fd008d6459ccd9f7d26959dc889e676c76c0a92c"
+  },
+  "docsStart": {
+    "url": "https://developers.e.qq.com/docs/start",
+    "title": "开发文档 | 开发者专区 - 腾讯广告",
+    "oauthTokenUrl": "https://api.e.qq.com/oauth/token",
+    "oauthMethod": "GET",
+    "oauthGrantTypes": ["authorization_code", "refresh_token"]
+  },
+  "oauthTokenUrl": "https://api.e.qq.com/oauth/token",
+  "productionAdgroupsBase": "https://api.e.qq.com/v3.0",
+  "sandboxAdgroupsBase": "https://sandbox-api.e.qq.com/v3.0",
+  "adgroupsBases": [
+    "https://api.e.qq.com/v3.0",
+    "https://sandbox-api.e.qq.com/v3.0"
+  ],
+  "adgroupsGet": {
+    "method": "GET",
+    "path": "/adgroups/get",
+    "description": "获取营销单元"
+  },
+  "adgroupsAdd": {
+    "method": "POST",
+    "path": "/adgroups/add",
+    "description": "创建营销单元"
+  },
+  "adgroupsUpdate": {
+    "method": "POST",
+    "path": "/adgroups/update",
+    "description": "更新营销单元"
+  },
+  "authQuery": ["access_token", "timestamp", "nonce", "user_token"],
+  "defaultGetFields": [
+    "adgroup_id",
+    "adgroup_name",
+    "configured_status",
+    "system_status",
+    "smart_bid_type",
+    "smart_cost_cap",
+    "smart_targeting_status",
+    "daily_budget",
+    "bid_amount",
+    "optimization_goal",
+    "begin_date",
+    "end_date"
+  ],
+  "smartBidType": ["SMART_BID_TYPE_CUSTOM", "SMART_BID_TYPE_SYSTEMATIC"],
+  "smartTargetingMode": ["SMART_TARGETING_MANUAL"],
+  "smartDeliverySceneSpecFields": [
+    "smart_delivery_goal",
+    "smart_delivery_goal_spec",
+    "conversion_id_list",
+    "marketing_asset_outer_spec",
+    "marketing_carrier_type",
+    "marketing_carrier_detail"
+  ],
+  "addRequestSmartFields": [
+    "smart_bid_type",
+    "smart_cost_cap",
+    "smart_targeting_mode",
+    "smart_coupon_mode",
+    "is_smart_delivery_upgrade_project"
+  ]
+}

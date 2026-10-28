@@ -1,0 +1,16 @@
+{
+  "mcp-server-docker": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": [
+      "--python",
+      "3.12",
+      "--from",
+      "git+https://github.com/ckreiling/mcp-server-docker.git@57a7df208fdc2362505835f670e53c66f3717c48",
+      "mcp-server-docker"
+    ],
+    "env": {
+      "DOCKER_HOST": "${user_config.docker_host}"
+    }
+  }
+}

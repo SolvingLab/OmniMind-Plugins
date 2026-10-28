@@ -3,6 +3,7 @@ on:
   pull_request:
     paths:
       - 'data/plugins/**'
+      - 'data/self-hosted.json'
       - 'data/categories.yml'
       - 'scripts/**'
       - 'package.json'
@@ -21,6 +22,7 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - run: node --test scripts/*.test.mjs
       - run: npm run check
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

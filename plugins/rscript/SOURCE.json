@@ -1,0 +1,56 @@
+{
+  "mapping": "functional_mapping",
+  "kimiOrigin": false,
+  "officialRPlugin": false,
+  "prototypeName": "Rscript",
+  "stableId": "proto:market:Rscript",
+  "repo": "posit-dev/mcp-repl",
+  "url": "https://github.com/posit-dev/mcp-repl",
+  "tag": "v0.3.0",
+  "commit": "0c4fd352aff1f61273d048aa90d877897ce73315",
+  "cargo": {
+    "name": "mcp-repl",
+    "version": "0.3.0",
+    "publish": false,
+    "license": "Apache-2.0",
+    "bin": "mcp-repl",
+    "binPath": "src/main.rs",
+    "aliasBin": "posit-mcp-repl",
+    "aliasFeature": "pypi-alias",
+    "description": "MCP server exposing a long-lived interactive REPL runtime (R or Python backend) over stdio."
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "url": "https://raw.githubusercontent.com/posit-dev/mcp-repl/0c4fd352aff1f61273d048aa90d877897ce73315/LICENSE"
+  },
+  "pypiEqualsThisCommit": "UNKNOWN",
+  "latestReleaseEqualsThisCommit": false,
+  "rejected": ["uvx posit-mcp-repl", "releases/latest", "devOpifex/mcpr", "Rscript -e as the MCP server"],
+  "mcp": {
+    "type": "stdio",
+    "command": "mcp-repl",
+    "args": ["--interpreter", "r", "--sandbox", "workspace-write", "--oversized-output", "files"],
+    "executed": false
+  },
+  "rChannel": "persistent embedded R session via --interpreter r and R_HOME. Not an R library manifest.",
+  "rHomeUnset": "setup_required",
+  "windows": "README says experimental for R. Not verified by running.",
+  "sandboxRoots": "UNKNOWN; docs/sandbox.md not read. No drive root configured.",
+  "icon": {
+    "kind": "r_foundation_logo_unmodified",
+    "file": "assets/icon.svg",
+    "url": "https://www.r-project.org/logo/Rlogo.svg",
+    "page": "https://www.r-project.org/logo/",
+    "sha256": "6d3318a61b6370799dc413c8bded66ee3417509c0f4a82c7739e5e1c057c4269",
+    "bytes": 2009,
+    "copyright": "© 2016 The R Foundation",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "alsoOfferedByPublisher": "GPL-2",
+    "changes": "none",
+    "notApacheRelicense": true,
+    "notAuthorAvatar": true,
+    "notLetterPlaceholder": true,
+    "officialRPlugin": false
+  }
+}

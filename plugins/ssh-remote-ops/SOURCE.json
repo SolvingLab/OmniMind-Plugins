@@ -1,0 +1,68 @@
+{
+  "mapping": "functional_mapping",
+  "prototypeName": "SSH 远程运维",
+  "stableId": "proto:market:SSH 远程运维",
+  "repo": "classfang/ssh-mcp-server",
+  "commit": "7588cab17b562d5a592e53085a4aa5aaec25bf2b",
+  "version": "1.10.0",
+  "license": "ISC",
+  "bin": "ssh-mcp-server -> build/index.js",
+  "buildDirInGitRoot": false,
+  "npm": {
+    "name": "@fangjunjie/ssh-mcp-server",
+    "version": "1.10.0",
+    "integrity": "sha512-qXXn9lpP0gGJGLpyVo/RvQmniKQSz3txpDyxlTvfUYgHLIdEQk242p0DIoPbCsQNQsLOeerfJHtM7Hdsg+8YJw==",
+    "shasum": "74266d9b5e154aaf8ba9d6561d82876398a7e1bc",
+    "gitHead": "7588cab17b562d5a592e53085a4aa5aaec25bf2b",
+    "bin": {
+      "ssh-mcp-server": "build/index.js"
+    },
+    "tarballNotDownloaded": true
+  },
+  "provenFlags": [
+    "--host",
+    "--port",
+    "--username",
+    "--privateKey",
+    "--ssh-config-file",
+    "--whitelist",
+    "--allowed-remote-paths"
+  ],
+  "notPassed": [
+    "--password",
+    "--passphrase",
+    "--agent",
+    "--pre-connect",
+    "--ssh"
+  ],
+  "notPassedReason": "Password and passphrase would be secrets in argv. No env names for them were proven. Agent and pre-connect defaults were not proven in source, so they are not enabled.",
+  "provenDefaultOverridden": "--ssh-config-file defaults to ~/.ssh/config",
+  "credentialsRead": false,
+  "connected": false,
+  "icon": {
+    "file": "assets/icon.svg",
+    "copiedUnchangedFrom": "omnimind/packages/desktop/src/renderer/public/material-icons/console.svg",
+    "semantic": "Terminal window glyph for SSH remote operations. SSH has no vendor brand mark here; this is not an invented brand logo.",
+    "sha256": "c5f33efa92ce94d240e3dca2041f44c30dcad53e9b1cc937be0e757719a619ce",
+    "bytes": 223,
+    "license": "MIT",
+    "licenseCopyright": "Copyright (c) 2025 Material Extensions",
+    "licenseFile": "assets/icon-LICENSE",
+    "licenseReference": "https://github.com/material-extensions/vscode-material-icon-theme/blob/cb1dfb6d9cb73b15681a93939983d75dbba7bf5b/LICENSE",
+    "licensePin": "cb1dfb6d9cb73b15681a93939983d75dbba7bf5b",
+    "localNotice": "omnimind/liscence/THIRD-PARTY-NOTICES.md Material Icon Theme (MIT); original import revision not recorded",
+    "notRelicensedByPackageLicense": true,
+    "selfDrawn": false,
+    "letterPlaceholder": false,
+    "avatar": false
+  },
+  "revision": "revision-icons-2",
+  "frozenPackageUntouched": "plugin-source-staging/k7/packages/ssh-remote-ops",
+  "setup": "setup_required",
+  "kimiOrigin": false,
+  "details": {
+    "capabilityDescription": "按用户显式提供的主机、端口、用户名、私钥路径、独立配置文件、命令白名单和远端路径允许列表做远程操作。这些项都必填且无默认值，未填写时保持 setup_required。不读取本机 SSH 配置或凭据，不默认连接。本包不是 Kimi 原包。",
+    "iconSeparatedFromPackageLicense": true,
+    "directoryType": "not used"
+  }
+}

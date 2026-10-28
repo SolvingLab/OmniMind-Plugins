@@ -1,0 +1,58 @@
+{
+  "name": "netsuite",
+  "version": "0.1.0",
+  "description": "连接 NetSuite ERP。用用户自己的 OAuth 2.0 客户端证书向账户专属 SuiteTalk REST 换取访问令牌，并读取 metadata-catalog。未配置时不发请求，不创建集成记录，不写 ERP。",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "OmniMind catalog adapter"
+  },
+  "homepage": "https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/chapter_1540391670.html",
+  "keywords": [
+    "netsuite",
+    "suitetalk",
+    "not-oracle-published",
+    "not-other-erp"
+  ],
+  "skills": "skills",
+  "userConfig": {
+    "netsuite_account_id": {
+      "type": "string",
+      "title": "NETSUITE_ACCOUNT_ID",
+      "description": "Required NetSuite account ID in exact spelling, such as 123456 or 123456_SB1. No default. This package does not create an account.",
+      "required": true
+    },
+    "netsuite_suitetalk_url": {
+      "type": "string",
+      "title": "NETSUITE_SUITETALK_URL",
+      "description": "Required SuiteTalk origin from Setup > Company > Company Information > Company URLs. Example: https://123456-sb1.suitetalk.api.netsuite.com. Origin only. No default.",
+      "required": true
+    },
+    "netsuite_client_id": {
+      "type": "string",
+      "title": "NETSUITE_CLIENT_ID",
+      "description": "Required OAuth 2.0 integration client ID. No default. This package does not create an integration record. Not logged.",
+      "required": true,
+      "sensitive": true
+    },
+    "netsuite_certificate_id": {
+      "type": "string",
+      "title": "NETSUITE_CERTIFICATE_ID",
+      "description": "Required certificate ID (kid) from OAuth 2.0 Client Credentials (M2M) Setup. No default. Not logged.",
+      "required": true,
+      "sensitive": true
+    },
+    "netsuite_jwt_alg": {
+      "type": "string",
+      "title": "NETSUITE_JWT_ALG",
+      "description": "Required JWT alg for the mapped certificate: PS256, PS384, PS512, ES256, ES384, or ES512. No default.",
+      "required": true
+    },
+    "netsuite_private_key_pem": {
+      "type": "string",
+      "title": "NETSUITE_PRIVATE_KEY_PEM",
+      "description": "Required private key PEM for the certificate mapped on the M2M setup page. No default. Not logged. This package does not read a key file and does not create a certificate.",
+      "required": true,
+      "sensitive": true
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "postgres-mcp": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": [
+      "--python",
+      "3.12",
+      "--from",
+      "git+https://github.com/crystaldba/postgres-mcp.git@15c8e33353546148acc2d8bd784551cf3905d1e2",
+      "postgres-mcp",
+      "--access-mode=restricted"
+    ],
+    "env": {
+      "DATABASE_URI": "${user_config.database_uri}"
+    }
+  }
+}
