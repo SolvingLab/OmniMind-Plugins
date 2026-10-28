@@ -73,7 +73,7 @@ export default async function community(client, { now = new Date(), state = { en
   const previous = await readJson(resolve(ROOT, 'dist/marketplaces/community.json'), { plugins: [] });
   const existingSources = [...previous.plugins.map(p => p.source), ...Object.values(state.entries).flatMap(e => (e.subjects ?? []).filter(s => s.id === 'community').map(s => s.entry.source))];
   const existingRepos = new Set(existingSources.map(s => s.repo.toLowerCase()));
-  const repos = [...new Set([...searches.flatMap(s => s.repos), ...submissions.map(s => s.value.repo), ...existingSources.map(s => s.repo)])].sort();
+  const repos = [...new Set([...searches.flatMap(s => s.repos), ...submissions.map(s => s.value.repo), ...existingSources.map(s => s.repo)])].filter(repo => repo.toLowerCase() !== 'solvinglab/omnimind-plugins').sort();
   await client.metadataBatch(repos);
   const inspections = await mapLimit(repos, 4, async repo => ({ repo, ...await inspectCommunityRepo(client, repo, { now, existing: existingRepos.has(repo.toLowerCase()) }) }));
   const candidates = [];

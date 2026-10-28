@@ -12,7 +12,7 @@ export function manifestRoots(paths) {
 }
 
 export default async function solvinglab(client) {
-  const repos = await client.publicOrgRepos('SolvingLab');
+  const repos = (await client.publicOrgRepos('SolvingLab')).filter(repo => repo.toLowerCase() !== 'solvinglab/omnimind-plugins');
   await client.metadataBatch(repos);
   const inventory = await mapLimit(repos, 4, async repo => {
     const meta = await client.repository(repo);

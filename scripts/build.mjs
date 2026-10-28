@@ -7,13 +7,15 @@ import openai from './readers/openai.mjs';
 import zcode from './readers/zcode.mjs';
 import solvinglab from './readers/solvinglab.mjs';
 import community from './readers/community.mjs';
+import selfHosted from './readers/self-hosted.mjs';
 import { GitHub, ROOT, NAME_PATTERN, sourceParts, sourceKey, decayKey, writeJson, readJson, mapLimit, applyGithubDetails, httpsUrl } from './lib/github.mjs';
 import { CATEGORIES, loadCategories, assertMapped, categoryOf, classifyCategory } from './lib/categories.mjs';
 import { attachLogos } from './lib/logo.mjs';
 import { loadDecayState, evaluateDecay, decayDecision, STATE_FILE } from './scan-decay.mjs';
 import { validateMarketplace } from './validate-v2.mjs';
 
-export const SOURCE_ORDER = ['anthropic', 'openai', 'zcode', 'solvinglab', 'community'];
+export const SOURCE_ORDER = ['self-hosted', 'anthropic', 'openai', 'zcode', 'solvinglab', 'community'];
+const SCIENCE_NAMES = new Set(['ambertools', 'chembl', 'chembl-database', 'gromacs', 'materials-project', 'ncbi-blast', 'ncbi-blast-biopython', 'openbabel', 'oqmd', 'pdb', 'pdb-database', 'pubchem', 'pubchem-database', 'pubmed', 'pubmed-pmc-paper-lookup', 'scientific-database-lookup', 'uniprot', 'uniprot-database']);
 export const marketplaceName = id => `omnimind-ext-${id}`;
 
 export async function loadFeatured(file = resolve(ROOT, 'data/featured.yml')) {
@@ -233,6 +235,8 @@ export async function retainPreviousEntries(client, catalogReuse, { state, now =
   const account = repo => { if (repo) accounted.add(String(repo).toLowerCase()); };
   for (const id of SOURCE_ORDER) {
     const previous = previousById.get(id) ?? { plugins: [] };
+    if (id === 'self-hosted') continue;
+    if (id === 'solvinglab' || id === 'community') previous.plugins = previous.plugins.filter(p => p.source?.repo?.toLowerCase() !== 'solvinglab/omnimind-plugins');
     if (catalogReuse.has(id)) {
       const { kept, dropped: removed } = selectCatalogFallbackPlugins(previous.plugins, { metaByRepo, decayEntries, sourceId: id, now });
       account(catalogReuse.get(id));
@@ -275,7 +279,9 @@ export function mergeMarkets(markets) {
   const kept = new Map();
   const duplicates = new Map();
   for (const id of SOURCE_ORDER) {
+    markets[id].plugins = markets[id].plugins.filter(plugin => !SCIENCE_NAMES.has(plugin.name.toLowerCase()));
     for (const plugin of markets[id].plugins) {
+      if (plugin['x-omnimind']?.alternates) plugin['x-omnimind'].alternates = plugin['x-omnimind'].alternates.filter(a => !SCIENCE_NAMES.has(a.name?.toLowerCase()));
       if (!kept.has(plugin.name)) kept.set(plugin.name, { id, plugin: structuredClone(plugin) });
       else {
         const winner = kept.get(plugin.name);
@@ -287,7 +293,7 @@ export function mergeMarkets(markets) {
     }
   }
   return {
-    market: { name: 'omnimind-ext', description: 'OmniMind 公开插件合并目录；同名按 anthropic > openai > zcode > solvinglab > community 保留', plugins: [...kept.values()].map(v => v.plugin).sort((a, b) => a.name.localeCompare(b.name, 'en')) },
+    market: { name: 'omnimind-ext', description: 'OmniMind 公开插件合并目录；同名按 self-hosted > anthropic > openai > zcode > solvinglab > community 保留', plugins: [...kept.values()].map(v => v.plugin).sort((a, b) => a.name.localeCompare(b.name, 'en')) },
     duplicates: [...duplicates.values()].sort((a, b) => a.name.localeCompare(b.name, 'en')),
   };
 }
@@ -332,6 +338,7 @@ export async function build({ client = new GitHub(), now = new Date() } = {}) {
   const readers = [anthropic, openai, zcode, solvinglab];
   const results = await Promise.all(readers.map(reader => reader(client)));
   results.push(await community(client, { now, state }));
+  results.push(await selfHosted(client));
   for (const r of results) console.log(`${r.id}: inspected ${r.inspected}, plugin candidates ${r.candidates.length}`);
   const rawCandidates = results.flatMap(r => r.candidates);
   // Check every upstream category, including entries later excluded for a manifest.
@@ -372,6 +379,7 @@ export async function build({ client = new GitHub(), now = new Date() } = {}) {
     if (typeof loaded.manifest.name !== 'string' || !NAME_PATTERN.test(loaded.manifest.name)) {
       rejected.push({ id: record.id, name: record.entry.name, source: record.source, reason: 'invalid_manifest_name' }); continue;
     }
+    if (record.id === 'self-hosted' && record.entry.name !== loaded.manifest.name) { rejected.push({ id: record.id, name: record.entry.name, source: record.source, reason: 'name_mismatch' }); continue; }
     if (record.entry.name && record.entry.name !== loaded.manifest.name) nameCorrections.push({ id: record.id, source: record.source, listedName: record.entry.name, manifestName: loaded.manifest.name });
     records.push(createListing(record, loaded, mapping));
   }
@@ -405,6 +413,7 @@ export async function build({ client = new GitHub(), now = new Date() } = {}) {
   rejected.push(...fallback.dropped);
   const markets = Object.fromEntries(SOURCE_ORDER.map(id => [id, { name: marketplaceName(id), description: `OmniMind 公开插件目录：${id}`, plugins: selected.filter(r => r.id === id).map(r => r.plugin) }]));
   rejected = rejected.filter(item => !(item.reason === 'metadata_unavailable' && item.repo && fallback.reused.has(item.repo.toLowerCase())));
+  for (const market of Object.values(markets)) market.plugins = market.plugins.filter(plugin => !SCIENCE_NAMES.has(plugin.name.toLowerCase()));
   const warnings = mergeReportWarnings(applyFeatured(markets, featured), client);
   const merged = mergeMarkets(markets);
   for (const market of [...Object.values(markets), merged.market]) validateMarketplace(market);
