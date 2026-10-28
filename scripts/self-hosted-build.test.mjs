@@ -23,7 +23,7 @@ test('build writes synthetic self-hosted package into dist', async () => {
       async repository(r) { await this.metadataBatch([r]); return meta.get(r.toLowerCase()); },
       async file(r, _sha, path) { if (r !== repo) return JSON.stringify({ plugins: [] }); try { return await readFile(resolve(fixture, path), 'utf8'); } catch (e) { if (e.code === 'ENOENT') return null; throw e; } },
       async pin(parts) { return { source: { source: 'github', repo: parts.repo, path: parts.path, sha: parts.sha ?? sha } }; },
-      async manifests(sources) { return new Map(sources.map(s => [`${s.repo.toLowerCase()}#${s.path}@${s.sha}`, { manifest: { name: 'example', version: '1.0.0' }, manifestPath: `${s.path}/.omnimind-plugin/plugin.json` }])); },
+      async manifests(sources) { return new Map(await Promise.all(sources.map(async s => [`${s.repo.toLowerCase()}#${s.path}@${s.sha}`, { manifest: JSON.parse(await readFile(resolve(fixture, s.path, '.omnimind-plugin/plugin.json'), 'utf8')), manifestPath: `${s.path}/.omnimind-plugin/plugin.json` }]))); },
       async searchTopic(topic) { return { topic, repos: [] }; }, async publicOrgRepos() { return []; }, async tree() { return []; },
     };
     globalThis.fetch = async () => ({ ok: false, status: 404, url: 'https://github.com/', headers: new Headers(), body: null });
