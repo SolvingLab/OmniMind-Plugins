@@ -1,3 +1,290 @@
 {
-  "items": []
+  "items": [
+    {
+      "name": "audio-generation",
+      "sha": "5c371521dd62f35c7bbff42232a35b1389f9185a",
+      "displayName": "音频生成",
+      "displayName_i18n": { "en": "Audio Generation", "zh-CN": "音频生成" },
+      "description": "根据文字描述生成音频。调用已固定的 ElevenLabs sound-generation 接口；未配置 ELEVENLABS_API_KEY 时保持待配置。不朗读文字，也不改用其它产品。",
+      "description_i18n": {
+        "en": "Generate audio from a text description through the pinned ElevenLabs sound-generation endpoint; stays setup-required without ELEVENLABS_API_KEY. It does not read text aloud and does not substitute other products.",
+        "zh-CN": "根据文字描述生成音频。调用已固定的 ElevenLabs sound-generation 接口；未配置 ELEVENLABS_API_KEY 时保持待配置。不朗读文字，也不改用其它产品。"
+      },
+      "category": "design",
+      "icon": "assets/icon.svg"
+    },
+    {
+      "name": "autodesk-fusion",
+      "sha": "5c371521dd62f35c7bbff42232a35b1389f9185a",
+      "displayName": "Autodesk Fusion",
+      "displayName_i18n": { "en": "Autodesk Fusion", "zh-CN": "Autodesk Fusion" },
+      "description": "社区 MCP 操作本机 Fusion。连接用户已在本机 Autodesk Fusion 里启动的 AutodeskFusionMCP v1.6.0。未配置时不连接，不安装 Fusion，不写设计。",
+      "description_i18n": {
+        "en": "Drive a local Autodesk Fusion through the community AutodeskFusionMCP v1.6.0 add-in you started yourself; no connection, no install and no design writes until you configure it.",
+        "zh-CN": "社区 MCP 操作本机 Fusion。连接用户已在本机 Autodesk Fusion 里启动的 AutodeskFusionMCP v1.6.0。未配置时不连接，不安装 Fusion，不写设计。"
+      },
+      "category": "design",
+      "icon": "assets/icon.png"
+    },
+    {
+      "name": "baidu-netdisk",
+      "sha": "5c371521dd62f35c7bbff42232a35b1389f9185a",
+      "displayName": "百度网盘",
+      "displayName_i18n": { "en": "Baidu Netdisk", "zh-CN": "百度网盘" },
+      "description": "管理百度网盘中的云端文件与资料。未配置用户自己的 Access Token 时不连接账户，也不列出文件。",
+      "description_i18n": {
+        "en": "Manage cloud files and documents in Baidu Netdisk. Without your own access token it does not connect to the account or list files.",
+        "zh-CN": "管理百度网盘中的云端文件与资料。未配置用户自己的 Access Token 时不连接账户，也不列出文件。"
+      },
+      "category": "office"
+    },
+    {
+      "name": "dingtalk-cli",
+      "sha": "5c371521dd62f35c7bbff42232a35b1389f9185a",
+      "displayName": "钉钉",
+      "displayName_i18n": { "en": "DingTalk", "zh-CN": "钉钉" },
+      "description": "通过本机钉钉 Workspace CLI（dws 1.0.64）读取和发送钉钉消息与联系人。只提供技能说明，不打包 dws，也不含 MCP 子命令。",
+      "description_i18n": {
+        "en": "Read and send DingTalk messages and contacts through the DingTalk Workspace CLI (dws 1.0.64) on this machine. Skill instructions only: it neither bundles dws nor adds an MCP subcommand.",
+        "zh-CN": "通过本机钉钉 Workspace CLI（dws 1.0.64）读取和发送钉钉消息与联系人。只提供技能说明，不打包 dws，也不含 MCP 子命令。"
+      },
+      "category": "collaboration"
+    },
+    {
+      "name": "docker",
+      "sha": "5c371521dd62f35c7bbff42232a35b1389f9185a",
+      "displayName": "Docker",
+      "displayName_i18n": { "en": "Docker", "zh-CN": "Docker" },
+      "description": "查看和管理本机已经配置好的 Docker 容器与镜像。",
+      "description_i18n": {
+        "en": "Inspect and manage the Docker containers and images already configured on this machine.",
+        "zh-CN": "查看和管理本机已经配置好的 Docker 容器与镜像。"
+      },
+      "category": "coding",
+      "icon": "assets/icon.svg"
+    },
+    {
+      "name": "excalidraw",
+      "sha": "5c371521dd62f35c7bbff42232a35b1389f9185a",
+      "displayName": "可交互架构图",
+      "displayName_i18n": { "en": "Excalidraw Diagrams", "zh-CN": "可交互架构图" },
+      "description": "让 Agent 生成图形，在对话侧栏用 Excalidraw 编辑、引用选区、继续修改并导出。",
+      "description_i18n": {
+        "en": "Let the agent draw diagrams, then edit them in an Excalidraw side panel: reference a selection, keep iterating, and export.",
+        "zh-CN": "让 Agent 生成图形，在对话侧栏用 Excalidraw 编辑、引用选区、继续修改并导出。"
+      },
+      "category": "design",
+      "icon": "assets/icon.png"
+    },
+    {
+      "name": "freecad",
+      "sha": "5c371521dd62f35c7bbff42232a35b1389f9185a",
+      "displayName": "FreeCAD",
+      "displayName_i18n": { "en": "FreeCAD", "zh-CN": "FreeCAD" },
+      "description": "在 FreeCAD 里新建和查看 CAD 文档、创建和修改零件与模型，并在已启动的插件上运行建模脚本。",
+      "description_i18n": {
+        "en": "Create and inspect CAD documents in FreeCAD, build and change parts and models, and run modelling scripts against the add-on you already started.",
+        "zh-CN": "在 FreeCAD 里新建和查看 CAD 文档、创建和修改零件与模型，并在已启动的插件上运行建模脚本。"
+      },
+      "category": "design"
+    },
+    {
+      "name": "himalaya",
+      "sha": "5c371521dd62f35c7bbff42232a35b1389f9185a",
+      "displayName": "邮件",
+      "displayName_i18n": { "en": "Himalaya Mail", "zh-CN": "邮件" },
+      "description": "管理邮件。scripts/launch.py 把参数原样传给用户已安装的 Himalaya；未配置时不启动。本包不含程序，不创建账户，也不代发邮件。",
+      "description_i18n": {
+        "en": "Manage email. scripts/launch.py passes arguments through unchanged to the Himalaya you installed; nothing starts until you configure it. The package ships no program, creates no account and sends no mail by itself.",
+        "zh-CN": "管理邮件。scripts/launch.py 把参数原样传给用户已安装的 Himalaya；未配置时不启动。本包不含程序，不创建账户，也不代发邮件。"
+      },
+      "category": "office"
+    },
+    {
+      "name": "inkscape",
+      "sha": "5c371521dd62f35c7bbff42232a35b1389f9185a",
+      "displayName": "Inkscape",
+      "displayName_i18n": { "en": "Inkscape", "zh-CN": "Inkscape" },
+      "description": "用本机 Inkscape 工具编辑 SVG 图形。",
+      "description_i18n": {
+        "en": "Edit SVG artwork with the Inkscape tools installed on this machine.",
+        "zh-CN": "用本机 Inkscape 工具编辑 SVG 图形。"
+      },
+      "category": "design"
+    },
+    {
+      "name": "kicad",
+      "sha": "5c371521dd62f35c7bbff42232a35b1389f9185a",
+      "displayName": "KiCad",
+      "displayName_i18n": { "en": "KiCad", "zh-CN": "KiCad" },
+      "description": "检查 KiCad 原理图与电路板，并运行随包的电路检查。社区 MCP 服务，不是 KiCad 官方插件。",
+      "description_i18n": {
+        "en": "Inspect KiCad schematics and boards and run the bundled circuit checks. A community MCP server, not an official KiCad plugin.",
+        "zh-CN": "检查 KiCad 原理图与电路板，并运行随包的电路检查。社区 MCP 服务，不是 KiCad 官方插件。"
+      },
+      "category": "design"
+    },
+    {
+      "name": "lark-cli",
+      "sha": "5c371521dd62f35c7bbff42232a35b1389f9185a",
+      "displayName": "飞书",
+      "displayName_i18n": { "en": "Lark", "zh-CN": "飞书" },
+      "description": "通过本机飞书 Lark CLI（1.0.98）读取和更新日历、文档与消息。只提供技能说明，不含 MCP 子命令。",
+      "description_i18n": {
+        "en": "Read and update Feishu calendars, documents and messages through the local Lark CLI 1.0.98. Skill instructions only; this package adds no MCP subcommand.",
+        "zh-CN": "通过本机飞书 Lark CLI（1.0.98）读取和更新日历、文档与消息。只提供技能说明，不含 MCP 子命令。"
+      },
+      "category": "collaboration"
+    },
+    {
+      "name": "latex",
+      "sha": "5c371521dd62f35c7bbff42232a35b1389f9185a",
+      "displayName": "LaTeX",
+      "displayName_i18n": { "en": "LaTeX", "zh-CN": "LaTeX" },
+      "description": "在用户指定的工作区里读取、修改并编译 LaTeX。工作区目录必填，没有默认路径，未填写时保持 setup_required。安装不等于已经编译。",
+      "description_i18n": {
+        "en": "Read, edit and compile LaTeX inside a workspace you name. The directory is required, there is no default path, and until then the plugin stays setup_required. Installing does not mean a document was compiled.",
+        "zh-CN": "在用户指定的工作区里读取、修改并编译 LaTeX。工作区目录必填，没有默认路径，未填写时保持 setup_required。安装不等于已经编译。"
+      },
+      "category": "office",
+      "icon": "assets/icon.svg"
+    },
+    {
+      "name": "meeting-minutes-trace",
+      "sha": "5c371521dd62f35c7bbff42232a35b1389f9185a",
+      "displayName": "会议纪要转写",
+      "displayName_i18n": { "en": "Meeting Minutes Trace", "zh-CN": "会议纪要转写" },
+      "description": "转写会议纪要，并按纪要条目回溯到 AssemblyAI 返回的音频时间。未配置 ASSEMBLYAI_API_KEY 时不请求、不编造纪要。",
+      "description_i18n": {
+        "en": "Transcribe meeting minutes and trace every item back to the audio timing AssemblyAI returns. Without ASSEMBLYAI_API_KEY it sends no request and invents no minutes.",
+        "zh-CN": "转写会议纪要，并按纪要条目回溯到 AssemblyAI 返回的音频时间。未配置 ASSEMBLYAI_API_KEY 时不请求、不编造纪要。"
+      },
+      "category": "collaboration"
+    },
+    {
+      "name": "netsuite",
+      "sha": "5c371521dd62f35c7bbff42232a35b1389f9185a",
+      "displayName": "NetSuite",
+      "displayName_i18n": { "en": "NetSuite", "zh-CN": "NetSuite" },
+      "description": "连接 NetSuite ERP。用用户自己的 OAuth 2.0 客户端证书向账户专属 SuiteTalk REST 换取访问令牌，并读取 metadata-catalog。未配置时不发请求，不创建集成记录，不写 ERP。",
+      "description_i18n": {
+        "en": "Connect to NetSuite ERP: exchange your own OAuth 2.0 client credentials for an access token on the account-specific SuiteTalk REST endpoint and read the metadata catalog. No requests, no integration records and no ERP writes until configured.",
+        "zh-CN": "连接 NetSuite ERP。用用户自己的 OAuth 2.0 客户端证书向账户专属 SuiteTalk REST 换取访问令牌，并读取 metadata-catalog。未配置时不发请求，不创建集成记录，不写 ERP。"
+      },
+      "category": "data"
+    },
+    {
+      "name": "onshape",
+      "sha": "5c371521dd62f35c7bbff42232a35b1389f9185a",
+      "displayName": "Onshape",
+      "displayName_i18n": { "en": "Onshape", "zh-CN": "Onshape" },
+      "description": "Onshape 云端 CAD。用用户自己的 API key 创建文档、零件工作室和装配，提交特征编辑，导入文件并导出。删除只登记显式对象，不发送删除。未配置时不启动，不创建密钥。",
+      "description_i18n": {
+        "en": "Onshape cloud CAD: with your own API key it creates documents, part studios and assemblies, applies feature edits, and imports or exports files. Deletion only records explicitly named objects and sends nothing destructive. No credentials are created.",
+        "zh-CN": "Onshape 云端 CAD。用用户自己的 API key 创建文档、零件工作室和装配，提交特征编辑，导入文件并导出。删除只登记显式对象，不发送删除。未配置时不启动，不创建密钥。"
+      },
+      "category": "design"
+    },
+    {
+      "name": "postgresql",
+      "sha": "5c371521dd62f35c7bbff42232a35b1389f9185a",
+      "displayName": "PostgreSQL",
+      "displayName_i18n": { "en": "PostgreSQL", "zh-CN": "PostgreSQL" },
+      "description": "查询已经配置好的 PostgreSQL 数据库。未填写连接时保持待配置。",
+      "description_i18n": {
+        "en": "Query the PostgreSQL database you already configured. Without a connection URI the server stays in setup-required state.",
+        "zh-CN": "查询已经配置好的 PostgreSQL 数据库。未填写连接时保持待配置。"
+      },
+      "category": "data",
+      "icon": "assets/icon.svg"
+    },
+    {
+      "name": "rhino",
+      "sha": "5c371521dd62f35c7bbff42232a35b1389f9185a",
+      "displayName": "Rhino",
+      "displayName_i18n": { "en": "Rhino", "zh-CN": "Rhino" },
+      "description": "查看和修改本机 Rhino 模型。",
+      "description_i18n": {
+        "en": "Inspect and change Rhino models on this machine.",
+        "zh-CN": "查看和修改本机 Rhino 模型。"
+      },
+      "category": "design",
+      "icon": "assets/icon.png"
+    },
+    {
+      "name": "roblox-studio",
+      "sha": "5c371521dd62f35c7bbff42232a35b1389f9185a",
+      "displayName": "Roblox Studio",
+      "displayName_i18n": { "en": "Roblox Studio", "zh-CN": "Roblox Studio" },
+      "description": "读取已打开的 Roblox Studio 场景和脚本，修改脚本、插入资源，并控制试玩。",
+      "description_i18n": {
+        "en": "Read the open Roblox Studio place and scripts, edit scripts, insert assets, and drive playtesting.",
+        "zh-CN": "读取已打开的 Roblox Studio 场景和脚本，修改脚本、插入资源，并控制试玩。"
+      },
+      "category": "coding",
+      "icon": "assets/icon.svg"
+    },
+    {
+      "name": "rscript",
+      "sha": "5c371521dd62f35c7bbff42232a35b1389f9185a",
+      "displayName": "Rscript",
+      "displayName_i18n": { "en": "Rscript", "zh-CN": "Rscript" },
+      "description": "在本机持续的 R 会话里运行代码并查看结果。",
+      "description_i18n": {
+        "en": "Run R code in a persistent local session and inspect the results.",
+        "zh-CN": "在本机持续的 R 会话里运行代码并查看结果。"
+      },
+      "category": "data"
+    },
+    {
+      "name": "ssh-remote-ops",
+      "sha": "5c371521dd62f35c7bbff42232a35b1389f9185a",
+      "displayName": "SSH 远程运维",
+      "displayName_i18n": { "en": "SSH Remote Ops", "zh-CN": "SSH 远程运维" },
+      "description": "按用户显式提供的主机、端口、用户名、私钥路径、独立配置文件、命令白名单和远端路径允许列表做远程操作。这些项都必填且无默认值，未填写时保持 setup_required。不读取本机 SSH 配置或凭据，不默认连接。",
+      "description_i18n": {
+        "en": "Run remote operations against hosts, ports, users, key paths, a dedicated config file, a command allow-list and remote path allow-list that you provide explicitly. All of them are required with no defaults, and until they are set the plugin stays setup_required. It never reads your local SSH config or credentials and never connects by default.",
+        "zh-CN": "按用户显式提供的主机、端口、用户名、私钥路径、独立配置文件、命令白名单和远端路径允许列表做远程操作。这些项都必填且无默认值，未填写时保持 setup_required。不读取本机 SSH 配置或凭据，不默认连接。"
+      },
+      "category": "coding",
+      "icon": "assets/icon.svg"
+    },
+    {
+      "name": "tencent-ads",
+      "sha": "5c371521dd62f35c7bbff42232a35b1389f9185a",
+      "displayName": "腾讯广告",
+      "displayName_i18n": { "en": "Tencent Ads", "zh-CN": "腾讯广告" },
+      "description": "腾讯广告智能投放。调用 Marketing API v3.0 的营销单元接口和已钉选的智投字段；未配置 access_token 或 account_id 时不请求账户，也不创建广告。",
+      "description_i18n": {
+        "en": "Tencent Ads campaign delivery through Marketing API v3.0 ad-group endpoints and pinned automation fields. Without an access token or account id it sends no account request and creates no ads.",
+        "zh-CN": "腾讯广告智能投放。调用 Marketing API v3.0 的营销单元接口和已钉选的智投字段；未配置 access_token 或 account_id 时不请求账户，也不创建广告。"
+      },
+      "category": "collaboration"
+    },
+    {
+      "name": "tiktok-for-business",
+      "sha": "5c371521dd62f35c7bbff42232a35b1389f9185a",
+      "displayName": "TikTok for Business",
+      "displayName_i18n": { "en": "TikTok for Business", "zh-CN": "TikTok for Business" },
+      "description": "创建、管理与分析 TikTok 广告。未配置 Access-Token 时保持待配置，不创建账户，也不把未调用的接口记为成功。",
+      "description_i18n": {
+        "en": "Create, manage and analyse TikTok ads. Without an access token it stays unconfigured, creates no account, and never reports an endpoint it did not call as a success.",
+        "zh-CN": "创建、管理与分析 TikTok 广告。未配置 Access-Token 时保持待配置，不创建账户，也不把未调用的接口记为成功。"
+      },
+      "category": "collaboration",
+      "icon": "assets/icon.svg"
+    },
+    {
+      "name": "context7",
+      "sha": "5c371521dd62f35c7bbff42232a35b1389f9185a",
+      "displayName": "Context7",
+      "displayName_i18n": { "en": "Context7", "zh-CN": "Context7" },
+      "description": "查询最新文档的 Upstash Context7 MCP 服务，匿名连接 https://mcp.context7.com/mcp；去掉了会返回认证错误的 Claude Code 查询参数。",
+      "description_i18n": {
+        "en": "Upstash Context7 MCP server for up-to-date documentation lookup. Connects anonymously to https://mcp.context7.com/mcp; the Claude Code client query is omitted because that URL returns authentication required.",
+        "zh-CN": "查询最新文档的 Upstash Context7 MCP 服务，匿名连接 https://mcp.context7.com/mcp；去掉了会返回认证错误的 Claude Code 查询参数。"
+      },
+      "category": "enhancement"
+    }
+  ]
 }
