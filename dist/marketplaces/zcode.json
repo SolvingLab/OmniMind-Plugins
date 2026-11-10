@@ -8,7 +8,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/accounting-and-reporting",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "data",
       "strict": true,
@@ -43,11 +43,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -61,7 +61,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/alibaba-cloud-cli",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "coding",
       "strict": true,
@@ -98,11 +98,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -111,12 +111,67 @@
       "icon": "https://cdn-zcode.z.ai/zcode/official-plugin/assets/alibaba-cloud-cli/icon.png"
     },
     {
+      "name": "anet",
+      "source": {
+        "source": "github",
+        "repo": "zai-org/zcode-plugins",
+        "path": "external_plugins/anet",
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
+      },
+      "category": "coding",
+      "strict": true,
+      "description": "Delegate tasks to other AI agents over A2A through a local AgentNetwork (anet) node: find agents, send and track end-to-end encrypted tasks, settle priced skills within operator limits, and answer tasks sent to this node.",
+      "version": "0.1.3",
+      "displayName": "AgentNetwork (anet)",
+      "homepage": "https://docs.agentnetwork.org.cn/docs/en/latest/",
+      "author": {
+        "name": "Agent Network Research",
+        "url": "https://agentnetwork.org.cn"
+      },
+      "displayName_i18n": {
+        "en": "AgentNetwork (anet)",
+        "zh-CN": "AgentNetwork（anet）"
+      },
+      "description_i18n": {
+        "en": "Delegate tasks to other AI agents over A2A through a local AgentNetwork (anet) node: find agents, send and track end-to-end encrypted tasks, settle priced skills within operator limits, and answer tasks sent to this node.",
+        "zh-CN": "通过本机 AgentNetwork（anet）节点经 A2A 协议把任务交给其他 AI 智能体：发现智能体，发送并跟踪端到端加密的任务，在运营者设定的额度内支付付费技能，并答复其他智能体发给本节点的任务。"
+      },
+      "tags": [
+        "anet",
+        "agentnetwork",
+        "a2a",
+        "agent-to-agent",
+        "mcp",
+        "x402",
+        "multi-agent"
+      ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://docs.agentnetwork.org.cn/docs/en/latest/",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
+      "github": {
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
+      },
+      "x-omnimind": {
+        "sourceId": "zcode",
+        "manifestPath": "external_plugins/anet/.zcode-plugin/plugin.json"
+      },
+      "icon": "https://cdn-zcode.z.ai/zcode/official-plugin/assets/anet/icon.png"
+    },
+    {
       "name": "assess-credit",
       "source": {
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/assess-credit",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "data",
       "strict": true,
@@ -151,11 +206,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -164,30 +219,38 @@
       "icon": "https://cdn-zcode.z.ai/zcode/official-plugin/assets/fixed-income-research/icon.png"
     },
     {
-      "name": "blender",
+      "name": "autoresearch",
       "source": {
         "source": "github",
         "repo": "zai-org/zcode-plugins",
-        "path": "plugins/blender",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "path": "external_plugins/autoresearch",
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
-      "category": "office",
+      "category": "coding",
       "strict": true,
-      "description": "在 ZCode 对话旁打开 Blender 场景：Agent 修改物体、材质、相机并渲染预览；面板用 Three.js 轻量浏览。",
-      "version": "0.2.3",
-      "displayName": "Blender",
+      "description": "Autonomous experiment loop for ZCode: set a goal, pick a mechanical metric, and let the agent iterate. It measures, keeps what works, reverts what doesn't, and repeats. Provides init/run/log experiment tools (MCP), a loop protocol skill, guardrails (frozen benchmark, checks backpressure, memory injection, Stop continuation), and static + live dashboards.",
+      "version": "0.1.0",
       "homepage": "https://github.com/zai-org/zcode-plugins",
       "author": {
-        "name": "ZCode"
-      },
-      "displayName_i18n": {
-        "en": "Blender",
-        "zh-CN": "Blender"
+        "name": "luochang212",
+        "url": "https://github.com/luochang212"
       },
       "description_i18n": {
-        "en": "Edit Blender scenes with an interactive 3D panel and MCP tools.",
-        "zh-CN": "在 ZCode 对话旁打开 Blender 场景：Agent 修改物体、材质、相机并渲染预览；面板用 Three.js 轻量浏览。"
+        "en": "Autonomous experiment loop for ZCode: set a goal, pick a mechanical metric, and let the agent iterate. It measures, keeps what works, reverts what doesn't, and repeats.",
+        "zh-CN": "ZCode 自主实验循环：设定目标与机械度量，让 agent 迭代。每一轮测量、保留有效改动、回滚无效改动，如此往复。"
       },
+      "tags": [
+        "autoresearch",
+        "experiment",
+        "optimization",
+        "loop",
+        "benchmark",
+        "mcp"
+      ],
+      "examplePrompts": [
+        "Run an experiment loop to make this benchmark faster without breaking the checks",
+        "Which approaches were tried so far, and why were the discarded ones rejected?"
+      ],
       "repository": "https://github.com/zai-org/zcode-plugins",
       "links": {
         "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
@@ -196,15 +259,71 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
-        "manifestPath": "plugins/blender/.zcode-plugin/plugin.json"
+        "manifestPath": "external_plugins/autoresearch/.zcode-plugin/plugin.json"
+      },
+      "icon": "https://cdn-zcode.z.ai/zcode/official-plugin/assets/autoresearch/icon.png"
+    },
+    {
+      "name": "blender",
+      "source": {
+        "source": "github",
+        "repo": "zai-org/zcode-plugins",
+        "path": "plugins/blender",
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
+      },
+      "category": "design",
+      "strict": true,
+      "description": "Use the official Blender CLI to install or locate Blender, model in visible desktop iterations, and inspect images before refining the same project.",
+      "version": "0.4.1",
+      "displayName": "Blender",
+      "homepage": "https://www.blender.org",
+      "author": {
+        "name": "Z.ai",
+        "url": "https://z.ai"
+      },
+      "displayName_i18n": {
+        "en": "Blender",
+        "zh-CN": "Blender"
+      },
+      "description_i18n": {
+        "en": "Use the official Blender CLI to install or locate Blender, model in visible desktop iterations, and inspect images before refining the same project.",
+        "zh-CN": "引导安装和使用官方 Blender CLI，逐轮打开界面建模，实际看图后调整同一项目。"
+      },
+      "tags": [
+        "blender",
+        "blender-cli",
+        "3d",
+        "render",
+        "bpy",
+        "gltf",
+        "batch",
+        "automation"
+      ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://www.blender.org/",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
+      "github": {
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
+      },
+      "x-omnimind": {
+        "sourceId": "zcode",
+        "manifestPath": "plugins/blender/.claude-plugin/plugin.json"
       },
       "icon": "https://cdn-zcode.z.ai/zcode/official-plugin/assets/blender/icon.png"
     },
@@ -214,12 +333,12 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "external_plugins/cadcraft",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "office",
       "strict": true,
       "description": "CADCraft CAD drafting in a ZCode panel, with workspace file opening and host-mediated exports.",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "displayName": "CADCraft",
       "homepage": "https://github.com/zai-org/zcode-plugins",
       "author": {
@@ -247,11 +366,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -265,7 +384,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/cloudbase-skills",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "coding",
       "strict": true,
@@ -294,11 +413,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -312,12 +431,12 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "external_plugins/deckcraft",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "office",
       "strict": true,
       "description": "DeckCraft presentations in a ZCode panel, with workspace file opening and host-mediated exports.",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "displayName": "DeckCraft",
       "homepage": "https://github.com/zai-org/zcode-plugins",
       "author": {
@@ -345,11 +464,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -363,12 +482,12 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "external_plugins/designcraft",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "office",
       "strict": true,
       "description": "DesignCraft page layout in a ZCode panel, with workspace file opening and host-mediated exports.",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "displayName": "DesignCraft",
       "homepage": "https://github.com/zai-org/zcode-plugins",
       "author": {
@@ -396,11 +515,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -414,7 +533,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/dingtalk-cli",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "office",
       "strict": true,
@@ -451,11 +570,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -469,12 +588,12 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "external_plugins/excalidraw",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "office",
       "strict": true,
       "description": "让 Agent 生成图形，在对话侧栏用 Excalidraw 编辑、引用选区、继续修改并导出。",
-      "version": "0.2.3",
+      "version": "0.3.4",
       "displayName": "Excalidraw",
       "homepage": "https://github.com/zai-org/zcode-plugins",
       "author": {
@@ -496,11 +615,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -514,7 +633,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/finance-search",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "data",
       "strict": true,
@@ -547,11 +666,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -565,7 +684,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/find-clients",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "data",
       "strict": true,
@@ -600,11 +719,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -618,12 +737,12 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/github",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "coding",
       "strict": true,
       "description": "GitHub CLI workflows for commits, pull requests, issues, releases, Actions, repositories, Codespaces, and other GitHub resources.",
-      "version": "0.1.2",
+      "version": "0.1.4",
       "homepage": "https://github.com/zai-org/zcode-plugins",
       "author": {
         "name": "Z.ai",
@@ -651,11 +770,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -669,7 +788,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/gitlab",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "coding",
       "strict": true,
@@ -700,11 +819,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -713,17 +832,70 @@
       "icon": "https://cdn-zcode.z.ai/zcode/official-plugin/assets/gitlab/icon.png"
     },
     {
+      "name": "godot",
+      "source": {
+        "source": "github",
+        "repo": "zai-org/zcode-plugins",
+        "path": "plugins/godot",
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
+      },
+      "category": "design",
+      "strict": true,
+      "description": "Develop games with the official Godot CLI and show each iteration in the original desktop editor.",
+      "version": "0.4.0",
+      "displayName": "Godot",
+      "homepage": "https://godotengine.org",
+      "author": {
+        "name": "ZCode"
+      },
+      "displayName_i18n": {
+        "en": "Godot",
+        "zh-CN": "Godot"
+      },
+      "description_i18n": {
+        "en": "Develop games with the official Godot CLI and show each iteration in the original desktop editor.",
+        "zh-CN": "使用官方 Godot CLI 开发游戏，在原版桌面编辑器中查看每轮场景与运行效果。"
+      },
+      "tags": [
+        "godot",
+        "godot-cli",
+        "game",
+        "3d",
+        "gdscript",
+        "native"
+      ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://godotengine.org/",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
+      "github": {
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
+      },
+      "x-omnimind": {
+        "sourceId": "zcode",
+        "manifestPath": "plugins/godot/.zcode-plugin/plugin.json"
+      },
+      "icon": "https://cdn-zcode.z.ai/zcode/official-plugin/assets/godot/icon.png"
+    },
+    {
       "name": "gridcraft",
       "source": {
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "external_plugins/gridcraft",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "office",
       "strict": true,
       "description": "GridCraft spreadsheets in a ZCode panel, with workspace file opening and host-mediated exports.",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "displayName": "GridCraft",
       "homepage": "https://github.com/zai-org/zcode-plugins",
       "author": {
@@ -751,11 +923,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -769,7 +941,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/hexin",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "data",
       "strict": true,
@@ -802,11 +974,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -820,12 +992,12 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/hyper3d-rodin",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
-      "category": "coding",
+      "category": "design",
       "strict": true,
-      "description": "Generate 3D models from text or reference images with Hyper3D Rodin Gen-2.5, split completed models with BANG, and retrieve results.",
-      "version": "0.1.0",
+      "description": "Turn text or reference images into 3D models, split generated models into parts, and download assets for your project.",
+      "version": "0.1.1",
       "displayName": "Hyper3D Rodin",
       "homepage": "https://hyper3d.ai",
       "author": {
@@ -837,8 +1009,8 @@
         "zh-CN": "Hyper3D Rodin"
       },
       "description_i18n": {
-        "en": "Generate 3D models from text or reference images with Hyper3D Rodin Gen-2.5, split completed models with BANG, and retrieve results.",
-        "zh-CN": "通过文字或参考图片生成 Hyper3D Rodin Gen-2.5 三维模型，使用 BANG 拆分已完成模型，并获取生成结果。"
+        "en": "Turn text or reference images into 3D models, split generated models into parts, and download assets for your project.",
+        "zh-CN": "将文字或参考图片生成 3D 模型，把生成的模型拆分为独立部件，并下载到项目中使用。"
       },
       "tags": [
         "hyper3d",
@@ -857,11 +1029,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -870,12 +1042,61 @@
       "icon": "https://cdn-zcode.z.ai/zcode/official-plugin/assets/hyper3d-rodin/icon.png"
     },
     {
+      "name": "jev-decisions",
+      "source": {
+        "source": "github",
+        "repo": "zai-org/zcode-plugins",
+        "path": "external_plugins/jev-decisions",
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
+      },
+      "category": "coding",
+      "strict": true,
+      "description": "Calibrated judgment tools for ZCode agents via the community jev-mcp server: verify claims against evidence, screen untrusted text, classify, decide, and gate task completion. Ships a skill that teaches when to reach for a judgment tool instead of answering directly.",
+      "version": "0.1.0",
+      "homepage": "https://github.com/zai-org/zcode-plugins",
+      "author": {
+        "name": "kittimzhe",
+        "url": "https://github.com/kittimzhe"
+      },
+      "description_i18n": {
+        "en": "Calibrated judgment tools for ZCode agents via the community jev-mcp server: verify claims against evidence, screen untrusted text, classify, decide, and gate task completion. Ships a skill that teaches when to reach for a judgment tool instead of answering directly.",
+        "zh-CN": "通过社区版 jev-mcp 服务为 ZCode 智能体提供校准判断工具：对照证据核实结论、筛查不可信文本、批量分类、多候选择优、任务完成门禁。内置一个 Skill，教会智能体何时应调用判断工具而不是直接凭阅读作答。"
+      },
+      "tags": [
+        "jev",
+        "judgment",
+        "decision",
+        "guardrails",
+        "mcp",
+        "verification"
+      ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
+      "github": {
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
+      },
+      "x-omnimind": {
+        "sourceId": "zcode",
+        "manifestPath": "external_plugins/jev-decisions/.zcode-plugin/plugin.json"
+      },
+      "icon": "https://github.com/zai-org.png"
+    },
+    {
       "name": "jupyter-notebook",
       "source": {
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/jupyter-notebook",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "coding",
       "strict": true,
@@ -902,11 +1123,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -915,12 +1136,65 @@
       "icon": "https://cdn-zcode.z.ai/zcode/official-plugin/assets/jupyter-notebook/icon.png"
     },
     {
+      "name": "kicad",
+      "source": {
+        "source": "github",
+        "repo": "zai-org/zcode-plugins",
+        "path": "external_plugins/kicad",
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
+      },
+      "category": "coding",
+      "strict": true,
+      "description": "KiCad 10 inside the conversation: agents design 2-layer boards from a circuit spec (real KiCad libraries, auto-route, DRC, Gerber/BOM/CPL); the side panel shows the 3D render and DRC verdict; one click opens the board in the real KiCad PCB Editor and every save syncs back.",
+      "version": "0.6.1",
+      "displayName": "KiCad",
+      "homepage": "https://github.com/zai-org/zcode-plugins",
+      "author": {
+        "name": "冯小平",
+        "url": "https://github.com/fxp"
+      },
+      "displayName_i18n": {
+        "en": "KiCad",
+        "zh-CN": "KiCad"
+      },
+      "description_i18n": {
+        "en": "KiCad 10 inside the conversation: agents design 2-layer boards from a circuit spec (real KiCad libraries, auto-route, DRC, Gerber/BOM/CPL); the side panel shows the 3D render and DRC verdict; one click opens the board in the real KiCad PCB Editor and every save syncs back.",
+        "zh-CN": "把 KiCad 10 嵌入对话：Agent 用电路 spec 设计双层板（真实 KiCad 库、自动布线、DRC、Gerber/BOM/贴片坐标），侧栏面板显示 3D 渲染和 DRC 结论；一键在真实的 KiCad PCB Editor 里继续编辑，保存后自动同步回对话。"
+      },
+      "tags": [
+        "kicad",
+        "pcb",
+        "electronics",
+        "hardware",
+        "ui"
+      ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
+      "github": {
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
+      },
+      "x-omnimind": {
+        "sourceId": "zcode",
+        "manifestPath": "external_plugins/kicad/.zcode-plugin/plugin.json"
+      },
+      "icon": "https://cdn-zcode.z.ai/zcode/official-plugin/assets/kicad/icon.png"
+    },
+    {
       "name": "lark-cli",
       "source": {
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/lark-cli",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "office",
       "strict": true,
@@ -958,11 +1232,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -971,12 +1245,63 @@
       "icon": "https://cdn-zcode.z.ai/zcode/official-plugin/assets/lark-cli/icon.png"
     },
     {
+      "name": "libtv-cli",
+      "source": {
+        "source": "github",
+        "repo": "zai-org/zcode-plugins",
+        "path": "plugins/libtv-cli",
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
+      },
+      "category": "office",
+      "strict": true,
+      "description": "Official LibTV CLI skill for video creation canvases, workspaces, nodes, models, uploads, and generation workflows.",
+      "version": "0.2.0",
+      "displayName": "LibTV CLI",
+      "homepage": "https://www.liblib.art/tv/zh",
+      "author": {
+        "name": "Z.ai",
+        "url": "https://z.ai"
+      },
+      "displayName_i18n": {
+        "en": "LibTV CLI",
+        "zh-CN": "LibTV CLI"
+      },
+      "description_i18n": {
+        "en": "Official LibTV CLI skill for video creation canvases, workspaces, nodes, models, uploads, and generation workflows.",
+        "zh-CN": "LibTV 官方 CLI 技能，支持视频创作画布、工作区、节点、模型、素材上传与生成工作流。"
+      },
+      "tags": [
+        "libtv-cli",
+        "cli",
+        "skills"
+      ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://www.liblib.art/tv/zh",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
+      "github": {
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
+      },
+      "x-omnimind": {
+        "sourceId": "zcode",
+        "manifestPath": "plugins/libtv-cli/.claude-plugin/plugin.json"
+      },
+      "icon": "https://cdn-zcode.z.ai/zcode/official-plugin/assets/libtv-cli/icon.png"
+    },
+    {
       "name": "mimosa",
       "source": {
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/mimosa",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "coding",
       "strict": true,
@@ -1010,11 +1335,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1028,7 +1353,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/model-deals",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "data",
       "strict": true,
@@ -1063,11 +1388,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1081,7 +1406,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/obsidian",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "office",
       "strict": true,
@@ -1121,11 +1446,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1134,62 +1459,17 @@
       "icon": "https://cdn-zcode.z.ai/zcode/official-plugin/assets/obsidian/icon.png"
     },
     {
-      "name": "openpencil",
-      "source": {
-        "source": "github",
-        "repo": "zai-org/zcode-plugins",
-        "path": "external_plugins/openpencil",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
-      },
-      "category": "office",
-      "strict": true,
-      "description": "在对话侧栏用 OpenPencil 编辑工作区里的 Figma .fig 设计稿，Agent 通过设计工具协同修改、引用选区并生成代码。",
-      "version": "0.3.2",
-      "displayName": "OpenPencil",
-      "homepage": "https://github.com/zai-org/zcode-plugins",
-      "author": {
-        "name": "zcoder"
-      },
-      "displayName_i18n": {
-        "en": "OpenPencil",
-        "zh-CN": "OpenPencil"
-      },
-      "description_i18n": {
-        "en": "Edit design files with OpenPencil and MCP tools.",
-        "zh-CN": "在对话侧栏用 OpenPencil 编辑工作区里的 Figma .fig 设计稿，Agent 通过设计工具协同修改、引用选区并生成代码。"
-      },
-      "repository": "https://github.com/zai-org/zcode-plugins",
-      "links": {
-        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
-        "releases": "https://github.com/zai-org/zcode-plugins/releases",
-        "issues": "https://github.com/zai-org/zcode-plugins/issues",
-        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
-      },
-      "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
-      "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
-      },
-      "x-omnimind": {
-        "sourceId": "zcode",
-        "manifestPath": "external_plugins/openpencil/.zcode-plugin/plugin.json"
-      },
-      "icon": "https://cdn-zcode.z.ai/zcode/official-plugin/assets/openpencil/icon.png"
-    },
-    {
       "name": "pdfcraft",
       "source": {
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "external_plugins/pdfcraft",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "office",
       "strict": true,
       "description": "PdfCraft PDF editing in a ZCode panel, with workspace file opening and host-mediated exports.",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "displayName": "PdfCraft",
       "homepage": "https://github.com/zai-org/zcode-plugins",
       "author": {
@@ -1217,11 +1497,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1235,12 +1515,12 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "external_plugins/photocraft",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "office",
       "strict": true,
       "description": "PhotoCraft image editing in a ZCode panel, with workspace file opening and host-mediated exports.",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "displayName": "PhotoCraft",
       "homepage": "https://github.com/zai-org/zcode-plugins",
       "author": {
@@ -1268,11 +1548,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1286,7 +1566,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/pick-funds",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "data",
       "strict": true,
@@ -1321,11 +1601,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1339,7 +1619,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/read-macro",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "data",
       "strict": true,
@@ -1374,11 +1654,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1387,12 +1667,65 @@
       "icon": "https://cdn-zcode.z.ai/zcode/official-plugin/assets/macro-strategy/icon.png"
     },
     {
+      "name": "ruic-card",
+      "source": {
+        "source": "github",
+        "repo": "zai-org/zcode-plugins",
+        "path": "external_plugins/ruic-card",
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
+      },
+      "category": "design",
+      "strict": true,
+      "description": "Holographic collectible-card generator: layered artwork + Blender + Three.js, in two routes - paint the four layers from a description or reference image, or derive them from a photo you already have (rembg cutout, optional watermark removal, animation render and MP4 / WeChat-sized GIF deliverables). Outputs an interactive parallax card website plus an editable card.blend project.",
+      "version": "1.1.1",
+      "homepage": "https://github.com/zai-org/zcode-plugins",
+      "author": {
+        "name": "liuzhiqiang23",
+        "url": "https://github.com/liuzhiqiang23"
+      },
+      "description_i18n": {
+        "en": "Holographic collectible-card generator: layered artwork + Blender + Three.js, in two routes - paint the four layers from a description or reference image, or derive them from a photo you already have (rembg cutout, optional watermark removal, animation render and MP4 / WeChat-sized GIF deliverables). Outputs an interactive parallax card website plus an editable card.blend project.",
+        "zh-CN": "全息闪卡生成器：分层画稿 + Blender + Three.js，两条路线——用描述或参考图绘制四层图，或直接把已有照片切成四层（rembg 抠图、可选去水印，附动画渲染与 MP4 / 微信动图交付）。产出可交互的 3D 视差闪卡网页与可编辑的 card.blend 工程。"
+      },
+      "tags": [
+        "holographic",
+        "card",
+        "blender",
+        "threejs",
+        "parallax",
+        "creative",
+        "photo",
+        "rembg",
+        "watermark",
+        "video"
+      ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
+      "github": {
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
+      },
+      "x-omnimind": {
+        "sourceId": "zcode",
+        "manifestPath": "external_plugins/ruic-card/.zcode-plugin/plugin.json"
+      },
+      "icon": "https://github.com/zai-org.png"
+    },
+    {
       "name": "run-fpa",
       "source": {
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/run-fpa",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "data",
       "strict": true,
@@ -1427,11 +1760,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1445,12 +1778,12 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "external_plugins/soundcraft",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "office",
       "strict": true,
       "description": "SoundCraft audio editing in a ZCode panel, with workspace file opening and host-mediated exports.",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "displayName": "SoundCraft",
       "homepage": "https://github.com/zai-org/zcode-plugins",
       "author": {
@@ -1478,11 +1811,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1496,7 +1829,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/tencent-meeting-cli",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "office",
       "strict": true,
@@ -1531,11 +1864,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1549,7 +1882,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/tianyancha",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "data",
       "strict": true,
@@ -1582,11 +1915,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1600,11 +1933,11 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/tripo-3d",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
-      "category": "office",
+      "category": "design",
       "strict": true,
-      "description": "Generate textured, rig-ready 3D models from a text prompt or a reference image with Tripo, and export GLB/FBX/OBJ/STL/USDZ/3MF straight into your project. Connect your China-mainland Tripo account once in the browser (OAuth), no API key pasting.",
+      "description": "Generate textured 3D models from text or images, add rigging and animation, simplify meshes, and export assets for games or 3D printing. Requires a mainland China Tripo account.",
       "version": "0.1.3",
       "displayName": "Tripo 3D",
       "homepage": "https://www.tripo3d.ai",
@@ -1617,8 +1950,8 @@
         "zh-CN": "Tripo 3D"
       },
       "description_i18n": {
-        "en": "Generate textured, rig-ready 3D models from a text prompt or a reference image with Tripo, and export GLB/FBX/OBJ/STL/USDZ/3MF straight into your project. Connect your China-mainland Tripo account once in the browser (OAuth), no API key pasting.",
-        "zh-CN": "用 Tripo 从一句话或一张图生成带贴图、可绑骨的 3D 模型，支持动画、减面与 GLB/FBX/OBJ/STL/USDZ/3MF 导出，文件直接落到项目里。浏览器里授权一次国内站 Tripo 账号即可使用，无需粘贴 API Key。"
+        "en": "Generate textured 3D models from text or images, add rigging and animation, simplify meshes, and export assets for games or 3D printing. Requires a mainland China Tripo account.",
+        "zh-CN": "用文字或图片生成带贴图的 3D 模型，添加骨骼与动画、精简模型面数，导出用于游戏或 3D 打印的素材。需使用 Tripo 国内站账号。"
       },
       "tags": [
         "3d",
@@ -1645,11 +1978,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1663,7 +1996,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/typst-workbench",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "office",
       "strict": true,
@@ -1690,11 +2023,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1703,25 +2036,71 @@
       "icon": "https://cdn-zcode.z.ai/zcode/official-plugin/assets/typst-workbench/icon.png"
     },
     {
+      "name": "unity",
+      "source": {
+        "source": "github",
+        "repo": "zai-org/zcode-plugins",
+        "path": "plugins/unity",
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
+      },
+      "category": "design",
+      "strict": true,
+      "description": "Build game scenes in Unity, edit objects and assets, write C# scripts, and run and debug gameplay prototypes.",
+      "version": "0.1.5",
+      "homepage": "https://github.com/zai-org/zcode-plugins",
+      "author": {
+        "name": "Z.ai"
+      },
+      "description_i18n": {
+        "en": "Build game scenes in Unity, edit objects and assets, write C# scripts, and run and debug gameplay prototypes.",
+        "zh-CN": "在 Unity 中搭建游戏场景、编辑物体和资源、编写 C# 脚本，运行并调试游戏原型。"
+      },
+      "tags": [
+        "unity",
+        "game-development",
+        "unity-cli",
+        "skills"
+      ],
+      "repository": "https://github.com/zai-org/zcode-plugins",
+      "links": {
+        "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+        "releases": "https://github.com/zai-org/zcode-plugins/releases",
+        "issues": "https://github.com/zai-org/zcode-plugins/issues",
+        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+      },
+      "license": "Apache-2.0",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
+      "github": {
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
+      },
+      "x-omnimind": {
+        "sourceId": "zcode",
+        "manifestPath": "plugins/unity/.zcode-plugin/plugin.json"
+      },
+      "icon": "https://cdn-zcode.z.ai/zcode/official-plugin/assets/unity/icon.png"
+    },
+    {
       "name": "unreal-engine",
       "source": {
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/unreal-engine",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
-      "category": "coding",
+      "category": "design",
       "strict": true,
-      "description": "Control a separately installed Unreal Editor through Epic Unreal MCP and adapted official skills. Requires UE with ModelContextProtocol and AllToolsets enabled.",
-      "version": "0.1.0",
+      "description": "Build and edit Unreal Engine levels, adjust scene actors, and create and debug Blueprint logic for game prototypes.",
+      "version": "0.1.3",
       "displayName": "Unreal Engine",
       "homepage": "https://github.com/zai-org/zcode-plugins",
       "author": {
         "name": "Z.ai"
       },
       "description_i18n": {
-        "zh-CN": "通过 Epic 官方 MCP 和 Skills 操作独立安装的 UE 编辑器。需启用 ModelContextProtocol 和 AllToolsets。",
-        "en": "Control a separately installed Unreal Editor through Epic Unreal MCP and adapted official skills. Requires UE with ModelContextProtocol and AllToolsets enabled."
+        "zh-CN": "在 Unreal Engine 中搭建和编辑关卡、调整场景物体，创建与调试蓝图逻辑，制作游戏原型。",
+        "en": "Build and edit Unreal Engine levels, adjust scene actors, and create and debug Blueprint logic for game prototypes."
       },
       "tags": [
         "unreal-engine",
@@ -1737,11 +2116,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1755,12 +2134,12 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "external_plugins/vectorcraft",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "office",
       "strict": true,
       "description": "VectorCraft vector illustration in a ZCode panel, with workspace file opening and host-mediated exports.",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "displayName": "VectorCraft",
       "homepage": "https://github.com/zai-org/zcode-plugins",
       "author": {
@@ -1788,11 +2167,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1806,7 +2185,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/vet-companies",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "data",
       "strict": true,
@@ -1841,11 +2220,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1859,7 +2238,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/video-agent-kit",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "office",
       "strict": true,
@@ -1889,11 +2268,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1907,12 +2286,12 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/video2code",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "office",
       "strict": true,
       "description": "基于 ZCode 内置 Browser Use WebView 录制 WebM 并用 ffmpeg 转成 MP4/URL 复刻；无需 Playwright 或外部 Chromium",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "homepage": "https://github.com/zai-org/zcode-plugins",
       "author": {
         "name": "Z.ai",
@@ -1936,11 +2315,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -1954,7 +2333,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/watch-positions",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "data",
       "strict": true,
@@ -1989,11 +2368,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -2007,7 +2386,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/wecom-cli",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "office",
       "strict": true,
@@ -2045,11 +2424,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -2063,7 +2442,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/wind",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "data",
       "strict": true,
@@ -2096,11 +2475,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -2114,12 +2493,12 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "external_plugins/wordcraft",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "office",
       "strict": true,
       "description": "WordCraft word processing in a ZCode panel, with workspace file opening and host-mediated exports.",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "displayName": "WordCraft",
       "homepage": "https://github.com/zai-org/zcode-plugins",
       "author": {
@@ -2147,11 +2526,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -2165,7 +2544,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/write-research",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "data",
       "strict": true,
@@ -2200,11 +2579,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -2213,60 +2592,12 @@
       "icon": "https://cdn-zcode.z.ai/zcode/official-plugin/assets/equity-research/icon.png"
     },
     {
-      "name": "zcode-context",
-      "source": {
-        "source": "github",
-        "repo": "zai-org/zcode-plugins",
-        "path": "external_plugins/zcode-context",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
-      },
-      "category": "coding",
-      "strict": true,
-      "description": "Read-only session usage, model input composition, request differences and compaction events. After installing, open the Context panel from the session sidebar (top-right panel switcher); also turn on full Model I/O retention in Settings → General — the default recording drops older requests and cannot recover them later.",
-      "version": "0.3.10",
-      "homepage": "https://github.com/Kevinzzz6/zcode-context#默认记录与完整保留",
-      "author": {
-        "name": "Kevinzzz6",
-        "url": "https://github.com/Kevinzzz6"
-      },
-      "description_i18n": {
-        "en": "Read-only session usage, model input composition, request differences and compaction events. After installing, open the Context panel from the session sidebar (top-right panel switcher); also turn on full Model I/O retention in Settings → General — the default recording drops older requests and cannot recover them later.",
-        "zh-CN": "只读查看会话用量、模型输入组成、请求差异和压缩事件。装好后点右上角「切换面板」，在会话侧边栏打开「上下文」面板；建议同时在「设置 → 通用」打开「完整保留模型 I/O」——默认记录会丢弃更早的请求，且无法事后恢复。"
-      },
-      "tags": [
-        "context",
-        "tokens",
-        "usage",
-        "session",
-        "mcp"
-      ],
-      "repository": "https://github.com/zai-org/zcode-plugins",
-      "links": {
-        "docs": "https://github.com/Kevinzzz6/zcode-context#%E9%BB%98%E8%AE%A4%E8%AE%B0%E5%BD%95%E4%B8%8E%E5%AE%8C%E6%95%B4%E4%BF%9D%E7%95%99",
-        "releases": "https://github.com/zai-org/zcode-plugins/releases",
-        "issues": "https://github.com/zai-org/zcode-plugins/issues",
-        "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
-      },
-      "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
-      "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
-      },
-      "x-omnimind": {
-        "sourceId": "zcode",
-        "manifestPath": "external_plugins/zcode-context/.zcode-plugin/plugin.json"
-      },
-      "icon": "https://cdn-zcode.z.ai/zcode/official-plugin/assets/zcode-context/icon.png"
-    },
-    {
       "name": "zcode-mcp-app-dev",
       "source": {
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/zcode-mcp-app-dev",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "coding",
       "strict": true,
@@ -2288,11 +2619,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
@@ -2306,7 +2637,7 @@
         "source": "github",
         "repo": "zai-org/zcode-plugins",
         "path": "plugins/zotero",
-        "sha": "660ca283f6ecd19181182f3b1d566a843f245947"
+        "sha": "0cc58d6aa29644f50af1d7ac2fa4c4eb7ada95d9"
       },
       "category": "office",
       "strict": true,
@@ -2333,11 +2664,11 @@
         "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-10-18T10:13:19.000Z",
+      "updatedAt": "2026-10-29T09:46:18.000Z",
       "github": {
-        "stars": 104,
-        "forks": 78,
-        "fetchedAt": "2026-10-19T10:15:02.474Z"
+        "stars": 149,
+        "forks": 134,
+        "fetchedAt": "2026-11-10T07:20:32.280Z"
       },
       "x-omnimind": {
         "sourceId": "zcode",
