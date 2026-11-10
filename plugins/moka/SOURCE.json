@@ -1,0 +1,141 @@
+{
+  "prototypeName": "Moka",
+  "stableId": "proto:market:Moka",
+  "catalogDescription": "Moka HR 工作流",
+  "alias": "moka@k-private",
+  "kimiOrigin": false,
+  "substitutedProduct": false,
+  "retrieved": "2026-10-15",
+  "openPlatform": {
+    "url": "https://open.mokahr.com/",
+    "title": "Moka 开放平台",
+    "visibleProducts": ["ATS OpenAPI", "People OpenAPI"],
+    "atsDocs": "https://www.mokahr.com/docs/api/",
+    "peopleDocs": "https://people.mokahr.com/docs/api/view/v1.html"
+  },
+  "productSite": "https://www.mokahr.com/",
+  "license": {
+    "adapter": "MIT",
+    "adapterFile": "LICENSE",
+    "apiAndDocs": "Proprietary Moka documentation and service. The docs were not copied in full. Endpoint paths below are the callable contract.",
+    "icon": "No open-source license stated on the open platform page. See assets/icon-NOTICE.md."
+  },
+  "hosts": {
+    "chinaProduction": "https://api.mokahr.com",
+    "chinaStaging": "https://api-staging-3.mokahr.com",
+    "international": "https://hire-r1-api.mokahr.com",
+    "default": "https://api.mokahr.com",
+    "defaultReason": "ATS docs say the China version uses api.mokahr.com. Unset host uses that origin. Other hosts are refused."
+  },
+  "auth": {
+    "basic": "Authorization: Basic base64(apiKey + ':'). People docs say the colon must not be omitted. Password is empty. ATS curl example is -u 'your_api_key:'.",
+    "peopleSign": "Sort query params except sign, join as key=value with &, sign that UTF-8 string with MD5withRSA and a PKCS#8 private key, then URL-encode sign.",
+    "peopleSignSource": "https://people.mokahr.com/docs/api/view/v1.html API签名规则（Sign） and the Java sample SIGNATURE_ALGORITHM MD5withRSA / PKCS8EncodedKeySpec."
+  },
+  "endpoints": [
+    {
+      "command": "ats-pipelines",
+      "title": "获取招聘流程列表",
+      "method": "GET",
+      "path": "/api-platform/v2/pipelines/getPipelinesList",
+      "source": "https://www.mokahr.com/docs/api/"
+    },
+    {
+      "command": "ats-pipelines-v1",
+      "title": "获取招聘流程列表",
+      "method": "GET",
+      "path": "/api-platform/v1/pipelines/list",
+      "query": "currentHireMode=1|2 required",
+      "source": "https://www.mokahr.com/docs/api/"
+    },
+    {
+      "command": "ats-stages",
+      "title": "获取阶段信息列表",
+      "method": "GET",
+      "path": "/api-platform/v2/stage/getStagesList",
+      "source": "https://www.mokahr.com/docs/api/"
+    },
+    {
+      "command": "people-approval-form",
+      "title": "审批表单详情数据接口",
+      "method": "POST",
+      "path": "/api-platform/hcm/oapi/v2/workflow/flowInstance/form-data",
+      "query": ["entCode", "apiCode", "nonce", "timestamp", "sign"],
+      "body": ["flowInstanceId"],
+      "source": "https://people.mokahr.com/docs/api/view/v1.html"
+    },
+    {
+      "command": "ats-move-stage",
+      "title": "将申请移动到所在职位下的任一阶段",
+      "method": "PUT",
+      "path": "/api-platform/v1/applications/move_application_stage",
+      "source": "https://www.mokahr.com/docs/api/"
+    },
+    {
+      "command": "ats-create-offer",
+      "title": "创建Offer",
+      "method": "POST",
+      "path": "/api-platform/v1/create-offer",
+      "source": "https://www.mokahr.com/docs/api/"
+    },
+    {
+      "command": "ats-approve-offer",
+      "title": "审批offer",
+      "method": "PUT",
+      "path": "/api-platform/v1/applications/offerApproval",
+      "source": "https://www.mokahr.com/docs/api/"
+    },
+    {
+      "command": "ats-send-offer",
+      "title": "发送offer",
+      "method": "POST",
+      "path": "/api-platform/v1/sendOffer",
+      "source": "https://www.mokahr.com/docs/api/"
+    },
+    {
+      "command": "ats-offer-feedback",
+      "title": "接收/拒绝Offer",
+      "method": "PUT",
+      "path": "/api-platform/v1/offer/status",
+      "source": "https://www.mokahr.com/docs/api/"
+    },
+    {
+      "command": "ats-mark-hired",
+      "title": "标记候选人已入职",
+      "method": "PUT",
+      "path": "/api-platform/v1/applications/{applicationId}/hired",
+      "source": "https://www.mokahr.com/docs/api/"
+    },
+    {
+      "command": "people-add-job-change",
+      "title": "新增员工异动数据接口",
+      "method": "POST",
+      "path": "/api-platform/hcm/oapi/v2/core/rosters/batchAddJobChange",
+      "source": "https://people.mokahr.com/docs/api/view/v1.html"
+    },
+    {
+      "command": "people-create-onboarding",
+      "title": "批量添加待入职员工",
+      "method": "POST",
+      "path": "/api-platform/hcm/oapi/v1/basic/ob/employee/batchCreate",
+      "source": "https://people.mokahr.com/docs/api/view/v1.html"
+    }
+  ],
+  "notImplemented": [
+    "offer field update",
+    "resignation",
+    "correction to regular",
+    "People absence and salary writes",
+    "webhooks"
+  ],
+  "writesExecutedAgainstTenant": false,
+  "executedAgainstTenant": false,
+  "icon": {
+    "file": "assets/icon.png",
+    "source": "https://open.mokahr.com/images/logo_moka.png",
+    "sha256": "ec1d791566b8f6872b8a518b643ff274cfb18d9a08bdccda4cb2f3a76e1beec5",
+    "markFile": "assets/icon-mark.png",
+    "markSource": "https://www.mokahr.com/static/common/favicon.ico",
+    "markSha256": "cd1578a0f72fda129dc43919870a5558f60c23e49a8c165f236669ef93afc6c7"
+  }
+}

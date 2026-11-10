@@ -1,0 +1,69 @@
+{
+  "name": "moka",
+  "version": "0.2.0",
+  "description": "Moka HR 工作流。读取招聘流程、阶段和审批表单；用户明确调用时写入 offer、阶段推进、入职和人事异动。未配置 API Key 时不发请求。",
+  "license": "MIT",
+  "author": {
+    "name": "OmniMind"
+  },
+  "homepage": "https://open.mokahr.com/",
+  "keywords": [
+    "moka",
+    "hr",
+    "workflow",
+    "not-kimi"
+  ],
+  "skills": "skills",
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "MOKA_API_KEY",
+      "description": "Required Moka API key. Used only as HTTP Basic username with an empty password. No default. Unset keeps every live call in setup_required. Do not paste the key into chat.",
+      "required": true,
+      "sensitive": true
+    },
+    "api_host": {
+      "type": "string",
+      "title": "MOKA_API_HOST",
+      "description": "Optional https origin. Documented values are api.mokahr.com, api-staging-3.mokahr.com, and hire-r1-api.mokahr.com. Unset uses https://api.mokahr.com, the documented China production host. Other hosts are refused.",
+      "required": false
+    },
+    "ent_code": {
+      "type": "string",
+      "title": "MOKA_ENT_CODE",
+      "description": "Required for People approval-form reads and People writes. Tenant id from the CSM. No default.",
+      "required": false
+    },
+    "api_code": {
+      "type": "string",
+      "title": "MOKA_API_CODE",
+      "description": "Required only for People approval-form reads. Interface code from Moka People 设置 - 对外接口设置, data source 审批表单详情查询. No default.",
+      "required": false
+    },
+    "private_key": {
+      "type": "string",
+      "title": "MOKA_PRIVATE_KEY",
+      "description": "Required for People approval-form reads and People writes. PKCS#8 private key, PEM or base64. Used only to sign the request. No default. Do not paste the key into chat. Alternatively set MOKA_PRIVATE_KEY_FILE to an absolute path and leave this empty.",
+      "required": false,
+      "sensitive": true
+    },
+    "user_name": {
+      "type": "string",
+      "title": "MOKA_USER_NAME",
+      "description": "Required only for people-add-job-change. User email included in the documented query and signature. No default.",
+      "required": false
+    },
+    "job_change_api_code": {
+      "type": "string",
+      "title": "MOKA_JOB_CHANGE_API_CODE",
+      "description": "Required only for people-add-job-change. Interface code from 设置 - 对外接口设置, data source 新增异动记录接口. Do not reuse the approval-form apiCode.",
+      "required": false
+    },
+    "onboarding_api_code": {
+      "type": "string",
+      "title": "MOKA_ONBOARDING_API_CODE",
+      "description": "Required only for people-create-onboarding. Interface code from 设置 - 对外接口设置, data source 批量新增待入职员工. Do not reuse another data source code.",
+      "required": false
+    }
+  }
+}
