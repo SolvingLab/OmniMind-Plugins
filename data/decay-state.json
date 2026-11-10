@@ -1,6 +1,130 @@
 {
   "version": 1,
   "entries": {
+    "brightdata/skills#": {
+      "status": "removed",
+      "reasons": [
+        "unsupported_manifest"
+      ],
+      "removedSince": "2026-11-10T07:20:30.753Z",
+      "subjects": [
+        {
+          "id": "anthropic",
+          "entry": {
+            "name": "brightdata-plugin",
+            "source": {
+              "source": "github",
+              "repo": "brightdata/skills",
+              "path": "",
+              "sha": "37503c1ba31056370323a9d5ba88dd003a280008"
+            },
+            "category": "enhancement",
+            "strict": true,
+            "description": "Web scraping, Google search, structured data extraction, and MCP server integration powered by Bright Data. Includes 7 skills: scrape any webpage as markdown (with bot detection/CAPTCHA bypass), search Google with structured JSON results, extract data from 40+ websites (Amazon, LinkedIn, Instagram, TikTok, YouTube, and more), orchestrate Bright Data's 60+ MCP tools, built-in best practices for Web Unlocker, SERP API, Web Scraper API, and Browser API, Python SDK best practices for the brightda...",
+            "version": "1.9.0",
+            "homepage": "https://docs.brightdata.com",
+            "author": {
+              "name": "Bright Data",
+              "url": "https://brightdata.com"
+            },
+            "tags": [
+              "web-scraping",
+              "search",
+              "serp",
+              "bright-data",
+              "web-unlocker",
+              "captcha-bypass",
+              "claude-code",
+              "data-feeds",
+              "mcp",
+              "mcp-server",
+              "browser-automation",
+              "structured-data",
+              "best-practices",
+              "serp-api",
+              "browser-api",
+              "python-sdk",
+              "javascript-sdk",
+              "typescript-sdk",
+              "nodejs",
+              "discover-api",
+              "live-research",
+              "rag",
+              "rag-pipeline",
+              "semantic-search",
+              "vector-search",
+              "brightdata-sdk",
+              "brightdata-cli",
+              "bdata",
+              "cli",
+              "scraper-studio",
+              "ai-generated-scraper",
+              "linkedin",
+              "amazon",
+              "instagram",
+              "tiktok",
+              "youtube",
+              "facebook",
+              "competitive-intelligence",
+              "market-research",
+              "competitor-analysis",
+              "pricing-intelligence",
+              "social-listening",
+              "brand-monitoring",
+              "sentiment-analysis",
+              "brand-research",
+              "price-comparison",
+              "shopping",
+              "deal-finder",
+              "price-tracking"
+            ],
+            "x-omnimind": {
+              "sourceId": "anthropic",
+              "manifestPath": ".claude-plugin/plugin.json"
+            }
+          }
+        }
+      ]
+    },
+    "grafana/ai-marketplace#plugins/grafana-assistant": {
+      "status": "removed",
+      "reasons": [
+        "unsupported_manifest"
+      ],
+      "removedSince": "2026-11-10T07:20:30.753Z",
+      "subjects": [
+        {
+          "id": "anthropic",
+          "entry": {
+            "name": "grafana-assistant",
+            "source": {
+              "source": "github",
+              "repo": "grafana/ai-marketplace",
+              "path": "plugins/grafana-assistant",
+              "sha": "12be5634a492f73c189d466c5449d09b853ad7a4"
+            },
+            "category": "coding",
+            "strict": true,
+            "description": "Skills and rules for developing and using the Grafana Assistant app and CLI.",
+            "version": "0.2.0",
+            "homepage": "https://grafana.com",
+            "author": {
+              "name": "Grafana"
+            },
+            "tags": [
+              "grafana",
+              "assistant",
+              "a2a",
+              "cli"
+            ],
+            "x-omnimind": {
+              "sourceId": "anthropic",
+              "manifestPath": "plugins/grafana-assistant/.claude-plugin/plugin.json"
+            }
+          }
+        }
+      ]
+    },
     "jetbrains/teamcity-cli#": {
       "status": "removed",
       "reasons": [
