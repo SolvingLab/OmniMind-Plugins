@@ -1,6 +1,48 @@
 {
   "version": 1,
   "entries": {
+    "airwallex/airwallex-marketplace#plugins/airwallex-dev": {
+      "status": "removed",
+      "reasons": [
+        "unsupported_manifest"
+      ],
+      "removedSince": "2026-11-11T11:03:40.016Z",
+      "subjects": [
+        {
+          "id": "anthropic",
+          "entry": {
+            "name": "airwallex-dev",
+            "source": {
+              "source": "github",
+              "repo": "airwallex/airwallex-marketplace",
+              "path": "plugins/airwallex-dev",
+              "sha": "877551077786664d1cbeb32013443291c66e69e6"
+            },
+            "category": "coding",
+            "strict": true,
+            "description": "Build Airwallex payment integrations in your own codebase. Generates the checkout, card-element, onboarding, and subscription-billing code for an Airwallex integration and wires it into your project: Hosted Payment Page, Drop-in and Split Card elements, connected-account KYC onboarding, and Billing Hosted Checkout for subscriptions and card-saving. Also plans card-on-file merchant-initiated flows for AI providers such as top-ups and auto-recharge.",
+            "version": "0.1.3",
+            "homepage": "https://www.airwallex.com/docs",
+            "author": {
+              "name": "Airwallex"
+            },
+            "tags": [
+              "airwallex",
+              "integration",
+              "developer",
+              "sdk",
+              "code-generation",
+              "payments",
+              "checkout"
+            ],
+            "x-omnimind": {
+              "sourceId": "anthropic",
+              "manifestPath": "plugins/airwallex-dev/.claude-plugin/plugin.json"
+            }
+          }
+        }
+      ]
+    },
     "brightdata/skills#": {
       "status": "removed",
       "reasons": [
