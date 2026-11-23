@@ -360,6 +360,65 @@
           }
         }
       ]
+    },
+    "zai-org/zcode-plugins#plugins/video2code": {
+      "status": "removed",
+      "reasons": [
+        "unsupported_manifest"
+      ],
+      "removedSince": "2026-11-23T15:17:40.592Z",
+      "subjects": [
+        {
+          "id": "zcode",
+          "entry": {
+            "name": "video2code",
+            "source": {
+              "source": "github",
+              "repo": "zai-org/zcode-plugins",
+              "path": "plugins/video2code",
+              "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+            },
+            "category": "office",
+            "strict": true,
+            "description": "基于 ZCode 内置 Browser Use WebView 录制 WebM 并用 ffmpeg 转成 MP4/URL 复刻；无需 Playwright 或外部 Chromium",
+            "version": "0.6.1",
+            "homepage": "https://github.com/zai-org/zcode-plugins",
+            "author": {
+              "name": "Z.ai",
+              "url": "https://z.ai"
+            },
+            "description_i18n": {
+              "en": "Records WebM through ZCode's built-in Browser Use WebView and converts it to MP4 with ffmpeg for video/URL replication; no Playwright or external Chromium required.",
+              "zh-CN": "基于 ZCode 内置 Browser Use WebView 录制 WebM 并用 ffmpeg 转成 MP4/URL 复刻；无需 Playwright 或外部 Chromium"
+            },
+            "tags": [
+              "video2code",
+              "replication",
+              "webapp",
+              "motion"
+            ],
+            "repository": "https://github.com/zai-org/zcode-plugins",
+            "links": {
+              "docs": "https://github.com/zai-org/zcode-plugins/blob/main/README.md",
+              "releases": "https://github.com/zai-org/zcode-plugins/releases",
+              "issues": "https://github.com/zai-org/zcode-plugins/issues",
+              "contributing": "https://github.com/zai-org/zcode-plugins/blob/main/CONTRIBUTING.md"
+            },
+            "license": "Apache-2.0",
+            "updatedAt": "2026-11-17T16:00:47.000Z",
+            "github": {
+              "stars": 156,
+              "forks": 142,
+              "fetchedAt": "2026-11-18T11:48:29.083Z"
+            },
+            "x-omnimind": {
+              "sourceId": "zcode",
+              "manifestPath": "plugins/video2code/.claude-plugin/plugin.json"
+            },
+            "icon": "https://cdn-zcode.z.ai/zcode/official-plugin/assets/video2code/icon.png"
+          }
+        }
+      ]
     }
   }
 }

@@ -8,7 +8,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/adobe",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "design",
       "strict": true,
@@ -32,11 +32,11 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -50,7 +50,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/airtable",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "office",
       "strict": true,
@@ -73,17 +73,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/airtable/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/airtable/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/airtable/assets/logo.png"
     },
     {
       "name": "atlassian-rovo",
@@ -91,7 +91,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/atlassian-rovo",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "office",
       "strict": true,
@@ -123,17 +123,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/atlassian-rovo/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/atlassian-rovo/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/atlassian-rovo/assets/logo.png"
     },
     {
       "name": "boltz-api-cli",
@@ -141,7 +141,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/boltz-api-cli",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "science",
       "strict": true,
@@ -180,17 +180,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/boltz-api-cli/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/boltz-api-cli/assets/app-icon.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/boltz-api-cli/assets/app-icon.png"
     },
     {
       "name": "build-ios-apps",
@@ -198,7 +198,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/build-ios-apps",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -234,17 +234,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/build-ios-apps/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/build-ios-apps/assets/app-icon.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/build-ios-apps/assets/app-icon.png"
     },
     {
       "name": "build-macos-apps",
@@ -252,7 +252,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/build-macos-apps",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -288,17 +288,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/build-macos-apps/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/build-macos-apps/assets/app-icon.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/build-macos-apps/assets/app-icon.png"
     },
     {
       "name": "build-web-apps",
@@ -306,7 +306,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/build-web-apps",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -343,17 +343,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/build-web-apps/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/build-web-apps/assets/app-icon.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/build-web-apps/assets/app-icon.png"
     },
     {
       "name": "build-web-data-visualization",
@@ -361,7 +361,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/build-web-data-visualization",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -429,17 +429,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/build-web-data-visualization/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/build-web-data-visualization/assets/app-icon.svg"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/build-web-data-visualization/assets/app-icon.svg"
     },
     {
       "name": "canva",
@@ -447,7 +447,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/canva",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "design",
       "strict": true,
@@ -471,17 +471,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/canva/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/canva/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/canva/assets/logo.png"
     },
     {
       "name": "chatcut",
@@ -489,7 +489,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/chatcut",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "design",
       "strict": true,
@@ -525,17 +525,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/chatcut/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/chatcut/.codex-plugin/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/chatcut/.codex-plugin/assets/logo.png"
     },
     {
       "name": "circleci",
@@ -543,7 +543,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/circleci",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -573,17 +573,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/circleci/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/circleci/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/circleci/assets/logo.png"
     },
     {
       "name": "clickup",
@@ -591,7 +591,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/clickup",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "office",
       "strict": true,
@@ -612,17 +612,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/clickup/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/clickup/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/clickup/assets/logo.png"
     },
     {
       "name": "cloudflare",
@@ -630,7 +630,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/cloudflare",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -665,17 +665,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/cloudflare/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/cloudflare/assets/cloudflare.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/cloudflare/assets/cloudflare.png"
     },
     {
       "name": "coderabbit",
@@ -683,7 +683,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/coderabbit",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -712,17 +712,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/coderabbit/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/coderabbit/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/coderabbit/assets/logo.png"
     },
     {
       "name": "codex-security",
@@ -730,7 +730,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/codex-security",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -761,17 +761,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/codex-security/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/codex-security/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/codex-security/assets/logo.png"
     },
     {
       "name": "consensus",
@@ -779,7 +779,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/consensus",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "science",
       "strict": true,
@@ -803,11 +803,11 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -821,7 +821,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/creative-production",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "design",
       "strict": true,
@@ -863,17 +863,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/creative-production/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/creative-production/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/creative-production/assets/logo.png"
     },
     {
       "name": "crowdstrike-falcon-foundry",
@@ -881,7 +881,7 @@
         "source": "github",
         "repo": "CrowdStrike/foundry-skills",
         "path": "",
-        "sha": "8a8b4539e197ba951b393aa2f80636eec495a578"
+        "sha": "b6cdb942d4affaa5b5848b6f906545cf9de0c5af"
       },
       "category": "coding",
       "strict": true,
@@ -911,11 +911,11 @@
         "contributing": "https://github.com/CrowdStrike/foundry-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-17T23:48:31.000Z",
+      "updatedAt": "2026-11-20T18:55:48.000Z",
       "github": {
         "stars": 38,
         "forks": 7,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -929,7 +929,7 @@
         "source": "github",
         "repo": "CrowdStrike/fusion-skills",
         "path": "",
-        "sha": "7ec1d19468f677eb6b281466c87b2521ff371894"
+        "sha": "3fc41d88ecf1f2a9c7231ed092bee0cef42c4e1b"
       },
       "category": "coding",
       "strict": true,
@@ -956,11 +956,11 @@
         "contributing": "https://github.com/CrowdStrike/fusion-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-17T23:48:04.000Z",
+      "updatedAt": "2026-11-20T18:55:43.000Z",
       "github": {
         "stars": 30,
         "forks": 3,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -974,7 +974,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/data-analytics",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "data",
       "strict": true,
@@ -1028,17 +1028,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/data-analytics/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/data-analytics/assets/datascience.png",
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/data-analytics/assets/datascience.png",
       "featured": true
     },
     {
@@ -1047,7 +1047,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/datadog",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -1071,17 +1071,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/datadog/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/datadog/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/datadog/assets/logo.png"
     },
     {
       "name": "dropbox",
@@ -1089,7 +1089,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/dropbox",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "office",
       "strict": true,
@@ -1113,17 +1113,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/dropbox/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/dropbox/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/dropbox/assets/logo.png"
     },
     {
       "name": "expo",
@@ -1131,7 +1131,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/expo",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -1164,17 +1164,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/expo/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/expo/assets/expo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/expo/assets/expo.png"
     },
     {
       "name": "figma",
@@ -1182,7 +1182,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/figma",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "design",
       "strict": true,
@@ -1219,17 +1219,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/figma/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/figma/assets/logo-padded.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/figma/assets/logo-padded.png"
     },
     {
       "name": "game-studio",
@@ -1237,7 +1237,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/game-studio",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -1271,17 +1271,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/game-studio/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/game-studio/assets/app-icon.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/game-studio/assets/app-icon.png"
     },
     {
       "name": "github",
@@ -1289,7 +1289,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/github",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -1327,17 +1327,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/github/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/github/assets/github.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/github/assets/github.png"
     },
     {
       "name": "gmail",
@@ -1345,7 +1345,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/gmail",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "collaboration",
       "strict": true,
@@ -1378,17 +1378,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/gmail/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/gmail/assets/gmail.png",
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/gmail/assets/gmail.png",
       "featured": true
     },
     {
@@ -1397,7 +1397,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/google-calendar",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "office",
       "strict": true,
@@ -1433,17 +1433,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/google-calendar/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/google-calendar/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/google-calendar/assets/logo.png"
     },
     {
       "name": "google-drive",
@@ -1451,7 +1451,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/google-drive",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "office",
       "strict": true,
@@ -1488,17 +1488,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/google-drive/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/google-drive/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/google-drive/assets/logo.png"
     },
     {
       "name": "granola",
@@ -1506,7 +1506,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/granola",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "office",
       "strict": true,
@@ -1530,17 +1530,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/granola/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/granola/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/granola/assets/logo.png"
     },
     {
       "name": "higgsfield",
@@ -1548,7 +1548,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/higgsfield",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "design",
       "strict": true,
@@ -1572,11 +1572,11 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -1590,7 +1590,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/hyperframes",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "design",
       "strict": true,
@@ -1625,17 +1625,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/hyperframes/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/hyperframes/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/hyperframes/assets/logo.png"
     },
     {
       "name": "life-science-research",
@@ -1643,7 +1643,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/life-science-research",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "science",
       "strict": true,
@@ -1684,17 +1684,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/life-science-research/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/life-science-research/assets/app-icon.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/life-science-research/assets/app-icon.png"
     },
     {
       "name": "linear",
@@ -1702,7 +1702,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/linear",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "office",
       "strict": true,
@@ -1726,17 +1726,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/linear/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/linear/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/linear/assets/logo.png"
     },
     {
       "name": "lovable",
@@ -1744,7 +1744,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/lovable",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -1768,11 +1768,11 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
@@ -1786,7 +1786,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/magicpath",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -1819,17 +1819,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/magicpath/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/magicpath/assets/magicpath.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/magicpath/assets/magicpath.png"
     },
     {
       "name": "mixpanel-headless",
@@ -1837,7 +1837,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/mixpanel-headless",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "data",
       "strict": true,
@@ -1873,17 +1873,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/mixpanel-headless/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/mixpanel-headless/assets/logo.png",
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/mixpanel-headless/assets/logo.png",
       "featured": true
     },
     {
@@ -1892,7 +1892,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/monday-com",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "office",
       "strict": true,
@@ -1914,17 +1914,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/monday-com/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/monday-com/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/monday-com/assets/logo.png"
     },
     {
       "name": "ngs-analysis",
@@ -1932,7 +1932,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/ngs-analysis",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "science",
       "strict": true,
@@ -1972,17 +1972,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/ngs-analysis/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/ngs-analysis/assets/app-icon.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/ngs-analysis/assets/app-icon.png"
     },
     {
       "name": "notion",
@@ -1990,7 +1990,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/notion",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "office",
       "strict": true,
@@ -2026,17 +2026,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/notion/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/notion/assets/notion.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/notion/assets/notion.png"
     },
     {
       "name": "nvidia",
@@ -2044,7 +2044,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/nvidia",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -2084,17 +2084,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/nvidia/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/nvidia/assets/nvidia.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/nvidia/assets/nvidia.png"
     },
     {
       "name": "openai-ads-conversions",
@@ -2102,7 +2102,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/openai-ads-conversions",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -2132,17 +2132,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/openai-ads-conversions/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/openai-ads-conversions/assets/icon.svg"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/openai-ads-conversions/assets/icon.svg"
     },
     {
       "name": "openai-developers",
@@ -2150,7 +2150,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/openai-developers",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -2186,17 +2186,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/openai-developers/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/openai-developers/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/openai-developers/assets/logo.png"
     },
     {
       "name": "outlook-calendar",
@@ -2204,7 +2204,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/outlook-calendar",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "office",
       "strict": true,
@@ -2240,17 +2240,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/outlook-calendar/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/outlook-calendar/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/outlook-calendar/assets/logo.png"
     },
     {
       "name": "outlook-email",
@@ -2258,7 +2258,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/outlook-email",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "collaboration",
       "strict": true,
@@ -2292,17 +2292,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/outlook-email/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/outlook-email/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/outlook-email/assets/logo.png"
     },
     {
       "name": "plugin-eval",
@@ -2310,7 +2310,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/plugin-eval",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -2343,17 +2343,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/plugin-eval/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/plugin-eval/assets/plugin-eval.svg"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/plugin-eval/assets/plugin-eval.svg"
     },
     {
       "name": "posthog",
@@ -2361,7 +2361,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/posthog",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "data",
       "strict": true,
@@ -2399,17 +2399,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/posthog/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/posthog/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/posthog/assets/logo.png"
     },
     {
       "name": "product-design",
@@ -2417,7 +2417,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/product-design",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "design",
       "strict": true,
@@ -2459,17 +2459,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/product-design/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/product-design/assets/logo.png",
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/product-design/assets/logo.png",
       "featured": true
     },
     {
@@ -2478,7 +2478,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/public-equity-investing",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "data",
       "strict": true,
@@ -2528,17 +2528,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/public-equity-investing/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/public-equity-investing/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/public-equity-investing/assets/logo.png"
     },
     {
       "name": "qodo",
@@ -2546,12 +2546,12 @@
         "source": "github",
         "repo": "qodo-ai/qodo-skills",
         "path": "codex-packages/qodo",
-        "sha": "80240e3f5b40d4b8e39935926770f7be0ddb5cde"
+        "sha": "604cfe0f3c034d69ec5214eaaeba1c65056a410e"
       },
       "category": "coding",
       "strict": true,
       "description": "Qodo setup, code intelligence, and review workflows.",
-      "version": "2.3.1",
+      "version": "2.4.0",
       "displayName": "Qodo",
       "homepage": "https://www.qodo.ai",
       "privacyPolicy": "https://www.qodo.ai/privacy-policy/",
@@ -2580,17 +2580,17 @@
         "contributing": "https://github.com/qodo-ai/qodo-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-17T18:00:39.000Z",
+      "updatedAt": "2026-11-23T14:54:23.000Z",
       "github": {
         "stars": 60,
         "forks": 8,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "codex-packages/qodo/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/qodo-ai/qodo-skills/80240e3f5b40d4b8e39935926770f7be0ddb5cde/codex-packages/qodo/assets/qodo.png"
+      "icon": "https://raw.githubusercontent.com/qodo-ai/qodo-skills/604cfe0f3c034d69ec5214eaaeba1c65056a410e/codex-packages/qodo/assets/qodo.png"
     },
     {
       "name": "remotion",
@@ -2598,7 +2598,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/remotion",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "design",
       "strict": true,
@@ -2634,17 +2634,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/remotion/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/remotion/.codex-plugin/assets/logo.png",
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/remotion/.codex-plugin/assets/logo.png",
       "featured": true
     },
     {
@@ -2653,7 +2653,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/sentry",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -2681,17 +2681,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/sentry/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/sentry/assets/sentry.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/sentry/assets/sentry.png"
     },
     {
       "name": "sharepoint",
@@ -2699,7 +2699,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/sharepoint",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "office",
       "strict": true,
@@ -2733,17 +2733,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/sharepoint/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/sharepoint/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/sharepoint/assets/logo.png"
     },
     {
       "name": "shopify",
@@ -2751,7 +2751,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/shopify",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "collaboration",
       "strict": true,
@@ -2775,17 +2775,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/shopify/.codex-plugin/plugin.json"
       },
-      "icon": "https://github.com/openai.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/shopify/assets/logo.png"
     },
     {
       "name": "slack",
@@ -2793,7 +2793,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/slack",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "collaboration",
       "strict": true,
@@ -2826,17 +2826,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/slack/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/slack/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/slack/assets/logo.png"
     },
     {
       "name": "stripe",
@@ -2844,7 +2844,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/stripe",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "data",
       "strict": true,
@@ -2868,17 +2868,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/stripe/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/stripe/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/stripe/assets/logo.png"
     },
     {
       "name": "supabase",
@@ -2886,7 +2886,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/supabase",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -2918,17 +2918,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/supabase/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/supabase/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/supabase/assets/logo.png"
     },
     {
       "name": "superpowers",
@@ -2936,7 +2936,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/superpowers",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -2970,17 +2970,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/superpowers/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/superpowers/.codex-plugin/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/superpowers/.codex-plugin/assets/logo.png"
     },
     {
       "name": "teams",
@@ -2988,7 +2988,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/teams",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "collaboration",
       "strict": true,
@@ -3023,17 +3023,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/teams/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/teams/assets/logo.png",
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/teams/assets/logo.png",
       "featured": true
     },
     {
@@ -3042,7 +3042,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/temporal",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -3077,17 +3077,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/temporal/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/temporal/.codex-plugin/assets/logo.svg"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/temporal/.codex-plugin/assets/logo.svg"
     },
     {
       "name": "test-android-apps",
@@ -3095,7 +3095,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/test-android-apps",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -3132,17 +3132,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/test-android-apps/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/test-android-apps/assets/app-icon.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/test-android-apps/assets/app-icon.png"
     },
     {
       "name": "twilio-developer-kit",
@@ -3150,7 +3150,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/twilio-developer-kit",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -3193,17 +3193,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/twilio-developer-kit/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/twilio-developer-kit/assets/logo.svg"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/twilio-developer-kit/assets/logo.svg"
     },
     {
       "name": "vercel",
@@ -3211,7 +3211,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/vercel",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "coding",
       "strict": true,
@@ -3252,17 +3252,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/vercel/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/vercel/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/vercel/assets/logo.png"
     },
     {
       "name": "zoom",
@@ -3270,7 +3270,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/zoom",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "collaboration",
       "strict": true,
@@ -3309,17 +3309,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/zoom/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/zoom/assets/logo.jpg"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/zoom/assets/logo.jpg"
     },
     {
       "name": "zotero",
@@ -3327,7 +3327,7 @@
         "source": "github",
         "repo": "openai/plugins",
         "path": "plugins/zotero",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
       },
       "category": "science",
       "strict": true,
@@ -3362,17 +3362,17 @@
         "releases": "https://github.com/openai/plugins/releases",
         "issues": "https://github.com/openai/plugins/issues"
       },
-      "updatedAt": "2026-11-18T00:00:17.000Z",
+      "updatedAt": "2026-11-18T19:14:28.000Z",
       "github": {
-        "stars": 8001,
-        "forks": 1039,
-        "fetchedAt": "2026-11-18T11:48:29.083Z"
+        "stars": 8199,
+        "forks": 1078,
+        "fetchedAt": "2026-11-23T15:17:54.945Z"
       },
       "x-omnimind": {
         "sourceId": "openai",
         "manifestPath": "plugins/zotero/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openai/plugins/985fff07dcefa03e40e8664e24363d10b2bacd44/plugins/zotero/assets/icon.png"
+      "icon": "https://raw.githubusercontent.com/openai/plugins/981b02c0c44058b595f3b4180002c3ae3c806d40/plugins/zotero/assets/icon.png"
     }
   ]
 }

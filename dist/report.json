@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T11:48:28.131Z",
+  "generatedAt": "2026-11-23T15:17:40.592Z",
   "sources": {
     "anthropic": {
       "marketplace": "omnimind-ext-anthropic",
@@ -20,7 +20,7 @@
       "repositoryReasons": {},
       "upstream": {
         "repo": "anthropics/claude-plugins-official",
-        "sha": "e6143c9807a001832badb63e89d58ffe25d542ec",
+        "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52",
         "path": ".claude-plugin/marketplace.json"
       }
     },
@@ -36,23 +36,23 @@
       "repositoryReasons": {},
       "upstream": {
         "repo": "openai/plugins",
-        "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44",
+        "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40",
         "path": ".agents/plugins/marketplace.json"
       }
     },
     "zcode": {
       "marketplace": "omnimind-ext-zcode",
-      "inspected": 55,
+      "inspected": 58,
       "inspectedUnit": "marketplace_entries",
-      "candidates": 55,
-      "accepted": 55,
+      "candidates": 58,
+      "accepted": 58,
       "dropped": 0,
       "rejectedRepositories": 0,
       "reasons": {},
       "repositoryReasons": {},
       "upstream": {
         "repo": "zai-org/zcode-plugins",
-        "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2",
+        "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb",
         "path": "marketplace.json"
       }
     },
@@ -139,34 +139,33 @@
     },
     "community": {
       "marketplace": "omnimind-ext-community",
-      "inspected": 106,
+      "inspected": 111,
       "inspectedUnit": "repositories",
-      "candidates": 155,
-      "accepted": 141,
+      "candidates": 160,
+      "accepted": 146,
       "dropped": 14,
       "rejectedRepositories": 21,
       "reasons": {
-        "duplicate_name_within_source": 13,
-        "unsupported_manifest": 1
+        "duplicate_name_within_source": 14
       },
       "repositoryReasons": {
-        "aggregator_over_20": 3,
+        "aggregator_over_20": 4,
         "awesome_list": 3,
         "missing_license": 4,
-        "unsupported_manifest": 11
+        "unsupported_manifest": 10
       },
       "searches": [
         {
           "topic": "claude-code-plugin",
-          "repositories": 79
+          "repositories": 82
         },
         {
           "topic": "codex-plugin",
-          "repositories": 23
+          "repositories": 24
         },
         {
           "topic": "claude-plugin",
-          "repositories": 22
+          "repositories": 24
         },
         {
           "topic": "zcode-plugin",
@@ -189,8 +188,8 @@
       "repositoryReasons": {}
     }
   },
-  "totalSourceEntries": 582,
-  "mergedEntries": 548,
+  "totalSourceEntries": 590,
+  "mergedEntries": 556,
   "droppedPlugins": 34,
   "rejectedRepositories": 32,
   "duplicates": {
@@ -244,7 +243,7 @@
               "source": "github",
               "repo": "openai/plugins",
               "path": "plugins/airtable",
-              "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+              "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
             }
           }
         ]
@@ -266,7 +265,7 @@
               "source": "github",
               "repo": "openai/plugins",
               "path": "plugins/canva",
-              "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+              "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
             }
           }
         ]
@@ -278,7 +277,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/chatcut",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "alternates": [
           {
@@ -288,7 +287,7 @@
               "source": "github",
               "repo": "ChatCut-Inc/agent-plugin",
               "path": "claude",
-              "sha": "8ec489520960e6d68c79392438be24fc6fbaab0f"
+              "sha": "a69a54fac266c69a9e76d2767af2e82776a17464"
             }
           }
         ]
@@ -310,7 +309,7 @@
               "source": "github",
               "repo": "openai/plugins",
               "path": "plugins/cloudflare",
-              "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+              "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
             }
           }
         ]
@@ -322,7 +321,7 @@
           "source": "github",
           "repo": "coderabbitai/skills",
           "path": "",
-          "sha": "3e8763d24d543b48615b82535d02288de3ddae40"
+          "sha": "45bd1ae2c471cd861b8b6903f7dcab7c57aa0e59"
         },
         "alternates": [
           {
@@ -332,7 +331,7 @@
               "source": "github",
               "repo": "openai/plugins",
               "path": "plugins/coderabbit",
-              "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+              "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
             }
           }
         ]
@@ -354,7 +353,7 @@
               "source": "github",
               "repo": "anthropics/claude-plugins-official",
               "path": "external_plugins/context7",
-              "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+              "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
             }
           }
         ]
@@ -376,7 +375,7 @@
               "source": "github",
               "repo": "CrowdStrike/foundry-skills",
               "path": "",
-              "sha": "8a8b4539e197ba951b393aa2f80636eec495a578"
+              "sha": "b6cdb942d4affaa5b5848b6f906545cf9de0c5af"
             }
           }
         ]
@@ -398,7 +397,7 @@
               "source": "github",
               "repo": "CrowdStrike/fusion-skills",
               "path": "",
-              "sha": "7ec1d19468f677eb6b281466c87b2521ff371894"
+              "sha": "3fc41d88ecf1f2a9c7231ed092bee0cef42c4e1b"
             }
           }
         ]
@@ -410,7 +409,7 @@
           "source": "github",
           "repo": "datadog-labs/claude-code-plugin",
           "path": "",
-          "sha": "195f570c002beab3d7bd342739034d0019aa4863"
+          "sha": "a1603119c813f528b2d925a0ccadd73bf930550b"
         },
         "alternates": [
           {
@@ -420,7 +419,7 @@
               "source": "github",
               "repo": "openai/plugins",
               "path": "plugins/datadog",
-              "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+              "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
             }
           }
         ]
@@ -442,7 +441,7 @@
               "source": "github",
               "repo": "zai-org/zcode-plugins",
               "path": "plugins/dingtalk-cli",
-              "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+              "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
             }
           }
         ]
@@ -464,7 +463,7 @@
               "source": "github",
               "repo": "openai/plugins",
               "path": "plugins/dropbox",
-              "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+              "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
             }
           }
         ]
@@ -486,7 +485,7 @@
               "source": "github",
               "repo": "zai-org/zcode-plugins",
               "path": "external_plugins/excalidraw",
-              "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+              "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
             }
           }
         ]
@@ -508,7 +507,7 @@
               "source": "github",
               "repo": "openai/plugins",
               "path": "plugins/expo",
-              "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+              "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
             }
           }
         ]
@@ -520,7 +519,7 @@
           "source": "github",
           "repo": "figma/mcp-server-guide",
           "path": "",
-          "sha": "f2789420e7e8b4e2465dfeb1e12e1fc6a31397e5"
+          "sha": "43a06ff1738935ad5c3d9b0437b5373aaf45cdc3"
         },
         "alternates": [
           {
@@ -530,7 +529,7 @@
               "source": "github",
               "repo": "openai/plugins",
               "path": "plugins/figma",
-              "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+              "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
             }
           }
         ]
@@ -542,7 +541,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "external_plugins/github",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "alternates": [
           {
@@ -552,7 +551,7 @@
               "source": "github",
               "repo": "openai/plugins",
               "path": "plugins/github",
-              "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+              "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
             }
           },
           {
@@ -562,7 +561,7 @@
               "source": "github",
               "repo": "zai-org/zcode-plugins",
               "path": "plugins/github",
-              "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+              "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
             }
           }
         ]
@@ -574,7 +573,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "external_plugins/gitlab",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "alternates": [
           {
@@ -584,7 +583,7 @@
               "source": "github",
               "repo": "zai-org/zcode-plugins",
               "path": "plugins/gitlab",
-              "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+              "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
             }
           }
         ]
@@ -606,7 +605,7 @@
               "source": "github",
               "repo": "openai/plugins",
               "path": "plugins/hyperframes",
-              "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+              "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
             }
           }
         ]
@@ -628,7 +627,7 @@
               "source": "github",
               "repo": "zai-org/zcode-plugins",
               "path": "external_plugins/kicad",
-              "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+              "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
             }
           }
         ]
@@ -650,7 +649,7 @@
               "source": "github",
               "repo": "zai-org/zcode-plugins",
               "path": "plugins/lark-cli",
-              "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+              "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
             }
           }
         ]
@@ -662,7 +661,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "external_plugins/linear",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "alternates": [
           {
@@ -672,7 +671,7 @@
               "source": "github",
               "repo": "openai/plugins",
               "path": "plugins/linear",
-              "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+              "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
             }
           }
         ]
@@ -694,7 +693,7 @@
               "source": "github",
               "repo": "openai/plugins",
               "path": "plugins/lovable",
-              "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+              "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
             }
           }
         ]
@@ -716,7 +715,7 @@
               "source": "github",
               "repo": "microsoft/power-platform-skills",
               "path": "plugins/mcp-apps",
-              "sha": "42a94220bad33ffc815c3b8fb9e7229e65ad3542"
+              "sha": "28c209c9eec2b7dedd598b3e211104a0b04e94c7"
             }
           }
         ]
@@ -738,7 +737,7 @@
               "source": "github",
               "repo": "openai/plugins",
               "path": "plugins/posthog",
-              "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+              "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
             }
           }
         ]
@@ -760,7 +759,7 @@
               "source": "github",
               "repo": "qodo-ai/qodo-skills",
               "path": "codex-packages/qodo",
-              "sha": "80240e3f5b40d4b8e39935926770f7be0ddb5cde"
+              "sha": "604cfe0f3c034d69ec5214eaaeba1c65056a410e"
             }
           }
         ]
@@ -782,7 +781,7 @@
               "source": "github",
               "repo": "openai/plugins",
               "path": "plugins/sentry",
-              "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+              "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
             }
           }
         ]
@@ -804,7 +803,7 @@
               "source": "github",
               "repo": "openai/plugins",
               "path": "plugins/slack",
-              "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+              "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
             }
           }
         ]
@@ -826,7 +825,7 @@
               "source": "github",
               "repo": "openai/plugins",
               "path": "plugins/stripe",
-              "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+              "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
             }
           }
         ]
@@ -848,7 +847,7 @@
               "source": "github",
               "repo": "openai/plugins",
               "path": "plugins/supabase",
-              "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+              "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
             }
           }
         ]
@@ -870,7 +869,7 @@
               "source": "github",
               "repo": "openai/plugins",
               "path": "plugins/superpowers",
-              "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+              "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
             }
           }
         ]
@@ -892,7 +891,7 @@
               "source": "github",
               "repo": "openai/plugins",
               "path": "plugins/twilio-developer-kit",
-              "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+              "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
             }
           }
         ]
@@ -914,7 +913,7 @@
               "source": "github",
               "repo": "zai-org/zcode-plugins",
               "path": "plugins/unity",
-              "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+              "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
             }
           }
         ]
@@ -936,7 +935,7 @@
               "source": "github",
               "repo": "openai/plugins",
               "path": "plugins/vercel",
-              "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+              "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
             }
           }
         ]
@@ -948,7 +947,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/zotero",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "alternates": [
           {
@@ -958,7 +957,7 @@
               "source": "github",
               "repo": "zai-org/zcode-plugins",
               "path": "plugins/zotero",
-              "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+              "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
             }
           }
         ]
@@ -1489,17 +1488,6 @@
     },
     {
       "id": "community",
-      "source": {
-        "source": "github",
-        "repo": "unbrowse-ai/unbrowse",
-        "path": "plugins/claude-code",
-        "sha": "51deb689ca5f451bd12289e67db47ff570eb5258"
-      },
-      "reason": "unsupported_manifest",
-      "detail": "no supported plugin.json"
-    },
-    {
-      "id": "community",
       "scope": "repository",
       "repo": "AMAP-ML/LongHorizon-Harness",
       "reason": "unsupported_manifest",
@@ -1525,7 +1513,7 @@
         "source": "github",
         "repo": "career-ops-hq/career-ops",
         "path": "claude-directory",
-        "sha": "7b35fec650eaa87f6b7c065c05bafae55d93faa9"
+        "sha": "a7d335ee7bed454fdd3f932a06b5fe43d74f972e"
       },
       "reason": "duplicate_name_within_source"
     },
@@ -1545,7 +1533,7 @@
         "source": "github",
         "repo": "ChatCut-Inc/agent-plugin",
         "path": "codex",
-        "sha": "8ec489520960e6d68c79392438be24fc6fbaab0f"
+        "sha": "a69a54fac266c69a9e76d2767af2e82776a17464"
       },
       "reason": "duplicate_name_within_source"
     },
@@ -1565,7 +1553,7 @@
         "source": "github",
         "repo": "thedotmack/claude-mem",
         "path": "plugin",
-        "sha": "c1dc252bda98b1310ba3fa4b195efe49070d554b"
+        "sha": "29bc1cdf32aca60b3bfeec3b718d4ed6614b4f97"
       },
       "reason": "duplicate_name_within_source"
     },
@@ -1576,7 +1564,7 @@
         "source": "github",
         "repo": "chipfighter/context-attachment-manager",
         "path": "plugin",
-        "sha": "596017a904505e0f2780ff11e76ca6453315dded"
+        "sha": "0afe5eaae835ed7f1703a7661b0887799aa664cc"
       },
       "reason": "duplicate_name_within_source"
     },
@@ -1687,15 +1675,6 @@
     {
       "id": "community",
       "scope": "repository",
-      "repo": "kyegomez/OpenMythos",
-      "reason": "unsupported_manifest",
-      "details": [
-        "unsupported_manifest"
-      ]
-    },
-    {
-      "id": "community",
-      "scope": "repository",
       "repo": "matlab/matlab-agentic-toolkit",
       "reason": "unsupported_manifest",
       "details": [
@@ -1718,7 +1697,7 @@
         "source": "github",
         "repo": "openqodex/openqodex",
         "path": "plugins/codex",
-        "sha": "0a67e51fdf9e67aebf082d4dcf700a54c200e1af"
+        "sha": "a796281e7050527fa9c7ce3a955d02108daad186"
       },
       "reason": "duplicate_name_within_source"
     },
@@ -1768,7 +1747,7 @@
         "source": "github",
         "repo": "lennney/stop-that-shit",
         "path": "codex-plugin",
-        "sha": "32fff44ecea4754e1579be8fa56aca57a76b391a"
+        "sha": "7fd4056030cb6c573e2fd3f37f58819c3269c922"
       },
       "reason": "duplicate_name_within_source"
     },
@@ -1788,7 +1767,7 @@
         "source": "github",
         "repo": "alexgreensh/token-optimizer",
         "path": "desktop/token-optimizer-desktop",
-        "sha": "bbf3b8ca54ff69efb4baab25d272bb715863aef9"
+        "sha": "3830c829e07f97c4cdaa1d37081c11e689b0345b"
       },
       "reason": "duplicate_name_within_source"
     },
@@ -1799,9 +1778,18 @@
         "source": "github",
         "repo": "alexgreensh/token-optimizer",
         "path": "plugins/token-optimizer",
-        "sha": "bbf3b8ca54ff69efb4baab25d272bb715863aef9"
+        "sha": "3830c829e07f97c4cdaa1d37081c11e689b0345b"
       },
       "reason": "duplicate_name_within_source"
+    },
+    {
+      "id": "community",
+      "scope": "repository",
+      "repo": "tractorjuice/arc-kit",
+      "reason": "aggregator_over_20",
+      "details": [
+        "aggregator_over_20"
+      ]
     },
     {
       "id": "community",
@@ -1819,7 +1807,18 @@
         "source": "github",
         "repo": "unbrowse-ai/unbrowse",
         "path": "integrations/codex/plugins/unbrowse",
-        "sha": "51deb689ca5f451bd12289e67db47ff570eb5258"
+        "sha": "e3710b1c9a4f1e074f5c053f2efe02643c091475"
+      },
+      "reason": "duplicate_name_within_source"
+    },
+    {
+      "id": "community",
+      "name": "wenlan",
+      "source": {
+        "source": "github",
+        "repo": "wenlan-app/wenlan",
+        "path": "plugin",
+        "sha": "e45c4265424a821590bc87f5cb21e6841456308e"
       },
       "reason": "duplicate_name_within_source"
     },
@@ -1834,10 +1833,10 @@
     }
   ],
   "decay": {
-    "checked": 593,
-    "healthy": 585,
+    "checked": 603,
+    "healthy": 594,
     "hidden": 0,
-    "removed": 8,
+    "removed": 9,
     "recovered": 0,
     "findings": [
       {
@@ -1959,6 +1958,21 @@
           "unsupported_manifest"
         ],
         "removedSince": "2026-10-10T09:22:42.049Z"
+      },
+      {
+        "id": "zcode",
+        "name": "video2code",
+        "source": {
+          "source": "github",
+          "repo": "zai-org/zcode-plugins",
+          "path": "plugins/video2code",
+          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+        },
+        "status": "removed",
+        "reasons": [
+          "unsupported_manifest"
+        ],
+        "removedSince": "2026-11-23T15:17:40.592Z"
       }
     ]
   },
@@ -2015,13 +2029,13 @@
         "enhancement": 0
       },
       "zcode": {
-        "office": 20,
+        "office": 19,
         "coding": 12,
-        "design": 7,
+        "design": 10,
         "data": 14,
         "science": 0,
         "collaboration": 0,
-        "enhancement": 2
+        "enhancement": 3
       },
       "solvinglab": {
         "office": 0,
@@ -2033,27 +2047,27 @@
         "enhancement": 0
       },
       "community": {
-        "office": 5,
-        "coding": 51,
+        "office": 6,
+        "coding": 54,
         "design": 18,
         "data": 2,
         "science": 4,
         "collaboration": 13,
-        "enhancement": 48
+        "enhancement": 49
       }
     },
     "mergedDistribution": {
       "office": 100,
-      "coding": 242,
-      "design": 45,
+      "coding": 245,
+      "design": 48,
       "data": 63,
       "science": 13,
       "collaboration": 24,
-      "enhancement": 61
+      "enhancement": 63
     },
     "methods": {
-      "upstream": 433,
-      "keywords": 130,
+      "upstream": 437,
+      "keywords": 134,
       "fallback": 19
     },
     "fallbackCount": 19,
@@ -2456,7 +2470,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/agent-sdk-dev",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -2758,7 +2772,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "external_plugins/asana",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "office",
@@ -3332,7 +3346,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/champion-kit",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "office",
@@ -3437,7 +3451,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/clangd-lsp",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -3452,7 +3466,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/claude-code-setup",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "office",
@@ -3467,7 +3481,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/claude-md-management",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "office",
@@ -3482,7 +3496,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/claude-security",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -3633,7 +3647,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/code-modernization",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -3648,7 +3662,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/code-review",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "office",
@@ -3663,7 +3677,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/code-simplifier",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "office",
@@ -3678,7 +3692,7 @@
           "source": "github",
           "repo": "coderabbitai/skills",
           "path": "",
-          "sha": "3e8763d24d543b48615b82535d02288de3ddae40"
+          "sha": "45bd1ae2c471cd861b8b6903f7dcab7c57aa0e59"
         },
         "merged": true,
         "category": "office",
@@ -3708,7 +3722,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/commit-commands",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "office",
@@ -3738,7 +3752,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "external_plugins/context7",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": false,
         "category": "coding",
@@ -3813,7 +3827,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/csharp-lsp",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -3828,7 +3842,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/cwc-makers",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "office",
@@ -3888,7 +3902,7 @@
           "source": "github",
           "repo": "datadog-labs/claude-code-plugin",
           "path": "",
-          "sha": "195f570c002beab3d7bd342739034d0019aa4863"
+          "sha": "a1603119c813f528b2d925a0ccadd73bf930550b"
         },
         "merged": true,
         "category": "coding",
@@ -4008,7 +4022,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "external_plugins/discord",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "office",
@@ -4113,7 +4127,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/explanatory-output-style",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "science",
@@ -4143,7 +4157,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "external_plugins/fakechat",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -4201,7 +4215,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/feature-dev",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -4249,7 +4263,7 @@
           "source": "github",
           "repo": "figma/mcp-server-guide",
           "path": "",
-          "sha": "f2789420e7e8b4e2465dfeb1e12e1fc6a31397e5"
+          "sha": "43a06ff1738935ad5c3d9b0437b5373aaf45cdc3"
         },
         "merged": true,
         "category": "design",
@@ -4264,7 +4278,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "external_plugins/firebase",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "data",
@@ -4324,7 +4338,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/frontend-design",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -4369,7 +4383,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "external_plugins/github",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "office",
@@ -4399,7 +4413,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "external_plugins/gitlab",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "office",
@@ -4429,7 +4443,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/gopls-lsp",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -4547,7 +4561,7 @@
         "name": "honeycomb",
         "source": {
           "source": "github",
-          "repo": "honeycombio/agent-skill",
+          "repo": "honeycombio/agent-skills",
           "path": "honeycomb",
           "sha": "6bb09279fc3fb69abf113228be939dbb929e34f1"
         },
@@ -4564,7 +4578,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/hookify",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "office",
@@ -4669,7 +4683,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "external_plugins/imessage",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "office",
@@ -4744,7 +4758,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/jdtls-lsp",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -4789,7 +4803,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/kotlin-lsp",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -4834,7 +4848,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "external_plugins/laravel-boost",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -4864,7 +4878,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/learning-output-style",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "science",
@@ -4879,7 +4893,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "external_plugins/linear",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "office",
@@ -4969,7 +4983,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/lua-lsp",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -5029,7 +5043,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/math-olympiad",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "science",
@@ -5044,7 +5058,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/math-proof",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "science",
@@ -5089,7 +5103,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/mcp-server-dev",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -5104,7 +5118,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/mcp-tunnels",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -5578,7 +5592,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/php-lsp",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -5653,7 +5667,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/playground",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -5668,7 +5682,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "external_plugins/playwright",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -5683,7 +5697,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/plugin-dev",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -5772,7 +5786,7 @@
           "source": "github",
           "repo": "postmanlabs/postman-plugin",
           "path": "",
-          "sha": "1fdd3f1e2736c7cb83780a221cb9f83641215ab7"
+          "sha": "d1f1cb9d0fba1c7442469fa68e14846ec966daf0"
         },
         "merged": true,
         "category": "coding",
@@ -5787,7 +5801,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/pr-review-toolkit",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "office",
@@ -5896,7 +5910,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/project-artifact",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "office",
@@ -5911,7 +5925,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/pyright-lsp",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -6016,7 +6030,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/ralph-loop",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -6031,7 +6045,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/receipts",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "office",
@@ -6164,7 +6178,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/ruby-lsp",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -6194,7 +6208,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/rust-analyzer-lsp",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -6299,7 +6313,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/security-guidance",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -6344,7 +6358,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "external_plugins/serena",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -6374,7 +6388,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/session-report",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "office",
@@ -6434,7 +6448,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/skill-creator",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -6644,7 +6658,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/swift-lsp",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -6689,7 +6703,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "external_plugins/telegram",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "office",
@@ -6704,7 +6718,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "external_plugins/terraform",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -6719,7 +6733,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/theme-examples",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "design",
@@ -6764,7 +6778,7 @@
           "source": "github",
           "repo": "anthropics/claude-plugins-official",
           "path": "plugins/typescript-lsp",
-          "sha": "e6143c9807a001832badb63e89d58ffe25d542ec"
+          "sha": "65adb96f26deb662f6a993f74347d0ccd1a61a52"
         },
         "merged": true,
         "category": "coding",
@@ -6914,7 +6928,7 @@
           "source": "github",
           "repo": "wix/skills",
           "path": "",
-          "sha": "8fc544d319c4a4dfc7ccf3ba4adf328e1fa9866f"
+          "sha": "e2bc48ebb04d355aaa413cfdd55574ed6d0df969"
         },
         "merged": true,
         "category": "coding",
@@ -7064,7 +7078,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/adobe",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "design",
@@ -7079,7 +7093,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/airtable",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": false,
         "category": "office",
@@ -7094,7 +7108,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/atlassian-rovo",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "office",
@@ -7109,7 +7123,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/boltz-api-cli",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "science",
@@ -7124,7 +7138,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/build-ios-apps",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "coding",
@@ -7139,7 +7153,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/build-macos-apps",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "coding",
@@ -7154,7 +7168,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/build-web-apps",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "coding",
@@ -7169,7 +7183,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/build-web-data-visualization",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "coding",
@@ -7184,7 +7198,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/canva",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": false,
         "category": "design",
@@ -7199,7 +7213,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/chatcut",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "design",
@@ -7214,7 +7228,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/circleci",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "coding",
@@ -7229,7 +7243,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/clickup",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "office",
@@ -7244,7 +7258,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/cloudflare",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": false,
         "category": "coding",
@@ -7259,7 +7273,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/coderabbit",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": false,
         "category": "coding",
@@ -7274,7 +7288,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/codex-security",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "coding",
@@ -7289,7 +7303,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/consensus",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "science",
@@ -7304,7 +7318,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/creative-production",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "design",
@@ -7319,7 +7333,7 @@
           "source": "github",
           "repo": "CrowdStrike/foundry-skills",
           "path": "",
-          "sha": "8a8b4539e197ba951b393aa2f80636eec495a578"
+          "sha": "b6cdb942d4affaa5b5848b6f906545cf9de0c5af"
         },
         "merged": false,
         "category": "coding",
@@ -7334,7 +7348,7 @@
           "source": "github",
           "repo": "CrowdStrike/fusion-skills",
           "path": "",
-          "sha": "7ec1d19468f677eb6b281466c87b2521ff371894"
+          "sha": "3fc41d88ecf1f2a9c7231ed092bee0cef42c4e1b"
         },
         "merged": false,
         "category": "coding",
@@ -7349,7 +7363,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/data-analytics",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "data",
@@ -7364,7 +7378,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/datadog",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": false,
         "category": "coding",
@@ -7379,7 +7393,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/dropbox",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": false,
         "category": "office",
@@ -7394,7 +7408,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/expo",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": false,
         "category": "coding",
@@ -7409,7 +7423,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/figma",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": false,
         "category": "design",
@@ -7424,7 +7438,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/game-studio",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "coding",
@@ -7439,7 +7453,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/github",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": false,
         "category": "coding",
@@ -7454,7 +7468,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/gmail",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "collaboration",
@@ -7469,7 +7483,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/google-calendar",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "office",
@@ -7484,7 +7498,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/google-drive",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "office",
@@ -7499,7 +7513,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/granola",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "office",
@@ -7514,7 +7528,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/higgsfield",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "design",
@@ -7529,7 +7543,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/hyperframes",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": false,
         "category": "design",
@@ -7544,7 +7558,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/life-science-research",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "science",
@@ -7559,7 +7573,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/linear",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": false,
         "category": "office",
@@ -7574,7 +7588,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/lovable",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": false,
         "category": "coding",
@@ -7589,7 +7603,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/magicpath",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "coding",
@@ -7604,7 +7618,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/mixpanel-headless",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "data",
@@ -7619,7 +7633,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/monday-com",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "office",
@@ -7634,7 +7648,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/ngs-analysis",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "science",
@@ -7649,7 +7663,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/notion",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "office",
@@ -7664,7 +7678,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/nvidia",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "coding",
@@ -7679,7 +7693,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/openai-ads-conversions",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "coding",
@@ -7694,7 +7708,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/openai-developers",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "coding",
@@ -7709,7 +7723,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/outlook-calendar",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "office",
@@ -7724,7 +7738,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/outlook-email",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "collaboration",
@@ -7739,7 +7753,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/plugin-eval",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "coding",
@@ -7754,7 +7768,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/posthog",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": false,
         "category": "data",
@@ -7769,7 +7783,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/product-design",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "design",
@@ -7784,7 +7798,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/public-equity-investing",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "data",
@@ -7799,7 +7813,7 @@
           "source": "github",
           "repo": "qodo-ai/qodo-skills",
           "path": "codex-packages/qodo",
-          "sha": "80240e3f5b40d4b8e39935926770f7be0ddb5cde"
+          "sha": "604cfe0f3c034d69ec5214eaaeba1c65056a410e"
         },
         "merged": false,
         "category": "coding",
@@ -7814,7 +7828,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/remotion",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "design",
@@ -7829,7 +7843,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/sentry",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": false,
         "category": "coding",
@@ -7844,7 +7858,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/sharepoint",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "office",
@@ -7859,7 +7873,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/shopify",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "collaboration",
@@ -7874,7 +7888,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/slack",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": false,
         "category": "collaboration",
@@ -7889,7 +7903,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/stripe",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": false,
         "category": "data",
@@ -7904,7 +7918,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/supabase",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": false,
         "category": "coding",
@@ -7919,7 +7933,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/superpowers",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": false,
         "category": "coding",
@@ -7934,7 +7948,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/teams",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "collaboration",
@@ -7949,7 +7963,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/temporal",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "coding",
@@ -7964,7 +7978,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/test-android-apps",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "coding",
@@ -7979,7 +7993,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/twilio-developer-kit",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": false,
         "category": "coding",
@@ -7994,7 +8008,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/vercel",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": false,
         "category": "coding",
@@ -8009,7 +8023,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/zoom",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "collaboration",
@@ -8024,7 +8038,7 @@
           "source": "github",
           "repo": "openai/plugins",
           "path": "plugins/zotero",
-          "sha": "985fff07dcefa03e40e8664e24363d10b2bacd44"
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
         },
         "merged": true,
         "category": "science",
@@ -8039,7 +8053,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/accounting-and-reporting",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "data",
@@ -8054,7 +8068,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/alibaba-cloud-cli",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "coding",
@@ -8069,7 +8083,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/anet",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "coding",
@@ -8084,7 +8098,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/assess-credit",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "data",
@@ -8099,7 +8113,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/autoresearch",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "coding",
@@ -8114,7 +8128,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/blender",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "design",
@@ -8129,7 +8143,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/cadcraft",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "office",
@@ -8144,7 +8158,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/cloudbase-skills",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "coding",
@@ -8159,7 +8173,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/deckcraft",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "office",
@@ -8174,7 +8188,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/designcraft",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "office",
@@ -8189,7 +8203,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/dingtalk-cli",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": false,
         "category": "office",
@@ -8204,7 +8218,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/excalidraw",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": false,
         "category": "office",
@@ -8219,7 +8233,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/finance-search",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "data",
@@ -8234,7 +8248,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/find-clients",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "data",
@@ -8249,7 +8263,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/github",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": false,
         "category": "coding",
@@ -8264,7 +8278,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/gitlab",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": false,
         "category": "coding",
@@ -8279,7 +8293,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/godot",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "design",
@@ -8294,7 +8308,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/gridcraft",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "office",
@@ -8304,12 +8318,27 @@
       },
       {
         "id": "zcode",
+        "name": "happyhorse-video",
+        "source": {
+          "source": "github",
+          "repo": "zai-org/zcode-plugins",
+          "path": "plugins/happyhorse-video",
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
+        },
+        "merged": true,
+        "category": "enhancement",
+        "method": "upstream",
+        "inputCategory": "utilities",
+        "matches": []
+      },
+      {
+        "id": "zcode",
         "name": "hexin",
         "source": {
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/hexin",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "data",
@@ -8319,12 +8348,42 @@
       },
       {
         "id": "zcode",
+        "name": "hi3d-3d",
+        "source": {
+          "source": "github",
+          "repo": "zai-org/zcode-plugins",
+          "path": "plugins/hi3d-3d",
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
+        },
+        "merged": true,
+        "category": "design",
+        "method": "upstream",
+        "inputCategory": "游戏/3D",
+        "matches": []
+      },
+      {
+        "id": "zcode",
+        "name": "hyper3d-3d",
+        "source": {
+          "source": "github",
+          "repo": "zai-org/zcode-plugins",
+          "path": "plugins/hyper3d-3d",
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
+        },
+        "merged": true,
+        "category": "design",
+        "method": "upstream",
+        "inputCategory": "游戏/3D",
+        "matches": []
+      },
+      {
+        "id": "zcode",
         "name": "hyper3d-rodin",
         "source": {
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/hyper3d-rodin",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "design",
@@ -8339,7 +8398,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/image-generation",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "enhancement",
@@ -8354,7 +8413,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/jev-decisions",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "coding",
@@ -8369,7 +8428,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/jupyter-notebook",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "coding",
@@ -8384,7 +8443,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/kicad",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": false,
         "category": "coding",
@@ -8399,7 +8458,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/lark-cli",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": false,
         "category": "office",
@@ -8414,7 +8473,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/libtv-cli",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "office",
@@ -8424,12 +8483,27 @@
       },
       {
         "id": "zcode",
+        "name": "meshy-3d",
+        "source": {
+          "source": "github",
+          "repo": "zai-org/zcode-plugins",
+          "path": "plugins/meshy-3d",
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
+        },
+        "merged": true,
+        "category": "design",
+        "method": "upstream",
+        "inputCategory": "游戏/3D",
+        "matches": []
+      },
+      {
+        "id": "zcode",
         "name": "mimosa",
         "source": {
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/mimosa",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "coding",
@@ -8444,7 +8518,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/model-deals",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "data",
@@ -8459,7 +8533,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/obsidian",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "office",
@@ -8474,7 +8548,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/pdfcraft",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "office",
@@ -8489,7 +8563,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/photocraft",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "office",
@@ -8504,7 +8578,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/pick-funds",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "data",
@@ -8519,7 +8593,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/read-macro",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "data",
@@ -8534,7 +8608,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/rfauto",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "coding",
@@ -8549,7 +8623,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/ruic-card",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "design",
@@ -8564,7 +8638,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/run-fpa",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "data",
@@ -8579,7 +8653,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/soundcraft",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "office",
@@ -8594,7 +8668,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/tencent-meeting-cli",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "office",
@@ -8609,7 +8683,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/tianyancha",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "data",
@@ -8624,7 +8698,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/tripo-3d",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "design",
@@ -8639,7 +8713,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/typst-workbench",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "office",
@@ -8654,7 +8728,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/unity",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": false,
         "category": "design",
@@ -8669,7 +8743,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/unreal-engine",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "design",
@@ -8684,7 +8758,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/vectorcraft",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "office",
@@ -8699,7 +8773,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/vet-companies",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "data",
@@ -8714,7 +8788,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/video-agent-kit",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "office",
@@ -8729,7 +8803,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/video-generation",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "enhancement",
@@ -8739,27 +8813,12 @@
       },
       {
         "id": "zcode",
-        "name": "video2code",
-        "source": {
-          "source": "github",
-          "repo": "zai-org/zcode-plugins",
-          "path": "plugins/video2code",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
-        },
-        "merged": true,
-        "category": "office",
-        "method": "upstream",
-        "inputCategory": "productivity",
-        "matches": []
-      },
-      {
-        "id": "zcode",
         "name": "watch-positions",
         "source": {
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/watch-positions",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "data",
@@ -8774,7 +8833,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/wecom-cli",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "office",
@@ -8789,7 +8848,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/wind",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "data",
@@ -8804,7 +8863,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "external_plugins/wordcraft",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "office",
@@ -8819,7 +8878,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/write-research",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "data",
@@ -8834,7 +8893,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/zcode-mcp-app-dev",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": true,
         "category": "coding",
@@ -8849,7 +8908,7 @@
           "source": "github",
           "repo": "zai-org/zcode-plugins",
           "path": "plugins/zotero",
-          "sha": "19439c804b0860a2c49617deecfaf9e7a2a390d2"
+          "sha": "da5f5cdc357c2b334beb1cdf1ae7394dd19fe0bb"
         },
         "merged": false,
         "category": "office",
@@ -8864,7 +8923,7 @@
           "source": "github",
           "repo": "aerovato/operator-memory",
           "path": "packages/codex",
-          "sha": "93c3fce64f0a72adeb89fa868600eb418548ec07"
+          "sha": "17697efbd959334e1d23467179f26c8077f42e4b"
         },
         "merged": true,
         "category": "enhancement",
@@ -8948,7 +9007,7 @@
           "source": "github",
           "repo": "agentrq/agentrq",
           "path": "plugins/claude/agentrq",
-          "sha": "9ddc734c21f287691c40c041b8051b02b9963ee7"
+          "sha": "edff4f25aac517490ad9f72636bd0bba3184fdcf"
         },
         "merged": true,
         "category": "collaboration",
@@ -8999,7 +9058,7 @@
           "source": "github",
           "repo": "agentrq/agentrq",
           "path": "plugins/claude/agentrq-custom-supervisor",
-          "sha": "9ddc734c21f287691c40c041b8051b02b9963ee7"
+          "sha": "edff4f25aac517490ad9f72636bd0bba3184fdcf"
         },
         "merged": true,
         "category": "collaboration",
@@ -9058,7 +9117,7 @@
           "source": "github",
           "repo": "agentrq/agentrq",
           "path": "plugins/claude/agentrq-workspace",
-          "sha": "9ddc734c21f287691c40c041b8051b02b9963ee7"
+          "sha": "edff4f25aac517490ad9f72636bd0bba3184fdcf"
         },
         "merged": true,
         "category": "collaboration",
@@ -9109,7 +9168,7 @@
           "source": "github",
           "repo": "keli-wen/agy-staff",
           "path": "",
-          "sha": "f6f7015bb4de9759c6eb40749faac635aa626ca3"
+          "sha": "50090900874d9f0cb11dd2d82c1f374c20656541"
         },
         "merged": true,
         "category": "enhancement",
@@ -9396,7 +9455,7 @@
           "source": "github",
           "repo": "yuting0624/antigravity-for-claude-code",
           "path": "",
-          "sha": "6f9b383f6a41b7bd0b97b9702ddd2902f3538fac"
+          "sha": "a7f4858f3a9c341176639e884552d116ac76f60f"
         },
         "merged": true,
         "category": "coding",
@@ -9529,12 +9588,124 @@
       },
       {
         "id": "community",
+        "name": "bama",
+        "source": {
+          "source": "github",
+          "repo": "daveebbelaar/bama",
+          "path": "",
+          "sha": "22dc792ea040a35270c219c669f626594267aa1f"
+        },
+        "merged": true,
+        "category": "coding",
+        "score": 1,
+        "matches": [
+          {
+            "keyword": "test",
+            "field": "description"
+          }
+        ],
+        "method": "keywords",
+        "inputCategory": null,
+        "candidates": [
+          {
+            "category": "coding",
+            "score": 1,
+            "matches": [
+              {
+                "keyword": "test",
+                "field": "description"
+              }
+            ]
+          },
+          {
+            "category": "design",
+            "score": 1,
+            "matches": [
+              {
+                "keyword": "design",
+                "field": "description"
+              }
+            ]
+          },
+          {
+            "category": "science",
+            "score": 1,
+            "matches": [
+              {
+                "keyword": "research",
+                "field": "description"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "community",
+        "name": "beautiful-rust",
+        "source": {
+          "source": "github",
+          "repo": "morganlinton/BeautifulRust",
+          "path": "",
+          "sha": "b9718436d77ee7bcf17cdcb6aa27628feb95d97a"
+        },
+        "merged": true,
+        "category": "coding",
+        "score": 5,
+        "matches": [
+          {
+            "keyword": "api",
+            "field": "description"
+          },
+          {
+            "keyword": "rust",
+            "field": "name"
+          },
+          {
+            "keyword": "rust",
+            "field": "description"
+          }
+        ],
+        "method": "keywords",
+        "inputCategory": null,
+        "candidates": [
+          {
+            "category": "coding",
+            "score": 5,
+            "matches": [
+              {
+                "keyword": "api",
+                "field": "description"
+              },
+              {
+                "keyword": "rust",
+                "field": "name"
+              },
+              {
+                "keyword": "rust",
+                "field": "description"
+              }
+            ]
+          },
+          {
+            "category": "design",
+            "score": 1,
+            "matches": [
+              {
+                "keyword": "design",
+                "field": "description"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "community",
         "name": "bitwize-music",
         "source": {
           "source": "github",
           "repo": "bitwize-music-studio/claude-ai-music-skills",
           "path": "",
-          "sha": "01463d350e9ff1534bdd30ce266183b6059ff075"
+          "sha": "8e0e19c0fe7072830ba2918e351102c3c0be9dc4"
         },
         "merged": true,
         "category": "design",
@@ -9627,7 +9798,7 @@
           "source": "github",
           "repo": "hyhmrright/brooks-lint",
           "path": "",
-          "sha": "5e2d4b92e8e11a0af7e0da6fc074a13b3cf9288c"
+          "sha": "7c1a6f3ce50de016ea0dc2f73db14b061bd11200"
         },
         "merged": true,
         "category": "coding",
@@ -9708,7 +9879,7 @@
           "source": "github",
           "repo": "microsoft/power-platform-skills",
           "path": "plugins/canvas-apps",
-          "sha": "42a94220bad33ffc815c3b8fb9e7229e65ad3542"
+          "sha": "28c209c9eec2b7dedd598b3e211104a0b04e94c7"
         },
         "merged": true,
         "category": "design",
@@ -9759,7 +9930,7 @@
           "source": "github",
           "repo": "renezander030/capcut-cli",
           "path": "",
-          "sha": "8d5212880c928564ac883c07944df57e8875a067"
+          "sha": "10cdee29124e4ae6f2ae7638d8496d6a314ccd13"
         },
         "merged": true,
         "category": "design",
@@ -9824,7 +9995,7 @@
           "source": "github",
           "repo": "career-ops-hq/career-ops",
           "path": "",
-          "sha": "7b35fec650eaa87f6b7c065c05bafae55d93faa9"
+          "sha": "a7d335ee7bed454fdd3f932a06b5fe43d74f972e"
         },
         "merged": true,
         "category": "enhancement",
@@ -9950,7 +10121,7 @@
           "source": "github",
           "repo": "kenryu42/cc-safety-net",
           "path": "",
-          "sha": "ab95df55d26cca52f49326980be0ef9f81e1406c"
+          "sha": "3246a93bb2178cd07b8ba55eecaf0f651d162917"
         },
         "merged": true,
         "category": "enhancement",
@@ -9966,7 +10137,7 @@
           "source": "github",
           "repo": "ChatCut-Inc/agent-plugin",
           "path": "claude",
-          "sha": "8ec489520960e6d68c79392438be24fc6fbaab0f"
+          "sha": "a69a54fac266c69a9e76d2767af2e82776a17464"
         },
         "merged": false,
         "category": "design",
@@ -10009,7 +10180,7 @@
           "source": "github",
           "repo": "ChatCut-Inc/agent-plugin",
           "path": "chatcut-desktop-codex-plugin",
-          "sha": "8ec489520960e6d68c79392438be24fc6fbaab0f"
+          "sha": "a69a54fac266c69a9e76d2767af2e82776a17464"
         },
         "merged": true,
         "category": "design",
@@ -10024,7 +10195,7 @@
           "source": "github",
           "repo": "ChatCut-Inc/agent-plugin",
           "path": "claude-directory",
-          "sha": "8ec489520960e6d68c79392438be24fc6fbaab0f"
+          "sha": "a69a54fac266c69a9e76d2767af2e82776a17464"
         },
         "merged": true,
         "category": "coding",
@@ -10067,7 +10238,7 @@
           "source": "github",
           "repo": "JayPokale/Chisle",
           "path": "",
-          "sha": "cf0b24f32bdd6a1634174963adaef3e2b6e46ffc"
+          "sha": "73572be69ddfb9a87cd194d216b98bf916d3da28"
         },
         "merged": true,
         "category": "coding",
@@ -10332,7 +10503,7 @@
           "source": "github",
           "repo": "thedotmack/claude-mem",
           "path": "",
-          "sha": "c1dc252bda98b1310ba3fa4b195efe49070d554b"
+          "sha": "29bc1cdf32aca60b3bfeec3b718d4ed6614b4f97"
         },
         "merged": true,
         "category": "coding",
@@ -10452,7 +10623,7 @@
           "source": "github",
           "repo": "ReflexioAI/claude-smart",
           "path": "plugin",
-          "sha": "3d9997023301bd9edf0c38ef89315ad9475f6f2c"
+          "sha": "cffd8f71711dbe5f30140fa981a82bb4a807b37a"
         },
         "merged": true,
         "category": "coding",
@@ -10585,7 +10756,7 @@
           "source": "github",
           "repo": "thedotmack/claude-mem",
           "path": "cowork",
-          "sha": "c1dc252bda98b1310ba3fa4b195efe49070d554b"
+          "sha": "29bc1cdf32aca60b3bfeec3b718d4ed6614b4f97"
         },
         "merged": true,
         "category": "enhancement",
@@ -10626,7 +10797,7 @@
           "source": "github",
           "repo": "microsoft/power-platform-skills",
           "path": "plugins/code-apps",
-          "sha": "42a94220bad33ffc815c3b8fb9e7229e65ad3542"
+          "sha": "28c209c9eec2b7dedd598b3e211104a0b04e94c7"
         },
         "merged": true,
         "category": "coding",
@@ -10675,11 +10846,11 @@
           "source": "github",
           "repo": "wondelai/skills",
           "path": "plugins/code-craftsmanship",
-          "sha": "c5265583b1a9740f06831e1d3e89b35bba3eb430"
+          "sha": "c37678106e63ef1c5472d848fb3d8b8c5b33fafe"
         },
         "merged": true,
         "category": "coding",
-        "score": 7,
+        "score": 8,
         "matches": [
           {
             "keyword": "code",
@@ -10687,6 +10858,10 @@
           },
           {
             "keyword": "code",
+            "field": "description"
+          },
+          {
+            "keyword": "coding",
             "field": "description"
           },
           {
@@ -10707,7 +10882,7 @@
         "candidates": [
           {
             "category": "coding",
-            "score": 7,
+            "score": 8,
             "matches": [
               {
                 "keyword": "code",
@@ -10715,6 +10890,10 @@
               },
               {
                 "keyword": "code",
+                "field": "description"
+              },
+              {
+                "keyword": "coding",
                 "field": "description"
               },
               {
@@ -10727,6 +10906,20 @@
               },
               {
                 "keyword": "refactoring",
+                "field": "description"
+              }
+            ]
+          },
+          {
+            "category": "enhancement",
+            "score": 2,
+            "matches": [
+              {
+                "keyword": "agent",
+                "field": "description"
+              },
+              {
+                "keyword": "harness",
                 "field": "description"
               }
             ]
@@ -10760,7 +10953,7 @@
           "source": "github",
           "repo": "Ark0N/Codeman",
           "path": "plugins/codeman",
-          "sha": "e99b42c387f27bf93e7c64e9436bb41c8e2945f1"
+          "sha": "5548c17c4aa300f4f86be6ef90f5ac5ab853a048"
         },
         "merged": true,
         "category": "coding",
@@ -10815,7 +11008,7 @@
           "source": "github",
           "repo": "chipfighter/context-attachment-manager",
           "path": "",
-          "sha": "596017a904505e0f2780ff11e76ca6453315dded"
+          "sha": "0afe5eaae835ed7f1703a7661b0887799aa664cc"
         },
         "merged": true,
         "category": "enhancement",
@@ -10891,7 +11084,7 @@
           "source": "github",
           "repo": "artokun/comfyui-mcp",
           "path": "plugin",
-          "sha": "2bcceac5a4cb1bd9394db5f76a0c38a3d955572f"
+          "sha": "f4c4077c257d55d8084d63b895bfc5644b1108d9"
         },
         "merged": true,
         "category": "coding",
@@ -11102,7 +11295,7 @@
           "source": "github",
           "repo": "Lifecycle-Innovations-Limited/claude-ops",
           "path": "desktop-act",
-          "sha": "2cfcc0da2f77f8114d61f83c3a5a8b54c8cfd905"
+          "sha": "53b8b7ede0bc031faaef3f16e64b105882dd1666"
         },
         "merged": true,
         "category": "coding",
@@ -11153,7 +11346,7 @@
           "source": "github",
           "repo": "shinpr/claude-code-workflows",
           "path": "dev-skills",
-          "sha": "e9118a0d7cc741abfce9e9f010d23ae739e18ecf"
+          "sha": "c81143ec32ab84b9e0eae30c2663e0cf05da2982"
         },
         "merged": true,
         "category": "coding",
@@ -11224,7 +11417,7 @@
           "source": "github",
           "repo": "shinpr/claude-code-workflows",
           "path": "dev-workflows",
-          "sha": "e9118a0d7cc741abfce9e9f010d23ae739e18ecf"
+          "sha": "c81143ec32ab84b9e0eae30c2663e0cf05da2982"
         },
         "merged": true,
         "category": "collaboration",
@@ -11293,19 +11486,27 @@
           "source": "github",
           "repo": "shinpr/claude-code-workflows",
           "path": "dev-workflows-frontend",
-          "sha": "e9118a0d7cc741abfce9e9f010d23ae739e18ecf"
+          "sha": "c81143ec32ab84b9e0eae30c2663e0cf05da2982"
         },
         "merged": true,
         "category": "coding",
-        "score": 5,
+        "score": 7,
         "matches": [
           {
             "keyword": "coding",
             "field": "description"
           },
           {
+            "keyword": "development",
+            "field": "description"
+          },
+          {
             "keyword": "frontend",
             "field": "name"
+          },
+          {
+            "keyword": "frontend",
+            "field": "description"
           },
           {
             "keyword": "typescript",
@@ -11317,15 +11518,23 @@
         "candidates": [
           {
             "category": "coding",
-            "score": 5,
+            "score": 7,
             "matches": [
               {
                 "keyword": "coding",
                 "field": "description"
               },
               {
+                "keyword": "development",
+                "field": "description"
+              },
+              {
                 "keyword": "frontend",
                 "field": "name"
+              },
+              {
+                "keyword": "frontend",
+                "field": "description"
               },
               {
                 "keyword": "typescript",
@@ -11343,6 +11552,16 @@
               },
               {
                 "keyword": "workflows",
+                "field": "description"
+              }
+            ]
+          },
+          {
+            "category": "design",
+            "score": 1,
+            "matches": [
+              {
+                "keyword": "ui",
                 "field": "description"
               }
             ]
@@ -11366,11 +11585,11 @@
           "source": "github",
           "repo": "shinpr/claude-code-workflows",
           "path": "dev-workflows-fullstack",
-          "sha": "e9118a0d7cc741abfce9e9f010d23ae739e18ecf"
+          "sha": "c81143ec32ab84b9e0eae30c2663e0cf05da2982"
         },
         "merged": true,
         "category": "coding",
-        "score": 4,
+        "score": 5,
         "matches": [
           {
             "keyword": "coding",
@@ -11378,6 +11597,10 @@
           },
           {
             "keyword": "development",
+            "field": "description"
+          },
+          {
+            "keyword": "frontend",
             "field": "description"
           },
           {
@@ -11394,7 +11617,7 @@
         "candidates": [
           {
             "category": "coding",
-            "score": 4,
+            "score": 5,
             "matches": [
               {
                 "keyword": "coding",
@@ -11402,6 +11625,10 @@
               },
               {
                 "keyword": "development",
+                "field": "description"
+              },
+              {
+                "keyword": "frontend",
                 "field": "description"
               },
               {
@@ -11548,7 +11775,7 @@
           "source": "github",
           "repo": "google/elephant-goldfish-model",
           "path": "",
-          "sha": "70406c4d22cc7ea8299637c2c5b44625c48b3f08"
+          "sha": "2959503bbabdb7d405a16b4b7643fff8b1d31485"
         },
         "merged": true,
         "category": "office",
@@ -11691,7 +11918,7 @@
           "source": "github",
           "repo": "gmickel/flow-next",
           "path": "plugins/flow-next",
-          "sha": "e44e3c9264f7ccde58b8d1d4597dcc6ba4dee5cf"
+          "sha": "7296bf7c89902f937588dc0d8f60e82059b0cd2d"
         },
         "merged": true,
         "category": "enhancement",
@@ -11993,7 +12220,7 @@
           "source": "github",
           "repo": "kitfunso/hippo-memory",
           "path": "extensions/claude-code-plugin",
-          "sha": "1400fbba6a910bcb61f2465a7de92c3919572b1b"
+          "sha": "2b4c57668c58c52073daf3bc56ba10f030b9fa66"
         },
         "merged": true,
         "category": "enhancement",
@@ -12111,7 +12338,7 @@
           "source": "github",
           "repo": "galleonlabs/hypergrok-trading-desk",
           "path": "",
-          "sha": "ab7d9cc13e0010ed0421fa1e85e78601ae9b5c46"
+          "sha": "d34513a6cf6c532fe1b14644ac1df9342292096f"
         },
         "merged": true,
         "category": "enhancement",
@@ -12299,7 +12526,7 @@
           "source": "github",
           "repo": "oss-invisible/playwright_mcp",
           "path": "",
-          "sha": "9f7d777ed841dcd3ff7aa3fc594f0e3b1108a880"
+          "sha": "0f060f4109f5020c5a0de90dcf47bcccc5ef0815"
         },
         "merged": true,
         "category": "enhancement",
@@ -12348,7 +12575,7 @@
           "source": "github",
           "repo": "Lifecycle-Innovations-Limited/claude-ops",
           "path": "claude-ops/skills/ops-jdi/plugin",
-          "sha": "2cfcc0da2f77f8114d61f83c3a5a8b54c8cfd905"
+          "sha": "53b8b7ede0bc031faaef3f16e64b105882dd1666"
         },
         "merged": true,
         "category": "enhancement",
@@ -12364,7 +12591,7 @@
           "source": "github",
           "repo": "lemomo-ai/lemo-opuscar",
           "path": "plugin",
-          "sha": "00a7f9ec99c8686265a8ca4ed9a3fdaaf27ea6f4"
+          "sha": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b"
         },
         "merged": true,
         "category": "coding",
@@ -12456,7 +12683,7 @@
           "source": "github",
           "repo": "wondelai/skills",
           "path": "plugins/marketing-cro",
-          "sha": "c5265583b1a9740f06831e1d3e89b35bba3eb430"
+          "sha": "c37678106e63ef1c5472d848fb3d8b8c5b33fafe"
         },
         "merged": true,
         "category": "collaboration",
@@ -12497,7 +12724,7 @@
           "source": "github",
           "repo": "coreyhaines31/marketingskills",
           "path": "",
-          "sha": "73573e94a06a39965978b3fa1f9c1eace8cebc7c"
+          "sha": "5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1"
         },
         "merged": true,
         "category": "collaboration",
@@ -12558,7 +12785,7 @@
           "source": "github",
           "repo": "microsoft/power-platform-skills",
           "path": "plugins/mcp-apps",
-          "sha": "42a94220bad33ffc815c3b8fb9e7229e65ad3542"
+          "sha": "28c209c9eec2b7dedd598b3e211104a0b04e94c7"
         },
         "merged": false,
         "category": "enhancement",
@@ -12663,12 +12890,81 @@
       },
       {
         "id": "community",
+        "name": "mcp-search-console",
+        "source": {
+          "source": "github",
+          "repo": "AminForou/mcp-gsc",
+          "path": "",
+          "sha": "fb2330c16f45c0adf0a8c4981364a4b26f30df41"
+        },
+        "merged": true,
+        "category": "enhancement",
+        "score": 7,
+        "matches": [
+          {
+            "keyword": "search",
+            "field": "name"
+          },
+          {
+            "keyword": "search",
+            "field": "description"
+          },
+          {
+            "keyword": "mcp",
+            "field": "name"
+          }
+        ],
+        "method": "keywords",
+        "inputCategory": null,
+        "candidates": [
+          {
+            "category": "enhancement",
+            "score": 7,
+            "matches": [
+              {
+                "keyword": "search",
+                "field": "name"
+              },
+              {
+                "keyword": "search",
+                "field": "description"
+              },
+              {
+                "keyword": "mcp",
+                "field": "name"
+              }
+            ]
+          },
+          {
+            "category": "coding",
+            "score": 1,
+            "matches": [
+              {
+                "keyword": "code",
+                "field": "description"
+              }
+            ]
+          },
+          {
+            "category": "data",
+            "score": 1,
+            "matches": [
+              {
+                "keyword": "data",
+                "field": "description"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "community",
         "name": "memsearch",
         "source": {
           "source": "github",
           "repo": "zilliztech/memsearch",
           "path": "plugins/claude-code",
-          "sha": "3be6e12e7b94247167068158733b079e639c3f6c"
+          "sha": "ff6bdc329fa12875e9770a301cd57dabe7d614d3"
         },
         "merged": true,
         "category": "coding",
@@ -12711,7 +13007,7 @@
           "source": "github",
           "repo": "wondelai/skills",
           "path": "plugins/metaskills",
-          "sha": "c5265583b1a9740f06831e1d3e89b35bba3eb430"
+          "sha": "c37678106e63ef1c5472d848fb3d8b8c5b33fafe"
         },
         "merged": true,
         "category": "coding",
@@ -12782,7 +13078,7 @@
           "source": "github",
           "repo": "Ikalus1988/MisakaNet",
           "path": "",
-          "sha": "576b4bb6eed6804524ac3b58b31bb9ff8b1fd74b"
+          "sha": "100c622dd0af81c383e5ad1b1d420dbf678c797a"
         },
         "merged": true,
         "category": "enhancement",
@@ -12845,7 +13141,7 @@
           "source": "github",
           "repo": "microsoft/power-platform-skills",
           "path": "plugins/mobile-apps",
-          "sha": "42a94220bad33ffc815c3b8fb9e7229e65ad3542"
+          "sha": "28c209c9eec2b7dedd598b3e211104a0b04e94c7"
         },
         "merged": true,
         "category": "coding",
@@ -12886,7 +13182,7 @@
           "source": "github",
           "repo": "microsoft/power-platform-skills",
           "path": "plugins/model-apps",
-          "sha": "42a94220bad33ffc815c3b8fb9e7229e65ad3542"
+          "sha": "28c209c9eec2b7dedd598b3e211104a0b04e94c7"
         },
         "merged": true,
         "category": "coding",
@@ -13169,7 +13465,7 @@
           "source": "github",
           "repo": "eugeniughelbur/obsidian-second-brain",
           "path": "",
-          "sha": "e6384305067c4af8620664335d193620bef73c68"
+          "sha": "7f4ddfdafa4e4652b01209f1847c3a3fc7d07754"
         },
         "merged": true,
         "category": "office",
@@ -13242,7 +13538,7 @@
           "source": "github",
           "repo": "nyldn/claude-octopus",
           "path": "",
-          "sha": "b1495112391b9d565d46affec5572b4f9c49c559"
+          "sha": "5808a7cae62e848c6010cd1ac51b6d0bf0db6213"
         },
         "merged": true,
         "category": "enhancement",
@@ -13350,7 +13646,7 @@
           "source": "github",
           "repo": "openqodex/openqodex",
           "path": "plugins/claude-code",
-          "sha": "0a67e51fdf9e67aebf082d4dcf700a54c200e1af"
+          "sha": "a796281e7050527fa9c7ce3a955d02108daad186"
         },
         "merged": true,
         "category": "coding",
@@ -13425,7 +13721,7 @@
           "source": "github",
           "repo": "aerovato/operator-memory",
           "path": "packages/claude-code",
-          "sha": "93c3fce64f0a72adeb89fa868600eb418548ec07"
+          "sha": "17697efbd959334e1d23467179f26c8077f42e4b"
         },
         "merged": true,
         "category": "enhancement",
@@ -13488,7 +13784,7 @@
           "source": "github",
           "repo": "Lifecycle-Innovations-Limited/claude-ops",
           "path": "claude-ops",
-          "sha": "2cfcc0da2f77f8114d61f83c3a5a8b54c8cfd905"
+          "sha": "53b8b7ede0bc031faaef3f16e64b105882dd1666"
         },
         "merged": true,
         "category": "collaboration",
@@ -13615,7 +13911,7 @@
           "source": "github",
           "repo": "microsoft/power-platform-skills",
           "path": "plugins/pcf",
-          "sha": "42a94220bad33ffc815c3b8fb9e7229e65ad3542"
+          "sha": "28c209c9eec2b7dedd598b3e211104a0b04e94c7"
         },
         "merged": true,
         "category": "coding",
@@ -13794,7 +14090,7 @@
           "source": "github",
           "repo": "DietrichGebert/ponytail",
           "path": "",
-          "sha": "96608e078b2d5ea607c5c3b8b5a54d1c1fba6846"
+          "sha": "ebd8654c2c627f721eb8f9c0d1bd4090a29f9e10"
         },
         "merged": true,
         "category": "coding",
@@ -13809,7 +14105,7 @@
           "source": "github",
           "repo": "microsoft/power-platform-skills",
           "path": "plugins/power-apps-mobile-extension",
-          "sha": "42a94220bad33ffc815c3b8fb9e7229e65ad3542"
+          "sha": "28c209c9eec2b7dedd598b3e211104a0b04e94c7"
         },
         "merged": true,
         "category": "enhancement",
@@ -13825,7 +14121,7 @@
           "source": "github",
           "repo": "microsoft/power-platform-skills",
           "path": "plugins/power-automate",
-          "sha": "42a94220bad33ffc815c3b8fb9e7229e65ad3542"
+          "sha": "28c209c9eec2b7dedd598b3e211104a0b04e94c7"
         },
         "merged": true,
         "category": "enhancement",
@@ -13884,7 +14180,7 @@
           "source": "github",
           "repo": "microsoft/power-platform-skills",
           "path": "plugins/power-pages",
-          "sha": "42a94220bad33ffc815c3b8fb9e7229e65ad3542"
+          "sha": "28c209c9eec2b7dedd598b3e211104a0b04e94c7"
         },
         "merged": true,
         "category": "coding",
@@ -13939,7 +14235,7 @@
           "source": "github",
           "repo": "microsoft/power-platform-skills",
           "path": "plugins/process-intelligence",
-          "sha": "42a94220bad33ffc815c3b8fb9e7229e65ad3542"
+          "sha": "28c209c9eec2b7dedd598b3e211104a0b04e94c7"
         },
         "merged": true,
         "category": "enhancement",
@@ -13990,7 +14286,7 @@
           "source": "github",
           "repo": "wondelai/skills",
           "path": "plugins/product-innovation",
-          "sha": "c5265583b1a9740f06831e1d3e89b35bba3eb430"
+          "sha": "c37678106e63ef1c5472d848fb3d8b8c5b33fafe"
         },
         "merged": true,
         "category": "design",
@@ -14023,7 +14319,7 @@
           "source": "github",
           "repo": "wondelai/skills",
           "path": "plugins/product-strategy",
-          "sha": "c5265583b1a9740f06831e1d3e89b35bba3eb430"
+          "sha": "c37678106e63ef1c5472d848fb3d8b8c5b33fafe"
         },
         "merged": true,
         "category": "design",
@@ -14066,7 +14362,7 @@
           "source": "github",
           "repo": "michael-denyer/pstack-claude",
           "path": "plugins/pstack",
-          "sha": "f1209c06a3fdebd7856dda467f8871dfb2ddc1ed"
+          "sha": "66181d3c70fb605a670578a1b46c23ff0f3caebb"
         },
         "merged": true,
         "category": "coding",
@@ -14304,7 +14600,7 @@
           "source": "github",
           "repo": "EricJujianZou/rederive",
           "path": "",
-          "sha": "1839450441e3334a07df67a3ac491f392a202808"
+          "sha": "f8f4629de73a04ba23f40fe4659b629364fa47e9"
         },
         "merged": true,
         "category": "coding",
@@ -14406,7 +14702,7 @@
           "source": "github",
           "repo": "Innei/ryugi",
           "path": "",
-          "sha": "94862244121a33a7bf5eba6bf766c661a92f6f98"
+          "sha": "7d7dd3b898445747b1d01a6e56e96b19bfb71882"
         },
         "merged": true,
         "category": "office",
@@ -14469,7 +14765,7 @@
           "source": "github",
           "repo": "wondelai/skills",
           "path": "plugins/sales-influence",
-          "sha": "c5265583b1a9740f06831e1d3e89b35bba3eb430"
+          "sha": "c37678106e63ef1c5472d848fb3d8b8c5b33fafe"
         },
         "merged": true,
         "category": "collaboration",
@@ -14581,7 +14877,7 @@
           "source": "github",
           "repo": "sno-ai/sno-station-skills",
           "path": "",
-          "sha": "47336d1a25dd434ebec0a37593abf66ccf1fca98"
+          "sha": "6d7ad2e82da720a850f37f54bad42390c2f53d05"
         },
         "merged": true,
         "category": "coding",
@@ -14634,7 +14930,7 @@
           "source": "github",
           "repo": "sno-ai/sno-station-skills",
           "path": "plugins/sno-station-standalone",
-          "sha": "47336d1a25dd434ebec0a37593abf66ccf1fca98"
+          "sha": "6d7ad2e82da720a850f37f54bad42390c2f53d05"
         },
         "merged": true,
         "category": "coding",
@@ -14780,7 +15076,7 @@
           "source": "github",
           "repo": "lennney/stop-that-shit",
           "path": "",
-          "sha": "32fff44ecea4754e1579be8fa56aca57a76b391a"
+          "sha": "7fd4056030cb6c573e2fd3f37f58819c3269c922"
         },
         "merged": true,
         "category": "coding",
@@ -14823,7 +15119,7 @@
           "source": "github",
           "repo": "wondelai/skills",
           "path": "plugins/strategy-growth",
-          "sha": "c5265583b1a9740f06831e1d3e89b35bba3eb430"
+          "sha": "c37678106e63ef1c5472d848fb3d8b8c5b33fafe"
         },
         "merged": true,
         "category": "collaboration",
@@ -14856,7 +15152,7 @@
           "source": "github",
           "repo": "wondelai/skills",
           "path": "plugins/systems-architecture",
-          "sha": "c5265583b1a9740f06831e1d3e89b35bba3eb430"
+          "sha": "c37678106e63ef1c5472d848fb3d8b8c5b33fafe"
         },
         "merged": true,
         "category": "design",
@@ -14988,7 +15284,7 @@
           "source": "github",
           "repo": "wondelai/skills",
           "path": "plugins/team-motivation",
-          "sha": "c5265583b1a9740f06831e1d3e89b35bba3eb430"
+          "sha": "c37678106e63ef1c5472d848fb3d8b8c5b33fafe"
         },
         "merged": true,
         "category": "collaboration",
@@ -15037,7 +15333,7 @@
           "source": "github",
           "repo": "zenbu-labs/terminal-browser",
           "path": "claude-code-plugin",
-          "sha": "e3153d332d9fa337a990f6620a3d14932a43bd38"
+          "sha": "3e5be01bd94e91755370b2bdcddc96317d853a77"
         },
         "merged": true,
         "category": "enhancement",
@@ -15216,7 +15512,7 @@
           "source": "github",
           "repo": "alexgreensh/token-optimizer",
           "path": "cowork/to-hook-probe",
-          "sha": "bbf3b8ca54ff69efb4baab25d272bb715863aef9"
+          "sha": "3830c829e07f97c4cdaa1d37081c11e689b0345b"
         },
         "merged": true,
         "category": "enhancement",
@@ -15257,7 +15553,7 @@
           "source": "github",
           "repo": "alexgreensh/token-optimizer",
           "path": "",
-          "sha": "bbf3b8ca54ff69efb4baab25d272bb715863aef9"
+          "sha": "3830c829e07f97c4cdaa1d37081c11e689b0345b"
         },
         "merged": true,
         "category": "coding",
@@ -15300,7 +15596,7 @@
           "source": "github",
           "repo": "alexgreensh/token-optimizer",
           "path": "cowork/token-optimizer",
-          "sha": "bbf3b8ca54ff69efb4baab25d272bb715863aef9"
+          "sha": "3830c829e07f97c4cdaa1d37081c11e689b0345b"
         },
         "merged": true,
         "category": "coding",
@@ -15376,7 +15672,7 @@
           "source": "github",
           "repo": "quant-sentiment-ai/claude-equity-research",
           "path": "commands/trading-ideas",
-          "sha": "4e09956896ba000f2a3b644c011ba11db1732d00"
+          "sha": "f8c215086fa08e6b577c32e9d93fa85c7ff00d38"
         },
         "merged": true,
         "category": "science",
@@ -15409,7 +15705,7 @@
           "source": "github",
           "repo": "nyldn/claude-octopus",
           "path": "vendors/ui-ux-pro-max-skill",
-          "sha": "b1495112391b9d565d46affec5572b4f9c49c559"
+          "sha": "5808a7cae62e848c6010cd1ac51b6d0bf0db6213"
         },
         "merged": true,
         "category": "design",
@@ -15518,7 +15814,7 @@
           "source": "github",
           "repo": "unbrowse-ai/unbrowse",
           "path": "integrations/claude-code",
-          "sha": "51deb689ca5f451bd12289e67db47ff570eb5258"
+          "sha": "e3710b1c9a4f1e074f5c053f2efe02643c091475"
         },
         "merged": true,
         "category": "enhancement",
@@ -15551,7 +15847,7 @@
           "source": "github",
           "repo": "rehan-remade/universal-modder",
           "path": "",
-          "sha": "3c4ac6c38e411b8c543bce217eae197039516bfc"
+          "sha": "a34eae75732d7fd5e7810abde188063e72829525"
         },
         "merged": true,
         "category": "coding",
@@ -15616,7 +15912,7 @@
           "source": "github",
           "repo": "wondelai/skills",
           "path": "plugins/ux-design",
-          "sha": "c5265583b1a9740f06831e1d3e89b35bba3eb430"
+          "sha": "c37678106e63ef1c5472d848fb3d8b8c5b33fafe"
         },
         "merged": true,
         "category": "design",
@@ -15710,16 +16006,57 @@
       },
       {
         "id": "community",
+        "name": "vibe-wise",
+        "source": {
+          "source": "github",
+          "repo": "nykooi1/vibe-wise",
+          "path": "",
+          "sha": "eefb53df406ab89e31444684ff32c1df205221f8"
+        },
+        "merged": true,
+        "category": "coding",
+        "score": 2,
+        "matches": [
+          {
+            "keyword": "code",
+            "field": "description"
+          },
+          {
+            "keyword": "software",
+            "field": "description"
+          }
+        ],
+        "method": "keywords",
+        "inputCategory": null,
+        "candidates": [
+          {
+            "category": "coding",
+            "score": 2,
+            "matches": [
+              {
+                "keyword": "code",
+                "field": "description"
+              },
+              {
+                "keyword": "software",
+                "field": "description"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "community",
         "name": "video-recap-skills",
         "source": {
           "source": "github",
           "repo": "zenstory-ai/video-recap-skills",
           "path": "",
-          "sha": "36df69fe9e702dc2f15ccd05fac878ad623cf346"
+          "sha": "41597bf23c4b0782286705ad2726a690406d7165"
         },
         "merged": true,
         "category": "design",
-        "score": 5,
+        "score": 6,
         "matches": [
           {
             "keyword": "video",
@@ -15730,7 +16067,11 @@
             "field": "description"
           },
           {
-            "keyword": "audio",
+            "keyword": "capcut",
+            "field": "description"
+          },
+          {
+            "keyword": "视频",
             "field": "description"
           }
         ],
@@ -15739,7 +16080,7 @@
         "candidates": [
           {
             "category": "design",
-            "score": 5,
+            "score": 6,
             "matches": [
               {
                 "keyword": "video",
@@ -15750,21 +16091,31 @@
                 "field": "description"
               },
               {
-                "keyword": "audio",
+                "keyword": "capcut",
+                "field": "description"
+              },
+              {
+                "keyword": "视频",
                 "field": "description"
               }
             ]
           },
           {
             "category": "coding",
-            "score": 2,
+            "score": 1,
             "matches": [
               {
-                "keyword": "api",
-                "field": "description"
-              },
-              {
                 "keyword": "python",
+                "field": "description"
+              }
+            ]
+          },
+          {
+            "category": "enhancement",
+            "score": 1,
+            "matches": [
+              {
+                "keyword": "cli",
                 "field": "description"
               }
             ]
@@ -15773,12 +16124,27 @@
       },
       {
         "id": "community",
+        "name": "wenlan",
+        "source": {
+          "source": "github",
+          "repo": "wenlan-app/wenlan",
+          "path": "plugin-codex",
+          "sha": "e45c4265424a821590bc87f5cb21e6841456308e"
+        },
+        "merged": true,
+        "category": "office",
+        "method": "upstream",
+        "inputCategory": "Productivity",
+        "matches": []
+      },
+      {
+        "id": "community",
         "name": "xactions",
         "source": {
           "source": "github",
           "repo": "nirholas/XActions",
           "path": "plugins/xactions",
-          "sha": "61f24dddf69ffc59ee2bb9881400db56bb758b3e"
+          "sha": "2bd843fa1a3c460791e6adf7cdc218ca3bb8c83e"
         },
         "merged": true,
         "category": "enhancement",
@@ -15975,8 +16341,8 @@
     ]
   },
   "logos": {
-    "checked": 398,
-    "withIcon": 572
+    "checked": 406,
+    "withIcon": 580
   },
   "external": {
     "count": 9,
@@ -16032,9 +16398,9 @@
     "Referenced website revision contains 9 external entries; requested 10. Missing entry requires a source; no placeholder was invented."
   ],
   "github": {
-    "requests": 222,
-    "cacheHits": 472,
-    "graphqlBatches": 58,
+    "requests": 226,
+    "cacheHits": 1034,
+    "graphqlBatches": 55,
     "detailFallbacks": 0,
     "detailPartial": 0,
     "admissionUnavailable": 9
