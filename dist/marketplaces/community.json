@@ -8,12 +8,12 @@
         "source": "github",
         "repo": "aerovato/operator-memory",
         "path": "packages/codex",
-        "sha": "97a3d55ca9607732420695a3a5789f22ea12e596"
+        "sha": "004eedb4d325659e637a493255bd182cfcbd99b2"
       },
       "category": "enhancement",
       "strict": true,
       "description": "Operator Memory",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "displayName": "Operator Memory",
       "homepage": "https://github.com/aerovato/operator-memory",
       "author": "Aerovato Research",
@@ -25,17 +25,17 @@
         "contributing": "https://github.com/aerovato/operator-memory/blob/main/CONTRIBUTING.md"
       },
       "license": "BSD-3-Clause",
-      "updatedAt": "2026-11-24T07:52:18.000Z",
+      "updatedAt": "2026-11-25T06:47:34.000Z",
       "github": {
-        "stars": 525,
+        "stars": 527,
         "forks": 20,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
         "manifestPath": "packages/codex/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/aerovato/operator-memory/97a3d55ca9607732420695a3a5789f22ea12e596/packages/codex/assets/aerovato-research.jpg"
+      "icon": "https://raw.githubusercontent.com/aerovato/operator-memory/004eedb4d325659e637a493255bd182cfcbd99b2/packages/codex/assets/aerovato-research.jpg"
     },
     {
       "name": "agent-profiler",
@@ -43,12 +43,12 @@
         "source": "github",
         "repo": "YeonwooSung/my-claude-code-mods",
         "path": "agent-profiler",
-        "sha": "f7da140f3fc63aa5c083f75cd48700517e882c68"
+        "sha": "6361877829b20aae4dc48825ff9a730d22e74d54"
       },
       "category": "enhancement",
       "strict": true,
       "description": "Execution profiler for Claude Code: model wait vs tools vs subagents, live, with OTLP export",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "homepage": "https://github.com/YeonwooSung/my-claude-code-mods",
       "author": {
         "name": "YeonwooSung"
@@ -60,11 +60,11 @@
         "issues": "https://github.com/YeonwooSung/my-claude-code-mods/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-01T05:18:11.000Z",
+      "updatedAt": "2026-11-24T15:47:55.000Z",
       "github": {
-        "stars": 777,
+        "stars": 776,
         "forks": 7,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -78,12 +78,12 @@
         "source": "github",
         "repo": "agentrq/agentrq",
         "path": "plugins/claude/agentrq",
-        "sha": "c911e31a6dd66a8d30a51e98d8c1d56d54e5c0a1"
+        "sha": "defeec21ecd96155c2255bbc872fd61615f0acd7"
       },
       "category": "collaboration",
       "strict": true,
       "description": "Human-in-the-loop task supervisor for AI agents",
-      "version": "1.0.27",
+      "version": "1.0.28",
       "homepage": "https://github.com/agentrq/agentrq",
       "author": {
         "name": "Mustafa Turan",
@@ -97,17 +97,17 @@
         "contributing": "https://github.com/agentrq/agentrq/blob/main/CONTRIBUTING.md"
       },
       "license": "AGPL-3.0",
-      "updatedAt": "2026-11-24T08:16:57.000Z",
+      "updatedAt": "2026-11-25T09:04:53.000Z",
       "github": {
-        "stars": 1197,
+        "stars": 1198,
         "forks": 85,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
         "manifestPath": "plugins/claude/agentrq/.claude-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/agentrq/agentrq/c911e31a6dd66a8d30a51e98d8c1d56d54e5c0a1/plugins/claude/agentrq/.claude-plugin/icon.png"
+      "icon": "https://raw.githubusercontent.com/agentrq/agentrq/defeec21ecd96155c2255bbc872fd61615f0acd7/plugins/claude/agentrq/.claude-plugin/icon.png"
     },
     {
       "name": "agentrq-custom-supervisor",
@@ -115,12 +115,12 @@
         "source": "github",
         "repo": "agentrq/agentrq",
         "path": "plugins/claude/agentrq-custom-supervisor",
-        "sha": "c911e31a6dd66a8d30a51e98d8c1d56d54e5c0a1"
+        "sha": "defeec21ecd96155c2255bbc872fd61615f0acd7"
       },
       "category": "collaboration",
       "strict": true,
       "description": "Human-in-the-loop task supervisor for AI agents, for a self-hosted AgentRQ server",
-      "version": "1.0.12",
+      "version": "1.0.13",
       "homepage": "https://github.com/agentrq/agentrq",
       "author": {
         "name": "Mustafa Turan",
@@ -134,17 +134,17 @@
         "contributing": "https://github.com/agentrq/agentrq/blob/main/CONTRIBUTING.md"
       },
       "license": "AGPL-3.0",
-      "updatedAt": "2026-11-24T08:16:57.000Z",
+      "updatedAt": "2026-11-25T09:04:53.000Z",
       "github": {
-        "stars": 1197,
+        "stars": 1198,
         "forks": 85,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
         "manifestPath": "plugins/claude/agentrq-custom-supervisor/.claude-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/agentrq/agentrq/c911e31a6dd66a8d30a51e98d8c1d56d54e5c0a1/plugins/claude/agentrq-custom-supervisor/.claude-plugin/icon.png"
+      "icon": "https://raw.githubusercontent.com/agentrq/agentrq/defeec21ecd96155c2255bbc872fd61615f0acd7/plugins/claude/agentrq-custom-supervisor/.claude-plugin/icon.png"
     },
     {
       "name": "agentrq-workspace",
@@ -152,12 +152,12 @@
         "source": "github",
         "repo": "agentrq/agentrq",
         "path": "plugins/claude/agentrq-workspace",
-        "sha": "c911e31a6dd66a8d30a51e98d8c1d56d54e5c0a1"
+        "sha": "defeec21ecd96155c2255bbc872fd61615f0acd7"
       },
       "category": "collaboration",
       "strict": true,
       "description": "Workspace agent that executes tasks assigned by humans or supervisors, communicates progress via reply, and manages task lifecycle within a specific AgentRQ workspace",
-      "version": "1.0.19",
+      "version": "1.0.21",
       "homepage": "https://github.com/agentrq/agentrq",
       "author": {
         "name": "Mustafa Turan",
@@ -171,17 +171,17 @@
         "contributing": "https://github.com/agentrq/agentrq/blob/main/CONTRIBUTING.md"
       },
       "license": "AGPL-3.0",
-      "updatedAt": "2026-11-24T08:16:57.000Z",
+      "updatedAt": "2026-11-25T09:04:53.000Z",
       "github": {
-        "stars": 1197,
+        "stars": 1198,
         "forks": 85,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
         "manifestPath": "plugins/claude/agentrq-workspace/.claude-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/agentrq/agentrq/c911e31a6dd66a8d30a51e98d8c1d56d54e5c0a1/plugins/claude/agentrq-workspace/.claude-plugin/icon.png"
+      "icon": "https://raw.githubusercontent.com/agentrq/agentrq/defeec21ecd96155c2255bbc872fd61615f0acd7/plugins/claude/agentrq-workspace/.claude-plugin/icon.png"
     },
     {
       "name": "agy",
@@ -220,9 +220,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-19T14:43:46.000Z",
       "github": {
-        "stars": 923,
+        "stars": 933,
         "forks": 63,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -257,9 +257,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-05T03:22:33.000Z",
       "github": {
-        "stars": 711,
+        "stars": 714,
         "forks": 240,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -303,7 +303,7 @@
       "github": {
         "stars": 772,
         "forks": 80,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -349,9 +349,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-11-05T20:35:49.000Z",
       "github": {
-        "stars": 2001,
+        "stars": 2037,
         "forks": 174,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -395,9 +395,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-05T20:31:48.000Z",
       "github": {
-        "stars": 2264,
-        "forks": 285,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 2284,
+        "forks": 287,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -443,9 +443,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-24T08:26:46.000Z",
       "github": {
-        "stars": 523,
-        "forks": 55,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 527,
+        "forks": 56,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -459,7 +459,7 @@
         "source": "github",
         "repo": "YeonwooSung/my-claude-code-mods",
         "path": "assumption-tracker",
-        "sha": "f7da140f3fc63aa5c083f75cd48700517e882c68"
+        "sha": "6361877829b20aae4dc48825ff9a730d22e74d54"
       },
       "category": "enhancement",
       "strict": true,
@@ -476,11 +476,11 @@
         "issues": "https://github.com/YeonwooSung/my-claude-code-mods/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-01T05:18:11.000Z",
+      "updatedAt": "2026-11-24T15:47:55.000Z",
       "github": {
-        "stars": 777,
+        "stars": 776,
         "forks": 7,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -522,9 +522,9 @@
       "license": "AGPL-3.0",
       "updatedAt": "2026-10-30T19:05:02.000Z",
       "github": {
-        "stars": 1613,
+        "stars": 1616,
         "forks": 58,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -559,9 +559,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-12T08:19:16.000Z",
       "github": {
-        "stars": 11145,
+        "stars": 11151,
         "forks": 671,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -614,9 +614,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-05T13:09:56.000Z",
       "github": {
-        "stars": 1962,
-        "forks": 240,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 1971,
+        "forks": 242,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -662,9 +662,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-08T17:21:11.000Z",
       "github": {
-        "stars": 2127,
+        "stars": 2136,
         "forks": 103,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -719,9 +719,9 @@
       "license": "CC0-1.0",
       "updatedAt": "2026-11-23T03:45:52.000Z",
       "github": {
-        "stars": 696,
-        "forks": 153,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 697,
+        "forks": 154,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -735,7 +735,7 @@
         "source": "github",
         "repo": "YeonwooSung/my-claude-code-mods",
         "path": "blast-radius",
-        "sha": "f7da140f3fc63aa5c083f75cd48700517e882c68"
+        "sha": "6361877829b20aae4dc48825ff9a730d22e74d54"
       },
       "category": "enhancement",
       "strict": true,
@@ -752,11 +752,11 @@
         "issues": "https://github.com/YeonwooSung/my-claude-code-mods/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-01T05:18:11.000Z",
+      "updatedAt": "2026-11-24T15:47:55.000Z",
       "github": {
-        "stars": 777,
+        "stars": 776,
         "forks": 7,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -788,9 +788,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-01T17:01:59.000Z",
       "github": {
-        "stars": 1936,
+        "stars": 1937,
         "forks": 123,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -832,11 +832,11 @@
         "contributing": "https://github.com/hyhmrright/brooks-lint/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-23T12:46:49.000Z",
+      "updatedAt": "2026-11-25T12:55:59.000Z",
       "github": {
         "stars": 1589,
         "forks": 77,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -850,7 +850,7 @@
         "source": "github",
         "repo": "microsoft/power-platform-skills",
         "path": "plugins/canvas-apps",
-        "sha": "28c209c9eec2b7dedd598b3e211104a0b04e94c7"
+        "sha": "a5a0ee4cac0436a3857c69574edc69515f6af094"
       },
       "category": "design",
       "strict": true,
@@ -876,11 +876,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T10:37:12.000Z",
+      "updatedAt": "2026-11-25T11:24:46.000Z",
       "github": {
-        "stars": 1177,
-        "forks": 239,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 1186,
+        "forks": 241,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -930,9 +930,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-24T05:32:36.000Z",
       "github": {
-        "stars": 1255,
+        "stars": 1259,
         "forks": 159,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -946,7 +946,7 @@
         "source": "github",
         "repo": "career-ops-hq/career-ops",
         "path": "",
-        "sha": "c752b4aa277c7ff43ca4e5cae189c4d501a9e299"
+        "sha": "0a5af57a4eef3e1cff5c0ea1df85f74c24f09717"
       },
       "category": "enhancement",
       "strict": true,
@@ -976,11 +976,11 @@
         "contributing": "https://github.com/career-ops-hq/career-ops/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T13:41:19.000Z",
+      "updatedAt": "2026-11-25T10:53:56.000Z",
       "github": {
-        "stars": 84543,
-        "forks": 15465,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 84744,
+        "forks": 15495,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1025,7 +1025,7 @@
       "github": {
         "stars": 578,
         "forks": 45,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1072,9 +1072,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-24T09:34:47.000Z",
       "github": {
-        "stars": 2099,
-        "forks": 101,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 2102,
+        "forks": 102,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1131,9 +1131,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-11-18T12:00:53.000Z",
       "github": {
-        "stars": 1092,
+        "stars": 1094,
         "forks": 90,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1195,9 +1195,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-11-18T12:00:53.000Z",
       "github": {
-        "stars": 1092,
+        "stars": 1094,
         "forks": 90,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1245,9 +1245,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-11-18T12:00:53.000Z",
       "github": {
-        "stars": 1092,
+        "stars": 1094,
         "forks": 90,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1261,7 +1261,7 @@
         "source": "github",
         "repo": "JayPokale/Chisle",
         "path": "",
-        "sha": "335e959ce3eef347f9caaf57455993992ab0541f"
+        "sha": "449107746e99875911628c413ab32462825a9575"
       },
       "category": "coding",
       "strict": true,
@@ -1281,11 +1281,11 @@
         "contributing": "https://github.com/JayPokale/Chisle/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T10:34:05.000Z",
+      "updatedAt": "2026-11-25T07:15:54.000Z",
       "github": {
-        "stars": 1261,
-        "forks": 80,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 1267,
+        "forks": 81,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1328,9 +1328,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-19T18:05:08.000Z",
       "github": {
-        "stars": 939,
+        "stars": 940,
         "forks": 84,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1404,9 +1404,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-03T00:20:12.000Z",
       "github": {
-        "stars": 2850,
+        "stars": 2859,
         "forks": 488,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1445,11 +1445,11 @@
         "contributing": "https://github.com/taekchef/claude-code-zh-cn/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-21T11:19:43.000Z",
+      "updatedAt": "2026-11-24T14:09:40.000Z",
       "github": {
         "stars": 867,
         "forks": 41,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1505,9 +1505,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-17T12:40:52.000Z",
       "github": {
-        "stars": 960,
-        "forks": 109,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 964,
+        "forks": 110,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1521,12 +1521,12 @@
         "source": "github",
         "repo": "thedotmack/claude-mem",
         "path": "",
-        "sha": "2c57eb156ee726c8f0f22502cc9bfcc0a8353526"
+        "sha": "11b47f9f4b8dc3614fab7452647f578886468849"
       },
       "category": "coding",
       "strict": true,
       "description": "Persistent memory for AI coding agents: the next session starts where the last one left off. Works with Claude Code, Codex, Cursor, OpenCode and more.",
-      "version": "16.1.2",
+      "version": "16.1.5",
       "homepage": "https://github.com/thedotmack/claude-mem#readme",
       "author": {
         "name": "Alex Newman"
@@ -1552,11 +1552,11 @@
         "discussions": "https://github.com/thedotmack/claude-mem/discussions"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-24T07:45:22.000Z",
+      "updatedAt": "2026-11-25T10:59:10.000Z",
       "github": {
-        "stars": 119453,
-        "forks": 10380,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 119671,
+        "forks": 10399,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1608,9 +1608,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-25T22:24:31.000Z",
       "github": {
-        "stars": 16730,
-        "forks": 1637,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 16749,
+        "forks": 1640,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1666,7 +1666,7 @@
       "github": {
         "stars": 797,
         "forks": 87,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1713,7 +1713,7 @@
       "github": {
         "stars": 1536,
         "forks": 180,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1760,7 +1760,7 @@
       "github": {
         "stars": 717,
         "forks": 83,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1774,7 +1774,7 @@
         "source": "github",
         "repo": "thedotmack/claude-mem",
         "path": "cowork",
-        "sha": "2c57eb156ee726c8f0f22502cc9bfcc0a8353526"
+        "sha": "11b47f9f4b8dc3614fab7452647f578886468849"
       },
       "category": "enhancement",
       "strict": true,
@@ -1801,11 +1801,11 @@
         "discussions": "https://github.com/thedotmack/claude-mem/discussions"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-24T07:45:22.000Z",
+      "updatedAt": "2026-11-25T10:59:10.000Z",
       "github": {
-        "stars": 119453,
-        "forks": 10380,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 119671,
+        "forks": 10399,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1819,7 +1819,7 @@
         "source": "github",
         "repo": "microsoft/power-platform-skills",
         "path": "plugins/code-apps",
-        "sha": "28c209c9eec2b7dedd598b3e211104a0b04e94c7"
+        "sha": "a5a0ee4cac0436a3857c69574edc69515f6af094"
       },
       "category": "coding",
       "strict": true,
@@ -1848,11 +1848,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T10:37:12.000Z",
+      "updatedAt": "2026-11-25T11:24:46.000Z",
       "github": {
-        "stars": 1177,
-        "forks": 239,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 1186,
+        "forks": 241,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1909,9 +1909,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-21T19:03:39.000Z",
       "github": {
-        "stars": 2777,
+        "stars": 2786,
         "forks": 269,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -1955,11 +1955,11 @@
         "contributing": "https://github.com/Ark0N/Codeman/blob/master/.github/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T09:37:04.000Z",
+      "updatedAt": "2026-11-25T09:25:56.000Z",
       "github": {
-        "stars": 849,
-        "forks": 132,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 852,
+        "forks": 133,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2005,9 +2005,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-23T04:36:09.000Z",
       "github": {
-        "stars": 815,
+        "stars": 817,
         "forks": 76,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2061,7 +2061,7 @@
       "github": {
         "stars": 992,
         "forks": 88,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2102,9 +2102,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-23T09:28:56.000Z",
       "github": {
-        "stars": 953,
+        "stars": 956,
         "forks": 151,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2118,7 +2118,7 @@
         "source": "github",
         "repo": "YeonwooSung/my-claude-code-mods",
         "path": "command-shelf",
-        "sha": "f7da140f3fc63aa5c083f75cd48700517e882c68"
+        "sha": "6361877829b20aae4dc48825ff9a730d22e74d54"
       },
       "category": "enhancement",
       "strict": true,
@@ -2135,11 +2135,11 @@
         "issues": "https://github.com/YeonwooSung/my-claude-code-mods/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-01T05:18:11.000Z",
+      "updatedAt": "2026-11-24T15:47:55.000Z",
       "github": {
-        "stars": 777,
+        "stars": 776,
         "forks": 7,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2153,7 +2153,7 @@
         "source": "github",
         "repo": "YeonwooSung/my-claude-code-mods",
         "path": "context-inspector",
-        "sha": "f7da140f3fc63aa5c083f75cd48700517e882c68"
+        "sha": "6361877829b20aae4dc48825ff9a730d22e74d54"
       },
       "category": "enhancement",
       "strict": true,
@@ -2170,11 +2170,11 @@
         "issues": "https://github.com/YeonwooSung/my-claude-code-mods/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-01T05:18:11.000Z",
+      "updatedAt": "2026-11-24T15:47:55.000Z",
       "github": {
-        "stars": 777,
+        "stars": 776,
         "forks": 7,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2188,7 +2188,7 @@
         "source": "github",
         "repo": "YeonwooSung/my-claude-code-mods",
         "path": "decision-ledger",
-        "sha": "f7da140f3fc63aa5c083f75cd48700517e882c68"
+        "sha": "6361877829b20aae4dc48825ff9a730d22e74d54"
       },
       "category": "enhancement",
       "strict": true,
@@ -2205,11 +2205,11 @@
         "issues": "https://github.com/YeonwooSung/my-claude-code-mods/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-01T05:18:11.000Z",
+      "updatedAt": "2026-11-24T15:47:55.000Z",
       "github": {
-        "stars": 777,
+        "stars": 776,
         "forks": 7,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2223,7 +2223,7 @@
         "source": "github",
         "repo": "YeonwooSung/my-claude-code-mods",
         "path": "dependency-lens",
-        "sha": "f7da140f3fc63aa5c083f75cd48700517e882c68"
+        "sha": "6361877829b20aae4dc48825ff9a730d22e74d54"
       },
       "category": "enhancement",
       "strict": true,
@@ -2240,11 +2240,11 @@
         "issues": "https://github.com/YeonwooSung/my-claude-code-mods/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-01T05:18:11.000Z",
+      "updatedAt": "2026-11-24T15:47:55.000Z",
       "github": {
-        "stars": 777,
+        "stars": 776,
         "forks": 7,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2258,7 +2258,7 @@
         "source": "github",
         "repo": "Manavarya09/design-extract",
         "path": "",
-        "sha": "7d37734ef93c57daf358638322ffcb2c45118b3d"
+        "sha": "25fa810ba893142b21b1a9b93122403be19574f6"
       },
       "category": "design",
       "strict": true,
@@ -2302,11 +2302,11 @@
         "contributing": "https://github.com/Manavarya09/design-extract/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-18T06:41:01.000Z",
+      "updatedAt": "2026-11-25T07:52:15.000Z",
       "github": {
-        "stars": 5201,
+        "stars": 5206,
         "forks": 430,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2354,7 +2354,7 @@
       "github": {
         "stars": 563,
         "forks": 64,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2368,12 +2368,12 @@
         "source": "github",
         "repo": "shinpr/claude-code-workflows",
         "path": "dev-skills",
-        "sha": "7d67a9f5d4317383e1e170e684bd7352beb44be5"
+        "sha": "fa062ee22ab31e8db41c759b46ffb89cacce9ab6"
       },
       "category": "coding",
       "strict": true,
       "description": "Lightweight skills for users with existing workflows - coding best practices, testing principles, and design guidelines without recipe workflows or agents",
-      "version": "0.32.3",
+      "version": "0.32.4",
       "homepage": "https://github.com/shinpr/claude-code-workflows",
       "author": {
         "name": "Shinsuke Kagawa",
@@ -2395,11 +2395,11 @@
         "issues": "https://github.com/shinpr/claude-code-workflows/issues"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T06:04:57.000Z",
+      "updatedAt": "2026-11-25T05:29:27.000Z",
       "github": {
         "stars": 722,
         "forks": 107,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2413,12 +2413,12 @@
         "source": "github",
         "repo": "shinpr/claude-code-workflows",
         "path": "dev-workflows",
-        "sha": "7d67a9f5d4317383e1e170e684bd7352beb44be5"
+        "sha": "fa062ee22ab31e8db41c759b46ffb89cacce9ab6"
       },
       "category": "collaboration",
       "strict": true,
       "description": "Skills + Subagents for backend development - Use skills for coding guidance, or run recipe workflows for full orchestrated agentic coding with specialized agents",
-      "version": "0.32.3",
+      "version": "0.32.4",
       "homepage": "https://github.com/shinpr/claude-code-workflows",
       "author": {
         "name": "Shinsuke Kagawa",
@@ -2442,11 +2442,11 @@
         "issues": "https://github.com/shinpr/claude-code-workflows/issues"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T06:04:57.000Z",
+      "updatedAt": "2026-11-25T05:29:27.000Z",
       "github": {
         "stars": 722,
         "forks": 107,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2460,12 +2460,12 @@
         "source": "github",
         "repo": "shinpr/claude-code-workflows",
         "path": "dev-workflows-frontend",
-        "sha": "7d67a9f5d4317383e1e170e684bd7352beb44be5"
+        "sha": "fa062ee22ab31e8db41c759b46ffb89cacce9ab6"
       },
       "category": "coding",
       "strict": true,
       "description": "Skills + Subagents for frontend development (any UI stack, with React/TypeScript-specific rules) - Use skills for coding guidance, or run recipe workflows for full orchestrated agentic coding with specialized agents",
-      "version": "0.32.3",
+      "version": "0.32.4",
       "homepage": "https://github.com/shinpr/claude-code-workflows",
       "author": {
         "name": "Shinsuke Kagawa",
@@ -2489,11 +2489,11 @@
         "issues": "https://github.com/shinpr/claude-code-workflows/issues"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T06:04:57.000Z",
+      "updatedAt": "2026-11-25T05:29:27.000Z",
       "github": {
         "stars": 722,
         "forks": 107,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2507,12 +2507,12 @@
         "source": "github",
         "repo": "shinpr/claude-code-workflows",
         "path": "dev-workflows-fullstack",
-        "sha": "7d67a9f5d4317383e1e170e684bd7352beb44be5"
+        "sha": "fa062ee22ab31e8db41c759b46ffb89cacce9ab6"
       },
       "category": "coding",
       "strict": true,
       "description": "Skills + Subagents for fullstack development (backend + frontend, with React/TypeScript-specific rules) - Use skills for coding guidance, or run recipe workflows for full orchestrated agentic coding with specialized agents",
-      "version": "0.32.3",
+      "version": "0.32.4",
       "homepage": "https://github.com/shinpr/claude-code-workflows",
       "author": {
         "name": "Shinsuke Kagawa",
@@ -2540,11 +2540,11 @@
         "issues": "https://github.com/shinpr/claude-code-workflows/issues"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T06:04:57.000Z",
+      "updatedAt": "2026-11-25T05:29:27.000Z",
       "github": {
         "stars": 722,
         "forks": 107,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2645,7 +2645,7 @@
       "github": {
         "stars": 986,
         "forks": 164,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2687,7 +2687,7 @@
       "github": {
         "stars": 578,
         "forks": 45,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2701,7 +2701,7 @@
         "source": "github",
         "repo": "google/elephant-goldfish-model",
         "path": "",
-        "sha": "ef27af6b1d76901d09bb346eea62ce377546052f"
+        "sha": "63e239d8d4c3ddc6774faf533b4997405f78c549"
       },
       "category": "office",
       "strict": true,
@@ -2726,17 +2726,17 @@
         "contributing": "https://github.com/google/elephant-goldfish-model/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-23T19:10:30.000Z",
+      "updatedAt": "2026-11-24T21:22:54.000Z",
       "github": {
-        "stars": 22544,
-        "forks": 1666,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 22901,
+        "forks": 1689,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
         "manifestPath": ".claude-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/google/elephant-goldfish-model/ef27af6b1d76901d09bb346eea62ce377546052f/.claude-plugin/icon.png"
+      "icon": "https://raw.githubusercontent.com/google/elephant-goldfish-model/63e239d8d4c3ddc6774faf533b4997405f78c549/.claude-plugin/icon.png"
     },
     {
       "name": "elixir-phoenix",
@@ -2764,7 +2764,7 @@
       "github": {
         "stars": 578,
         "forks": 45,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2805,9 +2805,9 @@
       "license": "MIT",
       "updatedAt": "2026-08-27T09:29:10.000Z",
       "github": {
-        "stars": 1490,
+        "stars": 1491,
         "forks": 110,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2821,7 +2821,7 @@
         "source": "github",
         "repo": "YeonwooSung/my-claude-code-mods",
         "path": "env-doctor",
-        "sha": "f7da140f3fc63aa5c083f75cd48700517e882c68"
+        "sha": "6361877829b20aae4dc48825ff9a730d22e74d54"
       },
       "category": "enhancement",
       "strict": true,
@@ -2838,11 +2838,11 @@
         "issues": "https://github.com/YeonwooSung/my-claude-code-mods/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-01T05:18:11.000Z",
+      "updatedAt": "2026-11-24T15:47:55.000Z",
       "github": {
-        "stars": 777,
+        "stars": 776,
         "forks": 7,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2856,12 +2856,12 @@
         "source": "github",
         "repo": "gmickel/flow-next",
         "path": "plugins/flow",
-        "sha": "6bbc50aca3a73614d7689a8f9eee43b920fd11b8"
+        "sha": "fa111d4cb1d824e340ebeb5905002f7896cf1eb2"
       },
       "category": "coding",
       "strict": true,
       "description": "Flow-Next One (preview): spec-driven agentic development with one router, cross-model review, and git-native state.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "homepage": "https://flow-next.dev",
       "author": {
         "name": "Gordon Mickel",
@@ -2876,11 +2876,11 @@
         "contributing": "https://github.com/gmickel/flow-next/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T12:15:33.000Z",
+      "updatedAt": "2026-11-24T16:19:29.000Z",
       "github": {
-        "stars": 733,
+        "stars": 734,
         "forks": 64,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2894,7 +2894,7 @@
         "source": "github",
         "repo": "gmickel/flow-next",
         "path": "plugins/flow-next",
-        "sha": "6bbc50aca3a73614d7689a8f9eee43b920fd11b8"
+        "sha": "fa111d4cb1d824e340ebeb5905002f7896cf1eb2"
       },
       "category": "enhancement",
       "strict": true,
@@ -2921,11 +2921,11 @@
         "contributing": "https://github.com/gmickel/flow-next/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T12:15:33.000Z",
+      "updatedAt": "2026-11-24T16:19:29.000Z",
       "github": {
-        "stars": 733,
+        "stars": 734,
         "forks": 64,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -2966,9 +2966,9 @@
       "license": "MIT",
       "updatedAt": "2026-08-23T01:09:21.000Z",
       "github": {
-        "stars": 1534,
+        "stars": 1535,
         "forks": 101,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3011,9 +3011,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-03T07:46:57.000Z",
       "github": {
-        "stars": 921,
-        "forks": 80,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 928,
+        "forks": 81,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3063,9 +3063,9 @@
       },
       "updatedAt": "2026-11-16T01:50:46.000Z",
       "github": {
-        "stars": 861,
-        "forks": 63,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 872,
+        "forks": 65,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3113,7 +3113,7 @@
       "github": {
         "stars": 978,
         "forks": 4,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3127,7 +3127,7 @@
         "source": "github",
         "repo": "YeonwooSung/my-claude-code-mods",
         "path": "handoff-pack",
-        "sha": "f7da140f3fc63aa5c083f75cd48700517e882c68"
+        "sha": "6361877829b20aae4dc48825ff9a730d22e74d54"
       },
       "category": "enhancement",
       "strict": true,
@@ -3144,11 +3144,11 @@
         "issues": "https://github.com/YeonwooSung/my-claude-code-mods/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-01T05:18:11.000Z",
+      "updatedAt": "2026-11-24T15:47:55.000Z",
       "github": {
-        "stars": 777,
+        "stars": 776,
         "forks": 7,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3205,9 +3205,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-09-28T05:19:20.000Z",
       "github": {
-        "stars": 9396,
+        "stars": 9400,
         "forks": 1344,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3221,7 +3221,7 @@
         "source": "github",
         "repo": "kitfunso/hippo-memory",
         "path": "extensions/claude-code-plugin",
-        "sha": "61820e767b83e25a30b9381a8f6c2816263f64d0"
+        "sha": "35893447fb83510a709099db185b6d700ed7cd41"
       },
       "category": "enhancement",
       "strict": true,
@@ -3240,11 +3240,11 @@
         "contributing": "https://github.com/kitfunso/hippo-memory/blob/master/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T13:12:05.000Z",
+      "updatedAt": "2026-11-25T12:47:49.000Z",
       "github": {
-        "stars": 793,
-        "forks": 46,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 794,
+        "forks": 47,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3285,9 +3285,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-11-11T13:39:16.000Z",
       "github": {
-        "stars": 1660,
+        "stars": 1659,
         "forks": 112,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3330,9 +3330,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-22T14:10:40.000Z",
       "github": {
-        "stars": 598,
+        "stars": 602,
         "forks": 134,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3378,9 +3378,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-21T21:29:51.000Z",
       "github": {
-        "stars": 5063,
-        "forks": 521,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 5095,
+        "forks": 522,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3415,9 +3415,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-19T19:46:23.000Z",
       "github": {
-        "stars": 62119,
-        "forks": 3645,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 62256,
+        "forks": 3653,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3461,9 +3461,9 @@
       },
       "updatedAt": "2026-11-24T13:40:11.000Z",
       "github": {
-        "stars": 7190,
+        "stars": 7202,
         "forks": 133,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3477,7 +3477,7 @@
         "source": "github",
         "repo": "oss-invisible/playwright_mcp",
         "path": "",
-        "sha": "0f060f4109f5020c5a0de90dcf47bcccc5ef0815"
+        "sha": "e8dfee4080e055be220ef5fa2ab9c2578a77d38b"
       },
       "category": "enhancement",
       "strict": true,
@@ -3505,11 +3505,11 @@
         "contributing": "https://github.com/oss-invisible/playwright_mcp/blob/main/.github/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-20T17:28:16.000Z",
+      "updatedAt": "2026-11-24T15:16:44.000Z",
       "github": {
-        "stars": 850,
-        "forks": 113,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 821,
+        "forks": 106,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3543,7 +3543,7 @@
       "github": {
         "stars": 563,
         "forks": 64,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3575,9 +3575,9 @@
       },
       "updatedAt": "2026-11-23T04:53:40.000Z",
       "github": {
-        "stars": 20522,
-        "forks": 2636,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 20930,
+        "forks": 2698,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3591,7 +3591,7 @@
         "source": "github",
         "repo": "YeonwooSung/my-claude-code-mods",
         "path": "loop-detective",
-        "sha": "f7da140f3fc63aa5c083f75cd48700517e882c68"
+        "sha": "6361877829b20aae4dc48825ff9a730d22e74d54"
       },
       "category": "enhancement",
       "strict": true,
@@ -3608,11 +3608,11 @@
         "issues": "https://github.com/YeonwooSung/my-claude-code-mods/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-01T05:18:11.000Z",
+      "updatedAt": "2026-11-24T15:47:55.000Z",
       "github": {
-        "stars": 777,
+        "stars": 776,
         "forks": 7,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3654,7 +3654,7 @@
       "github": {
         "stars": 578,
         "forks": 45,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3698,9 +3698,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-21T19:03:39.000Z",
       "github": {
-        "stars": 2777,
+        "stars": 2786,
         "forks": 269,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3735,9 +3735,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-24T01:53:15.000Z",
       "github": {
-        "stars": 62361,
-        "forks": 9112,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 62557,
+        "forks": 9128,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3752,7 +3752,7 @@
         "source": "github",
         "repo": "microsoft/power-platform-skills",
         "path": "plugins/mcp-apps",
-        "sha": "28c209c9eec2b7dedd598b3e211104a0b04e94c7"
+        "sha": "a5a0ee4cac0436a3857c69574edc69515f6af094"
       },
       "category": "enhancement",
       "strict": true,
@@ -3783,11 +3783,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T10:37:12.000Z",
+      "updatedAt": "2026-11-25T11:24:46.000Z",
       "github": {
-        "stars": 1177,
-        "forks": 239,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 1186,
+        "forks": 241,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3831,9 +3831,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-22T07:11:22.000Z",
       "github": {
-        "stars": 504,
+        "stars": 505,
         "forks": 92,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3875,9 +3875,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-20T18:31:10.000Z",
       "github": {
-        "stars": 2281,
-        "forks": 290,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 2288,
+        "forks": 292,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3891,12 +3891,12 @@
         "source": "github",
         "repo": "zilliztech/memsearch",
         "path": "plugins/claude-code",
-        "sha": "f1c1f3a9cfb6774bd1cb6e775d81b579cb64def0"
+        "sha": "0fde97fc410aee32c2ccc9d57a4f31ac7095083b"
       },
       "category": "coding",
       "strict": true,
       "description": "Automatic semantic memory for Claude Code — remembers what you worked on across sessions",
-      "version": "0.4.25",
+      "version": "0.4.26",
       "homepage": "https://github.com/zilliztech/memsearch",
       "repository": "https://github.com/zilliztech/memsearch",
       "links": {
@@ -3906,11 +3906,11 @@
         "contributing": "https://github.com/zilliztech/memsearch/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T09:55:41.000Z",
+      "updatedAt": "2026-11-25T09:10:36.000Z",
       "github": {
-        "stars": 2934,
+        "stars": 2937,
         "forks": 295,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3962,9 +3962,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-21T19:03:39.000Z",
       "github": {
-        "stars": 2777,
+        "stars": 2786,
         "forks": 269,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -3978,12 +3978,12 @@
         "source": "github",
         "repo": "Ikalus1988/MisakaNet",
         "path": "",
-        "sha": "6f0eea5b3920a77fcff99fdbf051171f7e0999ad"
+        "sha": "7b14009370c6fcaf882eeb2b97aba3a22dec58b1"
       },
       "category": "enhancement",
       "strict": true,
       "description": "Failure-memory network for AI coding agents: search evidence-rated failure lessons before re-debugging, and turn new failures into shared knowledge.",
-      "version": "3.21.0",
+      "version": "3.22.0",
       "homepage": "https://misakanet.org",
       "author": {
         "name": "Ikalus1988",
@@ -4008,11 +4008,11 @@
         "contributing": "https://github.com/Ikalus1988/MisakaNet/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-24T10:02:15.000Z",
+      "updatedAt": "2026-11-25T10:30:51.000Z",
       "github": {
-        "stars": 568,
-        "forks": 237,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 566,
+        "forks": 238,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4026,12 +4026,12 @@
         "source": "github",
         "repo": "microsoft/power-platform-skills",
         "path": "plugins/mobile-apps",
-        "sha": "28c209c9eec2b7dedd598b3e211104a0b04e94c7"
+        "sha": "a5a0ee4cac0436a3857c69574edc69515f6af094"
       },
       "category": "coding",
       "strict": true,
       "description": "Build and deploy Power Apps code apps for mobile using Expo (React Native), with native device functionality and Power Platform connectors",
-      "version": "0.7.0",
+      "version": "0.7.1",
       "homepage": "https://github.com/microsoft/power-platform-skills/",
       "author": {
         "name": "Microsoft",
@@ -4056,11 +4056,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T10:37:12.000Z",
+      "updatedAt": "2026-11-25T11:24:46.000Z",
       "github": {
-        "stars": 1177,
-        "forks": 239,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 1186,
+        "forks": 241,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4074,7 +4074,7 @@
         "source": "github",
         "repo": "microsoft/power-platform-skills",
         "path": "plugins/model-apps",
-        "sha": "28c209c9eec2b7dedd598b3e211104a0b04e94c7"
+        "sha": "a5a0ee4cac0436a3857c69574edc69515f6af094"
       },
       "category": "coding",
       "strict": true,
@@ -4105,11 +4105,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T10:37:12.000Z",
+      "updatedAt": "2026-11-25T11:24:46.000Z",
       "github": {
-        "stars": 1177,
-        "forks": 239,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 1186,
+        "forks": 241,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4123,7 +4123,7 @@
         "source": "github",
         "repo": "YeonwooSung/my-claude-code-mods",
         "path": "model-effort-band",
-        "sha": "f7da140f3fc63aa5c083f75cd48700517e882c68"
+        "sha": "6361877829b20aae4dc48825ff9a730d22e74d54"
       },
       "category": "enhancement",
       "strict": true,
@@ -4140,11 +4140,11 @@
         "issues": "https://github.com/YeonwooSung/my-claude-code-mods/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-01T05:18:11.000Z",
+      "updatedAt": "2026-11-24T15:47:55.000Z",
       "github": {
-        "stars": 777,
+        "stars": 776,
         "forks": 7,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4176,9 +4176,9 @@
       },
       "updatedAt": "2026-08-31T14:44:51.000Z",
       "github": {
-        "stars": 608,
-        "forks": 42,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 610,
+        "forks": 43,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4211,9 +4211,9 @@
       "license": "MIT",
       "updatedAt": "2026-09-30T13:31:42.000Z",
       "github": {
-        "stars": 5408,
-        "forks": 757,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 5451,
+        "forks": 769,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4249,9 +4249,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-17T20:25:09.000Z",
       "github": {
-        "stars": 4307,
-        "forks": 537,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 4306,
+        "forks": 538,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4287,9 +4287,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-22T23:07:49.000Z",
       "github": {
-        "stars": 5450,
-        "forks": 661,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 5459,
+        "forks": 662,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4303,12 +4303,12 @@
         "source": "github",
         "repo": "nyldn/claude-octopus",
         "path": "",
-        "sha": "ad574a1af846e46361dfe5cdfccf6bf4993c9415"
+        "sha": "c3a279b33930deb11403d8d26f65abc8c32b44c5"
       },
-      "category": "enhancement",
+      "category": "collaboration",
       "strict": true,
-      "description": "v11.28.1 — Discover saves synthesis context, bounded Tangle installs cached pnpm packages, and Copilot checks skip a missing CLI. Run /octo:setup.",
-      "version": "11.28.1",
+      "description": "v11.29.0 — Council offers opt-in Claude prompt caching, Develop can recover review corrections, and Quick Mode reports the exact task commit. Run /octo:setup.",
+      "version": "11.29.0",
       "homepage": "https://github.com/nyldn/claude-octopus",
       "author": {
         "name": "nyldn",
@@ -4337,11 +4337,11 @@
         "contributing": "https://github.com/nyldn/claude-octopus/blob/main/docs/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T13:47:56.000Z",
+      "updatedAt": "2026-11-25T11:32:22.000Z",
       "github": {
-        "stars": 4496,
+        "stars": 4499,
         "forks": 421,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4384,9 +4384,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-15T17:23:12.000Z",
       "github": {
-        "stars": 1190,
-        "forks": 108,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 1110,
+        "forks": 106,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4430,9 +4430,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-15T17:12:43.000Z",
       "github": {
-        "stars": 1967,
-        "forks": 306,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 1970,
+        "forks": 308,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4446,7 +4446,7 @@
         "source": "github",
         "repo": "openqodex/openqodex",
         "path": "plugins/claude-code",
-        "sha": "e359a6cd5068bdeeba2e1e896f5cee98f4c34f6f"
+        "sha": "fc0b48bca6749b472d73d09660d1948724a2c734"
       },
       "category": "coding",
       "strict": true,
@@ -4479,17 +4479,17 @@
         "contributing": "https://github.com/openqodex/openqodex/blob/main/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-24T13:08:22.000Z",
+      "updatedAt": "2026-11-25T07:35:19.000Z",
       "github": {
-        "stars": 1209,
+        "stars": 1216,
         "forks": 87,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
         "manifestPath": "plugins/claude-code/.claude-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/openqodex/openqodex/e359a6cd5068bdeeba2e1e896f5cee98f4c34f6f/plugins/claude-code/assets/avatar-1024.png"
+      "icon": "https://raw.githubusercontent.com/openqodex/openqodex/fc0b48bca6749b472d73d09660d1948724a2c734/plugins/claude-code/assets/avatar-1024.png"
     },
     {
       "name": "operator",
@@ -4497,12 +4497,12 @@
         "source": "github",
         "repo": "aerovato/operator-memory",
         "path": "packages/claude-code",
-        "sha": "97a3d55ca9607732420695a3a5789f22ea12e596"
+        "sha": "004eedb4d325659e637a493255bd182cfcbd99b2"
       },
       "category": "enhancement",
       "strict": true,
       "description": "Durable project and user memory for agent-driven development in Claude Code.",
-      "version": "0.3.1",
+      "version": "0.4.0",
       "displayName": "Operator Memory",
       "homepage": "https://github.com/aerovato/operator-memory",
       "author": {
@@ -4516,11 +4516,11 @@
         "contributing": "https://github.com/aerovato/operator-memory/blob/main/CONTRIBUTING.md"
       },
       "license": "BSD-3-Clause",
-      "updatedAt": "2026-11-24T07:52:18.000Z",
+      "updatedAt": "2026-11-25T06:47:34.000Z",
       "github": {
-        "stars": 525,
+        "stars": 527,
         "forks": 20,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4605,7 +4605,7 @@
       "github": {
         "stars": 563,
         "forks": 64,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4619,7 +4619,7 @@
         "source": "github",
         "repo": "microsoft/power-platform-skills",
         "path": "plugins/pcf",
-        "sha": "28c209c9eec2b7dedd598b3e211104a0b04e94c7"
+        "sha": "a5a0ee4cac0436a3857c69574edc69515f6af094"
       },
       "category": "coding",
       "strict": true,
@@ -4650,11 +4650,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T10:37:12.000Z",
+      "updatedAt": "2026-11-25T11:24:46.000Z",
       "github": {
-        "stars": 1177,
-        "forks": 239,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 1186,
+        "forks": 241,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4699,7 +4699,7 @@
       "github": {
         "stars": 578,
         "forks": 45,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4713,7 +4713,7 @@
         "source": "github",
         "repo": "YeonwooSung/my-claude-code-mods",
         "path": "pin-memo",
-        "sha": "f7da140f3fc63aa5c083f75cd48700517e882c68"
+        "sha": "6361877829b20aae4dc48825ff9a730d22e74d54"
       },
       "category": "coding",
       "strict": true,
@@ -4730,11 +4730,11 @@
         "issues": "https://github.com/YeonwooSung/my-claude-code-mods/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-01T05:18:11.000Z",
+      "updatedAt": "2026-11-24T15:47:55.000Z",
       "github": {
-        "stars": 777,
+        "stars": 776,
         "forks": 7,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4772,9 +4772,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-22T02:31:58.000Z",
       "github": {
-        "stars": 197832,
-        "forks": 11189,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 198456,
+        "forks": 11245,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4790,7 +4790,7 @@
         "source": "github",
         "repo": "microsoft/power-platform-skills",
         "path": "plugins/power-apps-mobile-extension",
-        "sha": "28c209c9eec2b7dedd598b3e211104a0b04e94c7"
+        "sha": "a5a0ee4cac0436a3857c69574edc69515f6af094"
       },
       "category": "enhancement",
       "strict": true,
@@ -4821,11 +4821,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T10:37:12.000Z",
+      "updatedAt": "2026-11-25T11:24:46.000Z",
       "github": {
-        "stars": 1177,
-        "forks": 239,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 1186,
+        "forks": 241,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4839,7 +4839,7 @@
         "source": "github",
         "repo": "microsoft/power-platform-skills",
         "path": "plugins/power-automate",
-        "sha": "28c209c9eec2b7dedd598b3e211104a0b04e94c7"
+        "sha": "a5a0ee4cac0436a3857c69574edc69515f6af094"
       },
       "category": "enhancement",
       "strict": true,
@@ -4866,11 +4866,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T10:37:12.000Z",
+      "updatedAt": "2026-11-25T11:24:46.000Z",
       "github": {
-        "stars": 1177,
-        "forks": 239,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 1186,
+        "forks": 241,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4884,7 +4884,7 @@
         "source": "github",
         "repo": "microsoft/power-platform-skills",
         "path": "plugins/power-pages",
-        "sha": "28c209c9eec2b7dedd598b3e211104a0b04e94c7"
+        "sha": "a5a0ee4cac0436a3857c69574edc69515f6af094"
       },
       "category": "coding",
       "strict": true,
@@ -4935,11 +4935,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T10:37:12.000Z",
+      "updatedAt": "2026-11-25T11:24:46.000Z",
       "github": {
-        "stars": 1177,
-        "forks": 239,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 1186,
+        "forks": 241,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -4948,12 +4948,45 @@
       "icon": "https://github.com/microsoft.png"
     },
     {
+      "name": "prismantis",
+      "source": {
+        "source": "github",
+        "repo": "NahumLitvin/prismantis",
+        "path": "",
+        "sha": "4c7342665214954a1f9db5a148ad5ed715989638"
+      },
+      "category": "coding",
+      "strict": true,
+      "description": "Themeable Codex replies: 19 prismantis syntax themes for code, inline code, table headers and mermaid, and a session note that gets tables, diagrams and figures into replies.",
+      "version": "0.51.0",
+      "homepage": "https://github.com/NahumLitvin/prismantis",
+      "repository": "https://github.com/NahumLitvin/prismantis",
+      "links": {
+        "docs": "https://www.catchkill9.dev/posts/prismantis.html",
+        "releases": "https://github.com/NahumLitvin/prismantis/releases",
+        "issues": "https://github.com/NahumLitvin/prismantis/issues",
+        "contributing": "https://github.com/NahumLitvin/prismantis/blob/main/.github/CONTRIBUTING.md"
+      },
+      "license": "MIT",
+      "updatedAt": "2026-11-24T12:37:25.000Z",
+      "github": {
+        "stars": 500,
+        "forks": 76,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
+      },
+      "x-omnimind": {
+        "sourceId": "community",
+        "manifestPath": ".codex-plugin/plugin.json"
+      },
+      "icon": "https://github.com/NahumLitvin.png"
+    },
+    {
       "name": "process-intelligence",
       "source": {
         "source": "github",
         "repo": "microsoft/power-platform-skills",
         "path": "plugins/process-intelligence",
-        "sha": "28c209c9eec2b7dedd598b3e211104a0b04e94c7"
+        "sha": "a5a0ee4cac0436a3857c69574edc69515f6af094"
       },
       "category": "enhancement",
       "strict": true,
@@ -4979,11 +5012,11 @@
         "contributing": "https://github.com/microsoft/power-platform-skills/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T10:37:12.000Z",
+      "updatedAt": "2026-11-25T11:24:46.000Z",
       "github": {
-        "stars": 1177,
-        "forks": 239,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 1186,
+        "forks": 241,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5025,9 +5058,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-21T19:03:39.000Z",
       "github": {
-        "stars": 2777,
+        "stars": 2786,
         "forks": 269,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5074,9 +5107,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-21T19:03:39.000Z",
       "github": {
-        "stars": 2777,
+        "stars": 2786,
         "forks": 269,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5090,12 +5123,12 @@
         "source": "github",
         "repo": "michael-denyer/pstack-claude",
         "path": "plugins/pstack",
-        "sha": "d97205a054a1e70e00350dba990b8f070ecc44d3"
+        "sha": "103a68d9a9aa23759d00ad95b01cb78cb8f57772"
       },
       "category": "coding",
       "strict": true,
       "description": "If you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence. Ported from cursor/plugins/pstack to Claude Code. Original pstack by Lauren Tan (poteto).",
-      "version": "0.9.153",
+      "version": "0.9.155",
       "displayName": "pstack (Claude Code port)",
       "homepage": "https://github.com/michael-denyer/pstack-claude",
       "author": {
@@ -5128,11 +5161,11 @@
         "contributing": "https://github.com/michael-denyer/pstack-claude/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T13:29:32.000Z",
+      "updatedAt": "2026-11-25T07:06:05.000Z",
       "github": {
-        "stars": 4808,
-        "forks": 446,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 4859,
+        "forks": 449,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5176,9 +5209,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-28T00:27:02.000Z",
       "github": {
-        "stars": 565,
+        "stars": 566,
         "forks": 49,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5225,9 +5258,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-28T00:27:02.000Z",
       "github": {
-        "stars": 565,
+        "stars": 566,
         "forks": 49,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5271,7 +5304,7 @@
       "github": {
         "stars": 770,
         "forks": 44,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5313,9 +5346,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-19T16:36:37.000Z",
       "github": {
-        "stars": 1647,
-        "forks": 85,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 1702,
+        "forks": 89,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5329,7 +5362,7 @@
         "source": "github",
         "repo": "YeonwooSung/my-claude-code-mods",
         "path": "review-queue",
-        "sha": "f7da140f3fc63aa5c083f75cd48700517e882c68"
+        "sha": "6361877829b20aae4dc48825ff9a730d22e74d54"
       },
       "category": "enhancement",
       "strict": true,
@@ -5346,11 +5379,11 @@
         "issues": "https://github.com/YeonwooSung/my-claude-code-mods/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-01T05:18:11.000Z",
+      "updatedAt": "2026-11-24T15:47:55.000Z",
       "github": {
-        "stars": 777,
+        "stars": 776,
         "forks": 7,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5403,7 +5436,7 @@
       "github": {
         "stars": 578,
         "forks": 45,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5417,12 +5450,12 @@
         "source": "github",
         "repo": "Innei/ryugi",
         "path": "",
-        "sha": "4b20d0d7fe98cfca4f18f3871e55595b99a542d1"
+        "sha": "bd4e4e276cb3630d136e19bd8b08c0334383a8fd"
       },
       "category": "office",
       "strict": true,
       "description": "Ryugi skills for coding agents, plus the artifacts workbench they design in: brainstorming, artboards, documents and TDD.",
-      "version": "1.108.5",
+      "version": "1.111.1",
       "homepage": "https://github.com/Innei/ryugi",
       "author": {
         "name": "Innei"
@@ -5442,11 +5475,11 @@
         "issues": "https://github.com/Innei/ryugi/issues",
         "contributing": "https://github.com/Innei/.github/blob/main/CONTRIBUTING.md"
       },
-      "updatedAt": "2026-11-24T12:34:25.000Z",
+      "updatedAt": "2026-11-25T12:57:59.000Z",
       "github": {
-        "stars": 876,
-        "forks": 40,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 922,
+        "forks": 42,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5490,9 +5523,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-21T19:03:39.000Z",
       "github": {
-        "stars": 2777,
+        "stars": 2786,
         "forks": 269,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5506,7 +5539,7 @@
         "source": "github",
         "repo": "YeonwooSung/my-claude-code-mods",
         "path": "scope-guard",
-        "sha": "f7da140f3fc63aa5c083f75cd48700517e882c68"
+        "sha": "6361877829b20aae4dc48825ff9a730d22e74d54"
       },
       "category": "enhancement",
       "strict": true,
@@ -5523,11 +5556,11 @@
         "issues": "https://github.com/YeonwooSung/my-claude-code-mods/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-01T05:18:11.000Z",
+      "updatedAt": "2026-11-24T15:47:55.000Z",
       "github": {
-        "stars": 777,
+        "stars": 776,
         "forks": 7,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5571,9 +5604,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-30T19:51:51.000Z",
       "github": {
-        "stars": 1182,
+        "stars": 1207,
         "forks": 8,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5616,8 +5649,8 @@
       "updatedAt": "2026-11-24T01:54:27.000Z",
       "github": {
         "stars": 874,
-        "forks": 617,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "forks": 618,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5662,8 +5695,8 @@
       "updatedAt": "2026-11-24T01:54:27.000Z",
       "github": {
         "stars": 874,
-        "forks": 617,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "forks": 618,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5708,7 +5741,7 @@
       "github": {
         "stars": 587,
         "forks": 71,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5751,9 +5784,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-23T06:59:52.000Z",
       "github": {
-        "stars": 4084,
+        "stars": 4095,
         "forks": 86,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5800,9 +5833,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-21T19:03:39.000Z",
       "github": {
-        "stars": 2777,
+        "stars": 2786,
         "forks": 269,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5850,9 +5883,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-21T19:03:39.000Z",
       "github": {
-        "stars": 2777,
+        "stars": 2786,
         "forks": 269,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5891,7 +5924,7 @@
       "github": {
         "stars": 587,
         "forks": 71,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5937,9 +5970,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-21T19:03:39.000Z",
       "github": {
-        "stars": 2777,
+        "stars": 2786,
         "forks": 269,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -5953,7 +5986,7 @@
         "source": "github",
         "repo": "zenbu-labs/terminal-browser",
         "path": "claude-code-plugin",
-        "sha": "a47886a06f6cfb5e74906a6de1e16e0199a3cc97"
+        "sha": "690f59f2d98cafc5f36f2c1db4c764a1b5f3aa39"
       },
       "category": "enhancement",
       "strict": true,
@@ -5974,11 +6007,11 @@
         "issues": "https://github.com/zenbu-labs/terminal-browser/issues"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T03:01:06.000Z",
+      "updatedAt": "2026-11-25T04:16:30.000Z",
       "github": {
-        "stars": 4776,
-        "forks": 249,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 4927,
+        "forks": 254,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -6029,7 +6062,7 @@
       "github": {
         "stars": 591,
         "forks": 107,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -6043,7 +6076,7 @@
         "source": "github",
         "repo": "YeonwooSung/my-claude-code-mods",
         "path": "time-machine",
-        "sha": "f7da140f3fc63aa5c083f75cd48700517e882c68"
+        "sha": "6361877829b20aae4dc48825ff9a730d22e74d54"
       },
       "category": "coding",
       "strict": true,
@@ -6060,11 +6093,11 @@
         "issues": "https://github.com/YeonwooSung/my-claude-code-mods/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-01T05:18:11.000Z",
+      "updatedAt": "2026-11-24T15:47:55.000Z",
       "github": {
-        "stars": 777,
+        "stars": 776,
         "forks": 7,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -6078,7 +6111,7 @@
         "source": "github",
         "repo": "alexgreensh/token-optimizer",
         "path": "cowork/to-hook-probe",
-        "sha": "7a205a468b591a54d297fcbdf164953b3b454109"
+        "sha": "9a8c35e209fdd9c62804e04bccfa5831acfd429c"
       },
       "category": "enhancement",
       "strict": true,
@@ -6100,11 +6133,11 @@
         "releases": "https://github.com/alexgreensh/token-optimizer/releases",
         "issues": "https://github.com/alexgreensh/token-optimizer/issues"
       },
-      "updatedAt": "2026-11-24T13:29:19.000Z",
+      "updatedAt": "2026-11-25T10:54:56.000Z",
       "github": {
-        "stars": 3088,
-        "forks": 243,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 3143,
+        "forks": 247,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -6118,12 +6151,12 @@
         "source": "github",
         "repo": "alexgreensh/token-optimizer",
         "path": "",
-        "sha": "7a205a468b591a54d297fcbdf164953b3b454109"
+        "sha": "9a8c35e209fdd9c62804e04bccfa5831acfd429c"
       },
       "category": "coding",
       "strict": true,
       "description": "Audit, fix, and monitor Claude Code context window usage. Find the ghost tokens.",
-      "version": "5.13.77",
+      "version": "5.13.81",
       "homepage": "https://github.com/alexgreensh/token-optimizer",
       "author": {
         "name": "Alex Greenshpun",
@@ -6143,11 +6176,11 @@
         "releases": "https://github.com/alexgreensh/token-optimizer/releases",
         "issues": "https://github.com/alexgreensh/token-optimizer/issues"
       },
-      "updatedAt": "2026-11-24T13:29:19.000Z",
+      "updatedAt": "2026-11-25T10:54:56.000Z",
       "github": {
-        "stars": 3088,
-        "forks": 243,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 3143,
+        "forks": 247,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -6161,12 +6194,12 @@
         "source": "github",
         "repo": "alexgreensh/token-optimizer",
         "path": "cowork/token-optimizer",
-        "sha": "7a205a468b591a54d297fcbdf164953b3b454109"
+        "sha": "9a8c35e209fdd9c62804e04bccfa5831acfd429c"
       },
       "category": "coding",
       "strict": true,
       "description": "Token Optimizer for Claude Cowork: self-contained plugin with full skills and Cowork-native hooks (UserPromptSubmit, PreToolUse, PostToolUse, Stop). Install THIS in Cowork; the standard token-optimizer entry is for desktop Claude Code.",
-      "version": "5.13.77",
+      "version": "5.13.81",
       "homepage": "https://github.com/alexgreensh/token-optimizer",
       "author": {
         "name": "Alex Greenshpun",
@@ -6186,11 +6219,11 @@
         "releases": "https://github.com/alexgreensh/token-optimizer/releases",
         "issues": "https://github.com/alexgreensh/token-optimizer/issues"
       },
-      "updatedAt": "2026-11-24T13:29:19.000Z",
+      "updatedAt": "2026-11-25T10:54:56.000Z",
       "github": {
-        "stars": 3088,
-        "forks": 243,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 3143,
+        "forks": 247,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -6204,7 +6237,7 @@
         "source": "github",
         "repo": "YeonwooSung/my-claude-code-mods",
         "path": "token-run",
-        "sha": "f7da140f3fc63aa5c083f75cd48700517e882c68"
+        "sha": "6361877829b20aae4dc48825ff9a730d22e74d54"
       },
       "category": "coding",
       "strict": true,
@@ -6221,11 +6254,11 @@
         "issues": "https://github.com/YeonwooSung/my-claude-code-mods/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-01T05:18:11.000Z",
+      "updatedAt": "2026-11-24T15:47:55.000Z",
       "github": {
-        "stars": 777,
+        "stars": 776,
         "forks": 7,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -6239,7 +6272,7 @@
         "source": "github",
         "repo": "quant-sentiment-ai/claude-equity-research",
         "path": "commands/trading-ideas",
-        "sha": "f8c215086fa08e6b577c32e9d93fa85c7ff00d38"
+        "sha": "8066efb3d0f8def9ada50ee99261c913e00db787"
       },
       "category": "science",
       "strict": true,
@@ -6253,11 +6286,11 @@
         "issues": "https://github.com/quant-sentiment-ai/claude-equity-research/issues"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-22T12:39:24.000Z",
+      "updatedAt": "2026-11-24T14:56:21.000Z",
       "github": {
-        "stars": 766,
+        "stars": 767,
         "forks": 91,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -6271,7 +6304,7 @@
         "source": "github",
         "repo": "nyldn/claude-octopus",
         "path": "vendors/ui-ux-pro-max-skill",
-        "sha": "ad574a1af846e46361dfe5cdfccf6bf4993c9415"
+        "sha": "c3a279b33930deb11403d8d26f65abc8c32b44c5"
       },
       "category": "design",
       "strict": true,
@@ -6301,11 +6334,11 @@
         "contributing": "https://github.com/nyldn/claude-octopus/blob/main/docs/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T13:47:56.000Z",
+      "updatedAt": "2026-11-25T11:32:22.000Z",
       "github": {
-        "stars": 4496,
+        "stars": 4499,
         "forks": 421,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -6350,9 +6383,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-11-23T14:34:33.000Z",
       "github": {
-        "stars": 940,
-        "forks": 87,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 944,
+        "forks": 88,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -6398,11 +6431,11 @@
         "contributing": "https://github.com/rehan-remade/universal-modder/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-24T12:26:07.000Z",
+      "updatedAt": "2026-11-25T12:26:51.000Z",
       "github": {
-        "stars": 9865,
-        "forks": 1114,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "stars": 9876,
+        "forks": 1116,
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -6454,9 +6487,9 @@
       "license": "MIT",
       "updatedAt": "2026-11-21T19:03:39.000Z",
       "github": {
-        "stars": 2777,
+        "stars": 2786,
         "forks": 269,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -6470,7 +6503,7 @@
         "source": "github",
         "repo": "YeonwooSung/my-claude-code-mods",
         "path": "verify-board",
-        "sha": "f7da140f3fc63aa5c083f75cd48700517e882c68"
+        "sha": "6361877829b20aae4dc48825ff9a730d22e74d54"
       },
       "category": "enhancement",
       "strict": true,
@@ -6487,11 +6520,11 @@
         "issues": "https://github.com/YeonwooSung/my-claude-code-mods/issues"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-01T05:18:11.000Z",
+      "updatedAt": "2026-11-24T15:47:55.000Z",
       "github": {
-        "stars": 777,
+        "stars": 776,
         "forks": 7,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -6529,9 +6562,9 @@
       "license": "MIT",
       "updatedAt": "2026-10-09T09:37:21.000Z",
       "github": {
-        "stars": 4442,
+        "stars": 4449,
         "forks": 180,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -6545,12 +6578,12 @@
         "source": "github",
         "repo": "zenstory-ai/video-recap-skills",
         "path": "",
-        "sha": "41597bf23c4b0782286705ad2726a690406d7165"
+        "sha": "94994e217078152ac5a17957efd1bff29ae9339f"
       },
       "category": "design",
       "strict": true,
       "description": "General-purpose, local-first AI video editing and narration skill pack built on minimal atomic CLIs (Python stdlib + ffmpeg/ffprobe) and a single timeline.json v3 bus—supporting multi-source cutting, multimodal frame viewing, local/Fish/OpenAI/IndexTTS voiceover, Remotion animated packaging, Hard/Soft Gate QC, and JianYing/CapCut draft export. 通用本地优先 AI 视频剪辑与解说技能包：极简原子 CLI + 单一 timeline.json 总线，支持多源剪辑、看图选镜、配音混音、Remotion 动效包装与剪映草稿导出。",
-      "version": "0.8.0",
+      "version": "0.9.0",
       "homepage": "https://github.com/zenstory-ai/video-recap-skills",
       "author": {
         "name": "PiteChen"
@@ -6563,11 +6596,11 @@
         "contributing": "https://github.com/zenstory-ai/.github/blob/main/CONTRIBUTING.md"
       },
       "license": "MIT",
-      "updatedAt": "2026-11-22T06:37:23.000Z",
+      "updatedAt": "2026-11-25T08:54:37.000Z",
       "github": {
-        "stars": 651,
+        "stars": 652,
         "forks": 118,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
@@ -6581,7 +6614,7 @@
         "source": "github",
         "repo": "wenlan-app/wenlan",
         "path": "plugin-codex",
-        "sha": "d82d0337165b4d31bd65fa8c2cb5604b9fe3acac"
+        "sha": "18006989ba12d6823890db988bc6281f69b7b1e1"
       },
       "category": "office",
       "strict": true,
@@ -6617,17 +6650,17 @@
         "contributing": "https://github.com/wenlan-app/wenlan/blob/main/.github/CONTRIBUTING.md"
       },
       "license": "Apache-2.0",
-      "updatedAt": "2026-11-24T03:53:25.000Z",
+      "updatedAt": "2026-11-25T08:53:20.000Z",
       "github": {
         "stars": 502,
         "forks": 8,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
         "manifestPath": "plugin-codex/.codex-plugin/plugin.json"
       },
-      "icon": "https://raw.githubusercontent.com/wenlan-app/wenlan/d82d0337165b4d31bd65fa8c2cb5604b9fe3acac/plugin-codex/assets/logo.svg"
+      "icon": "https://raw.githubusercontent.com/wenlan-app/wenlan/18006989ba12d6823890db988bc6281f69b7b1e1/plugin-codex/assets/logo.svg"
     },
     {
       "name": "xactions",
@@ -6663,9 +6696,9 @@
       "license": "Apache-2.0",
       "updatedAt": "2026-11-20T21:19:19.000Z",
       "github": {
-        "stars": 665,
+        "stars": 666,
         "forks": 116,
-        "fetchedAt": "2026-11-24T13:48:28.762Z"
+        "fetchedAt": "2026-11-25T13:01:14.369Z"
       },
       "x-omnimind": {
         "sourceId": "community",
