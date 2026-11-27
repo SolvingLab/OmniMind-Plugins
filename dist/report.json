@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T12:41:34.641Z",
+  "generatedAt": "2026-11-27T12:29:36.755Z",
   "sources": {
     "anthropic": {
       "marketplace": "omnimind-ext-anthropic",
@@ -131,7 +131,7 @@
         },
         {
           "repo": "SolvingLab/bench-dashboard",
-          "sha": "c256aec1524615be1a2de633b578e555becdd41d",
+          "sha": "00dbffce3aa9b48053f1834bdac87d418974a10b",
           "roots": [],
           "reason": "unsupported_manifest"
         },
@@ -145,14 +145,14 @@
     },
     "community": {
       "marketplace": "omnimind-ext-community",
-      "inspected": 115,
+      "inspected": 116,
       "inspectedUnit": "repositories",
-      "candidates": 172,
+      "candidates": 174,
       "accepted": 157,
-      "dropped": 15,
+      "dropped": 17,
       "rejectedRepositories": 21,
       "reasons": {
-        "duplicate_name_within_source": 15
+        "duplicate_name_within_source": 17
       },
       "repositoryReasons": {
         "aggregator_over_20": 4,
@@ -196,7 +196,7 @@
   },
   "totalSourceEntries": 601,
   "mergedEntries": 567,
-  "droppedPlugins": 35,
+  "droppedPlugins": 37,
   "rejectedRepositories": 33,
   "duplicates": {
     "upstreamDeclaredNameCount": 27,
@@ -1501,6 +1501,28 @@
     },
     {
       "id": "community",
+      "name": "adeck",
+      "source": {
+        "source": "github",
+        "repo": "Innei/artideck",
+        "path": "",
+        "sha": "b8206f53e80ec50a0ef8500bca1574daf39fabf7"
+      },
+      "reason": "duplicate_name_within_source"
+    },
+    {
+      "id": "community",
+      "name": "adeck",
+      "source": {
+        "source": "github",
+        "repo": "Innei/artideck",
+        "path": "",
+        "sha": "b8206f53e80ec50a0ef8500bca1574daf39fabf7"
+      },
+      "reason": "duplicate_name_within_source"
+    },
+    {
+      "id": "community",
       "scope": "repository",
       "repo": "AMAP-ML/LongHorizon-Harness",
       "reason": "unsupported_manifest",
@@ -1526,7 +1548,7 @@
         "source": "github",
         "repo": "career-ops-hq/career-ops",
         "path": "claude-directory",
-        "sha": "a8ea6d16d8ad38817b1fc333d717b8ada4b9a227"
+        "sha": "c780103f2e93db022186d128d2bb065b508730b5"
       },
       "reason": "duplicate_name_within_source"
     },
@@ -1566,7 +1588,7 @@
         "source": "github",
         "repo": "thedotmack/claude-mem",
         "path": "plugin",
-        "sha": "9b3b78dfa53f80e7c9c447b9269ceda255ee99d9"
+        "sha": "ad682a38da4cdbd2076451f595adc7db512a626c"
       },
       "reason": "duplicate_name_within_source"
     },
@@ -1577,7 +1599,7 @@
         "source": "github",
         "repo": "chipfighter/context-attachment-manager",
         "path": "plugin",
-        "sha": "0afe5eaae835ed7f1703a7661b0887799aa664cc"
+        "sha": "ee5e0f0ab438345ad681bba7b0a87fee3ab727e6"
       },
       "reason": "duplicate_name_within_source"
     },
@@ -1730,7 +1752,7 @@
         "source": "github",
         "repo": "NahumLitvin/prismantis",
         "path": "plugin",
-        "sha": "4c7342665214954a1f9db5a148ad5ed715989638"
+        "sha": "4f51d08000c9f30203a3b132808192a63ac0bdae"
       },
       "reason": "duplicate_name_within_source"
     },
@@ -1831,7 +1853,7 @@
         "source": "github",
         "repo": "unbrowse-ai/unbrowse",
         "path": "integrations/codex/plugins/unbrowse",
-        "sha": "e3710b1c9a4f1e074f5c053f2efe02643c091475"
+        "sha": "0156fc452693e93cce7c81804d312948806a198f"
       },
       "reason": "duplicate_name_within_source"
     },
@@ -1842,7 +1864,7 @@
         "source": "github",
         "repo": "wenlan-app/wenlan",
         "path": "plugin",
-        "sha": "3cf7e64259fe139f81c4fb069b8133478396b68e"
+        "sha": "cfe70b25689f65b7ad1be2237a4e17cf46e3beff"
       },
       "reason": "duplicate_name_within_source"
     },
@@ -2075,9 +2097,9 @@
         "coding": 57,
         "design": 20,
         "data": 3,
-        "science": 4,
+        "science": 5,
         "collaboration": 14,
-        "enhancement": 51
+        "enhancement": 50
       }
     },
     "mergedDistribution": {
@@ -2085,17 +2107,17 @@
       "coding": 248,
       "design": 50,
       "data": 64,
-      "science": 13,
+      "science": 14,
       "collaboration": 25,
-      "enhancement": 65
+      "enhancement": 64
     },
     "methods": {
       "upstream": 437,
-      "keywords": 143,
-      "fallback": 21
+      "keywords": 144,
+      "fallback": 20
     },
-    "fallbackCount": 21,
-    "mergedFallbackCount": 21,
+    "fallbackCount": 20,
+    "mergedFallbackCount": 20,
     "assignments": [
       {
         "id": "self-hosted",
@@ -8942,6 +8964,69 @@
       },
       {
         "id": "community",
+        "name": "adeck",
+        "source": {
+          "source": "github",
+          "repo": "Innei/artideck",
+          "path": "",
+          "sha": "b8206f53e80ec50a0ef8500bca1574daf39fabf7"
+        },
+        "merged": true,
+        "category": "office",
+        "score": 1,
+        "matches": [
+          {
+            "keyword": "documents",
+            "field": "description"
+          }
+        ],
+        "method": "keywords",
+        "inputCategory": null,
+        "candidates": [
+          {
+            "category": "office",
+            "score": 1,
+            "matches": [
+              {
+                "keyword": "documents",
+                "field": "description"
+              }
+            ]
+          },
+          {
+            "category": "coding",
+            "score": 1,
+            "matches": [
+              {
+                "keyword": "coding",
+                "field": "description"
+              }
+            ]
+          },
+          {
+            "category": "design",
+            "score": 1,
+            "matches": [
+              {
+                "keyword": "design",
+                "field": "description"
+              }
+            ]
+          },
+          {
+            "category": "enhancement",
+            "score": 1,
+            "matches": [
+              {
+                "keyword": "agents",
+                "field": "description"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "community",
         "name": "aerovato",
         "source": {
           "source": "github",
@@ -8988,7 +9073,7 @@
           "source": "github",
           "repo": "YeonwooSung/my-claude-code-mods",
           "path": "agent-profiler",
-          "sha": "870eef04d9350a64c3a6fce9b1caad5e3a9aef0e"
+          "sha": "fdcf4e2552e899b4184e21415620a391e2529e16"
         },
         "merged": true,
         "category": "enhancement",
@@ -9031,7 +9116,7 @@
           "source": "github",
           "repo": "agentrq/agentrq",
           "path": "plugins/claude/agentrq",
-          "sha": "dec6888e901316b803026b4cd088369cadf9db10"
+          "sha": "27e89239dce138f04b0e32e835d9a656799837e1"
         },
         "merged": true,
         "category": "collaboration",
@@ -9082,7 +9167,7 @@
           "source": "github",
           "repo": "agentrq/agentrq",
           "path": "plugins/claude/agentrq-custom-supervisor",
-          "sha": "dec6888e901316b803026b4cd088369cadf9db10"
+          "sha": "27e89239dce138f04b0e32e835d9a656799837e1"
         },
         "merged": true,
         "category": "collaboration",
@@ -9141,7 +9226,7 @@
           "source": "github",
           "repo": "agentrq/agentrq",
           "path": "plugins/claude/agentrq-workspace",
-          "sha": "dec6888e901316b803026b4cd088369cadf9db10"
+          "sha": "27e89239dce138f04b0e32e835d9a656799837e1"
         },
         "merged": true,
         "category": "collaboration",
@@ -9585,7 +9670,7 @@
           "source": "github",
           "repo": "YeonwooSung/my-claude-code-mods",
           "path": "assumption-tracker",
-          "sha": "870eef04d9350a64c3a6fce9b1caad5e3a9aef0e"
+          "sha": "fdcf4e2552e899b4184e21415620a391e2529e16"
         },
         "merged": true,
         "category": "enhancement",
@@ -9823,7 +9908,7 @@
           "source": "github",
           "repo": "YeonwooSung/my-claude-code-mods",
           "path": "blast-radius",
-          "sha": "870eef04d9350a64c3a6fce9b1caad5e3a9aef0e"
+          "sha": "fdcf4e2552e899b4184e21415620a391e2529e16"
         },
         "merged": true,
         "category": "enhancement",
@@ -10085,7 +10170,7 @@
           "source": "github",
           "repo": "career-ops-hq/career-ops",
           "path": "",
-          "sha": "a8ea6d16d8ad38817b1fc333d717b8ada4b9a227"
+          "sha": "c780103f2e93db022186d128d2bb065b508730b5"
         },
         "merged": true,
         "category": "enhancement",
@@ -10328,7 +10413,7 @@
           "source": "github",
           "repo": "JayPokale/Chisle",
           "path": "",
-          "sha": "449107746e99875911628c413ab32462825a9575"
+          "sha": "2f927e7bfaf23fb2b149bb045685ba3499e88517"
         },
         "merged": true,
         "category": "coding",
@@ -10593,7 +10678,7 @@
           "source": "github",
           "repo": "thedotmack/claude-mem",
           "path": "",
-          "sha": "9b3b78dfa53f80e7c9c447b9269ceda255ee99d9"
+          "sha": "ad682a38da4cdbd2076451f595adc7db512a626c"
         },
         "merged": true,
         "category": "coding",
@@ -10846,7 +10931,7 @@
           "source": "github",
           "repo": "thedotmack/claude-mem",
           "path": "cowork",
-          "sha": "9b3b78dfa53f80e7c9c447b9269ceda255ee99d9"
+          "sha": "ad682a38da4cdbd2076451f595adc7db512a626c"
         },
         "merged": true,
         "category": "enhancement",
@@ -11043,7 +11128,7 @@
           "source": "github",
           "repo": "Ark0N/Codeman",
           "path": "plugins/codeman",
-          "sha": "babb55e4d9549f1a2a43d1ba0fa17f7f48e634e3"
+          "sha": "6db166f3f8be0a2f6d0b5cae7dd6284e7af882b0"
         },
         "merged": true,
         "category": "coding",
@@ -11098,7 +11183,7 @@
           "source": "github",
           "repo": "chipfighter/context-attachment-manager",
           "path": "",
-          "sha": "0afe5eaae835ed7f1703a7661b0887799aa664cc"
+          "sha": "ee5e0f0ab438345ad681bba7b0a87fee3ab727e6"
         },
         "merged": true,
         "category": "enhancement",
@@ -11227,7 +11312,7 @@
           "source": "github",
           "repo": "YeonwooSung/my-claude-code-mods",
           "path": "command-shelf",
-          "sha": "870eef04d9350a64c3a6fce9b1caad5e3a9aef0e"
+          "sha": "fdcf4e2552e899b4184e21415620a391e2529e16"
         },
         "merged": true,
         "category": "enhancement",
@@ -11243,7 +11328,7 @@
           "source": "github",
           "repo": "YeonwooSung/my-claude-code-mods",
           "path": "context-inspector",
-          "sha": "870eef04d9350a64c3a6fce9b1caad5e3a9aef0e"
+          "sha": "fdcf4e2552e899b4184e21415620a391e2529e16"
         },
         "merged": true,
         "category": "enhancement",
@@ -11294,7 +11379,7 @@
           "source": "github",
           "repo": "YeonwooSung/my-claude-code-mods",
           "path": "decision-ledger",
-          "sha": "870eef04d9350a64c3a6fce9b1caad5e3a9aef0e"
+          "sha": "fdcf4e2552e899b4184e21415620a391e2529e16"
         },
         "merged": true,
         "category": "enhancement",
@@ -11310,7 +11395,7 @@
           "source": "github",
           "repo": "YeonwooSung/my-claude-code-mods",
           "path": "dependency-lens",
-          "sha": "870eef04d9350a64c3a6fce9b1caad5e3a9aef0e"
+          "sha": "fdcf4e2552e899b4184e21415620a391e2529e16"
         },
         "merged": true,
         "category": "enhancement",
@@ -11436,7 +11521,7 @@
           "source": "github",
           "repo": "shinpr/claude-code-workflows",
           "path": "dev-skills",
-          "sha": "fa062ee22ab31e8db41c759b46ffb89cacce9ab6"
+          "sha": "f829919e87327b0dd93f59086581a276753ab6b2"
         },
         "merged": true,
         "category": "coding",
@@ -11507,7 +11592,7 @@
           "source": "github",
           "repo": "shinpr/claude-code-workflows",
           "path": "dev-workflows",
-          "sha": "fa062ee22ab31e8db41c759b46ffb89cacce9ab6"
+          "sha": "f829919e87327b0dd93f59086581a276753ab6b2"
         },
         "merged": true,
         "category": "collaboration",
@@ -11576,7 +11661,7 @@
           "source": "github",
           "repo": "shinpr/claude-code-workflows",
           "path": "dev-workflows-frontend",
-          "sha": "fa062ee22ab31e8db41c759b46ffb89cacce9ab6"
+          "sha": "f829919e87327b0dd93f59086581a276753ab6b2"
         },
         "merged": true,
         "category": "coding",
@@ -11675,7 +11760,7 @@
           "source": "github",
           "repo": "shinpr/claude-code-workflows",
           "path": "dev-workflows-fullstack",
-          "sha": "fa062ee22ab31e8db41c759b46ffb89cacce9ab6"
+          "sha": "f829919e87327b0dd93f59086581a276753ab6b2"
         },
         "merged": true,
         "category": "coding",
@@ -11992,7 +12077,7 @@
           "source": "github",
           "repo": "YeonwooSung/my-claude-code-mods",
           "path": "env-doctor",
-          "sha": "870eef04d9350a64c3a6fce9b1caad5e3a9aef0e"
+          "sha": "fdcf4e2552e899b4184e21415620a391e2529e16"
         },
         "merged": true,
         "category": "enhancement",
@@ -12291,7 +12376,7 @@
           "source": "github",
           "repo": "YeonwooSung/my-claude-code-mods",
           "path": "handoff-pack",
-          "sha": "870eef04d9350a64c3a6fce9b1caad5e3a9aef0e"
+          "sha": "fdcf4e2552e899b4184e21415620a391e2529e16"
         },
         "merged": true,
         "category": "enhancement",
@@ -12384,7 +12469,7 @@
           "source": "github",
           "repo": "kitfunso/hippo-memory",
           "path": "extensions/claude-code-plugin",
-          "sha": "6c787a7ca176d999fd1864c4c7e3d1923f64917b"
+          "sha": "9217e5b03e869f52021fe3628f33c68ad0751983"
         },
         "merged": true,
         "category": "enhancement",
@@ -12798,7 +12883,7 @@
           "source": "github",
           "repo": "YeonwooSung/my-claude-code-mods",
           "path": "loop-detective",
-          "sha": "870eef04d9350a64c3a6fce9b1caad5e3a9aef0e"
+          "sha": "fdcf4e2552e899b4184e21415620a391e2529e16"
         },
         "merged": true,
         "category": "enhancement",
@@ -12888,7 +12973,7 @@
           "source": "github",
           "repo": "coreyhaines31/marketingskills",
           "path": "",
-          "sha": "8fd2fcade2fd6629026e9dfe6d133b55b36968b9"
+          "sha": "2bf95edb4ebd37198ab7fd18b99ba95c2145ec64"
         },
         "merged": true,
         "category": "collaboration",
@@ -13128,7 +13213,7 @@
           "source": "github",
           "repo": "zilliztech/memsearch",
           "path": "plugins/claude-code",
-          "sha": "0fde97fc410aee32c2ccc9d57a4f31ac7095083b"
+          "sha": "9475691e75f8c166e7db032e335b2f748e48abcf"
         },
         "merged": true,
         "category": "coding",
@@ -13242,7 +13327,7 @@
           "source": "github",
           "repo": "Ikalus1988/MisakaNet",
           "path": "",
-          "sha": "38feda715d36453941a7f2864473735e56ef0647"
+          "sha": "472dcb6fc692e1456a385c7a56b9f21a9d6ac7be"
         },
         "merged": true,
         "category": "enhancement",
@@ -13411,7 +13496,7 @@
           "source": "github",
           "repo": "YeonwooSung/my-claude-code-mods",
           "path": "model-effort-band",
-          "sha": "870eef04d9350a64c3a6fce9b1caad5e3a9aef0e"
+          "sha": "fdcf4e2552e899b4184e21415620a391e2529e16"
         },
         "merged": true,
         "category": "enhancement",
@@ -13629,7 +13714,7 @@
           "source": "github",
           "repo": "eugeniughelbur/obsidian-second-brain",
           "path": "",
-          "sha": "cf6adcdc98451e06dcd967f600fd6d3b24228231"
+          "sha": "d6bae6272baa2f844ad3f1f176de276e88776bdb"
         },
         "merged": true,
         "category": "office",
@@ -13702,14 +13787,41 @@
           "source": "github",
           "repo": "nyldn/claude-octopus",
           "path": "",
-          "sha": "d943d451611f0422c6bf388243620644ca3aa5f9"
+          "sha": "198142b482f1a620995d3a84da16087bfb196496"
         },
         "merged": true,
-        "category": "enhancement",
-        "method": "fallback",
+        "category": "science",
+        "score": 1,
+        "matches": [
+          {
+            "keyword": "research",
+            "field": "description"
+          }
+        ],
+        "method": "keywords",
         "inputCategory": null,
-        "matches": [],
-        "reason": "No name or description keywords matched"
+        "candidates": [
+          {
+            "category": "science",
+            "score": 1,
+            "matches": [
+              {
+                "keyword": "research",
+                "field": "description"
+              }
+            ]
+          },
+          {
+            "category": "collaboration",
+            "score": 1,
+            "matches": [
+              {
+                "keyword": "workflow",
+                "field": "description"
+              }
+            ]
+          }
+        ]
       },
       {
         "id": "community",
@@ -14211,7 +14323,7 @@
           "source": "github",
           "repo": "YeonwooSung/my-claude-code-mods",
           "path": "pin-memo",
-          "sha": "870eef04d9350a64c3a6fce9b1caad5e3a9aef0e"
+          "sha": "fdcf4e2552e899b4184e21415620a391e2529e16"
         },
         "merged": true,
         "category": "coding",
@@ -14415,7 +14527,7 @@
           "source": "github",
           "repo": "NahumLitvin/prismantis",
           "path": "",
-          "sha": "4c7342665214954a1f9db5a148ad5ed715989638"
+          "sha": "4f51d08000c9f30203a3b132808192a63ac0bdae"
         },
         "merged": true,
         "category": "coding",
@@ -14942,7 +15054,7 @@
           "source": "github",
           "repo": "YeonwooSung/my-claude-code-mods",
           "path": "review-queue",
-          "sha": "870eef04d9350a64c3a6fce9b1caad5e3a9aef0e"
+          "sha": "fdcf4e2552e899b4184e21415620a391e2529e16"
         },
         "merged": true,
         "category": "enhancement",
@@ -14988,69 +15100,6 @@
             "matches": [
               {
                 "keyword": "analyze",
-                "field": "description"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "community",
-        "name": "ryugi",
-        "source": {
-          "source": "github",
-          "repo": "Innei/ryugi",
-          "path": "",
-          "sha": "6fd20b48a4a39f19438a0427ece0146a6341d17c"
-        },
-        "merged": true,
-        "category": "office",
-        "score": 1,
-        "matches": [
-          {
-            "keyword": "documents",
-            "field": "description"
-          }
-        ],
-        "method": "keywords",
-        "inputCategory": null,
-        "candidates": [
-          {
-            "category": "office",
-            "score": 1,
-            "matches": [
-              {
-                "keyword": "documents",
-                "field": "description"
-              }
-            ]
-          },
-          {
-            "category": "coding",
-            "score": 1,
-            "matches": [
-              {
-                "keyword": "coding",
-                "field": "description"
-              }
-            ]
-          },
-          {
-            "category": "design",
-            "score": 1,
-            "matches": [
-              {
-                "keyword": "design",
-                "field": "description"
-              }
-            ]
-          },
-          {
-            "category": "enhancement",
-            "score": 1,
-            "matches": [
-              {
-                "keyword": "agents",
                 "field": "description"
               }
             ]
@@ -15105,7 +15154,7 @@
           "source": "github",
           "repo": "YeonwooSung/my-claude-code-mods",
           "path": "scope-guard",
-          "sha": "870eef04d9350a64c3a6fce9b1caad5e3a9aef0e"
+          "sha": "fdcf4e2552e899b4184e21415620a391e2529e16"
         },
         "merged": true,
         "category": "enhancement",
@@ -15192,7 +15241,7 @@
           "source": "github",
           "repo": "sno-ai/sno-station-skills",
           "path": "",
-          "sha": "ae557f771e67966c498c26146cfaa365d0fb890f"
+          "sha": "531dad8d261917817701b6c10a07bc068a5ff121"
         },
         "merged": true,
         "category": "coding",
@@ -15245,7 +15294,7 @@
           "source": "github",
           "repo": "sno-ai/sno-station-skills",
           "path": "plugins/sno-station-standalone",
-          "sha": "ae557f771e67966c498c26146cfaa365d0fb890f"
+          "sha": "531dad8d261917817701b6c10a07bc068a5ff121"
         },
         "merged": true,
         "category": "coding",
@@ -15817,7 +15866,7 @@
           "source": "github",
           "repo": "YeonwooSung/my-claude-code-mods",
           "path": "time-machine",
-          "sha": "870eef04d9350a64c3a6fce9b1caad5e3a9aef0e"
+          "sha": "fdcf4e2552e899b4184e21415620a391e2529e16"
         },
         "merged": true,
         "category": "coding",
@@ -15995,7 +16044,7 @@
           "source": "github",
           "repo": "YeonwooSung/my-claude-code-mods",
           "path": "token-run",
-          "sha": "870eef04d9350a64c3a6fce9b1caad5e3a9aef0e"
+          "sha": "fdcf4e2552e899b4184e21415620a391e2529e16"
         },
         "merged": true,
         "category": "coding",
@@ -16028,7 +16077,7 @@
           "source": "github",
           "repo": "quant-sentiment-ai/claude-equity-research",
           "path": "commands/trading-ideas",
-          "sha": "88b332f29d934303ec51dc80a030ef4342cf287f"
+          "sha": "385f0b099dea8db3ead6b101935435297dd21602"
         },
         "merged": true,
         "category": "science",
@@ -16061,7 +16110,7 @@
           "source": "github",
           "repo": "nyldn/claude-octopus",
           "path": "vendors/ui-ux-pro-max-skill",
-          "sha": "d943d451611f0422c6bf388243620644ca3aa5f9"
+          "sha": "198142b482f1a620995d3a84da16087bfb196496"
         },
         "merged": true,
         "category": "design",
@@ -16170,7 +16219,7 @@
           "source": "github",
           "repo": "unbrowse-ai/unbrowse",
           "path": "integrations/claude-code",
-          "sha": "e3710b1c9a4f1e074f5c053f2efe02643c091475"
+          "sha": "0156fc452693e93cce7c81804d312948806a198f"
         },
         "merged": true,
         "category": "enhancement",
@@ -16351,7 +16400,7 @@
           "source": "github",
           "repo": "YeonwooSung/my-claude-code-mods",
           "path": "verify-board",
-          "sha": "870eef04d9350a64c3a6fce9b1caad5e3a9aef0e"
+          "sha": "fdcf4e2552e899b4184e21415620a391e2529e16"
         },
         "merged": true,
         "category": "enhancement",
@@ -16408,7 +16457,7 @@
           "source": "github",
           "repo": "zenstory-ai/video-recap-skills",
           "path": "",
-          "sha": "94994e217078152ac5a17957efd1bff29ae9339f"
+          "sha": "0d1f34ea4af5beda0eeb4a4872b9fea97da3cc8b"
         },
         "merged": true,
         "category": "design",
@@ -16485,7 +16534,7 @@
           "source": "github",
           "repo": "wenlan-app/wenlan",
           "path": "plugin-codex",
-          "sha": "3cf7e64259fe139f81c4fb069b8133478396b68e"
+          "sha": "cfe70b25689f65b7ad1be2237a4e17cf46e3beff"
         },
         "merged": true,
         "category": "office",
@@ -16541,7 +16590,7 @@
           "source": "github",
           "repo": "nirholas/XActions",
           "path": "plugins/xactions",
-          "sha": "2bd843fa1a3c460791e6adf7cdc218ca3bb8c83e"
+          "sha": "0fc45f27fecd9b98aee56f1edbe20898e292b6de"
         },
         "merged": true,
         "category": "enhancement",
@@ -16795,8 +16844,8 @@
     "Referenced website revision contains 9 external entries; requested 10. Missing entry requires a source; no placeholder was invented."
   ],
   "github": {
-    "requests": 233,
-    "cacheHits": 492,
+    "requests": 238,
+    "cacheHits": 490,
     "graphqlBatches": 59,
     "detailFallbacks": 0,
     "detailPartial": 0,
