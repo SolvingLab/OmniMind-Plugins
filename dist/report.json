@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T12:29:36.755Z",
+  "generatedAt": "2026-11-28T11:52:28.959Z",
   "sources": {
     "anthropic": {
       "marketplace": "omnimind-ext-anthropic",
@@ -147,17 +147,18 @@
       "marketplace": "omnimind-ext-community",
       "inspected": 116,
       "inspectedUnit": "repositories",
-      "candidates": 174,
-      "accepted": 157,
-      "dropped": 17,
-      "rejectedRepositories": 21,
+      "candidates": 187,
+      "accepted": 172,
+      "dropped": 15,
+      "rejectedRepositories": 22,
       "reasons": {
-        "duplicate_name_within_source": 17
+        "duplicate_name_within_source": 15
       },
       "repositoryReasons": {
         "aggregator_over_20": 4,
         "awesome_list": 3,
         "missing_license": 4,
+        "not_found": 1,
         "unsupported_manifest": 10
       },
       "searches": [
@@ -171,7 +172,7 @@
         },
         {
           "topic": "claude-plugin",
-          "repositories": 24
+          "repositories": 25
         },
         {
           "topic": "zcode-plugin",
@@ -194,10 +195,10 @@
       "repositoryReasons": {}
     }
   },
-  "totalSourceEntries": 601,
-  "mergedEntries": 567,
-  "droppedPlugins": 37,
-  "rejectedRepositories": 33,
+  "totalSourceEntries": 616,
+  "mergedEntries": 581,
+  "droppedPlugins": 35,
+  "rejectedRepositories": 34,
   "duplicates": {
     "upstreamDeclaredNameCount": 27,
     "upstreamDeclaredNames": [
@@ -229,8 +230,8 @@
       "vercel",
       "zotero"
     ],
-    "acceptedNameCount": 33,
-    "alternateEntries": 34,
+    "acceptedNameCount": 34,
+    "alternateEntries": 35,
     "retained": [
       {
         "name": "airtable",
@@ -404,6 +405,28 @@
               "repo": "CrowdStrike/fusion-skills",
               "path": "",
               "sha": "3fc41d88ecf1f2a9c7231ed092bee0cef42c4e1b"
+            }
+          }
+        ]
+      },
+      {
+        "name": "data-analytics",
+        "winner": "omnimind-ext-openai",
+        "keptSource": {
+          "source": "github",
+          "repo": "openai/plugins",
+          "path": "plugins/data-analytics",
+          "sha": "981b02c0c44058b595f3b4180002c3ae3c806d40"
+        },
+        "alternates": [
+          {
+            "name": "data-analytics",
+            "marketplace": "omnimind-ext-community",
+            "source": {
+              "source": "github",
+              "repo": "cbrock84/headcount",
+              "path": "plugins/data-analytics",
+              "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
             }
           }
         ]
@@ -1501,28 +1524,6 @@
     },
     {
       "id": "community",
-      "name": "adeck",
-      "source": {
-        "source": "github",
-        "repo": "Innei/artideck",
-        "path": "",
-        "sha": "b8206f53e80ec50a0ef8500bca1574daf39fabf7"
-      },
-      "reason": "duplicate_name_within_source"
-    },
-    {
-      "id": "community",
-      "name": "adeck",
-      "source": {
-        "source": "github",
-        "repo": "Innei/artideck",
-        "path": "",
-        "sha": "b8206f53e80ec50a0ef8500bca1574daf39fabf7"
-      },
-      "reason": "duplicate_name_within_source"
-    },
-    {
-      "id": "community",
       "scope": "repository",
       "repo": "AMAP-ML/LongHorizon-Harness",
       "reason": "unsupported_manifest",
@@ -1548,7 +1549,7 @@
         "source": "github",
         "repo": "career-ops-hq/career-ops",
         "path": "claude-directory",
-        "sha": "c780103f2e93db022186d128d2bb065b508730b5"
+        "sha": "e1987a979163147a68bdaaa6a6d0bdecc3825480"
       },
       "reason": "duplicate_name_within_source"
     },
@@ -1739,6 +1740,15 @@
     {
       "id": "community",
       "scope": "repository",
+      "repo": "oss-invisible/playwright_mcp",
+      "reason": "not_found",
+      "details": [
+        "not_found"
+      ]
+    },
+    {
+      "id": "community",
+      "scope": "repository",
       "repo": "posit-dev/skills",
       "reason": "unsupported_manifest",
       "details": [
@@ -1853,7 +1863,7 @@
         "source": "github",
         "repo": "unbrowse-ai/unbrowse",
         "path": "integrations/codex/plugins/unbrowse",
-        "sha": "0156fc452693e93cce7c81804d312948806a198f"
+        "sha": "98461450fcfee862e817c5226113e684380d473c"
       },
       "reason": "duplicate_name_within_source"
     },
@@ -1864,7 +1874,7 @@
         "source": "github",
         "repo": "wenlan-app/wenlan",
         "path": "plugin",
-        "sha": "cfe70b25689f65b7ad1be2237a4e17cf46e3beff"
+        "sha": "9a0c37cc35d005416c4a7b36b295023a5e159854"
       },
       "reason": "duplicate_name_within_source"
     },
@@ -1879,8 +1889,8 @@
     }
   ],
   "decay": {
-    "checked": 615,
-    "healthy": 606,
+    "checked": 630,
+    "healthy": 621,
     "hidden": 0,
     "removed": 9,
     "recovered": 0,
@@ -2094,30 +2104,30 @@
       },
       "community": {
         "office": 8,
-        "coding": 57,
-        "design": 20,
-        "data": 3,
-        "science": 5,
-        "collaboration": 14,
-        "enhancement": 50
+        "coding": 61,
+        "design": 21,
+        "data": 6,
+        "science": 4,
+        "collaboration": 21,
+        "enhancement": 51
       }
     },
     "mergedDistribution": {
       "office": 102,
-      "coding": 248,
-      "design": 50,
-      "data": 64,
-      "science": 14,
-      "collaboration": 25,
-      "enhancement": 64
+      "coding": 252,
+      "design": 51,
+      "data": 66,
+      "science": 13,
+      "collaboration": 32,
+      "enhancement": 65
     },
     "methods": {
       "upstream": 437,
-      "keywords": 144,
-      "fallback": 20
+      "keywords": 157,
+      "fallback": 22
     },
-    "fallbackCount": 20,
-    "mergedFallbackCount": 20,
+    "fallbackCount": 22,
+    "mergedFallbackCount": 22,
     "assignments": [
       {
         "id": "self-hosted",
@@ -8969,7 +8979,7 @@
           "source": "github",
           "repo": "Innei/artideck",
           "path": "",
-          "sha": "b8206f53e80ec50a0ef8500bca1574daf39fabf7"
+          "sha": "09cae8de885226c196f19d893b6471d095190f4d"
         },
         "merged": true,
         "category": "office",
@@ -9116,7 +9126,7 @@
           "source": "github",
           "repo": "agentrq/agentrq",
           "path": "plugins/claude/agentrq",
-          "sha": "27e89239dce138f04b0e32e835d9a656799837e1"
+          "sha": "560a7b9e8a221b69bc8c04079fd184094c9f5611"
         },
         "merged": true,
         "category": "collaboration",
@@ -9167,7 +9177,7 @@
           "source": "github",
           "repo": "agentrq/agentrq",
           "path": "plugins/claude/agentrq-custom-supervisor",
-          "sha": "27e89239dce138f04b0e32e835d9a656799837e1"
+          "sha": "560a7b9e8a221b69bc8c04079fd184094c9f5611"
         },
         "merged": true,
         "category": "collaboration",
@@ -9226,7 +9236,7 @@
           "source": "github",
           "repo": "agentrq/agentrq",
           "path": "plugins/claude/agentrq-workspace",
-          "sha": "27e89239dce138f04b0e32e835d9a656799837e1"
+          "sha": "560a7b9e8a221b69bc8c04079fd184094c9f5611"
         },
         "merged": true,
         "category": "collaboration",
@@ -9973,7 +9983,7 @@
           "source": "github",
           "repo": "hyhmrright/brooks-lint",
           "path": "",
-          "sha": "7c1a6f3ce50de016ea0dc2f73db14b061bd11200"
+          "sha": "cb7fd5211ebcf12b34f3cf96c2368483b2e25e97"
         },
         "merged": true,
         "category": "coding",
@@ -10105,7 +10115,7 @@
           "source": "github",
           "repo": "renezander030/capcut-cli",
           "path": "",
-          "sha": "cc6367d71132bbbe0b6c05d8a1407e88cef51419"
+          "sha": "7b7b017b367eccd9c038dc705754ce5749a7b5e9"
         },
         "merged": true,
         "category": "design",
@@ -10170,7 +10180,7 @@
           "source": "github",
           "repo": "career-ops-hq/career-ops",
           "path": "",
-          "sha": "c780103f2e93db022186d128d2bb065b508730b5"
+          "sha": "e1987a979163147a68bdaaa6a6d0bdecc3825480"
         },
         "merged": true,
         "category": "enhancement",
@@ -10296,7 +10306,7 @@
           "source": "github",
           "repo": "kenryu42/cc-safety-net",
           "path": "",
-          "sha": "9b6b40150a5b7a45df704e8ea80e187e8c97fc3b"
+          "sha": "cda6c3d204a495723bd836938cc5e2b6c57b2457"
         },
         "merged": true,
         "category": "enhancement",
@@ -10798,7 +10808,7 @@
           "source": "github",
           "repo": "ReflexioAI/claude-smart",
           "path": "plugin",
-          "sha": "fdb199c622f26502713510d31bf1b5d3fe12676f"
+          "sha": "b82aeb75665120adcbacd38f481249f1e0563bc9"
         },
         "merged": true,
         "category": "coding",
@@ -11374,12 +11384,153 @@
       },
       {
         "id": "community",
+        "name": "corporate-strategy",
+        "source": {
+          "source": "github",
+          "repo": "cbrock84/headcount",
+          "path": "plugins/corporate-strategy",
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
+        },
+        "merged": true,
+        "category": "coding",
+        "score": 1,
+        "matches": [
+          {
+            "keyword": "development",
+            "field": "description"
+          }
+        ],
+        "method": "keywords",
+        "inputCategory": null,
+        "candidates": [
+          {
+            "category": "coding",
+            "score": 1,
+            "matches": [
+              {
+                "keyword": "development",
+                "field": "description"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "community",
+        "name": "customer-experience",
+        "source": {
+          "source": "github",
+          "repo": "cbrock84/headcount",
+          "path": "plugins/customer-experience",
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
+        },
+        "merged": true,
+        "category": "collaboration",
+        "score": 1,
+        "matches": [
+          {
+            "keyword": "operations",
+            "field": "description"
+          }
+        ],
+        "method": "keywords",
+        "inputCategory": null,
+        "candidates": [
+          {
+            "category": "collaboration",
+            "score": 1,
+            "matches": [
+              {
+                "keyword": "operations",
+                "field": "description"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "community",
+        "name": "data-analytics",
+        "source": {
+          "source": "github",
+          "repo": "cbrock84/headcount",
+          "path": "plugins/data-analytics",
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
+        },
+        "merged": false,
+        "category": "data",
+        "score": 7,
+        "matches": [
+          {
+            "keyword": "data",
+            "field": "name"
+          },
+          {
+            "keyword": "data",
+            "field": "description"
+          },
+          {
+            "keyword": "analytics",
+            "field": "name"
+          }
+        ],
+        "method": "keywords",
+        "inputCategory": null,
+        "candidates": [
+          {
+            "category": "data",
+            "score": 7,
+            "matches": [
+              {
+                "keyword": "data",
+                "field": "name"
+              },
+              {
+                "keyword": "data",
+                "field": "description"
+              },
+              {
+                "keyword": "analytics",
+                "field": "name"
+              }
+            ]
+          },
+          {
+            "category": "collaboration",
+            "score": 1,
+            "matches": [
+              {
+                "keyword": "business",
+                "field": "description"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "community",
         "name": "decision-ledger",
         "source": {
           "source": "github",
           "repo": "YeonwooSung/my-claude-code-mods",
           "path": "decision-ledger",
           "sha": "fdcf4e2552e899b4184e21415620a391e2529e16"
+        },
+        "merged": true,
+        "category": "enhancement",
+        "method": "fallback",
+        "inputCategory": null,
+        "matches": [],
+        "reason": "No name or description keywords matched"
+      },
+      {
+        "id": "community",
+        "name": "demand-generation",
+        "source": {
+          "source": "github",
+          "repo": "cbrock84/headcount",
+          "path": "plugins/demand-generation",
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
         },
         "merged": true,
         "category": "enhancement",
@@ -11521,7 +11672,7 @@
           "source": "github",
           "repo": "shinpr/claude-code-workflows",
           "path": "dev-skills",
-          "sha": "f829919e87327b0dd93f59086581a276753ab6b2"
+          "sha": "cf13f29ca8039e370e5b9aec562b476b15edb75a"
         },
         "merged": true,
         "category": "coding",
@@ -11592,7 +11743,7 @@
           "source": "github",
           "repo": "shinpr/claude-code-workflows",
           "path": "dev-workflows",
-          "sha": "f829919e87327b0dd93f59086581a276753ab6b2"
+          "sha": "cf13f29ca8039e370e5b9aec562b476b15edb75a"
         },
         "merged": true,
         "category": "collaboration",
@@ -11661,7 +11812,7 @@
           "source": "github",
           "repo": "shinpr/claude-code-workflows",
           "path": "dev-workflows-frontend",
-          "sha": "f829919e87327b0dd93f59086581a276753ab6b2"
+          "sha": "cf13f29ca8039e370e5b9aec562b476b15edb75a"
         },
         "merged": true,
         "category": "coding",
@@ -11760,7 +11911,7 @@
           "source": "github",
           "repo": "shinpr/claude-code-workflows",
           "path": "dev-workflows-fullstack",
-          "sha": "f829919e87327b0dd93f59086581a276753ab6b2"
+          "sha": "cf13f29ca8039e370e5b9aec562b476b15edb75a"
         },
         "merged": true,
         "category": "coding",
@@ -12088,6 +12239,63 @@
       },
       {
         "id": "community",
+        "name": "executive",
+        "source": {
+          "source": "github",
+          "repo": "cbrock84/headcount",
+          "path": "plugins/executive",
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
+        },
+        "merged": true,
+        "category": "enhancement",
+        "method": "fallback",
+        "inputCategory": null,
+        "matches": [],
+        "reason": "No name or description keywords matched"
+      },
+      {
+        "id": "community",
+        "name": "finance",
+        "source": {
+          "source": "github",
+          "repo": "cbrock84/headcount",
+          "path": "plugins/finance",
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
+        },
+        "merged": true,
+        "category": "data",
+        "score": 4,
+        "matches": [
+          {
+            "keyword": "finance",
+            "field": "name"
+          },
+          {
+            "keyword": "financial",
+            "field": "description"
+          }
+        ],
+        "method": "keywords",
+        "inputCategory": null,
+        "candidates": [
+          {
+            "category": "data",
+            "score": 4,
+            "matches": [
+              {
+                "keyword": "finance",
+                "field": "name"
+              },
+              {
+                "keyword": "financial",
+                "field": "description"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "community",
         "name": "floorplan",
         "source": {
           "source": "github",
@@ -12126,7 +12334,7 @@
           "source": "github",
           "repo": "gmickel/flow-next",
           "path": "plugins/flow",
-          "sha": "8096fff5c5c7bd57247a0976bf81dabb1f8cd7a8"
+          "sha": "d97e31fe7f725ab7a47575f56f74a29ab053885d"
         },
         "merged": true,
         "category": "coding",
@@ -12167,7 +12375,7 @@
           "source": "github",
           "repo": "gmickel/flow-next",
           "path": "plugins/flow-next",
-          "sha": "8096fff5c5c7bd57247a0976bf81dabb1f8cd7a8"
+          "sha": "d97e31fe7f725ab7a47575f56f74a29ab053885d"
         },
         "merged": true,
         "category": "enhancement",
@@ -12469,7 +12677,7 @@
           "source": "github",
           "repo": "kitfunso/hippo-memory",
           "path": "extensions/claude-code-plugin",
-          "sha": "9217e5b03e869f52021fe3628f33c68ad0751983"
+          "sha": "8e77ef4c7a2f9d6cb3cf561de7780d2f83e8e691"
         },
         "merged": true,
         "category": "enhancement",
@@ -12770,27 +12978,19 @@
       },
       {
         "id": "community",
-        "name": "invisible-playwright-mcp",
+        "name": "it-operations",
         "source": {
           "source": "github",
-          "repo": "oss-invisible/playwright_mcp",
-          "path": "",
-          "sha": "e8dfee4080e055be220ef5fa2ab9c2578a77d38b"
+          "repo": "cbrock84/headcount",
+          "path": "plugins/it-operations",
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
         },
         "merged": true,
-        "category": "enhancement",
-        "score": 5,
+        "category": "collaboration",
+        "score": 3,
         "matches": [
           {
-            "keyword": "agent",
-            "field": "description"
-          },
-          {
-            "keyword": "browser",
-            "field": "description"
-          },
-          {
-            "keyword": "mcp",
+            "keyword": "operations",
             "field": "name"
           }
         ],
@@ -12798,19 +12998,11 @@
         "inputCategory": null,
         "candidates": [
           {
-            "category": "enhancement",
-            "score": 5,
+            "category": "collaboration",
+            "score": 3,
             "matches": [
               {
-                "keyword": "agent",
-                "field": "description"
-              },
-              {
-                "keyword": "browser",
-                "field": "description"
-              },
-              {
-                "keyword": "mcp",
+                "keyword": "operations",
                 "field": "name"
               }
             ]
@@ -12832,6 +13024,39 @@
         "inputCategory": null,
         "matches": [],
         "reason": "No name or description keywords matched"
+      },
+      {
+        "id": "community",
+        "name": "legal-risk",
+        "source": {
+          "source": "github",
+          "repo": "cbrock84/headcount",
+          "path": "plugins/legal-risk",
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
+        },
+        "merged": true,
+        "category": "data",
+        "score": 1,
+        "matches": [
+          {
+            "keyword": "data",
+            "field": "description"
+          }
+        ],
+        "method": "keywords",
+        "inputCategory": null,
+        "candidates": [
+          {
+            "category": "data",
+            "score": 1,
+            "matches": [
+              {
+                "keyword": "data",
+                "field": "description"
+              }
+            ]
+          }
+        ]
       },
       {
         "id": "community",
@@ -12924,6 +13149,49 @@
         "inputCategory": null,
         "matches": [],
         "reason": "No name or description keywords matched"
+      },
+      {
+        "id": "community",
+        "name": "marketing",
+        "source": {
+          "source": "github",
+          "repo": "cbrock84/headcount",
+          "path": "plugins/marketing",
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
+        },
+        "merged": true,
+        "category": "collaboration",
+        "score": 3,
+        "matches": [
+          {
+            "keyword": "marketing",
+            "field": "name"
+          }
+        ],
+        "method": "keywords",
+        "inputCategory": null,
+        "candidates": [
+          {
+            "category": "collaboration",
+            "score": 3,
+            "matches": [
+              {
+                "keyword": "marketing",
+                "field": "name"
+              }
+            ]
+          },
+          {
+            "category": "design",
+            "score": 1,
+            "matches": [
+              {
+                "keyword": "video",
+                "field": "description"
+              }
+            ]
+          }
+        ]
       },
       {
         "id": "community",
@@ -13327,7 +13595,7 @@
           "source": "github",
           "repo": "Ikalus1988/MisakaNet",
           "path": "",
-          "sha": "472dcb6fc692e1456a385c7a56b9f21a9d6ac7be"
+          "sha": "2de240eb6b8b242cea4828411c14b1329d9a3489"
         },
         "merged": true,
         "category": "enhancement",
@@ -13714,7 +13982,7 @@
           "source": "github",
           "repo": "eugeniughelbur/obsidian-second-brain",
           "path": "",
-          "sha": "d6bae6272baa2f844ad3f1f176de276e88776bdb"
+          "sha": "bca5961e4b60eefd90a6e0c0f44cf3fe9aaf3cbc"
         },
         "merged": true,
         "category": "office",
@@ -13787,14 +14055,18 @@
           "source": "github",
           "repo": "nyldn/claude-octopus",
           "path": "",
-          "sha": "198142b482f1a620995d3a84da16087bfb196496"
+          "sha": "7903fceee35bffc1b2afe1b1022e78e89cee2194"
         },
         "merged": true,
-        "category": "science",
-        "score": 1,
+        "category": "coding",
+        "score": 2,
         "matches": [
           {
-            "keyword": "research",
+            "keyword": "code",
+            "field": "description"
+          },
+          {
+            "keyword": "code review",
             "field": "description"
           }
         ],
@@ -13802,21 +14074,25 @@
         "inputCategory": null,
         "candidates": [
           {
-            "category": "science",
-            "score": 1,
+            "category": "coding",
+            "score": 2,
             "matches": [
               {
-                "keyword": "research",
+                "keyword": "code",
+                "field": "description"
+              },
+              {
+                "keyword": "code review",
                 "field": "description"
               }
             ]
           },
           {
-            "category": "collaboration",
+            "category": "design",
             "score": 1,
             "matches": [
               {
-                "keyword": "workflow",
+                "keyword": "design",
                 "field": "description"
               }
             ]
@@ -13889,7 +14165,7 @@
           "source": "github",
           "repo": "OpenOSINT/OpenOSINT",
           "path": "",
-          "sha": "c08848ef9b5bd657632bc8d82103745526843db9"
+          "sha": "ea1649d08d1cec70bf1a9482a2c7b8cd90b8c511"
         },
         "merged": true,
         "category": "enhancement",
@@ -13984,6 +14260,57 @@
             "matches": [
               {
                 "keyword": "writing",
+                "field": "description"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "community",
+        "name": "operations",
+        "source": {
+          "source": "github",
+          "repo": "cbrock84/headcount",
+          "path": "plugins/operations",
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
+        },
+        "merged": true,
+        "category": "collaboration",
+        "score": 4,
+        "matches": [
+          {
+            "keyword": "program management",
+            "field": "description"
+          },
+          {
+            "keyword": "operations",
+            "field": "name"
+          }
+        ],
+        "method": "keywords",
+        "inputCategory": null,
+        "candidates": [
+          {
+            "category": "collaboration",
+            "score": 4,
+            "matches": [
+              {
+                "keyword": "program management",
+                "field": "description"
+              },
+              {
+                "keyword": "operations",
+                "field": "name"
+              }
+            ]
+          },
+          {
+            "category": "design",
+            "score": 1,
+            "matches": [
+              {
+                "keyword": "design",
                 "field": "description"
               }
             ]
@@ -14259,6 +14586,57 @@
       },
       {
         "id": "community",
+        "name": "people",
+        "source": {
+          "source": "github",
+          "repo": "cbrock84/headcount",
+          "path": "plugins/people",
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
+        },
+        "merged": true,
+        "category": "collaboration",
+        "score": 4,
+        "matches": [
+          {
+            "keyword": "hiring",
+            "field": "description"
+          },
+          {
+            "keyword": "people",
+            "field": "name"
+          }
+        ],
+        "method": "keywords",
+        "inputCategory": null,
+        "candidates": [
+          {
+            "category": "collaboration",
+            "score": 4,
+            "matches": [
+              {
+                "keyword": "hiring",
+                "field": "description"
+              },
+              {
+                "keyword": "people",
+                "field": "name"
+              }
+            ]
+          },
+          {
+            "category": "design",
+            "score": 1,
+            "matches": [
+              {
+                "keyword": "design",
+                "field": "description"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "community",
         "name": "phx",
         "source": {
           "source": "github",
@@ -14374,6 +14752,57 @@
         "inputCategory": null,
         "matches": [],
         "reason": "No name or description keywords matched"
+      },
+      {
+        "id": "community",
+        "name": "pmo",
+        "source": {
+          "source": "github",
+          "repo": "cbrock84/headcount",
+          "path": "plugins/pmo",
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
+        },
+        "merged": true,
+        "category": "collaboration",
+        "score": 4,
+        "matches": [
+          {
+            "keyword": "program management",
+            "field": "description"
+          },
+          {
+            "keyword": "pmo",
+            "field": "name"
+          }
+        ],
+        "method": "keywords",
+        "inputCategory": null,
+        "candidates": [
+          {
+            "category": "collaboration",
+            "score": 4,
+            "matches": [
+              {
+                "keyword": "program management",
+                "field": "description"
+              },
+              {
+                "keyword": "pmo",
+                "field": "name"
+              }
+            ]
+          },
+          {
+            "category": "office",
+            "score": 1,
+            "matches": [
+              {
+                "keyword": "office",
+                "field": "description"
+              }
+            ]
+          }
+        ]
       },
       {
         "id": "community",
@@ -14606,6 +15035,55 @@
       },
       {
         "id": "community",
+        "name": "product",
+        "source": {
+          "source": "github",
+          "repo": "cbrock84/headcount",
+          "path": "plugins/product",
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
+        },
+        "merged": true,
+        "category": "design",
+        "score": 3,
+        "matches": [
+          {
+            "keyword": "design",
+            "field": "description"
+          },
+          {
+            "keyword": "visual",
+            "field": "description"
+          },
+          {
+            "keyword": "ux",
+            "field": "description"
+          }
+        ],
+        "method": "keywords",
+        "inputCategory": null,
+        "candidates": [
+          {
+            "category": "design",
+            "score": 3,
+            "matches": [
+              {
+                "keyword": "design",
+                "field": "description"
+              },
+              {
+                "keyword": "visual",
+                "field": "description"
+              },
+              {
+                "keyword": "ux",
+                "field": "description"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "community",
         "name": "product-innovation",
         "source": {
           "source": "github",
@@ -14687,7 +15165,7 @@
           "source": "github",
           "repo": "michael-denyer/pstack-claude",
           "path": "plugins/pstack",
-          "sha": "1ab6b82cbacb04897094e1a3870357882e1e616d"
+          "sha": "b15f9d8cc5400f12a9cd1d7756894eccff7532f9"
         },
         "merged": true,
         "category": "coding",
@@ -15006,6 +15484,63 @@
       },
       {
         "id": "community",
+        "name": "revenue",
+        "source": {
+          "source": "github",
+          "repo": "cbrock84/headcount",
+          "path": "plugins/revenue",
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
+        },
+        "merged": true,
+        "category": "collaboration",
+        "score": 6,
+        "matches": [
+          {
+            "keyword": "operations",
+            "field": "description"
+          },
+          {
+            "keyword": "sales",
+            "field": "description"
+          },
+          {
+            "keyword": "revenue",
+            "field": "name"
+          },
+          {
+            "keyword": "revenue",
+            "field": "description"
+          }
+        ],
+        "method": "keywords",
+        "inputCategory": null,
+        "candidates": [
+          {
+            "category": "collaboration",
+            "score": 6,
+            "matches": [
+              {
+                "keyword": "operations",
+                "field": "description"
+              },
+              {
+                "keyword": "sales",
+                "field": "description"
+              },
+              {
+                "keyword": "revenue",
+                "field": "name"
+              },
+              {
+                "keyword": "revenue",
+                "field": "description"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "community",
         "name": "review",
         "source": {
           "source": "github",
@@ -15165,6 +15700,55 @@
       },
       {
         "id": "community",
+        "name": "security",
+        "source": {
+          "source": "github",
+          "repo": "cbrock84/headcount",
+          "path": "plugins/security",
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
+        },
+        "merged": true,
+        "category": "coding",
+        "score": 5,
+        "matches": [
+          {
+            "keyword": "security",
+            "field": "name"
+          },
+          {
+            "keyword": "security",
+            "field": "description"
+          },
+          {
+            "keyword": "vulnerability",
+            "field": "description"
+          }
+        ],
+        "method": "keywords",
+        "inputCategory": null,
+        "candidates": [
+          {
+            "category": "coding",
+            "score": 5,
+            "matches": [
+              {
+                "keyword": "security",
+                "field": "name"
+              },
+              {
+                "keyword": "security",
+                "field": "description"
+              },
+              {
+                "keyword": "vulnerability",
+                "field": "description"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "community",
         "name": "shared-session",
         "source": {
           "source": "github",
@@ -15241,7 +15825,7 @@
           "source": "github",
           "repo": "sno-ai/sno-station-skills",
           "path": "",
-          "sha": "531dad8d261917817701b6c10a07bc068a5ff121"
+          "sha": "61a0e079c853ee27a1f1b96cb8b57449708a11cc"
         },
         "merged": true,
         "category": "coding",
@@ -15294,7 +15878,7 @@
           "source": "github",
           "repo": "sno-ai/sno-station-skills",
           "path": "plugins/sno-station-standalone",
-          "sha": "531dad8d261917817701b6c10a07bc068a5ff121"
+          "sha": "61a0e079c853ee27a1f1b96cb8b57449708a11cc"
         },
         "merged": true,
         "category": "coding",
@@ -15684,6 +16268,65 @@
               },
               {
                 "keyword": "task",
+                "field": "description"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "community",
+        "name": "technology",
+        "source": {
+          "source": "github",
+          "repo": "cbrock84/headcount",
+          "path": "plugins/technology",
+          "sha": "7d3ddf170a85a67565cbbdcda4e9539d32e5a2c4"
+        },
+        "merged": true,
+        "category": "coding",
+        "score": 3,
+        "matches": [
+          {
+            "keyword": "development",
+            "field": "description"
+          },
+          {
+            "keyword": "engineering",
+            "field": "description"
+          },
+          {
+            "keyword": "debugging",
+            "field": "description"
+          }
+        ],
+        "method": "keywords",
+        "inputCategory": null,
+        "candidates": [
+          {
+            "category": "coding",
+            "score": 3,
+            "matches": [
+              {
+                "keyword": "development",
+                "field": "description"
+              },
+              {
+                "keyword": "engineering",
+                "field": "description"
+              },
+              {
+                "keyword": "debugging",
+                "field": "description"
+              }
+            ]
+          },
+          {
+            "category": "enhancement",
+            "score": 1,
+            "matches": [
+              {
+                "keyword": "automation",
                 "field": "description"
               }
             ]
@@ -16110,7 +16753,7 @@
           "source": "github",
           "repo": "nyldn/claude-octopus",
           "path": "vendors/ui-ux-pro-max-skill",
-          "sha": "198142b482f1a620995d3a84da16087bfb196496"
+          "sha": "7903fceee35bffc1b2afe1b1022e78e89cee2194"
         },
         "merged": true,
         "category": "design",
@@ -16219,7 +16862,7 @@
           "source": "github",
           "repo": "unbrowse-ai/unbrowse",
           "path": "integrations/claude-code",
-          "sha": "0156fc452693e93cce7c81804d312948806a198f"
+          "sha": "98461450fcfee862e817c5226113e684380d473c"
         },
         "merged": true,
         "category": "enhancement",
@@ -16457,7 +17100,7 @@
           "source": "github",
           "repo": "zenstory-ai/video-recap-skills",
           "path": "",
-          "sha": "0d1f34ea4af5beda0eeb4a4872b9fea97da3cc8b"
+          "sha": "f3412c9ffe726395b73754e25de1e4906313060a"
         },
         "merged": true,
         "category": "design",
@@ -16534,7 +17177,7 @@
           "source": "github",
           "repo": "wenlan-app/wenlan",
           "path": "plugin-codex",
-          "sha": "cfe70b25689f65b7ad1be2237a4e17cf46e3beff"
+          "sha": "9a0c37cc35d005416c4a7b36b295023a5e159854"
         },
         "merged": true,
         "category": "office",
@@ -16788,7 +17431,7 @@
   },
   "logos": {
     "checked": 410,
-    "withIcon": 591
+    "withIcon": 606
   },
   "external": {
     "count": 9,
@@ -16844,9 +17487,9 @@
     "Referenced website revision contains 9 external entries; requested 10. Missing entry requires a source; no placeholder was invented."
   ],
   "github": {
-    "requests": 238,
-    "cacheHits": 490,
-    "graphqlBatches": 59,
+    "requests": 232,
+    "cacheHits": 505,
+    "graphqlBatches": 60,
     "detailFallbacks": 0,
     "detailPartial": 0,
     "admissionUnavailable": 9
